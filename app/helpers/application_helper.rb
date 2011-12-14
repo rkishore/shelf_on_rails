@@ -1,4 +1,14 @@
 module ApplicationHelper
+  
+  #def logo
+  #  img_loc = "logo.png"
+  #  alt_txt = "Sample App"
+  #  if img_loc.nil?
+  #    alt_txt
+  #  else 
+  #    img_loc
+  #  end
+  #end
 
   # Return a title on a per-page basis
   def title
