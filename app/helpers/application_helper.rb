@@ -1,8 +1,8 @@
 module ApplicationHelper
   
   #def logo
-  #  img_loc = "logo.png"
-  #  alt_txt = "Sample App"
+  #  img_loc = "ds-logo.png"
+  #  alt_txt = "DiscountSense"
   #  if img_loc.nil?
   #    alt_txt
   #  else 
@@ -12,7 +12,7 @@ module ApplicationHelper
 
   # Return a title on a per-page basis
   def title
-    base_title = "Ruby on Rails Tutorial Sample App"
+    base_title = "DiscountSense alpha demo"
     if @title.nil?
       base_title
     else 
