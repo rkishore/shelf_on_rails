@@ -12,7 +12,7 @@ module ApplicationHelper
 
   # Return a title on a per-page basis
   def title
-    base_title = "DiscountSense alpha demo"
+    base_title = "DiscountSense Demo"
     if @title.nil?
       base_title
     else 

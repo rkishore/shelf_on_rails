@@ -85,12 +85,12 @@ a.signup_button {
   margin-right: auto;
   display: block;
   text-align: center;
-  width: 150px;
+  width: 125px;
   color: #fff;
-  background: #006400;
-  font-size: 150%;
+  background: #c71585;
+  font-size: 125%;
   font-weight: bold;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* Round corners */
