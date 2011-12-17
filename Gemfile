@@ -5,7 +5,8 @@ gem 'rails', '3.0.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3', '1.3.3'
+gem 'sqlite3', '1.3.4'
+gem 'gravatar_image_tag', '1.0.0.pre2'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -38,5 +39,6 @@ group :test do
   gem 'autotest', '4.4.6'
   gem 'autotest-rails-pure', '4.1.2'
   gem 'autotest-notification'
+  gem 'factory_girl_rails', '1.0'
 end
 
