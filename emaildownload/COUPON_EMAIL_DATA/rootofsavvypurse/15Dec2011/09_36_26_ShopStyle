@@ -1,0 +1,181 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.36.197 with SMTP id s5cs29137vdj;
+         Thu, 15 Dec 2011 07:36:28 -0800 (PST)
+ Received: by 10.236.170.1 with SMTP id o1mr6131051yhl.16.1323963387385;
+         Thu, 15 Dec 2011 07:36:27 -0800 (PST)
+ Return-Path: <bounces+32965-fb1d-rootofsavvypurse=gmail.com@mail4.shopstyle.com>
+ Received: from o4.mail4.shopstyle.com (o4.mail4.shopstyle.com. [208.115.239.178])
+         by mx.google.com with SMTP id i10si692237yba.28.2011.12.15.07.36.27;
+         Thu, 15 Dec 2011 07:36:27 -0800 (PST)
+ Received-SPF: pass (google.com: domain of bounces+32965-fb1d-rootofsavvypurse=gmail.com@mail4.shopstyle.com designates 208.115.239.178 as permitted sender) client-ip=208.115.239.178;
+ Authentication-Results: mx.google.com; spf=pass (google.com: domain of bounces+32965-fb1d-rootofsavvypurse=gmail.com@mail4.shopstyle.com designates 208.115.239.178 as permitted sender) smtp.mail=bounces+32965-fb1d-rootofsavvypurse=gmail.com@mail4.shopstyle.com; dkim=pass header.i=@shopstyle.com
+ DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=shopstyle.com; h=date:from
+ 	:to:message-id:subject:mime-version:content-type
+ 	:content-transfer-encoding:sender; s=smtpapi; bh=t2PjRvestEBCure
+ 	VwRJLF4uVaSU=; b=uXae3MtX12vWPrm/LW/Qzea4oqCVF1ZbHqTKzqPzK3sEwS9
+ 	bPh0/Xq3/zERepdYuflpPW1fOqYJCni7HQXAcxpbE+4AZUIor4R32KSTygSn9epU
+ 	Nl/atRpUTATaW60OcGwZ0NId39zOCdKTaIenKYkbWIOHTkmzl8eG384cbDjo=
+ DomainKey-Signature: a=rsa-sha1; c=nofws; d=shopstyle.com; h=date:from
+ 	:to:message-id:subject:mime-version:content-type
+ 	:content-transfer-encoding:sender; q=dns; s=smtpapi; b=hgxwxX/Hi
+ 	t9EiQqksUANIQnVPnNTqTKgczVK3mk+c0IWPB2ZKVty48ew1eRCesYpWnTU2jc+X
+ 	8joZBIb333tH4epjHF6g11d7wmdbTWCfwZAPONozp8DHS98MDok7usZkhpXnWHaB
+ 	OTWolrGaAsiTJS2xL51mLWnTHvXEorLs0w=
+ Received: by 10.8.49.76 with SMTP id mf36.9156.4EEA13FA1
+         Thu, 15 Dec 2011 09:36:26 -0600 (CST)
+ Received: from shopstyle-prod-batch10-nym1.int.shopstyle.com (unknown [10.9.180.5])
+ 	by mi10 (SG) with ESMTP id 4eea13fa.e7c.2ce8ae3
+ 	for <rootofsavvypurse@gmail.com>; Thu, 15 Dec 2011 09:36:26 -0600 (CST)
+ Date: Thu, 15 Dec 2011 09:36:26 -0600 (CST)
+ From: ShopStyle <info@mail.shopstyle.com>
+ To: rootofsavvypurse@gmail.com
+ Message-ID: <1224796743.49431323963386821.JavaMail.shopstyle@shopstyle-prod-batch10-nym1.int.shopstyle.com>
+ Subject: Welcome to ShopStyle!
+ MIME-Version: 1.0
+ Content-Type: text/html; charset=us-ascii
+ Content-Transfer-Encoding: 7bit
+ X-Sendgrid-EID: r+u/u2RDTBJcghiix9oReBZSSbR+as5dDZY4wF50ZrKp8fLh7wtVerJ4XDU30cV/AAH/EYFgNgRtgCbUoQR2UaTjxWtlgC0Zipp/532K82xMkxcp0pdQfSl2pT6M3Rkj0WagQOMefPe2aM484vFTeFXxnpuVpaj9ACYPEp+CmVk=
+ X-Sendgrid-ID: gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY/Sz4qJJlL8vnWpePgssi+GZVe7wUw==
+ Sender: ShopStyle <info=mail.shopstyle.com@shopstyle.com>
+ 
+ <style type="text/css">
+ 
+ .defaultText {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #606060;
+ }
+ 
+ .defaultText a:hover {
+     color: black;
+ }
+ 
+ .menuText, .menuText:hover, .menuText a:hover {
+     color: #ffffff;
+     font-family: Century Gothic, Verdana, Arial, Helvetica, sans-serif;
+     font-size: 12px;
+     white-space: nowrap;
+     text-transform: uppercase;
+     text-align: center;
+     white-space: nowrap;
+     font-weight: normal;
+     letter-spacing: 3px;
+     text-decoration: none;
+ }
+ 
+ </style>
+ 
+ <div>
+     <table border="0" cellspacing="0" cellpadding="0" width="100%">
+         <tr>
+             <td style="padding: 8px 0 10px 2px" colspan="10">
+                 <a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVecxUiqos4wPF2yhf89KGlK45plrXsoam%2F5zVpKu4NC3ffHzJAZ8w5XpS8DE%2BkbwSrT9q9Pbex9gLqiegThIQVR9tTOHPcehuH7mv9dxlc471nyKihkZFuNTtVi27SFR%2F8Om769ghBT6WcwhnfBRj8w%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh0">
+                     <img border="0" style="height:25px; margin-left:5px;" src="http://resources.shopstyle.com/im/ShopStyleLogo_white.png" alt="ShopStyle"/>
+                 </a>
+             </td>
+         </tr>
+                     <tr style="background:black; height:25px; font-family:century gothic, verdana, arial, sans-serif; font-size:12px; text-transform:uppercase; letter-spacing:3px">
+                 <td width="8px" nowrap="true">&nbsp;</td>
+                                     <td width="2%" style="padding-right:20px"><a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVTSGC2H0ZArvT5Hk8PqtVOa1OXw5q8kT7yhblGgv4jNJT3uBVCibyGYz68R8hny%2BvFd5FUK%2FRzUVS4yQEb%2BHNAg%2FKA58rDMQI5RZGLtFkBUnTcLJc00iC7Sr5FDY%2BdwGq3PP955X2lvfiWWgBpRJp4Zv2aE1PTDZxzHsE2IcWA50&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh1" class="menuText" style="text-decoration:none; color:white">Clothing</a></td>
+                                     <td width="2%" style="padding-right:20px"><a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVTSGC2H0ZArvT5Hk8PqtVOZ0CLeHeLXjcFbSqFqpHeBtsabVNdzIuAcMlhYmRYRz4GQs4SbEsl6sJAQXYRX1%2FZoPfOqt3ECxyoOt3T3IB%2B%2B%2B1otzK5wIT9bdr%2BUh4Rw7OOvkP%2FaOug2F1l1w1u9gP1U%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh2" class="menuText" style="text-decoration:none; color:white">Bags</a></td>
+                                     <td width="2%" style="padding-right:20px"><a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVTSGC2H0ZArvT5Hk8PqtVOYjK7CWnWi2IRcIKGjkK1W9eMjGPRf4tgSS9aN0Ys8WdkRNjD1nm6dwJ%2B72CHjLjw%2FuxRe1OBAR7tqNNRmd1H3LVNghp9o6LxutOtrFEDQeN%2FCY24KtpTA6I94O715yFSCzWVWP9X60hfLXvkS9Kyh1&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh3" class="menuText" style="text-decoration:none; color:white">Shoes</a></td>
+                                     <td width="2%" style="padding-right:20px"><a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVTSGC2H0ZArvT5Hk8PqtVOZKJ0p3R4AiJLIADysSw8%2BMAWyBCGpk%2ByZ258Cm56G2CwAJEsMeOPkUA9KXLd838N8bFX2renvwbnpSfmmUv3sX%2F0VlGRo0vmS9O%2B6ok7KEtGRP0xaFkxKnLfTinHViukeUtQz8cUNt1cBr40bFJYVq&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh4" class="menuText" style="text-decoration:none; color:white">Kids</a></td>
+                                     <td width="2%" style="padding-right:20px"><a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVTSGC2H0ZArvT5Hk8PqtVOZGRwy95xK%2FAMcg2yjrCoN4SYjvnDg8AUtkhw3UreQjKa%2FoUukBmOLm0txwB0enrYYBtc8DvdXg8Gxa06wH8VSjcB2ZdWOVnGIJovU0qj1uhZ2dQKgrpLN8FzcvHQOsqaE%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh5" class="menuText" style="text-decoration:none; color:white">Home</a></td>
+                                     <td width="2%" style="padding-right:20px"><a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVTSGC2H0ZArvT5Hk8PqtVObGkiTKckvdzW7aZ%2Fi6wEeBCZ21bA5xlZdpUNpfekmevg96DWSN8F8X9qVv2yX0qBQW13eGLlgzIfNCXd16yJp78fd%2BjkCeYjoIRe%2F8Bdzwo%2FkM83jepnAeLl4KeHlnTbd4kv0rZrcUT3teq%2FDNwKoL&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh6" class="menuText" style="text-decoration:none; color:white">Men</a></td>
+                                     <td width="2%" style="padding-right:20px"><a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVTSGC2H0ZArvT5Hk8PqtVObYByRgokrG7tijTE5HD6v0b9n6NWk%2BoeR2KfB90fDGmhnxeBZ6WvNYb%2BwVDBgBRERuntFYRG7npMYevVyJkooo7vC%2BbIcCUyt5knWV07LXvKHtY4VfcT7uC2kv2viUdTKXe96tWHy5LwaI%2BxmNFQJl&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh7" class="menuText" style="text-decoration:none; color:white">Beauty</a></td>
+                                 <td width="2%" style="padding-right:20px"><a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVTSGC2H0ZArvT5Hk8PqtVOY%2BVouSQFX5AvwLWYTrLoBP97MxxdTl3NH7PfSFy62Gh17KFhgjsjtpvASQrNvxwg1COWqhzZ0syEcwECogrbvLvudQh0EEdI%2FWvW2IOo828iUHrfc3sWRmK3vCf0TKlhQ%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh8" class="menuText" style="text-decoration:none; color:white">Sale</a></td>
+                 <td width="2%" style="padding-right:20px"><a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVTSGC2H0ZArvT5Hk8PqtVOZvNBND1uI7rbEf1rNovhq%2BH1B0Yq5FjEYxzBoFwjzCimsfiYctf8h46%2BcRfbjoTdgjN8v4T6lCpAWoBwExv3QLs%2FfRMeYqZrDIGDhUe44bC0dFh3CAc7BA1CjGksRkm8s%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh9" class="menuText" style="text-decoration:none; color:white">Brands</a></td>
+                 <td width="80%" nowrap="true">&nbsp;</td>
+             </tr>
+             </table>
+     <br/>
+     <br/>
+ 
+     <div class="defaultText" style="margin-left:20px;">
+ 
+ Thanks for joining
+  ShopStyle, part of the Sugar Network!
+ 
+ <br/>
+ <br/>
+ 
+     ShopStyle lets you browse all your favorite stores at once for the clothes, shoes and accessories that feed your fashion habit.
+     Before you hit the racks, check out <a
+     href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVecxUiqos4wPF2yhf89KGlK45plrXsoam%2F5zVpKu4NC3ffHzJAZ8w5XpS8DE%2BkbwSrT9q9Pbex9gLqiegThIQVR9tTOHPcehuH7mv9dxlc471nyKihkZFuNTtVi27SFR%2F8Om769ghBT6WcwhnfBRj8w%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh10" style="color:black;text-decoration:none;">ShopStyle</a>.
+     It's where fashion happens.
+ 
+ <br/>
+ <br/>
+ <br/>
+ 
+ As a ShopStyle member you can:
+ 
+ <br/>
+ <br/>
+ 
+ <ul>
+     <li style="margin-bottom:10px;">
+         Create your personal Stylebook, accessible from any computer. Stylebooks let you save favorites, put together looks, network with friends and set your personal shopping preferences.
+     </li>
+     <li style="margin-bottom:10px;">
+                     Build a Look. Combine items in your Stylebook's current favorites to create outfits, wish lists or full-blown collections.
+             </li>
+     <li style="margin-bottom:10px;">
+                     Share with Friends. Email the looks you create to friends or family. Great for gift hints and outfit checks!
+              </li>
+     <li style="margin-bottom:10px;">
+         Stay Informed. Be the first to hear about trends, sales events, new store additions and other ShopStyle news.
+     </li>
+         <li style="margin-bottom:10px;">
+         Get a little Sugar.  Read and participate on the Sugar Network blogs.
+     </li>
+     </ul>
+ 
+ <br/>
+ <br/>
+ 
+ Since ShopStyle is part of the Sugar Network your account will also work on PopSugar.com.
+  We would like our community to be a safe and friendly place, so please take a moment to check out
+  <a href="http://mail4.shopstyle.com/wf/click?c=IvSBosTGVsHxYPtGWbuOktqhscbbfKnbQR9a%2FXQ0M4Bg3KIB6ZmNVcCH20xTM0vyQOHWQFmZVHykGEzBX8hEgA%3D%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh11" style="color:black;text-decoration:none;"
+ >our community rules</a>.
+ <br/><br/>
+ Happy Shopping!
+ 
+ <br/>
+ <br/>
+ 
+ The ShopStyle Team
+ <br/>
+ <a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVecxUiqos4wPF2yhf89KGlK45plrXsoam%2F5zVpKu4NC3ffHzJAZ8w5XpS8DE%2BkbwSrT9q9Pbex9gLqiegThIQVR9tTOHPcehuH7mv9dxlc471nyKihkZFuNTtVi27SFR%2F8Om769ghBT6WcwhnfBRj8w%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh12" style="color:black; text-decoration:none;">http://www.shopstyle.com</a>
+ 
+ <br/>
+ 
+     </div>
+     
+     <br/>
+     <br/>
+     
+     <div style="border-bottom: 1px solid #9e9e9e;"></div>
+     
+     <div style="margin:5px 0px 0px 20px; color:#606060; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;">
+                     If you did not register for ShopStyle, it is likely that your email address was mistakenly used.
+             If this is the case, simply 
+             <a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVSQcbIINLV1ztc9eg6tjXmtabTmv0i0iiavJpyvRdtXhaaXBoYe9Ogj27LGzadO1VCjLnqCH%2BzLEASgv2yTn1%2BM73gDxbwkD2f4BmTsmQdLLqd8ikqm1ugCz%2BdwROudahg%2BeB4eOt3igXoePAQHvSfO1vzuO%2BHOphaFlF6L7tSxJo17TpdXpHsAR%2FH8uu3l2y11juKmVSdQKvqIOwjlYY8E%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh13" style="color: #7e7e7e;"
+                 >click here</a>
+             and we'll take you off the list.
+                                 
+                 &copy; 2006-2011 Sugar Inc, 111 Sutter Street, Suite 850, San Francisco, California, 94104.  All rights reserved.
+         To read about our privacy policy, 
+         <a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVSUvtssEpPBIll5l0ZBJ%2FctlLO1ogMZId3Ca%2F4KPps6P4fsniHHfrZw91zgwPnGroPkkUY1TvAQWDxvhfkjhahbzbRgtQibNV4mPU6o1s%2BdT33pB%2Fwn8frxfIhRFOojplKE8ga6wElwFAgQ%2FSIddTUs%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh14" style="color: #7e7e7e;"
+         >click here</a
+         >.
+ 
+                     To provide feedback,
+             <a href="http://mail4.shopstyle.com/wf/click?c=7yGfzyRLIYt%2BOlzq6WH%2BVSUvtssEpPBIll5l0ZBJ%2FcuDDfka2%2FYeFG%2Be%2B3max5SPBwVqiHpR8y9nZWBhQOQzfYgCooQHHuaaW9wdqTw63N8Qr7LxxcS9CWOKOLcQhN9Y4qDWe1GAb8QibS2P6pya1tcMioJyWNm1tOIm2bIT9zA%3D&amp;rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Fh15" style="color: #7e7e7e;"
+               >click here</a>.
+             </div>
+     
+ </div>
+ 
+ <img src="http://mail4.shopstyle.com/wf/open?rp=ttMSteDgYRLAbmAVEtyL4mrHpZXmSQVxe7NOq55RK9cSFtX7wcfYUnn89fcvuUUBxTv%2B9%2B%2BfYvdYT1UVNqhrz1DcBme0gIIVsxC73FqaHUTQ%2FLDyX4v%2F04fWDXh%2Fvftp&amp;up=gnwugAPEk90ONPODfP9Nu8GYV7WAXvBwJLnSEfpb5kDVR3qyljzwcJQIhkmRtwYOqWTo4ksh2XxNjkMCVxlBVvSssMCP56CniLNNzotrncjbPHL8wV6KrgqRY%2FSz4qJJlL8vnWpePgssi%2BGZVe7wUw%3D%3D&amp;u=sTe_7a_8TKecce93hJ3UYA%2Foo0.gif" alt="">
+

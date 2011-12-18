@@ -1,0 +1,113 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.36.197 with SMTP id s5cs170526vdj;
+         Wed, 7 Dec 2011 21:22:08 -0800 (PST)
+ Received: by 10.180.6.71 with SMTP id y7mr2086971wiy.67.1323321726639;
+         Wed, 07 Dec 2011 21:22:06 -0800 (PST)
+ Return-Path: <noreply@zara.com>
+ Received: from mail178.messagelabs.com (mail178.messagelabs.com. [85.158.139.19])
+         by mx.google.com with ESMTPS id ft20si2526857wbb.3.2011.12.07.21.22.06
+         (version=TLSv1/SSLv3 cipher=OTHER);
+         Wed, 07 Dec 2011 21:22:06 -0800 (PST)
+ Received-SPF: pass (google.com: domain of noreply@zara.com designates 85.158.139.19 as permitted sender) client-ip=85.158.139.19;
+ Authentication-Results: mx.google.com; spf=pass (google.com: domain of noreply@zara.com designates 85.158.139.19 as permitted sender) smtp.mail=noreply@zara.com
+ X-Env-Sender: noreply@zara.com
+ X-Msg-Ref: server-4.tower-178.messagelabs.com!1323321725!1011529!2
+ X-Originating-IP: [91.117.253.199]
+ X-StarScan-Version: 6.4.2; banners=-,-,-
+ X-VirusChecked: Checked
+ Received: (qmail 4075 invoked from network); 8 Dec 2011 05:22:05 -0000
+ Received: from unknown (HELO smtp.inditex.com) (91.117.253.199)
+   by server-4.tower-178.messagelabs.com with AES128-SHA encrypted SMTP; 8 Dec 2011 05:22:05 -0000
+ Received: from AXINCASHUB6.central.inditex.grp (10.1.7.79) by smtp.inditex.com
+  (172.24.24.100) with Microsoft SMTP Server (TLS) id 8.3.213.0; Thu, 8 Dec
+  2011 06:21:08 +0100
+ Received: from iezarawcs5.central.inditex.grp (10.1.6.129) by
+  axincashub6.central.inditex.grp (10.1.7.79) with Microsoft SMTP Server id
+  8.3.213.0; Thu, 8 Dec 2011 06:21:55 +0100
+ Received: by iezarawcs5.central.inditex.grp (Postfix, from userid 99)	id
+  61AA64806F; Thu,  8 Dec 2011 05:21:55 +0000 (GMT)
+ Received: from iezarawcs5.central.inditex.grp (localhost.localdomain
+  [127.0.0.1])	by iezarawcs5.central.inditex.grp (Postfix) with ESMTP id
+  5DBCF4806D	for <rootofsavvypurse@gmail.com>; Thu,  8 Dec 2011 05:21:55 +0000
+  (GMT)
+ Date: Thu, 8 Dec 2011 05:21:55 +0000
+ Sender: <noreply@zara.com>
+ From: Zara <noreply@zara.com>
+ To: <rootofsavvypurse@gmail.com>
+ Message-ID: <1763207448.5064.1323321715371.JavaMail.wcsadmin@iezarawcs5.central.inditex.grp>
+ Subject: Confirmation of your newsletter subscription
+ MIME-Version: 1.0
+ Content-Type: text/html; charset="UTF-8"
+ Content-Transfer-Encoding: 7bit
+ Return-Path: noreply@zara.com
+ X-EXCLAIMER-MD-CONFIG: 2160d8f7-699a-4cd6-bec4-c5bf2dcaa7f8
+ 
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+ 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+ 
+ <html xmlns="http://www.w3.org/1999/xhtml" lang="en" 
+ 		xml:lang="en">
+ <head>
+ 	<title>Zara </title>
+ </head>
+ 
+ 
+ 
+ <body style="font: 11px / 1.231 arial, clean, sans-serif; padding:70px 0">	
+ 	<div style="margin:0 25px">
+ 	
+ 		<!-- BEGIN EmailHeader.jspf -->
+ <div style="height: 21px; border-bottom: 2px solid rgb(15, 15, 15); padding-bottom: 11px;">
+ 	<h1 style="text-align: center;"><img alt="ZARA" src="https://static.zara.net/wcsstore/ZaraStorefrontAssetStore/images/logo_Zara.png"></h1>
+ </div>
+ <!-- END EmailHeader.jspf -->
+ 	
+ 		<div style="padding:45px 0">
+ 			<h2 style="text-transform:uppercase; font-size:22px">
+ 				Request to subscribe to newsletter  
+ 			</h2>
+ 			
+ 			<div style="font-size:12px;  margin-bottom:40px">
+ 				<p>
+ 					Welcome:
+ 				</p>
+ 				<p>
+ 					We have received your request to subscribe to our newsletter. The sections you have chosen are:
+ 				</p>
+ 				<ul>
+ 					
+ 								<li><strong>Woman</strong></li>
+ 							
+ 								<li><strong>Man</strong></li>
+ 							
+ 				</ul>
+ 				</p>
+ 
+ 				<p>
+ 					Please click on the following link to confirm you wish to receive our e-mail newsletter
+ 				</p>
+ 				<p>
+ 					<a href="http://www.zara.com/webapp/wcs/stores/servlet/ItxConfirmNewsletterSubscriptionCmd?hashValue=2578CB982A9B585D6E845A01C344244854483837&amp;catalogId=16051&amp;errorViewName=NewslettersView&amp;categoryId=11110&amp;langId=-1&amp;storeId=11719&amp;sign=true&amp;URL=NewslettersSuccessView" 
+ 						title="Confirm subscription to newsletter" 
+ 						style="text-decoration:underline; color:#000">
+ 						http://www.zara.com/webapp/wcs/stores/servlet/ItxConfirmNewsletterSubscriptionCmd?hashValue=2578CB982A9B585D6E845A01C344244854483837&amp;catalogId=16051&amp;errorViewName=NewslettersView&amp;categoryId=11110&amp;langId=-1&amp;storeId=11719&amp;sign=true&amp;URL=NewslettersSuccessView
+ 					</a>.
+ 				</p>		
+ 			</div>
+ 			<p style="font-size:12px;">
+ 				If you have any enquiries or suggestions, please contact our customer service desk by sending an e-mail to <a href="mailto:contact.us@zara.com" style="text-decoration:underline; color:#000" title="<fmt:message key='ItxMailMessageSuscribeNewsletter.title' bundle='javax.servlet.jsp.jstl.fmt.LocalizationContext@2e2e2e2e'/>">contact.us@zara.com</a>
+ 			</p>
+ 		</div>
+ 		
+ 		<div style=" border-top:2px solid #0f0f0f; height:21px; color:#959595; font-size:11px; padding-top:11px;">
+ 			<span>
+ 				<!-- Please - Do not remove this comment.  -->&copy; 2010 ZARA, all rights reserved
+ 			</span>
+ 		</div>
+ 		
+ 	</div>
+ </body>
+ 
+ </html>
+

@@ -1,0 +1,3361 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.36.197 with SMTP id s5cs74751vdj;
+         Sat, 17 Dec 2011 05:52:20 -0800 (PST)
+ Received: from mr.google.com ([10.68.211.167])
+         by 10.68.211.167 with SMTP id nd7mr30601507pbc.31.1324129938481 (num_hops = 1);
+         Sat, 17 Dec 2011 05:52:18 -0800 (PST)
+ Received: by 10.68.211.167 with SMTP id nd7mr24326778pbc.31.1324129938465;
+         Sat, 17 Dec 2011 05:52:18 -0800 (PST)
+ X-Forwarded-To: rootofsavvypurse@gmail.com
+ X-Forwarded-For: laurenjung1@gmail.com rootofsavvypurse@gmail.com
+ Delivered-To: laurenjung1@gmail.com
+ Received: by 10.68.55.167 with SMTP id t7cs154295pbp;
+         Sat, 17 Dec 2011 05:52:17 -0800 (PST)
+ Received: by 10.224.175.2 with SMTP id v2mr16878162qaz.69.1324129935184;
+         Sat, 17 Dec 2011 05:52:15 -0800 (PST)
+ Return-Path: <bo-bwp9fvmbprcxt5au77f1aacsda7fu9@b.e.jcrew.com>
+ Received: from mta624.e.jcrew.com (mta624.e.jcrew.com. [38.108.96.20])
+         by mx.google.com with ESMTP id j7si2364545qcv.144.2011.12.17.05.52.14;
+         Sat, 17 Dec 2011 05:52:15 -0800 (PST)
+ Received-SPF: pass (google.com: domain of bo-bwp9fvmbprcxt5au77f1aacsda7fu9@b.e.jcrew.com designates 38.108.96.20 as permitted sender) client-ip=38.108.96.20;
+ Authentication-Results: mx.google.com; spf=pass (google.com: domain of bo-bwp9fvmbprcxt5au77f1aacsda7fu9@b.e.jcrew.com designates 38.108.96.20 as permitted sender) smtp.mail=bo-bwp9fvmbprcxt5au77f1aacsda7fu9@b.e.jcrew.com; dkim=pass header.i=@e.jcrew.com
+ DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=e.jcrew.com;
+ 	s=20111006; t=1324129956; x=1339941156;
+ 	bh=wTT8neC0iqTvDQF8YRlcEBYSH48=; h=From:Reply-To;
+ 	b=X0OH8wwFY6O7PmAWEcoEtif6pICzTGfOT7q3liSn555cgFyjli8c6oEi5tvda5E24
+ 	 sUGiq/HmZt0dQKSXmkXhXZfD6ifcBGUGvAWCXI2OM8ZlYCKSqLkO6Yhj0aHL3mmdGj
+ 	 mR1Y2Nvi17UD/i3V+bnDulk5Ybm6FGg1IKyQgqdQ=
+ DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+   s=200505; d=e.jcrew.com;
+   b=H9hAijkMoGpFmGPfpphhkkUgvntzcNa0I77yNfj1aUwkRb+H4S9fUM6VjU74UgT5GUUrc/6WXyMJ4iQ77Bwva/MygbNoiHcM5BcNQL5bAiRP5ayBt0DZEoRY3mJ5cfgBhNEufWa4jOaYfGhPa+YarA12N425m8uYEDQUWUKxw+g=;
+  h=Date:Message-ID:List-Unsubscribe:From:To:Subject:MIME-Version:Reply-To:Content-type;
+ Date: Sat, 17 Dec 2011 13:52:36 -0000
+ Message-ID: <bwp9fvmbprcxt5au77f1aacsda7fu9.1812209018.8119@mta624.e.jcrew.com>
+ List-Unsubscribe: <mailto:rm-0bwp9fvmbprcxt5au77f1aacsda7fu9@e.jcrew.com>
+ From: "J.Crew" <jcrew@e.jcrew.com>
+ To: laurenjung1@gmail.com
+ Subject: Cross it all off: 30% OFF every purchase, in stores & online (PLUS, FREE SHIPPING)
+ MIME-Version: 1.0
+ Reply-To: "J.Crew" <support-bwp9fvmbprcxt5au77f1aacsda7fu9@e.jcrew.com>
+ Content-type: multipart/alternative; boundary="=bwp9fvmbprcxt5au77f1aacsda7fu9"
+ 
+ 
+ --=bwp9fvmbprcxt5au77f1aacsda7fu9
+ Content-Type: text/plain; charset="iso-8859-1"
+ Content-transfer-encoding: 8bit
+ 
+ DON'T FORGET, JUST 3 DAYS LEFT FOR STANDARD HOLIDAY DELIVERY.* 
+ 
+ 30% OFF
+ your entire purchase
+ and free shipping on orders of $100+** 
+ 
+ IN STORES & ONLINE. 
+ 
+ Use code SNOWMAN.
+ Shop for women, men, boys & girls. 
+ 
+ 
+ *Shipping to Alaska, Hawaii, Puerto Rico, APO/FPO, Canada 
+ and Japan cannot be guaranteed for holiday delivery (click here 
+ for shipping and handling details). 
+ 
+ **Offer valid on jcrew.com and at J.Crew retail stores only. 
+ Offer not valid at J.Crew Factory stores. Offer does not apply 
+ to previous purchases, alterations or the purchase of gift cards. 
+ Offer not applicable on third-party branded merchandise, Wallace & 
+ Barnes, or wedding. 30% discount applies to online orders before 
+ shipping, handling and taxes are added. Free shipping offer is valid 
+ on Internet orders shipped via regular shipping (3 to 6 business days). 
+ Free shipping applies to online-only orders of $100 or more before 
+ shipping, handling and taxes are added. Offer valid through Monday, 
+ December 19, 2011, 11:59pm ET. Savings and free shipping are applied at 
+ checkout with code SNOWMAN. Offer not valid on phone orders. Cannot be 
+ combined with any other promotion or redeemed for cash. Limit one 
+ promotional code per order. Details of offer are subject to change. 
+ 
+ 
+ Please add jcrew@e.jcrew.com to your address book to ensure
+ our emails reach your inbox. If you received this email from a
+ friend and would like to subscribe to our email list, click here. 
+ 
+ To unsubscribe from the email list, click here. 
+ 
+ J.Crew Customer Relations | One Ivy Crescent | Lynchburg, VA 24513-1001
+ 
+ --=bwp9fvmbprcxt5au77f1aacsda7fu9
+ Content-Type: text/html; charset="iso-8859-1"
+ Content-Transfer-Encoding: quoted-printable
+ 
+ <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+ =3DISO-8859-1"></head><body onload=3D'' vlink=3D"#666666" alink=3D"#666666"=
+  link=3D"#666666" bgcolor=3D"#ffffff">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- Messages -->=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <table width=3D"684" align=3D"center" border=3D"0" cellpadding=3D"0" cellsp=
+ acing=3D"0" style=3D"margin-bottom:10px;">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <td align=3D"center">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <font style=3D"font-family: verdana, arial, helvetica, sans-serif; font=
+ -size: 10px; color: #71706c;">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <br />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     View this email on a <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCE=
+ CBsBB16rp/mobile?t_params=3DI_SOURCE%3D1%26EMAIL%3Dlaurenjung1%2540gmail.co=
+ m" style=3D"text-decoration:underline" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <font color=3D"#71706C">mobile device</font></a>.<br />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/home?d_sour=
+ ce=3DEMSL05319&email=3Dlaurenjung1@gmail.com" style=3D"text-decoration:unde=
+ rline" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <font color=3D"#71706C">30% off your entire purchase and free shipping =
+ on orders of $100+**</font></a><br />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     If you can't see the images in this email,=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/html?t_para=
+ ms=3DI_SOURCE%3D1%26EMAIL%3Dlaurenjung1%2540gmail.com" style=3D"text-decora=
+ tion:underline" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <font color=3D"#71706C">click here</font></a>.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </font>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </table>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- Content -->=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <table width=3D"684" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" s=
+ tyle=3D"border:1px solid #cccccc; padding-top:0px; padding-right:10px; padd=
+ ing-bottom:10px; padding-left:10px; margin-bottom:10px">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <td valign=3D"top" align=3D"center">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <!-- Header -->=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/hom=
+ e?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_jcrew.g=
+ if" width=3D"664" height=3D"83" alt=3D"JCrew.com" border=3D"0" style=3D"dis=
+ play: block;"></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </table>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 	<!-- Navigation -->=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0" style=3D"margin-bottom:5px">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/wom=
+ en?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_wome=
+ n.gif" width=3D"53" height=3D"29" alt=3D"Women" border=3D"0" style=3D"displ=
+ ay: block;" /></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/men=
+ ?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_men.=
+ gif" width=3D"40" height=3D"29" alt=3D"Men" border=3D"0" style=3D"display: =
+ block;" /></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/cre=
+ wcuts?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank"=
+ >=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_kids=
+ .gif" width=3D"41" height=3D"29" alt=3D"Kids" border=3D"0" style=3D"display=
+ : block;" /></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/wed=
+ ding?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_wedd=
+ ing.gif" width=3D"65" height=3D"29" alt=3D"Wedding" border=3D"0" style=3D"d=
+ isplay: block;" /></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/sal=
+ e?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_sale=
+ .gif" width=3D"40" height=3D"29" alt=3D"Sale" border=3D"0" style=3D"display=
+ : block;" /></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/gif=
+ tguide?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank=
+ ">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_gift=
+ _guide.gif" width=3D"87" height=3D"29" alt=3D"Sale" border=3D"0" style=3D"d=
+ isplay: block;" /></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/hom=
+ e?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_blank.g=
+ if" width=3D"219" height=3D"29" alt=3D"JCrew.com" border=3D"0" style=3D"dis=
+ play: block;" /></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/fac=
+ ebook?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank"=
+ >=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_face=
+ book.gif" width=3D"22" height=3D"29" alt=3D"Facebook" border=3D"0" style=3D=
+ "display: block;" /></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/twi=
+ tter?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com#!/JCrew_Insider?src=
+ Code=3DEMSL05319&em=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_twit=
+ ter.gif" width=3D"18" height=3D"29" alt=3D"Twitter" border=3D"0" style=3D"d=
+ isplay: block;" /></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/fwr=
+ dfrn?RAF_TRACK=3D&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_forw=
+ ard.gif" width=3D"79" height=3D"29" alt=3D"Forward" border=3D"0" style=3D"d=
+ isplay: block;" /></a></td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </table>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 	<!-- Main -->=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/home?d_=
+ source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_01.jpg" alt=3D"JCrew.com" width=3D"664" height=3D"337" border=3D"0=
+ " style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </table>=20=20=20=20=20=20=20=20
+ 
+ 
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/home?d_=
+ source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_02.jpg" alt=3D"JCrew.com" width=3D"222" height=3D"32" border=3D"0"=
+  style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/storelo=
+ c?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_03.jpg" alt=3D"JCrew.com" width=3D"109" height=3D"32" border=3D"0"=
+  style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/home?d_=
+ source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_04.jpg" alt=3D"JCrew.com" width=3D"333" height=3D"32" border=3D"0"=
+  style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </table>=20=20=20=20=20=20=20=20
+ 
+ 
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/home?d_=
+ source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_05.jpg" alt=3D"JCrew.com" width=3D"664" height=3D"48" border=3D"0"=
+  style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </table>=20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/home?d_=
+ source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_06.jpg" alt=3D"JCrew.com" width=3D"253" height=3D"24" border=3D"0"=
+  style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/womenne=
+ w?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_07.jpg" alt=3D"JCrew.com" width=3D"74" height=3D"24" border=3D"0" =
+ style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/mennew?=
+ d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_08.jpg" alt=3D"JCrew.com" width=3D"51" height=3D"24" border=3D"0" =
+ style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/boysnew=
+ ?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_09.jpg" alt=3D"JCrew.com" width=3D"49" height=3D"24" border=3D"0" =
+ style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/home?d_=
+ source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_10.jpg" alt=3D"JCrew.com" width=3D"22" height=3D"24" border=3D"0" =
+ style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/girlsne=
+ w?d_source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_11.jpg" alt=3D"JCrew.com" width=3D"49" height=3D"24" border=3D"0" =
+ style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/home?d_=
+ source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_12.jpg" alt=3D"JCrew.com" width=3D"166" height=3D"24" border=3D"0"=
+  style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </table>=20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/home?d_=
+ source=3DEMSL05319&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121711_jc_30=
+ reminder_13.jpg" alt=3D"JCrew.com" width=3D"664" height=3D"150" border=3D"0=
+ " style=3D"display: block;" />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </table>=20=20=20=20=20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </table>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- Disclaimers -->=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <table width=3D"675" align=3D"center" border=3D"0" cellpadding=3D"0" cellsp=
+ acing=3D"0">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <td align=3D"center">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <font style=3D"font-family: verdana, arial, helvetica, sans-serif; font=
+ -size: 10px; color: #71706c;">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ *Shipping to Alaska, Hawaii, Puerto Rico, APO/FPO, Canada and Japan cannot =
+ be guaranteed for holiday delivery (<a href=3D"http://e.jcrew.com/a/hBO7IC$=
+ BgTeL6B8fCECBsBB16rp/shipping" target=3D"_blank">click here</a> for shippin=
+ g and handling details).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <br>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <br>
+ 
+ 
+ 
+ **Offer valid on jcrew.com and at J.Crew retail stores only. Offer not vali=
+ d at J.Crew Factory stores. Offer does not apply to previous purchases, alt=
+ erations or the purchase of gift cards. Offer not applicable on third-party=
+  branded merchandise, Wallace & Barnes, or wedding. 30% discount applies to=
+  online orders before shipping, handling and taxes are added. Free shipping=
+  offer is valid on Internet orders shipped via regular shipping (3 to 6 bus=
+ iness days). Free shipping applies to online-only orders of $100 or more be=
+ fore shipping, handling and taxes are added. Offer valid through Monday, De=
+ cember 19, 2011, 11:59pm ET. Savings and free shipping are applied at check=
+ out with code SNOWMAN. Offer not valid on phone orders. Cannot be combined =
+ with any other promotion or redeemed for cash. Limit one promotional code p=
+ er order. Details of offer are subject to change.
+ 
+ 
+ 
+ 
+ 
+ <br /><br />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20=20=20=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     Please add <a href=3D"mailto:jcrew@e.jcrew.com" style=3D"text-decoratio=
+ n:none"><font color=3D"#71706C">jcrew@e.jcrew.com</font></a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     to your address book to ensure our emails reach your inbox.<br />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     If you received this email from a friend and would like to subscribe to=
+  our email list,=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/sub?d_sourc=
+ e=3DEMSL05319" style=3D"text-decoration:underline" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <font color=3D"#71706C">click here</font></a>.<br />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <br />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     If you wish to unsubscribe from all future emails, please=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/unsub?d_sou=
+ rce=3DEMSL05319&Email=3Dlaurenjung1@gmail.com" style=3D"text-decoration:und=
+ erline" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <font color=3D"#71706C">click here</font></a> or go to the following we=
+ b address &ndash;=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <a href=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/unsub?d_sou=
+ rce=3DEMSL05319&Email=3Dlaurenjung1@gmail.com" style=3D"text-decoration:non=
+ e" target=3D"_blank">=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <font color=3D"#71706C">https://www.jcrew.com/help/unsubscribe_non_reg_=
+ users.jsp?srcCode=3DEMSL05319&email=3Dlaurenjung1@gmail.com&brand=3Djcrew
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </font></a>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <br /><br />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     This email may be considered an advertising or promotional message.<br =
+ />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     <br />=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     J.Crew Customer Relations | One Ivy Crescent | Lynchburg, VA 24513-1001
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </font>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     </td>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </tr>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </table>=20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <img src=3D"http://e.jcrew.com/a/hBO7IC$BgTeL6B8fCECBsBB16rp/spacer.gif">
+ </body></html>=
+ 
+ 
+ --=bwp9fvmbprcxt5au77f1aacsda7fu9--
+ 
+

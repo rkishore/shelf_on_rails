@@ -1,0 +1,63 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.36.197 with SMTP id s5cs87491vdj;
+         Mon, 5 Dec 2011 12:37:33 -0800 (PST)
+ Return-Path: <keyshawn+gmafv4aa85f4623aebea8@gmail.com>
+ Received-SPF: pass (google.com: domain of keyshawn+gmafv4aa85f4623aebea8@gmail.com designates 10.152.102.136 as permitted sender) client-ip=10.152.102.136;
+ Authentication-Results: mr.google.com; spf=pass (google.com: domain of keyshawn+gmafv4aa85f4623aebea8@gmail.com designates 10.152.102.136 as permitted sender) smtp.mail=keyshawn+gmafv4aa85f4623aebea8@gmail.com; dkim=pass header.i=keyshawn+gmafv4aa85f4623aebea8@gmail.com
+ Received: from mr.google.com ([10.152.102.136])
+         by 10.152.102.136 with SMTP id fo8mr7168418lab.30.1323117451539 (num_hops = 1);
+         Mon, 05 Dec 2011 12:37:31 -0800 (PST)
+ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+         d=google.com; s=beta;
+         h=mime-version:x-google-address-confirmation:date:message-id:subject
+          :from:to:content-type;
+         bh=UXyRjbqR2bSN3t/VoZCQY6gmxNxIUBMBHhd7FCUNAGg=;
+         b=yUXHYrzrgpxDcOANVbcqDu+E3j+p5AKHnxqk+sIQ/RxUAL65FLn/lp5dYvig0ChuTs
+          hf8gvVlWPGwRIZkZkCGw==
+ MIME-Version: 1.0
+ Received: by 10.152.102.136 with SMTP id fo8mr7168418lab.30.1323117451538;
+  Mon, 05 Dec 2011 12:37:31 -0800 (PST)
+ X-Google-Address-Confirmation: Xl3c449p6nNiyPQIoH1LTM95GRs
+ Date: Mon, 5 Dec 2011 15:37:31 -0500
+ Message-ID: <CAHSZYqUOi2vr5XVnw1CgX9wiW3arDRHei=kyd=m0aShYAnYP4g@mail.gmail.com>
+ Subject: Gmail Forwarding Confirmation (#81487654) - Receive Mail from keyshawn@gmail.com
+ From: Gmail Team <mail-noreply@google.com>
+ To: rootofsavvypurse@gmail.com
+ Content-Type: text/plain; charset=ISO-8859-1
+ 
+ keyshawn@gmail.com has requested to automatically forward mail to your email
+ address rootofsavvypurse@gmail.com.
+ Confirmation code: 81487654
+ 
+ To allow keyshawn@gmail.com to automatically forward mail to your address,
+ please click the link below to confirm the request:
+ 
+ https://mail.google.com/mail/vf-7762613849-rootofsavvypurse%40gmail.com-nIy6Py_UCSJz0deJueXXH59l65Q
+ 
+ If you click the link and it appears to be broken, please copy and paste it
+ into a new browser window. If you aren't able to access the link, you
+ can send the confirmation code
+ 81487654 to keyshawn@gmail.com.
+ 
+ Thanks for using Gmail!
+ 
+ Sincerely,
+ 
+ The Gmail Team
+ 
+ If you do not approve of this request, no further action is required.
+ keyshawn@gmail.com cannot automatically forward messages to your email address
+ unless you confirm the request by clicking the link above. If you accidentally
+ clicked the link, but you do not want to allow keyshawn@gmail.com to
+ automatically forward messages to your address, click this link to cancel this
+ verification:
+ https://mail.google.com/mail/uf-7762613849-rootofsavvypurse%40gmail.com-nIy6Py_UCSJz0deJueXXH59l65Q
+ 
+ To learn more about why you might have received this message, please
+ visit: http://mail.google.com/support/bin/answer.py?answer=184973.
+ 
+ Please do not respond to this message. If you'd like to contact the
+ Google.com Team, please log in to your account and click 'Help' at
+ the top of any page. Then, click 'Contact Us' along the bottom of the
+ Help Center.
+

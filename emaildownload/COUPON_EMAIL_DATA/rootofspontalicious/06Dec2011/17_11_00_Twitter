@@ -1,0 +1,164 @@
+ Delivered-To: rootofspontalicious@gmail.com
+ Received: by 10.182.175.7 with SMTP id bw7cs281387obc;
+         Tue, 6 Dec 2011 09:11:04 -0800 (PST)
+ Received: by 10.236.201.137 with SMTP id b9mr20574409yho.124.1323191462910;
+         Tue, 06 Dec 2011 09:11:02 -0800 (PST)
+ Return-Path: <resetpw-nqzva=fcbagnyvpvbhf.pbz-2d72a@postmaster.twitter.com>
+ Received: from mout.perfora.net (mout.perfora.net. [74.208.4.194])
+         by mx.google.com with ESMTP id k46si18558016yhj.128.2011.12.06.09.11.02;
+         Tue, 06 Dec 2011 09:11:02 -0800 (PST)
+ Received-SPF: fail (google.com: domain of resetpw-nqzva=fcbagnyvpvbhf.pbz-2d72a@postmaster.twitter.com does not designate 74.208.4.194 as permitted sender) client-ip=74.208.4.194;
+ Authentication-Results: mx.google.com; spf=hardfail (google.com: domain of resetpw-nqzva=fcbagnyvpvbhf.pbz-2d72a@postmaster.twitter.com does not designate 74.208.4.194 as permitted sender) smtp.mail=resetpw-nqzva=fcbagnyvpvbhf.pbz-2d72a@postmaster.twitter.com; dkim=pass header.i=@twitter.com
+ Received: from ham-cannon.twitter.com (ham-cannon.twitter.com [199.59.148.239])
+ 	by mx.perfora.net (node=mxus1) with ESMTP (Nemesis)
+ 	id 0M6k5k-1QblDs3Due-00wIoY for admin@spontalicious.com; Tue, 06 Dec 2011 12:11:01 -0500
+ X-DKIM: Sendmail DKIM Filter v2.8.2 2695328997.twitter.com 33D76257F752
+ DKIM-Signature: v=1; a=rsa-sha1; c=simple/simple; d=twitter.com; s=dkim;
+ 	t=1323191460; i=@twitter.com; bh=/j4MccBsEO84BagJsqinqVScUAo=;
+ 	h=Date:From:Reply-To:To:Subject:Mime-Version:Content-Type;
+ 	b=EWv2/JyKEvre+wIRREi/qoi7tyiIZynva7ScQYHQGOZvz466RiiOIjN8LpIS7mnf+
+ 	 mMQJhJb3/TLVdk7HPjtiqjMRFU9mx+0QnmO1JCd79mXcZtdtgm/B+WkgEj25519kcx
+ 	 npg+wna0BkK8guLaEAHWoIaUE7mHexJqdLstDe20=
+ X-DomainKeys: Sendmail DomainKeys Filter v1.0.2 2695328997.twitter.com 33D76257F752
+ DomainKey-Signature: a=rsa-sha1; s=default; d=twitter.com; c=simple; q=dns;
+ 	h=date:from:reply-to:to:subject:mime-version:content-type:
+ 	x-campaignid:errors-to:bounces-to;
+ 	b=1ftK2t7/ifHcCPmLIWOkHH56E5cXXFC+T52KuC+48SR7TUCMIpYEkP1jpFNb8ny9l
+ 	aDEblvDn4aqhsZRO2Xlkw==
+ Date: Tue, 6 Dec 2011 17:11:00 +0000
+ From: Twitter <resetpw-nqzva=fcbagnyvpvbhf.pbz-2d72a@postmaster.twitter.com>
+ Reply-To: noreply@postmaster.twitter.com
+ To: admin@spontalicious.com
+ Message-Id: <4ede4ca432e27_f7ce680baa03048f3@2695328997.twitter.com.tmail>
+ Subject: Reset your Twitter password
+ Mime-Version: 1.0
+ Content-Type: multipart/alternative; boundary=mimepart_4ede4ca433384_f7ce680baa030495d
+ X-Campaignid: resetpw20100823
+ Errors-To: Twitter <resetpw-nqzva=fcbagnyvpvbhf.pbz-2d72a@postmaster.twitter.com>
+ Bounces-To: Twitter <resetpw-nqzva=fcbagnyvpvbhf.pbz-2d72a@postmaster.twitter.com>
+ 
+ 
+ --mimepart_4ede4ca433384_f7ce680baa030495d
+ Content-Type: text/plain; charset=utf-8
+ Content-Transfer-Encoding: Quoted-printable
+ Content-Disposition: inline
+ 
+ Forgot your password, Spontalicious (@Spontalicious)?
+ 
+ Twitter received a request to reset the password for your Twitter account=
+  (@Spontalicious).
+ 
+ If you want to reset your password, click on the link below (or copy and =
+ paste the URL into your browser):
+ https://twitter.com/account/password_reset?email=3Dadmin%40spontalicious.=
+ com&token=3Dda514da8733da96e7ee24793680ff949-1323191460-user&evid=3Dn7pqI=
+ HhttNaHi0ZpVLlTr5IWeH%2BUbTMO6d%2FnLs42MPI%3D
+ 
+ This link takes you to a secure page where you can change your password.F=
+ or tips on selecting a strong password, see our Safe Tweeting help page: =
+ http://support.twitter.com/entries/76036-keeping-your-account-secure-safe=
+ -tweeting
+ 
+ If you don't want to reset your password, please ignore this message.Your=
+  password will not be reset.If you have any concerns, please contact Twit=
+ ter Support: http://twitter.com/help/
+ 
+ - The Twitter Team
+ 
+ 
+ Please do not reply to this message; it was sent from an unmonitored emai=
+ l address.  This message is a service email related to your use of Twitte=
+ r.  For general inquiries or to request support with your Twitter account=
+ , please contact Twitter Support by visiting: http://support.twitter.com/=
+ 
+ 
+ 
+ --mimepart_4ede4ca433384_f7ce680baa030495d
+ Content-Type: text/html; charset=utf-8
+ Content-Transfer-Encoding: Quoted-printable
+ Content-Disposition: inline
+ 
+ <html>
+ <body lang=3D"en" style=3D"background-color:#fff; color: #222">
+   <div style=3D"padding:14px; margin-bottom:4px; background-color:#008eb9=
+ ; -moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px">
+     <a style=3D"color:#FFF" href=3D"http://twitter.com/?from=3Demailheade=
+ r&evid=3Dn7pqIHhttNaHi0ZpVLlTr5IWeH%2BUbTMO6d%2FnLs42MPI%3D&utm_campaign=3D=
+ resetpw20100823&utm_medium=3Demail&utm_source=3Dresetpw"><img alt=3D"Twit=
+ ter" height=3D"24" src=3D"http://a1.twimg.com/a/1323109140/images/twttr_b=
+ ird_hd-008eb9.gif" style=3D"display:block;border: 0;" width=3D"130" /></a=
+ >
+   </div>
+   <div style=3D"font-family: 'Helvetica Neue', Arial, Helvetica, sans-ser=
+ if; font-size:13px; margin: 14px; position:relative">
+     <h2 style=3D"font-family: 'Helvetica Neue', Arial, Helvetica, sans-se=
+ rif;margin:0 0 16px; font-size:18px; font-weight:normal">
+   Forgot your password, Spontalicious (@<a href=3D"http://twitter.com/Spo=
+ ntalicious?evid=3Dn7pqIHhttNaHi0ZpVLlTr5IWeH%2BUbTMO6d%2FnLs42MPI%3D&utm_=
+ campaign=3Dresetpw20100823&utm_content=3Dprofile&utm_medium=3Demail&utm_s=
+ ource=3Dresetpw">Spontalicious</a>)?
+ </h2>
+ 
+ <p>
+   Twitter received a request to reset the password for your Twitter accou=
+ nt (@<a href=3D"http://twitter.com/Spontalicious?evid=3Dn7pqIHhttNaHi0ZpV=
+ LlTr5IWeH%2BUbTMO6d%2FnLs42MPI%3D&utm_campaign=3Dresetpw20100823&utm_cont=
+ ent=3Dprofile&utm_medium=3Demail&utm_source=3Dresetpw">Spontalicious</a>)=
+ .
+ </p>
+ 
+ <p>
+   If you want to reset your password, click on the link below (or copy an=
+ d paste the URL into your browser):<br/>
+   <a href=3D"https://twitter.com/account/password_reset?email=3Dadmin%40s=
+ pontalicious.com&token=3Dda514da8733da96e7ee24793680ff949-1323191460-user=
+ &evid=3Dn7pqIHhttNaHi0ZpVLlTr5IWeH%2BUbTMO6d%2FnLs42MPI%3D&utm_campaign=3D=
+ resetpw20100823&utm_content=3Daction&utm_medium=3Demail&utm_source=3Drese=
+ tpw">https://twitter.com/account/password_reset?email=3Dadmin%40spontalic=
+ ious.com&token=3Dda514da8733da96e7ee24793680ff949-1323191460-user</a>
+ </p>
+ 
+ <p>
+   This link takes you to a secure page where you can change your password=
+ .
+   For tips on selecting a strong password, see our <a href=3D'http://supp=
+ ort.twitter.com/entries/76036-keeping-your-account-secure-safe-tweeting'>=
+ Safe Tweeting help page</a>.
+ </p>
+ 
+ <p>
+   If you don't want to reset your password, please ignore this message.
+   Your password will not be reset.
+   If you have any concerns, please contact us at <a href=3D'http://twitte=
+ r.com/help/'>Twitter Support</a>.
+ </p>
+ 
+ <p style=3D"font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;f=
+ ont-size: 13px; line-height:18px;border-bottom: 1px solid rgb(238, 238, 2=
+ 38); padding-bottom: 10px; margin: 0 0 10px;">
+     <span style=3D"font: italic 13px Georgia,serif; color: rgb(102, 102, =
+ 102);">The Twitter Team</span>
+   =
+ 
+ </p>
+ 
+ 
+ 
+   <p style=3D"font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif=
+ ;margin-top:5px;font-size:10px;color:#888888;">
+     =
+ 
+     Please do not reply to this message; it was sent from an unmonitored =
+ email address.  This message is a service email related to your use of Tw=
+ itter.  For general inquiries or to request support with your Twitter acc=
+ ount, please visit us at <a href=3D"http://support.twitter.com/?evid=3Dn7=
+ pqIHhttNaHi0ZpVLlTr5IWeH%2BUbTMO6d%2FnLs42MPI%3D">Twitter Support</a>.
+   </p>
+ 
+ 
+   </div>
+ </body>
+ </html>
+ 
+ --mimepart_4ede4ca433384_f7ce680baa030495d--
+
