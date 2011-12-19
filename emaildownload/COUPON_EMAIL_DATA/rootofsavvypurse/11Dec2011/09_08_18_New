@@ -1,0 +1,673 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.36.197 with SMTP id s5cs4575vdj;
+         Sun, 11 Dec 2011 06:10:53 -0800 (PST)
+ Received: by 10.229.69.136 with SMTP id z8mr3591812qci.142.1323612652101;
+         Sun, 11 Dec 2011 06:10:52 -0800 (PST)
+ Return-Path: <11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa@email.nyandcompany.com>
+ Received: from bigfootinteractive.com (arm242.bigfootinteractive.com. [206.132.3.242])
+         by mx.google.com with ESMTP id ho2si12880852qab.29.2011.12.11.06.10.51;
+         Sun, 11 Dec 2011 06:10:52 -0800 (PST)
+ Received-SPF: pass (google.com: domain of 11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa@email.nyandcompany.com designates 206.132.3.242 as permitted sender) client-ip=206.132.3.242;
+ Authentication-Results: mx.google.com; spf=pass (google.com: domain of 11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa@email.nyandcompany.com designates 206.132.3.242 as permitted sender) smtp.mail=11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa@email.nyandcompany.com; dkim=pass header.i=@email.nyandcompany.com
+ Return-Path: <11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa@email.nyandcompany.com>
+ DKIM-Signature: v=1; a=rsa-sha1; d=email.nyandcompany.com; s=ei; c=simple/simple;
+ 	q=dns/txt; i=@email.nyandcompany.com; t=1323612523;
+ 	h=From:Subject:Date:To:MIME-Version:Content-Type;
+ 	bh=Gy55UIc8pK/NvjpZXnNeDtIAwyM=;
+ 	b=NPHM/93o3SuEPQfl1/VD7q1qp3KrKeVdZ14WTVl4WUg76mX4/UtXW2j8bugmmFQo
+ 	uPRagynrc0PefPcTCWANjDQJWR0sdg5otLIwAEQ8JEiGUTGbYyMB8PQ65dzWSNM7
+ 	9BN9lt8e3iWl17wME+P4ynmCTbRXL9tzWbyhyPhA+EQ=;
+ DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+ 	s=ei; d=email.nyandcompany.com;
+ 	h=List-Unsubscribe:Received:Reply-To:Bounces_to:Message-ID:X-SS:X-BFI:Date:From:Subject:To:MIME-Version:Content-Type;
+ 	b=KIUbzDwu+5xDY2hH9UipGVap5VaVXdj+a9V73poHaxRiOGMO5zF5YWYbNZUHmhCc
+ 	TcptradFQ1Q8Mooabk+MCDL9r4tm/5rhJcygAIeu8s4uJ+giI+z4W/1RIdbUyidC
+ 	PTaf9aIzo57tSrwS7/k2zvbq8BDFXfZTL/Bbj46K13I=
+ List-Unsubscribe: <mailto:11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa@email.nyandcompany.com?subject=unsubscribe>
+ Received: from [192.168.0.59] ([192.168.0.59:46388] helo=pimailer55)
+ 	by pimta08.epsiloninteractive.com (envelope-from <11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa@email.nyandcompany.com>)
+ 	(ecelerity 2.2.2.45 r(34222M)) with ESMTP
+ 	id E7/70-25782-B69B4EE4; Sun, 11 Dec 2011 09:08:43 -0500
+ Reply-To: "news" <11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa@email.nyandcompany.com>
+ Bounces_to: news.11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa@email.nyandcompany.com
+ Message-ID: <11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa.303.17221.pimailer55.DumpShot.1@email.nyandcompany.com>
+ X-SS: 1-1-8140280-686919204
+ X-BFI: 11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa
+ Date: Sun, 11 Dec 2011 09:08:18 EST
+ From: New York & Company <news@email.nyandcompany.com>
+ Subject: Get Rewarded...Get the latest NY Style!
+ To: rootofsavvypurse@gmail.com
+ MIME-Version: 1.0
+ Content-Type: multipart/alternative;
+   boundary="ABCD-11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa-EFGH"
+ 
+ --ABCD-11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa-EFGH
+ Content-Type: text/plain; charset=us-ascii
+ Content-Transfer-Encoding: quoted-printable
+ 
+ New York & Company =
+ 
+ http://email.nyandcompany.com/1ef821fa4layfousubpkj4zyaaaaabwrnm5ysr4moeq=
+ yaaaaa
+ 
+ -----------------------------------------------------------------
+ 
+ Remember to use your welcome savings.  Just for you $25 off your
+ purchase of $75 or more!* Now through December 17, 2011 In
+ stores & online.  Promo <4612>
+ Shop now > =
+ 
+ http://email.nyandcompany.com/1ace4c68alayfousubpkj42aaaaaabwrnm5ysr4moeq=
+ yaaaaa
+ 
+ -----------------------------------------------------------------
+ The NY&C Rewards Credit Card.  Open, use, save and enjoy all
+ these amazing benefits:
+ 
+ >Take 15% off when you open and use it.**  Extra 15% off CAN be
+ combined with your welcome savings. In stores only. =
+ 
+ >$10 reward every time you spend $200 on your card.***
+ >Free Shipping on purchases of $125 or more at nyandcompany.com
+ when you use your card.+
+ >Exclusive savings passes.
+ >No annual fee
+ >And so much more!
+ 
+ Apply today>
+ http://email.nyandcompany.com/14ff0f2delayfousubpkj42iaaaaabwrnm5ysr4moeq=
+ yaaaaa
+ 
+ -----------------------------------------------------------------
+ Want to get offers like this sent directly to your phone? Text the word "=
+ CELL" to NYSTYL (697895) to sign up for mobile alerts.****
+ 
+ ----------------------------------------------------------------
+ Get connected!  Join other NY&C fans on Twitter and Facebook!
+ Twitter > =
+ 
+ http://email.nyandcompany.com/1b1bda863layfousubpkj42qaaaaabwrnm5ysr4moeq=
+ yaaaaa =
+ 
+ 
+ Facebook >
+ http://email.nyandcompany.com/152a99c37layfousubpkj42yaaaaabwrnm5ysr4moeq=
+ yaaaaa
+ 
+ Redeem this coupon online: enter appropriate promo code (listed
+ above) at checkout; discount will appear on following page.
+ 
+ Print this coupon and redeem in your store: present coupon with
+ your purchase at register. Ring 4612 ($25 off $75)
+ 
+ *Only one certificate, coupon or discount per purchase (pre-tax).
+ Not valid on previous purchases, gift boxes, shipping fees, online
+ and in-store redlines, City Deals, NY Deals, gift card purchases;
+ not valid during Store Closing, As Seen in NY Collection, 30% Off, =
+ 
+ 40% Off, 50% Off and Buy One Get One Free store sales. Coupon may =
+ 
+ be used only once and must be presented at time of purchase. Not
+ redeemable for cash or accepted as payment for any credit card
+ account. Discount applied at time of purchase will be taken off
+ each item returned and may not be reapplied to items being exchanged
+ except for size or color. Featured merchandise is available at
+ select stores only. Void if copied. Valid in USA only. Not valid
+ at New York & Company Outlet stores.  Cash value of 1/100 cent.
+ Expires December 17, 2011.
+ 
+ **Subject to credit approval. Discount not valid on previous
+ purchases.
+ 
+ ***Subject to credit approval. The NY&C Rewards Program is
+ provided by New York & Company which is solely responsible for the Progra=
+ m
+ operation. New York & Company may change the terms of the Program at any =
+ time,
+ without notice. Not valid on previous purchases.
+ 
+ ****Message and data rates apply. You are opting in to receive
+ messages from NYSTYL 697895. Visit nystyl.com for text FAQs.
+ 
+ +FREE shipping offer can be combined with other offers and
+ discounts. Valid online only at nyandcompany.com: choose standard
+ shipping. Your shipping charges will be adjusted on the following
+ page. This offer is good for standard shipping within the United
+ States to the address in your order. If you choose next day or 2-
+ day shipping, additional charges will apply. Qualifying amount
+ applies to current merchandise purchase only (after discounts),
+ not previous purchases, gift boxes, packaging, taxes, shipping &
+ handling, value of New York & Company Gift Cards or online gift
+ certificates purchased. Not redeemable for cash nor accepted as
+ payment for any credit card account. No adjustment on previous
+ purchases. Offer is nontransferable without consent from New York
+ & Company. Not valid at New York & Company, New York & Company
+ Accessory or New York & Company Outlet stores. Subject to credit
+ approval. Cash value of 1/100 cent. Valid in USA only.
+ 
+ You've received this message because you registered to receive
+ email from New York & Company.
+ If you no longer wish to receive email from us, or would like to
+ edit your email preferences, click here. =
+ 
+ http://email.nyandcompany.com/19a165679layfousubpkj43aaaaaabwrnm5ysr4moeq=
+ yaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjYwNDA4Njg5AXppcF9jb2RlAQFFUFNJ=
+ TE9OX0lEAQFfV0FWRV9JRF8BNjg2OTE5MjA0AV9QTElTVF9JRF8BMjM1MzI5ODMBZ19pbmRle=
+ AEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cnNlQGdtYWlsLmNvbQFfU0NIRF9UTV8BMjAxMT=
+ EyMTEwODMyNTcBcHJvZmlsZV9rZXkBcm9vdG9mc2F2dnlwdXJzZUBnbWFpbC5jb20%3D&I7FT=
+ W0OdkJKcCVk84ogFVQ
+ 
+ If you've received this email from a friend and would like to
+ subscribe to our email list, click here. =
+ 
+ http://email.nyandcompany.com/17902622dlayfousubpkj43iaaaaabwrnm5ysr4moeq=
+ yaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjYwNDA4Njg5AXppcF9jb2RlAQFFUFNJ=
+ TE9OX0lEAQFfV0FWRV9JRF8BNjg2OTE5MjA0AV9QTElTVF9JRF8BMjM1MzI5ODMBZ19pbmRle=
+ AEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cnNlQGdtYWlsLmNvbQFfU0NIRF9UTV8BMjAxMT=
+ EyMTEwODMyNTcBcHJvZmlsZV9rZXkBcm9vdG9mc2F2dnlwdXJzZUBnbWFpbC5jb20%3D&I7FT=
+ W0OdkJKcCVk84ogFVQ
+ 
+ -----------------------------------------------------------------
+ 
+ Click here to view our Privacy Policy.
+ http://email.nyandcompany.com/1874f3890layfousubpkj43qaaaaabwrnm5ysr4moeq=
+ yaaaaa
+ 
+ New York & Company Corporate Office
+ 450 W. 33rd Street
+ New York, NY 10001
+ 
+ To ensure delivery to your inbox (not bulk or junk folders),
+ please add news@email.nyandcompany.com to your address book.
+ 
+ 
+ --ABCD-11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa-EFGH
+ Content-Type: text/html; charset=us-ascii
+ Content-Transfer-Encoding: quoted-printable
+ 
+ <html>
+ <head>
+ <title>Get Rewarded...Get the latest NY Style!</title>
+ </head>
+ <body bgcolor=3D"#FFFFFF">
+ <table width=3D"650" border=3D"0" align=3D"center" cellpadding=3D"0" cell=
+ spacing=3D"0" id=3D"Table_01" bgcolor=3D"#FFFFFF" summary=3D"">
+ <tr>
+ <td height=3D"50" bgcolor=3D"#F5F5F5"><font color=3D"#000000" size=3D"1" =
+ face=3D"Helvetica, Verdana, sans-serif">The NY&C Rewards credit card gets=
+  you even more exclusive rewards &#8211; and faster! <a href=3D"http://em=
+ ail.nyandcompany.com/1af63dcbclayfousibpkj43yaaaaabwrnm5ysr4moeqyaaaaa" s=
+ tyle=3D"color:#000000;"><b><u>Apply now</u></b></a></font><br>
+ <font color=3D"#000000" size=3D"1" face=3D"sans-serif"><small><font color=
+ =3D"#8C8C8C">If you are unable to see the images in this email, <font col=
+ or=3D"#8C8C8C"><A HREF=3D"http://email.nyandcompany.com/1d1f374d8layfousi=
+ bpkj44aaaaaabwrnm5ysr4moeqyaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjYwND=
+ A4Njg5AXppcF9jb2RlAQFFUFNJTE9OX0lEAQFfV0FWRV9JRF8BNjg2OTE5MjA0AV9QTElTVF9=
+ JRF8BMjM1MzI5ODMBZ19pbmRleAEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cnNlQGdtYWls=
+ LmNvbQFfU0NIRF9UTV8BMjAxMTEyMTEwODMyNTcBcHJvZmlsZV9rZXkBcm9vdG9mc2F2dnlwd=
+ XJzZUBnbWFpbC5jb20%3D&I7FTW0OdkJKcCVk84ogFVQ">click here</A></font></font=
+ ></small></font></td>
+ </tr>
+ <tr>
+ <td height=3D"71"><table width=3D"550" border=3D"0" cellspacing=3D"0" cel=
+ lpadding=3D"0" summary=3D"">
+ <tr>
+ <td><a href=3D"http://email.nyandcompany.com/132e7408clayfousibpkj44iaaaa=
+ abwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootinteractive.com/i=
+ mages/8140280/58282967/Welcome_Program_Updated_02A.jpg" width=3D"444" hei=
+ ght=3D"71" border=3D"0" style=3D"display:block;" alt=3D""></a></td>
+ <td><A HREF=3D"http://email.nyandcompany.com/1ccaa1a31layfousibpkj44qaaaa=
+ abwrnm5ysr4moeqyaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjYwNDA4Njg5AXppc=
+ F9jb2RlAQFFUFNJTE9OX0lEAQFfV0FWRV9JRF8BNjg2OTE5MjA0AV9QTElTVF9JRF8BMjM1Mz=
+ I5ODMBZ19pbmRleAEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cnNlQGdtYWlsLmNvbQFfU0N=
+ IRF9UTV8BMjAxMTEyMTEwODMyNTcBcHJvZmlsZV9rZXkBcm9vdG9mc2F2dnlwdXJzZUBnbWFp=
+ bC5jb20%3D&I7FTW0OdkJKcCVk84ogFVQ"><img src=3D"http://images.bigfootinter=
+ active.com/images/8140280/19961439/Welcome_Program_V2_PF.jpg" alt=3D"PRIN=
+ TER-FRIENDLY COUPON" width=3D"206" height=3D"71" border=3D"0" style=3D"di=
+ splay:block;"></A></td>
+ </tr>
+ </table></td>
+ </tr>
+ <tr>
+ <td height=3D"31"><a href=3D"http://email.nyandcompany.com/12fbe2e65layfo=
+ usibpkj44yaaaaabwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootint=
+ eractive.com/images/8140280/58282967/Welcome_Program_Updated_03A.gif" alt=
+ =3D"REMEMBER TO USE YOUR WELCOME SAVINGS" width=3D"650" height=3D"31" bor=
+ der=3D"0" style=3D"display:block;"></a></td>
+ </tr>
+ <tr>
+ <td height=3D"236"><table width=3D"650" border=3D"0" cellspacing=3D"0" ce=
+ llpadding=3D"0" summary=3D"">
+ <tr>
+ <td width=3D"286"><a href=3D"http://email.nyandcompany.com/1e701e42blayfo=
+ usibpkj45aaaaaabwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootint=
+ eractive.com/images/8140280/58282967/Welcome_Program_Updated_04A.jpg" wid=
+ th=3D"286" height=3D"236" border=3D"0" style=3D"display:block;" alt=3D"">=
+ </a></td>
+ <td width=3D"235" bgcolor=3D"#dd8ca0"><table width=3D"234" border=3D"0" c=
+ ellspacing=3D"0" cellpadding=3D"0" summary=3D"">
+ <tr>
+ <td width=3D"8"><img src=3D"http://images.bfi0.com/creative/2011/nyco/jun=
+ /Welcome_Program_Updated/images/spacer.gif" width=3D"15" height=3D"235" b=
+ order=3D"0" style=3D"display:block;" alt=3D""></td>
+ <td width=3D"219" align=3D"left" valign=3D"middle"><font color=3D"#000000=
+ " size=3D"4" face=3D"Times New Roman, Times, serif"><small><font color=3D=
+ "#ffffff">Just for you:</font></small></font><br>
+ <font style=3D"font-size:48px" color=3D"#333333" face=3D"Times New Roman,=
+  Times, serif"><span style=3D"word-spacing: -2">$25</span></font> <font c=
+ olor=3D"#333333" face=3D"Times New Roman, Times, serif">OFF</font><font c=
+ olor=3D"#ffffff"><br>
+ YOUR PURCHASE OF
+ $75 OR MORE!</font><font color=3D"#000000" size=3D"3" face=3D"times new r=
+ oman serif"><small><font color=3D"#ffffff">* <br>
+ Now through, December 17, 2011 <br>
+ <br>
+ </font></small></font><font color=3D"#000000" size=3D"1" face=3D"sans-ser=
+ if"><small><font color=3D"#ffffff">In stores & online </font></small></fo=
+ nt><font color=3D"#333333" size=3D"1" face=3D"Helvetica, Verdana, sans-se=
+ rif">Promo 4612</font><br>
+ <br>
+ <font color=3D"#333333" size=3D"2" face=3D"Helvetica, Verdana, sans-serif=
+ "><a href=3D"http://email.nyandcompany.com/10415d07flayfousibpkj45iaaaaab=
+ wrnm5ysr4moeqyaaaaa" style=3D"color:#000000">SHOP NOW</a></font></td>
+ <td width=3D"10"><img src=3D"http://images.bfi0.com/creative/2011/nyco/ju=
+ n/Welcome_Program_Updated/images/spacer.gif" width=3D"15" height=3D"235" =
+ border=3D"0" style=3D"display:block;" alt=3D""></td>
+ </tr>
+ <tr>
+ <td><img src=3D"http://images.bfi0.com/creative/2011/nyco/jun/Welcome_Pro=
+ gram_Updated/images/spacer.gif" width=3D"15" height=3D"1" border=3D"0" st=
+ yle=3D"display:block;" alt=3D""></td>
+ <td><img src=3D"http://images.bfi0.com/creative/2011/nyco/jun/Welcome_Pro=
+ gram_Updated/images/spacer.gif" width=3D"289" height=3D"1" border=3D"0" s=
+ tyle=3D"display:block;" alt=3D""></td>
+ <td><img src=3D"http://images.bfi0.com/creative/2011/nyco/jun/Welcome_Pro=
+ gram_Updated/images/spacer.gif" width=3D"15" height=3D"1" border=3D"0" st=
+ yle=3D"display:block;" alt=3D""></td>
+ </tr>
+ </table></td>
+ <td width=3D"125" align=3D"right"><a href=3D"http://email.nyandcompany.co=
+ m/1fa588ac2layfousibpkj45qaaaaabwrnm5ysr4moeqyaaaaa"><img src=3D"http://i=
+ mages.bigfootinteractive.com/images/8140280/58282967/Welcome_Program_Upda=
+ ted_07A=3D.gif" width=3D"45" height=3D"236" border=3D"0" style=3D"display=
+ :block;" alt=3D""></a></td>
+ </tr>
+ </table></td>
+ </tr>
+ <tr>
+ <td height=3D"135"><a href=3D"http://email.nyandcompany.com/1194cbe96layf=
+ ousibpkj45yaaaaabwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootin=
+ teractive.com/images/8140280/58282967/Welcome_Program_Updated_07A.jpg" al=
+ t=3D"THE NY&C REWARDS CREDIT CARD OPEN. USE. SAVE! AND ENJOY ALL THESE AM=
+ AZING BENEFITS:" width=3D"650" height=3D"135" border=3D"0" style=3D"displ=
+ ay:block;"></a></td>
+ </tr>
+ <tr>
+ <td height=3D"415"><table width=3D"550" border=3D"0" cellspacing=3D"0" ce=
+ llpadding=3D"0" summary=3D"">
+ <tr>
+ <td width=3D"286" height=3D"415"><table width=3D"285" border=3D"0" cellsp=
+ acing=3D"0" cellpadding=3D"0" summary=3D"">
+ <tr>
+ <td width=3D"285"><a href=3D"http://email.nyandcompany.com/1bc16553elayfo=
+ usibpkj46aaaaaabwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootint=
+ eractive.com/images/8140280/58282967/Welcome_Program_Updated_08A.jpg" alt=
+ =3D"TAKE 15% OFF when you open and use it.** Extra 15% off CAN be combine=
+ d with your welcome savings in stores only" width=3D"286" height=3D"79" b=
+ order=3D"0" style=3D"display:block;"></a></td>
+ </tr>
+ <tr>
+ <td><a href=3D"http://email.nyandcompany.com/15f02616alayfousibpkj46iaaaa=
+ abwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootinteractive.com/i=
+ mages/8140280/58282967/Welcome_Program_Updated_10A.jpg" alt=3D"$10 REWARD=
+  everytime you spend $200 on your card***" width=3D"286" height=3D"65" bo=
+ rder=3D"0" style=3D"display:block;"></a></td>
+ </tr>
+ <tr>
+ <td><a href=3D"http://email.nyandcompany.com/1a14f3bd7layfousibpkj46qaaaa=
+ abwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootinteractive.com/i=
+ mages/8140280/58282967/Welcome_Program_Updated_11A.jpg" alt=3D"FREE SHIPP=
+ ING on purchases of $125 or more at nyandcompany.com when you use your ca=
+ rd=06" width=3D"286" height=3D"84" border=3D"0" style=3D"display:block;">=
+ </a></td>
+ </tr>
+ <tr>
+ <td><a href=3D"http://email.nyandcompany.com/1425b0f83layfousibpkj46yaaaa=
+ abwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootinteractive.com/i=
+ mages/8140280/58282967/Welcome_Program_Updated_12A.jpg" alt=3D"EXCLUSIVE =
+ SAVINGS PASSES" width=3D"286" height=3D"28" border=3D"0" style=3D"display=
+ :block;"></a></td>
+ </tr>
+ <tr>
+ <td><a href=3D"http://email.nyandcompany.com/18ae4c5cdlayfousibpkj47aaaaa=
+ abwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootinteractive.com/i=
+ mages/8140280/58282967/Welcome_Program_Updated_13A.jpg" alt=3D"NO ANNUAL =
+ FEE" width=3D"286" height=3D"27" border=3D"0" style=3D"display:block;"></=
+ a></td>
+ </tr>
+ <tr>
+ <td><a href=3D"http://email.nyandcompany.com/169f0f199layfousibpkj47iaaaa=
+ abwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootinteractive.com/i=
+ mages/8140280/58282967/Welcome_Program_Updated_14A.jpg" alt=3D"AND SO MUC=
+ H MORE!" width=3D"286" height=3D"32" border=3D"0" style=3D"display:block;=
+ "></a></td>
+ </tr>
+ <tr>
+ <td><a href=3D"http://email.nyandcompany.com/197bdab24layfousibpkj47qaaaa=
+ abwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootinteractive.com/i=
+ mages/8140280/58282967/Welcome_Program_Updated_15A.jpg" alt=3D"Apply Toda=
+ y" width=3D"286" height=3D"100" border=3D"0" style=3D"display:block;"></a=
+ ></td>
+ </tr>
+ </table></td>
+ <td width=3D"264"><a href=3D"http://email.nyandcompany.com/174a99f70layfo=
+ usibpkj47yaaaaabwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootint=
+ eractive.com/images/8140280/58282967/Welcome_Program_Updated_09A.jpg" wid=
+ th=3D"364" height=3D"415" border=3D"0" style=3D"display:block;" alt=3D"">=
+ </a></td>
+ </tr>
+ </table></td>
+ </tr>
+ <tr>
+ <td height=3D"32"><a href=3D"http://email.nyandcompany.com/1104cf729layfo=
+ usibpkj5aaaaaaabwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bigfootint=
+ eractive.com/images/8140280/58282967/Welcome_Program_Updated_16A.jpg" alt=
+ =3D'WANT TO GET OFFERS LIKE THIS SENT DIRECTLY TO YOUR PHONE? TEXT THE WO=
+ RD "CELL" TO NYSTYL (697895) TO SIGN UP FOR MOBILE ALERTS****' width=3D"6=
+ 50" height=3D"57" border=3D"0" style=3D"display:block;"></a></td>
+ </tr>
+ <tr>
+ <td height=3D"16"><table width=3D"650" border=3D"0" cellspacing=3D"0" cel=
+ lpadding=3D"0" summary=3D"">
+ <tr>
+ <td width=3D"594"><a href=3D"http://email.nyandcompany.com/1f358c37dlayfo=
+ usibpkj5aiaaaaabwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bfi0.com/c=
+ reative/2011/nyco/jun/Welcome_Program_Updated/images/twitter.gif" alt=3D"=
+ GET CONNECTED! join other NY&C fans on Twitter and Facebook!" width=3D"59=
+ 4" height=3D"46" border=3D"0" style=3D"display:block;"></a></td>
+ <td width=3D"56"><a href=3D"http://email.nyandcompany.com/10d1599c0layfou=
+ sibpkj5aqaaaaabwrnm5ysr4moeqyaaaaa"><img src=3D"http://images.bfi0.com/cr=
+ eative/2011/nyco/jun/Welcome_Program_Updated/images/facebook.gif" alt=3D"=
+ Become a fan on FACEBOOK" width=3D"56" height=3D"46" border=3D"0" style=3D=
+ "display:block;"></a></td>
+ </tr>
+ </table></td>
+ </tr>
+ <tr>
+ <td><table width=3D"642" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+  summary=3D"">
+ <tr>
+ <td><img src=3D"http://images.bfi0.com/creative/2011/nyco/jun/Welcome_Pro=
+ gram_Updated/images/TEMPLATE01_67.gif" width=3D"15" height=3D"11" border=3D=
+ "0" style=3D"display:block;" alt=3D""></td>
+ <td><img src=3D"http://images.bfi0.com/creative/2011/nyco/jun/Welcome_Pro=
+ gram_Updated/images/disclaimer_09.gif" width=3D"620" height=3D"11" border=
+ =3D"0" style=3D"display:block;" alt=3D""></td>
+ <td><img src=3D"http://images.bfi0.com/creative/2011/nyco/jun/Welcome_Pro=
+ gram_Updated/images/TEMPLATE01_78.gif" width=3D"15" height=3D"11" border=3D=
+ "0" style=3D"display:block;" alt=3D""></td>
+ </tr>
+ </table></td>
+ </tr>
+ <tr>
+ <td height=3D"238"><table id=3D"Table_" width=3D"650" border=3D"0" cellpa=
+ dding=3D"0" cellspacing=3D"0" summary=3D"">
+ <tr>
+ <td width=3D"9" height=3D"151"><img src=3D"http://images.bfi0.com/creativ=
+ e/2011/nyco/jun/Welcome_Program_Updated/images/spacer.gif" width=3D"15" h=
+ eight=3D"25" border=3D"0" style=3D"display:block;" alt=3D""></td>
+ <td width=3D"620" valign=3D"top"><table width=3D"619" border=3D"0" cellsp=
+ acing=3D"0" cellpadding=3D"0" summary=3D"">
+ <tr>
+ <td><table width=3D"619" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+  summary=3D"">
+ <tr>
+ <td><table width=3D"620" border=3D"0" align=3D"center" cellpadding=3D"0" =
+ cellspacing=3D"0" summary=3D"">
+ <tr>
+ <td height=3D"126" align=3D"left" valign=3D"top"><font color=3D"#000000" =
+ size=3D"1" face=3D"Helvetica, Verdana, sans-serif"><b><br>
+ <br>
+ Redeem this coupon online: </b></font><font color=3D"#666666" size=3D"1" =
+ face=3D"Helvetica, Verdana, sans-serif">enter appropriate promo code (lis=
+ ted above) at checkout; discount will appear on following page.<br>
+ </font><font color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana, san=
+ s-serif"><b><br>
+ <A HREF=3D"http://email.nyandcompany.com/1ee01ad94layfousibpkj5ayaaaaabwr=
+ nm5ysr4moeqyaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjYwNDA4Njg5AXppcF9jb=
+ 2RlAQFFUFNJTE9OX0lEAQFfV0FWRV9JRF8BNjg2OTE5MjA0AV9QTElTVF9JRF8BMjM1MzI5OD=
+ MBZ19pbmRleAEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cnNlQGdtYWlsLmNvbQFfU0NIRF9=
+ UTV8BMjAxMTEyMTEwODMyNTcBcHJvZmlsZV9rZXkBcm9vdG9mc2F2dnlwdXJzZUBnbWFpbC5j=
+ b20%3D&I7FTW0OdkJKcCVk84ogFVQ">Print this coupon and redeem in your store=
+ :</A> </b></font><font color=3D"#666666" size=3D"1" face=3D"Helvetica, Ve=
+ rdana, sans-serif">present coupon with your purchase at register.</font><=
+ font color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana, sans-serif"=
+ ><b><br>
+ Ring 4612</b></font><font color=3D"#666666" size=3D"1" face=3D"Helvetica,=
+  Verdana, sans-serif"> ($25 off $75 ) <br>
+ <br>
+ </font><i> <font color=3D"#666666" size=3D"1" face=3D"Helvetica, Verdana,=
+  sans-serif">*Only one certificate, coupon or discount per purchase (pre-=
+ tax). Not valid on previous purchases, gift boxes, shipping fees, online =
+ and in-store redlines, City Deals, NY Deals, gift card purchases; not val=
+ id during Store Closing, As Seen in NY Collection, 30% Off, 40% Off, 50% =
+ Off and Buy One Get One Free store sales. Coupon may be used only once an=
+ d must be presented at time of purchase. Not redeemable for cash or accep=
+ ted as payment for any credit card account. Discount applied at time of p=
+ urchase will be taken off each item returned and may not be reapplied to =
+ items being exchanged except for size or color. Featured merchandise is a=
+ vailable at select stores only. Void if copied. Valid in USA only. Not va=
+ lid at New York & Company Outlet stores.  Cash value of 1/100 cent. Expir=
+ es December 17, 2011. </font></i><font color=3D"#000000" size=3D"1" face=3D=
+ "Helvetica, Verdana, sans-serif"><b><br>
+ <br>
+ <tr>
+ <td><table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ >
+ <tr>
+ <td width=3D"12"></td>
+ 
+ <td width=3D"626" align=3D"center"><font color=3D"#666666" size=3D"1" fac=
+ e=3D"Helvetica, Verdana, sans-serif">$25 off $75</font><br></td>
+ 
+ <td width=3D"12"></td>
+ </tr>
+ </table></td>
+ </tr>
+ </b></font></td>
+ </tr>
+ </table></td>
+ </tr>
+ </table></td>
+ </tr>
+ <tr>
+ <td height=3D"28"><font color=3D"#666666" size=3D"1" face=3D"Helvetica, V=
+ erdana, sans-serif"><small><img src=3D"http://images.bfi0.com/creative/20=
+ 11/nyco/jun/Welcome_Program_Updated/images/dottedRule.gif" width=3D"620" =
+ height=3D"10" border=3D"0" style=3D"display:block;" alt=3D""><br>
+ </small></font></td>
+ </tr>
+ </table></td>
+ <td width=3D"10"><img src=3D"http://images.bfi0.com/creative/2011/nyco/ju=
+ n/Welcome_Program_Updated/images/spacer.gif" width=3D"15" height=3D"25" b=
+ order=3D"0" style=3D"display:block;" alt=3D""></td>
+ </tr>
+ </table></td>
+ </tr>
+ <tr>
+ <td><table id=3D"Table_2" width=3D"650" border=3D"0" cellpadding=3D"0" ce=
+ llspacing=3D"0" summary=3D"">
+ <tr>
+ <td width=3D"9"><img src=3D"http://images.bfi0.com/creative/2011/nyco/jun=
+ /Welcome_Program_Updated/images/spacer.gif" width=3D"15" height=3D"25" bo=
+ rder=3D"0" style=3D"display:block;" alt=3D""></td>
+ <td width=3D"620" valign=3D"top"><table width=3D"619" border=3D"0" cellsp=
+ acing=3D"0" cellpadding=3D"0" summary=3D"">
+ <tr>
+ <td><table width=3D"619" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+  summary=3D"">
+ <tr>
+ <td><table width=3D"620" border=3D"0" align=3D"center" cellpadding=3D"0" =
+ cellspacing=3D"0" summary=3D"">
+ <tr>
+ <td width=3D"217" align=3D"left" valign=3D"top"><font color=3D"#000000" s=
+ ize=3D"1" face=3D"Helvetica, Verdana, sans-serif"><b><br>
+ WHY DID I RECEIVE THIS EMAIL<br>
+ <br>
+ </b></font><font color=3D"#666666" size=3D"1" face=3D"Helvetica, Verdana,=
+  sans-serif">You've received this message because you registered to recei=
+ ve email from <br>
+ New York & Company.<br>
+ <br>
+ </font><font color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana, san=
+ s-serif">&#8226; <a href=3D"http://email.nyandcompany.com/14b5b463clayfou=
+ sibpkj5baaaaaabwrnm5ysr4moeqyaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjYw=
+ NDA4Njg5AXppcF9jb2RlAQFFUFNJTE9OX0lEAQFfV0FWRV9JRF8BNjg2OTE5MjA0AV9QTElTV=
+ F9JRF8BMjM1MzI5ODMBZ19pbmRleAEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cnNlQGdtYW=
+ lsLmNvbQFfU0NIRF9UTV8BMjAxMTEyMTEwODMyNTcBcHJvZmlsZV9rZXkBcm9vdG9mc2F2dnl=
+ wdXJzZUBnbWFpbC5jb20%3D&I7FTW0OdkJKcCVk84ogFVQ" style=3D"color:#000000;">=
+ Edit my email preferences<br>
+ <br>
+ </a></font><font color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana,=
+  sans-serif">&#8226; <a href=3D"http://email.nyandcompany.com/1a84f7268la=
+ yfousibpkj5biaaaaabwrnm5ysr4moeqyaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEz=
+ NjYwNDA4Njg5AXppcF9jb2RlAQFFUFNJTE9OX0lEAQFfV0FWRV9JRF8BNjg2OTE5MjA0AV9QT=
+ ElTVF9JRF8BMjM1MzI5ODMBZ19pbmRleAEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cnNlQG=
+ dtYWlsLmNvbQFfU0NIRF9UTV8BMjAxMTEyMTEwODMyNTcBcHJvZmlsZV9rZXkBcm9vdG9mc2F=
+ 2dnlwdXJzZUBnbWFpbC5jb20%3D&I7FTW0OdkJKcCVk84ogFVQ" style=3D"color:#00000=
+ 0;">Unsubscribe<br>
+ <br>
+ </a></font><font color=3D"#666666" size=3D"1" face=3D"Helvetica, Verdana,=
+  sans-serif">If you've received this email from a friend you can <a href=3D=
+ "http://email.nyandcompany.com/1560228d5layfousibpkj5bqaaaaabwrnm5ysr4moe=
+ qyaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjYwNDA4Njg5AXppcF9jb2RlAQFFUFN=
+ JTE9OX0lEAQFfV0FWRV9JRF8BNjg2OTE5MjA0AV9QTElTVF9JRF8BMjM1MzI5ODMBZ19pbmRl=
+ eAEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cnNlQGdtYWlsLmNvbQFfU0NIRF9UTV8BMjAxM=
+ TEyMTEwODMyNTcBcHJvZmlsZV9rZXkBcm9vdG9mc2F2dnlwdXJzZUBnbWFpbC5jb20%3D&I7F=
+ TW0OdkJKcCVk84ogFVQ" style=3D"color:#000000;">subscribe</a> and hear it f=
+ irst.</font></td>
+ <td width=3D"201" align=3D"left" valign=3D"top"><font color=3D"#000000" s=
+ ize=3D"1" face=3D"Helvetica, Verdana, sans-serif"><b><br>
+ THIS EMAIL ALWAYS FALLS<br>
+ IN MY JUNK FOLDER<br>
+ <br>
+ </b></font><font color=3D"#666666" size=3D"1" face=3D"Helvetica, Verdana,=
+  sans-serif">To ensure delivery to your inbox<br>
+ (not bulk or junk folders), please add</font><br>
+ <font color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana, sans-serif=
+ "><a href=3D"mailto:news@email.nyandcompany.com" style=3D"color:#000000;"=
+ >news@email.nyandcompany.com</a></font><br>
+ <font color=3D"#666666" size=3D"1" face=3D"Helvetica, Verdana, sans-serif=
+ "> to your address book. </font></td>
+ <td width=3D"189" align=3D"left" valign=3D"top"><font color=3D"#000000" s=
+ ize=3D"1" face=3D"Helvetica, Verdana, sans-serif"><b><br>
+ ADDITIONAL INFO<br>
+ <br>
+ </b></font> <font color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana=
+ , sans-serif">&#8226; </font><font color=3D"#666666" size=3D"1" face=3D"H=
+ elvetica, Verdana, sans-serif">Visit </font><font color=3D"#000000" size=3D=
+ "1" face=3D"Helvetica, Verdana, sans-serif"><a href=3D"http://email.nyand=
+ company.com/1b5161c81layfousibpkj5byaaaaabwrnm5ysr4moeqyaaaaa" style=3D"c=
+ olor:#000000;">nyandcompany.com</a></font><font color=3D"#666666" size=3D=
+ "1" face=3D"Helvetica, Verdana, sans-serif"> for more<br>
+ </font><font color=3D"#FFFFFF" size=3D"1" face=3D"Helvetica, Verdana, san=
+ s-serif">&#8226; </font><font color=3D"#666666" size=3D"1" face=3D"Helvet=
+ ica, Verdana, sans-serif">sexy styles<br>
+ <br>
+ </font><font color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana, san=
+ s-serif">&#8226; <a href=3D"http://email.nyandcompany.com/17da9d6cflayfou=
+ sibpkj5caaaaaabwrnm5ysr4moeqyaaaaa" style=3D"color:#000000;">Privacy poli=
+ cy<br>
+ <br>
+ </a></font><font color=3D"#666666" size=3D"1" face=3D"Helvetica, Verdana,=
+  sans-serif">New York & Company Corporate<br>
+ 450 West 33rd Street<br>
+ New York, NY 10001</font></td>
+ </tr>
+ </table></td>
+ </tr>
+ <tr>
+ <td><img src=3D"http://images.bfi0.com/creative/2011/nyco/jun/Welcome_Pro=
+ gram_Updated/images/spacer.gif" alt=3D"" width=3D"1" height=3D"1" border=3D=
+ "0" style=3D"display:block;"></td>
+ </tr>
+ </table></td>
+ </tr>
+ <tr>
+ <td align=3D"left" valign=3D"top"><table width=3D"619" border=3D"0" cells=
+ pacing=3D"0" cellpadding=3D"0" summary=3D"">
+ <tr>
+ <td><table width=3D"619" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+  summary=3D"">
+ <tr>
+ <td><table width=3D"620" border=3D"0" align=3D"center" cellpadding=3D"0" =
+ cellspacing=3D"0" summary=3D"">
+ </table></td>
+ </tr>
+ </table></td>
+ </tr>
+ </table>
+ <table width=3D"619" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sum=
+ mary=3D"">
+ <tr>
+ <td><table width=3D"619" border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+  summary=3D"">
+ <tr>
+ <td><table width=3D"620" border=3D"0" align=3D"center" cellpadding=3D"0" =
+ cellspacing=3D"0" summary=3D"">
+ </table></td>
+ </tr>
+ </table></td>
+ </tr>
+ </table>
+ <font color=3D"#666666" size=3D"1" face=3D"Helvetica, Verdana, sans-serif=
+ "><small><br>
+ </small></font><font color=3D"#666666" size=3D"1" face=3D"Helvetica, Verd=
+ ana, sans-serif"><small>**Subject to credit approval. Discount not valid =
+ on previous purchases.<br>
+ <br>
+ ***Subject to credit approval. The NY&C Rewards Program is provided by Ne=
+ w York & Company which is solely responsible for the Program operation. N=
+ ew York & Company may change the terms of the Program at any time, withou=
+ t notice. Not valid on previous purchases.<br>
+ <br>
+ ****Message and data rates apply. You are opting in to receive messages f=
+ rom NYSTYL 697895. Visit <A HREF=3D"http://email.nyandcompany.com/19ebde2=
+ 9blayfousibpkj5ciaaaaabwrnm5ysr4moeqyaaaaa">nystyl.com</A> =
+ 
+ for text FAQs. <br>
+ <br>
+ +FREE shipping offer can be combined with other offers and discounts. Val=
+ id online only at nyandcompany.com: choose standard shipping. Your shippi=
+ ng charges will be adjusted on the following page. This offer is good for=
+  standard shipping within the United States to the address in your order.=
+  If you choose next day or 2-day shipping, additional charges will apply.=
+  Qualifying amount applies to current merchandise purchase only (after di=
+ scounts), not previous purchases, gift boxes, packaging, taxes, shipping =
+ & handling, value of =
+ 
+ New York & Company Gift Cards or online gift certificates purchased. Not =
+ redeemable for cash nor accepted as payment for any credit card account. =
+ No adjustment on previous purchases. Offer is nontransferable without con=
+ sent from New York & Company. Not valid at New York & Company, New York &=
+  Company Accessory or New York & Company Outlet stores. Subject to credit=
+  approval. Cash value of 1/100 cent. Valid in USA only. </small></font> <=
+ br>
+ <font color=3D"#666666" size=3D"1" face=3D"Helvetica, Verdana, sans-serif=
+ "><small><br>
+ </small></font> </td>
+ </tr>
+ </table></td>
+ <td width=3D"10"><img src=3D"http://images.bfi0.com/creative/2011/nyco/ju=
+ n/Welcome_Program_Updated/images/spacer.gif" width=3D"15" height=3D"25" b=
+ order=3D"0" style=3D"display:block;" alt=3D""></td>
+ </tr>
+ </table></td>
+ </tr>
+ </table>
+ <IMG SRC=3D"http://email.nyandcompany.com/1301816eflayfor2iaxn2zjiaaaaabw=
+ rnm5ysr4moeqyaaaaa">
+ </body>
+ </html>
+ --ABCD-11879ca2alayfovciaxn2zjiaaaaabwrnm5ysr4moeqyaaaaa-EFGH--
+

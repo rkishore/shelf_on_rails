@@ -1,0 +1,940 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.36.197 with SMTP id s5cs28723vdj;
+         Mon, 12 Dec 2011 09:27:22 -0800 (PST)
+ Received: from mr.google.com ([10.68.72.67])
+         by 10.68.72.67 with SMTP id b3mr42459469pbv.48.1323710839579 (num_hops = 1);
+         Mon, 12 Dec 2011 09:27:19 -0800 (PST)
+ Received: by 10.68.72.67 with SMTP id b3mr35819560pbv.48.1323710839567;
+         Mon, 12 Dec 2011 09:27:19 -0800 (PST)
+ X-Forwarded-To: rootofsavvypurse@gmail.com
+ X-Forwarded-For: laurenjung1@gmail.com rootofsavvypurse@gmail.com
+ Delivered-To: laurenjung1@gmail.com
+ Received: by 10.68.55.167 with SMTP id t7cs96831pbp;
+         Mon, 12 Dec 2011 09:27:19 -0800 (PST)
+ Received: by 10.52.93.234 with SMTP id cx10mr10398638vdb.127.1323710837591;
+         Mon, 12 Dec 2011 09:27:17 -0800 (PST)
+ Return-Path: <bo-bwpmausbprcxt5au7wm9facsda7fae@b.e.jcrew.com>
+ Received: from mta622.e.jcrew.com (mta622.e.jcrew.com. [38.108.96.18])
+         by mx.google.com with ESMTP id d9si2956449vce.129.2011.12.12.09.27.17;
+         Mon, 12 Dec 2011 09:27:17 -0800 (PST)
+ Received-SPF: pass (google.com: domain of bo-bwpmausbprcxt5au7wm9facsda7fae@b.e.jcrew.com designates 38.108.96.18 as permitted sender) client-ip=38.108.96.18;
+ Authentication-Results: mx.google.com; spf=pass (google.com: domain of bo-bwpmausbprcxt5au7wm9facsda7fae@b.e.jcrew.com designates 38.108.96.18 as permitted sender) smtp.mail=bo-bwpmausbprcxt5au7wm9facsda7fae@b.e.jcrew.com; dkim=pass header.i=@e.jcrew.com
+ DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=e.jcrew.com;
+ 	s=20111006; t=1323710858; x=1339522058;
+ 	bh=ar1f1x3z0PF8VdKfoOyBj95ht14=; h=From:Reply-To;
+ 	b=QLCUCFKyN+dtmtRIi7dhtmIonZnaqUg/fyiO5O9sjPVOMWUd9o2JMjVRZq2w7cR+R
+ 	 Zl0guq12EkTx1bqr4EbO8Qd/RB9O+c4Ka2AC0BC05KbnEFAFz7y466zgSSFWJqLhhi
+ 	 LD/h38i7ZiG9vTk4BU4WJVdt9rFHsR30fv3Hea8s=
+ DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+   s=200505; d=e.jcrew.com;
+   b=q9omgbBQHqxpoSBMLPjN3OQ8AlvjfUWAeMiTKJcquLGAYmIlU+3R1S0ZNWdo2xUXlNsqWWsxbxDk/ypuASCDep/RGgckJRKMbDadxuCNJfMIaVfj290uMIc6ouD2xp8g+5vBClSry2AeDyUcNIsGW1CYJcE88LgXGBEgmXx1v0Y=;
+  h=Date:Message-ID:List-Unsubscribe:From:To:Subject:MIME-Version:Reply-To:Content-type;
+ Date: Mon, 12 Dec 2011 17:27:38 -0000
+ Message-ID: <bwpmausbprcxt5au7wm9facsda7fae.1812209018.6154@mta622.e.jcrew.com>
+ List-Unsubscribe: <mailto:rm-0bwpmausbprcxt5au7wm9facsda7fae@e.jcrew.com>
+ From: "J.Crew" <jcrew@e.jcrew.com>
+ To: laurenjung1@gmail.com
+ Subject: Special delivery: 25% OFF EVERY ONLINE ORDER, TODAY ONLY
+ MIME-Version: 1.0
+ Reply-To: "J.Crew" <support-bwpmausbprcxt5au7wm9facsda7fae@e.jcrew.com>
+ Content-type: multipart/alternative; boundary="=bwpmausbprcxt5au7wm9facsda7fae"
+ 
+ 
+ --=bwpmausbprcxt5au7wm9facsda7fae
+ Content-Type: text/plain; charset="iso-8859-1"
+ Content-transfer-encoding: 8bit
+ 
+ READY, SET, SHIP: JUST 8 DAYS LEFT FOR STANDARD HOLIDAY DELIVERY.* 
+ 
+ To brighten up your (holi)day...
+ 
+ 25% OFF
+ any order
+ JUST TODAY** 
+ 
+ Online only. Use code MERRY.
+ Shop for women, men, boys & girls. 
+ 
+ 
+ *Shipping to Alaska, Hawaii, Puerto Rico, APO/FPO, Canada 
+ and Japan cannot be guaranteed for holiday delivery (click here 
+ for shipping and handling details). 
+ 
+ **Offer valid on jcrew.com only. Offer not valid at J.Crew 
+ retail stores or J.Crew Factory stores. Offer does not apply 
+ to previous purchases, alterations or the purchase of gift cards. 
+ Offer not applicable on wedding or third-party branded merchandise. 
+ 25% discount applies to online orders before shipping, handling 
+ and taxes are added. Offer valid through Monday, December 12, 2011, 
+ 11:59pm ET. Savings are applied at checkout with code MERRY. Offer 
+ not valid on phone orders. Cannot be combined with any other promotion 
+ or redeemed for cash. Limit one promotional code per order. Details 
+ of offer are subject to change. 
+ 
+ 
+ Please add jcrew@e.jcrew.com to your address book to ensure
+ our emails reach your inbox. If you received this email from a
+ friend and would like to subscribe to our email list, click here. 
+ 
+ To unsubscribe from the email list, click here. 
+ 
+ J.Crew Customer Relations | One Ivy Crescent | Lynchburg, VA 24513-1001
+ 
+ --=bwpmausbprcxt5au7wm9facsda7fae
+ Content-Type: text/html; charset="iso-8859-1"
+ Content-Transfer-Encoding: quoted-printable
+ 
+ <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+ =3DISO-8859-1"></head><body onload=3D'' vlink=3D"#666666" alink=3D"#666666"=
+  link=3D"#666666" bgcolor=3D"#ffffff">=20
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ =20=20=20=20=20
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ <!-- Messages -->=20
+ 
+ 
+ 
+ <table width=3D"684" align=3D"center" border=3D"0" cellpadding=3D"0" cellsp=
+ acing=3D"0" style=3D"margin-bottom:10px;">=20
+ 
+ 
+ 
+ <tr>=20
+ 
+ 
+ 
+     <td align=3D"center">=20
+ 
+ 
+ 
+     <font style=3D"font-family: verdana, arial, helvetica, sans-serif; font=
+ -size: 10px; color: #71706c;">=20
+ 
+ 
+ 
+     <br />=20
+ 
+ 
+ 
+ =20=20=20=20
+ 
+ 
+ 
+     View this email on a <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5w=
+ HBsBB16VG/mobile?t_params=3DI_SOURCE%3D1%26EMAIL%3Dlaurenjung1%2540gmail.co=
+ m" style=3D"text-decoration:underline" target=3D"_blank">=20
+ 
+ 
+ 
+     <font color=3D"#71706C">mobile device</font></a>.<br />=20
+ 
+ 
+ 
+ =20=20=20=20=20=20
+ 
+ 
+ 
+     <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/index?d_sou=
+ rce=3DEMSL05239&email=3Dlaurenjung1@gmail.com" style=3D"text-decoration:und=
+ erline" target=3D"_blank">=20
+ 
+ 
+ 
+     <font color=3D"#71706C">TODAY ONLY: 25% off any order**</font></a><br /=
+ >=20
+ 
+ 
+ 
+ =20=20=20=20
+ 
+ 
+ 
+     If you can't see the images in this email,=20
+ 
+ 
+ 
+     <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/html?t_para=
+ ms=3DI_SOURCE%3D1%26EMAIL%3Dlaurenjung1%2540gmail.com" style=3D"text-decora=
+ tion:underline" target=3D"_blank">=20
+ 
+ 
+ 
+     <font color=3D"#71706C">click here</font></a>.
+ 
+ 
+ 
+ =20=20=20=20=20=20
+ 
+ 
+ 
+     </font>=20
+ 
+ 
+ 
+     </td>=20
+ 
+ 
+ 
+ </tr>=20
+ 
+ 
+ 
+ </table>=20
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ <!-- Content -->=20
+ 
+ 
+ 
+ <table width=3D"684" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" s=
+ tyle=3D"border:1px solid #cccccc; padding-top:0px; padding-right:10px; padd=
+ ing-bottom:10px; padding-left:10px; margin-bottom:10px">=20
+ 
+ 
+ 
+ <tr>=20
+ 
+ 
+ 
+     <td valign=3D"top" align=3D"center">=20
+ 
+ 
+ 
+     <!-- Header -->=20
+ 
+ 
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0">=20
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/ind=
+ ex?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_jcrew.g=
+ if" width=3D"664" height=3D"83" alt=3D"JCrew.com" border=3D"0" style=3D"dis=
+ play: block;"></a></td>=20
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+     </table>=20
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 	<!-- Navigation -->=20
+ 
+ 
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0" style=3D"margin-bottom:5px">=20
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/wom=
+ ens?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=
+ =20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_wome=
+ n.gif" width=3D"53" height=3D"29" alt=3D"Women" border=3D"0" style=3D"displ=
+ ay: block;" /></a></td>=20
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/men=
+ s?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_men.=
+ gif" width=3D"40" height=3D"29" alt=3D"Men" border=3D"0" style=3D"display: =
+ block;" /></a></td>=20
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/kid=
+ s?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_kids=
+ .gif" width=3D"41" height=3D"29" alt=3D"Kids" border=3D"0" style=3D"display=
+ : block;" /></a></td>=20
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/wed=
+ ding?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=
+ =20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_wedd=
+ ing.gif" width=3D"65" height=3D"29" alt=3D"Wedding" border=3D"0" style=3D"d=
+ isplay: block;" /></a></td>=20
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/sal=
+ e?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_sale=
+ .gif" width=3D"40" height=3D"29" alt=3D"Sale" border=3D"0" style=3D"display=
+ : block;" /></a></td>=20
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/gif=
+ tguide?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank=
+ ">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_gift=
+ _guide.gif" width=3D"87" height=3D"29" alt=3D"Sale" border=3D"0" style=3D"d=
+ isplay: block;" /></a></td>=20
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/ind=
+ ex?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_blank.g=
+ if" width=3D"219" height=3D"29" alt=3D"JCrew.com" border=3D"0" style=3D"dis=
+ play: block;" /></a></td>=20
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/fac=
+ ebook?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank"=
+ >=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_face=
+ book.gif" width=3D"22" height=3D"29" alt=3D"Facebook" border=3D"0" style=3D=
+ "display: block;" /></a></td>=20
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/twi=
+ tter?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com#!/JCrew_Insider?src=
+ Code=3DEMSL05239&em=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_twit=
+ ter.gif" width=3D"18" height=3D"29" alt=3D"Twitter" border=3D"0" style=3D"d=
+ isplay: block;" /></a></td>=20
+ 
+ 
+ 
+ =20=20=20=20=20=20=20=20
+ 
+ 
+ 
+         <td><a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/fwr=
+ dfrn?RAF_TRACK=3D&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/template/nav_gg_forw=
+ ard.gif" width=3D"79" height=3D"29" alt=3D"Forward" border=3D"0" style=3D"d=
+ isplay: block;" /></a></td>=20
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+     </table>=20
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ 	<!-- Main -->=20
+ 
+ 
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0">=20
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/index?d=
+ _source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121211_jc_25=
+ off_01_c.jpg" alt=3D"JCrew.com" width=3D"664" height=3D"428" border=3D"0" s=
+ tyle=3D"display: block;" />=20
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+     </table>=20=20=20=20=20=20=20=20
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0">=20
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/index?d=
+ _source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121211_jc_25=
+ off_02_b.jpg" alt=3D"JCrew.com" width=3D"246" height=3D"29" border=3D"0" st=
+ yle=3D"display: block;" />=20
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+         </td>=20
+ 
+         <td>=20
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/wnewarr=
+ iv?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121211_jc_25=
+ off_03_b.jpg" alt=3D"JCrew.com" width=3D"81" height=3D"29" border=3D"0" sty=
+ le=3D"display: block;" />=20
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+         </td>=20
+ 
+         <td>=20
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/mnewarr=
+ iv?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121211_jc_25=
+ off_04_b.jpg" alt=3D"JCrew.com" width=3D"54" height=3D"29" border=3D"0" sty=
+ le=3D"display: block;" />=20
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+         </td>=20
+ 
+         <td>=20
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/bnewarr=
+ iv?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121211_jc_25=
+ off_05_b.jpg" alt=3D"JCrew.com" width=3D"54" height=3D"29" border=3D"0" sty=
+ le=3D"display: block;" />=20
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+         </td>=20
+ 
+         <td>=20
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/index?d=
+ _source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121211_jc_25=
+ off_06_b.jpg" alt=3D"JCrew.com" width=3D"21" height=3D"29" border=3D"0" sty=
+ le=3D"display: block;" />=20
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+         </td>=20
+ 
+         <td>=20
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/gnewarr=
+ iv?d_source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121211_jc_25=
+ off_07_b.jpg" alt=3D"JCrew.com" width=3D"53" height=3D"29" border=3D"0" sty=
+ le=3D"display: block;" />=20
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+         </td>=20
+ 
+         <td>=20
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/index?d=
+ _source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121211_jc_25=
+ off_08_b.jpg" alt=3D"JCrew.com" width=3D"155" height=3D"29" border=3D"0" st=
+ yle=3D"display: block;" />=20
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+     </table>=20=20=20=20=20=20=20=20
+ 
+     <table width=3D"664" align=3D"center" cellpadding=3D"0" cellspacing=3D"=
+ 0" border=3D"0">=20
+ 
+ 
+ 
+     <tr>=20
+ 
+ 
+ 
+         <td>=20
+ 
+ 
+ 
+         <center>=20
+ 
+ 
+ 
+         <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/index?d=
+ _source=3DEMSL05239&email=3Dlaurenjung1@gmail.com" target=3D"_blank">=20
+ 
+ 
+ 
+         <img src=3D"http://images.jcrew.com/fsi/emails/2011/12/121211_jc_25=
+ off_09_b.jpg" alt=3D"JCrew.com" width=3D"664" height=3D"123" border=3D"0" s=
+ tyle=3D"display: block;" />=20
+ 
+ 
+ 
+         </a>=20
+ 
+ 
+ 
+         </center>=20
+ 
+ 
+ 
+         </td>=20
+ 
+ 
+ 
+     </tr>=20
+ 
+ 
+ 
+     </table>=20=20=20=20=20=20=20=20
+ 
+ 
+ 
+     </td>=20
+ 
+ 
+ 
+ </tr>=20
+ 
+ 
+ 
+ </table>=20
+ 
+ 
+ 
+ =20=20=20=20
+ 
+ 
+ 
+ <!-- Disclaimers -->=20
+ 
+ 
+ 
+ <table width=3D"675" align=3D"center" border=3D"0" cellpadding=3D"0" cellsp=
+ acing=3D"0">=20
+ 
+ 
+ 
+ <tr>=20
+ 
+ 
+ 
+     <td align=3D"center">=20
+ 
+ 
+ 
+     <font style=3D"font-family: verdana, arial, helvetica, sans-serif; font=
+ -size: 10px; color: #71706c;">=20
+ 
+ 
+ 
+ *Shipping to Alaska, Hawaii, Puerto Rico, APO/FPO, Canada and Japan cannot =
+ be guaranteed for holiday delivery (<a href=3D"http://e.jcrew.com/a/hBO5hSa=
+ BgTeL6B8e5wHBsBB16VG/shipinfo" target=3D"_blank">click here</a> for shippin=
+ g and handling details).
+ 
+ <br>
+ 
+ <br>
+ 
+ 
+ 
+ **Offer valid on jcrew.com only. Offer not valid at J.Crew retail stores or=
+  J.Crew Factory stores. Offer does not apply to previous purchases, alterat=
+ ions or the purchase of gift cards. Offer not applicable on wedding or thir=
+ d-party branded merchandise. 25% discount applies to online orders before s=
+ hipping, handling and taxes are added. Offer valid through Monday, December=
+  12, 2011, 11:59pm ET. Savings are applied at checkout with code MERRY. Off=
+ er not valid on phone orders. Cannot be combined with any other promotion o=
+ r redeemed for cash. Limit one promotional code per order. Details of offer=
+  are subject to change.=20
+ 
+ 
+ 
+ <br /><br />=20
+ 
+ 
+ 
+ =20=20=20=20
+ 
+ 
+ 
+     Please add <a href=3D"mailto:jcrew@e.jcrew.com" style=3D"text-decoratio=
+ n:none"><font color=3D"#71706C">jcrew@e.jcrew.com</font></a>=20
+ 
+ 
+ 
+     to your address book to ensure our emails reach your inbox.<br />=20
+ 
+ 
+ 
+     If you received this email from a friend and would like to subscribe to=
+  our email list,=20
+ 
+ 
+ 
+     <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/sub?d_sourc=
+ e=3DEMSL05239" style=3D"text-decoration:underline" target=3D"_blank">=20
+ 
+ 
+ 
+     <font color=3D"#71706C">click here</font></a>.<br />=20
+ 
+ 
+ 
+     <br />=20
+ 
+ 
+ 
+     If you wish to unsubscribe from all future emails, please=20
+ 
+ 
+ 
+     <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/unsub?d_sou=
+ rce=3DEMSL05239&Email=3Dlaurenjung1@gmail.com" style=3D"text-decoration:und=
+ erline" target=3D"_blank">=20
+ 
+ 
+ 
+     <font color=3D"#71706C">click here</font></a> or go to the following we=
+ b address &ndash;=20
+ 
+ 
+ 
+     <a href=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/unsub?d_sou=
+ rce=3DEMSL05239&Email=3Dlaurenjung1@gmail.com" style=3D"text-decoration:non=
+ e" target=3D"_blank">=20
+ 
+ 
+ 
+     <font color=3D"#71706C">https://www.jcrew.com/help/unsubscribe_non_reg_=
+ users.jsp?srcCode=3DEMSL05239&email=3Dlaurenjung1@gmail.com&brand=3Djcrew
+ 
+ 
+ 
+     </font></a>=20
+ 
+ 
+ 
+     <br /><br />=20
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+     This email may be considered an advertising or promotional message.<br =
+ />=20
+ 
+ 
+ 
+     <br />=20
+ 
+ 
+ 
+     J.Crew Customer Relations | One Ivy Crescent | Lynchburg, VA 24513-1001
+ 
+ 
+ 
+     </font>=20
+ 
+ 
+ 
+     </td>=20
+ 
+ 
+ 
+ </tr>=20
+ 
+ 
+ 
+ </table>=20
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ =20
+ 
+ 
+ 
+ <img src=3D"http://e.jcrew.com/a/hBO5hSaBgTeL6B8e5wHBsBB16VG/spacer.gif">
+ </body></html>=
+ 
+ 
+ --=bwpmausbprcxt5au7wm9facsda7fae--
+ 
+

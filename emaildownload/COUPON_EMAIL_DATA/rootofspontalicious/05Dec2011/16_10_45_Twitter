@@ -1,0 +1,261 @@
+ Delivered-To: rootofspontalicious@gmail.com
+ Received: by 10.182.175.7 with SMTP id bw7cs220977obc;
+         Mon, 5 Dec 2011 08:10:55 -0800 (PST)
+ Received: by 10.101.184.19 with SMTP id l19mr2003410anp.102.1323101453694;
+         Mon, 05 Dec 2011 08:10:53 -0800 (PST)
+ Return-Path: <twitter-bulkr-admin=spontalicious.com@postmaster.twitter.com>
+ Received: from mout.perfora.net (mout.perfora.net. [74.208.4.195])
+         by mx.google.com with ESMTP id v6si15164627yhk.33.2011.12.05.08.10.53;
+         Mon, 05 Dec 2011 08:10:53 -0800 (PST)
+ Received-SPF: fail (google.com: domain of twitter-bulkr-admin=spontalicious.com@postmaster.twitter.com does not designate 74.208.4.195 as permitted sender) client-ip=74.208.4.195;
+ Authentication-Results: mx.google.com; spf=hardfail (google.com: domain of twitter-bulkr-admin=spontalicious.com@postmaster.twitter.com does not designate 74.208.4.195 as permitted sender) smtp.mail=twitter-bulkr-admin=spontalicious.com@postmaster.twitter.com; dkim=pass header.i=@twitter.com
+ Received: from ham-cannon.twitter.com (ham-cannon.twitter.com [199.59.148.237])
+ 	by mx.perfora.net (node=mxus0) with ESMTP (Nemesis)
+ 	id 0M39GJ-1QgJkh1zWR-00sYtK for admin@spontalicious.com; Mon, 05 Dec 2011 11:10:52 -0500
+ X-DKIM: Sendmail DKIM Filter v2.8.2 541615104.twitter.com 41C535171119
+ DKIM-Signature: v=1; a=rsa-sha1; c=simple/simple; d=twitter.com; s=dkim;
+ 	t=1323101445; i=@twitter.com; bh=8G9pEPv1vNiwTKJPiSQSap7x/+M=;
+ 	h=From:To:Subject:MIME-Version:Content-Type:Date:Reply-To;
+ 	b=KULJ1OahBDrWSs8f36c2xk5thWXQfS8soxe7SAmgHwAo3BYfaBo0rimGDh+cmM1Jh
+ 	 H/sguHCJNE/NOv7lWzR0Fg2VRYDpqOXrI07nOEyWA5EPFYttklnZPwLXV/IKPLq6VG
+ 	 ZOxnoyglZhI+UTWcLXjLoH1k2XtogRa2CCfIE/z4=
+ X-DomainKeys: Sendmail DomainKeys Filter v1.0.2 541615104.twitter.com 41C535171119
+ DomainKey-Signature: a=rsa-sha1; s=default; d=twitter.com; c=simple; q=dns;
+ 	h=from:to:subject:mime-version:content-type:precedence:date;
+ 	b=T9yEDFG4oF0PyT0YtpzpZ4blvVuYNNx0GeQG5PDICjoVLeudKAw5ESH81Fc65+bk5
+ 	MqWNbdwb0ktR/swwTcM0g==
+ From: Twitter <twitter-bulkr-admin=spontalicious.com@postmaster.twitter.com>
+ To: Spontalicious <admin@spontalicious.com>
+ Message-Id: <1376618722.18502591323101445266.JavaMail.ibis@541615104.twitter.com>
+ Subject: Discover more on Twitter
+ MIME-Version: 1.0
+ Content-Type: multipart/alternative; 
+ 	boundary="----=_Part_1851964_2029999237.1323101445263"
+ Precedence: Bulk
+ Date: Mon,  5 Dec 2011 16:10:45 +0000 (UTC)
+ 
+ ------=_Part_1851964_2029999237.1323101445263
+ Content-Type: text/plain; charset=utf-8
+ Content-Transfer-Encoding: 7bit
+ 
+ Hey Spontalicious (@Spontalicious), Twitter has suggestions for you!
+ 
+ Did you know that Twitter generates personalized Who To Follow suggestions for you? Following the ones you like will help you stay informed on what matters most to you today and discover what might matter to you most tomorrow.
+ 
+ Curious to know who you're missing on Twitter right now?
+ View all suggestions for you: http://twitter.com/who_to_follow
+ 
+ Forgot your Twitter password?: http://twitter.com/account/resend_password
+ 
+ 
+ 
+ If you received this message in error and did not sign up for a Twitter account, click on the url below:
+ http://twitter.com/account/not_my_account/Spontalicious/CE4H3-535D8-132310
+ ------=_Part_1851964_2029999237.1323101445263
+ Content-Type: text/html; charset=utf-8
+ Content-Transfer-Encoding: quoted-printable
+ 
+ <html>
+  <head></head>
+  <body lang=3D"en" style=3D"padding: 0; margin: 0;">=20
+   <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"100%">=
+ =20
+    <tbody>
+     <tr>=20
+      <td style=3D"background-color:#e9eff2; padding: 30px 15px 0;">=20
+       <!-- Main Content -->
+       <!-- Footer -->
+       <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"cent=
+ er" width=3D"710" style=3D"font-family: 'Helvetica Neue', Helvetica, Arial,=
+  sans-serif; font-size: 16px; color: #333;">=20
+        <tbody>
+         <tr>=20
+          <td style=3D"background-color: #63839b;"> <a style=3D"color:#fffff=
+ f; display: block;" href=3D"http://twitter.com/?uid=3D415934134&amp;iid=3D1=
+ 58b23bb-61fb-46f7-b4a1-1d5f4969ece3&amp;nid=3D2+1+20111204"> <img alt=3D"Tw=
+ itter" height=3D"52" src=3D"http://a2.twimg.com/a/1308589877/images/email/e=
+ mail_header_710.png" style=3D"border: 0; display: block;" width=3D"710" /> =
+ </a> </td>=20
+         </tr>=20
+         <tr>=20
+          <td height=3D"1" style=3D"background-color: #60829c;"></td>=20
+         </tr>=20
+         <!-- Main Content -->=20
+         <tr>=20
+          <td style=3D"background-color: #fff; padding: 25px 40px 22px;">=20
+           <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+ 600" align=3D"center" style=3D"margin: 0 auto;" class=3D"header">=20
+            <tbody>
+             <tr>=20
+              <td height=3D"36" width=3D"540" valign=3D"middle" style=3D"pad=
+ ding: 0 0 25px;"> <h1 style=3D"font-weight: normal; font-size: 17px; line-h=
+ eight: 1.2; margin: 0;"> Hey <a href=3D"http://twitter.com/Spontalicious?ui=
+ d=3D415934134&amp;iid=3D158b23bb-61fb-46f7-b4a1-1d5f4969ece3&amp;nid=3D2+2+=
+ 20111204" style=3D"text-decoration: none; color: #333333"> <strong>Spontali=
+ cious</strong> <span style=3D"color: #5a7b93;">@Spontalicious</span></a>, T=
+ witter has suggestions for you! </h1> </td>=20
+             </tr>=20
+            </tbody>
+           </table>=20
+           <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+ 600" align=3D"center" style=3D"margin: 0 auto 25px;" class=3D"explanation">=
+ =20
+            <tbody>
+             <tr>=20
+              <td style=3D"font-size: 14px"> Did you know that Twitter gener=
+ ates personalized Who To Follow suggestions for you? Following the ones you=
+  like will help you stay informed on what matters the most to you today and=
+  discover what might matter to you tomorrow. </td>=20
+             </tr>=20
+            </tbody>
+           </table>=20
+           <table class=3D"suggestions" style=3D"background: #ecf2f5; -webki=
+ t-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; padding:=
+  15px;" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=20
+            <tbody>
+             <tr>=20
+              <td style=3D"padding: 0 50px;"> <a href=3D"http://twitter.com/=
+ LovelyButton?uid=3D415934134&amp;iid=3D158b23bb-61fb-46f7-b4a1-1d5f4969ece3=
+ &amp;nid=3D2+9+20111204" style=3D"text-decoration: none;">=20
+                <div style=3D"font-size: 13px; font-weight: bold; color: #33=
+ 3; text-decoration: none; margin-bottom: 5px;">
+                  Sarah Slowik=20
+                </div>=20
+                <div style=3D"color: #5a7b93; font-size: 12px; margin-bottom=
+ : 5px;">
+                  @LovelyButton=20
+                </div> <img alt=3D"" width=3D"80" height=3D"80" src=3D"http:=
+ //a3.twimg.com/profile_images/1243122929/64980015_bigger.jpg" style=3D"disp=
+ lay: block; border: none; margin-bottom: 5px;" />=20
+                <div style=3D"color: #5a7b93; font-size: 12px;">
+                 view profile =E2=86=92
+                </div> </a> </td>=20
+              <td style=3D"padding: 0 50px;"> <a href=3D"http://twitter.com/=
+ jimmykimmel?uid=3D415934134&amp;iid=3D158b23bb-61fb-46f7-b4a1-1d5f4969ece3&=
+ amp;nid=3D2+10+20111204" style=3D"text-decoration: none;">=20
+                <div style=3D"font-size: 13px; font-weight: bold; color: #33=
+ 3; text-decoration: none; margin-bottom: 5px;">
+                  Jimmy Kimmel=20
+                </div>=20
+                <div style=3D"color: #5a7b93; font-size: 12px; margin-bottom=
+ : 5px;">
+                  @jimmykimmel=20
+                </div> <img alt=3D"" width=3D"80" height=3D"80" src=3D"http:=
+ //a1.twimg.com/profile_images/1386119840/M205SURBC_bigger.jpg" style=3D"dis=
+ play: block; border: none; margin-bottom: 5px;" />=20
+                <div style=3D"color: #5a7b93; font-size: 12px;">
+                 view profile =E2=86=92
+                </div> </a> </td>=20
+              <td style=3D"padding: 0 50px;"> <a href=3D"http://twitter.com/=
+ CraigyFerg?uid=3D415934134&amp;iid=3D158b23bb-61fb-46f7-b4a1-1d5f4969ece3&a=
+ mp;nid=3D2+11+20111204" style=3D"text-decoration: none;">=20
+                <div style=3D"font-size: 13px; font-weight: bold; color: #33=
+ 3; text-decoration: none; margin-bottom: 5px;">
+                  Craig Ferguson=20
+                </div>=20
+                <div style=3D"color: #5a7b93; font-size: 12px; margin-bottom=
+ : 5px;">
+                  @CraigyFerg=20
+                </div> <img alt=3D"" width=3D"80" height=3D"80" src=3D"http:=
+ //a1.twimg.com/profile_images/1566724160/image_bigger.jpg" style=3D"display=
+ : block; border: none; margin-bottom: 5px;" />=20
+                <div style=3D"color: #5a7b93; font-size: 12px;">
+                 view profile =E2=86=92
+                </div> </a> </td>=20
+             </tr>=20
+            </tbody>
+           </table> </td>=20
+         </tr>=20
+         <!-- Footer -->=20
+         <tr>=20
+          <td style=3D"background-color: #fff; padding: 32px 40px 22px; bord=
+ er-top: 1px solid #E4ECF0;">=20
+           <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0">=20
+            <tbody>
+             <tr>=20
+              <td valign=3D"middle" style=3D"padding: 0 0 0 15px">=20
+               <table style=3D"background-color: #63839b;" cellpadding=3D"0"=
+  border=3D"0" cellspacing=3D"0">=20
+                <tbody>
+                 <tr>=20
+                  <td width=3D"1" height=3D"1" style=3D"background-color: #f=
+ ff;"></td>=20
+                  <td></td>=20
+                  <td width=3D"1" height=3D"1" style=3D"background-color: #f=
+ ff;"></td>=20
+                 </tr>=20
+                 <tr>=20
+                  <td></td>=20
+                  <td style=3D"padding: 5px;"> <a href=3D"http://twitter.com=
+ /who_to_follow?uid=3D415934134&amp;iid=3D158b23bb-61fb-46f7-b4a1-1d5f4969ec=
+ e3&amp;nid=3D2+4+20111204" style=3D"color: #fff; text-decoration: none; pad=
+ ding: 5px 13px; font-size: 16px; display: block;" class=3D"primary-action">=
+  View all suggestions for you </a> </td>=20
+                  <td></td>=20
+                 </tr>=20
+                 <tr>=20
+                  <td width=3D"1" height=3D"1" style=3D"background-color: #f=
+ ff;"></td>=20
+                  <td style=3D"background-color: #4e6f8A"></td>=20
+                  <td width=3D"1" height=3D"1" style=3D"background-color: #f=
+ ff;"></td>=20
+                 </tr>=20
+                </tbody>
+               </table> </td>=20
+              <td valign=3D"middle" style=3D"padding: 0 0 0 15px; font-size:=
+  15px;line-height: 19px"> <a href=3D"http://twitter.com/account/resend_pass=
+ word?uid=3D415934134&amp;iid=3D158b23bb-61fb-46f7-b4a1-1d5f4969ece3&amp;nid=
+ =3D2+5+20111204" style=3D"text-decoration: none; color: #666;" class=3D"sec=
+ ondary-action"> Forgot your Twitter password?<br /> <span style=3D"color: #=
+ 63839a;"><strong>Get instructions on how to reset it &raquo;</strong></span=
+ > </a> </td>=20
+             </tr>=20
+            </tbody>
+           </table> </td>=20
+         </tr>=20
+         <tr>=20
+          <td style=3D"padding: 0 0 10px 0; background-color: #fff; -webkit-=
+ border-bottom-right-radius: 8px; -webkit-border-bottom-left-radius: 8px; -m=
+ oz-border-radius-bottomright: 8px; -moz-border-radius-bottomleft: 8px; bord=
+ er-bottom-right-radius: 8px; border-bottom-left-radius: 8px;"></td>=20
+         </tr>=20
+         <tr>=20
+          <td> <img width=3D"1" height=3D"1" style=3D"display: block;" src=
+ =3D"http://twitter.com/scribe/ibis?uid=3D415934134&amp;iid=3D158b23bb-61fb-=
+ 46f7-b4a1-1d5f4969ece3&amp;nid=3D2+0+20111204" />=20
+           <div style=3D"padding: 0 5px;">=20
+            <div style=3D"height: 2px; line-height: 2px; font-size: 2px; bac=
+ kground-color: #e2e7e7; clear: both; -webkit-border-bottom-right-radius: 5p=
+ x; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: =
+ 5px; -moz-border-radius-bottomleft: 5px; border-bottom-right-radius: 5px; b=
+ order-bottom-left-radius: 5px;"></div>=20
+           </div> </td>=20
+         </tr>=20
+         <tr>=20
+          <td style=3D"font-size: 11px; line-height: 16px; color: #aaa; padd=
+ ing: 25px 40px;"> If you'd rather not receive Twitter product or service up=
+ dates, you can <a href=3D"http://twitter.com/i/o?uid=3D415934134&amp;iid=3D=
+ 158b23bb-61fb-46f7-b4a1-1d5f4969ece3&amp;nid=3D2+7+20111204&amp;sig=3D6e379=
+ bd120a744250f28045d3ed14b6184998e83" style=3D"color: #6d90a9; text-decorati=
+ on: none;" class=3D"unsubscribe-link">unsubscribe</a> immediately. Please d=
+ o not reply to this message; it was sent from an unmonitored email address.=
+  This message is a service email related to your use of Twitter. For genera=
+ l inquiries or to request support with your Twitter account, please visit u=
+ s at <a href=3D"http://support.twitter.com/" style=3D"color: #6d90a9; text-=
+ decoration: none;">Twitter Support</a>. If you received this message in err=
+ or and did not sign up for a Twitter account, click <a href=3D"http://twitt=
+ er.com/account/not_my_account/Spontalicious/CE4H3-535D8-132310?uid=3D415934=
+ 134&amp;iid=3D158b23bb-61fb-46f7-b4a1-1d5f4969ece3&amp;nid=3D2+6+20111204" =
+ style=3D"color: #6d90a9; text-decoration: none;">not my account</a>. </td>=
+ =20
+         </tr>=20
+        </tbody>
+       </table> </td>=20
+     </tr>=20
+    </tbody>
+   </table>  =20
+  </body>
+ </html>
+ ------=_Part_1851964_2029999237.1323101445263--
+ 
+
