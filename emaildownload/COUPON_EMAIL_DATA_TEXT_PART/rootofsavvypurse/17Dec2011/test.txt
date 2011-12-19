@@ -1,0 +1,4 @@
+<user@example.com>
+<someone_else@example.com>
+Test message
+Body would go here
