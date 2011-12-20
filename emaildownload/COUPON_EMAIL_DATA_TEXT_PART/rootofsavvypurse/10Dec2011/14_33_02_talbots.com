@@ -1,7 +1,8 @@
-"talbots.com" <talbots@e.talbots.com>
-rootofsavvypurse@gmail.com
-Did You Get That Gift? How About 40% Off?
-
+FROM: "talbots.com" <talbots@e.talbots.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Did You Get That Gift? How About 40% Off?
+DATE: Sat, 10 Dec 2011 14:33:02 -0000
+BODY: 
 *********************************************************************
 
 TALBOTS

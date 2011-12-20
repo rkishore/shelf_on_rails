@@ -1,7 +1,8 @@
-"UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
-laurenjung1@gmail.com
-Is it fun in here, or is it just us?
-
+FROM: "UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
+TO: laurenjung1@gmail.com
+SUBJECT: Is it fun in here, or is it just us?
+DATE: Wed, 14 Dec 2011 18:53:28 -0000
+BODY: 
 Having trouble viewing the email below? Please click here.
 http://email.urbanoutfitters.com/a/tBO6MR9AwP--EB8e87TBQrFWO.AwP--Evz/html?RAF_TRACK=&email=laurenjung1@gmail.com
 

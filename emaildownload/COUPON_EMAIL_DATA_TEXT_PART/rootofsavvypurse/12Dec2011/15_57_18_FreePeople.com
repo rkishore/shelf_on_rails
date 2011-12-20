@@ -1,7 +1,8 @@
-"FreePeople.com" <freepeople@email.freepeople.com>
-rootofsavvypurse@gmail.com
-Viva Vivid!
-
+FROM: "FreePeople.com" <freepeople@email.freepeople.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Viva Vivid!
+DATE: Mon, 12 Dec 2011 15:57:18 -0000
+BODY: 
 Please click here to view the HTML version.
 http://email.freepeople.com/a/tBO5h8lA-QL1tB8e86dNshednwT/html?RAF_TRACK=&email=rootofsavvypurse@gmail.com
 

@@ -1,7 +1,8 @@
-"BananaRepublic.com" <custserv@bananarepublic4.delivery.net>
-rootofsavvypurse@gmail.com
-Welcome! Enjoy 15% off + FREE Shipping Every Day at BananaRepublic.com
-WELCOME TO BANANAREPUBLIC.COM - You'll now receive updates about our=20
+FROM: "BananaRepublic.com" <custserv@bananarepublic4.delivery.net>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Welcome! Enjoy 15% off + FREE Shipping Every Day at BananaRepublic.com
+DATE: Wed, 7 Dec 2011 20:56:35 -0800 (PST)
+BODY: WELCOME TO BANANAREPUBLIC.COM - You'll now receive updates about our=20
 new collections, upcoming sale events and more. As our welcome gift=20
 to you please enjoy 15% off your next online purchase. To redeem=20
 this special offer, enter the promo code below.*

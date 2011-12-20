@@ -1,7 +1,8 @@
-"UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
-laurenjung1@gmail.com
-This Weekend Only: Free Shipping! No Minimum, No Code...
-
+FROM: "UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
+TO: laurenjung1@gmail.com
+SUBJECT: This Weekend Only: Free Shipping! No Minimum, No Code...
+DATE: Fri, 9 Dec 2011 19:04:50 -0000
+BODY: 
 Having trouble viewing the email below? Please click here.
 http://email.urbanoutfitters.com/a/tBO4hkSAwP--EB8e2PgBQrFWO.AwP--EFU/html?RAF_TRACK=&email=laurenjung1@gmail.com
 

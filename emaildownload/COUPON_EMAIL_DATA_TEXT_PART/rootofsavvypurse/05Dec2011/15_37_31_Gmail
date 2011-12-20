@@ -1,7 +1,8 @@
-Gmail Team <mail-noreply@google.com>
-rootofsavvypurse@gmail.com
-Gmail Forwarding Confirmation (#81487654) - Receive Mail from keyshawn@gmail.com
-keyshawn@gmail.com has requested to automatically forward mail to your email
+FROM: Gmail Team <mail-noreply@google.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Gmail Forwarding Confirmation (#81487654) - Receive Mail from keyshawn@gmail.com
+DATE: Mon, 5 Dec 2011 15:37:31 -0500
+BODY: keyshawn@gmail.com has requested to automatically forward mail to your email
 address rootofsavvypurse@gmail.com.
 Confirmation code: 81487654
 

@@ -1,7 +1,8 @@
-"Express" <express@e.express.com>
-laurenjung1@gmail.com
-Your Favorites Are Waiting In Your Shopping Bag!
-EXPRESS
+FROM: "Express" <express@e.express.com>
+TO: laurenjung1@gmail.com
+SUBJECT: Your Favorites Are Waiting In Your Shopping Bag!
+DATE: Sun, 18 Dec 2011 19:02:03 -0000
+BODY: EXPRESS
 http://e.express.com/a/tBO7jg1AotaxMB8eunXCkQEbScZ/logo
 
 If you would like to view this e-mail with images, please click the

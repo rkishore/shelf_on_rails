@@ -1,7 +1,8 @@
-"talbots.com" <talbots@e.talbots.com>
-rootofsavvypurse@gmail.com
-Baby, It's Cold Outside. Take 40% Off!
-
+FROM: "talbots.com" <talbots@e.talbots.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Baby, It's Cold Outside. Take 40% Off!
+DATE: Wed, 14 Dec 2011 15:16:30 -0000
+BODY: 
 *********************************************************************
 
 TALBOTS

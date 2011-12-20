@@ -1,7 +1,8 @@
-Gmail Team <mail-noreply@google.com>
-Savvy Purse <rootofsavvypurse@gmail.com>
-Get Gmail on your mobile phone
- [image: Access Gmail on your mobile phone]
+FROM: Gmail Team <mail-noreply@google.com>
+TO: Savvy Purse <rootofsavvypurse@gmail.com>
+SUBJECT: Get Gmail on your mobile phone
+DATE: Mon, 5 Dec 2011 11:51:22 -0800
+BODY:  [image: Access Gmail on your mobile phone]
 <http://www.google.com/intl/en/mobile/default/mail.html>
 
 The days of needing your computer to get to your inbox are long gone. You

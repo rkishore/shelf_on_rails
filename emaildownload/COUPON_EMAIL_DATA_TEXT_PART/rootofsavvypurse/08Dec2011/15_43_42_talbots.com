@@ -1,7 +1,8 @@
-"talbots.com" <talbots@e.talbots.com>
-rootofsavvypurse@gmail.com
-Starts Today! 40% Off Online + In Stores.
-
+FROM: "talbots.com" <talbots@e.talbots.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Starts Today! 40% Off Online + In Stores.
+DATE: Thu, 8 Dec 2011 15:43:42 -0000
+BODY: 
 *********************************************************************
 
 TALBOTS

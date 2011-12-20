@@ -1,4 +1,3 @@
-<user@example.com>
-<someone_else@example.com>
-Test message
-Body would go here
+FROM: <user@example.com>
+TO: <someone_else@example.com>
+SUBJECT: Test message

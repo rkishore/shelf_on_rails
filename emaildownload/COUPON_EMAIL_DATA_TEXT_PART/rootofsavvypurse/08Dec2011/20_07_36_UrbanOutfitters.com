@@ -1,7 +1,8 @@
-"UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
-laurenjung1@gmail.com
-Up To 70% Off - In Stores & Online!
-
+FROM: "UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
+TO: laurenjung1@gmail.com
+SUBJECT: Up To 70% Off - In Stores & Online!
+DATE: Thu, 8 Dec 2011 20:07:36 -0000
+BODY: 
 Having trouble viewing the email below? Please click here.
 http://email.urbanoutfitters.com/a/tBO4NWiAwP--EB8e4tkBQrFWO.AwP--EXS/html?RAF_TRACK=&email=laurenjung1@gmail.com
 

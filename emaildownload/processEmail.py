@@ -29,10 +29,11 @@ def process_file(src_filename, dst_filename):
         if part.get_content_type() == 'text/plain':
             print part.get_payload()
             FILE_OUTPUT = open(dst_filename, "w")
-            FILE_OUTPUT.write(msg['From'] + "\n")
-            FILE_OUTPUT.write(msg['To'] + "\n")
-            FILE_OUTPUT.write(msg['Subject'] + "\n")
-            FILE_OUTPUT.write(part.get_payload())
+            FILE_OUTPUT.write("FROM: " + msg['From'] + "\n")
+            FILE_OUTPUT.write("TO: " + msg['To'] + "\n")
+            FILE_OUTPUT.write("SUBJECT: " + msg['Subject'] + "\n")
+            FILE_OUTPUT.write("DATE: " + msg['Date'] + "\n")
+            FILE_OUTPUT.write("BODY: " + part.get_payload())
             FILE_OUTPUT.close()
         
 def create_dir(dir_name):

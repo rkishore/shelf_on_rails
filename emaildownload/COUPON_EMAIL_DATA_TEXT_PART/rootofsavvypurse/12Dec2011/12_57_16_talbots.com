@@ -1,7 +1,8 @@
-"talbots.com" <talbots@e.talbots.com>
-rootofsavvypurse@gmail.com
-Free Shipping All Day + 40% Off.
-
+FROM: "talbots.com" <talbots@e.talbots.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Free Shipping All Day + 40% Off.
+DATE: Mon, 12 Dec 2011 12:57:16 -0000
+BODY: 
 *********************************************************************
 
 TALBOTS

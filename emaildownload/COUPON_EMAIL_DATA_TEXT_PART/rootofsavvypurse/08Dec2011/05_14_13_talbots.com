@@ -1,7 +1,8 @@
-"talbots.com" <talbots@e.talbots.com>
-rootofsavvypurse@gmail.com
-Your first Talbots email will arrive soon!
-*********************************************************************
+FROM: "talbots.com" <talbots@e.talbots.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Your first Talbots email will arrive soon!
+DATE: Thu, 8 Dec 2011 05:14:13 -0000
+BODY: *********************************************************************
 
 TALBOTS
 

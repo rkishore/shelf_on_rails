@@ -1,7 +1,8 @@
-Gmail Team <mail-noreply@google.com>
-rootofsavvypurse@gmail.com
-Gmail Forwarding Confirmation (#55707444) - Receive Mail from atul.singh@gmail.com
-atul.singh@gmail.com has requested to automatically forward mail to your email
+FROM: Gmail Team <mail-noreply@google.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Gmail Forwarding Confirmation (#55707444) - Receive Mail from atul.singh@gmail.com
+DATE: Mon, 5 Dec 2011 14:52:11 -0500
+BODY: atul.singh@gmail.com has requested to automatically forward mail to your email
 address rootofsavvypurse@gmail.com.
 Confirmation code: 55707444
 

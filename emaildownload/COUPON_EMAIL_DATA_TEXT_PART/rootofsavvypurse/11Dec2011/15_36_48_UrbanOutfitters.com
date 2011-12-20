@@ -1,7 +1,8 @@
-"UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
-laurenjung1@gmail.com
-On Their List...
-
+FROM: "UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
+TO: laurenjung1@gmail.com
+SUBJECT: On Their List...
+DATE: Sun, 11 Dec 2011 15:36:48 -0000
+BODY: 
 Having trouble viewing the email below? Please click here.
 http://email.urbanoutfitters.com/a/tBO5JtEAwP--EB8e2v2BQrFWO.AwP--EfS/html?RAF_TRACK=&email=laurenjung1@gmail.com
 

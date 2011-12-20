@@ -1,7 +1,8 @@
-Gmail Team <mail-noreply@google.com>
-rootofsavvypurse@gmail.com
-Gmail Forwarding Confirmation (#89400088) - Receive Mail from laurenjung1@gmail.com
-laurenjung1@gmail.com has requested to automatically forward mail to your email
+FROM: Gmail Team <mail-noreply@google.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Gmail Forwarding Confirmation (#89400088) - Receive Mail from laurenjung1@gmail.com
+DATE: Mon, 5 Dec 2011 21:25:23 -0500
+BODY: laurenjung1@gmail.com has requested to automatically forward mail to your email
 address rootofsavvypurse@gmail.com.
 Confirmation code: 89400088
 

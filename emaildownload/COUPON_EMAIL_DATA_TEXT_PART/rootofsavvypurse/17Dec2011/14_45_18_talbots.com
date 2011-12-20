@@ -1,7 +1,8 @@
-"talbots.com" <talbots@e.talbots.com>
-rootofsavvypurse@gmail.com
-Share the Cheer With 40% Off.
-
+FROM: "talbots.com" <talbots@e.talbots.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Share the Cheer With 40% Off.
+DATE: Sat, 17 Dec 2011 14:45:18 -0000
+BODY: 
 *********************************************************************
 
 TALBOTS

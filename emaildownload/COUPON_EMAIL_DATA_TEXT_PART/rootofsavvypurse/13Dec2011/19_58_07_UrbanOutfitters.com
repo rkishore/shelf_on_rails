@@ -1,7 +1,8 @@
-"UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
-laurenjung1@gmail.com
-It's Back: Take 20% Off!
-
+FROM: "UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
+TO: laurenjung1@gmail.com
+SUBJECT: It's Back: Take 20% Off!
+DATE: Tue, 13 Dec 2011 19:58:07 -0000
+BODY: 
 Having trouble viewing the email below? Please click here.
 http://email.urbanoutfitters.com/a/tBO52dGAwP--EB8e8-XBQrFWO.AwP--E1K/html?RAF_TRACK=&email=laurenjung1@gmail.com
 

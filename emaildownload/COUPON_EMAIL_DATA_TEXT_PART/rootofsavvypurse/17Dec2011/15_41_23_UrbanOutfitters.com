@@ -1,7 +1,8 @@
-"UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
-laurenjung1@gmail.com
-$29 Sweaters (Because it's cold outside!)
-
+FROM: "UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
+TO: laurenjung1@gmail.com
+SUBJECT: $29 Sweaters (Because it's cold outside!)
+DATE: Sat, 17 Dec 2011 15:41:23 -0000
+BODY: 
 Having trouble viewing the email below? Please click here.
 http://email.urbanoutfitters.com/a/tBO7IRFAwP--EB8e$sQBQrFWO.AwP--EkQ/html?RAF_TRACK=&email=laurenjung1@gmail.com
 

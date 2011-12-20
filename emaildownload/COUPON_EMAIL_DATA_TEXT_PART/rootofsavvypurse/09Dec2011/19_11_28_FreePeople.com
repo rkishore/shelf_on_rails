@@ -1,7 +1,8 @@
-"FreePeople.com" <freepeople@email.freepeople.com>
-rootofsavvypurse@gmail.com
-Flirty Dresses...
-
+FROM: "FreePeople.com" <freepeople@email.freepeople.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Flirty Dresses...
+DATE: Fri, 9 Dec 2011 19:11:28 -0000
+BODY: 
 Please click here to view the HTML version.
 http://email.freepeople.com/a/tBO4lFRA-QL1tB8e7JxNshednKE/html?RAF_TRACK=&email=rootofsavvypurse@gmail.com
 

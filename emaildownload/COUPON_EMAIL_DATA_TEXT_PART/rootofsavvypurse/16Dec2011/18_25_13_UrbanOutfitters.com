@@ -1,7 +1,8 @@
-"UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
-laurenjung1@gmail.com
-Only 8 Days Left!
-
+FROM: "UrbanOutfitters.com" <urbanoutfitters@email.urbanoutfitters.com>
+TO: laurenjung1@gmail.com
+SUBJECT: Only 8 Days Left!
+DATE: Fri, 16 Dec 2011 18:25:13 -0000
+BODY: 
 Having trouble viewing the email below? Please click here.
 http://email.urbanoutfitters.com/a/tBO60awAwP--EB8e$ZEBQrFWO.AwP--EkP/html?RAF_TRACK=&email=laurenjung1@gmail.com
 

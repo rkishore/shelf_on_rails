@@ -1,7 +1,8 @@
-"FreePeople.com" <freepeople@email.freepeople.com>
-rootofsavvypurse@gmail.com
-Welcome and a Treat!
-
+FROM: "FreePeople.com" <freepeople@email.freepeople.com>
+TO: rootofsavvypurse@gmail.com
+SUBJECT: Welcome and a Treat!
+DATE: Thu, 8 Dec 2011 14:01:39 -0000
+BODY: 
 Please click here to view the HTML version.
 http://email.freepeople.com/a/tBO4MLjA-QL1tB8dUKUNshednFZ/html?RAF_TRACK=&email=rootofsavvypurse@gmail.com
 
