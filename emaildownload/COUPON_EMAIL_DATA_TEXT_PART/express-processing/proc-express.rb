@@ -12,7 +12,7 @@ require 'uri'
 
 class CouponInfo
 
-  attr_accessor :brand, :subject, :discount, :code
+  attr_accessor :brand, :subject, :proc_subject, :body, :proc_body
   
   #def initialize(ibrand, idiscount, icode)
   #  @brand = ibrand
@@ -38,7 +38,7 @@ def open_file
   # Format filename for printing
   @fileNs = fileN.split("/")
   fileNs_len = @fileNs.length
-  #print @fileNs[fileNs_len-2], "/", @fileNs[fileNs_len-1], "\t| "
+  print @fileNs[fileNs_len-2], "/", @fileNs[fileNs_len-1], "\n"
 
   fileO = File.open(fileN, 'r')
 
@@ -69,6 +69,82 @@ def proc_email_hdrs(filePtr, coupon_obj)
   
 end
 
+def replace_tags(coupon_obj)
+
+  shipping_regex  = /free shipping/i
+  discount_regex = /(\w*[%] Off!*|[$]\w* Off(!*|\**))/i  
+  validity_regex = /(Last day!*|Today only!*|\w days only!*|limited time only!*)/i
+  avail_regex = /(in-store & online|in-store only|online only)/i
+  code_regex = /online promo code:*/i
+
+  s1 = coupon_obj.subject.as_utf8.gsub(shipping_regex, "<SHIPPING>")  
+  s2 = s1.to_s.as_utf8.gsub(discount_regex, "<DISCOUNT>")
+  s3 = s2.to_s.as_utf8.gsub(avail_regex, "<AVAIL>")
+  s4 = s3.to_s.as_utf8.gsub(code_regex, "<CODE>")
+  coupon_obj.proc_subject = s4.to_s.as_utf8.gsub(validity_regex, "<VALIDITY>")
+  
+  puts coupon_obj.subject
+
+  coupon_obj.body.each do |line|    
+    r1 = line.gsub(shipping_regex, "<SHIPPING>")  
+    r2 = r1.to_s.gsub(discount_regex, "<DISCOUNT>")
+    r3 = r2.to_s.gsub(validity_regex, "<VALIDITY>")
+    r4 = r3.to_s.gsub(avail_regex, "<AVAIL>")
+    r5 = r4.to_s.gsub(code_regex, "<CODE>")
+
+    coupon_obj.proc_body.push(r5)
+  end
+
+  coupon_obj.body.each do |line|    
+    puts line
+  end
+
+  puts ""
+
+end
+
+def replace_shipping_tag(coupon_obj)
+  
+  #shipping_regex  = /^(\s|\S)*free shipping(\s|\S)*$/i
+  shipping_regex  = /free shipping/i
+  coupon_obj.proc_subject = coupon_obj.subject.as_utf8.gsub(shipping_regex, "<SHIPPING>")  
+
+  coupon_obj.proc_body.each do |line|    
+    line = line.gsub(shipping_regex, "<SHIPPING>")  
+  end
+
+  #printf("%s | %s \n", coupon_obj.subject, coupon_obj.proc_subject)
+  
+end
+
+def replace_discount_tag(coupon_obj)
+  
+  discount_regex = /(\w*[%] Off!*|[$]\w* Off(!*|\**))/i  
+  item_discount_regex = /Buy One, Get One/i
+  coupon_obj.proc_subject = coupon_obj.proc_subject.as_utf8.gsub(discount_regex, "<DISCOUNT>")
+
+  coupon_obj.proc_body.each do |line|    
+    line = line.gsub(discount_regex, "<DISCOUNT>")  
+  end
+
+  #coupon_obj.proc_subject = coupon_obj.proc_subject.as_utf8.gsub(item_discount_regex, "<ITEM_DISCOUNT>")
+
+  #printf("%s | %s \n", coupon_obj.subject, coupon_obj.proc_subject)
+end
+
+def replace_validity_tag(coupon_obj)
+  
+  validity_regex = /(Last day!*|Today only!*|\w days only!*)/i
+  coupon_obj.proc_subject = coupon_obj.proc_subject.as_utf8.gsub(validity_regex, "<VALIDITY>")
+
+  printf("%s\n", coupon_obj.proc_subject)
+  coupon_obj.proc_body.each do |line|    
+    line = line.gsub(validity_regex, "<VALIDITY>")  
+    puts line
+  end
+    
+end
+
 def proc_email_body(filePtr, coupon_obj)
 
   dashline_regex = /^-+$/
@@ -76,10 +152,6 @@ def proc_email_body(filePtr, coupon_obj)
 
   body_entry = 0
   body_exit = 0
-
-  puts ""
-  puts "Subject: " + coupon_obj.subject
-  puts "Relevant Email Body: "
 
   filePtr.each do |line|
     
@@ -118,14 +190,21 @@ def proc_email_body(filePtr, coupon_obj)
            !(line_utf8 =~ express_specific_regex) and 
            (line_utf8.include?("Text MOBILE") == false) and 
            (line_utf8.include?("Data Rates") == false) )
-        puts line_utf8
+        coupon_obj.body.push(line_utf8)
+        #puts line_utf8
       end
       
     end
     
   end
+  
+  replace_tags(coupon_obj)
 
-  puts ""
+  #replace_shipping_tag(coupon_obj)
+  #replace_discount_tag(coupon_obj)
+  #replace_validity_tag(coupon_obj)
+  
+  #puts coupon_obj.body
 
 end
 
@@ -134,6 +213,8 @@ if __FILE__ == $0
   
   # Instantiate coupon object
   coupon = CouponInfo.new
+  coupon.body = Array.new
+  coupon.proc_body = Array.new
 
   # Open file
   fileP = open_file
@@ -144,7 +225,7 @@ if __FILE__ == $0
   # Process email body
   proc_email_body(fileP, coupon)
 
-
+  # Process fineprint
 
 end 
 
@@ -152,7 +233,5 @@ end
 
 # Coupon code parsing
 # code_regex = /promo code(.*)|Use code(.*)|offer code(.*)|enter code(.*)/i 
-#print "Code: "
 
-#print "|\n"
 
