@@ -8,6 +8,7 @@ import re
 # - applicability
 # - type
 class Coupon:
+    
     def __init__(self, store_name, date_issued):
         self.store_name = store_name
         self.date_issued = date_issued
