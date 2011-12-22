@@ -22,42 +22,50 @@
     free_returns_dollar_qualifier, fixed_return_rate, standard_return_rate'''
 
 
-#coupon1_stw = {"store": "JCrew", "discount": "0.3", 
+#coupon1 = {"store": "JCrew", "discount": "0.3", 
 #              "category": "1", "FREE_SHIPPING": "1", "QUALIFIER": "50", "CODE": "SNOWMAN"}
 
 
-coupon1_stw = {"store": "JCrew", 
-               "stw_discount": 0.3, "stw_discount_perc_code": "CODE1",
-               "add_stw_discount": 0.2, "add_stw_discount_perc_code": "CODE2",
-               "item_cat": "MENS-SHIRT", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
-               "stw_discount_dollars": 25, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
-               "free_shipping_dollar_qualifier": 100, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
-               "free_returns_dollar_qualifier": 100, "discount_return_rate": "None", "standard_return_rate": 10
-               }
+coupon_jcrew = {"store": "JCrew", 
+                "stw_discount": 0.3, "stw_discount_perc_code": "CODE1",
+                "add_stw_discount": 0.2, "add_stw_discount_perc_code": "CODE2",
+                "item_cat": "MENS-SHIRT", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 25, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": 100, "discount_return_rate": "None", "standard_return_rate": 10
+                }
 
                
-               
-              
-
-
-
 # Item = ["store name", "category", "price", "sale price"]
 # Men
-item1 = {"store": "JCrew", "category": "MENS-SHIRT", "price": 49.99, "sale_price": "None"}
+item1 = {"store": "JCrew", "category": "MENS-SHIRT", "price": 49.99, "sale_price": 49.99}
 # Women
 item2 = {"store": "JCrew", "category": "PANT", "price": 59.99, "sale_price": 39.99}
 
 DEFAULT_SHIPPING_COST = 10 # Placeholder: Need to dynamically determine shipping cost    
 
-def check_shipping(coupon, total_item_cost):
-    if (coupon1["FREE_SHIPPING"] == "1"):
-        if ( total_item_cost >= float(coupon1["QUALIFIER"]) ):
-            print "DBG: Free shipping! Yay!"
-            shipping_cost = 0
+def aggregate_discount_check(coupon, total_price):
+    
+    if coupon["stw_discount_dollars"] > 0:
+        if total_price > coupon["stw_discount_dollars_lower_bound"]:
+            total_price -= coupon["stw_discount_dollars"]
+            print "DBG: total price reduced to " + str(total_price)
         else:
-            print "DBG: Sorry, no Free Shipping"
-            shipping_cost = DEFAULT_SHIPPING_COST         
-        return shipping_cost
+            print "DBG: Sorry. Buy for " + str(coupon["stw_discount_dollars_lower_bound"]-total_price) + "to get additional " + str(coupon["stw_discount_dollars"]) + " discount!" 
+    else:
+        print "DBG: Sorry. No $X with $Y style discounts right now"
+
+    return total_price
+            
+
+def check_shipping(coupon, total_price):
+    if (total_price >= coupon["free_shipping_dollar_qualifier"]):
+        print "DBG: Free shipping! Yay!"
+        shipping_cost = 0
+    else:
+        print "DBG: Sorry, no Free Shipping"
+        shipping_cost = DEFAULT_SHIPPING_COST         
+    return shipping_cost
 
 def base_price(item1, item2):
     shipping_cost = DEFAULT_SHIPPING_COST
@@ -73,7 +81,7 @@ def apply_discount(disc, price):
     val = float(disc)
     p = float(price)
     res = p - p * val
-    print "DBG: Discount: " + disc + " Base price " + price + " Sale price: " + str(res)
+    print "DBG: Discount: " + str(disc) + " Base price " + str(price) + " Sale price: " + str(res)
     return res
 
 def match(coupon, item):
@@ -81,29 +89,32 @@ def match(coupon, item):
     # same store
     if item["store"] == coupon["store"]:
         
-        # first check the stw
+        # First check store-wide discounts
+        if coupon["stw_discount"] > 0: # and coupon["stw_discount_flag"] == 0:
+            item["sale_price"] = apply_discount(coupon["stw_discount"], item["price"])
+            
+            if coupon["add_stw_discount"] > 0:  # and coupon["add_stw_discount_flag"] == 0:
+                item["sale_price"] = apply_discount(coupon["add_stw_discount"], item["sale_price"])
+          
         # same category
-        if (category_match(coupon["category"], item["category"])):
-            # now check if sale price exists
-            if item["sale_price"] == "None":
-                item["sale_price"] = apply_discount(coupon["discount"], item["price"])
-            else:
-                print "DBG: A discount has been already applied, need to check if two coupons can be combined"   
-    
+        if (category_match(coupon["item_cat"], item["category"])):
+            item["sale_price"] = apply_discount(coupon["buy1_get1_discount_perc"], item["sale_price"])
+                    
     return True
 
 
 if __name__ == "__main__":
     
-    match(coupon1, item1)
-    match(coupon1, item2)
+    base = base_price(item1, item2)
+
+    match(coupon_jcrew, item1)
+    match(coupon_jcrew, item2)
 
     total_price = float(item1["sale_price"]) + float(item2["sale_price"])
-
-    base = base_price(item1, item2)
     print "DBG: Total item price: " + str(total_price)
 
-    shipping_cost = check_shipping(coupon1, total_price)
+    aggregate_discount_check(coupon_jcrew, total_price)
+    shipping_cost = check_shipping(coupon_jcrew, total_price)
     total_price += shipping_cost
 
     print "Base cost: " + str(base) + " Discounted cost: " + str(total_price) + " Savings: " + str(base-total_price)
