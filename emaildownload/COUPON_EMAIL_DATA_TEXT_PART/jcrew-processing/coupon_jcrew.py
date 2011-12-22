@@ -38,7 +38,7 @@ class Coupon:
         return msg
     
 USERNAME = "rootofsavvypurse"
-DST_LOCATION = "./COUPON_EMAIL_DATA_TEXT_PART/" + USERNAME
+DST_LOCATION = "../../COUPON_EMAIL_DATA_TEXT_PART/" + USERNAME
 DATE = "17Dec2011"
 FILENAME = DST_LOCATION + "/" + DATE  + "/18_37_14_J.Crew"        
 
@@ -168,80 +168,143 @@ def analyze_coupon(FILENAME):
  
 def replace_shipping(body):
     regex1 = "FREE SHIPPING"    
-    res1 = re.sub(regex1, "<SHIPPING>", body)
-    #print res1
-    return res1
+    exists = re.search(regex1, body)
+    if exists != None:
+        val = regex1
+        res1 = re.sub(regex1, "<SHIPPING>", body)
+        #print res1
+        return (val, res1)
+    return ("None", body)
+
 #\bon\b[\w ]+\border[s]*\b[ \w\$+]*
     
 def replace_applicability(body):
     regex1 = "ON ALL [ \w]*"
-    res1 = re.sub(regex1, "<ITEM>", body)
+    exists = re.search(regex1, body)
+    app = ""
+    res1 = body
+    if exists != None:
+        val = exists.group(0)
+        res1 = re.sub(regex1, "<ITEM>", body)
+        app += val
     
     regex2 = "[\w ]+PURCHASE"
-    res2 = re.sub(regex2, "<ITEM>", res1)
-    
+    exists = re.search(regex2, res1)    
+    res2 = res1
+    if exists != None:
+        val = exists.group(0)
+        res2 = re.sub(regex2, "<ITEM>", res1)
+        app += ", " + val
+        
     regex3 = "ORDERS OF [\w\$\d]+"
-    res3 = re.sub(regex3, "<BUDGET-QUALIFIER>", res2)
-    
+    exists = re.search(regex3, res2)
+    res3 = res2
+    if exists != None:
+        val = exists.group(0)
+        res3 = re.sub(regex3, "<BUDGET-QUALIFIER>", res2)
+        app += ", " + val
     #print res3 
-    return res3   
+    #print app
+    return (app, res3)   
     
 def replace_discount(body):
     regex1 = "[\d]+% OFF"
     regex2 = "[\d]+% DISCOUNT"
     #disc = re.compile(regex)
-    res1 = re.sub(regex1, "<DISCOUNT>", body)
-    res2 = re.sub(regex2, "<DISCOUNT>", res1)
+    exists = re.search(regex1, body)
+    if exists != None:
+        val = exists.group(0).split(' ')
+        disc = val[0]#.strip('%')
+        #print disc 
+        res1 = re.sub(regex1, "<DISCOUNT>", body)
+        return (disc, res1)
+    else:
+        exists = re.search(regex2, body)
+        val = exists.group(0).split(' ')
+        disc = val[0]#.strip('%')
+        #print disc
+        res2 = re.sub(regex2, "<DISCOUNT>", res1)
+        return (disc, res2)
     #print res2
-    return res2
+    return ("0", res2)
 
 def replace_availability(body):
     regex1 = "IN STORES & ONLINE"
-    res1 = re.sub(regex1, "<AVAILABILITY>", body)
-    #print res1
-    return res1
+    exists = re.search(regex1, body)
+    if exists != None:
+        val = regex1
+        res1 = re.sub(regex1, "<AVAILABILITY>", body)
+        #print res1
+        return (val, res1)
+    return ("none", body)
     
 def replace_validity(body):
+    # Assuming these keywords are used exclusively
     regex1 = "TODAY ONLY"
+    exists = re.search(regex1, body)
+    res1 = body
+    if exists != None:
+        val = regex1
+        res1 = re.sub(regex1, "<VALIDITY>", body)
+        return (val, res1)
+    
     regex2 = "ENDS TOMORROW"
+    res2 = res1
+    exists = re.search(regex2, res1)
+    if exists != None:
+        val = regex2
+        res2 = re.sub(regex2, "<VALIDITY>", res1)
+        return (val, res2)
     
     # regular expression to catch Dec 18 2011
     regex3 = "[\w,]+\s\d[\d]?[,]*\s[\d]+"
-
+    res3 = res2
+    exists = re.search(regex3, res2)
+    if exists != None:
+        val = exists.group(0)
+        res3 = re.sub(regex3, "<VALIDITY>", res2)
+        return (val, res3)
+    
+    
     # regular expression to catch: 12/21 or 12.21
     regex4 = "[\d]+[\/.][\d]+"
-    
-    res1 = re.sub(regex1, "<VALIDITY>", body)
-    res2 = re.sub(regex2, "<VALIDITY>", res1)
-    res3 = re.sub(regex3, "<VALIDITY>", res2)
-    res4 = re.sub(regex4, "<DATE>", res3)
-    
+    exists = re.search(regex4, res3)
+    if exists != None:
+        val = exists.group(0)
+        res4 = re.sub(regex4, "<DATE>", res3)
+        return (val, res4)
     #print res4
-    return res4
+    return ("None", body)
 
 def replace_code(body):    
     regex1 = "USE CODE [\w]+[.]*"
     
-    res1 = re.sub(regex1, "<CODE>", body)
-    #print res1
-    return res1
+    exists = re.search(regex1, body)
+    if exists != None:
+        val = exists.group(0).split(' ')
+        code = val[len(val)-1].strip('.')
+        #print code
+        res1 = re.sub(regex1, "<CODE>", body)
+        #print res1
+        return (code, res1)
+    return ("none", body)
             
 def replace_shipping_fineprint(body):
-    regex = "\*SHIPPING[\S\s]*DETAILS\)\."
+    regex = "\*SHIPPING[\S\s]*?\)\."
     res1 = re.sub(regex, "<SHIPPING_HANDLING_FINEPRINT>", body)
-    print res1
+    #print res1
     return res1       
 
 def replace_remaining_fineprint(body):
-    regex = "\**OFFER[\S\s]*CHANGE\."
+    regex = "\*\*OFFER[\S\s]*CHANGE\."
     res1 = re.sub(regex, "<DISCOUNT_FINEPRINT>", body)
-    print res1
+    #print res1
     return res1 
 
 def replace_mailing_list_info(body):
     regex = "PLEASE[\S\s]*"
     res1 = re.sub(regex, "<MAILING_LIST_INFO>", body)
-    print res1
+    #print res1
     return res1 
  
 if __name__ == "__main__":
@@ -253,17 +316,18 @@ if __name__ == "__main__":
         BODY += LINE
         
     fp.close()
-    print BODY 
+    #print BODY 
     
-    B1 = replace_discount(BODY)
-    B2 = replace_shipping(B1)
-    B3 = replace_applicability(B2)
-    B4 = replace_availability(B3)
-    B5 = replace_validity(B4)
-    B6 = replace_code(B5)
+    disc, B1 = replace_discount(BODY)
+    ship, B2 = replace_shipping(B1)
+    app, B3 = replace_applicability(B2)
+    avail, B4 = replace_availability(B3)
+    val, B5 = replace_validity(B4)
+    CODE, B6 = replace_code(B5)
     B7 = replace_shipping_fineprint(B6)
     B8 = replace_remaining_fineprint(B7)
     B9 = replace_mailing_list_info(B8)
-    #print B7
+    print B9
+    print "Jcrew " + " [" + disc + "] [" + app + "] [" + avail + "] [" + val + "] [" + ship + "] [" + CODE + "]"
     
     
