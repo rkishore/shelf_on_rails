@@ -92,10 +92,10 @@ coupon_banana_dec_22 = {"store": "BANANA_REPUBLIC",
 
 coupon_aerie_dec_22 = {"store": "AERIE", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
-                "add_stw_discount": 0.3, "add_stw_discount_perc_code": "BRWINTER",
+                "add_stw_discount": 0.4, "add_stw_discount_perc_code": "39427841",
                 "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
-                "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_shipping_dollar_qualifier": 100, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
                 }
 
