@@ -21,7 +21,7 @@ item_cat = ARGV[1]
 #puts item_txt, item_cat
 
 def call_shopstyle_api(item, category, min_idx, rec_cnt)
-  url_str = "http://api.shopstyle.com/action/apiSearch?pid=uid289-3680017-16&fts="+item+"&cat="+category+"&min="+min_idx.to_s+"&count="+rec_cnt.to_s
+  url_str = "http://api.shopstyle.com/action/apiSearch?pid=uid289-3680017-16&fts="+item.to_s+"&cat="+category.to_s+"&min="+min_idx.to_s+"&count="+rec_cnt.to_s
   #puts url_str
   @doc = Nokogiri::XML(open(url_str))
 end
@@ -50,6 +50,12 @@ def print_record_info(item, category, min_idx, rec_cnt)
       print "nil | "      
     else
       print pr_br_name[idx].text+" | " 
+    end
+
+    if pr_name[idx].nil?
+      print "nil | "      
+    else
+      print pr_name[idx].text+" | " 
     end
 
     if pr_price[idx].nil?

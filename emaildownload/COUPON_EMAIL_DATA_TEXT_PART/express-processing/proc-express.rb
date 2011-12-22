@@ -103,47 +103,6 @@ def replace_tags(coupon_obj)
 
 end
 
-def replace_shipping_tag(coupon_obj)
-  
-  #shipping_regex  = /^(\s|\S)*free shipping(\s|\S)*$/i
-  shipping_regex  = /free shipping/i
-  coupon_obj.proc_subject = coupon_obj.subject.as_utf8.gsub(shipping_regex, "<SHIPPING>")  
-
-  coupon_obj.proc_body.each do |line|    
-    line = line.gsub(shipping_regex, "<SHIPPING>")  
-  end
-
-  #printf("%s | %s \n", coupon_obj.subject, coupon_obj.proc_subject)
-  
-end
-
-def replace_discount_tag(coupon_obj)
-  
-  discount_regex = /(\w*[%] Off!*|[$]\w* Off(!*|\**))/i  
-  item_discount_regex = /Buy One, Get One/i
-  coupon_obj.proc_subject = coupon_obj.proc_subject.as_utf8.gsub(discount_regex, "<DISCOUNT>")
-
-  coupon_obj.proc_body.each do |line|    
-    line = line.gsub(discount_regex, "<DISCOUNT>")  
-  end
-
-  #coupon_obj.proc_subject = coupon_obj.proc_subject.as_utf8.gsub(item_discount_regex, "<ITEM_DISCOUNT>")
-
-  #printf("%s | %s \n", coupon_obj.subject, coupon_obj.proc_subject)
-end
-
-def replace_validity_tag(coupon_obj)
-  
-  validity_regex = /(Last day!*|Today only!*|\w days only!*)/i
-  coupon_obj.proc_subject = coupon_obj.proc_subject.as_utf8.gsub(validity_regex, "<VALIDITY>")
-
-  printf("%s\n", coupon_obj.proc_subject)
-  coupon_obj.proc_body.each do |line|    
-    line = line.gsub(validity_regex, "<VALIDITY>")  
-    puts line
-  end
-    
-end
 
 def proc_email_body(filePtr, coupon_obj)
 
@@ -158,7 +117,7 @@ def proc_email_body(filePtr, coupon_obj)
     line_utf8 = line.as_utf8
     is_link = true
 
-    # Search for line "-----..."
+    # Search for first line "-----..."
     if (line_utf8 =~ dashline_regex)
       
       # print body_entry.to_s, " ", body_exit.to_s, "\n"
