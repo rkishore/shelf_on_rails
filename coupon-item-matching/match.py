@@ -22,13 +22,19 @@ import sys
     free_shipping_dollar_qualifier, fixed_shipping_rate, standard_shipping_rate
     
     # Returns
-    free_returns_dollar_qualifier, fixed_return_rate, standard_return_rate'''
+    free_returns_dollar_qualifier, fixed_return_rate, standard_return_rate
 
-
+    # Expires
+    expiration_date
+    
+    # Availability
+    In Stores only, Online only, Both'''
+    
+    
 #coupon1 = {"store": "JCrew", "discount": "0.3", 
 #              "category": "1", "FREE_SHIPPING": "1", "QUALIFIER": "50", "CODE": "SNOWMAN"}
 
-
+INFINITY = 10000
 coupon_jcrew = {"store": "JCrew", 
                 "stw_discount": 0.3, "stw_discount_perc_code": "CODE1",
                 "add_stw_discount": 0.2, "add_stw_discount_perc_code": "CODE2",
@@ -38,7 +44,61 @@ coupon_jcrew = {"store": "JCrew",
                 "free_returns_dollar_qualifier": 100, "discount_return_rate": "None", "standard_return_rate": 10
                 }
 
+coupon_jcrew_dec_22 = {"store": "JCrew", 
+                "stw_discount": 0, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0.2, "add_stw_discount_perc_code": "MUSTSHOP",
+                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": 175, "discount_shipping_rate": "None", "standard_shipping_rate": 8.95,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
                
+coupon_jcrew_dec_18 = {"store": "JCrew", 
+                "stw_discount": 0.3, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0, "add_stw_discount_perc_code": "MUSTSHOP",
+                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": 100, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
+coupon_express_dec_22 = {"store": "Express", 
+                "stw_discount": 0, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0.2, "add_stw_discount_perc_code": "-",
+                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
+
+coupon_abercrombie_dec_22 = {"store": "ABERCROMBIE", 
+                "stw_discount": 0.4, "stw_discount_perc_code": "15399",
+                "add_stw_discount": 0, "add_stw_discount_perc_code": "-",
+                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
+coupon_banana_dec_22 = {"store": "BANANA_REPUBLIC", 
+                "stw_discount": 0, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0.3, "add_stw_discount_perc_code": "BRWINTER",
+                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
+coupon_aerie_dec_22 = {"store": "AERIE", 
+                "stw_discount": 0, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0.3, "add_stw_discount_perc_code": "BRWINTER",
+                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
 # Item = ["store name", "category", "price", "sale price"]
 # Men
 item1 = {"store": "JCrew", "category": "MENS-SHIRT", "price": 49.99, "sale_price": 49.99}
