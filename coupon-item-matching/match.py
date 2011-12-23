@@ -43,6 +43,11 @@ logging.basicConfig(format='%(message)s', level=logging.INFO)
 INFINITY = 10000
 #B1G1 = 1
 #CSALE = 2
+MENS_SHIRTS= 0
+MENS_PANTS= 1
+MENS_JEANS= 2
+WOMENS_JEANS= 3
+WOMENS_SWEATERS= 4
 
 coupon_jcrew = {"store": "J.Crew", 
                 "stw_discount": 0.3, "stw_discount_perc_code": "CODE1",
@@ -274,9 +279,11 @@ def base_price(item1, item2):
     logging.debug("base_price: " + str(base))
     return base
 
-def current_sale_price(item1, item2):
+def current_sale_price(itemlist):
     shipping_cost = DEFAULT_SHIPPING_COST
-    sale = float(item1["sale_price"]) + float(item2["sale_price"]) 
+    sale = 0
+    for i in range(0, len(itemlist)):
+        sale += float(itemlist[i]["sale_price"])
     logging.debug("current_sale_price: " + str(sale))
     return sale
 
