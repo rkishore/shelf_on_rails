@@ -37,8 +37,8 @@ logging.basicConfig(level=logging.DEBUG)
 #              "category": "1", "FREE_SHIPPING": "1", "QUALIFIER": "50", "CODE": "SNOWMAN"}
 
 INFINITY = 10000
-B1G1 = 1
-CSALE = 2
+#B1G1 = 1
+#CSALE = 2
 
 coupon_jcrew = {"store": "J.Crew", 
                 "stw_discount": 0.3, "stw_discount_perc_code": "CODE1",
@@ -70,7 +70,7 @@ coupon_jcrew_dec_18 = {"store": "J.Crew",
 coupon_express_dec_22 = {"store": "Express", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0.2, "add_stw_discount_perc_code": "-",
-                "item_cat": "mens-jeans", "item_spec_discount_type": B1G1, "item_spec_discount_perc": 0.5, "item_spec_discount_perc_code": "CODE4",
+                "item_cat": "mens-pants", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.5, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -108,9 +108,25 @@ coupon_aerie_dec_22 = {"store": "AERIE",
 
 DEFAULT_SHIPPING_COST = 10 # Placeholder: Need to dynamically determine shipping cost    
 
+def calculate_b1g1_discount(cat, disc_rate):
+    logging.debug("calculate_b1g1_discount: leaving for later.")
+    return 0
+
 def aggregate_discount_check(coupon, total_price):
     
     logging.debug("aggr_disc: " + str(coupon["stw_discount_dollars"]) + " " + str(total_price))
+    
+    if ( coupon["item_spec_discount_type"] == "B1G1"):
+        # what category does this apply?
+        cat = coupon["item_cat"]
+        base_cat = find_base_category(cat)
+        num_items_of_cat = item_stats[base_cat]
+        logging.debug("aggr_disc: base_cat = " + str(base_cat) + " #of items of this cat: " + str(num_items_of_cat))
+        if ( num_items_of_cat ) > 1:
+            disc_rate = coupon["item_spec_discount_perc"]
+            discount_amount = calculate_b1g1_discount(cat, disc_rate)
+            total_price -= discount_amount
+    
     if coupon["stw_discount_dollars"] > 0:
         if total_price > coupon["stw_discount_dollars_lower_bound"]:
             total_price -= coupon["stw_discount_dollars"]
@@ -127,16 +143,24 @@ def check_shipping(coupon, total_price):
     if (total_price >= coupon["free_shipping_dollar_qualifier"]):
         logging.debug("ship_chk: Free shipping! Yay!")
         shipping_cost = 0
+        return True
     else:
         logging.debug("ship_chk: Sorry, no Free Shipping")
         shipping_cost = DEFAULT_SHIPPING_COST         
-    return shipping_cost
+        return False
+    #return shipping_cost
 
 def base_price(item1, item2):
     shipping_cost = DEFAULT_SHIPPING_COST
     base = float(item1["price"]) + float(item2["price"]) 
     logging.debug("base_price: " + str(base))
     return base
+
+def current_sale_price(item1, item2):
+    shipping_cost = DEFAULT_SHIPPING_COST
+    sale = float(item1["sale_price"]) + float(item2["sale_price"]) 
+    logging.debug("current_sale_price: " + str(sale))
+    return sale
 
 def category_match(cat1, cat2):
     if cat1 == cat2:
@@ -217,14 +241,14 @@ def match_express(coupon, item):
         elif coupon["item_spec_discount_perc"] > 0:
 
             # Category-specific discounts
-            if (category_match(coupon["item_cat"], item["category"])):
+            if (check_category_match(coupon["item_cat"], item["category"])):#category_match(coupon["item_cat"], item["category"])):
 
                 # Check what kind of item-specific discount exists?
-                if (coupon["item_spec_discount_type"] == str(B1G1)):
+                if (coupon["item_spec_discount_type"] == "B1G1"):
                     # Apply in aggregage_discount_check
                     logging.debug("match: item-specific discount is buy1, get1. Postpone application to aggr_items round.")
 
-                elif (coupon["item_spec_discount_type"] == str(CSALE)):
+                elif (coupon["item_spec_discount_type"] == "CSALE"):
                     logging.debug("match: item-specific discount is Sale. Apply discount")
 
                     if (discount_applied == True): # and coupon["stw_discount_flag"] == 0:
@@ -260,7 +284,40 @@ def read_item_info(filename):
     #logging.debug(len(itemlist)        
     return itemlist
 
-        
+def calculate_item_stats(wish_list):
+
+    for i in range(0, len(wish_list)):
+        it = wish_list[i]
+        cat = it["category"]
+        base_cat = find_base_category(cat)
+        item_stats[base_cat] += 1
+
+def check_category_match(cat1, cat2):
+    base_cat1 = find_base_category(cat1)
+    base_cat2 = find_base_category(cat2)
+    result = (base_cat1 == base_cat2)
+    return result
+
+def find_base_category(category):
+    jeans = category.lower().find("jeans".lower())
+    sweater = category.lower().find("sweater".lower())
+    pant = category.lower().find("pant".lower())
+    shirt = category.lower().find("shirt".lower())
+    
+    if jeans > 0:
+        return "jeans"
+    if sweater > 0:
+        return "sweater"
+    if pant > 0:
+        return "pant"
+    if shirt > 0:
+        return "shirt"
+
+def init_item_stats(item_stats):
+    item_stats["jeans"] = 0
+    item_stats["sweater"] = 0
+    item_stats["pant"] = 0
+    item_stats["shirt"] = 0
 
 if __name__ == "__main__":
     
@@ -270,25 +327,36 @@ if __name__ == "__main__":
     for i in range(1,len(sys.argv)):
         store_itemlist.append(read_item_info(sys.argv[i]))
 
+    
+    item1 = store_itemlist[0][0]
+    item2 = store_itemlist[1][0]
+    wish_list = []
+    wish_list.append(item1)
+    wish_list.append(item2)
+    wish_list.append(item2)
+    item_stats = {}
+    init_item_stats(item_stats)
+    calculate_item_stats(wish_list)
+    print item_stats
+    
     logging.debug(store_itemlist[0][0])
     logging.debug(store_itemlist[1][0])
     
-    for i in range(0, 1):
         
-        item1 = store_itemlist[0][i]
-        item2 = store_itemlist[1][i]
-        base = base_price(item1, item2)
+        
+    cur_sale = current_sale_price(item1, item2)
 
-        cur_coupon = coupon_jcrew_dec_18
-        match(cur_coupon, item1)
-        match(cur_coupon, item2)
+    #cur_coupon = coupon_jcrew_dec_18
+    cur_coupon = coupon_express_dec_22
+    match_express(cur_coupon, item1)
+    match_express(cur_coupon, item2)
 
-        total_price = float(item1["sale_price"]) + float(item2["sale_price"])
-        logging.debug("aggregate item price (after stw-disc and item-disc): " + str(total_price))
+    total_price = float(item1["sale_price"]) + float(item2["sale_price"])
+    logging.debug("aggregate item price (after stw-disc and item-disc): " + str(total_price))
 
-        total_price = aggregate_discount_check(cur_coupon, total_price)
-        shipping_cost = check_shipping(cur_coupon, total_price)
-        total_price += shipping_cost
-
-        logging.debug("Base cost: " + str(base) + " Discounted cost: " + str(total_price) + " Savings: " + str(base-total_price))
+    total_price = aggregate_discount_check(cur_coupon, total_price)
+    shipping_free = check_shipping(cur_coupon, total_price)
     
+    logging.debug("Original cost: " + str(cur_sale) + " Discounted cost: " + str(total_price) + " Savings: " + 
+                  str(cur_sale-total_price) + " Free Shipping: " + str(shipping_free))
+
