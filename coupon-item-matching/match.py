@@ -39,11 +39,6 @@ logging.basicConfig(level=logging.DEBUG)
 #              "category": "1", "FREE_SHIPPING": "1", "QUALIFIER": "50", "CODE": "SNOWMAN"}
 
 INFINITY = 10000
-MENS_SHIRTS = 0
-MENS_PANTS = 1
-MENS_JEANS = 2
-WOMENS_JEANS = 3
-WOMENS_SWEATERS = 4
 #B1G1 = 1
 #CSALE = 2
 
@@ -54,6 +49,15 @@ coupon_jcrew = {"store": "J.Crew",
                 "stw_discount_dollars": 25, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": 100, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
+coupon_jcrew_dec_23 = {"store": "J.Crew", 
+                "stw_discount": 0, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0.2, "add_stw_discount_perc_code": "MUSTSHOP",
+                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": 175, "discount_shipping_rate": "None", "standard_shipping_rate": 8.95,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
                 }
 
 coupon_jcrew_dec_22 = {"store": "J.Crew", 
@@ -74,6 +78,15 @@ coupon_jcrew_dec_18 = {"store": "J.Crew",
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
                 }
 
+coupon_express_dec_21 = {"store": "Express", 
+                "stw_discount": 0, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0.2, "add_stw_discount_perc_code": "-",
+                "item_cat": "mens-dress-pants", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.5, "item_spec_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 25, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
 coupon_express_dec_22 = {"store": "Express", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0.2, "add_stw_discount_perc_code": "-",
@@ -83,6 +96,33 @@ coupon_express_dec_22 = {"store": "Express",
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
                 }
 
+coupon_express_dec_23 = {"store": "Express", 
+                "stw_discount": 0, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0.2, "add_stw_discount_perc_code": "-",
+                "item_cat": "mens-dress-pants", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.5, "item_spec_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 15, "stw_discount_dollars_lower_bound": 60, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": 100, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
+coupon_express_dec_18 = {"store": "Express", 
+                "stw_discount": 0.3, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0, "add_stw_discount_perc_code": "-",
+                "item_cat": "mens-dress-pants", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.5, "item_spec_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 25, "stw_discount_dollars_lower_bound": 100, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
+coupon_abercrombie_dec_18 = {"store": "ABERCROMBIE", 
+                "stw_discount": 0.4, "stw_discount_perc_code": "15399",
+                "add_stw_discount": 0, "add_stw_discount_perc_code": "-",
+                "item_cat": "outerwear", "item_spec_discount_perc": 0.5, "item_spec_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10,
+                "where": "in-store"
+                }
 
 coupon_abercrombie_dec_22 = {"store": "ABERCROMBIE", 
                 "stw_discount": 0.4, "stw_discount_perc_code": "15399",
@@ -93,6 +133,26 @@ coupon_abercrombie_dec_22 = {"store": "ABERCROMBIE",
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
                 }
 
+coupon_abercrombie_dec_23 = {"store": "ABERCROMBIE", 
+                "stw_discount": 0.5, "stw_discount_perc_code": "15399",
+                "add_stw_discount": 0, "add_stw_discount_perc_code": "-",
+                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10,
+                "where": "in-store"
+                }
+
+coupon_banana_dec_18 = {"store": "BANANA_REPUBLIC", 
+                "stw_discount": 0, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0, "add_stw_discount_perc_code": "BRSALE",
+                "item_cat": "women-sweater", "item_spec_discount_perc": 0.4, "item_spec_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
+
 coupon_banana_dec_22 = {"store": "BANANA_REPUBLIC", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0.3, "add_stw_discount_perc_code": "BRWINTER",
@@ -101,6 +161,17 @@ coupon_banana_dec_22 = {"store": "BANANA_REPUBLIC",
                 "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
                 }
+
+coupon_banana_dec_23 = {"store": "BANANA_REPUBLIC", 
+                "stw_discount": 0, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0.3, "add_stw_discount_perc_code": "BRSALE30",
+                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+
+
 
 coupon_aerie_dec_22 = {"store": "AERIE", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
@@ -201,12 +272,9 @@ def base_price(item1, item2):
     logging.debug("base_price: " + str(base))
     return base
 
-def current_sale_price(cur_items):
+def current_sale_price(item1, item2):
     shipping_cost = DEFAULT_SHIPPING_COST
-    sale = 0
-    for i in range(0, len(cur_items)):
-        sale += float(cur_items[i]["sale_price"])
-    #sale = float(item1["sale_price"]) + float(item2["sale_price"]) 
+    sale = float(item1["sale_price"]) + float(item2["sale_price"]) 
     logging.debug("current_sale_price: " + str(sale))
     return sale
 
@@ -367,67 +435,6 @@ def init_item_stats(item_stats):
     item_stats["pant"] = 0
     item_stats["shirt"] = 0
 
-def create_sample_wishlist(store_itemlist, user_config):
-    
-    #print len(store_itemlist)
-    
-    # 0: shirt, pant
-    # 1: shirt, pant, jeans
-    # 2: shirt, pant, jeans, jeans
-    # 3: jeans, jeans, pant, sweater
-    # 4: sweater, sweater, jeans, jeans
-    # 5: sweater, shirt, pant, jeans, sweater
-    
-    items = []
-    #wish_list = []
-    
-    if (user_config == 0):
-        items.append(store_itemlist[MENS_SHIRTS][0]) 
-        items.append(store_itemlist[MENS_PANTS][0])
-    elif (user_config == 1):
-        items.append(store_itemlist[MENS_SHIRTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-    elif (user_config == 2):
-        items.append(store_itemlist[MENS_SHIRTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-    elif (user_config == 3):
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
-    elif (user_config == 4):
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[WOMENS_JEANS][0])
-    elif (user_config == 5):
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
-        items.append(store_itemlist[MENS_SHIRTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
-    elif (user_config == 6):
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
-        items.append(store_itemlist[MENS_SHIRTS][0])
-        items.append(store_itemlist[MENS_SHIRTS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[WOMENS_JEANS][0]) 
-    
-
-    #logging.debug(store_itemlist[0][0])
-    #logging.debug(store_itemlist[1][0])
-    
-    #for i in range(0, len(store_itemlist)):
-    #    wish_list.append(items[i])
-    
-    init_item_stats(item_stats)
-    calculate_item_stats(items)
-    #print item_stats
-    return items
-
 if __name__ == "__main__":
     
     #logging.debug("Number of input item files: " + str(len(sys.argv)-1)
@@ -436,34 +443,36 @@ if __name__ == "__main__":
     for i in range(1,len(sys.argv)):
         store_itemlist.append(read_item_info(sys.argv[i]))
 
+    
+    item1 = store_itemlist[0][0]
+    item2 = store_itemlist[1][0]
+    wish_list = []
+    wish_list.append(item1)
+    wish_list.append(item2)
+    wish_list.append(item2)
     item_stats = {}
+    init_item_stats(item_stats)
+    calculate_item_stats(wish_list)
+    print item_stats
     
-    for j in range(0, 5):
-        
-        print "---- Iteration " + str(j) + " Start -----"
-        
-        cur_items = create_sample_wishlist(store_itemlist, j)
+    logging.debug(store_itemlist[0][0])
+    logging.debug(store_itemlist[1][0])
     
-        cur_sale = current_sale_price(cur_items)
+        
+        
+    cur_sale = current_sale_price(item1, item2)
 
-        #cur_coupon = coupon_jcrew_dec_18
-        cur_coupon = coupon_express_dec_22
-        for i in range(0, len(cur_items)):
-            match_express(cur_coupon, cur_items[i])
+    #cur_coupon = coupon_jcrew_dec_18
+    cur_coupon = coupon_express_dec_22
+    match_express(cur_coupon, item1)
+    match_express(cur_coupon, item2)
+
+    total_price = float(item1["sale_price"]) + float(item2["sale_price"])
+    logging.debug("aggregate item price (after stw-disc and item-disc): " + str(total_price))
+
+    total_price = aggregate_discount_check(cur_coupon, total_price)
+    shipping_free = check_shipping(cur_coupon, total_price)
     
-        #match_express(cur_coupon, item2)
-        total_price = 0
-        for i in range(0, len(cur_items)):
-            total_price += float(cur_items[i]["sale_price"])
-        #total_price = float(item1["sale_price"]) + float(item2["sale_price"])
-        
-        logging.debug("aggregate item price (after stw-disc and item-disc): " + str(total_price))
-    
-        total_price = aggregate_discount_check(cur_coupon, total_price)
-        shipping_free = check_shipping(cur_coupon, total_price)
-        
-        logging.debug("Original cost: " + str(cur_sale) + " Discounted cost: " + str(total_price) + " Savings: " + 
-                      str(cur_sale-total_price) + " Free Shipping: " + str(shipping_free))
-        
-        print "---- Iteration " + str(j) + " Done -----"
-        
+    logging.debug("Original cost: " + str(cur_sale) + " Discounted cost: " + str(total_price) + " Savings: " + 
+                  str(cur_sale-total_price) + " Free Shipping: " + str(shipping_free))
+
