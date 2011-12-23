@@ -1,6 +1,8 @@
 import sys
 import logging
 
+from operator import itemgetter
+
 logging.basicConfig(level=logging.DEBUG)
 
 #coupon = ["store name", "% off", "all purchase/category", "free shipping?", "qualifier for shipping", 
@@ -75,7 +77,7 @@ coupon_jcrew_dec_18 = {"store": "J.Crew",
 coupon_express_dec_22 = {"store": "Express", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0.2, "add_stw_discount_perc_code": "-",
-                "item_cat": "mens-pants", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.5, "item_spec_discount_perc_code": "CODE4",
+                "item_cat": "mens-dress-pants", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.5, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -113,9 +115,43 @@ coupon_aerie_dec_22 = {"store": "AERIE",
 
 DEFAULT_SHIPPING_COST = 10 # Placeholder: Need to dynamically determine shipping cost    
 
-def calculate_b1g1_discount(cat, disc_rate):
-    logging.debug("calculate_b1g1_discount: leaving for later.")
-    return 0
+def is_not_on_discount(item):
+    discount_applied = (item["sale_price"] < item["price"])
+    return (not discount_applied)
+
+def calculate_b1g1_discount(store, cat, disc_rate):
+    logging.debug("calculate_b1g1_discount: for store " + store + " cat "+ cat)
+    # we are here because at least 2 items are present of this category in the wish list 
+    # we need to find out the base price of these items
+    # find how many pairs are there
+    # sort these items by price
+    # pick lower half and apply the discount
+    
+    items = []
+    for i in range(0, len(wish_list)):
+        it = wish_list[i]
+        # need to check if this item is valid to be used in this
+        # calculation
+        isValid = is_not_on_discount(it) 
+        if it["store"] == store and it["category"] == cat and isValid:
+            items.append(it)
+    logging.debug( items )        
+    
+    # how many pairs are useful?
+    num_pairs = len(items)/2
+    
+    # sort based on price
+    sorted_items = sorted(items, key=itemgetter('price'))
+    logging.debug("Sorted items: " + str(sorted_items) )
+    
+    # calculate the discount
+    discount = 0
+    for i in range(0, num_pairs):
+        price = sorted_items[i]["price"]
+        info = "B1G1 discount calculation"
+        sale_price = apply_discount(disc_rate, price, info)
+        discount += (price - sale_price)
+    return discount
 
 def aggregate_discount_check(coupon, total_price):
     
@@ -126,10 +162,12 @@ def aggregate_discount_check(coupon, total_price):
         cat = coupon["item_cat"]
         base_cat = find_base_category(cat)
         num_items_of_cat = item_stats[base_cat]
-        logging.debug("aggr_disc: base_cat = " + str(base_cat) + " #of items of this cat: " + str(num_items_of_cat))
+        logging.debug("aggr_disc: base_cat = " + str(base_cat) + 
+                      " #of items of this cat: " + str(num_items_of_cat))
         if ( num_items_of_cat ) > 1:
             disc_rate = coupon["item_spec_discount_perc"]
-            discount_amount = calculate_b1g1_discount(cat, disc_rate)
+            store = coupon["store"]
+            discount_amount = calculate_b1g1_discount(store, cat, disc_rate)
             total_price -= discount_amount
     
     if coupon["stw_discount_dollars"] > 0:
@@ -137,7 +175,9 @@ def aggregate_discount_check(coupon, total_price):
             total_price -= coupon["stw_discount_dollars"]
             logging.debug("aggr_disc: Total price reduced to " + str(total_price))            
         else:
-            logging.debug("aggr_disc: Sorry. Buy for " + str(coupon["stw_discount_dollars_lower_bound"]-total_price) + "to get additional " + str(coupon["stw_discount_dollars"]) + " discount!") 
+            logging.debug("aggr_disc: Sorry. Buy for " + 
+                          str(coupon["stw_discount_dollars_lower_bound"]-total_price) + 
+                          "to get additional " + str(coupon["stw_discount_dollars"]) + " discount!") 
     else:
         logging.debug("aggr_disc: Sorry. No $X with $Y style discounts right now")
 
