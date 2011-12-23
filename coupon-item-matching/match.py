@@ -37,10 +37,13 @@ logging.basicConfig(level=logging.DEBUG)
 #              "category": "1", "FREE_SHIPPING": "1", "QUALIFIER": "50", "CODE": "SNOWMAN"}
 
 INFINITY = 10000
+B1G1 = 1
+CSALE = 2
+
 coupon_jcrew = {"store": "J.Crew", 
                 "stw_discount": 0.3, "stw_discount_perc_code": "CODE1",
                 "add_stw_discount": 0.2, "add_stw_discount_perc_code": "CODE2",
-                "item_cat": "MENS-SHIRT", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "item_cat": "mens-shirts", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 25, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": 100, "discount_return_rate": "None", "standard_return_rate": 10
@@ -49,7 +52,7 @@ coupon_jcrew = {"store": "J.Crew",
 coupon_jcrew_dec_22 = {"store": "J.Crew", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0.2, "add_stw_discount_perc_code": "MUSTSHOP",
-                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 175, "discount_shipping_rate": "None", "standard_shipping_rate": 8.95,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -58,7 +61,7 @@ coupon_jcrew_dec_22 = {"store": "J.Crew",
 coupon_jcrew_dec_18 = {"store": "J.Crew", 
                 "stw_discount": 0.3, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0, "add_stw_discount_perc_code": "MUSTSHOP",
-                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 100, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -67,7 +70,7 @@ coupon_jcrew_dec_18 = {"store": "J.Crew",
 coupon_express_dec_22 = {"store": "Express", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0.2, "add_stw_discount_perc_code": "-",
-                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "item_cat": "mens-jeans", "item_spec_discount_type": B1G1, "item_spec_discount_perc": 0.5, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -77,7 +80,7 @@ coupon_express_dec_22 = {"store": "Express",
 coupon_abercrombie_dec_22 = {"store": "ABERCROMBIE", 
                 "stw_discount": 0.4, "stw_discount_perc_code": "15399",
                 "add_stw_discount": 0, "add_stw_discount_perc_code": "-",
-                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -86,7 +89,7 @@ coupon_abercrombie_dec_22 = {"store": "ABERCROMBIE",
 coupon_banana_dec_22 = {"store": "BANANA_REPUBLIC", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0.3, "add_stw_discount_perc_code": "BRWINTER",
-                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -94,8 +97,8 @@ coupon_banana_dec_22 = {"store": "BANANA_REPUBLIC",
 
 coupon_aerie_dec_22 = {"store": "AERIE", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
-                "add_stw_discount": 0.3, "add_stw_discount_perc_code": "BRWINTER",
-                "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
+                "add_stw_discount": 0.4, "add_stw_discount_perc_code": "39427841",
+                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -172,7 +175,68 @@ def match(coupon, item):
           
         # same category
         if (category_match(coupon["item_cat"], item["category"])):
-            item["sale_price"] = apply_discount(coupon["buy1_get1_discount_perc"], item["sale_price"], "item_disc")
+            item["sale_price"] = apply_discount(coupon["item_spec_discount_perc"], item["sale_price"], "item_disc")
+                    
+    return True
+
+def match_express(coupon, item):
+
+    # same store?
+    if item["store"] == coupon["store"]:
+        
+        # For express, 
+        #    stw_discount will be applied on applicable items already
+        #       add_stw_discount should be applied to these items as shopstyle does not do this
+        #    Per-item discounts typically of type: "buy 1, get 1" not reflected in item db.
+        #       if coupon says "limited time" without expiry date, promotions could still be on.
+        #       does not apply on stw_discounted items 
+
+        discount_applied = (item["sale_price"] < item["price"]) # stw_discount applied alread
+        logging.debug("stw-disc: " + str(coupon["stw_discount"]) + " disc-app: " + str(discount_applied))
+
+        # Check coupon to see if discount applied should be store-wide or item-specific.
+        # It cannot be both: needs to be verified
+
+        # Store-wide discounts
+        if coupon["stw_discount"] > 0:
+
+            if (discount_applied == True): # and coupon["stw_discount_flag"] == 0:
+
+                discount_perc = float( (item["price"] - item["sale_price"]) / item["price"] )
+            
+                if (discount_perc == coupon["stw_discount"]):
+                    logging.debug("match: stw_discount already applied - " + str(discount_perc) + " " + str(coupon["stw_discount"]))
+                    if coupon["add_stw_discount"] > 0:  # and coupon["add_stw_discount_flag"] == 0:
+                        item["sale_price"] = apply_discount(coupon["add_stw_discount"], item["sale_price"], "add_stw_disc")
+                else:
+                    logging.debug("match: Stated stw_discount NOT applied - " + str(discount_perc) + " " + str(coupon["stw_discount"]))
+
+            else:
+                item["sale_price"] = apply_discount(coupon["stw_discount"], item["price"], "stw_disc")
+
+        elif coupon["item_spec_discount_perc"] > 0:
+
+            # Category-specific discounts
+            if (category_match(coupon["item_cat"], item["category"])):
+
+                # Check what kind of item-specific discount exists?
+                if (coupon["item_spec_discount_type"] == str(B1G1)):
+                    # Apply in aggregage_discount_check
+                    logging.debug("match: item-specific discount is buy1, get1. Postpone application to aggr_items round.")
+
+                elif (coupon["item_spec_discount_type"] == str(CSALE)):
+                    logging.debug("match: item-specific discount is Sale. Apply discount")
+
+                    if (discount_applied == True): # and coupon["stw_discount_flag"] == 0:
+                        discount_perc = float( (item["price"] - item["sale_price"]) / item["price"] )            
+                        if (discount_perc == coupon["item_spec_discount_perc"]):
+                            logging.debug("match: item_specific_discount already applied - " + str(discount_perc) + " " + str(coupon["item_spec_discount_perc"]))
+                            if coupon["add_stw_discount"] > 0:  # and coupon["add_stw_discount_flag"] == 0:
+                                item["sale_price"] = apply_discount(coupon["add_stw_discount"], item["sale_price"], "add_stw_disc")
+                        else:
+                            logging.debug("match: Stated item_specific_discount NOT applied - " + str(discount_perc) + " " + str(coupon["item_spec_discount_perc"]))
+                    else:
+                        item["sale_price"] = apply_discount(coupon["item_spec_discount_perc"], item["sale_price"], "item_disc")
                     
     return True
 
