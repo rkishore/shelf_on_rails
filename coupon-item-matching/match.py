@@ -3,7 +3,8 @@ import logging
 
 from operator import itemgetter
 
-logging.basicConfig(level=logging.INFO)
+#logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.INFO)
+logging.basicConfig(format='%(message)s', level=logging.INFO)
 
 
 #coupon = ["store name", "% off", "all purchase/category", "free shipping?", "qualifier for shipping", 
@@ -405,17 +406,23 @@ def create_sample_wishlist(store_itemlist, user_config):
         items.append(store_itemlist[MENS_JEANS][0])
         items.append(store_itemlist[WOMENS_JEANS][0])
     elif (user_config == 5):
+        logging.info("Wishlist: 1 Men's Pants, 1 Men's Jean, 2 Women's Sweater, 1 Men's Shirt")
         items.append(store_itemlist[WOMENS_SWEATERS][0])
         items.append(store_itemlist[MENS_SHIRTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
         items.append(store_itemlist[MENS_JEANS][0])
         items.append(store_itemlist[WOMENS_SWEATERS][0])
     elif (user_config == 6):
+        logging.info("Wishlist: 4 Men's Pants, 2 Men's Shirts, 1 Men's Jean, 1 Women's Sweater, 1 Women's Jean")
         items.append(store_itemlist[WOMENS_SWEATERS][0])
         items.append(store_itemlist[MENS_SHIRTS][0])
         items.append(store_itemlist[MENS_SHIRTS][0])
         items.append(store_itemlist[MENS_JEANS][0])
         items.append(store_itemlist[WOMENS_JEANS][0]) 
+        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(store_itemlist[MENS_PANTS][0])
     
 
     #logging.debug(store_itemlist[0][0])
@@ -441,10 +448,12 @@ if __name__ == "__main__":
 
     if ( sys.argv[len(sys.argv)-1] == "express_dec_22" ):
         cur_coupon = coupon_express_dec_22
+    elif ( sys.argv[len(sys.argv)-1] == "jcrew_dec_18" ):
+        cur_coupon = coupon_jcrew_dec_18
     
     item_stats = {}
     
-    for j in range(0, 1):
+    for j in range(6, 7):
         
         logging.debug("---- Iteration " + str(j) + " Start -----")
         
@@ -468,7 +477,7 @@ if __name__ == "__main__":
         total_price = aggregate_discount_check(cur_coupon, total_price)
         shipping_free = check_shipping(cur_coupon, total_price)
                 
-        logging.info(" Original cost: " + str(cur_sale) + " Discounted cost: " + str(total_price) + " Savings: " + 
+        logging.info("Original cost: " + str(cur_sale) + " Discounted cost: " + str(total_price) + " Savings: " + 
                  str(cur_sale-total_price) + " Free Shipping: " + str(shipping_free))
         
         logging.debug("---- Iteration " + str(j) + " Done -----")
