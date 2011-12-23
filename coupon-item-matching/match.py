@@ -406,14 +406,14 @@ def create_sample_wishlist(store_itemlist, user_config):
         items.append(store_itemlist[MENS_JEANS][0])
         items.append(store_itemlist[WOMENS_JEANS][0])
     elif (user_config == 5):
-        logging.info("Wishlist: 1 Men's Pants, 1 Men's Jean, 2 Women's Sweater, 1 Men's Shirt")
+        logging.info("Wishlist %d: 1 Men's Pants, 1 Men's Jean, 2 Women's Sweater, 1 Men's Shirt", user_config)
         items.append(store_itemlist[WOMENS_SWEATERS][0])
         items.append(store_itemlist[MENS_SHIRTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
         items.append(store_itemlist[MENS_JEANS][0])
         items.append(store_itemlist[WOMENS_SWEATERS][0])
     elif (user_config == 6):
-        logging.info("Wishlist: 4 Men's Pants, 2 Men's Shirts, 1 Men's Jean, 1 Women's Sweater, 1 Women's Jean")
+        logging.info("Wishlist %d: 4 Men's Pants, 2 Men's Shirts, 1 Men's Jean, 1 Women's Sweater, 1 Women's Jean", user_config)
         items.append(store_itemlist[WOMENS_SWEATERS][0])
         items.append(store_itemlist[MENS_SHIRTS][0])
         items.append(store_itemlist[MENS_SHIRTS][0])
