@@ -1,6 +1,3 @@
-
-import sys
-
 #coupon = ["store name", "% off", "all purchase/category", "free shipping?", "qualifier for shipping", 
 #         "code"]
 # Categories: 0 => ALL, 1 => MEN, 2 => WOMEN
@@ -92,10 +89,10 @@ coupon_banana_dec_22 = {"store": "BANANA_REPUBLIC",
 
 coupon_aerie_dec_22 = {"store": "AERIE", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
-                "add_stw_discount": 0.4, "add_stw_discount_perc_code": "39427841",
+                "add_stw_discount": 0.3, "add_stw_discount_perc_code": "BRWINTER",
                 "item_cat": "-", "buy1_get1_discount_perc": 0.25, "buy1_get1_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
-                "free_shipping_dollar_qualifier": 100, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
                 }
 
@@ -165,37 +162,8 @@ def match(coupon, item):
                     
     return True
 
-def read_item_info(filename):
-    print "Processing " + filename
-    f = open(filename, 'r')
-    itemlist = []
-    i = 0
-    for line in f:
-        itemdata_arr = line.split("|")
-        price_arr = itemdata_arr[2].split(",")
-        #if itemdata_arr[1].strip() == "mens-shirts":
-            #print itemdata_arr[0].strip(), itemdata_arr[1].strip(), price_arr[0].strip(), price_arr[1].strip()
-        itemlist.append( {"store": itemdata_arr[0].strip(), 
-                          "category": itemdata_arr[1].strip(), 
-                          "price": float(price_arr[0].strip()),
-                          "sale_price": float(price_arr[1].strip())} )
-        i += 1
-
-    #print len(itemlist)        
-    return itemlist
-
-        
 
 if __name__ == "__main__":
-    
-    print "Number of input item files: " + str(len(sys.argv)-1)
-
-    store_itemlist = []
-    for i in range(1,len(sys.argv)):
-        store_itemlist.append(read_item_info(sys.argv[i]))
-
-    print store_itemlist[0][0]
-    print store_itemlist[1][0]
     
     base = base_price(item1, item2)
 
