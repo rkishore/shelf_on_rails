@@ -1,0 +1,1 @@
+python match.py ../shopstyle-int/express-mens-shirts-ss.data ../shopstyle-int/express-mens-pants-ss.data ../shopstyle-int/express-mens-jeans-ss.data ../shopstyle-int/express-womens-jeans-ss.data ../shopstyle-int/express-womens-sweaters-ss.data express_dec_22

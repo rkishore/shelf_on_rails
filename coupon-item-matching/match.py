@@ -3,7 +3,8 @@ import logging
 
 from operator import itemgetter
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
+
 
 #coupon = ["store name", "% off", "all purchase/category", "free shipping?", "qualifier for shipping", 
 #         "code"]
@@ -128,8 +129,8 @@ def calculate_b1g1_discount(store, cat, disc_rate):
     # pick lower half and apply the discount
     
     items = []
-    for i in range(0, len(wish_list)):
-        it = wish_list[i]
+    for i in range(0, len(cur_items)):
+        it = cur_items[i]
         # need to check if this item is valid to be used in this
         # calculation
         isValid = is_not_on_discount(it) 
@@ -387,17 +388,17 @@ def create_sample_wishlist(store_itemlist, user_config):
     elif (user_config == 1):
         items.append(store_itemlist[MENS_SHIRTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
+        items.append(store_itemlist[MENS_PANTS][0])
     elif (user_config == 2):
         items.append(store_itemlist[MENS_SHIRTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-    elif (user_config == 3):
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
         items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
+        items.append(store_itemlist[MENS_PANTS][0])
+    elif (user_config == 3):
+        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(store_itemlist[MENS_PANTS][0])
     elif (user_config == 4):
         items.append(store_itemlist[WOMENS_SWEATERS][0])
         items.append(store_itemlist[WOMENS_SWEATERS][0])
@@ -430,24 +431,29 @@ def create_sample_wishlist(store_itemlist, user_config):
 
 if __name__ == "__main__":
     
-    #logging.debug("Number of input item files: " + str(len(sys.argv)-1)
+    #log = logging.getLogger("MyApp")
 
     store_itemlist = []
-    for i in range(1,len(sys.argv)):
+    for i in range(1,len(sys.argv)-1):
         store_itemlist.append(read_item_info(sys.argv[i]))
 
+    #logging.debug("Number of input arguments: " + str(len(sys.argv)-1)
+
+    if ( sys.argv[len(sys.argv)-1] == "express_dec_22" ):
+        cur_coupon = coupon_express_dec_22
+    
     item_stats = {}
     
-    for j in range(0, 5):
+    for j in range(0, 1):
         
-        print "---- Iteration " + str(j) + " Start -----"
+        logging.debug("---- Iteration " + str(j) + " Start -----")
         
         cur_items = create_sample_wishlist(store_itemlist, j)
     
         cur_sale = current_sale_price(cur_items)
 
         #cur_coupon = coupon_jcrew_dec_18
-        cur_coupon = coupon_express_dec_22
+        #cur_coupon = coupon_express_dec_22
         for i in range(0, len(cur_items)):
             match_express(cur_coupon, cur_items[i])
     
@@ -461,9 +467,9 @@ if __name__ == "__main__":
     
         total_price = aggregate_discount_check(cur_coupon, total_price)
         shipping_free = check_shipping(cur_coupon, total_price)
+                
+        logging.info(" Original cost: " + str(cur_sale) + " Discounted cost: " + str(total_price) + " Savings: " + 
+                 str(cur_sale-total_price) + " Free Shipping: " + str(shipping_free))
         
-        logging.debug("Original cost: " + str(cur_sale) + " Discounted cost: " + str(total_price) + " Savings: " + 
-                      str(cur_sale-total_price) + " Free Shipping: " + str(shipping_free))
-        
-        print "---- Iteration " + str(j) + " Done -----"
+        logging.debug("---- Iteration " + str(j) + " Done -----")
         
