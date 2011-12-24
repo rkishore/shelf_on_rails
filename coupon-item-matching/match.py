@@ -515,22 +515,34 @@ def create_sample_wishlist(store_itemlist, user_config):
 if __name__ == "__main__":
     
     #log = logging.getLogger("MyApp")
-
+    
+    store_name = sys.argv[1] 
+    sex_type = ["mens", "womens"]    
+    category_arr = ["shirts", "pants", "jeans", "sweaters"]
+    
+    fname = []
+    fcount = 0
+    for i in range(0, len(sex_type)):
+        for j in range(0, len(category_arr)):
+            if ( ((i == 0) and (j < 3)) or ((i == 1) and (j > 1)) ):
+                fstr = "../shopstyle-int/" + store_name + "-" + sex_type[i] + "-" + category_arr[j] + "-ss.data"
+                fname.append(fstr)
+                print fname[fcount]
+                fcount += 1
+    
     store_itemlist = []
-    for i in range(1,len(sys.argv)-1):
-        store_itemlist.append(read_item_info(sys.argv[i]))
-
+    for i in range(0,fcount):
+        store_itemlist.append(read_item_info(fname[i]))
 
     #logging.debug("Number of input arguments: " + str(len(sys.argv)-1)
-
-    if ( sys.argv[len(sys.argv)-1] == "express_dec_22" ):
+    if ( store_name == "express" ):
         cur_coupon = coupon_express_dec_22
-    elif ( sys.argv[len(sys.argv)-1] == "jcrew_dec_18" ):
+    elif ( store_name == "jcrew" ):
         cur_coupon = coupon_jcrew_dec_18
     
     item_stats = {}
 
-    for j in range(6, 7):
+    for j in range(1, 2):
         
         logging.debug("---- Iteration " + str(j) + " Start -----")
         

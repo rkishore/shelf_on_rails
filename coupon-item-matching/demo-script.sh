@@ -26,6 +26,6 @@ python match.py ../shopstyle-int/express-mens-shirts-ss.data ../shopstyle-int/ex
 
 cinfo "\n------------- JCrew.com -------------------\n"
 
-#python match.py ../shopstyle-int/jcrew-mens-shirts-ss.data ../shopstyle-int/jcrew-mens-pants-ss.data ../shopstyle-int/jcrew-mens-jeans-ss.data ../shopstyle-int/jcrew-womens-jeans-ss.data ../shopstyle-int/jcrew-womens-sweaters-ss.data jcrew_dec_18 
+python match.py ../shopstyle-int/jcrew-mens-shirts-ss.data ../shopstyle-int/jcrew-mens-pants-ss.data ../shopstyle-int/jcrew-mens-jeans-ss.data ../shopstyle-int/jcrew-womens-jeans-ss.data ../shopstyle-int/jcrew-womens-sweaters-ss.data jcrew_dec_18
 
 cinfo "\nHope you liked us! Let us know!"
