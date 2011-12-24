@@ -281,10 +281,8 @@ def base_price(item1, item2):
     return base
 
 def current_sale_price(itemlist):
-    shipping_cost = DEFAULT_SHIPPING_COST
     sale = 0
     for i in range(0, len(itemlist)):
-        print sale
         sale += float(itemlist[i]["sale_price"])
     logging.debug("current_sale_price: " + str(sale))
     return sale
