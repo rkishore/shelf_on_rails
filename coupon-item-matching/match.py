@@ -52,7 +52,7 @@ WOMENS_SWEATERS= 4
 coupon_jcrew = {"store": "J.Crew", 
                 "stw_discount": 0.3, "stw_discount_perc_code": "CODE1",
                 "add_stw_discount": 0.2, "add_stw_discount_perc_code": "CODE2",
-                "item_cat": "mens-shirts", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
+                "item_cat": "mens-shirts", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 25, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 50, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": 100, "discount_return_rate": "None", "standard_return_rate": 10
@@ -61,7 +61,7 @@ coupon_jcrew = {"store": "J.Crew",
 coupon_jcrew_dec_23 = {"store": "J.Crew", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0.2, "add_stw_discount_perc_code": "MUSTSHOP",
-                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
+                "item_cat": "-", "item_spec_discount_type": "B1G1","item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 175, "discount_shipping_rate": "None", "standard_shipping_rate": 8.95,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -70,7 +70,7 @@ coupon_jcrew_dec_23 = {"store": "J.Crew",
 coupon_jcrew_dec_22 = {"store": "J.Crew", 
                 "stw_discount": 0, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0.2, "add_stw_discount_perc_code": "MUSTSHOP",
-                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
+                "item_cat": "-", "item_spec_discount_type": "B1G1","item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 175, "discount_shipping_rate": "None", "standard_shipping_rate": 8.95,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -79,7 +79,7 @@ coupon_jcrew_dec_22 = {"store": "J.Crew",
 coupon_jcrew_dec_18 = {"store": "J.Crew", 
                 "stw_discount": 0.3, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0, "add_stw_discount_perc_code": "MUSTSHOP",
-                "item_cat": "-", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
+                "item_cat": "-", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 100, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
                 "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
@@ -235,7 +235,7 @@ def aggregate_discount_check(coupon, total_price):
     
     logging.debug("aggr_disc: " + str(coupon["stw_discount_dollars"]) + " " + str(total_price))
     
-    if ( coupon["item_spec_discount_type"] == "B1G1"):
+    if ( coupon["item_spec_discount_type"] == "B1G1" and coupon["item_cat"] != "-"):
         # what category does this apply?
         cat = coupon["item_cat"]
         base_cat = find_base_category(cat)
