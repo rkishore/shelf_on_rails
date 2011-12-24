@@ -460,23 +460,28 @@ def create_sample_wishlist(store_itemlist, user_config):
     #wish_list = []
     
     if (user_config == 0):
+        logging.info("Wishlist %d: 1 Men's Shirt, 1 Men's Pant", user_config)
         items.append(store_itemlist[MENS_SHIRTS][0]) 
         items.append(store_itemlist[MENS_PANTS][0])
     elif (user_config == 1):
+        logging.info("Wishlist %d: 1 Men's Shirt, 2 Men's Pants", user_config)
         items.append(store_itemlist[MENS_SHIRTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
     elif (user_config == 2):
+        logging.info("Wishlist %d: 1 Men's Shirt, 3 Men's Pants", user_config)
         items.append(store_itemlist[MENS_SHIRTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
     elif (user_config == 3):
+        logging.info("Wishlist %d: 4 Men's Pants", user_config)
         items.append(store_itemlist[MENS_PANTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
         items.append(store_itemlist[MENS_PANTS][0])
     elif (user_config == 4):
+        logging.info("Wishlist %d: 2 Women's Sweaters, 1 Women's Jeans, 1 Men's Jeans", user_config)
         items.append(store_itemlist[WOMENS_SWEATERS][0])
         items.append(store_itemlist[WOMENS_SWEATERS][0])
         items.append(store_itemlist[MENS_JEANS][0])
@@ -527,7 +532,6 @@ if __name__ == "__main__":
             if ( ((i == 0) and (j < 3)) or ((i == 1) and (j > 1)) ):
                 fstr = "../shopstyle-int/" + store_name + "-" + sex_type[i] + "-" + category_arr[j] + "-ss.data"
                 fname.append(fstr)
-                print fname[fcount]
                 fcount += 1
     
     store_itemlist = []
@@ -542,7 +546,7 @@ if __name__ == "__main__":
     
     item_stats = {}
 
-    for j in range(1, 2):
+    for j in range(0, 7):
         
         logging.debug("---- Iteration " + str(j) + " Start -----")
         
