@@ -142,7 +142,7 @@ end
 
 def construct_shopstyle_url(brand, category, min_idx, rec_cnt)
   
-  if (brand.casecmp("j.crew") == 0)
+  if (brand.casecmp("jcrew") == 0)
     url_str = "http://api.shopstyle.com/action/apiSearch?pid=uid289-3680017-16&fts=&cat="+category.to_s+"&fl=b284"+"&min="+min_idx.to_s+"&count="+rec_cnt.to_s
   elsif (brand.casecmp("express") == 0)
     url_str = "http://api.shopstyle.com/action/apiSearch?pid=uid289-3680017-16&fts=&cat="+category.to_s+"&fl=b13342"+"&min="+min_idx.to_s+"&count="+rec_cnt.to_s
