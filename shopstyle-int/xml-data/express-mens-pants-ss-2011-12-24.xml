@@ -1,0 +1,3014 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>13342</Id>
+<Name>Express</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>33</TotalCount>
+<Product>
+<Id>315903096</Id>
+<Name>Sharkskin Twill Producer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Get the Mad Men look with a smooth and swanky sharkskin twill in a modern fit. Pair with matching vest and suit jacket for a complete suit.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, back buttoned pockets&lt;/li&gt;
+                     		&lt;li&gt;70% Wool/22% Polyester/8% Nylon&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315903096&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/32/05/3205d2f4bd4709edf3cea5adf8c09f8f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/32/05/3205d2f4bd4709edf3cea5adf8c09f8f_medium/express-dress-pants-sharkskin-twill-producer-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/32/05/3205d2f4bd4709edf3cea5adf8c09f8f/express-dress-pants-sharkskin-twill-producer-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-23</ExtractDate>
+</Product>
+<Product>
+<Id>313668994</Id>
+<Name>End On End Cotton Producer Pant</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The ultimate choice for a dressed-up pant that's cotton comfortable. With its trim modern fit, this pant earns its place as a versatile wardrobe favorite.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Deep slant pockets, buttoned back welt pockets&lt;/li&gt;
+                     		&lt;li&gt;Zip fly with hidden hook and eye close&lt;/li&gt;
+                     		&lt;li&gt;100% Cotton&lt;/li&gt;
+                     		&lt;li&gt;Dry clean&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=313668994&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/bf/c5/bfc5e610c4bce9a924e3d7154e7d618d_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/bf/c5/bfc5e610c4bce9a924e3d7154e7d618d_medium/express-dress-pants-end-on-end-cotton-producer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/bf/c5/bfc5e610c4bce9a924e3d7154e7d618d/express-dress-pants-end-on-end-cotton-producer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-16</ExtractDate>
+</Product>
+<Product>
+<Id>308408892</Id>
+<Name>Cotton Sateen Photographer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A versatile fabric to take you from work to weekend in the blink of an eye. A tailored, slim fit gives this pair a rock-and-roll edge. Pair with matching jacket and vest for a complete look.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim fit, straight leg, sits below waist&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Deep slant pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;97% Cotton/3% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308408892&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2b/4c/2b4c5be75245dd0331e3cae831fce392_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2b/4c/2b4c5be75245dd0331e3cae831fce392_medium/express-dress-pants-cotton-sateen-photographer-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2b/4c/2b4c5be75245dd0331e3cae831fce392/express-dress-pants-cotton-sateen-photographer-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-30</ExtractDate>
+</Product>
+<Product>
+<Id>305893631</Id>
+<Name>Pinstripe Stretch Cotton Photographer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our most streamlined suit pant. A slim, sleek fit in a timeless pinstripe is fit for any season. Pair with matching Fitted Suit Jacket and a Slim Fit 1MX for a tailored look that's scalpel sharp.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim fit, straight leg, sits below waist&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Deep slant pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305893631&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/74/e7/74e7a138e1f4873b9daed723398b4198_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/74/e7/74e7a138e1f4873b9daed723398b4198_medium/express-dress-pants-pinstripe-stretch-cotton-photographer-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/74/e7/74e7a138e1f4873b9daed723398b4198/express-dress-pants-pinstripe-stretch-cotton-photographer-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Color>
+<Name>CRYSTAL GRAY</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-22</ExtractDate>
+</Product>
+<Product>
+<Id>303822440</Id>
+<Name>Stretch Cotton Agent Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A relaxed fit with a refined style. Expert construction, impressive feel and a fuller thigh make this easy-going pant a favorite for the true individualist.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Relaxed fit, sits at waist, fuller through the thigh&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Deep slant pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303822440&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/1a/9d/1a9dc52e1268373e427dab3263e06a67_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/1a/9d/1a9dc52e1268373e427dab3263e06a67_medium/express-pants-shorts-stretch-cotton-agent-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/1a/9d/1a9dc52e1268373e427dab3263e06a67/express-pants-shorts-stretch-cotton-agent-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>CRYSTAL GRAY</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W40 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W40 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-15</ExtractDate>
+</Product>
+<Product>
+<Id>303822070</Id>
+<Name>Striped Agent Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style that effortlessly gets through any situation, the Agent is our most relaxed fitting pant. Expert construction, refined feel and a fuller thigh make this easy-going pant a favorite for the true individualist.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;78% Polyester/19% Viscose/3% Lycra&lt;/li&gt;
+                     		&lt;li&gt;Relaxed fit, sits at waist, fuller through the thigh&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303822070&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/90/d4/90d44f41c7244c3ac4b2f238b45a37fe_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/90/d4/90d44f41c7244c3ac4b2f238b45a37fe_medium/express-pants-shorts-striped-agent-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/90/d4/90d44f41c7244c3ac4b2f238b45a37fe/express-pants-shorts-striped-agent-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-15</ExtractDate>
+</Product>
+<Product>
+<Id>301685907</Id>
+<Name>Heathered Stretch Cotton Photographer Pant</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style at the speed of life, the Photographer is our slimmest fitting pant. A sleek fit, straight legs and a made-to-measure feel make this streamlined pant universally sharp for the man about town.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Slim fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;4-pocket styling&lt;/li&gt;
+                     		&lt;li&gt;Deep slant hand pockets, back slit pockets&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=301685907&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/36/c7/36c7a174ce2aa426a4814a5469c82d21_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/36/c7/36c7a174ce2aa426a4814a5469c82d21_medium/express-cotton-sweaters-heathered-stretch-cotton-photographer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/36/c7/36c7a174ce2aa426a4814a5469c82d21/express-cotton-sweaters-heathered-stretch-cotton-photographer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-07</ExtractDate>
+</Product>
+<Product>
+<Id>303822966</Id>
+<Name>Striped Agent Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style that effortlessly gets through any situation, the Agent is our most relaxed fitting pant. Expert construction, refined feel and a fuller thigh make this easy-going pant a favorite for the true individualist.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;64% Polyester/34% Viscose/2% Lycra&lt;/li&gt;
+                     		&lt;li&gt;Relaxed fit, sits at waist, fuller through the thigh&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303822966&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/78/37/7837561173c6d5e19465e94ff61ab38c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/78/37/7837561173c6d5e19465e94ff61ab38c_medium/express-pants-shorts-striped-agent-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/78/37/7837561173c6d5e19465e94ff61ab38c/express-pants-shorts-striped-agent-pant.jpg</Url>
+</Image>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-15</ExtractDate>
+</Product>
+<Product>
+<Id>294972623</Id>
+<Name>Tuxedo Producer Pant</Name>
+<Currency>USD</Currency>
+<Price>148.0</Price>
+<PriceLabel>$148.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>For your more formal nights out. Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Satin-like trim on the waistband, pockets, and sides dress up the look. Pair with matching Stretch Wool Tuxedo Jacket.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;54% Polyester/44% Wool/2% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Satin-like trim down sides&lt;/li&gt;
+                     		&lt;li&gt;Satin-like extended tab closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;On-seam hand pockets, slit back pockets&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=294972623&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b3/01/b3015878d4ed992a71352b7d5fbb9fff_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b3/01/b3015878d4ed992a71352b7d5fbb9fff_medium/express-tuxedo-producer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b3/01/b3015878d4ed992a71352b7d5fbb9fff/express-tuxedo-producer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-18</ExtractDate>
+</Product>
+<Product>
+<Id>294972484</Id>
+<Name>Pinstripe Stretch Wool Photographer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>58.8</SalePrice>
+<SalePriceLabel>$58.80</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style at the speed of life, the Photographer is our slimmest fitting pant. A sleek fit, straight leg and stretch wool fabric is everything you need for the season. Pair with our 1MX Extra Slim Fit Shirt for the trimmest look in suits.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;92% Wool/4% Polyester/4% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Slim fit, straight leg, sits below waist&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Deep slant pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Stretch fabric&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=294972484&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3a/3d/3a3d4f6ce726c168705472a8ab377778_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3a/3d/3a3d4f6ce726c168705472a8ab377778_medium/express-dress-pants-pinstripe-stretch-wool-photographer-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3a/3d/3a3d4f6ce726c168705472a8ab377778/express-dress-pants-pinstripe-stretch-wool-photographer-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>SENATOR</Name>
+</Color>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-18</ExtractDate>
+</Product>
+<Product>
+<Id>291245529</Id>
+<Name>Birdseye Wool Photographer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>128.0</Price>
+<PriceLabel>$128.00</PriceLabel>
+<SalePrice>76.8</SalePrice>
+<SalePriceLabel>$76.80</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style at the speed of life, the Photographer is our slimmest fitting pant. A sleek fit, straight legs and a made-to-measure feel. Pair with matching vest and jacket for a complete look.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;100% Wool&lt;/li&gt;
+                     		&lt;li&gt;Slim fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Hint of stretch&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=291245529&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/42/5f/425f4619094193bd9deb93944c703485_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/42/5f/425f4619094193bd9deb93944c703485_medium/express-dress-pants-wool-blend-photographer-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/42/5f/425f4619094193bd9deb93944c703485/express-dress-pants-wool-blend-photographer-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-07</ExtractDate>
+</Product>
+<Product>
+<Id>277623065</Id>
+<Name>Striped Producer Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and fresh fabrics. Pair with the matching jacket and vest for a complete suit.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;64% Polyester/34% Viscose/2% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Contrast piping on inside&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=277623065&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/09/aa/09aaad23e86e020bd1796e8ee70e6b2a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/09/aa/09aaad23e86e020bd1796e8ee70e6b2a_medium/express-dress-pants-striped-producer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/09/aa/09aaad23e86e020bd1796e8ee70e6b2a/express-dress-pants-striped-producer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-30</ExtractDate>
+</Product>
+<Product>
+<Id>277622220</Id>
+<Name>Wool-Blend Herringbone Agent Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style that effortlessly gets through any situation, the Agent is our most relaxed fitting pant. Expert construction, refined feel and a fuller thigh make this easy-going pant a favorite for the true individualist.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;50% Wool/48% Polyester/2% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Relaxed fit, sits at waist, fuller through the thigh&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Hint of stretch&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=277622220&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/49/2f/492f20bd4e4c6e56fa1eb1cc9bc074bd_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/49/2f/492f20bd4e4c6e56fa1eb1cc9bc074bd_medium/express-dress-pants-woolblend-herringbone-agent-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/49/2f/492f20bd4e4c6e56fa1eb1cc9bc074bd/express-dress-pants-woolblend-herringbone-agent-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-30</ExtractDate>
+</Product>
+<Product>
+<Id>277623270</Id>
+<Name>End-On-End Producer Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and an end-on-end weave make this updated classic a must-have for the downtown guy on the go.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;61% Polyester/34% Viscose/2% Lycra&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Flat front&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=277623270&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9c/7c/9c7c64a732388081186f38e81a61b254_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9c/7c/9c7c64a732388081186f38e81a61b254_medium/express-dress-pants-endonend-producer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9c/7c/9c7c64a732388081186f38e81a61b254/express-dress-pants-endonend-producer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-30</ExtractDate>
+</Product>
+<Product>
+<Id>273115088</Id>
+<Name>Stretch Cotton Photographer Pant</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style at the speed of life, the Photographer is our slimmest fitting pant. A sleek fit, straight legs and a made-to-measure feel make this streamlined pant universally sharp for the man about town.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=273115088&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c1/49/c149d94a776400cf29c3058745eec7e4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c1/49/c149d94a776400cf29c3058745eec7e4_medium/express-dress-pants-stretch-cotton-photographer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c1/49/c149d94a776400cf29c3058745eec7e4/express-dress-pants-stretch-cotton-photographer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>LICORICE</Name>
+</Color>
+<Color>
+<Name>MOTOR</Name>
+</Color>
+<Color>
+<Name>CARAVAN</Name>
+</Color>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-17</ExtractDate>
+</Product>
+<Product>
+<Id>277623002</Id>
+<Name>Plaid Producer Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and fresh fabrics.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;64% Polyester/34% Viscose/2% Lycra&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Contrast piping on inside&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=277623002&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/6b/4c/6b4c65fcd00386a0c6014102f5310c09_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/6b/4c/6b4c65fcd00386a0c6014102f5310c09_medium/express-dress-pants-plaid-producer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/6b/4c/6b4c65fcd00386a0c6014102f5310c09/express-dress-pants-plaid-producer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>PORTLAND</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-30</ExtractDate>
+</Product>
+<Product>
+<Id>273116589</Id>
+<Name>Striped Stretch Wool Producer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>58.8</SalePrice>
+<SalePriceLabel>$58.80</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and fresh fabrics. Pair with matching vest and jacket for a complete suit.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;96% Wool/4% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=273116589&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/86/01/86015eb47c8096b31e6d0c285088c29d_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/86/01/86015eb47c8096b31e6d0c285088c29d_medium/express-dress-pants-striped-stretch-wool-producer-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/86/01/86015eb47c8096b31e6d0c285088c29d/express-dress-pants-striped-stretch-wool-producer-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-17</ExtractDate>
+</Product>
+<Product>
+<Id>270624462</Id>
+<Name>Striped Producer Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant, now in a sleek striped look. Tailored design, contemporary fit and fresh fabrics make this updated classic a must-have for the downtown guy on the go.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;64% Polyester/34% Viscose/2% Lycra&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below the waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Contrast piping on inside&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=270624462&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/a4/00/a40085ae784d38a8bedfc1af876d7b18_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/a4/00/a40085ae784d38a8bedfc1af876d7b18_medium/express-dress-pants-striped-producer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/a4/00/a40085ae784d38a8bedfc1af876d7b18/express-dress-pants-striped-producer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-09</ExtractDate>
+</Product>
+<Product>
+<Id>273116550</Id>
+<Name>Herringbone Photographer Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style at the speed of life, the Photographer is our slimmest fitting pant. A sleek fit, straight legs and a made-to-measure feel make this streamlined pant universally sharp for the man about town.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;50% Wool/48% Polyester/2% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Slim fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Deep slant hand pockets, back flap pockets&lt;/li&gt;
+                     		&lt;li&gt;Hint of stretch&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=273116550&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f1/5f/f15feb98b8a14c36638cb50dc16f865f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f1/5f/f15feb98b8a14c36638cb50dc16f865f_medium/express-dress-pants-herringbone-photographer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f1/5f/f15feb98b8a14c36638cb50dc16f865f/express-dress-pants-herringbone-photographer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-17</ExtractDate>
+</Product>
+<Product>
+<Id>271328717</Id>
+<Name>Striped Producer Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and fresh fabrics. Pair with the matching jacket and vest for a complete suit.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;78% Polyester/19% Viscose/3% Lycra&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Contrast piping on inside&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=271328717&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2f/06/2f06625b088861aea809c2b92e12f4cf_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2f/06/2f06625b088861aea809c2b92e12f4cf_medium/express-dress-pants-striped-producer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2f/06/2f06625b088861aea809c2b92e12f4cf/express-dress-pants-striped-producer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-11</ExtractDate>
+</Product>
+<Product>
+<Id>262975527</Id>
+<Name>Twill Producer Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and fresh fabrics. Pair with the matching jacket and vest for a complete suit.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;64% Polyester/34% Viscose/2% Lycra&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below the waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Contrast piping on inside&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=262975527&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d7/3a/d73adc4be20ac0fa09953857814012d2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d7/3a/d73adc4be20ac0fa09953857814012d2_medium/express-dress-pants-twill-producer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d7/3a/d73adc4be20ac0fa09953857814012d2/express-dress-pants-twill-producer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>HEATHER GRAY</Name>
+</Color>
+<Color>
+<Name>VAPOR</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-19</ExtractDate>
+</Product>
+<Product>
+<Id>266242102</Id>
+<Name>Stretch Wool Blend Photographer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style at the speed of life, the Photographer is our slimmest fitting pant. A sleek fit, straight legs and a made-to-measure feel make this our most streamlined pant. Pair with our 1MX  Extra Slim Fit Shirt for the trimmest look in suits.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;54% Polyester/44% Wool/2% Elastane&lt;/li&gt;
+                     		&lt;li&gt;Slim fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Deep slant hand pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=266242102&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/00/08/000809cf2e1706ea73dbfb4cc60e829f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/00/08/000809cf2e1706ea73dbfb4cc60e829f_medium/express-slimfit-photographer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/00/08/000809cf2e1706ea73dbfb4cc60e829f/express-slimfit-photographer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-28</ExtractDate>
+</Product>
+<Product>
+<Id>261259548</Id>
+<Name>Striped Photographer Pant</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<SalePrice>47.94</SalePrice>
+<SalePriceLabel>$47.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style at the speed of life, the Photographer is our slimmest fitting pant. A sleek fit, straight legs and a made-to-measure feel make this streamlined pant universally sharp for the man about town.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;78% Polyester/19% Viscose/3% Lycra&lt;/li&gt;
+                     		&lt;li&gt;Slim fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Deep slant hand pockets, back flap pockets&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=261259548&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0e/f2/0ef2e536dc8c9605b1e38fe00ce848d8_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0e/f2/0ef2e536dc8c9605b1e38fe00ce848d8_medium/express-dress-pants-striped-photographer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0e/f2/0ef2e536dc8c9605b1e38fe00ce848d8/express-dress-pants-striped-photographer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-13</ExtractDate>
+</Product>
+<Product>
+<Id>257210128</Id>
+<Name>Stretch Wool Blend Agent Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>69.99</SalePrice>
+<SalePriceLabel>$69.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style that effortlessly gets through any situation, the Agent is our most relaxed fitting pant. Expert construction, refined feel and a fuller thigh make this easy-going pant a favorite for the true individualist.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;54% Polyester/44% Wool/2% Elastane&lt;/li&gt;
+                     		&lt;li&gt;Relaxed fit, sits at waist, fuller through the thigh&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant front pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=257210128&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9a/7f/9a7fe1e06698e0990319b7df4e59a1b5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9a/7f/9a7fe1e06698e0990319b7df4e59a1b5_medium/express-dress-pants-stretch-wool-blend-agent-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9a/7f/9a7fe1e06698e0990319b7df4e59a1b5/express-dress-pants-stretch-wool-blend-agent-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W40 L30</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-29</ExtractDate>
+</Product>
+<Product>
+<Id>253076717</Id>
+<Name>Cargo Pant</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<SalePrice>52.8</SalePrice>
+<SalePriceLabel>$52.80</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Cargo pants for throw-on-and go style. A slightly narrower fit and cool military details like classic multi-use pockets and metal hardware keep the look fresh.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;100% Cotton&lt;/li&gt;
+                     		&lt;li&gt;Button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, cargo pockets&lt;/li&gt;
+                     		&lt;li&gt;Button-down back flap pockets&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=253076717&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3d/19/3d19946c73b3d2899593b5f88c21bce2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3d/19/3d19946c73b3d2899593b5f88c21bce2_medium/express-cargo-pants-cargo-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3d/19/3d19946c73b3d2899593b5f88c21bce2/express-cargo-pants-cargo-pant.jpg</Url>
+</Image>
+<Color>
+<Name>JUNGLE</Name>
+</Color>
+<Color>
+<Name>GRAPHITE</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-cargo-pants</Category>
+<Category>mens-casual-pants</Category>
+<CategoryName>Cargo Pants</CategoryName>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Cargo Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cargo-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-16</ExtractDate>
+</Product>
+<Product>
+<Id>255135004</Id>
+<Name>Stretch Cotton Chino Pant</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<SalePrice>41.94</SalePrice>
+<SalePriceLabel>$41.94</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A classic chino pant for the guy who lives in jeans. This casual pant fits like your favorite Rocco for laid-back yet refined style. Now in our premium stretch cotton for added style and comfort.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;97% Cotton/3% Lycra&lt;/li&gt;
+                     		&lt;li&gt;Slim fit, low rise, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Deep slant hand pockets with slit coin pocket&lt;/li&gt;
+                     		&lt;li&gt;Back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=255135004&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c8/0e/c80eb8175bb7dff37735c2e5b7619a97_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c8/0e/c80eb8175bb7dff37735c2e5b7619a97_medium/express-casual-pants-stretch-cotton-chino-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c8/0e/c80eb8175bb7dff37735c2e5b7619a97/express-casual-pants-stretch-cotton-chino-pant.jpg</Url>
+</Image>
+<Color>
+<Name>JUNGLE</Name>
+</Color>
+<Color>
+<Name>BACK BAY KHAKI</Name>
+</Color>
+<Color>
+<Name>STEEL GRAY</Name>
+</Color>
+<Color>
+<Name>GRAPHITE</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Casual Pants</CategoryName>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Casual Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-22</ExtractDate>
+</Product>
+<Product>
+<Id>246053925</Id>
+<Name>Striped Stretch Wool Producer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>58.8</SalePrice>
+<SalePriceLabel>$58.80</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and fresh fabrics. Pair with the matching jacket and vest for a complete suit.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;96% Wool/4% Lycra&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Flat front&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=246053925&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d1/57/d157908a0af6b6fd95d531d4cca59231_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d1/57/d157908a0af6b6fd95d531d4cca59231_medium/express-dress-pants-stripe-stretch-wool-producer-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d1/57/d157908a0af6b6fd95d531d4cca59231/express-dress-pants-stripe-stretch-wool-producer-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-24</ExtractDate>
+</Product>
+<Product>
+<Id>238700283</Id>
+<Name>Stretch Wool Producer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and fresh end-on-end fabric in a cool charcoal. Pair with matching vest and jacket for a complete suit.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;96% Wool/4% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;New contrast piping on inside matches jacket and vest&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=238700283&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/39/a7/39a72801de4f5ff5996a7bfbc053809a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/39/a7/39a72801de4f5ff5996a7bfbc053809a_medium/express-stretch-wool-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/39/a7/39a72801de4f5ff5996a7bfbc053809a/express-stretch-wool-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W38 L34</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-04-26</ExtractDate>
+</Product>
+<Product>
+<Id>138383173</Id>
+<Name>Stretch Wool Blend Agent Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>58.8</SalePrice>
+<SalePriceLabel>$58.80</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style that effortlessly gets through any situation, the Agent is our most relaxed fitting pant. Expert construction, refined feel and a fuller thigh make this easy-going pant a favorite for the true individualist.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;54% Polyester/44% Wool/2% Elastane&lt;/li&gt;
+                     		&lt;li&gt;Relaxed fit, sits at waist, fuller through the thigh&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant front pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=138383173&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0b/db/0bdbdc58cc548b0adabbfce06631bd79_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0b/db/0bdbdc58cc548b0adabbfce06631bd79_medium/express-dress-pants-stretch-wool-agent-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0b/db/0bdbdc58cc548b0adabbfce06631bd79/express-dress-pants-stretch-wool-agent-pant.jpg</Url>
+</Image>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W40 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W40 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W32 L36</Name>
+</Size>
+<Size>
+<Name>W34 L36</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-03-07</ExtractDate>
+</Product>
+<Product>
+<Id>134190189</Id>
+<Name>Stretch Cotton Producer Pant</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<MaxPrice>69.9</MaxPrice>
+<MaxPriceLabel>$69.90</MaxPriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and fresh fabrics make this updated classic a must-have for the downtown guy on the go.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=134190189&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e2/d6/e2d653502c0a19211489585dde8c2cd6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e2/d6/e2d653502c0a19211489585dde8c2cd6_medium/express-pants-stretch-cotton-producer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e2/d6/e2d653502c0a19211489585dde8c2cd6/express-pants-stretch-cotton-producer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>CAST IRON</Name>
+</Color>
+<Color>
+<Name>BRANCH</Name>
+</Color>
+<Color>
+<Name>HEATHER GRAY</Name>
+</Color>
+<Color>
+<Name>LT GRAY HEATHER</Name>
+</Color>
+<Color>
+<Name>CARAVAN</Name>
+</Color>
+<Color>
+<Name>MARSH</Name>
+</Color>
+<Color>
+<Name>OYSTER</Name>
+</Color>
+<Color>
+<Name>MOTOR</Name>
+</Color>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W40 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W40 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Size>
+<Name>W32 L36</Name>
+</Size>
+<Size>
+<Name>W34 L36</Name>
+</Size>
+<Size>
+<Name>W36 L36</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-02-12</ExtractDate>
+</Product>
+<Product>
+<Id>126114484</Id>
+<Name>Pinstripe Stretch Cotton Producer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<MaxPrice>69.9</MaxPrice>
+<MaxPriceLabel>$69.90</MaxPriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and fresh fabrics make this updated classic a must-have for the downtown guy on the go.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Zip fly with hidden hook and button close&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, buttoned back welt pockets&lt;/li&gt;
+                     		&lt;li&gt;Flat front 97% Cotton/2% Spandex/1% Polyester&lt;/li&gt;
+                     		&lt;li&gt;Dry clean&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=126114484&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/4e/e9/4ee94fb8b1ac213695496d539aefa2fe_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/4e/e9/4ee94fb8b1ac213695496d539aefa2fe_medium/express-dress-pants-pinstripe-stretch-cotton-producer-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/4e/e9/4ee94fb8b1ac213695496d539aefa2fe/express-dress-pants-pinstripe-stretch-cotton-producer-pant.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Color>
+<Name>CRYSTAL GRAY</Name>
+</Color>
+<Color>
+<Name>LT GRAY HEATHER</Name>
+</Color>
+<Color>
+<Name>DRIED SAGE</Name>
+</Color>
+<Color>
+<Name>STERLING</Name>
+</Color>
+<Color>
+<Name>CARAVAN</Name>
+</Color>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W40 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W40 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Size>
+<Name>W32 L36</Name>
+</Size>
+<Size>
+<Name>W34 L36</Name>
+</Size>
+<Size>
+<Name>W36 L36</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-01-07</ExtractDate>
+</Product>
+<Product>
+<Id>126399737</Id>
+<Name>Stretch Cotton Agent Pant</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<MaxPrice>69.9</MaxPrice>
+<MaxPriceLabel>$69.90</MaxPriceLabel>
+<SalePrice>35.94</SalePrice>
+<SalePriceLabel>$35.94</SalePriceLabel>
+<MaxSalePrice>69.9</MaxSalePrice>
+<MaxSalePriceLabel>$69.90</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style that effortlessly gets through any situation, the Agent is our most relaxed fitting pant. Expert construction, refined feel and a fuller thigh make this easy-going pant a favorite for the true individualist.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Cotton/Spandex&lt;/li&gt;
+                     		&lt;li&gt;Relaxed fit, sits at waist, fuller through the thigh&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook and button closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, slit back pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=126399737&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/38/48/3848b7fea9198adfce1899992a488f85_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/38/48/3848b7fea9198adfce1899992a488f85_medium/express-pants-stretch-cotton-agent-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/38/48/3848b7fea9198adfce1899992a488f85/express-pants-stretch-cotton-agent-pant.jpg</Url>
+</Image>
+<Color>
+<Name>HEATHER GRAY</Name>
+</Color>
+<Color>
+<Name>OYSTER</Name>
+</Color>
+<Color>
+<Name>LT GRAY HEATHER</Name>
+</Color>
+<Color>
+<Name>TAN</Name>
+</Color>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W40 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W40 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Size>
+<Name>W32 L36</Name>
+</Size>
+<Size>
+<Name>W34 L36</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-01-08</ExtractDate>
+</Product>
+<Product>
+<Id>104300341</Id>
+<Name>Stretch Wool Blend Producer Suit Pant</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Inspired by style on the edge of everything, the Producer is our most modern fitting pant. Tailored design, contemporary fit and fresh fabrics. Pair with the matching jacket and vest for a complete suit.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;54% Polyester/44% Wool/2% Elastane&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, sits below waist, straight leg&lt;/li&gt;
+                     		&lt;li&gt;Flat front&lt;/li&gt;
+                     		&lt;li&gt;Hidden hook closure with zip fly&lt;/li&gt;
+                     		&lt;li&gt;Slant hand pockets, back slit pockets with buttons&lt;/li&gt;
+                     		&lt;li&gt;Dry clean only&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=104300341&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7b/6c/7b6cc52c21c99c4ed39ccaf4969ec560_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7b/6c/7b6cc52c21c99c4ed39ccaf4969ec560_medium/express-dress-pants-stretch-wool-producer-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7b/6c/7b6cc52c21c99c4ed39ccaf4969ec560/express-dress-pants-stretch-wool-producer-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>NAVY</Name>
+</Color>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Color>
+<Name>ALLOY</Name>
+</Color>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W40 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W40 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Size>
+<Name>W38 L34</Name>
+</Size>
+<Size>
+<Name>W32 L36</Name>
+</Size>
+<Size>
+<Name>W34 L36</Name>
+</Size>
+<Size>
+<Name>W36 L36</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-10-22</ExtractDate>
+</Product>
+</SearchResult>
