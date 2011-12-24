@@ -239,6 +239,15 @@ def calculate_stw_step_discount(coup_discount, coup_threshold, cur_price):
 
 def aggregate_discount_check(coupon, total_price):
     
+    # Algo:
+    # 1. if (buy 1, get 1 discount exists)
+    # 2.    count item stats for discount category
+    # 3.    if (number of items in discount category > 1)
+    # 4.        calculate, check for validity, and apply buy 1, get 1 discount
+    # 5. if (store-wide dollar discount exists)
+    # 6.    if (total_price > coupon_threshold)
+    # 7.        calculate and apply discount
+    
     logging.debug("aggr_disc: " + str(coupon["stw_discount_dollars"]) + " " + str(total_price))
     
     if ( coupon["item_spec_discount_type"] == "B1G1" and coupon["item_cat"] != "-"):
@@ -353,6 +362,21 @@ def match_express(coupon, item):
 
         # Check coupon to see if discount applied should be store-wide or item-specific.
         # It cannot be both: needs to be verified
+        # Algo:
+        # 1. if there is stw_disc
+        # 2.     if (stw_disc not applied)
+        # 3.         apply_stw_disc
+        # 5.     if (add_stw_disc)
+        # 6.         apply_add_stw_disc
+        # 7. else if there is item_specific disc
+        # 8.     if (item in list matches that for which discount is available)
+        # 9.         if (discount is of type: buy1, get1)
+        # 10.            postpone for when discounts are checked across all items
+        # 11.        else if (discount is of type: %-age off item)
+        # 12.            if (discount_applied_already == false)
+        # 13.                apply_item_spec_disc
+        # 15.            if (add_stw_disc)
+        # 16.                apply_add_stw_disc
 
         # Store-wide discounts
         if coupon["stw_discount"] > 0:
