@@ -1,5 +1,6 @@
 import sys
 import logging
+import copy
 
 from operator import itemgetter
 
@@ -283,6 +284,7 @@ def current_sale_price(itemlist):
     shipping_cost = DEFAULT_SHIPPING_COST
     sale = 0
     for i in range(0, len(itemlist)):
+        print sale
         sale += float(itemlist[i]["sale_price"])
     logging.debug("current_sale_price: " + str(sale))
     return sale
@@ -445,7 +447,7 @@ def init_item_stats(item_stats):
     item_stats["shirt"] = 0
 
 
-def create_sample_wishlist(store_itemlist, user_config):
+def create_sample_wishlist(slist, user_config):
     
     #print len(store_itemlist)
     
@@ -461,55 +463,55 @@ def create_sample_wishlist(store_itemlist, user_config):
     
     if (user_config == 0):
         logging.info("Wishlist %d: 1 Men's Shirt, 1 Men's Pant", user_config)
-        items.append(store_itemlist[MENS_SHIRTS][0]) 
-        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(slist[MENS_SHIRTS][0]) 
+        items.append(slist[MENS_PANTS][0])
     elif (user_config == 1):
         logging.info("Wishlist %d: 1 Men's Shirt, 2 Men's Pants", user_config)
-        items.append(store_itemlist[MENS_SHIRTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(slist[MENS_SHIRTS][0])
+        items.append(slist[MENS_PANTS][0])
+        items.append(slist[MENS_PANTS][0])
     elif (user_config == 2):
         logging.info("Wishlist %d: 1 Men's Shirt, 3 Men's Pants", user_config)
-        items.append(store_itemlist[MENS_SHIRTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(slist[MENS_SHIRTS][0])
+        items.append(slist[MENS_PANTS][0])
+        items.append(slist[MENS_PANTS][0])
+        items.append(slist[MENS_PANTS][0])
     elif (user_config == 3):
         logging.info("Wishlist %d: 4 Men's Pants", user_config)
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(slist[MENS_PANTS][0])
+        items.append(slist[MENS_PANTS][0])
+        items.append(slist[MENS_PANTS][0])
+        items.append(slist[MENS_PANTS][0])
     elif (user_config == 4):
         logging.info("Wishlist %d: 2 Women's Sweaters, 1 Women's Jeans, 1 Men's Jeans", user_config)
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[WOMENS_JEANS][0])
+        items.append(slist[WOMENS_SWEATERS][0])
+        items.append(slist[WOMENS_SWEATERS][0])
+        items.append(slist[MENS_JEANS][0])
+        items.append(slist[WOMENS_JEANS][0])
     elif (user_config == 5):
         logging.info("Wishlist %d: 1 Men's Pants, 1 Men's Jean, 2 Women's Sweater, 1 Men's Shirt", user_config)
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
-        items.append(store_itemlist[MENS_SHIRTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
+        items.append(slist[WOMENS_SWEATERS][0])
+        items.append(slist[MENS_SHIRTS][0])
+        items.append(slist[MENS_PANTS][0])
+        items.append(slist[MENS_JEANS][0])
+        items.append(slist[WOMENS_SWEATERS][0])
     elif (user_config == 6):
         logging.info("Wishlist %d: 4 Men's Pants, 2 Men's Shirts, 1 Men's Jean, 1 Women's Sweater, 1 Women's Jean", user_config)
-        items.append(store_itemlist[WOMENS_SWEATERS][0])
-        items.append(store_itemlist[MENS_SHIRTS][0])
-        items.append(store_itemlist[MENS_SHIRTS][0])
-        items.append(store_itemlist[MENS_JEANS][0])
-        items.append(store_itemlist[WOMENS_JEANS][0]) 
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
-        items.append(store_itemlist[MENS_PANTS][0])
+        items.append(slist[WOMENS_SWEATERS][0])
+        items.append(slist[MENS_SHIRTS][0])
+        items.append(slist[MENS_SHIRTS][0])
+        items.append(slist[MENS_JEANS][0])
+        items.append(slist[WOMENS_JEANS][0]) 
+        items.append(slist[MENS_PANTS][0])
+        items.append(slist[MENS_PANTS][0])
+        items.append(slist[MENS_PANTS][0])
+        items.append(slist[MENS_PANTS][0])
     
 
-    #logging.debug(store_itemlist[0][0])
-    #logging.debug(store_itemlist[1][0])
+    #logging.debug(slist[0][0])
+    #logging.debug(slist[1][0])
     
-    #for i in range(0, len(store_itemlist)):
+    #for i in range(0, len(slist)):
     #    wish_list.append(items[i])
     
     init_item_stats(item_stats)
@@ -546,11 +548,14 @@ if __name__ == "__main__":
     
     item_stats = {}
 
-    for j in range(0, 7):
+    for j in range(0, 3):
         
         logging.debug("---- Iteration " + str(j) + " Start -----")
         
-        cur_items = create_sample_wishlist(store_itemlist, j)
+        dc_list = copy.deepcopy(store_itemlist)
+        cur_items = create_sample_wishlist(dc_list, j)
+        
+        #print cur_items
         
         cur_sale = current_sale_price(cur_items)
 
