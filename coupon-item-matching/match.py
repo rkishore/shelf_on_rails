@@ -232,6 +232,11 @@ def calculate_b1g1_discount(store, cat, disc_rate):
         discount += (price - sale_price)
     return discount
 
+def calculate_stw_step_discount(coup_discount, coup_threshold, cur_price):    
+    coup_discount_perc = float(coup_discount/coup_threshold)
+    savings = float (coup_discount_perc * cur_price)#apply_discount(coup_discount_perc, cur_price, "stw-step-disc")
+    return savings
+
 def aggregate_discount_check(coupon, total_price):
     
     logging.debug("aggr_disc: " + str(coupon["stw_discount_dollars"]) + " " + str(total_price))
@@ -250,8 +255,11 @@ def aggregate_discount_check(coupon, total_price):
             total_price -= discount_amount
     
     if coupon["stw_discount_dollars"] > 0:
-        if total_price > coupon["stw_discount_dollars_lower_bound"]:
-            total_price -= coupon["stw_discount_dollars"]
+        coup_thres = coupon["stw_discount_dollars_lower_bound"]  
+        if total_price > coup_thres:
+            coup_disc = coupon["stw_discount_dollars"]
+            total_price -= calculate_stw_step_discount(coup_disc, coup_thres, total_price)
+            
             logging.debug("aggr_disc: Total price reduced to " + str(total_price))            
         else:
             logging.debug("aggr_disc: Sorry. Buy for " + 
