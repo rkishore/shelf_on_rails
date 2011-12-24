@@ -562,7 +562,7 @@ if __name__ == "__main__":
     for i in range(0, len(sex_type)):
         for j in range(0, len(category_arr)):
             if ( ((i == 0) and (j < 3)) or ((i == 1) and (j > 1)) ):
-                fstr = "../shopstyle-int/" + store_name + "-" + sex_type[i] + "-" + category_arr[j] + "-ss.data"
+                fstr = "../shopstyle-int/data" + store_name + "-" + sex_type[i] + "-" + category_arr[j] + "-ss.data"
                 fname.append(fstr)
                 fcount += 1
     

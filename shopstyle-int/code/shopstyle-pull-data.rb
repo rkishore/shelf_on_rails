@@ -97,13 +97,20 @@ def fetch_xml_into_file(url_str, fp)
 end
 
 def get_xml_data(brand, category, time)
- 
+
+  spl_cat = category.split("-")
+  if (spl_cat[0].casecmp("womens") == 0)
+    url_cat = spl_cat[1]
+  else
+    url_cat = category
+  end
+  
   # Create file to store XML data
   xml_filename = "../xml-data/" + brand.downcase + "-" + category + "-ss-" + time.year.to_s + "-" + time.month.to_s + "-" + time.day.to_s + ".xml"
   fp = File.open(xml_filename, 'w')
 
   # First, we get the number of items in the category, i.e. product_cnt
-  init_url = construct_shopstyle_url(brand, category, 0, 1)
+  init_url = construct_shopstyle_url(brand, url_cat, 0, 1)
   @doc = Nokogiri::XML(open(init_url))
   product_cnt_tag = @doc.xpath('//TotalCount')
   product_cnt = product_cnt_tag.text.to_i
@@ -117,7 +124,7 @@ def get_xml_data(brand, category, time)
   min_cnt = 0
   while(i < num_iter)
     #print i.to_s+" "+min_cnt.to_s+" "+max_allowed_records.to_s+"\n"
-    url_str = construct_shopstyle_url(brand, category, min_cnt, max_allowed_records)
+    url_str = construct_shopstyle_url(brand, url_cat, min_cnt, max_allowed_records)
     # Dump XML into file
     fetch_xml_into_file(url_str, fp)    
     min_cnt += 250
@@ -125,7 +132,7 @@ def get_xml_data(brand, category, time)
   end
   
   # Fetch remaining item info
-  url_str = construct_shopstyle_url(brand, category, min_cnt, num_last_cnt)
+  url_str = construct_shopstyle_url(brand, url_cat, min_cnt, num_last_cnt)
   # Dump XML into file
   fetch_xml_into_file(url_str, fp)
   
@@ -153,21 +160,8 @@ if __FILE__ == $0
   end
 
   store_name = ARGV[0]
-  spl_cat = ARGV[1].split("-")
-  if (spl_cat[0].casecmp("womens") == 0)
-    category = spl_cat[1]
-  elsif (spl_cat[0].casecmp("mens") == 0)
-    category = spl_cat[0] + "-" + spl_cat[1] 
-  elsif ((spl_cat[0].casecmp("jeans") == 0) or 
-         (spl_cat[0].casecmp("shirts") == 0) or 
-         (spl_cat[0].casecmp("sweaters") == 0) or 
-         (spl_cat[0].casecmp("skirts") == 0)) 
-    category = spl_cat[0]
-  else
-    puts "Unknown category: " + spl_cat[0].to_s + ". Exiting..."
-    exit
-  end
-  
+  category = ARGV[1]
+
   puts "Brand: " + store_name + ", Category: " + category
 
   time = Time.new  
