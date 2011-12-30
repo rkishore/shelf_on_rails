@@ -441,7 +441,7 @@ def read_item_info(filename):
     #logging.debug(len(itemlist)        
     return itemlist
 
-def calculate_item_stats(wish_list):
+def calculate_item_stats(wish_list, item_stats):
 
     for i in range(0, len(wish_list)):
         it = wish_list[i]
@@ -544,8 +544,7 @@ def create_sample_wishlist(slist, user_config):
     #for i in range(0, len(slist)):
     #    wish_list.append(items[i])
     
-    init_item_stats(item_stats)
-    calculate_item_stats(items)
+    
     #print item_stats
     return items
 
@@ -584,6 +583,9 @@ if __name__ == "__main__":
         
         dc_list = copy.deepcopy(store_itemlist)
         cur_items = create_sample_wishlist(dc_list, j)
+        
+        init_item_stats(item_stats)
+        calculate_item_stats(cur_items, item_stats)
         
         #print cur_items
         
