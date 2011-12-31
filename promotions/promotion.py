@@ -1,23 +1,42 @@
 import sqlite3
 import datetime
+import logging
+
+
+logging.basicConfig(format='%(message)s', level=logging.DEBUG)
+
 
 '''
-    Representing a promo info item. This is a structured form of the coupons.
+    A promo object. This is a structured form of the coupons.
     - Store name
     - type [whole, whole-add, item-spec, aggregate]
     - validity till when?
     - code
     - where? store, online, both?
 
-[STORE] [ISSUE] [VALIDITY] [CODE] [ONLINE/STORE/BOTH] [TYPE:STORE-WIDE] [%] [DISC_AMOUNT] [DISC_LOWER_BOUND] [-] 
-[STORE] [ISSUE] [VALIDITY] [CODE] [ONLINE/STORE/BOTH] [TYPE:ITEM-SPEC-B1-G1] [%] [AMOUNT] [CATEGORY_SEX] [CATEGORY_ITEM]
-[STORE] [ISSUE] [VALIDITY] [CODE] [ONLINE/STORE/BOTH] [TYPE:ITEM-SPEC-BUY-N-FOR-X] [N] [X] [CATEGORY_SEX] [CATEGORY_ITEM]
-[STORE] [ISSUE] [VALIDITY] [CODE] [ONLINE] [TYPE:SHIPPING] [LOWER_BOUND] [0] [-] [-]
+We store each promo in a separate database row and a separate Promotion class variable in memory.
+
+For discounts of type: "30% discount for every purchase"
+[STORE] [ISSUE] [VALIDITY] [CODE] [ONLINE/STORE/BOTH] [FREE_SHIPPING_LOW_BOUND] [TYPE:STORE-WIDE] [%] [0] [0] [-] 
+
+For discounts of type: "$15 off $50, $30 off $100, $60 off $200+"
+[STORE] [ISSUE] [VALIDITY] [CODE] [ONLINE/STORE/BOTH] [FREE_SHIPPING_LOW_BOUND] [TYPE:STORE-WIDE] [0] [15] [50] [-]
+[STORE] [ISSUE] [VALIDITY] [CODE] [ONLINE/STORE/BOTH] [FREE_SHIPPING_LOW_BOUND] [TYPE:STORE-WIDE] [0] [30] [100] [-]
+[STORE] [ISSUE] [VALIDITY] [CODE] [ONLINE/STORE/BOTH] [FREE_SHIPPING_LOW_BOUND] [TYPE:STORE-WIDE] [0] [60] [200] [-]
+ 
+For discounts of type: "Buy 1 and get 30% off of another for all jeans"
+[STORE] [ISSUE] [VALIDITY] [CODE] [ONLINE/STORE/BOTH] [FREE_SHIPPING_LOW_BOUND] [TYPE:ITEM-SPEC-B1-G1] [%] [AMOUNT] [CATEGORY_SEX] [CATEGORY_ITEM]
+
+For discounts of type: "Buy 4 socks for $25"
+[STORE] [ISSUE] [VALIDITY] [CODE] [ONLINE/STORE/BOTH] [TYPE:ITEM-SPEC-BUY-N-FOR-X] [4] [25] [CATEGORY_SEX] [CATEGORY_ITEM]
+
 
 TODO: (1) use sql's date syntax so that we can find appropriate entries using sql queries
 NOTE: (1) For each store, we may have multiple entries per day. This is because we store each type of discount
           separately in different rows.
 '''
+
+
 #WHERE?
 STORE_ONLY = 0
 ONLINE_ONLY = 1
@@ -67,7 +86,6 @@ class Promotion:
         self.validity = validity
         self.where = where
         self.shipping = shipping
-        
         
     def set_store_wide(self, whole_store_perc, whole_store_aggr_disc,
                         whole_store_aggr_low_bound, whole_store_add):
@@ -120,21 +138,17 @@ class Promotion:
         self.item_category = row["item_category"]
         self.sex_category = row["sex_category"]
         
-    def initialize_from_db_rows(self, rows):
-        for row in rows:
-            print row
-            #print type(row)
-            print row["store"]
-            print row["d"]
-            promo_type = row["promo_type"]
-            print "Promo type: " + str(promo_type)
-            self.promo_type = promo_type
-            if promo_type == WHOLE_STORE_BASE_PERC:
-                self._initialize_whole_store_base(row)
-            elif promo_type == ITEM_SPEC_B1G1:
-                self._intialize_item_spec_b1g1(row)
-            elif promo_type == ITEM_SPEC_BUY_N_FOR_X:
-                self._initialize_item_spec_buy_n_for_x(row)   
+    def initialize_from_db_row(self, row):
+        
+        promo_type = row["promo_type"]
+        logging.debug("Promo type: " + str(promo_type))
+        self.promo_type = promo_type
+        if promo_type == WHOLE_STORE_BASE_PERC:
+            self._initialize_whole_store_base(row)
+        elif promo_type == ITEM_SPEC_B1G1:
+            self._intialize_item_spec_b1g1(row)
+        elif promo_type == ITEM_SPEC_BUY_N_FOR_X:
+            self._initialize_item_spec_buy_n_for_x(row)   
  
             
     def __str__(self):
@@ -200,15 +214,19 @@ def put_promo_info_item_spec(store, date_issued, shipping, where, validity, code
                 0,
                 sex_category, item_category)
 
-'''Returns a Promotion class instance for the given store & date '''
+'''Returns a list of Promotion class instances for the given store & date '''
 def get_promo_info(store, date_):    
     rows = _fetch_all_rows_date(store, date_)
-    print type(rows)
-    promo = Promotion(store)
-    promo.initialize_from_db_rows(rows)
-    #str(promo)
-    print str(promo)
-    return rows
+    logging.debug("GET_PROMO_INFO: " + str(type(rows)))
+    promotions = []
+    for row in rows:
+        promo = Promotion(store)
+        promo.initialize_from_db_row(row)
+        print str(promo)
+        promotions.append(promo)
+        
+    logging.debug("GET_PROMO_INFO: promotions " + str(promotions))
+    return promotions
     
     
     
@@ -232,25 +250,16 @@ def _create_table(cursor):
             ' sex_category int, item_category int, ' + \
             ' PRIMARY KEY(store, d, promo_type, sex_category, item_category, promo_disc_perc, promo_disc_amount, promo_disc_lower_bound))'
             
-    print command
+    logging.debug(command)
     cursor.execute(command)
 
 def _insert_row(store, date_, validity, code, where, free_shipping_lower_bound,   
-                promo_type, disc_perc, disc_amount, disc_required_lower_bound, sex_category, item_category):
-    
-    
-    
-    '''values = "( \"" + store + "\", " + date_ + ", " + str(validity) + ", \"" + code + \
-             "\", " + str(where) + ", " + str(free_shipping_lower_bound) + ", " + str(promo_type) + \
-             ", " + str(disc_perc) + ", " + str(disc_amount) + ", " + str(disc_required_lower_bound) + \
-             ", " + str(sex_category) + ", " + str(item_category) + " )"
-   
-    print values 
-    command = 'insert into ' + TABLE_NAME + ' values ' + values 
-    print command'''
+                promo_type, disc_perc, disc_amount, 
+                disc_required_lower_bound, sex_category, item_category):
+
     data = [store, date_, validity, code, where, free_shipping_lower_bound, promo_type,
             disc_perc, disc_amount, disc_required_lower_bound, sex_category, item_category]
-    print "Inserting: " + str(data)
+    logging.DEBUG("Inserting: " + str(data))
     #CURSOR.execute(command)
     CURSOR.execute('insert into promoInfo values(?,?,?,?,?,?,?,?,?,?,?,?)', data)
     
@@ -375,8 +384,8 @@ if __name__ == "__main__":
     conn.commit()
     print "Read: " + str(_fetch_single_row_date("jcrew", date_issued))
     '''
-    date_issued = datetime.date(2011, 12, 16)
-    print get_promo_info("jcrew", date_issued)
+    date_issued = datetime.date(2011, 12, 13)
+    logging.debug(get_promo_info("jcrew", date_issued))
     
     
     
