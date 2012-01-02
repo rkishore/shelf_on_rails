@@ -4,6 +4,8 @@ import copy
 
 from operator import itemgetter
 
+import promotion
+
 #logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.INFO)
 logging.basicConfig(format='%(message)s', level=logging.INFO)
 
@@ -548,6 +550,10 @@ def create_sample_wishlist(slist, user_config):
     #print item_stats
     return items
 
+
+def match_new(store, date, wishlist):
+
+
 if __name__ == "__main__":
     
     #log = logging.getLogger("MyApp")
@@ -574,6 +580,10 @@ if __name__ == "__main__":
         cur_coupon = coupon_express_dec_22
     elif ( store_name == "jcrew" ):
         cur_coupon = coupon_jcrew_dec_18
+    
+    promo = promotion.get_promo_info("JCREW")
+    print promo
+    #return
     
     item_stats = {}
 

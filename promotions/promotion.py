@@ -215,8 +215,22 @@ def put_promo_info_item_spec(store, date_issued, shipping, where, validity, code
                 sex_category, item_category)
 
 '''Returns a list of Promotion class instances for the given store & date '''
-def get_promo_info(store, date_):    
+def get_promo_info_date(store, date_):    
     rows = _fetch_all_rows_date(store, date_)
+    logging.debug("GET_PROMO_INFO: " + str(type(rows)))
+    promotions = []
+    for row in rows:
+        promo = Promotion(store)
+        promo.initialize_from_db_row(row)
+        print str(promo)
+        promotions.append(promo)
+        
+    logging.debug("GET_PROMO_INFO: promotions " + str(promotions))
+    return promotions
+    
+
+def get_promo_info(store):    
+    rows = _fetch_all_rows(store)
     logging.debug("GET_PROMO_INFO: " + str(type(rows)))
     promotions = []
     for row in rows:
@@ -273,11 +287,12 @@ def _fetch_single_row_date(store, date_):
     return CURSOR.fetchone()
 
 def _fetch_all_rows_date(store, date_):
-    CURSOR.execute('select * from promoInfo where store==? and d==?', (store, date_))
+    CURSOR.execute('select * from polls_promoinfo where store==? and d==?', (store, date_))
     return CURSOR.fetchall()
 
 def _fetch_all_rows(store):
-    CURSOR.execute('select * from promoInfo where store==?', (store,))
+    initialize()
+    CURSOR.execute('select * from polls_promoinfo where store==?', (store,))
     return CURSOR.fetchall()
 
 '''
@@ -289,88 +304,15 @@ ITEM_SPEC_INFO ARGS: 1. store, 2. date_issued, 3. shipping, 4. where, 5. validit
                      9. item_spec_buy_n_for_x_N, 10. item_spec_buy_n_for_x_X
 '''
 
-def feed_jcrew_promos():
-    store = "jcrew"
-    date_issued = datetime.date(2011, 12, 6)
-    
-    sex_category = EVERYONE
-    item_category = OUTERWEAR
-    item_spec_b1g1_perc = 30
-    item_spec_b1g1_amount = 0
-    item_spec_buy_n_for_x_N = 0
-    item_spec_buy_n_for_x_X = 0
-    # what about shipping?
-    validity = 2 # two days
-    put_promo_info_item_spec(store, date_issued, 100, STORE_AND_ONLINE, validity, "CODE-2", sex_category, 
-                             item_category, item_spec_b1g1_perc, item_spec_b1g1_amount, 
-                             item_spec_buy_n_for_x_N, item_spec_buy_n_for_x_X)
-    #return
-    date_issued = datetime.date(2011, 12, 8)
-    whole_perc_disc = 25 
-    whole_aggr_disc = 0
-    whole_aggr_disc_low_bound = 0
-    whole_store_add = 0
-    free_shipping_low_bound = 150
-    validity = TODAY_ONLY
-    put_promo_info_whole_store(store, date_issued, free_shipping_low_bound, STORE_AND_ONLINE, validity, "CODE-1", 
-                               whole_perc_disc, whole_aggr_disc, whole_aggr_disc_low_bound, whole_store_add)
-    #return
-    date_issued = datetime.date(2011, 12, 12)
-    whole_perc_disc = 25 
-    whole_aggr_disc = 0
-    whole_aggr_disc_low_bound = 0
-    whole_store_add = 0
-    free_shipping_low_bound = INFINITY
-    validity = TODAY_ONLY
-    put_promo_info_whole_store(store, date_issued, free_shipping_low_bound, STORE_AND_ONLINE, validity, "CODE-1", 
-                               whole_perc_disc, whole_aggr_disc, whole_aggr_disc_low_bound, whole_store_add)
-        
-    date_issued = datetime.date(2011, 12, 13)
-    whole_perc_disc = 0 
-    whole_aggr_disc = 20
-    whole_aggr_disc_low_bound = 100
-    whole_store_add = 0
-    free_shipping_low_bound = INFINITY
-    validity = 7
-    put_promo_info_whole_store(store, date_issued, free_shipping_low_bound, STORE_AND_ONLINE, validity, "CODE-1", 
-                               whole_perc_disc, whole_aggr_disc, whole_aggr_disc_low_bound, whole_store_add)
-    
-    whole_aggr_disc = 25
-    whole_aggr_disc_low_bound = 150
-    put_promo_info_whole_store(store, date_issued, free_shipping_low_bound, STORE_AND_ONLINE, validity, "CODE-1", 
-                               whole_perc_disc, whole_aggr_disc, whole_aggr_disc_low_bound, whole_store_add)
-    
-    whole_aggr_disc = 30
-    whole_aggr_disc_low_bound = 250
-    put_promo_info_whole_store(store, date_issued, free_shipping_low_bound, STORE_AND_ONLINE, validity, "CODE-1", 
-                               whole_perc_disc, whole_aggr_disc, whole_aggr_disc_low_bound, whole_store_add)
- 
-    
-    
-    date_issued = datetime.date(2011, 12, 16)
-    whole_perc_disc = 30 
-    whole_aggr_disc = 0
-    whole_aggr_disc_low_bound = 0
-    whole_store_add = 0
-    free_shipping_low_bound = 0
-    validity = TODAY_ONLY
-    put_promo_info_whole_store(store, date_issued, free_shipping_low_bound, STORE_AND_ONLINE, validity, "CODE-1", 
-                               whole_perc_disc, whole_aggr_disc, whole_aggr_disc_low_bound, whole_store_add)
-   
-    date_issued = datetime.date(2011, 12, 17)
-    whole_perc_disc = 30 
-    whole_aggr_disc = 0
-    whole_aggr_disc_low_bound = 0
-    whole_store_add = 0
-    free_shipping_low_bound = 100
-    validity = TODAY_ONLY
-    put_promo_info_whole_store(store, date_issued, free_shipping_low_bound, STORE_AND_ONLINE, validity, "CODE-1", 
-                               whole_perc_disc, whole_aggr_disc, whole_aggr_disc_low_bound, whole_store_add)
- 
-    
+def initialize():
+    global CURSOR
+    CURSOR, conn = _setup_db("../../tutorial/testDB")
+    return CURSOR
 
 if __name__ == "__main__":
-    CURSOR, conn = _setup_db("./promoSenseDB")
+    #CURSOR, conn = _setup_db("./promoSenseDB")
+    CURSOR, conn = _setup_db("../../tutorial/testDB")
+    
     date_issued = datetime.date.today()
     
     '''
@@ -384,8 +326,9 @@ if __name__ == "__main__":
     conn.commit()
     print "Read: " + str(_fetch_single_row_date("jcrew", date_issued))
     '''
-    date_issued = datetime.date(2011, 12, 13)
-    logging.debug(get_promo_info("jcrew", date_issued))
+    date_issued = datetime.date(2012, 1, 1)
+    print date_issued
+    logging.debug(get_promo_info("JCREW"))
     
     
     
