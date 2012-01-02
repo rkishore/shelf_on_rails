@@ -9,6 +9,8 @@ import promotion
 #logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.INFO)
 logging.basicConfig(format='%(message)s', level=logging.INFO)
 
+sex_category = ["mens", "womens"]    
+item_category = ["shirts", "pants", "jeans", "sweaters"]
 
 #coupon = ["store name", "% off", "all purchase/category", "free shipping?", "qualifier for shipping", 
 #         "code"]
@@ -551,21 +553,126 @@ def create_sample_wishlist(slist, user_config):
     return items
 
 
-def match(store, date, wishlist):
-    promo = promotion.get_promo_info(store)
-    print promo
+def match(store_name, date, wish_list):
+    promo = promotion.get_promo_info_date(store_name, date)
+    print  str(promo)
+
+    store_itemlist = _initialize_item_list(store_name, sex_category, item_category)
     
-    return (200, 25)
+    dc_list = copy.deepcopy(store_itemlist)
+    cur_coupon = _fill_coupon(promo)
+    '''CHANGE THIS LATER'''
+    wishlist = create_sample_wishlist(dc_list, 0)
+    
+    print "**** WISHLIST ****"
+    print wishlist
+    
+    current_cost, current_savings = _apply_promotion(store_itemlist, wishlist, cur_coupon)
+    
+    return (current_cost, current_savings)
     #return
+
+def _fill_coupon(promo):
+    coupon = {"store": "J.Crew", 
+                "stw_discount": 0.3, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0, "add_stw_discount_perc_code": "MUSTSHOP",
+                "item_cat": "-", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "free_shipping_dollar_qualifier": 100, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+    
+    for promo_obj in promo.promoUnits:
+        print promo_obj
+        if promo_obj.promo_type == promotion.WHOLE_STORE_BASE_PERC:
+            coupon['stw_discount'] = float(promo_obj.whole_store_perc/100.0)
+            
+        if promo_obj.promo_type == promotion.WHOLE_STORE_AGGREGATE:
+            coupon['stw_discount_dollars'] = promo_obj.whole_store_aggr_disc
+            coupon['stw_discount_dollars_lower_bound'] = promo_obj.whole_store_aggr_low_bound
+            
+        if promo_obj.promo_type == promotion.WHOLE_STORE_ADDITIONAL:
+            coupon['add_stw_discount'] = promo_obj.whole_store_add
+            
+        if promo_obj.promo_type == promotion.ITEM_SPEC_B1G1:
+            coupon['item_spec_disc_perc'] = promo_obj.item_spec_b1g1_perc
+            coupon['item_spec_disc_amount'] = promo_obj.item_spec_b1g1_amount
+            coupon['sex_category'] = promo_obj.sex_category
+            coupon['item_cat'] = promo_obj.item_category
+            coupon['item_spec_discount_type'] = "B1G1"
+            
+        if promo_obj.promo_type == promotion.ITEM_SPEC_BUY_N_FOR_X:
+            coupon['item_spec_buy_n_for_x_N'] = promo_obj.item_spec_buy_n_for_x_N
+            coupon['item_spec_buy_n_for_x_X'] = promo_obj.item_spec_buy_n_for_x_X
+            coupon['sex_category'] = promo_obj.sex_category
+            coupon['item_cat'] = promo_obj.item_category
+            
+    print coupon
+    return coupon
+
+def _apply_promotion(store_itemlist, wish_list, promo):
+    
+    cur_coupon = promo
+    logging.debug("---- Applying promotion -----")
+    #dc_list = copy.deepcopy(store_itemlist)
+    cur_items = wish_list#create_sample_wishlist(dc_list, 0)
+
+    item_stats = {}
+    init_item_stats(item_stats)
+    calculate_item_stats(cur_items, item_stats)
+    
+    #print cur_items
+    
+    cur_sale = current_sale_price(cur_items)
+
+    #cur_coupon = coupon_jcrew_dec_18
+    #cur_coupon = coupon_express_dec_22
+    for i in range(0, len(cur_items)):
+        match_express(cur_coupon, cur_items[i])
+
+    #match_express(cur_coupon, item2)
+    total_price = 0
+    for i in range(0, len(cur_items)):
+        total_price += float(cur_items[i]["sale_price"])
+    #total_price = float(item1["sale_price"]) + float(item2["sale_price"])
+    
+    logging.debug("aggregate item price (after stw-disc and item-disc): " + str(total_price))
+
+    total_price = aggregate_discount_check(cur_coupon, total_price)
+    shipping_free = check_shipping(cur_coupon, total_price)
+            
+    logging.info("Original cost: " + str(cur_sale) + " Discounted cost: " + str(total_price) + " Savings: " + 
+             str(cur_sale-total_price) + " Free Shipping: " + str(shipping_free))
+    
+    logging.debug("---- Done -----")
+    return (total_price, (cur_sale-total_price))
+
+def _initialize_item_list(store_name, sex_category, item_category):
+    
+    fname = []
+    fcount = 0
+    for i in range(0, len(sex_category)):
+        for j in range(0, len(item_category)):
+            if ( ((i == 0) and (j < 3)) or ((i == 1) and (j > 1)) ):
+                fstr = "../shopstyle-int/data/" + store_name + "-" + sex_category[i] + "-" + item_category[j] + "-ss-" + "2011-12-24.data"
+                fname.append(fstr)
+                fcount += 1
+    
+    store_itemlist = []
+    for i in range(0,fcount):
+        store_itemlist.append(read_item_info(fname[i]))
+
+    return store_itemlist
 
 if __name__ == "__main__":
     
     #log = logging.getLogger("MyApp")
     
     store_name = sys.argv[1] 
-    sex_type = ["mens", "womens"]    
-    category_arr = ["shirts", "pants", "jeans", "sweaters"]
     
+    store_itemlist = _initialize_item_list(store_name, sex_category, item_category)
+    
+    '''
     fname = []
     fcount = 0
     for i in range(0, len(sex_type)):
@@ -578,7 +685,7 @@ if __name__ == "__main__":
     store_itemlist = []
     for i in range(0,fcount):
         store_itemlist.append(read_item_info(fname[i]))
-
+    '''
     #logging.debug("Number of input arguments: " + str(len(sys.argv)-1)
     if ( store_name == "express" ):
         cur_coupon = coupon_express_dec_22
@@ -587,7 +694,12 @@ if __name__ == "__main__":
     
     
     
-    item_stats = {}
+    #item_stats = {}
+
+    #_apply_promotion(store_itemlist, cur_coupon)
+    
+    
+    print "\n\n----HOOORAY----\n\n"
 
     for j in range(0, 3):
         
@@ -595,7 +707,7 @@ if __name__ == "__main__":
         
         dc_list = copy.deepcopy(store_itemlist)
         cur_items = create_sample_wishlist(dc_list, j)
-        
+        item_stats = {}
         init_item_stats(item_stats)
         calculate_item_stats(cur_items, item_stats)
         
@@ -623,4 +735,3 @@ if __name__ == "__main__":
                  str(cur_sale-total_price) + " Free Shipping: " + str(shipping_free))
         
         logging.debug("---- Iteration " + str(j) + " Done -----")
-        
