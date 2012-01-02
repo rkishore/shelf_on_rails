@@ -551,8 +551,12 @@ def create_sample_wishlist(slist, user_config):
     return items
 
 
-def match_new(store, date, wishlist):
-
+def match(store, date, wishlist):
+    promo = promotion.get_promo_info(store)
+    print promo
+    
+    return (200, 25)
+    #return
 
 if __name__ == "__main__":
     
@@ -581,9 +585,7 @@ if __name__ == "__main__":
     elif ( store_name == "jcrew" ):
         cur_coupon = coupon_jcrew_dec_18
     
-    promo = promotion.get_promo_info("JCREW")
-    print promo
-    #return
+    
     
     item_stats = {}
 
