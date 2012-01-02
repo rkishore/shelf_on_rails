@@ -1,15 +1,19 @@
 # Create your views here.
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 import datetime
 from django.shortcuts import render_to_response
 from django import forms
+
+import match
+
+
 
 class Wishlist(forms.Form):
     
     
     STORE_CHOICES = (
-                     ('jcrew', 'JCREW'),
-                     ('express', 'EXPRESS'),
+                     ('JCREW', 'JCREW'),
+                     ('EXPRESS', 'EXPRESS'),
                      )
     SEX_CHOICES = (
                    (0, 'MALE'),
@@ -47,7 +51,10 @@ def current_datetime(request):
     html = "<html><body>It is now %s.</body></html>" % now
     return HttpResponse(html)
 
-
+def result(request, total_cost, savings):
+    html = "<html><body>Total cost: " + str(total_cost) + ". Total savings: " + str(savings) + "</body></html>"
+    return HttpResponse(html)
+    
 def wishlist(request):
     if request.method == 'POST': # If the form has been submitted...
         form = Wishlist(request.POST) # A form bound to the POST data
@@ -60,8 +67,18 @@ def wishlist(request):
             size = form.cleaned_data['size']
             color = form.cleaned_data['color']
             howmany = form.cleaned_data['howmany']
-            
-            return HttpResponseRedirect('/thanks/') # Redirect after POST
+            date = datetime.date.today()
+            wish = []
+            wish.append(store)
+            wish.append(item_category)
+            wish.append(sex_category)
+            wish.append(size)
+            wish.append(howmany)
+            #print "Store name: " + str(store)
+            #print wish
+            total_cost, savings = match.match(store, date, wish)
+            return result(request, total_cost, savings)
+            #return HttpResponseRedirect(reverse('/result/', args=(total_cost, savings))) # Redirect after POST
     else:
         form = Wishlist() # An unbound form
     print form

@@ -15,5 +15,6 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     (r'^date/', 'polls.views.current_datetime'),
     (r'^wishlist/', 'polls.views.wishlist'),
+    (r'^result/', 'polls.views.result'),
     (r'^admin/', include(admin.site.urls)),
 )
