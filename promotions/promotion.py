@@ -46,11 +46,10 @@ STORE_AND_ONLINE = 2
 WHOLE_STORE_BASE_PERC = 0
 WHOLE_STORE_AGGREGATE = 1
 WHOLE_STORE_ADDITIONAL = 2
-FREE_SHIPPING = 3
 
 #ITEM_SPEC_CATEGORY
-ITEM_SPEC_B1G1 = 4
-ITEM_SPEC_BUY_N_FOR_X = 5
+ITEM_SPEC_B1G1 = 3
+ITEM_SPEC_BUY_N_FOR_X = 4
 
 # Validity = number of days specified in the promo
 TODAY_ONLY = 1
@@ -74,7 +73,27 @@ EVERYONE = 2
 INFINITY = 100000
 
 #####################################################################
-class Promotion:
+
+class Promotions:
+    # list of PromotionUnit objects
+    def __init__(self, store_name):
+        self.store_name = store_name
+        self.promoUnits = []
+
+    def add_promo_obj(self, promo):
+        self.promoUnits.append(promo)
+
+    def how_many(self):
+        return len(self.promoUnits)
+        
+    def __str__(self):
+        result = ""
+        for promo in self.promoUnits:
+            #print promo
+            result += str(promo) + "\n"
+        return result
+
+class PromotionObj:
     '''Base parent class'''
     def __init__(self, store_name):
         self.store_name = store_name
@@ -118,6 +137,13 @@ class Promotion:
     def _initialize_whole_store_base(self, row):
         self._initialize_basic(row)
         self.whole_store_perc = row["promo_disc_perc"]
+     
+    def _initialize_whole_store_add(self, row):
+        self._initialize_basic(row)
+        self.whole_store_add = row["promo_disc_perc"]
+           
+    def _initialize_whole_store_aggr(self, row):
+        self._initialize_basic(row)
         self.whole_store_aggr_disc = row["promo_disc_amount"]
         self.whole_store_aggr_low_bound = row["promo_disc_lower_bound"]
         self.sex_category = row["sex_category"]
@@ -139,12 +165,16 @@ class Promotion:
         self.sex_category = row["sex_category"]
         
     def initialize_from_db_row(self, row):
-        
+        print row
         promo_type = row["promo_type"]
         logging.debug("Promo type: " + str(promo_type))
         self.promo_type = promo_type
         if promo_type == WHOLE_STORE_BASE_PERC:
             self._initialize_whole_store_base(row)
+        if promo_type == WHOLE_STORE_ADDITIONAL:
+            self._initialize_whole_store_add(row)
+        elif promo_type == WHOLE_STORE_AGGREGATE:
+            self._initialize_whole_store_aggr(row)
         elif promo_type == ITEM_SPEC_B1G1:
             self._intialize_item_spec_b1g1(row)
         elif promo_type == ITEM_SPEC_BUY_N_FOR_X:
@@ -157,18 +187,25 @@ class Promotion:
             self.code + " " + str(self.where) + " " + str(self.shipping) + " "
         
         if self.promo_type == WHOLE_STORE_BASE_PERC:
-            title += "WHOLE_STORE_DISC WHOLE_STORE_AGGR WHOLE_STORE_AGGR_LOW_BOUND "
-            val += str(self.whole_store_perc) + " " + str(self.whole_store_aggr_disc) + " " + \
+            title += "WHOLE_STORE_DISC "
+            val += str(self.whole_store_perc) + " " 
+        if self.promo_type == WHOLE_STORE_AGGREGATE:
+            title += "WHOLE_STORE_AGGR WHOLE_STORE_AGGR_LOW_BOUND "
+            val += str(self.whole_store_aggr_disc) + " " + \
                 str(self.whole_store_aggr_low_bound) + " "
+        if self.promo_type == WHOLE_STORE_ADDITIONAL:
+            title += "WHOLE_STORE_ADDITIONAL "
+            val += str(self.whole_store_add) + " "
         if self.promo_type == ITEM_SPEC_B1G1:
             title += "ITEM_SPEC_B1G1_PERC ITEM_SPEC_B1G1_AMOUNT " 
             val += str(self.item_spec_b1g1_perc) + " " + str(self.item_spec_b1g1_amount) + " "
         if self.promo_type == ITEM_SPEC_BUY_N_FOR_X:
             title += "ITEM_SPEC_BUY_n_FOR_x_N ITEM_SPEC_BUY_n_FOR_x_X "
             val += str(self.item_spec_buy_n_for_x_X) + " " + str(self.item_spec_buy_n_for_x_N) + " "
-            
-        title += "SEX_CAT ITEM_CAT "
-        val += str(self.sex_category) + " " + str(self.item_category) 
+        
+        if (self.promo_type == ITEM_SPEC_B1G1 or self.promo_type == ITEM_SPEC_BUY_N_FOR_X): 
+            title += "SEX_CAT ITEM_CAT "
+            val += str(self.sex_category) + " " + str(self.item_category) 
         return title + "\n" + val
         
 #####################################################################
@@ -178,7 +215,7 @@ def put_promo_info_whole_store(store, date_issued, shipping, where, validity, co
                                whole_store_perc, whole_store_aggr_disc, 
                                whole_store_aggr_low_bound, whole_store_add):
     
-    promo = Promotion(store)
+    promo = PromotionObj(store)
     promo.set_basic_info(date_issued, shipping, code, validity, where)
     promo.set_store_wide(whole_store_perc, whole_store_aggr_disc, 
                           whole_store_aggr_low_bound, whole_store_add)
@@ -195,7 +232,7 @@ def put_promo_info_item_spec(store, date_issued, shipping, where, validity, code
                              item_spec_b1g1_perc, item_spec_b1g1_amount, 
                              item_spec_buy_n_for_x_N, item_spec_buy_n_for_x_X):
     
-    promo = Promotion(store)
+    promo = PromotionObj(store)
     promo.set_basic_info(date_issued, shipping, code, validity, where)
     promo.set_item_specific(sex_category, item_category, 
                             item_spec_b1g1_perc, item_spec_b1g1_amount, 
@@ -218,12 +255,12 @@ def put_promo_info_item_spec(store, date_issued, shipping, where, validity, code
 def get_promo_info_date(store, date_):    
     rows = _fetch_all_rows_date(store, date_)
     logging.debug("GET_PROMO_INFO: " + str(type(rows)))
-    promotions = []
+    promotions = Promotions(store)
     for row in rows:
-        promo = Promotion(store)
+        promo = PromotionObj(store)
         promo.initialize_from_db_row(row)
         print str(promo)
-        promotions.append(promo)
+        promotions.add_promo_obj(promo)
         
     logging.debug("GET_PROMO_INFO: promotions " + str(promotions))
     return promotions
@@ -232,14 +269,16 @@ def get_promo_info_date(store, date_):
 def get_promo_info(store):    
     rows = _fetch_all_rows(store)
     logging.debug("GET_PROMO_INFO: " + str(type(rows)))
-    promotions = []
+    promotions = Promotions(store)
+    
     for row in rows:
-        promo = Promotion(store)
+        promo = PromotionObj(store)
         promo.initialize_from_db_row(row)
         print str(promo)
-        promotions.append(promo)
+        promotions.add_promo_obj(promo)
         
     logging.debug("GET_PROMO_INFO: promotions " + str(promotions))
+    print "How many? " + str(promotions.how_many())
     return promotions
     
     
@@ -253,9 +292,10 @@ def _setup_db(location):
     conn = sqlite3.connect(location, detect_types=sqlite3.PARSE_DECLTYPES)
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()    
-    _create_table(cursor)
+    #_create_table(cursor)
     return (cursor, conn)
 
+# Not needed
 def _create_table(cursor):
     ''' set up promoInfo table if not already exists '''
     command = 'create table if not exists ' + TABLE_NAME + ' ( store text, d date, ' + \
@@ -282,11 +322,9 @@ def _del_row(store, date_):
     CURSOR.execute('delete from promoInfo where store==? and d==?', (store, date_))
     
 
-def _fetch_single_row_date(store, date_):
-    CURSOR.execute('select * from promoInfo where store==? and d==?', (store, date_))
-    return CURSOR.fetchone()
 
 def _fetch_all_rows_date(store, date_):
+    initialize()
     CURSOR.execute('select * from polls_promoinfo where store==? and d==?', (store, date_))
     return CURSOR.fetchall()
 
@@ -295,37 +333,17 @@ def _fetch_all_rows(store):
     CURSOR.execute('select * from polls_promoinfo where store==?', (store,))
     return CURSOR.fetchall()
 
-'''
-WHOLE_STORE_INFO ARGS: 1. store, 2. date_issued, 3. shipping, 4. where, 5. validity, 6. code,
-                       6. whole_store_perc, 7. whole_store_aggr_disc, 7. whole_store_aggr_low_bound, 8. whole_store_add
-                       
-ITEM_SPEC_INFO ARGS: 1. store, 2. date_issued, 3. shipping, 4. where, 5. validity, 6. code,
-                     6. sex_category, 7. item_category, 8. item_spec_b1g1_perc, 9. item_spec_b1g1_amount, 
-                     9. item_spec_buy_n_for_x_N, 10. item_spec_buy_n_for_x_X
-'''
-
 def initialize():
     global CURSOR
-    CURSOR, conn = _setup_db("../../tutorial/testDB")
+    CURSOR, conn = _setup_db("../tutorial/testDB")
     return CURSOR
 
 if __name__ == "__main__":
     #CURSOR, conn = _setup_db("./promoSenseDB")
-    CURSOR, conn = _setup_db("../../tutorial/testDB")
+    CURSOR, conn = _setup_db("../tutorial/testDB")
     
     date_issued = datetime.date.today()
     
-    '''
-    feed_jcrew_promos()
-    conn.commit()
-    print "Read: " + str(_fetch_single_row_date("jcrew", date_issued))
-    print "Read: " + str(_fetch_all_rows("jcrew"))
-    
-    print "Deleting.."
-    _del_row("jcrew", date_issued)
-    conn.commit()
-    print "Read: " + str(_fetch_single_row_date("jcrew", date_issued))
-    '''
     date_issued = datetime.date(2012, 1, 1)
     print date_issued
     logging.debug(get_promo_info("JCREW"))

@@ -28,8 +28,8 @@ class Choice(models.Model):
 class Promoinfo(models.Model):
     
     STORE_CHOICES = (
-                     ('jcrew', 'JCREW'),
-                     ('express', 'EXPRESS'),
+                     ('JCREW', 'JCREW'),
+                     ('EXPRESS', 'EXPRESS'),
                      )
     
     AVAILABILITY_CHOICES = (
@@ -48,7 +48,9 @@ class Promoinfo(models.Model):
     PROMO_TYPE_CHOICES = (
                           (0, 'STORE-WIDE'),
                           (1, 'AGGREGATE'),
-                          (2, 'ITEM-SPECIFIC'),
+                          (2, 'ADDITIONAL'),
+                          (3, 'BUY-1-GET'),
+                          (4, 'BUY-N-FOR')
                           )
     
     promo_type = models.IntegerField(choices = PROMO_TYPE_CHOICES)
