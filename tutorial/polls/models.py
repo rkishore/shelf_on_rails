@@ -39,7 +39,8 @@ class Promoinfo(models.Model):
                         (2, 'BOTH')
                         )
     
-    store = models.CharField(max_length=20, choices = STORE_CHOICES)
+    #store = models.CharField(max_length=20, choices = STORE_CHOICES)
+    store = models.ForeignKey('Brands', default='Nil')
     d = models.DateField('date issued')
     validity = models.IntegerField()
     code = models.CharField(max_length=20)
