@@ -7,13 +7,13 @@ require 'active_record'
 
 ActiveRecord::Base.establish_connection(  
                                         :adapter => "sqlite3",  
-                                        :database => "/home/kishore/workspace/djproj/mysite2/sqlite.db"
+                                        :database => "/home/kishore/workspace/sample_app/tutorial/testDB"
                                         )  
 
-class Clothes_brand < ActiveRecord::Base  
+class Polls_brand < ActiveRecord::Base  
 end
 
-class Clothes_item < ActiveRecord::Base  
+class Polls_item < ActiveRecord::Base  
 end
 
 EXPRESS_BRAND_ID = 1
@@ -74,7 +74,7 @@ def process_pernode_info(pernode, category, time)
     p_saleprice = pr_price.text
   end
 
-  Clothes_item.create(:brand_id => br_id, :name => pr_name.text, :gender => p_gender, :cat1 => p_cat[0], :cat2 => p_cat[1], :cat3 => p_cat[2], :cat4 => p_cat[3], :cat5 => p_cat[4], :price => pr_price.text, :saleprice => p_saleprice, :insert_date => time.strftime("%Y-%m-%d %H:%M:%S"))
+  Polls_item.create(:brand_id => br_id, :name => pr_name.text, :gender => p_gender, :cat1 => p_cat[0], :cat2 => p_cat[1], :cat3 => p_cat[2], :cat4 => p_cat[3], :cat5 => p_cat[4], :price => pr_price.text, :saleprice => p_saleprice, :insert_date => time.strftime("%Y-%m-%d %H:%M:%S"))
   
   # Print available colors
   #i = 0
