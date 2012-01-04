@@ -32,5 +32,5 @@ urlpatterns = patterns('',
     #(r'^item_list/', 'polls.views.render_result_list'),
     (r'^result/$', 'polls.views.result'),
     (r'^items/$', list_detail.object_list, items_info),
-    (r'^admin/$', include(admin.site.urls)),
+    (r'^admin/', include(admin.site.urls)),
 )

@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>13342</Id>
+<Name>Express</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>85</TotalCount>
+<Product>
+<Id>317702728</Id>
+<Name>Plaid Modern Fit Military Shirt</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Clad yourself in our latest military-style plaid shirt in our most-versatile fit. Metallic buttons, double chest pockets, button shoulder epaulettes  and tipping details give you style down to the last detail.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Modern fit, perfect for all body types&lt;/li&gt;
+                     		&lt;li&gt;Point collar with removable stays&lt;/li&gt;
+                     		&lt;li&gt;Button-down chest pockets, button shoulder epaulettes&lt;/li&gt;
+                     		&lt;li&gt;Adjustable cuffs, metallic buttons&lt;/li&gt;
+                     		&lt;li&gt;100% Cotton&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=317702728&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/42/19/42198681de5c1e6f20a9afd25e948c21_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/42/19/42198681de5c1e6f20a9afd25e948c21_medium/express-shirts-plaid-modern-fit-military-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/42/19/42198681de5c1e6f20a9afd25e948c21/express-shirts-plaid-modern-fit-military-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>BLUE FIN</Name>
+</Color>
+<Color>
+<Name>STERLING</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Size>
+<Name>XX Large</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-29</ExtractDate>
+</Product>
+<Product>
+<Id>317363016</Id>
+<Name>Metal Cufflinks</Name>
+<Currency>USD</Currency>
+<Price>29.9</Price>
+<PriceLabel>$29.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Finish your dressier nights out with a set of classic cufflinks. Polished metal for a modern look.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Rectangular cufflinks&lt;/li&gt;
+                     		&lt;li&gt;Bullet back closure&lt;/li&gt;
+                     		&lt;li&gt;About 3/4" wide by 1/2" high&lt;/li&gt;
+                     		&lt;li&gt;Metal&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=317363016&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/33/66/33661c228ea07bf6db8a03fee5082ab4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/33/66/33661c228ea07bf6db8a03fee5082ab4_medium/express-shirts-center-ribbed-cufflinks.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/33/66/33661c228ea07bf6db8a03fee5082ab4/express-shirts-center-ribbed-cufflinks.jpg</Url>
+</Image>
+<Color>
+<Name>SILVER GRAY</Name>
+</Color>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-28</ExtractDate>
+</Product>
+<Product>
+<Id>315903202</Id>
+<Name>Grosgrain Placket Chambray Fitted Shirt</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Add some definition to your buttoned-down style by letting a contrast ribbon peak out from your neckline. Roll up your sleeves to reveal the inner cuff detail on this chambray cotton shirt.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Cut slimmer through the shoulders, chest and waist&lt;/li&gt;
+                     		&lt;li&gt;Point collar with removable stays&lt;/li&gt;
+                     		&lt;li&gt;Contrast grosgrain placket and inner cuffs&lt;/li&gt;
+                     		&lt;li&gt;Chest pocket&lt;/li&gt;
+                     		&lt;li&gt;100% Cotton&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315903202&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f1/a6/f1a68f4761c056190e330b537feb84df_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f1/a6/f1a68f4761c056190e330b537feb84df_medium/express-shirts-grosgrain-placket-chambray-fitted-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f1/a6/f1a68f4761c056190e330b537feb84df/express-shirts-grosgrain-placket-chambray-fitted-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>CREST BLUE</Name>
+</Color>
+<Color>
+<Name>STEEL GRAY</Name>
+</Color>
+<Color>
+<Name>ENSIGN</Name>
+</Color>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-23</ExtractDate>
+</Product>
+<Product>
+<Id>315903205</Id>
+<Name>Checked Modern Fit Shirt</Name>
+<Currency>USD</Currency>
+<Price>64.9</Price>
+<PriceLabel>$64.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Check yourself out with this cleanly tailored shirt in a classic check pattern. The Modern fit works great for all body types. A smooth French placket and pocket-free front help define a look that's fresh and contemporary.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;100% Cotton&lt;/li&gt;
+                     		&lt;li&gt;Modern fit, perfect for all body types&lt;/li&gt;
+                     		&lt;li&gt;Point collar with removable stays&lt;/li&gt;
+                     		&lt;li&gt;French placket&lt;/li&gt;
+                     		&lt;li&gt;Adjustable cuffs&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315903205&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/28/7d/287d3cad88a4ea893b31f5fdabcb331e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/28/7d/287d3cad88a4ea893b31f5fdabcb331e_medium/express-shirts-checked-modern-fit-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/28/7d/287d3cad88a4ea893b31f5fdabcb331e/express-shirts-checked-modern-fit-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>SHADOW GRAY</Name>
+</Color>
+<Color>
+<Name>SCUBA</Name>
+</Color>
+<Color>
+<Name>WILD PLUM</Name>
+</Color>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-23</ExtractDate>
+</Product>
+<Product>
+<Id>317019273</Id>
+<Name>Top-Stitch Denim Fitted Shirt</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A raw and rugged top-stitched denim shirt is all the rage these days. Vintage-style painted metal buttons and old-school patch pockets go great with an even darker-rinsed pair of jeans.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Cut slimmer through the shoulders, chest and waist&lt;/li&gt;
+                     		&lt;li&gt;Vintage-style painted metal buttons&lt;/li&gt;
+                     		&lt;li&gt;Chest pockets&lt;/li&gt;
+                     		&lt;li&gt;Top-stitched with tipped details&lt;/li&gt;
+                     		&lt;li&gt;100% Cotton&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=317019273&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c1/cf/c1cfeccbe95a547323d79ebf5ba7a12b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c1/cf/c1cfeccbe95a547323d79ebf5ba7a12b_medium/express-shirts-topstitch-denim-fitted-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c1/cf/c1cfeccbe95a547323d79ebf5ba7a12b/express-shirts-topstitch-denim-fitted-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>DENIM</Name>
+</Color>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-27</ExtractDate>
+</Product>
+</SearchResult>
