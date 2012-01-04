@@ -1,0 +1,13 @@
+<html>
+    <title>Items satisfying your requirements</title>
+    <body>
+    <h2>Items</h2>
+	<ul>
+		[BRAND]   [CATEGORY]   [PRICE]   [SALE_PRICE]
+    	{% for item in object_list %}
+        	<li>{{ item.brand}}  {{ item.cat1}} {{ item.price}} {{ item.saleprice}}</li>
+    	{% endfor %}
+	</ul>
+    </body>
+</html>
+

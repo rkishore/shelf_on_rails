@@ -1,9 +1,11 @@
 # Create your views here.
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, Http404
 import datetime
+from django.views.generic import list_detail
 from django.shortcuts import render_to_response
 from django import forms
-
+from polls.models import Promoinfo, Items
+from django.db.models import Avg, Max, Min
 import match
 
 
@@ -12,23 +14,23 @@ class Wishlist(forms.Form):
     
     
     STORE_CHOICES = (
-                     ('JCREW', 'JCREW'),
-                     ('EXPRESS', 'EXPRESS'),
+                     ("J.Crew", 'J.CREW'),
+                     ("Express", 'EXPRESS'),
                      )
     SEX_CHOICES = (
-                   (0, 'MALE'),
-                   (1, 'FEMALE'),
-                   (2, 'ALL'),
+                   ('M', 'MALE'),
+                   ('F', 'FEMALE'),
+                   ('A', 'ALL'),
                    )
     
     ITEM_CATEGORY_CHOICES = (
-                             (0, 'SHIRTS'),
-                             (1, 'PANTS'),
-                             (2, 'SWEATERS'),
-                             (3, 'JEANS'),
-                             (4, 'OUTERWEAR'),
-                             (5, 'UNDERWEAR'),
-                             (7, 'EVERYTHING')
+                             ('shirts', 'SHIRTS'),
+                             ('pants', 'PANTS'),
+                             ('sweaters', 'SWEATERS'),
+                             ('jeans', 'JEANS'),
+                             ('outerwear', 'OUTERWEAR'),
+                             ('underwear', 'UNDERWEAR'),
+                             ('everything', 'EVERYTHING')
                              )
     
     #store = forms.CharField(max_length=100, choices = STORE_CHOICES)
@@ -68,6 +70,42 @@ def wishlist(request):
             color = form.cleaned_data['color']
             howmany = form.cleaned_data['howmany']
             date = datetime.date.today()
+            
+            try:
+                potential_items = Items.objects.filter(brand__name = store)
+                # filter only if the category is specified
+                if sex_category != 'A':
+                    potential_items2 = potential_items.filter(gender = sex_category)
+                    print potential_items2
+                    potential_items = potential_items2
+                # filter only if category is given
+                potential_items3 = potential_items.filter(cat1__contains = item_category)
+                print potential_items3
+                potential_items = potential_items3
+                for items in potential_items:
+                    print str(items.brand_id) + " " + str(items.cat1) + " " + str(items.gender) 
+                print potential_items
+                print "Max price: " + str(potential_items.aggregate(Max('price')))
+                print "Min price: " + str(potential_items.aggregate(Min('price')))
+                print "Avg price: " + str(potential_items.aggregate(Avg('price')))
+
+            except Items.DoesNotExist:
+                raise Http404
+        
+            print "Store " + str(store)
+            print "Category " + str(item_category)
+            print "Gender " + str(sex_category)
+            
+            return list_detail.object_list(
+                                           request,
+                                           queryset = potential_items,
+                                           template_name = "items_list.html"
+                                           #template_object_name = "items"
+                                           #extra_context = {"items" : potential_items}
+                                           )
+            
+            
+            '''    
             wish = []
             wish.append(store)
             wish.append(item_category)
@@ -76,9 +114,13 @@ def wishlist(request):
             wish.append(howmany)
             #print "Store name: " + str(store)
             #print wish
-            total_cost, savings = match.match(store, date, wish)
+            #total_cost, savings = match.match(store, date, wish)
+            total_cost = 200
+            savings = 50
             return result(request, total_cost, savings)
+            
             #return HttpResponseRedirect(reverse('/result/', args=(total_cost, savings))) # Redirect after POST
+            '''
     else:
         form = Wishlist() # An unbound form
     print form

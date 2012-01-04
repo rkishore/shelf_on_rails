@@ -1,8 +1,20 @@
 from django.conf.urls.defaults import patterns, include, url
 
+from polls.models import Promoinfo, Items
+from django.views.generic import list_detail
+
+
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
 admin.autodiscover()
+
+items_info = {
+              "queryset" : Items.objects.all(),
+              "template_name" : "items_list.html"
+              #"template_object_name" : "something"
+              }
+
+
 
 urlpatterns = patterns('',
     # Example:
@@ -16,5 +28,6 @@ urlpatterns = patterns('',
     (r'^date/', 'polls.views.current_datetime'),
     (r'^wishlist/', 'polls.views.wishlist'),
     (r'^result/', 'polls.views.result'),
+    (r'^items/', list_detail.object_list, items_info),
     (r'^admin/', include(admin.site.urls)),
 )
