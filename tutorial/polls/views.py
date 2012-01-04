@@ -8,7 +8,7 @@ from polls.models import Promoinfo, Items
 from django.db.models import Avg, Max, Min, Count
 import match
 
-
+item_list_results_hash_table = {}
 
 class Wishlist(forms.Form):
     
@@ -53,9 +53,27 @@ def current_datetime(request):
     html = "<html><body>It is now %s.</body></html>" % now
     return HttpResponse(html)
 
-def result(request, total_cost, savings):
-    html = "<html><body>Total cost: " + str(total_cost) + ". Total savings: " + str(savings) + "</body></html>"
+def result(max_, min_, avg_, num_, id_):
+    html = "<html><body><title>Summary of results</title>" + \
+           "<p>We found " + str(num_) + " items satisfying your query. " + \
+           "<a href=\"" + str(id_) + "\">View items?</a></p>" + \
+           "<p>Max cost: " + str(max_) + ". Min: " + str(min_) + ". Avg " + str(avg_) + "<p></body></html>"
     return HttpResponse(html)
+    
+def render_result_list(request, id_):
+    print "Argument " + id_
+    int_id = int(id_)
+    print "Argument " + id_ + " int_id " + str(int_id)
+    #return current_datetime(request)
+    
+    result_list = item_list_results_hash_table[int_id]
+    return list_detail.object_list(
+                                           request,
+                                           queryset = result_list,
+                                           template_name = "items_list.html"
+                                           #template_object_name = "items"
+                                           #extra_context = {"items" : potential_items}
+                                           )
     
 def wishlist(request):
     if request.method == 'POST': # If the form has been submitted...
@@ -76,21 +94,21 @@ def wishlist(request):
                 # filter only if the category is specified
                 if sex_category != 'A':
                     potential_items2 = potential_items.filter(gender = sex_category)
-                    #print potential_items2
+                    print potential_items2
                     potential_items = potential_items2
                 # filter only if category is given
                 potential_items3 = potential_items.filter(cat1__contains = item_category)
-                print potential_items3
+                #print potential_items3
                 potential_items = potential_items3
-                #for items in potential_items:
-                #print str(items.brand_id) + " " + str(items.cat1) + " " + str(items.gender) 
-                print potential_items
-                max = potential_items.aggregate(Max('price'))['price__max']
+                for items in potential_items:
+                    print str(items.brand_id) + " " + str(items.cat1) + " " + str(items.gender) + " " + str(items.price)
+                #print potential_items
+                max_ = potential_items.aggregate(Max('price'))['price__max']
                 #print max['price__max']
-                min = potential_items.aggregate(Min('price'))['price__min']
-                avg = potential_items.aggregate(Avg('price'))['price__avg']
-                num = potential_items.aggregate(Count('price'))['price__count']
-                print "Max price: " + str(max) + " Min price " + str(min) + " Avg price " + str(avg) + " Count " + str(num)
+                min_ = potential_items.aggregate(Min('price'))['price__min']
+                avg_ = potential_items.aggregate(Avg('price'))['price__avg']
+                num_ = potential_items.aggregate(Count('price'))['price__count']
+                print "Max price: " + str(max_) + " Min price " + str(min_) + " Avg price " + str(avg_) + " Count " + str(num_)
 
             except Items.DoesNotExist:
                 raise Http404
@@ -99,8 +117,12 @@ def wishlist(request):
             print "Category " + str(item_category)
             print "Gender " + str(sex_category)
             
+            id_ = int(num_)
+            print id_
+            item_list_results_hash_table[id_] = potential_items
             #result_item_list[form] = potential_items
-            
+            return result(max_, min_, avg_, num_, id_)
+            '''
             return list_detail.object_list(
                                            request,
                                            queryset = potential_items,
@@ -109,7 +131,7 @@ def wishlist(request):
                                            #extra_context = {"items" : potential_items}
                                            )
             
-            
+            '''
             '''    
             wish = []
             wish.append(store)
