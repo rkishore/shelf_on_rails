@@ -86,7 +86,7 @@ class Promoinfo(models.Model):
 
 
     def __unicode__(self):
-        return self.store + " " + str(self.d) + " " + str(self.promo_type)  
+        return str(self.store) + " " + str(self.d) + " " + str(self.promo_type)  
 
 
 class Brands(models.Model):
