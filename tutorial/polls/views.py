@@ -5,7 +5,7 @@ from django.views.generic import list_detail
 from django.shortcuts import render_to_response
 from django import forms
 from polls.models import Promoinfo, Items
-from django.db.models import Avg, Max, Min
+from django.db.models import Avg, Max, Min, Count
 import match
 
 
@@ -76,18 +76,21 @@ def wishlist(request):
                 # filter only if the category is specified
                 if sex_category != 'A':
                     potential_items2 = potential_items.filter(gender = sex_category)
-                    print potential_items2
+                    #print potential_items2
                     potential_items = potential_items2
                 # filter only if category is given
                 potential_items3 = potential_items.filter(cat1__contains = item_category)
                 print potential_items3
                 potential_items = potential_items3
-                for items in potential_items:
-                    print str(items.brand_id) + " " + str(items.cat1) + " " + str(items.gender) 
+                #for items in potential_items:
+                #print str(items.brand_id) + " " + str(items.cat1) + " " + str(items.gender) 
                 print potential_items
-                print "Max price: " + str(potential_items.aggregate(Max('price')))
-                print "Min price: " + str(potential_items.aggregate(Min('price')))
-                print "Avg price: " + str(potential_items.aggregate(Avg('price')))
+                max = potential_items.aggregate(Max('price'))['price__max']
+                #print max['price__max']
+                min = potential_items.aggregate(Min('price'))['price__min']
+                avg = potential_items.aggregate(Avg('price'))['price__avg']
+                num = potential_items.aggregate(Count('price'))['price__count']
+                print "Max price: " + str(max) + " Min price " + str(min) + " Avg price " + str(avg) + " Count " + str(num)
 
             except Items.DoesNotExist:
                 raise Http404
@@ -95,6 +98,8 @@ def wishlist(request):
             print "Store " + str(store)
             print "Category " + str(item_category)
             print "Gender " + str(sex_category)
+            
+            #result_item_list[form] = potential_items
             
             return list_detail.object_list(
                                            request,
