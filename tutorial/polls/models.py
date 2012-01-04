@@ -128,6 +128,9 @@ class Items(models.Model):
     price = models.CharField(max_length=10, default='20.00')
     saleprice = models.CharField(max_length=10, default='10.00')
     insert_date = models.DateTimeField('Date inserted', default=datetime.now)
+    img_url_sm = models.CharField(max_length=100, default='Nil')
+    img_url_md = models.CharField(max_length=100, default='Nil')
+    img_url_lg = models.CharField(max_length=100, default='Nil')
     #available_sizes = models.CharField(max_length=2, choices=SIZE_CHOICES)                                                                                                    
     #available_colors = models.CharField(max_length=2, choices=COLOR_CHOICES)                                                                                                   
     def __unicode__(self):
