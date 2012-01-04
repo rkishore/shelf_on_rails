@@ -65,25 +65,46 @@
 <Name>W30 L30</Name>
 </Size>
 <Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
 <Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
 </Size>
 <Size>
 <Name>W34 L30</Name>
 </Size>
 <Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
 <Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
 </Size>
 <Size>
 <Name>W32 L32</Name>
 </Size>
 <Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
 <Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
 </Size>
 <Size>
 <Name>W32 L34</Name>
 </Size>
 <Size>
 <Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
 </Size>
 <Category>mens-low-rise-jeans</Category>
 <Category>mens-straight-leg-jeans</Category>
@@ -1867,6 +1888,9 @@
 <Size>
 <Name>W34 L34</Name>
 </Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
 <Category>mens-bootcut-jeans</Category>
 <Category>mens-loose-jeans</Category>
 <Category>mens-low-rise-jeans</Category>
@@ -2190,6 +2214,9 @@
 </Size>
 <Size>
 <Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
 </Size>
 <Category>mens-bootcut-jeans</Category>
 <Category>mens-loose-jeans</Category>

@@ -29,6 +29,7 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
   pr_image = pernode.xpath('//Product/Image/Url') 
   pr_color = pernode.xpath('//Product/Color/Name') 
   pr_size = pernode.xpath('//Product/Size/Name') 
+  pr_url = pernode.xpath('//Product/Url') 
   
   # Determine brand_id
   br_id = ""
@@ -76,7 +77,9 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
     break if (i > 2)
   end  
 
-  tmp_array = [br_id, pr_name.text, p_gender, p_cat[0], p_cat[1], p_cat[2], p_cat[3], p_cat[4], pr_price.text, p_saleprice, p_img[0], p_img[1], p_img[2]]
+  #puts pr_url.text
+
+  tmp_array = [br_id, pr_name.text, p_gender, p_cat[0], p_cat[1], p_cat[2], p_cat[3], p_cat[4], pr_price.text, p_saleprice, p_img[0], p_img[1], p_img[2], pr_url.text]
   
   return tmp_array
 
@@ -155,6 +158,7 @@ def parse_product_info(filename, brand, category, time, dbpath)
                           :img_url_sm => tmp_arr[10], 
                           :img_url_md => tmp_arr[11], 
                           :img_url_lg => tmp_arr[12], 
+                          :pr_url => tmp_arr[13],
                           )
       
     end
