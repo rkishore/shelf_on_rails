@@ -84,7 +84,7 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
     p_size << "[" + l.text.downcase.strip + "], "
   end
   p_size << "[], " if p_size.length == 0
-  print p_size.join + "\n"
+  #print p_size.join + "\n"
 
   # Get available colors
   p_color = []
@@ -93,10 +93,10 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
     p_color << "[" + l.text.downcase.strip + "], "
   end
   p_color << "[], " if p_color.length == 0
-  print p_color.join + "\n"
-  print pr_name.text + "\n"
+  #print p_color.join + "\n"
+  #print pr_name.text + "\n"
 
-  tmp_array = [br_id, pr_name.text, p_gender, p_cat[0], p_cat[1], p_cat[2], p_cat[3], p_cat[4], pr_price.text, p_saleprice, p_img[0], p_img[1], p_img[2], pr_url.text, p_size.join, p_color.join]
+  tmp_array = [br_id, pr_name.text, p_gender, p_cat[0], p_cat[1], p_cat[2], p_cat[3], p_cat[4], pr_price.text, p_saleprice, p_img[0], p_img[1], p_img[2], pr_url.text, p_size.join, p_color.join, pr_instock.text, pr_retailer.text, pr_currency.text]
   
   return tmp_array
 
@@ -157,7 +157,11 @@ def parse_product_info(filename, brand, category, time, dbpath)
                           :img_url_lg => tmp_arr[12], 
                           :pr_url => tmp_arr[13],
                           :pr_sizes => tmp_arr[14],
-                          :pr_colors => tmp_arr[15],)
+                          :pr_colors => tmp_arr[15],
+                          :pr_instock => tmp_arr[16],
+                          :pr_retailer => tmp_arr[17],
+                          :pr_currency => tmp_arr[18],
+                          )
       
     end
   end
