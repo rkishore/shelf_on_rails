@@ -5,12 +5,6 @@ require 'net/http'
 require 'rubygems'  
 require 'active_record'  
 
-#class Clothes_brand < ActiveRecord::Base  
-#end
-
-#class Clothes_item < ActiveRecord::Base  
-#end  
-
 #EXPRESS_BRAND_ID = 1
 #JCREW_BRAND_ID = 2
 
@@ -32,6 +26,7 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
   pr_retailer = pernode.xpath('//Product/Retailer')
   pr_category = pernode.xpath('//Product/Category')
   pr_saleprice = pernode.xpath('//Product/SalePrice') 
+  pr_image = pernode.xpath('//Product/Image/Url') 
   pr_color = pernode.xpath('//Product/Color/Name') 
   pr_size = pernode.xpath('//Product/Size/Name') 
   
@@ -56,7 +51,7 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
     p_gender = 'M'
   end
 
-  # Determine product categories
+  # Determine product categories (up to five supported right now)
   i = 0
   p_cat = ['Empty', 'Empty', 'Empty', 'Empty', 'Empty']
   pr_category.each do |l|
@@ -72,7 +67,16 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
     p_saleprice = pr_price.text
   end
 
-  tmp_array = [br_id, pr_name.text, p_gender, p_cat[0], p_cat[1], p_cat[2], p_cat[3], p_cat[4], pr_price.text, p_saleprice]
+  # Determine image urls (for small, medium and large sizes)
+  i = 0
+  p_img = ['Empty', 'Empty', 'Empty']
+  pr_image.each do |l|
+    p_img[i] = l.text
+    i += 1
+    break if (i > 2)
+  end  
+
+  tmp_array = [br_id, pr_name.text, p_gender, p_cat[0], p_cat[1], p_cat[2], p_cat[3], p_cat[4], pr_price.text, p_saleprice, p_img[0], p_img[1], p_img[2]]
   
   return tmp_array
 
@@ -137,7 +141,21 @@ def parse_product_info(filename, brand, category, time, dbpath)
 
       doc = Nokogiri::XML(node.outer_xml)
       tmp_arr = process_pernode_info(doc, category, time, brand_arr)
-      item_cl_name.create(:brand_id => tmp_arr[0], :name => tmp_arr[1], :gender => tmp_arr[2], :cat1 => tmp_arr[3], :cat2 => tmp_arr[4], :cat3 => tmp_arr[5], :cat4 => tmp_arr[6], :cat5 => tmp_arr[7], :price => tmp_arr[8], :saleprice => tmp_arr[9], :insert_date => time.strftime("%Y-%m-%d %H:%M:%S"))
+      item_cl_name.create(:brand_id => tmp_arr[0], 
+                          :name => tmp_arr[1], 
+                          :gender => tmp_arr[2], 
+                          :cat1 => tmp_arr[3], 
+                          :cat2 => tmp_arr[4], 
+                          :cat3 => tmp_arr[5], 
+                          :cat4 => tmp_arr[6], 
+                          :cat5 => tmp_arr[7], 
+                          :price => tmp_arr[8], 
+                          :saleprice => tmp_arr[9], 
+                          :insert_date => time.strftime("%Y-%m-%d %H:%M:%S"), 
+                          :img_url_sm => tmp_arr[10], 
+                          :img_url_md => tmp_arr[11], 
+                          :img_url_lg => tmp_arr[12], 
+                          )
       
     end
   end
