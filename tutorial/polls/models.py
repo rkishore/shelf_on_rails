@@ -134,6 +134,9 @@ class Items(models.Model):
     pr_url = models.CharField(max_length=200, default='Nil')
     pr_sizes = models.CharField(max_length=200, default='Nil')
     pr_colors = models.CharField(max_length=200, default='Nil')
+    pr_instock = models.CharField(max_length=10, default='Nil')
+    pr_retailer = models.CharField(max_length=200, default='Nil')
+    pr_currency = models.CharField(max_length=200, default='Nil')
                                                                                                            
     def __unicode__(self):
         return self.name
