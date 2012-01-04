@@ -31,7 +31,7 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
   pr_size = pernode.xpath('//Product/Size/Name') 
   pr_url = pernode.xpath('//Product/Url') 
   
-  # Determine brand_id
+  # Get brand_id
   br_id = ""
   brandinfo_arr.each do |l|
     if (pr_br_name.text.strip.casecmp(l.name.strip) == 0)
@@ -44,7 +44,7 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
 
   # TODO: if br_id is nill, input new brand name and match with that ID
 
-  # Determine gender
+  # Get gender
   spl_cat = category.split("-")
   if (spl_cat[0].casecmp("womens") == 0)
     p_gender = 'F'
@@ -52,7 +52,7 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
     p_gender = 'M'
   end
 
-  # Determine product categories (up to five supported right now)
+  # Get product categories (up to five supported right now)
   i = 0
   p_cat = ['Empty', 'Empty', 'Empty', 'Empty', 'Empty']
   pr_category.each do |l|
@@ -61,14 +61,14 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
     break if (i > 4)
   end  
 
-  # Determine saleprice
+  # Get saleprice
   if ((pr_saleprice.nil? == false) and (pr_saleprice.text.empty? == false))
     p_saleprice = pr_saleprice.text
   else 
     p_saleprice = pr_price.text
   end
 
-  # Determine image urls (for small, medium and large sizes)
+  # Get image urls (for small, medium and large sizes)
   i = 0
   p_img = ['Empty', 'Empty', 'Empty']
   pr_image.each do |l|
@@ -76,33 +76,30 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
     i += 1
     break if (i > 2)
   end  
+  
+  # Get available sizes
+  p_size = []
+  pr_size.each do |l|
+    #print "[" + l.text.to_s.strip + "], "
+    p_size << "[" + l.text.downcase.strip + "], "
+  end
+  p_size << "[], " if p_size.length == 0
+  print p_size.join + "\n"
 
-  #puts pr_url.text
+  # Get available colors
+  p_color = []
+  pr_color.each do |l|
+    #print "[" + l.text.to_s.strip + "], "
+    p_color << "[" + l.text.downcase.strip + "], "
+  end
+  p_color << "[], " if p_color.length == 0
+  print p_color.join + "\n"
+  print pr_name.text + "\n"
 
-  tmp_array = [br_id, pr_name.text, p_gender, p_cat[0], p_cat[1], p_cat[2], p_cat[3], p_cat[4], pr_price.text, p_saleprice, p_img[0], p_img[1], p_img[2], pr_url.text]
+  tmp_array = [br_id, pr_name.text, p_gender, p_cat[0], p_cat[1], p_cat[2], p_cat[3], p_cat[4], pr_price.text, p_saleprice, p_img[0], p_img[1], p_img[2], pr_url.text, p_size.join, p_color.join]
   
   return tmp_array
 
-  #Clothes_item.create(:brand_id => br_id, :name => pr_name.text, :gender => p_gender, :cat1 => p_cat[0], :cat2 => p_cat[1], :cat3 => p_cat[2], :cat4 => p_cat[3], :cat5 => p_cat[4], :price => pr_price.text, :saleprice => p_saleprice, :insert_date => time.strftime("%Y-%m-%d %H:%M:%S"))
-  
-  # Print available colors
-  #i = 0
-  #pr_color.each do |l|
-  #  print l.text.to_s.strip
-  #  i += 1
-  #  print ", " if !(i == pr_color.length)
-  #end
-  #print " | "
-  
-  # Print available sizes
-  #i = 0
-  #pr_size.each do |l|
-  #  print l.text.to_s.strip
-  #  i += 1
-  #  print ", " if !(i == pr_size.length)
-  #end
-  #print " | \n"
-  
 end
 
 
@@ -159,7 +156,8 @@ def parse_product_info(filename, brand, category, time, dbpath)
                           :img_url_md => tmp_arr[11], 
                           :img_url_lg => tmp_arr[12], 
                           :pr_url => tmp_arr[13],
-                          )
+                          :pr_sizes => tmp_arr[14],
+                          :pr_colors => tmp_arr[15],)
       
     end
   end
@@ -194,7 +192,7 @@ def get_xml_data(brand, category, time)
   product_cnt = product_cnt_tag.text.to_i
 
   print "Total product count: " + product_cnt.to_s + "\n"
-  #product_cnt_tmp = 5
+  #product_cnt_tmp = 10
 
   # Next, we fetch item info 250 items at a time (max. allowed pull number by shopstyle API)
   max_allowed_records = 250 # dictated by shopstyle.com API

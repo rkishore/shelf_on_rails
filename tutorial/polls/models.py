@@ -132,7 +132,8 @@ class Items(models.Model):
     img_url_md = models.CharField(max_length=200, default='Nil')
     img_url_lg = models.CharField(max_length=200, default='Nil')
     pr_url = models.CharField(max_length=200, default='Nil')
-    #available_sizes = models.CharField(max_length=2, choices=SIZE_CHOICES)                                                                                                    
-    #available_colors = models.CharField(max_length=2, choices=COLOR_CHOICES)                                                                                                   
+    pr_sizes = models.CharField(max_length=200, default='Nil')
+    pr_colors = models.CharField(max_length=200, default='Nil')
+                                                                                                           
     def __unicode__(self):
         return self.name
