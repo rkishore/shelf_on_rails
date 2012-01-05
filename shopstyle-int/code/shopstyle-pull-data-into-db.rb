@@ -109,6 +109,8 @@ def parse_product_info(filename, brand, category, time, dbpath)
   item_cl_name_str = ""
   brand_cl_name_str = ""
 
+  print "Opening database: " + dbpath + " \n"
+
   # Establish connection to database
   ActiveRecord::Base.establish_connection(  
                                           :adapter => "sqlite3",  
@@ -176,7 +178,7 @@ def fetch_xml_into_file(url_str, fp)
 
 end
 
-def get_xml_data(brand, category, time)
+def get_xml_data(brand, category, time, xmlfilepath)
 
   spl_cat = category.split("-")
   if (spl_cat[0].casecmp("womens") == 0)
@@ -186,7 +188,7 @@ def get_xml_data(brand, category, time)
   end
   
   # Create file to store XML data
-  xml_filename = "/home/kishore/workspace/sample_app/shopstyle-int/xml-data/" + brand.downcase + "-" + category + "-ss-" + time.year.to_s + "-" + time.month.to_s + "-" + time.day.to_s + ".xml"
+  xml_filename = xmlfilepath + "/" + brand.downcase + "-" + category + "-ss-" + time.year.to_s + "-" + time.month.to_s + "-" + time.day.to_s + ".xml"
   fp = File.open(xml_filename, 'w')
 
   # First, we get the number of items in the category, i.e. product_cnt
@@ -242,22 +244,23 @@ end
 
 if __FILE__ == $0
 
-  if ARGV.length < 3
-    puts "Usage    : ruby $0 brand category /path/to/db"
-    puts "Example 1: ruby $0 express mens-jeans /home/kishore/workspace/djproj/mysite2/sqlite.db"
-    puts "Example 2: ruby $0 jcrew womens-jeans /home/kishore/workspace/djproj/mysite2/sqlite.db"
+  if ARGV.length < 4
+    puts "Usage    : ruby $0 brand category /path/to/xml /path/to/db"
+    puts "Example 1: ruby $0 express mens-jeans /home/kishore/workspace/dSense/shopstyle-int/xml-data /home/kishore/workspace/djproj/mysite2/sqlite.db"
+    puts "Example 2: ruby $0 jcrew womens-jeans /home/kishore/workspace/dSense/shopstyle-int/xml-data /home/kishore/workspace/djproj/mysite2/sqlite.db"
     exit
   end
 
   store_name = ARGV[0]
   category = ARGV[1]
-  dbpath = ARGV[2]
+  xmlfilepath = ARGV[2]
+  dbpath = ARGV[3]
   #appname = ARGV[3]
 
-  puts "Brand: " + store_name + ", Category: " + category + ", dbpath: " + dbpath #+ ", appname: " + appname
+  puts "Brand: " + store_name + ", Category: " + category + ", xmlfilepath: " + xmlfilepath + ", dbpath: " + dbpath #+ ", appname: " + appname
 
   time = Time.new  
-  xml_fname = get_xml_data(store_name, category, time)  
+  xml_fname = get_xml_data(store_name, category, time, xmlfilepath)  
   parse_product_info(xml_fname, store_name, category, time, dbpath)
   
 end
