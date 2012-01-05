@@ -7,7 +7,7 @@
 		[BRAND]   [CATEGORY]   [PRICE]   [SALE_PRICE]
     	{% for item in object_list %}
         	<li>
-        		{{ item.brand}}  {{ item.cat1}} {{ item.price}} {{ item.saleprice}} <a href="add_item_{{item.id}}">Add.</a>        		
+        		{{ item.brand}}  {{ item.cat1}} {{ item.price}} {{ item.saleprice}} <img src={{item.img_url_md}}><a href="add_item_{{item.id}}">Add.</a>        		
         	</li>
     	{% endfor %}
 	</ul>
