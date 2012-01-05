@@ -7,6 +7,8 @@ from django import forms
 from polls.models import Promoinfo, Items
 from django.db.models import Avg, Max, Min, Count
 import match
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
 
 item_list_results_hash_table = {}
 
@@ -36,7 +38,7 @@ class Wishlist(forms.Form):
                              ('everything', 'EVERYTHING')
                              )
     
-    #store = forms.CharField(max_length=100, choices = STORE_CHOICES)
+    
     store = forms.ChoiceField(choices = STORE_CHOICES)
     item_category = forms.ChoiceField(choices = ITEM_CATEGORY_CHOICES)
     sex_category = forms.ChoiceField(choices = GENDER_CHOICES)
@@ -127,12 +129,27 @@ def render_result_list(request, id_):
     #return current_datetime(request)
     
     result_list = item_list_results_hash_table[int_id]
+    paginator = Paginator(result_list, 25)
+    page = request.GET.get('page')
+    if page is None:
+        page = 1
+    try:
+        page_list = paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page.
+        page_list = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+        page_list = paginator.page(paginator.num_pages)
+    print "Printing page_list here: " + str(page_list)
     return list_detail.object_list(
                                            request,
                                            queryset = result_list,
-                                           template_name = "items_list.html"
+                                           template_name = "items_table.html",
+                                           paginate_by = 25,
+                                           #template_name = "items_list.html"
                                            #template_object_name = "items"
-                                           #extra_context = {"items" : potential_items}
+                                           extra_context = {"page_list" : page_list}
                                            )
     
 def wishlist(request):
