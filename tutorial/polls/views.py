@@ -10,6 +10,9 @@ import match
 
 item_list_results_hash_table = {}
 
+selected_items_id_list = {}
+selected_items = {}
+
 class Wishlist(forms.Form):
     
     
@@ -46,7 +49,62 @@ class Wishlist(forms.Form):
     2. A user must be able to choose items from different stores.
     
     '''
+def add_item_to_selected_items_list(request, wishlist_id_, item_id_):
+    print "Adding item " + str(item_id_) + " to wishlist id " + str(wishlist_id_)
+    selected_items_id_list[int(wishlist_id_)].append(item_id_)
+    selected_items[int(wishlist_id_)] = []
+    print selected_items_id_list[int(wishlist_id_)]
+    return HttpResponseRedirect("/wishlist/" + wishlist_id_)
 
+
+def apply_discount(request, wishlist_id_):
+    item_list = selected_items[int(wishlist_id_)]
+    store_name_ = "J.Crew"
+    date_ = datetime.date.today()
+    promo = Promoinfo.objects.filter(d = date_)
+    print promo
+    orig_cost, total_cost, savings, shipping = match.match(store_name_, date_, item_list)
+    html = "<html><body>Total cost: $" + str(orig_cost) + ". With promotion: $" + str(total_cost) + " We saved $" + \
+        str(savings) + " Free shipping?" + str(shipping) + "</body></html>" 
+    return HttpResponse(html)
+
+def show_selected_items(request, wishlist_id_):
+    selected_items_id = selected_items_id_list[int(wishlist_id_)]
+    original_item_list = item_list_results_hash_table[int(wishlist_id_)]
+
+    #print "Show selected items: " + str(result_list)
+    html ="<html><body><title>Selected Items</title>"
+    html += "<h2>Your Selected Items List.</h2>"
+    html += "<ul>"
+    itemlist = [] 
+    for id_ in selected_items_id:
+        qset = original_item_list.filter(id = id_)
+        print id_
+        print qset
+        for items in qset:
+            print str(items.brand) + " " + str(items.cat1) + " " + str(items.gender) + " " + str(items.price)
+            #selected_items[(int(wishlist_id_))].append(items)
+            html += "<li> " + str(items.brand) + " " + str(items.cat1) + " " + str(items.gender) \
+                    + " " + str(items.price) + " " + str(items.saleprice) + "</li>"
+            itemlist.append( {"store": str(items.brand), 
+                          "category": str(items.cat1), 
+                          "price": float(items.price),
+                          "sale_price": float(items.saleprice)} )
+    selected_items[int(wishlist_id_)] = itemlist
+    html += "<h3>Apply discounts to save money? Click <a href=\"apply_discount\">here</a></h3>"
+    html += "</body></html>"
+    return HttpResponse(html)
+    '''
+    THIS DIDN"T WORK SINCE result_list is not a queryset.
+    This resulted in list doesn't have a _clone method.
+    return list_detail.object_list(
+                                           request,
+                                           queryset = result_list,
+                                           template_name = "items_list.html"
+                                           #template_object_name = "items"
+                                           #extra_context = {"items" : potential_items}
+                                           )
+    '''
     
 def current_datetime(request):
     now = datetime.datetime.now()
@@ -57,11 +115,11 @@ def result(max_, min_, avg_, num_, id_):
     html = "<html><body><title>Summary of results</title>" + \
            "<p>We found " + str(num_) + " items satisfying your query. " + \
            "<a href=\"" + str(id_) + "\">View items?</a></p>" + \
-           "<p>Max cost: " + str(max_) + ". Min: " + str(min_) + ". Avg " + str(avg_) + "<p></body></html>"
+           "<p>Max price: " + str(max_) + ". Min: " + str(min_) + ". Avg " + str(avg_) + "</p>" + \
+           "</body></html>"
     return HttpResponse(html)
     
 def render_result_list(request, id_):
-    print "Argument " + id_
     int_id = int(id_)
     print "Argument " + id_ + " int_id " + str(int_id)
     #return current_datetime(request)
@@ -120,6 +178,7 @@ def wishlist(request):
             id_ = int(num_)
             print id_
             item_list_results_hash_table[id_] = potential_items
+            selected_items_id_list[id_] = []
             #result_item_list[form] = potential_items
             return result(max_, min_, avg_, num_, id_)
             '''
