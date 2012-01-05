@@ -20,7 +20,7 @@ class Wishlist(forms.Form):
                      ("J.Crew", 'J.CREW'),
                      ("Express", 'EXPRESS'),
                      )
-    SEX_CHOICES = (
+    GENDER_CHOICES = (
                    ('M', 'MALE'),
                    ('F', 'FEMALE'),
                    ('A', 'ALL'),
@@ -39,7 +39,7 @@ class Wishlist(forms.Form):
     #store = forms.CharField(max_length=100, choices = STORE_CHOICES)
     store = forms.ChoiceField(choices = STORE_CHOICES)
     item_category = forms.ChoiceField(choices = ITEM_CATEGORY_CHOICES)
-    sex_category = forms.ChoiceField(choices = SEX_CHOICES)
+    sex_category = forms.ChoiceField(choices = GENDER_CHOICES)
     size = forms.IntegerField()
     color = forms.IntegerField()
     howmany = forms.IntegerField()
@@ -59,11 +59,13 @@ def add_item_to_selected_items_list(request, wishlist_id_, item_id_):
 
 def apply_discount(request, wishlist_id_):
     item_list = selected_items[int(wishlist_id_)]
-    store_name_ = "J.Crew"
+    #store_name_ = "J.Crew"
+    # Assuming all items are from the same store. 
+    # TODO: fix this when items are selected from multiple stores
+    store_name = item_list[0]['store']
     date_ = datetime.date.today()
     promo = Promoinfo.objects.filter(d = date_)
-    print promo
-    orig_cost, total_cost, savings, shipping = match.match(store_name_, date_, item_list)
+    orig_cost, total_cost, savings, shipping = match.match(store_name, date_, item_list, promo)
     html = "<html><body>Total cost: $" + str(orig_cost) + ". With promotion: $" + str(total_cost) + " We saved $" + \
         str(savings) + " Free shipping?" + str(shipping) + "</body></html>" 
     return HttpResponse(html)
@@ -141,7 +143,7 @@ def wishlist(request):
             # ...
             store = form.cleaned_data['store']
             item_category = form.cleaned_data['item_category']
-            sex_category = form.cleaned_data['sex_category']
+            gender = form.cleaned_data['sex_category']
             size = form.cleaned_data['size']
             color = form.cleaned_data['color']
             howmany = form.cleaned_data['howmany']
@@ -150,8 +152,8 @@ def wishlist(request):
             try:
                 potential_items = Items.objects.filter(brand__name = store)
                 # filter only if the category is specified
-                if sex_category != 'A':
-                    potential_items2 = potential_items.filter(gender = sex_category)
+                if gender != 'A':
+                    potential_items2 = potential_items.filter(gender = gender)
                     print potential_items2
                     potential_items = potential_items2
                 # filter only if category is given
@@ -173,7 +175,7 @@ def wishlist(request):
         
             print "Store " + str(store)
             print "Category " + str(item_category)
-            print "Gender " + str(sex_category)
+            print "Gender " + str(gender)
             
             id_ = int(num_)
             print id_
