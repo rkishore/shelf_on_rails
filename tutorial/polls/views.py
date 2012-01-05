@@ -59,7 +59,13 @@ def add_item_to_selected_items_list(request, wishlist_id_, item_id_):
 
 def apply_discount(request, wishlist_id_):
     item_list = selected_items[int(wishlist_id_)]
-    html = "<html><body>We saved 100$</body></html>" 
+    store_name_ = "J.Crew"
+    date_ = datetime.date.today()
+    promo = Promoinfo.objects.filter(d = date_)
+    print promo
+    orig_cost, total_cost, savings, shipping = match.match(store_name_, date_, item_list)
+    html = "<html><body>Total cost: $" + str(orig_cost) + ". With promotion: $" + str(total_cost) + " We saved $" + \
+        str(savings) + " Free shipping?" + str(shipping) + "</body></html>" 
     return HttpResponse(html)
 
 def show_selected_items(request, wishlist_id_):
@@ -84,7 +90,7 @@ def show_selected_items(request, wishlist_id_):
                           "category": str(items.cat1), 
                           "price": float(items.price),
                           "sale_price": float(items.saleprice)} )
-    selected_items[int(wishlist_id_)].append(itemlist)
+    selected_items[int(wishlist_id_)] = itemlist
     html += "<h3>Apply discounts to save money? Click <a href=\"apply_discount\">here</a></h3>"
     html += "</body></html>"
     return HttpResponse(html)

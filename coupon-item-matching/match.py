@@ -449,6 +449,7 @@ def calculate_item_stats(wish_list, item_stats):
 
     for i in range(0, len(wish_list)):
         it = wish_list[i]
+        print it
         cat = it["category"]
         base_cat = find_base_category(cat)
         item_stats[base_cat] += 1
@@ -554,22 +555,15 @@ def create_sample_wishlist(slist, user_config):
 
 
 def match(store_name, date, wish_list):
-    promo = promotion.get_promo_info_date(store_name, date)
-    print  str(promo)
-
-    store_itemlist = _initialize_item_list(store_name, sex_category, item_category)
+    #promo = promotion.get_promo_info_date(store_name, date)
+    #print  str(promo)
+    print wish_list
     
-    dc_list = copy.deepcopy(store_itemlist)
-    cur_coupon = _fill_coupon(promo)
-    '''CHANGE THIS LATER'''
-    wishlist = create_sample_wishlist(dc_list, 0)
+    cur_coupon = coupon_jcrew_dec_18#_fill_coupon(promo)
+ 
+    original_cost, current_cost, current_savings, free_shipping = _apply_promotion(wish_list, cur_coupon)
     
-    print "**** WISHLIST ****"
-    print wishlist
-    
-    current_cost, current_savings = _apply_promotion(store_itemlist, wishlist, cur_coupon)
-    
-    return (current_cost, current_savings)
+    return (original_cost, current_cost, current_savings, free_shipping)
     #return
 
 def _fill_coupon(promo):
@@ -610,7 +604,7 @@ def _fill_coupon(promo):
     print coupon
     return coupon
 
-def _apply_promotion(store_itemlist, wish_list, promo):
+def _apply_promotion(wish_list, promo):
     
     cur_coupon = promo
     logging.debug("---- Applying promotion -----")
@@ -645,7 +639,7 @@ def _apply_promotion(store_itemlist, wish_list, promo):
              str(cur_sale-total_price) + " Free Shipping: " + str(shipping_free))
     
     logging.debug("---- Done -----")
-    return (total_price, (cur_sale-total_price))
+    return (cur_sale, total_price, (cur_sale-total_price), shipping_free)
 
 def _initialize_item_list(store_name, sex_category, item_category):
     
