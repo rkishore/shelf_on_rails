@@ -202,7 +202,7 @@ def is_not_on_discount(item):
     discount_applied = (item["sale_price"] < item["price"])
     return (not discount_applied)
 
-def calculate_b1g1_discount(store, cat, disc_rate):
+def calculate_b1g1_discount(store, cat, disc_rate, cur_items):
     logging.debug("calculate_b1g1_discount: for store " + store + " cat "+ cat)
     # we are here because at least 2 items are present of this category in the wish list 
     # we need to find out the base price of these items
@@ -211,12 +211,16 @@ def calculate_b1g1_discount(store, cat, disc_rate):
     # pick lower half and apply the discount
     
     items = []
+    #print len(cur_items)
     for i in range(0, len(cur_items)):
-        it = cur_items[i]
+        it = cur_items[i] 
         # need to check if this item is valid to be used in this
         # calculation
-        isValid = is_not_on_discount(it) 
-        if it["store"] == store and it["category"] == cat and isValid:
+        isValid = is_not_on_discount(it)
+        #if it["store"] == store and it["category"] == cat and isValid:
+        catmatch = it["category"].lower().find(cat.lower())
+        #print catmatch, isValid
+        if it["store"] == store and catmatch >= 0 and isValid:
             items.append(it)
     logging.debug( items )        
     
@@ -241,7 +245,7 @@ def calculate_stw_step_discount(coup_discount, coup_threshold, cur_price):
     savings = float (coup_discount_perc * cur_price)#apply_discount(coup_discount_perc, cur_price, "stw-step-disc")
     return savings
 
-def aggregate_discount_check(coupon, total_price):
+def aggregate_discount_check(coupon, total_price, item_stats, cur_items):
     
     # Algo:
     # 1. if (buy 1, get 1 discount exists)
@@ -262,9 +266,9 @@ def aggregate_discount_check(coupon, total_price):
         logging.debug("aggr_disc: base_cat = " + str(base_cat) + 
                       " #of items of this cat: " + str(num_items_of_cat))
         if ( num_items_of_cat ) > 1:
-            disc_rate = coupon["item_spec_discount_perc"]
+            disc_rate = coupon["item_spec_disc_perc"]
             store = coupon["store"]
-            discount_amount = calculate_b1g1_discount(store, cat, disc_rate)
+            discount_amount = calculate_b1g1_discount(store, cat, disc_rate, cur_items)
             total_price -= discount_amount
     
     if coupon["stw_discount_dollars"] > 0:
@@ -449,6 +453,7 @@ def calculate_item_stats(wish_list, item_stats):
 
     for i in range(0, len(wish_list)):
         it = wish_list[i]
+        print it
         cat = it["category"]
         base_cat = find_base_category(cat)
         item_stats[base_cat] += 1
@@ -465,21 +470,39 @@ def find_base_category(category):
     pant = category.lower().find("pant".lower())
     shirt = category.lower().find("shirt".lower())
     
-    if jeans > 0:
+    if jeans >= 0:
         return "jeans"
-    if sweater > 0:
+    if sweater >= 0:
         return "sweater"
-    if pant > 0:
+    if pant >= 0:
         return "pant"
-    if shirt > 0:
+    if shirt >= 0:
         return "shirt"
+
+def find_string_category(category):
+    
+    if category == 0:
+        return "shirt"
+    elif category == 1:
+        return "pant"
+    elif category == 2:
+        return "sweater"
+    elif category == 3:
+        return "jeans"
+    elif category == 4:
+        return "outerwear"
+    elif category == 5:
+        return "underwear"
+    
 
 def init_item_stats(item_stats):
     item_stats["jeans"] = 0
     item_stats["sweater"] = 0
     item_stats["pant"] = 0
     item_stats["shirt"] = 0
-
+    item_stats["outerwear"] = 0 
+    item_stats["underwear"] = 0
+    item_stats["everything"] = 0
 
 def create_sample_wishlist(slist, user_config):
     
@@ -553,24 +576,71 @@ def create_sample_wishlist(slist, user_config):
     return items
 
 
-def match(store_name, date, wish_list):
-    promo = promotion.get_promo_info_date(store_name, date)
-    print  str(promo)
-
-    store_itemlist = _initialize_item_list(store_name, sex_category, item_category)
+def match(store_name, date, wish_list, promolist):
     
-    dc_list = copy.deepcopy(store_itemlist)
-    cur_coupon = _fill_coupon(promo)
-    '''CHANGE THIS LATER'''
-    wishlist = create_sample_wishlist(dc_list, 0)
+    #promo = promotion.get_promo_info_date(store_name, date)
+    #print  str(promo)
+    #print wish_list
     
-    print "**** WISHLIST ****"
-    print wishlist
+    test_coupon = _fill_coupon_dbinfo(promolist, store_name)
+    print "\n------- TEST COUPON ------"
+    print store_name, test_coupon
+    print "------- END TEST COUPON ------\n"
+    cur_coupon = coupon_jcrew_dec_18#_fill_coupon(promo)
+ 
+    #original_cost, current_cost, current_savings, free_shipping = _apply_promotion(wish_list, cur_coupon)
+    original_cost, current_cost, current_savings, free_shipping = _apply_promotion(wish_list, test_coupon)
     
-    current_cost, current_savings = _apply_promotion(store_itemlist, wishlist, cur_coupon)
-    
-    return (current_cost, current_savings)
+    return (original_cost, current_cost, current_savings, free_shipping)
     #return
+
+def _fill_coupon_dbinfo(promolist, store_name):
+    
+    coupon = {"store": "", 
+                "stw_discount": 0.0, "stw_discount_perc_code": "-",
+                "add_stw_discount": 0, "add_stw_discount_perc_code": "",
+                "item_cat": "-", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.0, "item_spec_discount_perc_code": "",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": INFINITY, "stw_discount_dollars_code": "",
+                "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                }
+    
+    print promolist
+    
+    coupon['store'] = store_name
+    
+    for promo_obj in promolist:
+        print promo_obj
+        
+        if promo_obj.promo_type == promotion.WHOLE_STORE_BASE_PERC:
+            coupon['stw_discount'] = float(promo_obj.promo_disc_perc/100.0)
+            coupon['stw_discount_perc_code'] = promo_obj.code
+            
+        if promo_obj.promo_type == promotion.WHOLE_STORE_AGGREGATE:
+            coupon['stw_discount_dollars'] = promo_obj.promo_disc_amount
+            coupon['stw_discount_dollars_lower_bound'] = promo_obj.promo_disc_lower_bound
+            
+        if promo_obj.promo_type == promotion.WHOLE_STORE_ADDITIONAL:
+            coupon['add_stw_discount'] = float(promo_obj.promo_disc_perc/100.0)
+            
+        if promo_obj.promo_type == promotion.ITEM_SPEC_B1G1:
+            coupon['item_spec_disc_perc'] = float(promo_obj.promo_disc_perc/100.0)
+            coupon['item_spec_disc_amount'] = promo_obj.promo_disc_amount
+            coupon['sex_category'] = promo_obj.sex_category
+            coupon['item_cat'] = find_string_category(promo_obj.item_category)
+            coupon['item_spec_discount_type'] = "B1G1"
+            coupon['item_spec_discount_perc_code'] = promo_obj.code
+            
+        if promo_obj.promo_type == promotion.ITEM_SPEC_BUY_N_FOR_X:
+            coupon['item_spec_buy_n_for_x_N'] = float(promo_obj.promo_disc_perc/100.0)
+            coupon['item_spec_buy_n_for_x_X'] = promo_obj.promo_disc_amount
+            coupon['sex_category'] = promo_obj.sex_category
+            coupon['item_cat'] = promo_obj.item_category
+            
+        coupon['free_shipping_dollar_qualifier'] = promo_obj.free_shipping_lower_bound
+        
+    return coupon
+
 
 def _fill_coupon(promo):
     coupon = {"store": "J.Crew", 
@@ -610,7 +680,8 @@ def _fill_coupon(promo):
     print coupon
     return coupon
 
-def _apply_promotion(store_itemlist, wish_list, promo):
+
+def _apply_promotion(wish_list, promo):
     
     cur_coupon = promo
     logging.debug("---- Applying promotion -----")
@@ -638,14 +709,14 @@ def _apply_promotion(store_itemlist, wish_list, promo):
     
     logging.debug("aggregate item price (after stw-disc and item-disc): " + str(total_price))
 
-    total_price = aggregate_discount_check(cur_coupon, total_price)
+    total_price = aggregate_discount_check(cur_coupon, total_price, item_stats, cur_items)
     shipping_free = check_shipping(cur_coupon, total_price)
             
     logging.info("Original cost: " + str(cur_sale) + " Discounted cost: " + str(total_price) + " Savings: " + 
              str(cur_sale-total_price) + " Free Shipping: " + str(shipping_free))
     
     logging.debug("---- Done -----")
-    return (total_price, (cur_sale-total_price))
+    return (cur_sale, total_price, (cur_sale-total_price), shipping_free)
 
 def _initialize_item_list(store_name, sex_category, item_category):
     
@@ -728,7 +799,7 @@ if __name__ == "__main__":
         
         logging.debug("aggregate item price (after stw-disc and item-disc): " + str(total_price))
     
-        total_price = aggregate_discount_check(cur_coupon, total_price)
+        total_price = aggregate_discount_check(cur_coupon, total_price, item_stats, cur_items)
         shipping_free = check_shipping(cur_coupon, total_price)
                 
         logging.info("Original cost: " + str(cur_sale) + " Discounted cost: " + str(total_price) + " Savings: " + 
