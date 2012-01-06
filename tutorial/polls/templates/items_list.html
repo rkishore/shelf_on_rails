@@ -2,15 +2,18 @@
     <title>Items satisfying your requirements</title>
     <body>
     <h2>Items</h2>
+   	{% include "paginator2.html"%}
+
     Show selected items? Click <a href="show_selected_items">here</a>
 	<ul>
 		[BRAND]   [CATEGORY]   [PRICE]   [SALE_PRICE]
-    	{% for item in object_list %}
+		{% for item in object_list %}
         	<li>
         		{{ item.brand}}  {{ item.cat1}} {{ item.price}} {{ item.saleprice}} <img src={{item.img_url_md}}><a href="add_item_{{item.id}}">Add.</a>        		
         	</li>
     	{% endfor %}
 	</ul>
+	{% include "paginator2.html"%}
     </body>
 </html>
 

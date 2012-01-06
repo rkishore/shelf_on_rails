@@ -26,15 +26,15 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     (r'^date/', 'polls.views.current_datetime'),
-    #(r'^wishlist/(?P<id_>\d{1,2,3})/', 'polls.views.render_result_list'),
-    (r'^wishlist/(\d{2,3})/$', 'polls.views.render_result_list'),
+    #(r'^wishlist/(\d{2,3})/$', 'polls.views.render_result_list'),
+    (r'^wishlist/(\d{2,3})/$', 'polls.views.render_result_table'),
     (r'^wishlist/$', 'polls.views.wishlist'),
     (r'^wishlist2/$', 'polls.views.wishlist2'),
     #(r'^item_list/', 'polls.views.render_result_list'),
     (r'^result/$', 'polls.views.result'),
     (r'^items/$', list_detail.object_list, items_info),
     (r'^admin/', include(admin.site.urls)),
-    (r'^wishlist/(\d{2,3})/add_item_(\d{2,3})/$', 'polls.views.add_item_to_selected_items_list'),
+    (r'^wishlist/(\d{2,3})/add_item_(\d{2,3})_(\d{1,2})/$', 'polls.views.add_item_to_selected_items_list'),
     (r'^wishlist/(\d{2,3})/show_selected_items/$', 'polls.views.show_selected_items'),
     (r'^wishlist/(\d{2,3})/show_selected_items/apply_discount/$', 'polls.views.apply_discount')
 )
