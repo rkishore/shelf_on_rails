@@ -4,7 +4,7 @@ import datetime
 from django.views.generic import list_detail
 from django.shortcuts import render_to_response
 from django import forms
-from polls.models import Promoinfo, Items, Brands
+from polls.models import Promoinfo, Items, Brands, WishlistForm
 from django.db.models import Avg, Max, Min, Count
 import match
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
@@ -16,6 +16,7 @@ selected_items_id_list = {}
 selected_items = {}
 
 NUM_COLUMNS_TABLE_TEMPLATE = 5
+
 
 class Wishlist(forms.Form):
     
@@ -199,10 +200,22 @@ def render_result_table(request, id_):
                                            )
 
     
+#, brand_id):
+def wishlist2(request): 
+    if request.method == 'GET':
+        form = WishlistForm(request.GET)
+        if form.is_valid():
+            cd = form.cleaned_data
+            print cd['brand']
+        else:
+            form = WishlistForm()
+        
+    #it_categories = Items.objects.filter(brand=brand_id).values_list('cat1', flat=True).distinct('cat1')  
+    #print it_categories
+    # Define wishlist2 class
+    #form = Wishlist2(it_categories)
     
-def wishlist2(request, brand_id):
-    it_categories = Items.objects.filter(brand=brand_id).values_list('cat1', flat=True).distinct('cat1')  
-    return render_to_response('wishlist2.html', {'categories':it_categories}, mimetype="text/plain")
+        return render_to_response('wishlist.html', {'form': form,})
 
 def wishlist(request):
     if request.method == 'POST': # If the form has been submitted...
