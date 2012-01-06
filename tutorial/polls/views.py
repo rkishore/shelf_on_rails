@@ -201,9 +201,8 @@ def render_result_table(request, id_):
     
     
 def wishlist2(request, brand_id):
-    store = Brands.objects.get(id=brand_id)     
-    models = AutoModel.objects.filter(make=make)     
-    return render_to_response('feeds/models.txt', {'models':models}, mimetype="text/plain")
+    it_categories = Items.objects.filter(brand=brand_id).values_list('cat1', flat=True).distinct('cat1')  
+    return render_to_response('wishlist2.html', {'categories':it_categories}, mimetype="text/plain")
 
 def wishlist(request):
     if request.method == 'POST': # If the form has been submitted...
