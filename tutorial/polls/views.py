@@ -4,7 +4,7 @@ import datetime
 from django.views.generic import list_detail
 from django.shortcuts import render_to_response
 from django import forms
-from polls.models import Promoinfo, Items
+from polls.models import Promoinfo, Items, Brands
 from django.db.models import Avg, Max, Min, Count
 import match
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
@@ -199,6 +199,11 @@ def render_result_table(request, id_):
                                            )
 
     
+    
+def wishlist2(request, brand_id):
+    it_categories = Items.objects.filter(brand=brand_id).values_list('cat1', flat=True).distinct('cat1')  
+    return render_to_response('wishlist2.html', {'categories':it_categories}, mimetype="text/plain")
+
 def wishlist(request):
     if request.method == 'POST': # If the form has been submitted...
         form = Wishlist(request.POST) # A form bound to the POST data
