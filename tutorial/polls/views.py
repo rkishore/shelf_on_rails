@@ -76,6 +76,35 @@ def apply_discount(request, wishlist_id_):
         str(savings) + " Free shipping?" + str(shipping) + "</body></html>" 
     return HttpResponse(html)
 
+
+
+def show_selected_items_new(request, wishlist_id_):
+    selected_items_id = selected_items_id_list[int(wishlist_id_)]
+    original_item_list = item_list_results_hash_table[int(wishlist_id_)]
+ 
+    itemlist = [] 
+
+    final_list = Items.objects.none()
+    print "SHOW SELECTED ITEMS NEW " + str(wishlist_id_)
+    for id_ in selected_items_id:
+        found_list = original_item_list.filter(id = id_)
+        print id_
+        print found_list
+        final_list = final_list | found_list
+        for items in found_list:
+            itemlist.append( {"store": str(items.brand), 
+                              "category": str(items.cat1), 
+                              "price": float(items.price),
+                              "sale_price": float(items.saleprice)} )
+    selected_items[int(wishlist_id_)] = itemlist
+        
+    return list_detail.object_list(
+                                    request,
+                                    queryset = final_list,
+                                    template_name = "items_table.html",
+                                    extra_context = {'selected_items' : True} )
+
+
 def show_selected_items(request, wishlist_id_):
     selected_items_id = selected_items_id_list[int(wishlist_id_)]
     original_item_list = item_list_results_hash_table[int(wishlist_id_)]
@@ -107,12 +136,13 @@ def show_selected_items(request, wishlist_id_):
     This resulted in list doesn't have a _clone method.
     return list_detail.object_list(
                                            request,
-                                           queryset = result_list,
-                                           template_name = "items_list.html"
+                                           queryset = itemlist,
+                                           template_name = "items_table.html"
                                            #template_object_name = "items"
                                            #extra_context = {"items" : potential_items}
                                            )
     '''
+    
     
 def current_datetime(request):
     now = datetime.datetime.now()
