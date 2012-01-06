@@ -3,15 +3,18 @@
     <body>
     <h2>Items satisfying your query. Please select your preferred items.</h2>
 	{% include "paginator2.html"%}
+	{% if num_selected%}  Selected items is {{num_selected}} {% endif%}
+	
     Click <a href="show_selected_items">here</a> to see the items you selected.</b>
+	{#size is {{object_list|length}}#}
 	<table border="1">
 		{# [BRAND]   [CATEGORY]   [PRICE]   [SALE_PRICE] #}
-    	{% for item in object_list %}
-        	<tr class="{% cycle 'row1' 'row2' %}">
-        		<td class="row1"> <img src={{item.img_url_md}}><br>{{ item.brand}}  <br>{{ item.name}} <br> ${{ item.price}} <a href="add_item_{{item.id}}">Add to wishlist.</a></td>        		
-        		<td class="row2"> <img src={{item.img_url_md}}><br>{{ item.brand}}  <br>{{ item.name}} <br> ${{ item.price}} <a href="add_item_{{item.id}}">Add to wishlist.</a></td>        		
-        	</tr>
-    	{% endfor %}
+  		{% for item in object_list %}
+		{% if forloop.first %}<tr>{% endif %}
+		{% if forloop.counter0|divisibleby:5 %}</tr><tr>{% endif %}
+		<td><img src={{item.img_url_md}}><br>{{ item.brand}}  <br>{{ item.name}} <br> ${{ item.price}} <a href="add_item_{{item.id}}_{{page_list.number}}">Add to wishlist.</a></td>        		
+	{% if forloop.last %}</tr>{% endif %}
+    {% endfor %}	
 	</table>
 	{% include "paginator2.html"%}
     </body>

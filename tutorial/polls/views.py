@@ -15,6 +15,8 @@ item_list_results_hash_table = {}
 selected_items_id_list = {}
 selected_items = {}
 
+NUM_COLUMNS_TABLE_TEMPLATE = 5
+
 class Wishlist(forms.Form):
     
     
@@ -51,12 +53,13 @@ class Wishlist(forms.Form):
     2. A user must be able to choose items from different stores.
     
     '''
-def add_item_to_selected_items_list(request, wishlist_id_, item_id_):
+def add_item_to_selected_items_list(request, wishlist_id_, item_id_, page_id_):
     print "Adding item " + str(item_id_) + " to wishlist id " + str(wishlist_id_)
     selected_items_id_list[int(wishlist_id_)].append(item_id_)
     selected_items[int(wishlist_id_)] = []
     print selected_items_id_list[int(wishlist_id_)]
-    return HttpResponseRedirect("/wishlist/" + wishlist_id_)
+    print page_id_
+    return HttpResponseRedirect("/wishlist/" + wishlist_id_ + "/?page=" + str(page_id_))
 
 
 def apply_discount(request, wishlist_id_):
@@ -122,8 +125,12 @@ def result(max_, min_, avg_, num_, id_):
            "<p>Max price: " + str(max_) + ". Min: " + str(min_) + ". Avg " + str(avg_) + "</p>" + \
            "</body></html>"
     return HttpResponse(html)
+
+def calculate_selected_items(wishlist_id_):
+    return len(selected_items_id_list[int(wishlist_id_)])
     
 def render_result_list(request, id_):
+    
     int_id = int(id_)
     print "Argument " + id_ + " int_id " + str(int_id)
     #return current_datetime(request)
@@ -145,12 +152,52 @@ def render_result_list(request, id_):
     return list_detail.object_list(
                                            request,
                                            queryset = result_list,
+                                           template_name = "items_list.html",
+                                           paginate_by = 25,
+                                           #template_name = "items_list.html"
+                                           #template_object_name = "items"
+                                           extra_context = {'page_list': page_list,
+                                                            'num_selected': 5}
+                                           )
+
+def render_result_table(request, id_):
+    
+    int_id = int(id_)
+    print "Argument " + id_ + " int_id " + str(int_id)
+    #return current_datetime(request)
+    
+    result_list = item_list_results_hash_table[int_id]
+    paginator = Paginator(result_list, 25)
+    page = request.GET.get('page')
+    if page is None:
+        page = 1
+    try:
+        page_list = paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page.
+        page_list = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+        page_list = paginator.page(paginator.num_pages)
+    print "Printing page_list here: " + str(page_list)
+    try:
+        num_selected = calculate_selected_items(id_)
+    except Exception:
+        num_selected = 0
+        
+    print num_selected
+    return list_detail.object_list(
+                                           request,
+                                           queryset = result_list,
                                            template_name = "items_table.html",
                                            paginate_by = 25,
                                            #template_name = "items_list.html"
                                            #template_object_name = "items"
-                                           extra_context = {"page_list" : page_list}
+                                           extra_context = {"page_list" : page_list,
+                                                            "num_columns" : NUM_COLUMNS_TABLE_TEMPLATE,
+                                                            "num_selected": num_selected}
                                            )
+
     
 def wishlist(request):
     if request.method == 'POST': # If the form has been submitted...
