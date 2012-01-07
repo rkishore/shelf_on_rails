@@ -1,7 +1,7 @@
 <html>
 	<title>Create your wishlist</title>
 	<body>
-		<form action="/wishlist2/" method="get">
+		<form action="/wishlist2/" method="post">{#% csrf_token %#}
 		{{ form.as_table }}
 		<input type="submit" value="Submit" />
 		</form>

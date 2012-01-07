@@ -4,13 +4,15 @@ import datetime
 from django.views.generic import list_detail
 from django.shortcuts import render_to_response
 from django import forms
-from polls.models import Promoinfo, Items, Brands, WishlistForm
+from polls.models import Promoinfo, Items, Brands, Categories
 from django.db.models import Avg, Max, Min, Count
 import match
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 #from chartit import DataPool, Chart
 from GChartWrapper import Pie
 
+from django.template import RequestContext
+from django.forms import ModelChoiceField, ChoiceField
 
 item_list_results_hash_table = {}
 
@@ -19,6 +21,11 @@ selected_items = {}
 
 NUM_COLUMNS_TABLE_TEMPLATE = 5
 
+GENDER_CHOICES = (
+                   ('M', 'MALE'),
+                   ('F', 'FEMALE'),
+                   ('A', 'ALL'),
+                   )
 
 class Wishlist(forms.Form):
     
@@ -27,11 +34,7 @@ class Wishlist(forms.Form):
                      ("J.Crew", 'J.CREW'),
                      ("Express", 'EXPRESS'),
                      )
-    GENDER_CHOICES = (
-                   ('M', 'MALE'),
-                   ('F', 'FEMALE'),
-                   ('A', 'ALL'),
-                   )
+    
     
     ITEM_CATEGORY_CHOICES = (
                              ('shirts', 'SHIRTS'),
@@ -92,6 +95,19 @@ def weather_chart_view(request):
     #Step 3: Send the chart object to the template.
     return render_to_response('show_chart.html', {'weatherchart': cht})
     
+class WishlistForm(forms.Form):
+    
+    gender = ChoiceField(choices = GENDER_CHOICES, required=False)
+    brands = ModelChoiceField(queryset=Brands.objects.all(), empty_label="Select", required=False)
+ 
+    def __init__(self,*args,**kwargs):
+        br_id = kwargs.pop('br_id')
+        super(WishlistForm, self).__init__(*args, **kwargs)
+        
+        if (br_id > 0):
+            self.fields['categories'] = ModelChoiceField(queryset=Categories.objects.filter(brand=br_id), empty_label="Select", required=False)
+       
+        print "Inside __init__: " + str(self.fields) + str(br_id)
     
 def add_item_to_selected_items_list(request, wishlist_id_, item_id_, page_id_):
     print "Adding item " + str(item_id_) + " to wishlist id " + str(wishlist_id_)
@@ -268,23 +284,75 @@ def render_result_table(request, id_):
                                                             "num_selected": num_selected}
                                            )
 
-    
-#, brand_id):
 def wishlist2(request): 
-    if request.method == 'GET':
-        form = WishlistForm(request.GET)
-        if form.is_valid():
-            cd = form.cleaned_data
-            print cd['brand']
-        else:
-            form = WishlistForm()
-        
-    #it_categories = Items.objects.filter(brand=brand_id).values_list('cat1', flat=True).distinct('cat1')  
-    #print it_categories
-    # Define wishlist2 class
-    #form = Wishlist2(it_categories)
     
-        return render_to_response('wishlist.html', {'form': form,})
+    if request.method == 'POST':
+        
+        gender = request.POST.get('gender')
+        brand_id = request.POST.get('brands')
+        cat_id = request.POST.get('categories')
+        
+        if len(brand_id) > 0 and cat_id is None:
+            form = WishlistForm(request.POST, br_id=brand_id)
+        elif len(brand_id) > 0 and cat_id is not None:
+            print "Add New Code here"
+            form = WishlistForm(request.POST, br_id=brand_id)
+            if form.is_valid():
+                store = form.cleaned_data['brands']
+                item_category = form.cleaned_data['categories']
+                gender = form.cleaned_data['gender']
+                date = datetime.date.today()
+            
+                print str(store)
+                print str(item_category)
+                print str(gender)
+                
+                try:
+                    potential_items = Items.objects.filter(brand__name = store)
+                    print potential_items
+                    # filter only if the category is specified
+                    if gender != 'A':
+                        potential_items2 = potential_items.filter(gender = gender)
+                        print potential_items2
+                        potential_items = potential_items2
+                        # filter only if category is given
+                        potential_items3 = potential_items.filter(cat1__contains = item_category)
+                        #print potential_items3
+                        potential_items = potential_items3
+                        for items in potential_items:
+                            print str(items.brand_id) + " " + str(items.cat1) + " " + str(items.gender) + " " + str(items.price)
+                            #print potential_items
+                            max_ = potential_items.aggregate(Max('price'))['price__max']
+                            #print max['price__max']
+                            min_ = potential_items.aggregate(Min('price'))['price__min']
+                            avg_ = potential_items.aggregate(Avg('price'))['price__avg']
+                            num_ = potential_items.aggregate(Count('price'))['price__count']
+                            print "Max price: " + str(max_) + " Min price " + str(min_) + " Avg price " + str(avg_) + " Count " + str(num_)
+
+                except Items.DoesNotExist:
+                    raise Http404
+        
+                print "Store " + str(store)
+                print "Category " + str(item_category)
+                print "Gender " + str(gender)
+            
+                id_ = int(num_)
+                print id_
+                item_list_results_hash_table[id_] = potential_items
+                selected_items_id_list[id_] = []
+                #result_item_list[form] = potential_items
+                return result(max_, min_, avg_, num_, id_)
+            else:
+                print form.errors
+                form = WishlistForm(None,br_id=-150)
+        else:
+            form = WishlistForm(request.POST,br_id=-150)
+            print form.errors
+            
+    else:
+        form = WishlistForm(None,br_id=-250)
+    
+    return render_to_response('wishlist2.html', {'form': form,}, context_instance=RequestContext(request))
 
 def testing_graphs(request):
     p = Pie([5,10]).title('Hello Pie').color('red','lime').label('hello', 'world')
