@@ -469,6 +469,7 @@ def find_base_category(category):
     sweater = category.lower().find("sweater".lower())
     pant = category.lower().find("pant".lower())
     shirt = category.lower().find("shirt".lower())
+    skirt = category.lower().find("skirt".lower())
     
     if jeans >= 0:
         return "jeans"
@@ -478,6 +479,8 @@ def find_base_category(category):
         return "pant"
     if shirt >= 0:
         return "shirt"
+    if skirt >= 0:
+        return "skirt"
 
 def find_string_category(category):
     
@@ -503,6 +506,7 @@ def init_item_stats(item_stats):
     item_stats["outerwear"] = 0 
     item_stats["underwear"] = 0
     item_stats["everything"] = 0
+    item_stats["skirt"] = 0
 
 def create_sample_wishlist(slist, user_config):
     

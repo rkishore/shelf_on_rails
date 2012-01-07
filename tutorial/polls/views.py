@@ -270,7 +270,7 @@ def wishlist2(request):
                 print str(gender)
                 
                 try:
-                    potential_items = Items.objects.filter(brand__name = store)
+                    potential_items = Items.objects.filter(brand__name = store.name)
                     # filter only if the category is specified
                     if gender != 'A':
                         potential_items2 = potential_items.filter(gender = gender)
