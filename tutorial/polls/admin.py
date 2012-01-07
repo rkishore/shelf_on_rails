@@ -1,4 +1,4 @@
-from polls.models import Poll, Items, Brands
+from polls.models import Poll, Items, Brands, Categories
 from polls.models import Promoinfo
 from django.contrib import admin
 
@@ -6,6 +6,7 @@ admin.site.register(Poll)
 admin.site.register(Promoinfo)
 admin.site.register(Items)
 admin.site.register(Brands)
+admin.site.register(Categories)
 
 '''
 class PromotionAdmin(admin.ModelAdmin):

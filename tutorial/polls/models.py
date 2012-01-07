@@ -142,17 +142,14 @@ class Items(models.Model):
     def __unicode__(self):
         return self.name
 
+class Categories(models.Model):
+    name = models.CharField(max_length=100, default='Nil')
+    brand = models.ManyToManyField(Brands)
+    
+    def __unicode__(self):
+        #return u'%s %s' % (self.name, self.brand)
+        return self.name
+    
 class WishlistM(models.Model):
     brand = models.ForeignKey(Brands, default='Nil')
 
-class WishlistForm(ModelForm):
-    
-    class Meta:
-        model = WishlistM
-    
-    #store = forms.ChoiceField(choices = STORE_CHOICES)
-    #item_category = forms.ChoiceField(choices = ITEM_CATEGORY_CHOICES)
-    #sex_category = forms.ChoiceField(choices = GENDER_CHOICES)
-    #size = forms.IntegerField()
-    #color = forms.IntegerField()
-    #howmany = forms.IntegerField()

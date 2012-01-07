@@ -37,5 +37,9 @@ urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
     (r'^wishlist/(\d{2,3})/add_item_(\d{2,3})_(\d{1,2})/$', 'polls.views.add_item_to_selected_items_list'),
     (r'^wishlist/(\d{2,3})/show_selected_items/$', 'polls.views.show_selected_items_new'),
-    (r'^wishlist/(\d{2,3})/show_selected_items/apply_discount/$', 'polls.views.apply_discount')
+    (r'^wishlist/(\d{2,3})/show_selected_items/apply_discount/$', 'polls.views.apply_discount'),
+    (r'^wishlist2/(\d{2,3})/$', 'polls.views.render_result_table'),
+    (r'^wishlist2/(\d{2,3})/add_item_(\d{2,3})_(\d{1,2})/$', 'polls.views.add_item_to_selected_items_list'),
+    (r'^wishlist2/(\d{2,3})/show_selected_items/$', 'polls.views.show_selected_items_new'),
+    (r'^wishlist2/(\d{2,3})/show_selected_items/apply_discount/$', 'polls.views.apply_discount'),
 )
