@@ -295,8 +295,8 @@ def wishlist2(request):
         if len(brand_id) > 0 and cat_id is None:
             form = WishlistForm(request.POST, br_id=brand_id)
         elif len(brand_id) > 0 and cat_id is not None:
-            print "Add New Code here"
             form = WishlistForm(request.POST, br_id=brand_id)
+            
             if form.is_valid():
                 store = form.cleaned_data['brands']
                 item_category = form.cleaned_data['categories']
@@ -315,19 +315,20 @@ def wishlist2(request):
                         potential_items2 = potential_items.filter(gender = gender)
                         print potential_items2
                         potential_items = potential_items2
-                        # filter only if category is given
-                        potential_items3 = potential_items.filter(cat1__contains = item_category)
-                        #print potential_items3
-                        potential_items = potential_items3
-                        for items in potential_items:
-                            print str(items.brand_id) + " " + str(items.cat1) + " " + str(items.gender) + " " + str(items.price)
-                            #print potential_items
-                            max_ = potential_items.aggregate(Max('price'))['price__max']
-                            #print max['price__max']
-                            min_ = potential_items.aggregate(Min('price'))['price__min']
-                            avg_ = potential_items.aggregate(Avg('price'))['price__avg']
-                            num_ = potential_items.aggregate(Count('price'))['price__count']
-                            print "Max price: " + str(max_) + " Min price " + str(min_) + " Avg price " + str(avg_) + " Count " + str(num_)
+                        
+                    # filter only if category is given
+                    potential_items3 = potential_items.filter(cat1__contains = item_category)
+                    #print potential_items3
+                    potential_items = potential_items3
+                    for items in potential_items:
+                        print str(items.brand_id) + " " + str(items.cat1) + " " + str(items.gender) + " " + str(items.price)
+                        #print potential_items
+                    max_ = potential_items.aggregate(Max('price'))['price__max']
+                    #print max['price__max']
+                    min_ = potential_items.aggregate(Min('price'))['price__min']
+                    avg_ = potential_items.aggregate(Avg('price'))['price__avg']
+                    num_ = potential_items.aggregate(Count('price'))['price__count']
+                    print "Max price: " + str(max_) + " Min price " + str(min_) + " Avg price " + str(avg_) + " Count " + str(num_)
 
                 except Items.DoesNotExist:
                     raise Http404
