@@ -9,7 +9,7 @@ from django.db.models import Avg, Max, Min, Count
 import match
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 #from chartit import DataPool, Chart
-from GChartWrapper import Pie
+from GChartWrapper import *
 
 from django.template import RequestContext
 from django.forms import ModelChoiceField, ChoiceField
@@ -356,9 +356,21 @@ def wishlist2(request):
     return render_to_response('wishlist2.html', {'form': form,}, context_instance=RequestContext(request))
 
 def testing_graphs(request):
-    p = Pie([5,10]).title('Hello Pie').color('red','lime').label('hello', 'world')
-    print p
-    return render_to_response('show_chart.html', {'pie' : p})
+    pie = Pie([20,30,35]).title('Discounts for sweaters').color('red','lime', 'blue').label('J.Crew', 'Express', 'Banana Republic')
+    print pie
+    scatter = Scatter([[12,87,75,41],[98,60,27,34],[84,23,69,81]])
+    scatter.title('Historical pricing')
+    scatter.axes('xy')
+    scatter.axes.label(0, 0,20,30,40,)
+    scatter.axes.label(1, 0,25,50,75,100)
+    scatter.size(300,200)
+    
+    bar = VerticalBarStack([43.56,35.62,48.34])
+    bar.color('blue')
+    bar.bar(17,15)
+    #bar.marker('N*cEUR1*','black',0,-1,11)
+    bar.title('Prices at other stores')
+    return render_to_response('show_chart.html', {'pie' : pie, 'scatter': scatter, 'bar': bar})
 
 def wishlist(request):
     if request.method == 'POST': # If the form has been submitted...
