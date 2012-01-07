@@ -308,7 +308,7 @@ def wishlist2(request):
                 print str(gender)
                 
                 try:
-                    potential_items = Items.objects.filter(brand__name = store)
+                    potential_items = Items.objects.filter(brand__name = store.name)
                     print potential_items
                     # filter only if the category is specified
                     if gender != 'A':
@@ -317,7 +317,7 @@ def wishlist2(request):
                         potential_items = potential_items2
                         
                     # filter only if category is given
-                    potential_items3 = potential_items.filter(cat1__contains = item_category)
+                    potential_items3 = potential_items.filter(cat1__contains = item_category.name)
                     #print potential_items3
                     potential_items = potential_items3
                     for items in potential_items:
@@ -373,7 +373,7 @@ def wishlist(request):
             color = form.cleaned_data['color']
             howmany = form.cleaned_data['howmany']
             date = datetime.date.today()
-            
+            print store
             try:
                 potential_items = Items.objects.filter(brand__name = store)
                 # filter only if the category is specified
