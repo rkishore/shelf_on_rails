@@ -1,0 +1,48 @@
+<html>
+<head>Results</head>
+<body>
+   	{% load charts %}
+
+   
+	<table border="1">
+	
+	<tr>
+		<td>After applying discounts, you saved $30. Click here to save $20 more. </td>
+		
+		<td>
+			{% chart  Line fohmnytenefohmnytene  encoding=simple as l2 %}
+	    	{% size 200 100  %}
+	    	{% axes type xy  %}
+	    	{% axes label April May June  %}
+	    	{% axes label None  50+Kb  %}
+			{% endchart %}
+			Similar items are also available at other stores. Click here to find out.
+			<img title="Pie" src="{{l2}}">
+		</td>
+	</tr>
+		<td>
+			{% chart Line GurMrabsClgubaolGvzCrgrefOrnhgvshyvforggregunahtyl as l1  %}
+    		{% title 'Historical Prices' 00cc00 12 %}
+    		{% color 00cc00 %}
+			{% endchart %} 
+			{#<img title="Pie" src={{l1}}> #}
+		</td>
+		<td>
+   			{#% chart Pie3D 1 2 3 4 5 as pie %#}
+        	{#% label "JCREW" BR EXPRESS GAP %#}
+        	{#% color green %#}
+    		{#% endchart %#}
+   			{#% chart Pie3D 1 2 3 4 5 as pie %#}
+			{#% endchart %#}
+
+			Promotion comparison here <img title="Pie" src={{pie}}>
+		</td>
+	<tr>
+		
+		
+	</tr>
+	</table>
+
+
+</body>
+</html>

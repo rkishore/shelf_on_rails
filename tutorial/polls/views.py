@@ -8,6 +8,8 @@ from polls.models import Promoinfo, Items, Brands, WishlistForm
 from django.db.models import Avg, Max, Min, Count
 import match
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+#from chartit import DataPool, Chart
+from GChartWrapper import Pie
 
 
 item_list_results_hash_table = {}
@@ -54,6 +56,43 @@ class Wishlist(forms.Form):
     2. A user must be able to choose items from different stores.
     
     '''
+    
+def weather_chart_view(request):
+    #Step 1: Create a DataPool with the data we want to retrieve.
+    weatherdata = \
+        DataPool(
+           series=
+            [{'options': {
+               'source': Promoinfo.objects.all()},
+              'terms': [
+                'store',
+                'validity',
+                'free_shipping_lower_bound']}
+             ])
+
+    #Step 2: Create the Chart object
+    cht = Chart(
+            datasource = weatherdata,
+            series_options =
+              [{'options':{
+                  'type': 'line',
+                  'stacking': False},
+                'terms':{
+                  'store': [
+                    'validity',
+                    'validity']
+                  }}],
+            chart_options =
+              {'title': {
+                   'text': 'Weather Data of Boston and Houston'},
+               'xAxis': {
+                    'title': {
+                       'text': 'Month number'}}})
+
+    #Step 3: Send the chart object to the template.
+    return render_to_response('show_chart.html', {'weatherchart': cht})
+    
+    
 def add_item_to_selected_items_list(request, wishlist_id_, item_id_, page_id_):
     print "Adding item " + str(item_id_) + " to wishlist id " + str(wishlist_id_)
     selected_items_id_list[int(wishlist_id_)].append(item_id_)
@@ -246,6 +285,11 @@ def wishlist2(request):
     #form = Wishlist2(it_categories)
     
         return render_to_response('wishlist.html', {'form': form,})
+
+def testing_graphs(request):
+    p = Pie([5,10]).title('Hello Pie').color('red','lime').label('hello', 'world')
+    print p
+    return render_to_response('show_chart.html', {'pie' : p})
 
 def wishlist(request):
     if request.method == 'POST': # If the form has been submitted...
