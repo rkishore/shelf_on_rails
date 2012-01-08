@@ -13,6 +13,7 @@ from GChartWrapper import *
 
 from django.template import RequestContext
 from django.forms import ModelChoiceField, ChoiceField
+import copy
 
 item_list_results_hash_table = {}
 
@@ -117,7 +118,12 @@ def add_item_to_selected_items_list(request, wishlist_id_, item_id_, page_id_):
     print page_id_
     return HttpResponseRedirect("/wishlist/" + wishlist_id_ + "/?page=" + str(page_id_))
 
-
+def compare_promo(request):
+    promos = Promoinfo.objects.filter(d__gte = datetime.date(2012, 1, 1))
+    for promo in promos:
+        print promo
+    
+    
 def apply_discount(request, wishlist_id_):
     item_list = selected_items[int(wishlist_id_)]
     #store_name_ = "J.Crew"
@@ -125,10 +131,30 @@ def apply_discount(request, wishlist_id_):
     # TODO: fix this when items are selected from multiple stores
     store_name = item_list[0]['store']
     date_ = datetime.date.today()
-    promo = Promoinfo.objects.filter(d = date_)
-    orig_cost, total_cost, savings, shipping = match.match(store_name, date_, item_list, promo)
+    #promo = Promoinfo.objects.filter(d = date_)
+    promo_date = Promoinfo.objects.filter(d__gte = datetime.date(2012, 1, 1))
+    print promo_date
+    promo_store = promo_date.filter(store = 1)
+    promo = promo_store
+    orig_cost, total_cost, savings, shipping = match.match(store_name, date_, copy.deepcopy(item_list), promo)
     html = "<html><body>Total cost: $" + str(orig_cost) + ". With promotion: $" + str(total_cost) + " We saved $" + \
         str(savings) + " Free shipping?" + str(shipping) + "</body></html>" 
+    print html
+    
+    promo_store = promo_date.filter(store = 2)
+    promo = promo_store
+    orig_cost, total_cost, savings, shipping = match.match(store_name, date_, copy.deepcopy(item_list), promo)
+    html += "<html><body>Total cost: $" + str(orig_cost) + ". With promotion: $" + str(total_cost) + " We saved $" + \
+        str(savings) + " Free shipping?" + str(shipping) + "</body></html>" 
+    print html
+
+    promo_store = promo_date.filter(store = 3)    
+    promo = promo_store
+    orig_cost, total_cost, savings, shipping = match.match(store_name, date_, copy.deepcopy(item_list), promo)
+    html += "<html><body>Total cost: $" + str(orig_cost) + ". With promotion: $" + str(total_cost) + " We saved $" + \
+        str(savings) + " Free shipping?" + str(shipping) + "</body></html>" 
+    print html    
+    
     return HttpResponse(html)
 
 
