@@ -2,7 +2,6 @@ import sqlite3
 import datetime
 import logging
 
-
 logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 
 
@@ -58,8 +57,8 @@ LIMITED_TIME = 30 # a month?
 #ITEM CATEGORIES
 SHIRTS = 1
 PANTS = 2
-JEANS = 3
-SWEATERS = 4
+SWEATERS = 3
+JEANS = 4
 OUTERWEAR = 5
 UNDERWEAR = 6
 EVERYTHING = 7
@@ -180,10 +179,45 @@ class PromotionObj:
         elif promo_type == ITEM_SPEC_BUY_N_FOR_X:
             self._initialize_item_spec_buy_n_for_x(row)   
  
+    '''
+    This method initializes from django's object manager object
+    '''
+    def initialize(self, db_obj):
+        self.store_name = db_obj.store
+        self.issue_date = db_obj.d
+        self.validity = db_obj.validity
+        self.where = db_obj.where_avail
+        self.promo_type = db_obj.promo_type
+        
+        self.code = db_obj.code
+        self.sex_category = db_obj.sex_category
+        self.item_category = db_obj.item_category
+        self.shipping = db_obj.free_shipping_lower_bound
+        self.item_spec_discount_type = db_obj.promo_type
+
+        if db_obj.promo_type == WHOLE_STORE_BASE_PERC:
+            self.whole_store_perc = float(db_obj.promo_disc_perc/100.0)
+            
+        if db_obj.promo_type == WHOLE_STORE_AGGREGATE:
+            self.whole_store_aggr_disc = db_obj.promo_disc_amount
+            self.whole_store_aggr_low_bound = db_obj.promo_disc_lower_bound
+            
+        if db_obj.promo_type == WHOLE_STORE_ADDITIONAL:
+            self.whole_store_add = float(db_obj.promo_disc_perc/100.0)
+            
+        if db_obj.promo_type == ITEM_SPEC_B1G1:
+            self.item_spec_b1g1_perc = float(db_obj.promo_disc_perc/100.0)
+            self.item_spec_b1g1_amount = db_obj.promo_disc_amount            
+            
+            
+        if db_obj.promo_type == ITEM_SPEC_BUY_N_FOR_X:
+            self.item_spec_buy_n_for_x_N = float(db_obj.promo_disc_perc)
+            self.item_spec_buy_n_for_x_X = db_obj.promo_disc_amount
+                
             
     def __str__(self):
         title = "STORE: ISSUE: VALID: CODE: AVAILAILITY: SHIPPING: "     
-        val = self.store_name + " " + str(self.issue_date) + " " + str(self.validity) + " " + \
+        val = str(self.store_name) + " " + str(self.issue_date) + " " + str(self.validity) + " " + \
             self.code + " " + str(self.where) + " " + str(self.shipping) + " "
         
         if self.promo_type == WHOLE_STORE_BASE_PERC:
@@ -250,6 +284,18 @@ def put_promo_info_item_spec(store, date_issued, shipping, where, validity, code
                 item_spec_buy_n_for_x_N, item_spec_buy_n_for_x_X,
                 0,
                 sex_category, item_category)
+
+
+def create_new_promo(promos, store):
+    #print promos
+    promotions = Promotions(store)
+    
+    for promo in promos:
+        p = PromotionObj(store)
+        p.initialize(promo)
+        promotions.add_promo_obj(p)
+
+    return promotions
 
 '''Returns a list of Promotion class instances for the given store & date '''
 def get_promo_info_date(store, date_):    
