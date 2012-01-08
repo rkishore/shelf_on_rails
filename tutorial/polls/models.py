@@ -43,6 +43,7 @@ class Promoinfo(models.Model):
     #store = models.CharField(max_length=20, choices = STORE_CHOICES)
     store = models.ForeignKey('Brands', default='Nil')
     d = models.DateField('date issued')
+    #d_expire = models.DateField('expiry date')
     validity = models.IntegerField()
     code = models.CharField(max_length=20)
     where_avail = models.IntegerField(choices= AVAILABILITY_CHOICES)
