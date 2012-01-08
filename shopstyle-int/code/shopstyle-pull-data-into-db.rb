@@ -135,39 +135,47 @@ def parse_product_info(filename, brand, category, time, dbpath)
   brand_arr[0] = brand_cl_name.find_by_name("Express")
   brand_arr[1] = brand_cl_name.find_by_name("J.Crew")
 
-  reader = Nokogiri::XML::Reader.from_io(File.open(filename))
+  i = 0
+  fp = []
+  filename.each do |l|
 
-  reader.each do |node|
+    puts "Parsing file: ", l
+    fp[i] = File.open(l)  
+    reader = Nokogiri::XML::Reader.from_io(fp[i])
+    
+    reader.each do |node|
 
-    if node.name == 'Product' and node.node_type == Nokogiri::XML::Reader::TYPE_ELEMENT
+      if node.name == 'Product' and node.node_type == Nokogiri::XML::Reader::TYPE_ELEMENT
 
-      doc = Nokogiri::XML(node.outer_xml)
-      tmp_arr = process_pernode_info(doc, category, time, brand_arr)
-      item_cl_name.create(:brand_id => tmp_arr[0], 
-                          :name => tmp_arr[1], 
-                          :gender => tmp_arr[2], 
-                          :cat1 => tmp_arr[3], 
-                          :cat2 => tmp_arr[4], 
-                          :cat3 => tmp_arr[5], 
-                          :cat4 => tmp_arr[6], 
-                          :cat5 => tmp_arr[7], 
-                          :price => tmp_arr[8], 
-                          :saleprice => tmp_arr[9], 
-                          :insert_date => time.strftime("%Y-%m-%d %H:%M:%S"), 
-                          :img_url_sm => tmp_arr[10], 
-                          :img_url_md => tmp_arr[11], 
-                          :img_url_lg => tmp_arr[12], 
-                          :pr_url => tmp_arr[13],
-                          :pr_sizes => tmp_arr[14],
-                          :pr_colors => tmp_arr[15],
-                          :pr_instock => tmp_arr[16],
-                          :pr_retailer => tmp_arr[17],
-                          :pr_currency => tmp_arr[18],
-                          )
+        doc = Nokogiri::XML(node.outer_xml)
+        tmp_arr = process_pernode_info(doc, category, time, brand_arr)
+        item_cl_name.create(:brand_id => tmp_arr[0], 
+                            :name => tmp_arr[1], 
+                            :gender => tmp_arr[2], 
+                            :cat1 => tmp_arr[3], 
+                            :cat2 => tmp_arr[4], 
+                            :cat3 => tmp_arr[5], 
+                            :cat4 => tmp_arr[6], 
+                            :cat5 => tmp_arr[7], 
+                            :price => tmp_arr[8], 
+                            :saleprice => tmp_arr[9], 
+                            :insert_date => time.strftime("%Y-%m-%d %H:%M:%S"), 
+                            :img_url_sm => tmp_arr[10], 
+                            :img_url_md => tmp_arr[11], 
+                            :img_url_lg => tmp_arr[12], 
+                            :pr_url => tmp_arr[13],
+                            :pr_sizes => tmp_arr[14],
+                            :pr_colors => tmp_arr[15],
+                            :pr_instock => tmp_arr[16],
+                            :pr_retailer => tmp_arr[17],
+                            :pr_currency => tmp_arr[18],
+                            )
       
+      end
     end
+    fp[i].close
   end
-
+  
 end
 
 def fetch_xml_into_file(url_str, fp)
@@ -187,15 +195,12 @@ def get_xml_data(brand, category, time, xmlfilepath)
     url_cat = category
   end
   
-  # Create file to store XML data
-  xml_filename = xmlfilepath + "/" + brand.downcase + "-" + category + "-ss-" + time.year.to_s + "-" + time.month.to_s + "-" + time.day.to_s + ".xml"
-  fp = File.open(xml_filename, 'w')
-
   # First, we get the number of items in the category, i.e. product_cnt
   init_url = construct_shopstyle_url(brand, url_cat, 0, 1)
   @doc = Nokogiri::XML(open(init_url))
   product_cnt_tag = @doc.xpath('//TotalCount')
   product_cnt = product_cnt_tag.text.to_i
+  #product_cnt = 502
 
   print "Total product count: " + product_cnt.to_s + "\n"
   #product_cnt_tmp = 10
@@ -207,28 +212,37 @@ def get_xml_data(brand, category, time, xmlfilepath)
   print "Num iterations: "+num_iter.to_s+" "+num_last_cnt.to_s+"\n"
   min_cnt = 0
 
-  # if product_cnt > max_allowed_records
-  if (num_iter > 0)
-    print "Should not be here 1 \n"
-    i = 0
-    while(i < num_iter)
-      print "Should not be here 2 \n"
-      #print i.to_s+" "+min_cnt.to_s+" "+max_allowed_records.to_s+"\n"
-      url_str = construct_shopstyle_url(brand, url_cat, min_cnt, max_allowed_records)
-      # Dump XML into file
-      fetch_xml_into_file(url_str, fp)    
-      min_cnt += 250
-      i += 1  
-    end
+  # Number of XML files needed = num_iter
+    
+  # Create file(s) to store XML data
+  i = 0
+  xml_filename = []
+  while (i <= num_iter)
+    xml_filename[i] = "%s%s%s%s%s%s%4d%s%02d%s%02d%s%02d%s%02d%s%02d%s%02d%s" % 
+      [xmlfilepath, "/", brand.downcase, "-", category, "-ss-", time.year, "-", time.month, "-", time.day, "-", time.hour, "-", time.min, "-", time.sec, "-", i, ".xml"]
+    #xml_filename[i] = "/tmp/" + brand.downcase + "-" + category + "-ss-" + time.year.to_s + "-" + time.month.to_s + "-" + time.day.to_s + "-" + time.hour.to_s + "-" + time.min.to_s + "-" + time.sec.to_s + "-" + i.to_s + ".xml"
+    #puts xml_filename[i]
+    puts xml_filename[i]
+    i += 1
   end
-
-  # Fetch remaining item info
-  url_str = construct_shopstyle_url(brand, url_cat, min_cnt, num_last_cnt)
   
-  # Dump XML into file
-  fetch_xml_into_file(url_str, fp)
-
-  return fp
+  # if product_cnt > max_allowed_records
+  i = 0
+  fp = []
+  while(i <= num_iter)
+    #print "Should not be here 2 \n"
+    #print i.to_s+" "+min_cnt.to_s+" "+max_allowed_records.to_s+"\n"
+    url_str = construct_shopstyle_url(brand, url_cat, min_cnt, max_allowed_records)
+    print i.to_s + ": " + url_str + "\n" 
+    # Dump XML into file
+    fp[i] = File.open(xml_filename[i], 'w')
+    fetch_xml_into_file(url_str, fp[i])    
+    fp[i].close
+    min_cnt += 250
+    i += 1  
+  end
+  
+  return xml_filename
   
 end
 
@@ -259,7 +273,8 @@ if __FILE__ == $0
 
   puts "Brand: " + store_name + ", Category: " + category + ", xmlfilepath: " + xmlfilepath + ", dbpath: " + dbpath #+ ", appname: " + appname
 
-  time = Time.new  
+  time = Time.new
+  xml_fname = []  
   xml_fname = get_xml_data(store_name, category, time, xmlfilepath)  
   parse_product_info(xml_fname, store_name, category, time, dbpath)
   
