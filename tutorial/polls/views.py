@@ -158,9 +158,9 @@ def compare_pricerange(request):
     
     avgnum = {}
     chart_max = 0
-    for i in ['shirts', 'jeans', 'skirts']: # Get this as input from User?
+    for i in ['shirts', 'jeans', 'skirts', 'sweaters']: # Get this as input from User?
         avgnumarr = []
-        for j in range(0,len(br_info)-1):
+        for j in range(0,len(br_info)):
             # Currently, we only get items that match cat1. What about others?
             it1 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat1__contains=i)
             it2 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat2__contains=i)
@@ -196,18 +196,19 @@ def compare_pricerange(request):
     
     bar = VerticalBarGroup([avgnum['jeans'], 
                             avgnum['shirts'], 
-                            avgnum['skirts']], 
+                            avgnum['skirts'],
+                            avgnum['sweaters']], 
                            encoding='text') 
-    bar.color('blue', 'red', 'green')
+    bar.color('blue', 'red', 'green', 'yellow')
     bar.axes('xy')
     bar.title('Price Comparison')
     bar.scale(0,chart_max+10)
     #bar.bar(17,15)
     #bar.size(500,200)
-    #bar.size(600,400)
+    #bar.size(200,100)
     #bar.axes('xy')
-    bar.axes.label(0, 'Express', 'JCrew')
-    bar.legend('Jeans', 'Shirts', 'Skirts')
+    bar.axes.label(0, 'Express', 'JCrew', 'Banana Republic')
+    bar.legend('Jeans', 'Shirts', 'Skirts', 'Sweaters')
     #bar.marker('N*cEUR1*','black',0,-1,11)
     bar.axes.range(1, 0.0,chart_max+10)
     #bar.title('Price comparison across stores','00cc00',12)
