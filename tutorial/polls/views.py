@@ -7,6 +7,7 @@ from django import forms
 from polls.models import Promoinfo, Items, Brands, Categories
 from django.db.models import Avg, Max, Min, Count
 import match
+import promotion
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 #from chartit import DataPool, Chart
 from GChartWrapper import *
@@ -119,9 +120,13 @@ def add_item_to_selected_items_list(request, wishlist_id_, item_id_, page_id_):
     return HttpResponseRedirect("/wishlist/" + wishlist_id_ + "/?page=" + str(page_id_))
 
 def compare_promo(request):
-    promos = Promoinfo.objects.filter(d__gte = datetime.date(2012, 1, 1))
-    for promo in promos:
-        print promo
+    promos = Promoinfo.objects.filter(d = datetime.date(2012, 1, 7)).filter(store = 1)
+    print promos
+    coupon = match._fill_coupon_dbinfo(promos, "Express")
+    #match.print_coupon(coupon)
+    p = promotion.create_new_promo(promos, "Express")
+    print "Printing promotions:\n" + str(p)
+    
     
     
 def pricerange_result(br_name, cat, max_, min_, avg_, num_):

@@ -606,7 +606,8 @@ def _fill_coupon_dbinfo(promolist, store_name):
                 "item_cat": "-", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.0, "item_spec_discount_perc_code": "",
                 "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": INFINITY, "stw_discount_dollars_code": "",
                 "free_shipping_dollar_qualifier": INFINITY, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
-                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10,
+                "item_spec_buy_n_for_x_N": 0, "item_spec_buy_n_for_x_X": 0
                 }
     
     print promolist
@@ -646,14 +647,35 @@ def _fill_coupon_dbinfo(promolist, store_name):
     return coupon
 
 
+def print_coupon(coupon):
+    print "STORE: " + str(coupon['store'])
+    print "[[STORE-WIDE]]"
+    print "\tSTW_DISC: " + str(coupon['stw_discount'])
+    print "\tSTW_DISC_AMOUNT: " + str(coupon['stw_discount_dollars']),
+    print " STW_DISC_AMOUNT_THRESHOLD: " + str(coupon['stw_discount_dollars_lower_bound'])
+    print "\tSTW_ADDITIONAL: " + str(coupon['add_stw_discount'])
+    print "\n[[ITEM-SPECIFIC]]"
+    print "\tITEM_CATEGORY: " + str(coupon['item_cat'])
+    print "\tITEM_SPEC_DISC_TYPE: " + str(coupon['item_spec_discount_type'])
+    print "\tITEM_SPEC_DISC: " + str(coupon['item_spec_disc_perc'])
+    print "\tITEM_SPEC_DISC_AMOUNT: " + str(coupon['item_spec_disc_amount'])
+    print "\tITEM_SPEC_BNGN_N: " + str(coupon['item_spec_buy_n_for_x_N'])
+    print "\tITEM_SPEC_BNGN_X: " + str(coupon['item_spec_buy_n_for_x_X'])
+    print "ITEM_SPEC_SHIPPING_THRESHOLD: " + str(coupon['free_shipping_dollar_qualifier'])
+                 
+
+
 def _fill_coupon(promo):
     coupon = {"store": "J.Crew", 
                 "stw_discount": 0.3, "stw_discount_perc_code": "-",
                 "add_stw_discount": 0, "add_stw_discount_perc_code": "MUSTSHOP",
-                "item_cat": "-", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.25, "item_spec_discount_perc_code": "CODE4",
-                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, "stw_discount_dollars_code": "CODE3",
+                "item_cat": "-", "item_spec_discount_type": "B1G1", "item_spec_discount_perc": 0.25, 
+                "item_spec_discount_perc_code": "CODE4",
+                "stw_discount_dollars": 0, "stw_discount_dollars_lower_bound": 75, 
+                "stw_discount_dollars_code": "CODE3",
                 "free_shipping_dollar_qualifier": 100, "discount_shipping_rate": "None", "standard_shipping_rate": 10,
-                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10
+                "free_returns_dollar_qualifier": INFINITY, "discount_return_rate": "None", "standard_return_rate": 10,
+                "item_spec_buy_n_for_x_N": 0, "item_spec_buy_n_for_x_X": 0
                 }
     
     for promo_obj in promo.promoUnits:
@@ -680,6 +702,8 @@ def _fill_coupon(promo):
             coupon['item_spec_buy_n_for_x_X'] = promo_obj.item_spec_buy_n_for_x_X
             coupon['sex_category'] = promo_obj.sex_category
             coupon['item_cat'] = promo_obj.item_category
+            coupon['item_spec_discount_type'] = "BNGN"
+
             
     print coupon
     return coupon
