@@ -124,6 +124,92 @@ def compare_promo(request):
         print promo
     
     
+def pricerange_result(br_name, cat, max_, min_, avg_, num_):
+    html = "<p>In " + br_name + ", we found " + str(num_) + " items in category: " + cat + ". Max price: " + str(max_) + ". Min: " + str(min_) + ". Avg " + str(avg_) + "</p>\n"
+           #"<a href=\"" + str(id_) + "\">View items?</a></p>" + \
+           # "<html><body><title>Summary of results</title>" + \
+           #"</body></html>"
+    return html
+
+def compare_pricerange(request):
+    # from today's items, compare across stores price range, and print on return
+    
+    # Pseudo-code
+    # for categories of interest:
+    #     for i = 1 to total_brand_num:
+    #         Get unique items from today's info  
+    # for unique items from today's info:
+    #     Calculate min, max, avg, std. dev, median of price and saleprice
+    #     Return this info to client (as text first, and then a plot)
+    #   
+    
+    # Get today's date
+    date_today = datetime.date.today()
+    
+    # Across brands
+    br_info = Brands.objects.all()
+    
+    html_to_render = "<html><body><title>Summary of results</title>\n"
+    
+    avgnum = {}
+    chart_max = 0
+    for i in ['shirts', 'jeans', 'skirts']: # Get this as input from User?
+        avgnumarr = []
+        for j in range(0,len(br_info)-1):
+            # Currently, we only get items that match cat1. What about others?
+            it1 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat1__contains=i)
+            it2 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat2__contains=i)
+            it3 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat3__contains=i)
+            it4 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat4__contains=i)
+            it5 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat5__contains=i)
+            
+            # Find unique products that include i in any of cat1 to cat5
+            it = it1 | it2 | it3 | it4 | it5
+            
+            it_max = it.aggregate(Max('price'))['price__max']
+            it_min = it.aggregate(Min('price'))['price__min']
+            it_avg = it.aggregate(Avg('price'))['price__avg']
+            it_num = it.aggregate(Count('price'))['price__count']
+            print date_today, br_info[j].name, i, it_num, it_min, it_avg, it_max
+            avgnumarr.append(it_avg)
+            if it_avg > chart_max:
+                chart_max = it_avg
+        avgnum[i] = avgnumarr
+            #html_to_render += pricerange_result(br_info[j].name, i, it_max, it_min, it_avg, it_num)
+    
+    #html_to_render += "</body></html>"
+    #print html_to_render
+    
+    print avgnum
+    
+    #line = Line([[0,0,0,0,0,0],[0,5,10,7,12,6],[35,25,45,47,24,46],[15,40,30,27,39,54],[70,55,63,59,80,60]],encoding='text',series=1)
+    #line.scale(0,100,-50,100)
+    #line.marker('F','',1,'1:4',20)
+    #line.axes('xy')
+    #line.title('Fucking title')
+    
+    
+    bar = VerticalBarGroup([avgnum['jeans'], 
+                            avgnum['shirts'], 
+                            avgnum['skirts']], 
+                           encoding='text') 
+    bar.color('blue', 'red', 'green')
+    bar.axes('xy')
+    bar.title('Price Comparison')
+    bar.scale(0,chart_max+10)
+    #bar.bar(17,15)
+    #bar.size(500,200)
+    #bar.size(600,400)
+    #bar.axes('xy')
+    bar.axes.label(0, 'Express', 'JCrew')
+    bar.legend('Jeans', 'Shirts', 'Skirts')
+    #bar.marker('N*cEUR1*','black',0,-1,11)
+    bar.axes.range(1, 0.0,chart_max+10)
+    #bar.title('Price comparison across stores','00cc00',12)
+    return render_to_response('show_pricecomp.html', {'bar': bar}) #{'pie' : pie, 'scatter': scatter, 'bar': bar})
+
+    #return HttpResponse(html_to_render)
+    
 def apply_discount(request, wishlist_id_):
     item_list = selected_items[int(wishlist_id_)]
     #store_name_ = "J.Crew"
@@ -237,7 +323,7 @@ def result(max_, min_, avg_, num_, id_):
            "<p>Max price: " + str(max_) + ". Min: " + str(min_) + ". Avg " + str(avg_) + "</p>" + \
            "</body></html>"
     return HttpResponse(html)
-
+    
 def calculate_selected_items(wishlist_id_):
     return len(selected_items_id_list[int(wishlist_id_)])
     
@@ -391,9 +477,11 @@ def testing_graphs(request):
     scatter.axes.label(1, 0,25,50,75,100)
     scatter.size(300,200)
     
-    bar = VerticalBarStack([43.56,35.62,48.34])
-    bar.color('blue')
-    bar.bar(17,15)
+    bar = VerticalBarGroup([[43.56,15.62,78.34], [43.56,15.62,78.34]])
+    bar.color('blue', 'red')
+    #bar.bar(17,15)
+    #bar.size(300,125)
+    bar.axes('xy')
     #bar.marker('N*cEUR1*','black',0,-1,11)
     bar.title('Prices at other stores')
     return render_to_response('show_chart.html', {'pie' : pie, 'scatter': scatter, 'bar': bar})

@@ -5,9 +5,6 @@ require 'net/http'
 require 'rubygems'  
 require 'active_record'  
 
-#EXPRESS_BRAND_ID = 1
-#JCREW_BRAND_ID = 2
-
 # Pseudo-code
 # 1. Accept cmd-line arguments: brand/store, category
 # 2. Call shopstyle URL with info, and process received arguments
@@ -134,6 +131,7 @@ def parse_product_info(filename, brand, category, time, dbpath)
 
   brand_arr[0] = brand_cl_name.find_by_name("Express")
   brand_arr[1] = brand_cl_name.find_by_name("J.Crew")
+  brand_arr[2] = brand_cl_name.find_by_name("Banana_Republic")
 
   i = 0
   fp = []
@@ -252,6 +250,8 @@ def construct_shopstyle_url(brand, category, min_idx, rec_cnt)
     url_str = "http://api.shopstyle.com/action/apiSearch?pid=uid289-3680017-16&fts=&cat="+category.to_s+"&fl=b284"+"&min="+min_idx.to_s+"&count="+rec_cnt.to_s
   elsif (brand.casecmp("express") == 0)
     url_str = "http://api.shopstyle.com/action/apiSearch?pid=uid289-3680017-16&fts=&cat="+category.to_s+"&fl=b13342"+"&min="+min_idx.to_s+"&count="+rec_cnt.to_s
+  elsif (brand.casecmp("bananarepublic") == 0)
+    url_str = "http://api.shopstyle.com/action/apiSearch?pid=uid289-3680017-16&fts=&cat="+category.to_s+"&fl=b2683"+"&min="+min_idx.to_s+"&count="+rec_cnt.to_s
   end
   
 end
