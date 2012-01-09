@@ -1,0 +1,9 @@
+<html>
+	<title>Create your wishlist</title>
+	<body>
+		<form action="/mock_wishlist/start/" method="post">{#% csrf_token %#}
+		{{ form.as_table }}
+		<input type="submit" value="Submit" />
+		</form>
+	</body>
+</html>

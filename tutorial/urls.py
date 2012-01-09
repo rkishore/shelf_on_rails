@@ -43,5 +43,6 @@ urlpatterns = patterns('',
     (r'^wishlist2/(\d{2,3})/add_item_(\d+)_(\d{1,2})/$', 'polls.views.add_item_to_selected_items_list'),
     (r'^wishlist2/(\d{2,3})/show_selected_items/$', 'polls.views.show_selected_items_new'),
     (r'^wishlist2/(\d{2,3})/show_selected_items/apply_discount/$', 'polls.views.apply_discount'),
-    (r'^compare_promo/$', 'polls.views.compare_promo')
+    (r'^compare_promo/$', 'polls.views.compare_promo'),
+    (r'^mock_wishlist/start/$', 'polls.view_mock_wishlist.start')
 )
