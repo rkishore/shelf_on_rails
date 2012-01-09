@@ -38,7 +38,7 @@ def process_pernode_info(pernode, category, time, brandinfo_arr)
       break
     end
   end
-
+  
   # TODO: if br_id is nill, input new brand name and match with that ID
 
   # Get gender
@@ -131,8 +131,8 @@ def parse_product_info(filename, brand, category, time, dbpath)
 
   brand_arr[0] = brand_cl_name.find_by_name("Express")
   brand_arr[1] = brand_cl_name.find_by_name("J.Crew")
-  brand_arr[2] = brand_cl_name.find_by_name("Banana_Republic")
-
+  brand_arr[2] = brand_cl_name.find_by_name("Banana Republic")
+  
   i = 0
   fp = []
   filename.each do |l|
