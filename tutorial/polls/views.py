@@ -128,6 +128,48 @@ def compare_promo(request):
     print "Printing promotions:\n" + str(p)
     
     
+def draw_plot1(chart_max, a1, a2, a3, a4):
+    #bar = VerticalBarGroup([avgnum['jeans'],
+    #                        avgnum['shirts'], 
+    #                        avgnum['skirts'],
+    #                        avgnum['sweaters']], 
+    #                       encoding='text') 
+    bar = VerticalBarGroup([a1, a2, a3, a4], 
+                            encoding='text')
+    bar.color('0000FF55', 'FF000055', '00FF0055', 'orange')
+    bar.axes('xy')
+    bar.title('Average Price (USD) Comparison')
+    bar.scale(0,chart_max+10)
+    #bar.bar(17,15)
+    bar.size(500,200)
+    #bar.size(200,100)
+    #bar.axes('xy')
+    bar.axes.label(0, 'Express', 'JCrew', 'Banana Republic')
+    bar.axes.label(1, None, '20', '40', '60', '80', '100', '120', '140', '160', '180', '200', '220')
+    #bar.axes.label(1, 'Average Price (USD)')
+    bar.legend('Jeans', 'Shirts', 'Skirts', 'Sweaters')
+    #bar.marker('N*cEUR1*','black',0,-1,11)
+    bar.axes.range(1, 0.0,chart_max+10)
+    #bar.title('Price comparison across stores','00cc00',12)
+    
+    return bar
+
+def draw_plot2(chart_max2, a1, a2, a3):
+    bar2 = VerticalBarGroup([a1, a2, a3], 
+                             encoding='text') 
+    bar2.color('0000FF55', 'FF000055', '00FF0055')
+    bar2.axes('xy')
+    bar2.bar(20,1,15)
+    bar2.title('Average Price (USD) Comparison')
+    bar2.scale(0,chart_max2+10)
+    bar2.size(500,200)
+    bar2.axes.label(0, 'Jeans', 'Shirts', 'Skirts', 'Sweaters')
+    bar2.axes.label(1, None, '20', '40', '60', '80', '100', '120', '140', '160', '180', '200', '220')
+    bar2.legend('Express', 'J.Crew', 'Banana Republic')
+    #bar.marker('N*cEUR1*','black',0,-1,11)
+    bar2.axes.range(1, 0.0,chart_max2+10)
+    
+    return bar2
     
 def pricerange_result(br_name, cat, max_, min_, avg_, num_):
     html = "<p>In " + br_name + ", we found " + str(num_) + " items in category: " + cat + ". Max price: " + str(max_) + ". Min: " + str(min_) + ". Avg " + str(avg_) + "</p>\n"
@@ -154,19 +196,58 @@ def compare_pricerange(request):
     # Across brands
     br_info = Brands.objects.all()
     
-    html_to_render = "<html><body><title>Summary of results</title>\n"
+    #===========================================================================
+    # avgnum = {}
+    # chart_max = 0
+    # for i in ['shirts', 'jeans', 'skirts', 'sweaters']: # Get this as input from User?
+    #    avgnumarr = []
+    #    minnumarr = []
+    #    maxnumarr = []
+    #    for j in range(0,len(br_info)):
+    #        # Currently, we only get items that match cat1. What about others?
+    #        it1 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat1__contains=i)
+    #        it2 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat2__contains=i)
+    #        it3 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat3__contains=i)
+    #        it4 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat4__contains=i)
+    #        it5 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat5__contains=i)
+    #        
+    #        # Find unique products that include i in any of cat1 to cat5
+    #        it = it1 | it2 | it3 | it4 | it5
+    #        
+    #        it_max = it.aggregate(Max('price'))['price__max']
+    #        it_min = it.aggregate(Min('price'))['price__min']
+    #        it_avg = it.aggregate(Avg('price'))['price__avg']
+    #        it_num = it.aggregate(Count('price'))['price__count']
+    #        print date_today, br_info[j].name, i, it_num, it_min, it_avg, it_max
+    #        avgnumarr.append(it_avg)
+    #        minnumarr.append(it_min)
+    #        maxnumarr.append(it_max)
+    #        if it_avg > chart_max:
+    #            chart_max = it_avg
+    #    avgnum[i] = avgnumarr
+    #    minnum[i] = minnumarr
+    #    maxnum[i] = maxnumarr
+    #===========================================================================
+        
+    #print avgnum
     
-    avgnum = {}
-    chart_max = 0
-    for i in ['shirts', 'jeans', 'skirts', 'sweaters']: # Get this as input from User?
-        avgnumarr = []
-        for j in range(0,len(br_info)):
+    #bar1 = draw_plot1(chart_max, avgnum['jeans'], avgnum['shirts'], avgnum['skirts'], avgnum['sweaters'])
+    
+    avgnum2 = []
+    minnum2 = []
+    maxnum2 = []
+    chart_avgmax2 = 0
+    for i in range(0,len(br_info)):
+        avgnum2arr = []
+        minnum2arr = []
+        maxnum2arr = []
+        for j in ['shirts', 'jeans', 'skirts', 'sweaters']: # Get this as input from User?
             # Currently, we only get items that match cat1. What about others?
-            it1 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat1__contains=i)
-            it2 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat2__contains=i)
-            it3 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat3__contains=i)
-            it4 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat4__contains=i)
-            it5 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[j].id).filter(cat5__contains=i)
+            it1 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[i].id).filter(cat1__contains=j)
+            it2 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[i].id).filter(cat2__contains=j)
+            it3 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[i].id).filter(cat3__contains=j)
+            it4 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[i].id).filter(cat4__contains=j)
+            it5 = Items.objects.filter(insert_date__contains=date_today).filter(brand=br_info[i].id).filter(cat5__contains=j)
             
             # Find unique products that include i in any of cat1 to cat5
             it = it1 | it2 | it3 | it4 | it5
@@ -175,46 +256,46 @@ def compare_pricerange(request):
             it_min = it.aggregate(Min('price'))['price__min']
             it_avg = it.aggregate(Avg('price'))['price__avg']
             it_num = it.aggregate(Count('price'))['price__count']
-            print date_today, br_info[j].name, i, it_num, it_min, it_avg, it_max
-            avgnumarr.append(it_avg)
-            if it_avg > chart_max:
-                chart_max = it_avg
-        avgnum[i] = avgnumarr
-            #html_to_render += pricerange_result(br_info[j].name, i, it_max, it_min, it_avg, it_num)
+            print date_today, br_info[i].name, j, it_num, it_min, it_avg, it_max
+            avgnum2arr.append(it_avg)
+            minnum2arr.append(it_min)
+            maxnum2arr.append(it_max)
+            if it_avg > chart_avgmax2:
+                chart_avgmax2 = it_avg
+        
+        avgnum2.append(avgnum2arr)
+        minnum2.append(minnum2arr)
+        maxnum2.append(maxnum2arr)
+        
+    print avgnum2
     
-    #html_to_render += "</body></html>"
-    #print html_to_render
+    bar2 = draw_plot2(chart_avgmax2, avgnum2[0], avgnum2[1], avgnum2[2])
     
-    print avgnum
+    #===========================================================================
+    # avgnum3 = [10, avgnum2[0][0], avgnum2[0][1], avgnum2[0][2], avgnum2[0][3], 10]
+    # minnum3 = [10, minnum2[0][0], minnum2[0][1], minnum2[0][2], minnum2[0][3], 10]
+    # maxnum3 = [10, maxnum2[0][0], maxnum2[0][1], maxnum2[0][2], maxnum2[0][3], 10]
+    # 
+    # print avgnum2[0]
+    # 
+    # line = Line([[0,0,0,0,0],
+    #             minnum3,
+    #             avgnum3,
+    #             avgnum3,
+    #             maxnum3],
+    #            encoding='text',series=1)
+    # #line.scale(0,100,-50,100)
+    # line.scale(0,100)
+    # line.marker('F','',1,'1:4',20)
+    # line.axes('xy')
+    # line.axes.range(0, 0,100)
+    # line.axes.range(1, 0,100)
+    # line.axes.label(0, None, 'Jeans', 'Shirts', 'Skirts', 'Sweaters', None)
+    # line.title('Price Comparison (USD)')
+    #===========================================================================
     
-    #line = Line([[0,0,0,0,0,0],[0,5,10,7,12,6],[35,25,45,47,24,46],[15,40,30,27,39,54],[70,55,63,59,80,60]],encoding='text',series=1)
-    #line.scale(0,100,-50,100)
-    #line.marker('F','',1,'1:4',20)
-    #line.axes('xy')
-    #line.title('Fucking title')
-    
-    
-    bar = VerticalBarGroup([avgnum['jeans'], 
-                            avgnum['shirts'], 
-                            avgnum['skirts'],
-                            avgnum['sweaters']], 
-                           encoding='text') 
-    bar.color('blue', 'red', 'green', 'yellow')
-    bar.axes('xy')
-    bar.title('Price Comparison')
-    bar.scale(0,chart_max+10)
-    #bar.bar(17,15)
-    #bar.size(500,200)
-    #bar.size(200,100)
-    #bar.axes('xy')
-    bar.axes.label(0, 'Express', 'JCrew', 'Banana Republic')
-    bar.legend('Jeans', 'Shirts', 'Skirts', 'Sweaters')
-    #bar.marker('N*cEUR1*','black',0,-1,11)
-    bar.axes.range(1, 0.0,chart_max+10)
     #bar.title('Price comparison across stores','00cc00',12)
-    return render_to_response('show_pricecomp.html', {'bar': bar}) #{'pie' : pie, 'scatter': scatter, 'bar': bar})
-
-    #return HttpResponse(html_to_render)
+    return render_to_response('show_pricecomp.html', {'bar': bar2}) #{'pie' : pie, 'scatter': scatter, 'bar': bar})
     
 def apply_discount(request, wishlist_id_):
     item_list = selected_items[int(wishlist_id_)]
