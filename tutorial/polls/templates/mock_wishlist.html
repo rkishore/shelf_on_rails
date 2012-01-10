@@ -1,9 +1,15 @@
 <html>
 	<title>Create your wishlist</title>
 	<body>
+		<h2> A sample wishlist</h2>
 		<form action="/mock_wishlist/start/" method="post">{#% csrf_token %#}
 		{{ form.as_table }}
 		<input type="submit" value="Submit" />
 		</form>
+		<h2> Lowest price</h2>
+		{% if results%}
+		{{results|safe}}
+		
+		{% endif %}
 	</body>
 </html>

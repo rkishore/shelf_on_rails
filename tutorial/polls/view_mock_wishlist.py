@@ -48,14 +48,16 @@ class DemoWishlist(forms.Form):
                              ('everything', 'EVERYTHING')
                              )
     NUM_CHOICES = (
+                   (0, 0),
                    (1, 1),
                    (2, 2),
                    (3, 3)
                    )
-    shirts = forms.ChoiceField(choices = NUM_CHOICES)
-    jeans = forms.ChoiceField(choices = NUM_CHOICES)
-    skirts = forms.ChoiceField(choices = NUM_CHOICES)
-    gender = forms.ChoiceField(choices = GENDER_CHOICES)
+    shirts = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
+    jeans = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
+    skirts = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
+    sweaters = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
+    gender = forms.ChoiceField(choices = GENDER_CHOICES, initial=1)
     #size = forms.IntegerField()
     #color = forms.IntegerField()
 
@@ -71,71 +73,114 @@ def start(request):
     We also want to maintain the list of items from each category that satisfy
     the price so that the user can view what items satisfy his constraint.
     '''
-    
+    result = ""
+
     if request.method == 'POST': # If the form has been submitted...
         form = DemoWishlist(request.POST) # A form bound to the POST data
         if form.is_valid(): # All validation rules pass
-            # Process the data in form.cleaned_data
-            # ...
-            shirts = form.cleaned_data['shirts']
-            jeans = form.cleaned_data['jeans']
-            skirts = form.cleaned_data['skirts']
-            gender = form.cleaned_data['gender']
-            #size = form.cleaned_data['size']
-            #color = form.cleaned_data['color']
-            #howmany = form.cleaned_data['howmany']
+            demand = fill_demand(form)
             date = datetime.date.today()
             stores = ("Express", "J.Crew")
-            cats = ("shirts", "jeans", "skirts")
+            cats = ("shirts", "jeans", "skirts", "sweaters")
             print "Inside POST method of demowishlist"
-            result = ""
+            i = 1                
             for store in stores:
-                i = 1
                 _wishlist = []
-                result += "Store: " + str(store) + "<br>"
-                for cat in cats:
-                    max, min, avg, num, item_list = find_items(store, cat, 'A')
-                    result += "<br>Category " + str(cat) + " Max " + str(max) + " Min " + str(min) + " Avg " + str(avg) + " Num " + str(num) + "<br>"
-                    item = find_cheapest_item_any(item_list, min)
-                    _wishlist.append( {"store": str(item.brand), 
-                                       "category": str(item.cat1), 
-                                       "price": float(item.price),
-                                       "sale_price": float(item.saleprice)} )
-                    print "Store: " + store + ": [" + str(max) + ", " + str(min) + ", " + str(avg) + "] #" + str(num)
+                result += "<p>" + str(store) 
+                date_ = datetime.date(2012, 1, 5)
+                stats_in_html_syntax, wishlist = create_sample_wishlist(store, date_, cats, demand)
+                result += "<br> " + stats_in_html_syntax
+                orig_cost, total_cost, savings, shipping = find_price_of_wishlist_for_store(wishlist, 
+                                                                                            store, i, date_)
+                result += "<br> Original cost " + str(orig_cost) + " Total cost after promo " \
+                       + str(total_cost) + " Savings " + str(savings) + " Shipping " + str(shipping) 
+                result += "</p>"
+                i += 1
                 
-                print "Current wishlist: " + str(_wishlist)
-            
-                date_ = datetime.date(2012, 1, 2)
-                promo_date = Promoinfo.objects.filter(d = date_)
-                print promo_date
-                promo_store = promo_date.filter(store__id = i)
-                promo = promo_store
-                print promo
-                orig_cost, total_cost, savings, shipping = match.match(stores[i], date_, copy.deepcopy(_wishlist), promo)
-                result += "<br>\tOriginal cost " + str(orig_cost) + " Total cost after promo " + str(total_cost) + " Savings " + str(savings) + " Shipping " + str(shipping) + "<br><br>"
-                i = i+1
-            
-            html = "<html><body><title>Summary of results</title>" 
-            html += result
-            html += "</body></html>"
-            return HttpResponse(html)
+            #html = "<html><body><title>Summary of results</title>" 
+            #html += result
+            #html += "</body></html>"
+            #return HttpResponse(html)
 
     else:
         form = DemoWishlist()
     
-    return render_to_response('mock_wishlist.html', {'form': form,}, context_instance=RequestContext(request))
+    return render_to_response('mock_wishlist.html', 
+                              {'form': form, 'results': result,}, 
+                              context_instance=RequestContext(request))
 
-def find_cheapest_item_any(item_list, min):
+
+def fill_demand(form):
+    '''
+    Fills up demand hash-table based on how many items the user picked
+    for each category.
+    '''
+    shirts = form.cleaned_data['shirts']
+    jeans = form.cleaned_data['jeans']
+    skirts = form.cleaned_data['skirts']
+    sweaters = form.cleaned_data['sweaters']
+    gender = form.cleaned_data['gender']
+    demand = {}
+    demand['shirts'] = shirts
+    demand['jeans'] = jeans
+    demand['skirts'] = skirts
+    demand['sweaters'] = sweaters
+    demand['gender'] = gender
+    return demand
+
+
+def create_sample_wishlist(store_name, date, categories, demand):
+    '''
+    Construct a sample wishlist for store_name on date. demand[i] is
+    the required number of items of categories[i]
+    '''
+    _wishlist = []
+    result = ""
+    for cat in categories:
+        if demand[cat] > 0:
+            max, min, avg, num, item_list = find_items(store_name, cat, 'A', date)
+            result += "<br>Category " + str(cat) + " Max " + str(max) + " Min " \
+                   + str(min) + " Avg " + str(avg) + " Num " + str(num) + "<br>"
+            k = demand[cat]
+            items = find_cheapest_k_items(item_list, int(k))
+            for item in items:            
+                print item
+                _wishlist.append( {"store": str(item.brand), 
+                                   "category": str(item.cat1), 
+                                   "price": float(item.price),
+                                   "sale_price": float(item.saleprice)} )
+            print "Store: " + store_name + ": [" + str(max) + ", " + str(min) + ", " + str(avg) + "] #" + str(num)
+    
+    print "Current wishlist: " + str(_wishlist)
+    return (result, _wishlist)
+    
+
+def find_price_of_wishlist_for_store(wishlist, store_name, store_id, date_):
+    promo_date = Promoinfo.objects.filter(d = date_)
+    print "Promotion after filtering by promo_date: " + str(promo_date)
+    promo_store = promo_date.filter(store__id = store_id)
+    promo = promo_store
+    print "Promotions after filtering by store name: " + str(promo)
+    orig_cost, total_cost, savings, shipping = match.match(store_name, date_, copy.deepcopy(wishlist), promo)
+    return (orig_cost, total_cost, savings, shipping)
+    
+
+
+def find_cheapest_k_items(item_list, k):
     try:
-        potential_items = item_list.filter(saleprice = min)
-        print potential_items[0]
-        return potential_items[0]
+        potential_items = item_list.order_by('saleprice')#.values() #filter(saleprice = min)
+        print "ASSUMPTION: k is larger than the size of the set"
+        print potential_items[0:k]
+        return potential_items[0:k]
     except Items.DoesNotExist:
         raise Http404
 
-def find_items(store_name, category, gender):                
+    return []
+
+
+def find_items(store_name, category, gender, date):                
         try:
-            potential_items = Items.objects.filter(brand__name = store_name)
+            potential_items = Items.objects.filter(brand__name = store_name)#.filter(insert_date = date)
             print "Number of items after store filter: " + str(len(potential_items))
             # filter only if the category is specified
             if gender != 'A':
@@ -154,3 +199,5 @@ def find_items(store_name, category, gender):
             return max_, min_, avg_, num_, potential_items
         except Items.DoesNotExist:
             raise Http404
+        
+        
