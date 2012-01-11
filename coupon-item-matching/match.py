@@ -7,7 +7,8 @@ from operator import itemgetter
 import promotion
 
 #logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.INFO)
-logging.basicConfig(format='%(message)s', level=logging.INFO)
+logging.basicConfig(format='%(message)s', level=logging.ERROR)
+logging.basicConfig(level = logging.CRITICAL)
 
 sex_category = ["mens", "womens"]    
 item_category = ["shirts", "pants", "jeans", "sweaters"]
@@ -453,7 +454,7 @@ def calculate_item_stats(wish_list, item_stats):
 
     for i in range(0, len(wish_list)):
         it = wish_list[i]
-        print it
+        logging.debug(it)
         cat = it["category"]
         base_cat = find_base_category(cat)
         item_stats[base_cat] += 1
@@ -587,9 +588,9 @@ def match(store_name, date, wish_list, promolist):
     #print wish_list
     
     test_coupon = _fill_coupon_dbinfo(promolist, store_name)
-    print "\n------- TEST COUPON ------"
-    print store_name, test_coupon
-    print "------- END TEST COUPON ------\n"
+    logging.debug("\n------- TEST COUPON ------")
+    logging.debug(store_name, test_coupon)
+    logging.debug("------- END TEST COUPON ------\n")
     cur_coupon = coupon_jcrew_dec_18#_fill_coupon(promo)
  
     #original_cost, current_cost, current_savings, free_shipping = _apply_promotion(wish_list, cur_coupon)
@@ -610,7 +611,7 @@ def _fill_coupon_dbinfo(promolist, store_name):
                 "item_spec_buy_n_for_x_N": 0, "item_spec_buy_n_for_x_X": 0
                 }
     
-    print promolist
+    logging.debug(promolist)
     
     coupon['store'] = store_name
     
@@ -648,20 +649,20 @@ def _fill_coupon_dbinfo(promolist, store_name):
 
 
 def print_coupon(coupon):
-    print "STORE: " + str(coupon['store'])
-    print "[[STORE-WIDE]]"
-    print "\tSTW_DISC: " + str(coupon['stw_discount'])
-    print "\tSTW_DISC_AMOUNT: " + str(coupon['stw_discount_dollars']),
-    print " STW_DISC_AMOUNT_THRESHOLD: " + str(coupon['stw_discount_dollars_lower_bound'])
-    print "\tSTW_ADDITIONAL: " + str(coupon['add_stw_discount'])
-    print "\n[[ITEM-SPECIFIC]]"
-    print "\tITEM_CATEGORY: " + str(coupon['item_cat'])
-    print "\tITEM_SPEC_DISC_TYPE: " + str(coupon['item_spec_discount_type'])
-    print "\tITEM_SPEC_DISC: " + str(coupon['item_spec_disc_perc'])
-    print "\tITEM_SPEC_DISC_AMOUNT: " + str(coupon['item_spec_disc_amount'])
-    print "\tITEM_SPEC_BNGN_N: " + str(coupon['item_spec_buy_n_for_x_N'])
-    print "\tITEM_SPEC_BNGN_X: " + str(coupon['item_spec_buy_n_for_x_X'])
-    print "ITEM_SPEC_SHIPPING_THRESHOLD: " + str(coupon['free_shipping_dollar_qualifier'])
+    logging.debug("STORE: " + str(coupon['store']) + "\n" + \
+                  "[[STORE-WIDE]]" + "\n" + \
+                  "\tSTW_DISC: " + str(coupon['stw_discount']) + "\n" + \
+                  "\tSTW_DISC_AMOUNT: " + str(coupon['stw_discount_dollars']) + "\n" + \
+                  " STW_DISC_AMOUNT_THRESHOLD: " + str(coupon['stw_discount_dollars_lower_bound']) + "\n" + \
+                  "\tSTW_ADDITIONAL: " + str(coupon['add_stw_discount']) + "\n" + \
+                  "\n[[ITEM-SPECIFIC]]" + "\n" + \
+                  "\tITEM_CATEGORY: " + str(coupon['item_cat']) + "\n" + \
+                  "\tITEM_SPEC_DISC_TYPE: " + str(coupon['item_spec_discount_type']) + "\n" + \
+                  "\tITEM_SPEC_DISC: " + str(coupon['item_spec_disc_perc']) + "\n" + \
+                  "\tITEM_SPEC_DISC_AMOUNT: " + str(coupon['item_spec_disc_amount']) + "\n" + \
+                  "\tITEM_SPEC_BNGN_N: " + str(coupon['item_spec_buy_n_for_x_N']) + "\n" + \
+                  "\tITEM_SPEC_BNGN_X: " + str(coupon['item_spec_buy_n_for_x_X']) + "\n" + \
+                  "ITEM_SPEC_SHIPPING_THRESHOLD: " + str(coupon['free_shipping_dollar_qualifier']))
                  
 
 
@@ -679,7 +680,7 @@ def _fill_coupon(promo):
                 }
     
     for promo_obj in promo.promoUnits:
-        print promo_obj
+        logging.debug(promo_obj)
         if promo_obj.promo_type == promotion.WHOLE_STORE_BASE_PERC:
             coupon['stw_discount'] = float(promo_obj.whole_store_perc/100.0)
             
@@ -705,7 +706,7 @@ def _fill_coupon(promo):
             coupon['item_spec_discount_type'] = "BNGN"
 
             
-    print coupon
+    logging.debug(coupon)
     return coupon
 
 
