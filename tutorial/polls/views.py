@@ -268,6 +268,7 @@ def compare_pricerange(request):
         maxnum2.append(maxnum2arr)
         
     print avgnum2
+    #print avgnum2[0][0], avgnum2[0][1], avgnum2[0][2], avgnum2[0][3] 
     
     bar2 = draw_plot2(chart_avgmax2, avgnum2[0], avgnum2[1], avgnum2[2])
     
