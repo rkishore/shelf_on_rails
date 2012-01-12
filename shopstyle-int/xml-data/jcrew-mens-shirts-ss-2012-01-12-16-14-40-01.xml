@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>284</Id>
+<Name>J.Crew</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>251</TotalCount>
+<Product>
+<Id>560390</Id>
+<Name>Repp piqu&#xE9; polo</Name>
+<Currency>USD</Currency>
+<Price>39.5</Price>
+<PriceLabel>$39.50</PriceLabel>
+<SalePrice>19.99</SalePrice>
+<SalePriceLabel>$19.99</SalePriceLabel>
+<MaxSalePrice>39.5</MaxSalePrice>
+<MaxSalePriceLabel>$39.50</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A classic in clean-cut cotton piqu&#xE9;, with repp-stripe detailing lining the neck and vents. Works with a jacket or out on the links. Add a monogram to make it your own. Original fit. Ribbed collar and cuffs. Short sleeves. Tonal repp-stripe detail at interior back neck and side vents. Tennis tail. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=560390&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/73/5c/735c25c6ad0d16c7b9486127473bb021_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/73/5c/735c25c6ad0d16c7b9486127473bb021_medium/jcrew-shortsleeve-shirts-repp-pique-polo-in-original-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/73/5c/735c25c6ad0d16c7b9486127473bb021/jcrew-shortsleeve-shirts-repp-pique-polo-in-original-fit.jpg</Url>
+</Image>
+<Color>
+<Name>aztec brick</Name>
+</Color>
+<Color>
+<Name>welsh purple</Name>
+</Color>
+<Color>
+<Name>sail blue</Name>
+</Color>
+<Color>
+<Name>seaside aqua</Name>
+</Color>
+<Color>
+<Name>sound blue</Name>
+</Color>
+<Color>
+<Name>surf blue</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>dark wood</Name>
+</Color>
+<Color>
+<Name>berry wine</Name>
+</Color>
+<Color>
+<Name>classic pine</Name>
+</Color>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>dark navy</Name>
+</Color>
+<Color>
+<Name>vintage apricot</Name>
+</Color>
+<Color>
+<Name>fresh sage</Name>
+</Color>
+<Size>
+<Name>X-SMALL</Name>
+</Size>
+<Size>
+<Name>SMALL</Name>
+</Size>
+<Size>
+<Name>MEDIUM</Name>
+</Size>
+<Size>
+<Name>LARGE</Name>
+</Size>
+<Size>
+<Name>X-LARGE</Name>
+</Size>
+<Size>
+<Name>XX-LARGE</Name>
+</Size>
+<Category>mens-shortsleeve-shirts</Category>
+<Category>mens-polo-shirts</Category>
+<CategoryName>Shortsleeve Shirts</CategoryName>
+<CategoryName>Polos</CategoryName>
+<SeeMoreLabel>Shortsleeve Shirts by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shortsleeve-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2007-01-05</ExtractDate>
+</Product>
+</SearchResult>
