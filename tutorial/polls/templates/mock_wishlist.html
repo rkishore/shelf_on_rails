@@ -17,7 +17,7 @@
 		{% for item in price_wishlist%}
 			{% if forloop.first %}<tr><td></td><td>Express</td><td>J.Crew</td><td>Banana Republic</td>{% endif %}
 			{% if forloop.counter0|divisibleby:3 %}</tr><tr><td>Wishlist {% widthratio forloop.counter0 3 1 %}</td>{% endif %}
-			<td> [{{item.cost}}, {{item.savings}},{{item.free_shipping}}]</td>
+			<td> [{{item.orig_cost}}, {{item.cost}},{{item.free_shipping}}]</td>
 			{% if forloop.last %}</tr>{% endif %}	
 		{% endfor %}
 		</table>

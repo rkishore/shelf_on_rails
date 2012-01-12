@@ -300,9 +300,11 @@ def check_shipping(coupon, total_price):
         return False
     #return shipping_cost
 
-def base_price(item1, item2):
+def base_price(itemlist):
     shipping_cost = DEFAULT_SHIPPING_COST
-    base = float(item1["price"]) + float(item2["price"]) 
+    base = 0
+    for i in range(0, len(itemlist)):
+        base += float(itemlist[i]["price"])
     logging.debug("base_price: " + str(base))
     return base
 
@@ -723,8 +725,9 @@ def _apply_promotion(wish_list, promo):
     
     #print cur_items
     
-    cur_sale = current_sale_price(cur_items)
-
+    #cur_sale = current_sale_price(cur_items)
+    cur_sale = base_price(cur_items)
+    
     #cur_coupon = coupon_jcrew_dec_18
     #cur_coupon = coupon_express_dec_22
     for i in range(0, len(cur_items)):

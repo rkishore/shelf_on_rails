@@ -155,3 +155,96 @@ class Categories(models.Model):
 class WishlistM(models.Model):
     brand = models.ForeignKey(Brands, default='Nil')
 
+
+
+class Demand(models.Model):
+    '''
+    This model holds the demand object. We are going to store our analysis for 
+    each demand in the DB.
+    '''
+    NUM_CHOICES = (
+                   (0, 0),
+                   (1, 1),
+                   (2, 2),
+                   (3, 3)
+                   )
+    
+    GENDER_CHOICES = (
+                      ('M', 'MALE'),
+                      ('F', 'FEMALE'),
+                      ('A', 'ALL'),
+                      )
+    num_shirts = models.IntegerField(choices = NUM_CHOICES)
+    num_sweaters = models.IntegerField(choices = NUM_CHOICES)
+    num_skirts = models.IntegerField(choices = NUM_CHOICES)
+    num_jeans = models.IntegerField(choices = NUM_CHOICES)
+    gender = models.CharField(max_length=6, choices=GENDER_CHOICES, default='A')
+    total_items = models.IntegerField()
+    def __unicode__(self):
+        return "Demand: Shirt: " + str(self.num_shirts) + " Sweaters: " + str(self.num_sweaters) + \
+                " Skirts: " + str(self.num_skirts) + " Jeans: " + str(self.num_jeans) + " Gender: " + \
+                str(self.gender)
+    
+class ItemList(models.Model):
+    ''' 
+    This model holds the items that satisfy the demand
+    related_name field is required since we have multiple fields in this
+    model that have same ForeignKey class: item.
+    Django automatically creates a reverse-mapping from Items model to this
+    ItemList model. For each item in the Items table, there will be a manager
+    called item.itemlist_set which can be used to find all itemlist objects that
+    have a given item. However, since we have multiple items in the itemlist table,
+    django gets confused about what name to give each. Thus, we provide a related_name
+    to disambiguate this.
+    '''
+    item1 = models.ForeignKey(Items, default='Nil', related_name = "itemlist1")
+    item2 = models.ForeignKey(Items, default='Nil', related_name = "itemlist2")    
+    item3 = models.ForeignKey(Items, default='Nil', related_name = "itemlist3")    
+    item4 = models.ForeignKey(Items, default='Nil', related_name = "itemlist4")    
+    item5 = models.ForeignKey(Items, default='Nil', related_name = "itemlist5")    
+    item6 = models.ForeignKey(Items, default='Nil', related_name = "itemlist6")    
+    item7 = models.ForeignKey(Items, default='Nil', related_name = "itemlist7")    
+    item8 = models.ForeignKey(Items, default='Nil', related_name = "itemlist8")    
+    item9 = models.ForeignKey(Items, default='Nil', related_name = "itemlist9")    
+    item10 = models.ForeignKey(Items, default='Nil', related_name = "itemlist10")    
+    item11 = models.ForeignKey(Items, default='Nil', related_name = "itemlist11")    
+    item12 = models.ForeignKey(Items, default='Nil', related_name = "itemlist12")    
+    item13 = models.ForeignKey(Items, default='Nil', related_name = "itemlist13")    
+    item14 = models.ForeignKey(Items, default='Nil', related_name = "itemlist14")    
+    item15 = models.ForeignKey(Items, default='Nil', related_name = "itemlist15")    
+    item16 = models.ForeignKey(Items, default='Nil', related_name = "itemlist16")
+    total_items = models.IntegerField(default='0')
+    
+    def __unicode__(self):
+        return "ItemList size: " + str(self.total_items)
+    
+class ResultForDemand(models.Model):
+    '''
+    Here we store the results for the demands. 
+    SELECTION_METRICS is used to select items from the Items DB
+    using the specific criteria: do we want to use the cheapest (Min)
+    or most expensive (Max) or average (Median)
+    '''
+    SELECTION_METRICS = (
+                         (0, 'MINIMUM'),
+                         (1, 'MAXIMUM'),
+                         (2, 'MEDIAN'),
+                         (3, 'RANDOM'),
+                         (4, 'USER'),                         
+                         )
+    demand = models.ForeignKey(Demand, default='Nil')
+    date = models.DateField('Date generated', default=datetime.now())
+    itemlist = models.ForeignKey(ItemList, default='Nil')
+    total_without_sale = models.FloatField(max_length=10, default='10.00')
+    total_with_sale = models.FloatField(max_length=10, default='10.00')
+    free_shipping = models.BooleanField(default='False')
+    store_name = models.ForeignKey(Brands, default='Nil')
+    item_selection_metric = models.IntegerField(choices = SELECTION_METRICS, default='0')
+    
+    
+    def __unicode__(self):
+        return "ResultForDemand: " + str(date) + " store: " + str(store_name) + " selection_metric: " + \
+                str(item_selection_metric)
+    
+    
+    

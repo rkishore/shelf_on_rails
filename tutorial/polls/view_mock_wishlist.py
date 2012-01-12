@@ -15,6 +15,7 @@ import logging
 from django.template import RequestContext
 from django.forms import ModelChoiceField, ChoiceField
 import copy
+from django.db.models import F
 
 
 #logging.basicConfig(format='%(message)s', level=logging.INFO)
@@ -32,7 +33,16 @@ cats = ("shirts", "jeans", "skirts", "sweaters")
 ''' Currently we have this as an in-memory array'''
 price_of_wishlist = []
 
+
+'''Our in-memory cache of db-query results. Later we 
+want to use memchached'''
 db_querysets = {}
+
+MINIMUM = 0
+MAXIMUM = 1
+MEDIAN = 2
+
+sort_order = 0
 class DemoWishlist(forms.Form):
     GENDER_CHOICES = (
                    (0, 'MALE'),
@@ -45,6 +55,7 @@ class DemoWishlist(forms.Form):
                    (2, 2),
                    (3, 3)
                    )
+   
     shirts = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
     jeans = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
     skirts = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
@@ -79,7 +90,7 @@ def start(request):
             result += val_str    
     else:
         form = DemoWishlist()
-        result += calculate_price_for_simulated_demands()
+        result += calculate_price_for_simulated_demands(MEDIAN)
     logging.debug(price_of_wishlist)    
     return render_to_response('mock_wishlist.html', 
                               {'form': form, 
@@ -87,7 +98,7 @@ def start(request):
                                'price_wishlist': price_of_wishlist,}, 
                               context_instance=RequestContext(request))
 
-def calculate_price_for_simulated_demands():
+def calculate_price_for_simulated_demands(sort_order):
     num = 0
     date = datetime.date.today()
     result = ""
@@ -101,16 +112,18 @@ def calculate_price_for_simulated_demands():
                         demand[cats[1]] = j
                         demand[cats[2]] = k
                         demand[cats[3]] = l
+                        demand['gender'] = 0
+                        demand['sort_order'] = sort_order
                         logging.debug(demand)
                         num += 1
                         result += "<br>==================================<br>"
                         result += "<br>=== DEMAND: " + str(demand) + "<br>"
                         val_str, val_cost, val_savings, val_free_shipping = calculate_price_for_demand(demand, date)
-                        
+                        logging.critical("Done with demand " + str(num))
                         result += val_str
     t2 = datetime.datetime.now()
     t3 = t2 - t1
-    print t3                    
+    logging.critical("Total time: " + str(t3))                    
     return result
 
 def calculate_price_for_demand(demand, date):
@@ -129,7 +142,7 @@ def calculate_price_for_demand(demand, date):
         result += "<p>" + str(store) 
         #date_ = datetime.date(2012, 1, 5)
         tt0 = datetime.datetime.now()
-        stats_in_html_syntax, wishlist = create_sample_wishlist(store, date, cats, demand)
+        stats_in_html_syntax, wishlist = create_sample_wishlist(i, store, date, cats, demand)
         tt1 = datetime.datetime.now()
         #result += "<br> " + stats_in_html_syntax
         result += "<br>" + str(wishlist) 
@@ -137,22 +150,24 @@ def calculate_price_for_demand(demand, date):
                                                                                     store, i, date)
         tt2 = datetime.datetime.now()
         price_of_wishlist.append({"store": store,
+                                  "orig_cost": orig_cost,
                                   "cost": total_cost,
                                   "savings": savings,
                                   "free_shipping": shipping,
                                   })
         result += "<br> Original cost " + str(orig_cost) + " Total cost after promo " \
                + str(total_cost) + " Savings " + str(savings) + " Shipping " + str(shipping) 
-        logging.debug( "RESULT:: " + str(store) + " " + str(total_cost) + " " + str(savings) + " " +\
-             str(len(wishlist)) + " " + str(wishlist))
+        print demand
+        logging.critical( "RESULT:: " + str(store) + " " + str(orig_cost) + " " + str(total_cost) + " " + str(savings) + " " +\
+             str(len(wishlist)) + " " + str(demand['sort_order']) + " " + str(wishlist))
         result += "</p>"
         i += 1
         time_sample_wishlist = tt1 - tt0
         time_price_for_wishlist = tt2 - tt1
-        print "\t" + str(time_sample_wishlist) + " " + str(time_price_for_wishlist)
+        logging.debug("\t" + str(time_sample_wishlist) + " " + str(time_price_for_wishlist))
     t2 = datetime.datetime.now()
     t3 = t2 - t1
-    print t3
+    logging.debug(t3)
     return (result, total_cost, savings, shipping)
 
 
@@ -175,7 +190,7 @@ def fill_demand(form):
     return demand
 
 
-def create_sample_wishlist(store_name, date, categories, demand):
+def create_sample_wishlist(store_id, store_name, date, categories, demand):
     '''
     Construct a sample wishlist for store_name on date. demand[i] is
     the required number of items of categories[i]
@@ -185,12 +200,12 @@ def create_sample_wishlist(store_name, date, categories, demand):
     for cat in categories:
         if demand[cat] > 0:
             tt0 = datetime.datetime.now()
-            max, min, avg, num, item_list = find_items(store_name, cat, 'A', date)
+            max, min, avg, num, item_list = find_items(store_id, store_name, cat, 'A', date)
             tt1 = datetime.datetime.now()
             result += "<br>Category " + str(cat) + " Max " + str(max) + " Min " \
                    + str(min) + " Avg " + str(avg) + " Num " + str(num) + "<br>"
             k = demand[cat]
-            items = find_cheapest_k_items(item_list, int(k))
+            items = find_k_items(item_list, int(k), int(demand['sort_order']))
             tt2 = datetime.datetime.now()
             for item in items:            
                 logging.debug(item)
@@ -199,7 +214,7 @@ def create_sample_wishlist(store_name, date, categories, demand):
                                    "price": float(item.price),
                                    "sale_price": float(item.saleprice)} )
             tt3 = datetime.datetime.now()
-            print "\t\t"+ str(tt1 - tt0) + " " + str(tt2-tt1) + " " + str(tt3 - tt2)
+            logging.debug("\t\t"+ str(tt1 - tt0) + " " + str(tt2-tt1) + " " + str(tt3 - tt2))
             #print "Store: " + store_name + ": [" + str(max) + ", " + str(min) + ", " + str(avg) + "] #" + str(num)
     
     #print "Current wishlist: " + str(_wishlist)
@@ -217,36 +232,43 @@ def find_price_of_wishlist_for_store(wishlist, store_name, store_id, date_):
     return (orig_cost, total_cost, savings, shipping)
 
 
-def find_cheapest_k_items(item_list, k):
+def find_k_items(item_list, k, sort_order):
     '''
-    Find cheapest k items in the item_list
+    Find  k items in the item_list
     based on the saleprice parameter
+    and the sort_order defined in the forms
+    
     '''
     try:
-        potential_items = item_list.order_by('saleprice')#.values() #filter(saleprice = min)
-        logging.debug("ASSUMPTION: k is larger than the size of the set")
-        #print potential_items[0:k]
-        return potential_items[0:k]
+        if sort_order == MINIMUM:
+            potential_items = item_list.order_by('saleprice')#.values() #filter(saleprice = min)
+            return potential_items[0:k]
+        if sort_order == MAXIMUM:
+            potential_items = item_list.order_by('-saleprice')
+            return potential_items[0:k]
+        if sort_order == MEDIAN:
+            potential_items = item_list.order_by('saleprice')
+            logging.debug("ASSUMPTION: k is larger than the size of the set")
+            #print potential_items[0:k]
+            num = potential_items.count()
+            mid = num/2
+            start = mid - k/2 - 1
+            end = mid + k/2 
+            logging.critical("Total " + str(num) + " mid " + str(mid) + " k " + str(k) + " start " + str(start) + " end " + str(end))
+            return potential_items[start:end]
     except Items.DoesNotExist:
         raise Http404
 
     return []
 
-
-def find_items(store_name, category, gender, date):
+def find_qset(store_name, date, gender):
     
-    qset = db_querysets[store_name]
-    if qset != None:
-        max_ = qset['max_']
-        min_ = qset['min_']
-        avg_ = qset['avg_']
-        num_ = qset['num_']
-        return max_, min_, avg_, num_, qset         
-    '''
-    Search in the item database for items from category, gender, store_name
-    and with specific insertion date
-    '''       
     try:
+        qset = db_querysets[store_name]
+            
+        #if qset != None:
+        return qset['data']
+    except KeyError:
         day = datetime.timedelta(days=1)
         d_start = date - day
         d_end = date
@@ -258,6 +280,16 @@ def find_items(store_name, category, gender, date):
             potential_items2 = potential_items.filter(gender = gender)
             logging.debug("Size after gender filter: " + str(len(potential_items2)))
             potential_items = potential_items2
+        qset = {'store_name': store_name,
+                'data': potential_items,
+                }
+        db_querysets[store_name] = qset
+        return potential_items
+
+def find_items(store_id, store_name, category, gender, date):
+          
+    try:
+        potential_items = find_qset(store_name, date, gender)
         # filter only if category is given
         potential_items3 = potential_items.filter(cat1__contains = category)
         logging.debug("Size after category filter: " + str(len(potential_items3)) + " " + category)
@@ -267,13 +299,7 @@ def find_items(store_name, category, gender, date):
         min_ = potential_items.aggregate(Min('saleprice'))['saleprice__min']
         avg_ = potential_items.aggregate(Avg('saleprice'))['saleprice__avg']
         num_ = potential_items.aggregate(Count('saleprice'))['saleprice__count']
-        qset = {'store_name': store_name,
-                     'max_': max_,
-                     'min_': min_,
-                     'avg_': avg_,
-                     'num_': num_,
-                }
-        db_querysets[store_name] = qset
+        
         return max_, min_, avg_, num_, potential_items
     except Items.DoesNotExist:
         raise Http404
