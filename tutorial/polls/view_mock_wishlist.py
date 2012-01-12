@@ -4,7 +4,7 @@ import datetime
 from django.views.generic import list_detail
 from django.shortcuts import render_to_response
 from django import forms
-from polls.models import Promoinfo, Items, Brands, Categories
+from polls.models import Promoinfo, Items, Brands, Categories, Demand, ItemList, ResultForDemand
 from django.db.models import Avg, Max, Min, Count
 import match
 import promotion
@@ -16,6 +16,7 @@ from django.template import RequestContext
 from django.forms import ModelChoiceField, ChoiceField
 import copy
 from django.db.models import F
+from itertools import chain
 
 
 #logging.basicConfig(format='%(message)s', level=logging.INFO)
@@ -114,11 +115,12 @@ def calculate_price_for_simulated_demands(sort_order):
                         demand[cats[3]] = l
                         demand['gender'] = 0
                         demand['sort_order'] = sort_order
+                        demand_in_db = insert_demand_in_db(demand)
                         logging.debug(demand)
                         num += 1
                         result += "<br>==================================<br>"
                         result += "<br>=== DEMAND: " + str(demand) + "<br>"
-                        val_str, val_cost, val_savings, val_free_shipping = calculate_price_for_demand(demand, date)
+                        val_str, val_cost, val_savings, val_free_shipping = calculate_price_for_demand(demand, date, demand_in_db)
                         logging.critical("Done with demand " + str(num))
                         result += val_str
     t2 = datetime.datetime.now()
@@ -126,7 +128,120 @@ def calculate_price_for_simulated_demands(sort_order):
     logging.critical("Total time: " + str(t3))                    
     return result
 
-def calculate_price_for_demand(demand, date):
+def insert_demand_in_db(demand):
+    total = int(demand['shirts']) + int(demand['sweaters']) + int(demand['skirts']) + int(demand['jeans'])
+    d = Demand(num_shirts = int(demand['shirts']),
+               num_sweaters = int(demand['sweaters']),
+               num_skirts = int(demand['skirts']),
+               num_jeans = int(demand['jeans']),
+               gender = int(demand['gender']),
+               total_items = total)
+    d.save()
+    return d
+
+def initialize_itemlist_entry(w):
+    w.total_items = 0
+    w.item1 = None
+    w.item2 = None
+    w.item3 = None
+    w.item4 = None
+    w.item5 = None
+    w.item6 = None
+    w.item7 = None
+    w.item8 = None
+    w.item9 = None
+    w.item10 = None
+    w.item11 = None
+    w.item12 = None
+    w.item13 = None
+    w.item14 = None
+    w.item15 = None
+    w.item16 = None
+    
+
+def insert_itemlist_in_db(list_of_querysets):
+    w = ItemList()
+    initialize_itemlist_entry(w)
+    num = len(list_of_querysets)
+    w.total_items = num
+
+    if len(list_of_querysets) == 0:
+        return w
+    result_list = list_of_querysets[0]
+    for i in range(1, num):
+        l = list_of_querysets[i]
+        result_list = chain(result_list, l)
+
+    itemlist_queryset = list(result_list)
+    
+    logging.debug("Size of itemlist " + str(num))
+    if num == 1:
+        w.item1 = itemlist_queryset[0]
+    elif num == 2:
+        w.item1 = itemlist_queryset[0]
+        w.item2 = itemlist_queryset[1]
+    elif num == 3:
+        w.item1 = itemlist_queryset[0]
+        w.item2 = itemlist_queryset[1]
+        w.item3 = itemlist_queryset[2]
+    elif num == 4:
+        w.item1 = itemlist_queryset[0]
+        w.item2 = itemlist_queryset[1]
+        w.item3 = itemlist_queryset[2]
+        w.item4 = itemlist_queryset[3]
+    elif num == 5:
+        w.item1 = itemlist_queryset[0]
+        w.item2 = itemlist_queryset[1]
+        w.item3 = itemlist_queryset[2]
+        w.item4 = itemlist_queryset[3]
+        w.item5 = itemlist_queryset[4]
+    elif num == 6:
+        w.item1 = itemlist_queryset[0]
+        w.item2 = itemlist_queryset[1]
+        w.item3 = itemlist_queryset[2]
+        w.item4 = itemlist_queryset[3]
+        w.item5 = itemlist_queryset[4]
+        w.item6 = itemlist_queryset[5]
+    elif num == 7:
+        w.item1 = itemlist_queryset[0]
+        w.item2 = itemlist_queryset[1]
+        w.item3 = itemlist_queryset[2]
+        w.item4 = itemlist_queryset[3]
+        w.item5 = itemlist_queryset[4]
+        w.item6 = itemlist_queryset[5]
+        w.item7 = itemlist_queryset[6]
+    elif num == 8:
+        w.item1 = itemlist_queryset[0]
+        w.item2 = itemlist_queryset[1]
+        w.item3 = itemlist_queryset[2]
+        w.item4 = itemlist_queryset[3]
+        w.item5 = itemlist_queryset[4]
+        w.item6 = itemlist_queryset[5]
+        w.item7 = itemlist_queryset[6]
+        w.item8 = itemlist_queryset[7]
+    logging.debug("Creating entry in ItemList table: " + str(w))
+    w.save()
+    return w
+        
+def insert_result_in_db(demand_, itemlist_, date_, 
+                        cost_without_promo, cost_with_promo, 
+                        free_shipping_, store_name_, sort_order):
+    logging.critical("Creating entry in ResultForDemand table")
+    r = ResultForDemand(demand = demand_,
+                        itemlist = itemlist_,
+                        date = date_,
+                        total_without_sale = cost_without_promo,
+                        total_with_sale = cost_with_promo,
+                        free_shipping = free_shipping_,
+                        store_name = None,
+                        store_string = store_name_,
+                        item_selection_metric = sort_order,
+                         )
+    r.save()
+    print r
+    return r
+    
+def calculate_price_for_demand(demand, date, demand_in_db):
     '''
     Calculate price for the given demand from each store.
     This function assumes that the demand is a number for each category,
@@ -142,12 +257,14 @@ def calculate_price_for_demand(demand, date):
         result += "<p>" + str(store) 
         #date_ = datetime.date(2012, 1, 5)
         tt0 = datetime.datetime.now()
-        stats_in_html_syntax, wishlist = create_sample_wishlist(i, store, date, cats, demand)
+        stats_in_html_syntax, wishlist, wishlist_queryset = create_sample_wishlist(i, store, date, cats, demand)
         tt1 = datetime.datetime.now()
         #result += "<br> " + stats_in_html_syntax
         result += "<br>" + str(wishlist) 
         orig_cost, total_cost, savings, shipping = find_price_of_wishlist_for_store(wishlist, 
                                                                                     store, i, date)
+        w = insert_itemlist_in_db(wishlist_queryset)
+        r = insert_result_in_db(demand_in_db, w, date, orig_cost, total_cost, shipping, store, int(demand['sort_order']))
         tt2 = datetime.datetime.now()
         price_of_wishlist.append({"store": store,
                                   "orig_cost": orig_cost,
@@ -190,6 +307,15 @@ def fill_demand(form):
     return demand
 
 
+def combine_qsets(qset1, qset2):
+    if qset1 == None:
+        return qset2
+    if qset2 == None:
+        return qset1
+    return qset1 | qset2
+    
+
+
 def create_sample_wishlist(store_id, store_name, date, categories, demand):
     '''
     Construct a sample wishlist for store_name on date. demand[i] is
@@ -197,6 +323,7 @@ def create_sample_wishlist(store_id, store_name, date, categories, demand):
     '''
     _wishlist = []
     result = ""
+    item_queryset = []#Items.objects.none()
     for cat in categories:
         if demand[cat] > 0:
             tt0 = datetime.datetime.now()
@@ -206,6 +333,14 @@ def create_sample_wishlist(store_id, store_name, date, categories, demand):
                    + str(min) + " Avg " + str(avg) + " Num " + str(num) + "<br>"
             k = demand[cat]
             items = find_k_items(item_list, int(k), int(demand['sort_order']))
+            '''
+            if item_queryset == None:
+                item_queryset = items
+            else: 
+                item_queryset = item_queryset | items
+            '''
+            #item_queryset |= items
+            item_queryset.append(items)
             tt2 = datetime.datetime.now()
             for item in items:            
                 logging.debug(item)
@@ -218,7 +353,7 @@ def create_sample_wishlist(store_id, store_name, date, categories, demand):
             #print "Store: " + store_name + ": [" + str(max) + ", " + str(min) + ", " + str(avg) + "] #" + str(num)
     
     #print "Current wishlist: " + str(_wishlist)
-    return (result, _wishlist)
+    return (result, _wishlist, item_queryset)
     
 
 def find_price_of_wishlist_for_store(wishlist, store_name, store_id, date_):
@@ -273,6 +408,7 @@ def find_qset(store_name, date, gender):
         d_start = date - day
         d_end = date
         items_on_date = Items.objects.filter(insert_date__range = (d_start, d_end))
+        print items_on_date.query
         potential_items = items_on_date.filter(brand__name = store_name)#.filter(insert_date = date)
         logging.debug("Number of items after store filter: " + str(len(potential_items)))
         # filter only if the category is specified
@@ -284,6 +420,7 @@ def find_qset(store_name, date, gender):
                 'data': potential_items,
                 }
         db_querysets[store_name] = qset
+        #print potential_items[0]
         return potential_items
 
 def find_items(store_id, store_name, category, gender, date):

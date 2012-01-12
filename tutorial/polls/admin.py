@@ -1,4 +1,4 @@
-from polls.models import Poll, Items, Brands, Categories
+from polls.models import Poll, Items, Brands, Categories, Demand, ResultForDemand, ItemList
 from polls.models import Promoinfo
 from django.contrib import admin
 
@@ -7,7 +7,9 @@ admin.site.register(Promoinfo)
 admin.site.register(Items)
 admin.site.register(Brands)
 admin.site.register(Categories)
-
+admin.site.register(Demand)
+admin.site.register(ResultForDemand)
+admin.site.register(ItemList)
 '''
 class PromotionAdmin(admin.ModelAdmin):
     fieldsets = [

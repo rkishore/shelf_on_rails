@@ -197,22 +197,22 @@ class ItemList(models.Model):
     django gets confused about what name to give each. Thus, we provide a related_name
     to disambiguate this.
     '''
-    item1 = models.ForeignKey(Items, default='Nil', related_name = "itemlist1")
-    item2 = models.ForeignKey(Items, default='Nil', related_name = "itemlist2")    
-    item3 = models.ForeignKey(Items, default='Nil', related_name = "itemlist3")    
-    item4 = models.ForeignKey(Items, default='Nil', related_name = "itemlist4")    
-    item5 = models.ForeignKey(Items, default='Nil', related_name = "itemlist5")    
-    item6 = models.ForeignKey(Items, default='Nil', related_name = "itemlist6")    
-    item7 = models.ForeignKey(Items, default='Nil', related_name = "itemlist7")    
-    item8 = models.ForeignKey(Items, default='Nil', related_name = "itemlist8")    
-    item9 = models.ForeignKey(Items, default='Nil', related_name = "itemlist9")    
-    item10 = models.ForeignKey(Items, default='Nil', related_name = "itemlist10")    
-    item11 = models.ForeignKey(Items, default='Nil', related_name = "itemlist11")    
-    item12 = models.ForeignKey(Items, default='Nil', related_name = "itemlist12")    
-    item13 = models.ForeignKey(Items, default='Nil', related_name = "itemlist13")    
-    item14 = models.ForeignKey(Items, default='Nil', related_name = "itemlist14")    
-    item15 = models.ForeignKey(Items, default='Nil', related_name = "itemlist15")    
-    item16 = models.ForeignKey(Items, default='Nil', related_name = "itemlist16")
+    item1 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist1")
+    item2 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist2")    
+    item3 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist3")    
+    item4 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist4")    
+    item5 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist5")    
+    item6 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist6")    
+    item7 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist7")    
+    item8 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist8")    
+    item9 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist9")    
+    item10 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist10")    
+    item11 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist11")    
+    item12 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist12")    
+    item13 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist13")    
+    item14 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist14")    
+    item15 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist15")    
+    item16 = models.ForeignKey(Items, blank=True, null=True, default='Nil', related_name = "itemlist16")
     total_items = models.IntegerField(default='0')
     
     def __unicode__(self):
@@ -232,19 +232,20 @@ class ResultForDemand(models.Model):
                          (3, 'RANDOM'),
                          (4, 'USER'),                         
                          )
-    demand = models.ForeignKey(Demand, default='Nil')
+    demand = models.ForeignKey(Demand, blank=True, null=True, default='Nil')
     date = models.DateField('Date generated', default=datetime.now())
-    itemlist = models.ForeignKey(ItemList, default='Nil')
+    itemlist = models.ForeignKey(ItemList, blank=True, null=True, default='Nil')
     total_without_sale = models.FloatField(max_length=10, default='10.00')
     total_with_sale = models.FloatField(max_length=10, default='10.00')
     free_shipping = models.BooleanField(default='False')
-    store_name = models.ForeignKey(Brands, default='Nil')
+    store_name = models.ForeignKey(Brands, blank=True, null=True, default='Nil')
+    store_string = models.CharField(max_length = 10, default='Nil')
     item_selection_metric = models.IntegerField(choices = SELECTION_METRICS, default='0')
     
     
     def __unicode__(self):
-        return "ResultForDemand: " + str(date) + " store: " + str(store_name) + " selection_metric: " + \
-                str(item_selection_metric)
+        return "ResultForDemand: " + str(self.date) + " store: " + str(self.store_string) + " selection_metric: " + \
+                str(self.item_selection_metric)
     
     
     
