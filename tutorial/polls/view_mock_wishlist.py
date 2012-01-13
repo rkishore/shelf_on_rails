@@ -65,7 +65,7 @@ class DemoWishlist(forms.Form):
     jeans = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
     skirts = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
     sweaters = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
-    gender = forms.ChoiceField(choices = GENDER_CHOICES, initial=1)
+    gender = forms.ChoiceField(choices = GENDER_CHOICES, initial=0)
     selection_criteria = forms.ChoiceField(choices = SELECTION_CRITERIA, initial=0)
     #size = forms.IntegerField()
     #color = forms.IntegerField()
@@ -99,7 +99,7 @@ def start(request):
             result += val_str    
     else:
         form = DemoWishlist()
-        result += calculate_price_for_simulated_demands(MAXIMUM, date)
+        #result += calculate_price_for_simulated_demands(MAXIMUM, date)
     logging.debug(price_of_wishlist)    
     return render_to_response('mock_wishlist.html', 
                               {'form': form, 
