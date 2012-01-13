@@ -25,7 +25,7 @@ from itertools import chain
     wishlists to obtain insights. NUM_ITEMS_SIMULATED is the number of
     choices we have for each category.
 '''
-NUM_ITEMS_SIMULATED = 2
+NUM_ITEMS_SIMULATED = 3
 
 stores = ("Express", "J.Crew", "Banana Republic")
 cats = ("shirts", "jeans", "skirts", "sweaters")    
@@ -91,7 +91,7 @@ def start(request):
             result += val_str    
     else:
         form = DemoWishlist()
-        result += calculate_price_for_simulated_demands(MEDIAN)
+        result += calculate_price_for_simulated_demands(MAXIMUM)
     logging.debug(price_of_wishlist)    
     return render_to_response('mock_wishlist.html', 
                               {'form': form, 
@@ -226,7 +226,7 @@ def insert_itemlist_in_db(list_of_querysets):
 def insert_result_in_db(demand_, itemlist_, date_, 
                         cost_without_promo, cost_with_promo, 
                         free_shipping_, store_name_, sort_order):
-    logging.critical("Creating entry in ResultForDemand table")
+    logging.debug("Creating entry in ResultForDemand table")
     r = ResultForDemand(demand = demand_,
                         itemlist = itemlist_,
                         date = date_,
@@ -238,7 +238,7 @@ def insert_result_in_db(demand_, itemlist_, date_,
                         item_selection_metric = sort_order,
                          )
     r.save()
-    print r
+    logging.debug(r)
     return r
     
 def calculate_price_for_demand(demand, date, demand_in_db):
@@ -274,8 +274,8 @@ def calculate_price_for_demand(demand, date, demand_in_db):
                                   })
         result += "<br> Original cost " + str(orig_cost) + " Total cost after promo " \
                + str(total_cost) + " Savings " + str(savings) + " Shipping " + str(shipping) 
-        print demand
-        logging.critical( "RESULT:: " + str(store) + " " + str(orig_cost) + " " + str(total_cost) + " " + str(savings) + " " +\
+        logging.debug(str(demand))
+        logging.debug( "RESULT:: " + str(store) + " " + str(orig_cost) + " " + str(total_cost) + " " + str(savings) + " " +\
              str(len(wishlist)) + " " + str(demand['sort_order']) + " " + str(wishlist))
         result += "</p>"
         i += 1
@@ -284,7 +284,7 @@ def calculate_price_for_demand(demand, date, demand_in_db):
         logging.debug("\t" + str(time_sample_wishlist) + " " + str(time_price_for_wishlist))
     t2 = datetime.datetime.now()
     t3 = t2 - t1
-    logging.debug(t3)
+    logging.critical(t3)
     return (result, total_cost, savings, shipping)
 
 
@@ -333,13 +333,6 @@ def create_sample_wishlist(store_id, store_name, date, categories, demand):
                    + str(min) + " Avg " + str(avg) + " Num " + str(num) + "<br>"
             k = demand[cat]
             items = find_k_items(item_list, int(k), int(demand['sort_order']))
-            '''
-            if item_queryset == None:
-                item_queryset = items
-            else: 
-                item_queryset = item_queryset | items
-            '''
-            #item_queryset |= items
             item_queryset.append(items)
             tt2 = datetime.datetime.now()
             for item in items:            
@@ -389,26 +382,29 @@ def find_k_items(item_list, k, sort_order):
             mid = num/2
             start = mid - k/2 - 1
             end = mid + k/2 
-            logging.critical("Total " + str(num) + " mid " + str(mid) + " k " + str(k) + " start " + str(start) + " end " + str(end))
+            logging.debug("Total " + str(num) + " mid " + str(mid) + " k " + str(k) + " start " + str(start) + " end " + str(end))
             return potential_items[start:end]
     except Items.DoesNotExist:
         raise Http404
 
     return []
 
-def find_qset(store_name, date, gender):
+def find_qset(store_name, date, gender, category):
     
     try:
-        qset = db_querysets[store_name]
+        qset = db_querysets[store_name + category]
             
         #if qset != None:
         return qset['data']
     except KeyError:
-        day = datetime.timedelta(days=1)
-        d_start = date - day
-        d_end = date
+        logging.critical("Didn't find: " + store_name + " " + str(date) + " " + category)
+        start_night = datetime.time(0)
+        mid_night = datetime.time(23, 59, 59)
+        #day = datetime.timedelta(hours=23, minutes=59, seconds=59)
+        d_start = datetime.datetime.combine(date, start_night)
+        d_end = datetime.datetime.combine(date, mid_night)
         items_on_date = Items.objects.filter(insert_date__range = (d_start, d_end))
-        print items_on_date.query
+        logging.debug("QUERY: " + str(items_on_date.query))
         potential_items = items_on_date.filter(brand__name = store_name)#.filter(insert_date = date)
         logging.debug("Number of items after store filter: " + str(len(potential_items)))
         # filter only if the category is specified
@@ -416,27 +412,36 @@ def find_qset(store_name, date, gender):
             potential_items2 = potential_items.filter(gender = gender)
             logging.debug("Size after gender filter: " + str(len(potential_items2)))
             potential_items = potential_items2
+        
+        potential_items3 = potential_items.filter(cat1__contains = category)
+        logging.debug("Size after category filter: " + str(len(potential_items3)) + " " + category)
+        potential_items = potential_items3
+        
         qset = {'store_name': store_name,
+                'category': category,
                 'data': potential_items,
                 }
-        db_querysets[store_name] = qset
+        
+        db_querysets[store_name + category] = qset
         #print potential_items[0]
         return potential_items
 
 def find_items(store_id, store_name, category, gender, date):
           
     try:
-        potential_items = find_qset(store_name, date, gender)
+        potential_items = find_qset(store_name, date, gender, category)
         # filter only if category is given
-        potential_items3 = potential_items.filter(cat1__contains = category)
-        logging.debug("Size after category filter: " + str(len(potential_items3)) + " " + category)
-        potential_items = potential_items3
         
+        '''
         max_ = potential_items.aggregate(Max('saleprice'))['saleprice__max']
         min_ = potential_items.aggregate(Min('saleprice'))['saleprice__min']
         avg_ = potential_items.aggregate(Avg('saleprice'))['saleprice__avg']
         num_ = potential_items.aggregate(Count('saleprice'))['saleprice__count']
-        
+        '''
+        max_ = 0
+        min_ = 0
+        avg_ = 0
+        num_ = potential_items.count()
         return max_, min_, avg_, num_, potential_items
     except Items.DoesNotExist:
         raise Http404
