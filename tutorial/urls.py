@@ -46,4 +46,6 @@ urlpatterns = patterns('',
     (r'^compare_promo/$', 'polls.views.compare_promo'),
     (r'^compare_pricerange/$', 'polls.views.compare_pricerange'),
     (r'^mock_wishlist/start/$', 'polls.view_mock_wishlist.start'),
+    (r'^statsup/$', 'polls.views.stats_update'),
+    (r'^statsplot/$', 'polls.views.stats_plot'),
 )

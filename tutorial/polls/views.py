@@ -29,6 +29,414 @@ GENDER_CHOICES = (
                    ('A', 'ALL'),
                    )
 
+######## Visualization Sample Code #############
+import gviz_api
+from django.db.models import F
+
+####### GLOBALS #######
+
+# Today's date
+date_today = None
+
+# All brands (queryset)
+br_info = None
+
+# All items for today's date (queryset)
+item_info_today = None
+
+# Brand-specific items today (queryset)
+br_spec_items_today = []
+
+# Product category-specific items today (queryset)
+prod_cat_spec_today = []
+
+# Gender-specific items today (queryset)
+gender_spec_today = []
+
+# Combo data (queryset)
+combo_item_info = []
+
+# Combo data (numbers)
+combo_item_info_stats = [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+
+def stats_update(request):
+    global date_today, items_info_today, br_info, prod_cat_info, br_spec_items_today, prod_cat_spec_today, combo_item_info_stats
+    
+    # Today's date
+    date_today = datetime.date.today() - datetime.timedelta(days=1)
+    
+    # How many total items available today?
+    item_info_today = Items.objects.filter(insert_date__contains=date_today)
+    
+    # How many brands?
+    br_info = Brands.objects.all()
+    
+    # How many total products available today in each brand?
+    br_spec_items_today = []
+    for i in range(0, len(br_info)):
+        br_spec_items_today.append(item_info_today.filter(brand=br_info[i].id).filter(gender='M'))
+        br_spec_items_today.append(item_info_today.filter(brand=br_info[i].id).filter(gender='F'))
+    
+    #for i in range(0, len(br_spec_items_today)):
+    #    print len(br_spec_items_today[i]), len(br_spec_saleitems_today[i])         
+
+    # How many total products available in each category today?
+    prod_cat_spec_today = []
+    for j in ['jeans', 'shirts', 'skirts', 'sweaters']:
+        prod_cat_spec_today.append(item_info_today.filter(cat1__contains=j) | item_info_today.filter(cat2__contains=j) | item_info_today.filter(cat3__contains=j) | item_info_today.filter(cat4__contains=j) | item_info_today.filter(cat5__contains=j))
+    
+    # How many total products available for each gender today?
+    for i in ['M', 'F']:
+        gender_spec_today.append(item_info_today.filter(gender=i))
+    
+    for i in range(0, len(br_info)):
+        for j in range(0,len(prod_cat_spec_today)):
+            combo_item_info.append(prod_cat_spec_today[j].filter(brand=br_info[i].id).order_by('price'))
+            it_avg = combo_item_info[j+i*len(prod_cat_spec_today)].aggregate(Avg('price'))['price__avg']
+            it_max = combo_item_info[j+i*len(prod_cat_spec_today)].aggregate(Max('price'))['price__max']
+            it_min = combo_item_info[j+i*len(prod_cat_spec_today)].aggregate(Min('price'))['price__min']
+            
+            it_sp = combo_item_info[j+i*len(prod_cat_spec_today)].filter(saleprice__lt=F('price'))
+            if (it_sp):
+                it_avg_sp = it_sp.aggregate(Avg('saleprice'))['saleprice__avg']
+                it_max_sp = it_sp.filter(saleprice__lt=F('price')).aggregate(Max('saleprice'))['saleprice__max']
+                it_min_sp = it_sp.filter(saleprice__lt=F('price')).aggregate(Min('saleprice'))['saleprice__min']
+            else:
+                it_avg_sp = it_avg
+                it_max_sp = it_max
+                it_min_sp = it_min
+            
+            it_median, it_q25, it_q75, it_median_sp, it_q25_sp, it_q75_sp = get_quartiles(combo_item_info[j+i*len(prod_cat_spec_today)], it_sp.order_by('saleprice'))
+            it_tnum, it_mnum, it_fnum, it_tnum_sp, it_mnum_sp, it_fnum_sp = get_product_counts(combo_item_info[j+i*len(prod_cat_spec_today)], it_sp)
+            combo_item_info_stats[0].append(it_avg)
+            combo_item_info_stats[1].append(it_max)
+            combo_item_info_stats[2].append(it_min)
+            combo_item_info_stats[3].append(it_median)
+            combo_item_info_stats[4].append(it_q25)
+            combo_item_info_stats[5].append(it_q75)
+            combo_item_info_stats[6].append(it_tnum)
+            combo_item_info_stats[7].append(it_mnum)
+            combo_item_info_stats[8].append(it_fnum)
+            combo_item_info_stats[9].append(it_avg_sp)
+            combo_item_info_stats[10].append(it_max_sp)
+            combo_item_info_stats[11].append(it_min_sp)
+            combo_item_info_stats[12].append(it_median_sp)
+            combo_item_info_stats[13].append(it_q25_sp)
+            combo_item_info_stats[14].append(it_q75_sp)
+            combo_item_info_stats[15].append(it_tnum_sp)
+            combo_item_info_stats[16].append(it_mnum_sp)
+            combo_item_info_stats[17].append(it_fnum_sp)
+            
+    #print br_info, len(br_spec_items_today), len(prod_cat_spec_today), len(combo_item_info)
+    print it_tnum_sp, it_mnum_sp, it_fnum_sp, it_median_sp, it_q25_sp, it_q75_sp 
+    return(HttpResponse('Initialized!'))
+
+def get_barplot_jsonstr(data_table, data_arr):    
+    
+    if (data_arr):
+        data = [{"category": "Jeans", "st1": data_arr[0][0], "st2": data_arr[1][0], "st3": data_arr[2][0]},
+                {"category": "Shirts", "st1": data_arr[0][1], "st2": data_arr[1][1], "st3": data_arr[2][1]},
+                {"category": "Skirts", "st1": data_arr[0][2], "st2": data_arr[1][2], "st3": data_arr[2][2]},
+                {"category": "Sweaters", "st1": data_arr[0][3], "st2": data_arr[1][3], "st3": data_arr[2][3]},
+                ]
+        data_table.LoadData(data)
+    else:
+        print "Inside get_barplot_jsonstr, empty data_arr", data_arr
+        
+    return data_table.ToJSon(columns_order=("category", "st1", "st2", "st3"))
+    
+def get_barplot_gp_jsonstr(data_table, data_arr, gender):    
+    
+    if (data_arr):
+        if ((gender == 'mcnt') or (gender == 'mcnt2')):
+            data = [{"category": "Jeans", "st1": data_arr[0][0], "st2": data_arr[1][0], "st3": data_arr[2][0]},
+                    {"category": "Shirts", "st1": data_arr[0][1], "st2": data_arr[1][1], "st3": data_arr[2][1]},
+                    {"category": "Sweaters", "st1": data_arr[0][3], "st2": data_arr[1][3], "st3": data_arr[2][3]},
+                    ]
+        elif ((gender == 'fcnt') or (gender == 'fcnt2')):
+            data = [{"category": "Jeans", "st1": data_arr[0][0], "st2": data_arr[1][0], "st3": data_arr[2][0]},
+                    {"category": "Skirts", "st1": data_arr[0][2], "st2": data_arr[1][2], "st3": data_arr[2][2]},
+                    {"category": "Sweaters", "st1": data_arr[0][3], "st2": data_arr[1][3], "st3": data_arr[2][3]},
+                    ]
+        data_table.LoadData(data)
+    else:
+        print "Inside get_barplot_gp_jsonstr, empty data_arr", data_arr
+        
+    return data_table.ToJSon(columns_order=("category", "st1", "st2", "st3"))
+
+def get_barplot_jsonstrs(**kwargs):
+    # Describe table
+    description = {"category": ("string", "Category"),
+                   "st1": ("number", "Express"),
+                   "st2": ("number", "J.Crew"),
+                   "st3": ("number", "Banana Republic")}
+    
+    # Load it into gviz_api.DataTable
+    data_table = gviz_api.DataTable(description)
+    
+    # Load data into table
+    json_str = {}
+    for i in ['cnt', 'avg', 'min', 'max']: 
+        json_str[i] = get_barplot_jsonstr(data_table, kwargs[i])
+    
+    for j in ['mcnt', 'fcnt']:
+        json_str[j] = get_barplot_gp_jsonstr(data_table, kwargs[j], j)
+    
+    return json_str['cnt'], json_str['avg'], json_str['min'], json_str['max'], json_str['mcnt'], json_str['fcnt']
+
+def get_barplot_ival_jsonstr(**kwargs):
+    
+    avgarr = kwargs['avg']
+    minarr = kwargs['min'] 
+    maxarr = kwargs['max']
+    
+    # Describe table
+    description = {"category": ("string", "Category"),
+                   "st1": ("number", "Express"),
+                   "st2": ("number", "", {'type':'number', 'role':'interval'}),
+                   "st3": ("number", "", {'type':'number', 'role':'interval'}),
+                   "st4": ("number", "J.Crew"),
+                   "st5": ("number", "", {'type':'number', 'role':'interval'}),
+                   "st6": ("number", "", {'type':'number', 'role':'interval'}),
+                   "st7": ("number", "Banana Republic"),
+                   "st8": ("number", "", {'type':'number', 'role':'interval'}),
+                   "st9": ("number", "", {'type':'number', 'role':'interval'})
+                   }
+    
+    # Load it into gviz_api.DataTable
+    data_table = gviz_api.DataTable(description)
+    if (avgarr and minarr and maxarr):
+        data = [{"category": "Jeans", 
+                 "st1": avgarr[0][0], "st2": minarr[0][0], "st3": maxarr[0][0], 
+                 "st4": avgarr[1][0], "st5": minarr[1][0], "st6": maxarr[1][0], 
+                 "st7": avgarr[2][0], "st8": minarr[2][0], "st9": maxarr[2][0]},
+                {"category": "Shirts", 
+                 "st1": avgarr[0][1], "st2": minarr[0][1], "st3": maxarr[0][1], 
+                 "st4": avgarr[1][1], "st5": minarr[1][1], "st6": maxarr[1][1],
+                 "st7": avgarr[2][1], "st8": minarr[2][1], "st9": maxarr[2][1]},
+                {"category": "Skirts", 
+                 "st1": avgarr[0][2], "st2": minarr[0][2], "st3": maxarr[0][2], 
+                 "st4": avgarr[1][2], "st5": minarr[1][2], "st6": maxarr[1][2],
+                 "st7": avgarr[2][2], "st8": minarr[2][2], "st9": maxarr[2][2]},
+                {"category": "Sweaters", 
+                 "st1": avgarr[0][3], "st2": minarr[0][3], "st3": maxarr[0][3], 
+                 "st4": avgarr[1][3], "st5": minarr[1][3], "st6": maxarr[1][3],
+                 "st7": avgarr[2][3], "st8": minarr[2][3], "st9": maxarr[2][3]},
+                ]
+        data_table.LoadData(data)
+    else:
+        print "Inside get_barplot_ival_jsonstr, empty arrs", avgarr, minarr, maxarr
+        
+    return data_table.ToJSon()
+    
+def get_cstick_str(idx, min_arr, q25_arr, median_arr, q75_arr, max_arr):
+    
+    data = [["Jeans", min_arr[idx][0], q25_arr[idx][0], median_arr[idx][0], q75_arr[idx][0], 
+             min_arr[idx+1][0], q25_arr[idx+1][0], median_arr[idx+1][0], q75_arr[idx+1][0], 
+             min_arr[idx+2][0], q25_arr[idx+2][0], median_arr[idx+2][0], q75_arr[idx+2][0]],
+            ["Shirts", min_arr[idx][1], q25_arr[idx][1], median_arr[idx][1], q75_arr[idx][1], 
+             min_arr[idx+1][1], q25_arr[idx+1][1], median_arr[idx+1][1], q75_arr[idx+1][1],
+             min_arr[idx+2][1], q25_arr[idx+2][1], median_arr[idx+2][1], q75_arr[idx+2][1]],
+            ["Skirts", min_arr[idx][2], q25_arr[idx][2], median_arr[idx][2], q75_arr[idx][2], 
+             min_arr[idx+1][2], q25_arr[idx+1][2], median_arr[idx+1][2], q75_arr[idx+1][2],
+             min_arr[idx+2][2], q25_arr[idx+2][2], median_arr[idx+2][2], q75_arr[idx+2][2]],
+            ["Sweaters", min_arr[idx][3], q25_arr[idx][3], median_arr[idx][3], q75_arr[idx][3], 
+             min_arr[idx+1][3], q25_arr[idx+1][3], median_arr[idx+1][3], q75_arr[idx+1][3],
+             min_arr[idx+2][3], q25_arr[idx+2][3], median_arr[idx+2][3], q75_arr[idx+2][3]],
+            ]    
+    
+    return data
+    
+def get_cstick_strs(**kwargs):
+    data_ret = get_cstick_str(0, kwargs['min'], kwargs['q25'], kwargs['median'], kwargs['q75'], kwargs['max'])
+    return data_ret
+    
+def get_quartiles(it_ob, it_ob2):
+    twentyfiveq = len(it_ob)/4
+    midpoint = len(it_ob)/2
+    seventyfiveq = len(it_ob)/2 + len(it_ob)/4
+    if (midpoint % 2):
+        median = (it_ob[midpoint].price + it_ob[midpoint+1].price) / 2
+        q25 = (it_ob[twentyfiveq].price + it_ob[twentyfiveq+1].price) / 2
+        q75 = (it_ob[seventyfiveq].price + it_ob[seventyfiveq+1].price) / 2
+    else:
+        median = it_ob[midpoint].price
+        q25 = it_ob[twentyfiveq].price
+        q75 = it_ob[seventyfiveq].price
+        
+    if (it_ob2):
+        twentyfiveq = len(it_ob2)/4
+        midpoint = len(it_ob2)/2
+        seventyfiveq = len(it_ob2)/2 + len(it_ob2)/4
+        if (midpoint % 2):
+            median_sp = (it_ob2[midpoint].price + it_ob2[midpoint+1].price) / 2
+            q25_sp = (it_ob2[twentyfiveq].price + it_ob2[twentyfiveq+1].price) / 2
+            q75_sp = (it_ob2[seventyfiveq].price + it_ob2[seventyfiveq+1].price) / 2
+        else:
+            median_sp = it_ob2[midpoint].price
+            q25_sp = it_ob2[twentyfiveq].price
+            q75_sp = it_ob2[seventyfiveq].price
+    else:
+        median_sp = median
+        q25_sp = q25
+        q75_sp = q75
+    
+    return median, q25, q75, median_sp, q25_sp, q75_sp
+
+def get_product_counts(it, it_sp):
+    
+    total_cnt = it.aggregate(Count('price'))['price__count']
+    men_cnt = it.filter(gender='M').aggregate(Count('price'))['price__count']
+    women_cnt = it.filter(gender='F').aggregate(Count('price'))['price__count']
+    
+    if (it_sp):
+        total_cnt_sp = it_sp.aggregate(Count('price'))['price__count']
+        men_cnt_sp = it_sp.filter(gender='M').aggregate(Count('price'))['price__count']
+        women_cnt_sp = it_sp.filter(gender='F').aggregate(Count('price'))['price__count']
+    else:
+        total_cnt_sp = total_cnt
+        men_cnt_sp = men_cnt
+        women_cnt_sp = women_cnt
+           
+    return total_cnt, men_cnt, women_cnt, total_cnt_sp, men_cnt_sp, women_cnt_sp
+    
+def stats_plot(request):
+        
+    avgarr = []
+    minarr = []
+    maxarr = []
+    medianarr = []
+    q25arr = []
+    q75arr = []
+    cntarr = []
+    mcntarr = []
+    fcntarr = []
+    
+    avgnumarr = []
+    minnumarr = []
+    maxnumarr = []
+    cntnumarr = [[],[],[]]
+    mediannumarr = []
+    q25numarr = []
+    q75numarr = []
+
+    avgarr_sp = []
+    minarr_sp = []
+    maxarr_sp = []
+    medianarr_sp = []
+    q25arr_sp = []
+    q75arr_sp = []
+    cntarr_sp = []
+    mcntarr_sp = []
+    fcntarr_sp = []
+    
+    avgnumarr_sp = []
+    minnumarr_sp = []
+    maxnumarr_sp = []
+    cntnumarr_sp = [[],[],[]]
+    mediannumarr_sp = []
+    q25numarr_sp = []
+    q75numarr_sp = []
+    
+    for i in range(0,len(combo_item_info)+1):
+        
+        if ((i > 0) and ((i % len(prod_cat_spec_today)) == 0)):
+            avgarr.append(avgnumarr)
+            minarr.append(minnumarr)
+            maxarr.append(maxnumarr)
+            medianarr.append(mediannumarr)
+            q25arr.append(q25numarr)
+            q75arr.append(q75numarr)
+            cntarr.append(cntnumarr[0])
+            mcntarr.append(cntnumarr[1])
+            fcntarr.append(cntnumarr[2])
+            
+            avgarr_sp.append(avgnumarr_sp)
+            minarr_sp.append(minnumarr_sp)
+            maxarr_sp.append(maxnumarr_sp)
+            medianarr_sp.append(mediannumarr_sp)
+            q25arr_sp.append(q25numarr_sp)
+            q75arr_sp.append(q75numarr_sp)
+            cntarr_sp.append(cntnumarr_sp[0])
+            mcntarr_sp.append(cntnumarr_sp[1])
+            fcntarr_sp.append(cntnumarr_sp[2])
+     
+            avgnumarr = []
+            minnumarr = []
+            maxnumarr = []
+            cntnumarr = [[],[],[]]
+            mediannumarr = []
+            q25numarr = []
+            q75numarr = []
+            
+            avgnumarr_sp = []
+            minnumarr_sp = []
+            maxnumarr_sp = []
+            cntnumarr_sp = [[],[],[]]
+            mediannumarr_sp = []
+            q25numarr_sp = []
+            q75numarr_sp = []
+            
+            if (i == len(combo_item_info)):
+                break
+                
+        avgnumarr.append(combo_item_info_stats[0][i])
+        maxnumarr.append(combo_item_info_stats[1][i])
+        minnumarr.append(combo_item_info_stats[2][i])
+        mediannumarr.append(combo_item_info_stats[3][i])
+        q25numarr.append(combo_item_info_stats[4][i])
+        q75numarr.append(combo_item_info_stats[5][i]) 
+        cntnumarr[0].append(combo_item_info_stats[6][i])
+        cntnumarr[1].append(combo_item_info_stats[7][i])
+        cntnumarr[2].append(combo_item_info_stats[8][i])
+        
+        avgnumarr_sp.append(combo_item_info_stats[9][i])
+        maxnumarr_sp.append(combo_item_info_stats[10][i])
+        minnumarr_sp.append(combo_item_info_stats[11][i])
+        mediannumarr_sp.append(combo_item_info_stats[12][i])
+        q25numarr_sp.append(combo_item_info_stats[13][i])
+        q75numarr_sp.append(combo_item_info_stats[14][i]) 
+        cntnumarr_sp[0].append(combo_item_info_stats[15][i])
+        cntnumarr_sp[1].append(combo_item_info_stats[16][i])
+        cntnumarr_sp[2].append(combo_item_info_stats[17][i])
+    #print "C: ", datetime.datetime.now()
+
+    #print avgarr, minarr, maxarr
+    
+    #print len(medianarr), len(avgarr)
+    
+    json1, json2, json3, json4, json8, json9 = get_barplot_jsonstrs(cnt=cntarr, avg=avgarr, min=minarr, max=maxarr, mcnt=mcntarr, fcnt=fcntarr)
+    json5 = get_cstick_strs(min=minarr, median=medianarr, q25=q25arr, q75=q75arr, max=maxarr)
+    json6 = get_barplot_ival_jsonstr(avg=avgarr, min=minarr, max=maxarr)
+    json7 = get_barplot_ival_jsonstr(avg=medianarr, min=minarr, max=q75arr)
+    
+    json10, json11, json12, json13, json14, json15 = get_barplot_jsonstrs(cnt=cntarr_sp, avg=avgarr_sp, min=minarr_sp, max=maxarr_sp, mcnt=mcntarr_sp, fcnt=fcntarr_sp)
+    json16 = get_cstick_strs(min=minarr_sp, median=medianarr_sp, q25=q25arr_sp, q75=q75arr_sp, max=maxarr_sp)
+    #json6 = get_barplot_ival_jsonstr(avg=avgarr, min=minarr, max=maxarr)
+    json17 = get_barplot_ival_jsonstr(avg=medianarr_sp, min=minarr_sp, max=q75arr_sp)
+    
+    return render_to_response('gviz-test.html', {'json1': json1, 
+                                                 'json2': json2, 
+                                                 'json3': json3, 
+                                                 'json4': json4, 
+                                                 'json5': json5,  
+                                                 'json6': json6,
+                                                 'json7': json7,
+                                                 'json8': json8, 
+                                                 'json9': json9,
+                                                 'json11': json11,
+                                                 'json12': json12,
+                                                 'json13': json13,
+                                                 'json14': json14,
+                                                 'json15': json15,
+                                                 'json16': json16, 
+                                                 'json17': json17,}) 
+
+
+
+######## End Visualization Sample Code #############
+
+
 class Wishlist(forms.Form):
     
     
