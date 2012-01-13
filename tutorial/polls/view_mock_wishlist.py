@@ -54,14 +54,19 @@ class DemoWishlist(forms.Form):
                    (0, 0),
                    (1, 1),
                    (2, 2),
-                   (3, 3)
                    )
-   
+    SELECTION_CRITERIA = (
+                          (MINIMUM, 'MINIMUM'),
+                          (MAXIMUM, 'MAXIMUM'),
+                          (MEDIAN, 'MEDIAN'),
+                          
+                          )
     shirts = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
     jeans = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
     skirts = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
     sweaters = forms.ChoiceField(choices = NUM_CHOICES, initial=1)
     gender = forms.ChoiceField(choices = GENDER_CHOICES, initial=1)
+    selection_criteria = forms.ChoiceField(choices = SELECTION_CRITERIA, initial=0)
     #size = forms.IntegerField()
     #color = forms.IntegerField()
 
@@ -81,17 +86,20 @@ def start(request):
     result = ""
     global price_of_wishlist
     price_of_wishlist = []
-
+    date = datetime.date.today()
+    dd = datetime.timedelta(days=1)
+    date2 = date - dd
     if request.method == 'POST': # If the form has been submitted...
         form = DemoWishlist(request.POST) # A form bound to the POST data
         if form.is_valid(): # All validation rules pass
             demand = fill_demand(form)
-            date = datetime.date.today()
-            val_str, val_cost, val_savings, val_free_shipping = calculate_price_for_demand(demand, date)
+            
+            demand_in_db = insert_demand_in_db(demand)
+            val_str, val_cost, val_savings, val_free_shipping = calculate_price_for_demand(demand, date2, demand_in_db)
             result += val_str    
     else:
         form = DemoWishlist()
-        result += calculate_price_for_simulated_demands(MAXIMUM)
+        result += calculate_price_for_simulated_demands(MAXIMUM, date)
     logging.debug(price_of_wishlist)    
     return render_to_response('mock_wishlist.html', 
                               {'form': form, 
@@ -99,9 +107,8 @@ def start(request):
                                'price_wishlist': price_of_wishlist,}, 
                               context_instance=RequestContext(request))
 
-def calculate_price_for_simulated_demands(sort_order):
+def calculate_price_for_simulated_demands(sort_order, date):
     num = 0
-    date = datetime.date.today()
     result = ""
     t1 = datetime.datetime.now()
     for i in range(0, NUM_ITEMS_SIMULATED):
@@ -113,7 +120,7 @@ def calculate_price_for_simulated_demands(sort_order):
                         demand[cats[1]] = j
                         demand[cats[2]] = k
                         demand[cats[3]] = l
-                        demand['gender'] = 0
+                        demand['gender'] = 1
                         demand['sort_order'] = sort_order
                         demand_in_db = insert_demand_in_db(demand)
                         logging.debug(demand)
@@ -130,14 +137,23 @@ def calculate_price_for_simulated_demands(sort_order):
 
 def insert_demand_in_db(demand):
     total = int(demand['shirts']) + int(demand['sweaters']) + int(demand['skirts']) + int(demand['jeans'])
-    d = Demand(num_shirts = int(demand['shirts']),
-               num_sweaters = int(demand['sweaters']),
-               num_skirts = int(demand['skirts']),
-               num_jeans = int(demand['jeans']),
-               gender = int(demand['gender']),
-               total_items = total)
-    d.save()
-    return d
+    d = Demand.objects.filter(num_shirts = int(demand['shirts']),
+                               num_sweaters = int(demand['sweaters']),
+                               num_skirts = int(demand['skirts']),
+                               num_jeans = int(demand['jeans']),
+                               gender = int(demand['gender']),
+                               total_items = total)
+    if d.count() > 0:
+        return d[0]
+    else:
+        d = Demand(num_shirts = int(demand['shirts']),
+                   num_sweaters = int(demand['sweaters']),
+                   num_skirts = int(demand['skirts']),
+                   num_jeans = int(demand['jeans']),
+                   gender = int(demand['gender']),
+                   total_items = total)
+        d.save()
+        return d
 
 def initialize_itemlist_entry(w):
     w.total_items = 0
@@ -240,6 +256,15 @@ def insert_result_in_db(demand_, itemlist_, date_,
     r.save()
     logging.debug(r)
     return r
+
+
+def find_result_for_demand(dem, date):
+    qset = ResultForDemand.objects.filter(demand = dem, date__contains = date)
+    logging.critical("For dem " + str(dem) + " found " + str(qset.count()))
+    if qset.count() > 0:
+        return qset
+    else:
+        return None
     
 def calculate_price_for_demand(demand, date, demand_in_db):
     '''
@@ -249,43 +274,57 @@ def calculate_price_for_demand(demand, date, demand_in_db):
     '''
     
     logging.debug("Inside POST method of demowishlist")
-    i = 1     
-    result = ""           
-    t1 = datetime.datetime.now()
-    for store in stores:
-        _wishlist = []
-        result += "<p>" + str(store) 
-        #date_ = datetime.date(2012, 1, 5)
-        tt0 = datetime.datetime.now()
-        stats_in_html_syntax, wishlist, wishlist_queryset = create_sample_wishlist(i, store, date, cats, demand)
-        tt1 = datetime.datetime.now()
-        #result += "<br> " + stats_in_html_syntax
-        result += "<br>" + str(wishlist) 
-        orig_cost, total_cost, savings, shipping = find_price_of_wishlist_for_store(wishlist, 
-                                                                                    store, i, date)
-        w = insert_itemlist_in_db(wishlist_queryset)
-        r = insert_result_in_db(demand_in_db, w, date, orig_cost, total_cost, shipping, store, int(demand['sort_order']))
-        tt2 = datetime.datetime.now()
-        price_of_wishlist.append({"store": store,
-                                  "orig_cost": orig_cost,
-                                  "cost": total_cost,
-                                  "savings": savings,
-                                  "free_shipping": shipping,
-                                  })
-        result += "<br> Original cost " + str(orig_cost) + " Total cost after promo " \
-               + str(total_cost) + " Savings " + str(savings) + " Shipping " + str(shipping) 
-        logging.debug(str(demand))
-        logging.debug( "RESULT:: " + str(store) + " " + str(orig_cost) + " " + str(total_cost) + " " + str(savings) + " " +\
-             str(len(wishlist)) + " " + str(demand['sort_order']) + " " + str(wishlist))
-        result += "</p>"
-        i += 1
-        time_sample_wishlist = tt1 - tt0
-        time_price_for_wishlist = tt2 - tt1
-        logging.debug("\t" + str(time_sample_wishlist) + " " + str(time_price_for_wishlist))
-    t2 = datetime.datetime.now()
-    t3 = t2 - t1
-    logging.critical(t3)
-    return (result, total_cost, savings, shipping)
+    
+    results_for_demand = find_result_for_demand(demand_in_db, date)
+        
+    if results_for_demand != None:
+        for r in results_for_demand:
+            price_of_wishlist.append({"store": r.store_string,
+                                      "orig_cost": r.total_without_sale,
+                                      "cost": r.total_with_sale,
+                                      "savings": (r.total_without_sale-r.total_with_sale),
+                                      "free_shipping": r.free_shipping,
+                                      })
+        return ("Hello", 0,0, False)
+    else:
+    
+        i = 1     
+        result = ""           
+        t1 = datetime.datetime.now()
+        for store in stores:
+            _wishlist = []
+            result += "<p>" + str(store) 
+            #date_ = datetime.date(2012, 1, 5)
+            tt0 = datetime.datetime.now()
+            stats_in_html_syntax, wishlist, wishlist_queryset = create_sample_wishlist(i, store, date, cats, demand)
+            tt1 = datetime.datetime.now()
+            #result += "<br> " + stats_in_html_syntax
+            result += "<br>" + str(wishlist) 
+            orig_cost, total_cost, savings, shipping = find_price_of_wishlist_for_store(wishlist, 
+                                                                                        store, i, date)
+            w = insert_itemlist_in_db(wishlist_queryset)
+            r = insert_result_in_db(demand_in_db, w, date, orig_cost, total_cost, shipping, store, int(demand['sort_order']))
+            tt2 = datetime.datetime.now()
+            price_of_wishlist.append({"store": store,
+                                      "orig_cost": orig_cost,
+                                      "cost": total_cost,
+                                      "savings": savings,
+                                      "free_shipping": shipping,
+                                      })
+            result += "<br> Original cost " + str(orig_cost) + " Total cost after promo " \
+                   + str(total_cost) + " Savings " + str(savings) + " Shipping " + str(shipping) 
+            logging.debug(str(demand))
+            logging.debug( "RESULT:: " + str(store) + " " + str(orig_cost) + " " + str(total_cost) + " " + str(savings) + " " +\
+                 str(len(wishlist)) + " " + str(demand['sort_order']) + " " + str(wishlist))
+            result += "</p>"
+            i += 1
+            time_sample_wishlist = tt1 - tt0
+            time_price_for_wishlist = tt2 - tt1
+            logging.debug("\t" + str(time_sample_wishlist) + " " + str(time_price_for_wishlist))
+        t2 = datetime.datetime.now()
+        t3 = t2 - t1
+        logging.critical(t3)
+        return (result, total_cost, savings, shipping)
 
 
 def fill_demand(form):
@@ -298,12 +337,15 @@ def fill_demand(form):
     skirts = form.cleaned_data['skirts']
     sweaters = form.cleaned_data['sweaters']
     gender = form.cleaned_data['gender']
+    sort_order = form.cleaned_data['selection_criteria']
+
     demand = {}
     demand['shirts'] = shirts
     demand['jeans'] = jeans
     demand['skirts'] = skirts
     demand['sweaters'] = sweaters
     demand['gender'] = gender
+    demand['sort_order'] = sort_order
     return demand
 
 
