@@ -1,7 +1,7 @@
 <html>
 	<title>Create your wishlist</title>
 	<body>
-		<h2> A sample wishlist</h2>
+		<h2> A sample wishlist [<a href="/statsplot/">Stats</a>]</h2>
 		<form action="/mock_wishlist/start/" method="post">{#% csrf_token %#}
 		{{ form.as_table }}
 		<input type="submit" value="Submit" />
