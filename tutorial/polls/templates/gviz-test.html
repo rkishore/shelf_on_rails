@@ -101,13 +101,13 @@
         var json_chart = new google.visualization.BarChart(document.getElementById('table_div_json14'));
         var json_data = new google.visualization.DataTable({{ json14|safe }} , 0.5);
         google.visualization.events.addListener(json_chart, 'select', selectHandler);  
-        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': '# Items on Sale (Men)'}});
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'hAxis': {'minValue': 0, 'maxValue': 280}, 'vAxis': {'title': '# Items on Sale (Men)'}});
       }
       function drawTable15() {
         var json_chart = new google.visualization.BarChart(document.getElementById('table_div_json15'));
         var json_data = new google.visualization.DataTable({{ json15|safe }} , 0.5);
         google.visualization.events.addListener(json_chart, 'select', selectHandler);  
-        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': '# Items on Sale (Women)'}});
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'hAxis': {'minValue': 0, 'maxValue': 120}, 'vAxis': {'title': '# Items on Sale (Women)'}});
       }
       function drawTable16() {
         var json_chart = new google.visualization.CandlestickChart(document.getElementById('table_div_json16'));

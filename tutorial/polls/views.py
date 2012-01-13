@@ -63,7 +63,7 @@ def stats_update(request):
     global date_today, items_info_today, br_info, prod_cat_info, br_spec_items_today, prod_cat_spec_today, combo_item_info_stats
     
     # Today's date
-    date_today = datetime.date.today() - datetime.timedelta(days=1)
+    date_today = datetime.date.today() # - datetime.timedelta(days=1)
     
     # How many total items available today?
     item_info_today = Items.objects.filter(insert_date__contains=date_today)
@@ -294,9 +294,9 @@ def get_product_counts(it, it_sp):
         men_cnt_sp = it_sp.filter(gender='M').aggregate(Count('price'))['price__count']
         women_cnt_sp = it_sp.filter(gender='F').aggregate(Count('price'))['price__count']
     else:
-        total_cnt_sp = total_cnt
-        men_cnt_sp = men_cnt
-        women_cnt_sp = women_cnt
+        total_cnt_sp = 0
+        men_cnt_sp = 0
+        women_cnt_sp = 0
            
     return total_cnt, men_cnt, women_cnt, total_cnt_sp, men_cnt_sp, women_cnt_sp
     
