@@ -1,0 +1,2166 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>13342</Id>
+<Name>Express</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>29</TotalCount>
+<Product>
+<Id>315566855</Id>
+<Name>Zelda Jean Legging - Embellished</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Sweet and low on your hips, long and lean on your legs. The slim fit of Zelda brings out your sexy shape. Embellished details include sequins and metallic stitching on the front and back pockets. &lt;ul&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;1-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Sequin and metallic stitching on front and back pockets&lt;/li&gt; &lt;li&gt;81% Cotton/18% Polyester/1% Spandex&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315566855&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/04/62/046218b4bdeb68ccfa3f875b7a0f149e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/04/62/046218b4bdeb68ccfa3f875b7a0f149e_medium/express-skinny-denim-zelda-jean-legging-embellished.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/04/62/046218b4bdeb68ccfa3f875b7a0f149e/express-skinny-denim-zelda-jean-legging-embellished.jpg</Url>
+</Image>
+<Color>
+<Name>TRUE WHITE</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-22</ExtractDate>
+</Product>
+<Product>
+<Id>315195148</Id>
+<Name>Modern Boyfriend Crop Jean</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Made to fit a little looser, with inspiration from boy's, these jeans have destructed details and a cuffed hem. Dress these jeans up with sequins and wedges or kick back and relax in a graphic tee and flats. &lt;ul&gt; &lt;li&gt;Cropped, looser fit&lt;/li&gt; &lt;li&gt;2-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with destructed details&lt;/li&gt; &lt;li&gt;27" Inseam&lt;/li&gt; &lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315195148&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/99/ad/99ad2e641ec4ca047ebd750c6f78fb3b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/99/ad/99ad2e641ec4ca047ebd750c6f78fb3b_medium/express-cropped-denim-modern-boyfriend-crop-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/99/ad/99ad2e641ec4ca047ebd750c6f78fb3b/express-cropped-denim-modern-boyfriend-crop-jean.jpg</Url>
+</Image>
+<Color>
+<Name>MEDIUM</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Category>cropped-jeans</Category>
+<CategoryName>Cropped Denim</CategoryName>
+<SeeMoreLabel>Cropped Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cropped-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>315194997</Id>
+<Name>Modern Boyfriend Crop Jean</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Made to fit a little looser, with inspiration from boy's, these jeans have destructed details and a cuffed hem. Dress these jeans up with sequins and wedges or kick back and relax in a graphic tee and flats. &lt;ul&gt; &lt;li&gt;Cropped, looser fit&lt;/li&gt; &lt;li&gt;2-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with destructed details&lt;/li&gt; &lt;li&gt;27" Inseam&lt;/li&gt; &lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315194997&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/a7/e7/a7e7514346e2ace128b320e2b0c94b97_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/a7/e7/a7e7514346e2ace128b320e2b0c94b97_medium/express-cropped-denim-modern-boyfriend-crop-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/a7/e7/a7e7514346e2ace128b320e2b0c94b97/express-cropped-denim-modern-boyfriend-crop-jean.jpg</Url>
+</Image>
+<Color>
+<Name>MEDIUM</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Category>cropped-jeans</Category>
+<CategoryName>Cropped Denim</CategoryName>
+<SeeMoreLabel>Cropped Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cropped-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>317702877</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Brighten up your look with this vibrantly colored pair of Jean Leggings. With a hint of stretch, your legs get a the long, lean look that's irresistible. &lt;ul&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseam: 31.5"&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;81% Cotton/18% Polyester/1% Spandex&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=317702877&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c8/4b/c84b4bc965ed1e965366c6535a71e4d9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c8/4b/c84b4bc965ed1e965366c6535a71e4d9_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c8/4b/c84b4bc965ed1e965366c6535a71e4d9/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>BRIGHT YELLOW</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-29</ExtractDate>
+</Product>
+<Product>
+<Id>306064544</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Be fearless in fuchsia with our hottest dyed-to-match denim. The vivid color and sexy, slim fit of Zelda makes this pair wish-list worthy. &lt;ul&gt; &lt;li&gt;81% Cotton/18% Polyester/1% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseam: 31.5"&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=306064544&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/07/56/075667780667c17a1bf51ed9ae031632_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/07/56/075667780667c17a1bf51ed9ae031632_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/07/56/075667780667c17a1bf51ed9ae031632/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>FUCHSIA</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-23</ExtractDate>
+</Product>
+<Product>
+<Id>299817596</Id>
+<Name>Wide Two-Tone Rhinestone Ring</Name>
+<Currency>USD</Currency>
+<Price>34.9</Price>
+<PriceLabel>$34.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Row upon row of rhinestone bands. Slip on this statement-making ring for polished style and shine you can see across the room. &lt;ul&gt; &lt;li&gt;83% Zinc alloy/ 17% Glass stones&lt;/li&gt; &lt;li&gt;Eleven rows of rhinestone bands&lt;/li&gt; &lt;li&gt;Cut-out side detail&lt;/li&gt; &lt;li&gt;Polished metal band&lt;/li&gt; &lt;li&gt;Sizes 7,8,9&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=299817596&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2e/43/2e43f158f78fc315bec3074e2c55101b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2e/43/2e43f158f78fc315bec3074e2c55101b_medium/express-denim-wide-twotone-rhinestone-ring.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2e/43/2e43f158f78fc315bec3074e2c55101b/express-denim-wide-twotone-rhinestone-ring.jpg</Url>
+</Image>
+<Color>
+<Name>MATTE SILVER</Name>
+</Color>
+<Size>
+<Name>7</Name>
+</Size>
+<Category>jeans</Category>
+<Category>sweaters</Category>
+<CategoryName>Denim</CategoryName>
+<CategoryName>Sweaters</CategoryName>
+<SeeMoreLabel>Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-30</ExtractDate>
+</Product>
+<Product>
+<Id>299817609</Id>
+<Name>Cut-Out Metal Sunglasses</Name>
+<Currency>USD</Currency>
+<Price>29.9</Price>
+<PriceLabel>$29.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Get an instant update with our hottest new sunglasses. With cut-out details and a dose of color, these stunners are your new everyday essential.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Metal/Plastic&lt;/li&gt;
+                     		&lt;li&gt;100% UV Protection&lt;/li&gt;
+                     		&lt;li&gt;Gradient lenses&lt;/li&gt;
+                     		&lt;li&gt;Colored epoxy sides&lt;/li&gt;
+                     		&lt;li&gt;Coated armbands&lt;/li&gt;
+                     		&lt;li&gt;Cut-out side detail&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=299817609&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c3/8b/c38b50e4d2df0aeb7bab967afc9d96d2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c3/8b/c38b50e4d2df0aeb7bab967afc9d96d2_medium/express-sunglasses-cutout-metal-sunglasses.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c3/8b/c38b50e4d2df0aeb7bab967afc9d96d2/express-sunglasses-cutout-metal-sunglasses.jpg</Url>
+</Image>
+<Color>
+<Name>SHINY GOLD</Name>
+</Color>
+<Category>sunglasses</Category>
+<Category>jeans</Category>
+<Category>sweaters</Category>
+<CategoryName>Sunglasses</CategoryName>
+<CategoryName>Denim</CategoryName>
+<CategoryName>Sweaters</CategoryName>
+<SeeMoreLabel>Sunglasses by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/sunglasses/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-30</ExtractDate>
+</Product>
+<Product>
+<Id>294972339</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Get your hands on a jean legging that's designed to be standout and destined to be famous. With a hot, deep-dyed color and a fabric that hugs your shape down to the ankles, the slim fit of Zelda is our sexiest jean. &lt;ul&gt; &lt;li&gt;81% Cotton/18% Polyester/1% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseam: 31.5"&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=294972339&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7e/28/7e28ff7534436f6abe1fe64756eb84cb_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7e/28/7e28ff7534436f6abe1fe64756eb84cb_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7e/28/7e28ff7534436f6abe1fe64756eb84cb/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>SUNSET CORAL</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-18</ExtractDate>
+</Product>
+<Product>
+<Id>298670676</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Dyed denim is the hottest look this season. Fresh out of the design studio, this brightly colored pair of Jean Leggings has a hint of stretch to give your legs a lean look and keep their trim fit. &lt;ul&gt; &lt;li&gt;81% Cotton/18% Polyester/1% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseam: 31.5"&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=298670676&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/dc/84/dc8437e3dd9b9ce0379bcd945dedff41_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/dc/84/dc8437e3dd9b9ce0379bcd945dedff41_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/dc/84/dc8437e3dd9b9ce0379bcd945dedff41/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>BRIGHT PINK</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-26</ExtractDate>
+</Product>
+<Product>
+<Id>293885927</Id>
+<Name>Twisted Back Tank</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A flirty halter style tank with a drape neck and twisted back is a perfect layer by day and sexy tank by night. Beads embellish a soft, sheer layer in the front for just enough detail to dazzle.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;60% Cotton/ 40% Modal&lt;/li&gt;
+                     		&lt;li&gt;Drape neck&lt;/li&gt;
+                     		&lt;li&gt;Halter style&lt;/li&gt;
+                     		&lt;li&gt;Twisted strap down the center of the back&lt;/li&gt;
+                     		&lt;li&gt;Beaded details on front&lt;/li&gt;
+                     		&lt;li&gt;Hand wash&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=293885927&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/eb/18/eb1832f5f7887e7db01a5e642c00fba5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/eb/18/eb1832f5f7887e7db01a5e642c00fba5_medium/express-bridal-twisted-back-tank.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/eb/18/eb1832f5f7887e7db01a5e642c00fba5/express-bridal-twisted-back-tank.jpg</Url>
+</Image>
+<Color>
+<Name>LICORICE</Name>
+</Color>
+<Color>
+<Name>IVORY</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-15</ExtractDate>
+</Product>
+<Product>
+<Id>289207981</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The white-hot trend weathers the cold front this season as we roll out our winter-white Jean Leggings. With a fit that sits low on your hips and a fabric that hugs your shape down to the ankles, the slim fit of Zelda is our sexiest jean. &lt;ul&gt; &lt;li&gt;81% Cotton/18% Polyester/1% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseam: 31.5"&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=289207981&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/66/b5/66b56bd717ca3a9cafe7934a94f6b580_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/66/b5/66b56bd717ca3a9cafe7934a94f6b580_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/66/b5/66b56bd717ca3a9cafe7934a94f6b580/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>WINTER WHITE</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-01</ExtractDate>
+</Product>
+<Product>
+<Id>288271917</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Spice up a monotonous closet with our ultra-sexy, must-have dyed denim. Fresh out of the design studio, this brightly colored pair of Jean Leggings has a hint of stretch to give your legs a lean look and keep their trim fit. &lt;ul&gt; &lt;li&gt;81% Cotton/18% Polyester/1% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseam: 31.5"&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=288271917&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c5/e9/c5e97098b48d99e2e2549092aa112c2f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c5/e9/c5e97098b48d99e2e2549092aa112c2f_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c5/e9/c5e97098b48d99e2e2549092aa112c2f/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>SPICED GUAVA</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-29</ExtractDate>
+</Product>
+<Product>
+<Id>288739869</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Take cues from the runway and sport denim in bold hues this season. With a fit that sits low on your hips and a fabric that hugs your shape down to the ankles, the slim fit of Zelda is our sexiest jean. &lt;ul&gt; &lt;li&gt;81% Cotton/18% Polyester/1% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseam: 31.5"&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=288739869&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/30/6c/306ceb0dc5c1c48e00573dca06095b66_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/30/6c/306ceb0dc5c1c48e00573dca06095b66_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/30/6c/306ceb0dc5c1c48e00573dca06095b66/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>ROYAL BLUE</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-30</ExtractDate>
+</Product>
+<Product>
+<Id>288272861</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Take a cue from the runway and rock our newly hued jeans. Our dusty rose-colored denim was hand-picked by designers as the hit of the season. Paired with the slim fit of your favorite Zelda, you can't go wrong. &lt;ul&gt; &lt;li&gt;81% Cotton/18% Polyester/1% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseam: 31.5"&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=288272861&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/58/61/58616b96b19594aff75edb65ce753d59_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/58/61/58616b96b19594aff75edb65ce753d59_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/58/61/58616b96b19594aff75edb65ce753d59/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>DUSTY ROSE</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-29</ExtractDate>
+</Product>
+<Product>
+<Id>276295273</Id>
+<Name>Rolled Cuff Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Sweet and low on your hips, long and lean on your legs. The slim fit of Zelda brings out your sexy shape. Now with rolled cuffs and edgy metallic paint, these jeans are ready to be rocked. &lt;ul&gt; &lt;li&gt;67% Cotton/31% Polyester/2% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, jean legging&lt;/li&gt; &lt;li&gt;1-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling, metallic paint details&lt;/li&gt; &lt;li&gt;10" leg opening, rolled cuffs&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=276295273&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9d/c3/9dc3c351e0b9b8b7137837f17c2c061c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9d/c3/9dc3c351e0b9b8b7137837f17c2c061c_medium/express-skinny-denim-rolled-cuff-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9d/c3/9dc3c351e0b9b8b7137837f17c2c061c/express-skinny-denim-rolled-cuff-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>MEDIUM</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-26</ExtractDate>
+</Product>
+<Product>
+<Id>264770757</Id>
+<Name>Jean Editor Original Pant</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>It's our best known, best selling, most popular pant for a reason. The Editor Pant stands for sexy style, fine fabric, and a flawless fit. Now in a casual jean style. &lt;ul&gt; &lt;li&gt;Low rise, straight through hip, flare leg&lt;/li&gt; &lt;li&gt;Hidden button and hook closure with zip fly&lt;/li&gt; &lt;li&gt;Hand pockets, back flap pockets&lt;/li&gt; &lt;li&gt;Belt loops with polished Express tag&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=264770757&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9e/a2/9ea20f154dfa744e9938f728e7554c15_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9e/a2/9ea20f154dfa744e9938f728e7554c15_medium/express-flare-denim-jean-editor-original-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9e/a2/9ea20f154dfa744e9938f728e7554c15/express-flare-denim-jean-editor-original-pant.jpg</Url>
+</Image>
+<Color>
+<Name>DENIM</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>00 Short</Name>
+</Size>
+<Size>
+<Name>0 Short</Name>
+</Size>
+<Size>
+<Name>2 Short</Name>
+</Size>
+<Size>
+<Name>4 Short</Name>
+</Size>
+<Size>
+<Name>6 Short</Name>
+</Size>
+<Size>
+<Name>8 Short</Name>
+</Size>
+<Size>
+<Name>10 Short</Name>
+</Size>
+<Size>
+<Name>12 Short</Name>
+</Size>
+<Size>
+<Name>14 Short</Name>
+</Size>
+<Size>
+<Name>00 Long</Name>
+</Size>
+<Size>
+<Name>0 Long</Name>
+</Size>
+<Size>
+<Name>2 Long</Name>
+</Size>
+<Size>
+<Name>4 Long</Name>
+</Size>
+<Size>
+<Name>6 Long</Name>
+</Size>
+<Size>
+<Name>8 Long</Name>
+</Size>
+<Size>
+<Name>10 Long</Name>
+</Size>
+<Size>
+<Name>12 Long</Name>
+</Size>
+<Size>
+<Name>14 Long</Name>
+</Size>
+<Category>flare-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<CategoryName>Flare Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<SeeMoreLabel>Flare Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/flare-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-25</ExtractDate>
+</Product>
+<Product>
+<Id>262620930</Id>
+<Name>Wide Leg Slim Fit Zelda Jean</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Sweet and low on your hips, long and lean on your legs. The slim fit of Zelda brings out your sexy shape. Get sexy vintage style with our newest wide leg silhouette. &lt;ul&gt; &lt;li&gt;Wide leg, slim fit, low rise&lt;/li&gt; &lt;li&gt;Inseams: Short 31.5", Regular 34.5", Long 36.5"&lt;/li&gt; &lt;li&gt;Front patch pockets buttoned pockets, back pockets&lt;/li&gt; &lt;li&gt;Lightly whiskered on front&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=262620930&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/5a/9f/5a9f358abda22ba423abddd5f872e004_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/5a/9f/5a9f358abda22ba423abddd5f872e004_medium/express-denim-wide-leg-slim-fit-zelda-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/5a/9f/5a9f358abda22ba423abddd5f872e004/express-denim-wide-leg-slim-fit-zelda-jean.jpg</Url>
+</Image>
+<Color>
+<Name>MEDIUM</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-18</ExtractDate>
+</Product>
+<Product>
+<Id>259287903</Id>
+<Name>Zelda Jean Legging - Indigo Whisker Wash</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Sweet and low on your hips, long and lean on your legs. The slim fit of Zelda brings out your sexy shape. The 10" leg opening is even slimmer than our skinny leg jeans. &lt;ul&gt; &lt;li&gt;67% Cotton/31% Polyester/2% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;1-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;10" leg opening, light whisker details&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=259287903&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c4/86/c48641308fa32ac3b65455c4d0072962_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c4/86/c48641308fa32ac3b65455c4d0072962_medium/express-skinny-denim-zelda-jean-legging-indigo-whisker-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c4/86/c48641308fa32ac3b65455c4d0072962/express-skinny-denim-zelda-jean-legging-indigo-whisker-wash.jpg</Url>
+</Image>
+<Color>
+<Name>MEDIUM</Name>
+</Color>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>14 Short</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-06</ExtractDate>
+</Product>
+<Product>
+<Id>255695087</Id>
+<Name>Skinny Leg Stella Regular Fit Jean</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A sexy, everyday jean. With the flattering regular fit of Stella, your legs never had it so good. Our skinny leg cut gives your jeans a little kick. &lt;ul&gt; &lt;li&gt;78% Cotton/19% Polyester/2% Lycra&lt;/li&gt; &lt;li&gt;Regular fit, low rise, skinny leg&lt;/li&gt; &lt;li&gt;1-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Authentic Dark Wash&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=255695087&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/09/e6/09e68b61a88d6dc92dfc484c941169b4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/09/e6/09e68b61a88d6dc92dfc484c941169b4_medium/express-skinny-denim-skinny-leg-stella-regular-fit-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/09/e6/09e68b61a88d6dc92dfc484c941169b4/express-skinny-denim-skinny-leg-stella-regular-fit-jean.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14 Short</Name>
+</Size>
+<Size>
+<Name>00 Long</Name>
+</Size>
+<Size>
+<Name>0 Long</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-24</ExtractDate>
+</Product>
+<Product>
+<Id>253337774</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Sweet and low on your hips, long and lean on your legs. The slim fit of Zelda brings out your sexy shape. The 10" leg opening is even slimmer than our skinny leg jeans. &lt;ul&gt; &lt;li&gt;81% Cotton/18% Polyester/1% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;1-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=253337774&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/6f/6b/6f6b0c3988b4c4781862e7dbfca8d81a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/6f/6b/6f6b0c3988b4c4781862e7dbfca8d81a_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/6f/6b/6f6b0c3988b4c4781862e7dbfca8d81a/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>RUBY RED</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-17</ExtractDate>
+</Product>
+<Product>
+<Id>257515824</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Sweet and low on your hips, long and lean on your legs. The slim fit of Zelda brings out your sexy shape. The 10" leg opening is even slimmer than our skinny leg jeans. &lt;ul&gt; &lt;li&gt;67% Cotton/31% Polyester/2% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;1-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=257515824&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3a/49/3a49abbf32ab216862ab73890c27efa7_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3a/49/3a49abbf32ab216862ab73890c27efa7_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3a/49/3a49abbf32ab216862ab73890c27efa7/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>6 Short</Name>
+</Size>
+<Size>
+<Name>8 Short</Name>
+</Size>
+<Size>
+<Name>10 Short</Name>
+</Size>
+<Size>
+<Name>12 Short</Name>
+</Size>
+<Size>
+<Name>14 Short</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-30</ExtractDate>
+</Product>
+<Product>
+<Id>243277357</Id>
+<Name>Boot Cut Stella Regular Fit Jean</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A sexy, everyday jean. With the flattering regular fit of Stella, your legs never had it so good. Our classic cut is wider at the ankle and is your boot's best friend. &lt;ul&gt; &lt;li&gt;79% Cotton/19% Polyester/2% Spandex&lt;/li&gt; &lt;li&gt;Regular fit, low rise, boot cut leg&lt;/li&gt; &lt;li&gt;1-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=243277357&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e1/b1/e1b13e72103e8e5ed2f661b5a9b3949f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e1/b1/e1b13e72103e8e5ed2f661b5a9b3949f_medium/express-bootcut-denim-boot-cut-stella-regular-fit-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e1/b1/e1b13e72103e8e5ed2f661b5a9b3949f/express-bootcut-denim-boot-cut-stella-regular-fit-jean.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>00 Short</Name>
+</Size>
+<Size>
+<Name>10 Short</Name>
+</Size>
+<Size>
+<Name>12 Short</Name>
+</Size>
+<Size>
+<Name>14 Short</Name>
+</Size>
+<Size>
+<Name>00 Long</Name>
+</Size>
+<Size>
+<Name>0 Long</Name>
+</Size>
+<Size>
+<Name>2 Long</Name>
+</Size>
+<Size>
+<Name>4 Long</Name>
+</Size>
+<Size>
+<Name>6 Long</Name>
+</Size>
+<Size>
+<Name>8 Long</Name>
+</Size>
+<Size>
+<Name>10 Long</Name>
+</Size>
+<Size>
+<Name>12 Long</Name>
+</Size>
+<Size>
+<Name>14 Long</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-13</ExtractDate>
+</Product>
+<Product>
+<Id>243917702</Id>
+<Name>Barely Boot Stella Regular Fit Jean</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A sexy, everyday jean. With the flattering regular fit of Stella, your legs never had it so good. Our not so skinny, not so boot cut gives your jeans a little kick. &lt;ul&gt; &lt;li&gt;79% Cotton/19% Polyester/2% Spandex&lt;/li&gt; &lt;li&gt;Regular fit, low rise, barely boot&lt;/li&gt; &lt;li&gt;1-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Faded through knee&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=243917702&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ad/cd/adcdc4751adecbc536248b971d372966_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ad/cd/adcdc4751adecbc536248b971d372966_medium/express-bootcut-denim-barely-boot-stella-regular-fit-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ad/cd/adcdc4751adecbc536248b971d372966/express-bootcut-denim-barely-boot-stella-regular-fit-jean.jpg</Url>
+</Image>
+<Color>
+<Name>MEDIUM</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>00 Short</Name>
+</Size>
+<Size>
+<Name>6 Short</Name>
+</Size>
+<Size>
+<Name>8 Short</Name>
+</Size>
+<Size>
+<Name>10 Short</Name>
+</Size>
+<Size>
+<Name>12 Short</Name>
+</Size>
+<Size>
+<Name>14 Short</Name>
+</Size>
+<Size>
+<Name>00 Long</Name>
+</Size>
+<Size>
+<Name>0 Long</Name>
+</Size>
+<Size>
+<Name>2 Long</Name>
+</Size>
+<Size>
+<Name>4 Long</Name>
+</Size>
+<Size>
+<Name>6 Long</Name>
+</Size>
+<Size>
+<Name>8 Long</Name>
+</Size>
+<Size>
+<Name>10 Long</Name>
+</Size>
+<Size>
+<Name>12 Long</Name>
+</Size>
+<Size>
+<Name>14 Long</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>skinny-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-16</ExtractDate>
+</Product>
+<Product>
+<Id>243277841</Id>
+<Name>Boot Cut Stella Regular Fit Jean</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A sexy, everyday jean. With the flattering regular fit of Stella, your legs never had it so good. Our classic cut is wider at the ankle and is your boot's best friend. &lt;ul&gt; &lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt; &lt;li&gt;One-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Faded through the thigh, whisker details&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=243277841&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d8/36/d836461c154fe8659eec515a0015f922_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d8/36/d836461c154fe8659eec515a0015f922_medium/express-bootcut-denim-boot-cut-stella-regular-fit-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d8/36/d836461c154fe8659eec515a0015f922/express-bootcut-denim-boot-cut-stella-regular-fit-jean.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>00 Short</Name>
+</Size>
+<Size>
+<Name>0 Short</Name>
+</Size>
+<Size>
+<Name>10 Short</Name>
+</Size>
+<Size>
+<Name>12 Short</Name>
+</Size>
+<Size>
+<Name>14 Short</Name>
+</Size>
+<Size>
+<Name>00 Long</Name>
+</Size>
+<Size>
+<Name>0 Long</Name>
+</Size>
+<Size>
+<Name>2 Long</Name>
+</Size>
+<Size>
+<Name>4 Long</Name>
+</Size>
+<Size>
+<Name>6 Long</Name>
+</Size>
+<Size>
+<Name>8 Long</Name>
+</Size>
+<Size>
+<Name>10 Long</Name>
+</Size>
+<Size>
+<Name>12 Long</Name>
+</Size>
+<Size>
+<Name>14 Long</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-13</ExtractDate>
+</Product>
+<Product>
+<Id>245271055</Id>
+<Name>Zelda Jean Legging</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Sweet and low on your hips, long and lean on your legs. The slim fit of Zelda brings out your sexy shape. The 10" leg opening is even slimmer than our skinny leg jeans.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;79% Cotton/19% Polyester/2% Spandex&lt;/li&gt;
+                     		&lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt;
+                     		&lt;li&gt;5-pocket styling&lt;/li&gt;
+                     		&lt;li&gt;Faded details&lt;/li&gt;
+                     		&lt;li&gt;10" leg opening&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=245271055&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/bb/27/bb27f000d649bb666b9fc60edea89f4b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/bb/27/bb27f000d649bb666b9fc60edea89f4b_medium/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/bb/27/bb27f000d649bb666b9fc60edea89f4b/express-skinny-denim-zelda-jean-legging.jpg</Url>
+</Image>
+<Color>
+<Name>MEDIUM</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>00 Short</Name>
+</Size>
+<Size>
+<Name>0 Short</Name>
+</Size>
+<Size>
+<Name>2 Short</Name>
+</Size>
+<Size>
+<Name>4 Short</Name>
+</Size>
+<Size>
+<Name>6 Short</Name>
+</Size>
+<Size>
+<Name>8 Short</Name>
+</Size>
+<Size>
+<Name>10 Short</Name>
+</Size>
+<Size>
+<Name>12 Short</Name>
+</Size>
+<Size>
+<Name>14 Short</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-21</ExtractDate>
+</Product>
+<Product>
+<Id>198475283</Id>
+<Name>Flare Leg Stella Regular Fit Jean - Deep Rinse</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A sexy, everyday jean. With the flattering regular fit of Stella, your legs never had it so good. The flare leg is fashion's right-now shape. &lt;ul&gt; &lt;li&gt;Cotton/Polyester/Spandex&lt;/li&gt; &lt;li&gt;Regular fit, low rise, flare leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseams: Short 31", Regular 34", Long 36"&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=198475283&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b6/d7/b6d71c145defc80b4e30736ae00bd0e0_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b6/d7/b6d71c145defc80b4e30736ae00bd0e0_medium/express-flare-denim-flare-leg-stella-regular-fit-jean-deep-rinse.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b6/d7/b6d71c145defc80b4e30736ae00bd0e0/express-flare-denim-flare-leg-stella-regular-fit-jean-deep-rinse.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>6 Short</Name>
+</Size>
+<Size>
+<Name>10 Long</Name>
+</Size>
+<Category>flare-jeans</Category>
+<CategoryName>Flare Denim</CategoryName>
+<SeeMoreLabel>Flare Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/flare-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-11-23</ExtractDate>
+</Product>
+<Product>
+<Id>162664979</Id>
+<Name>Zelda Jean Legging - White Rinse Wash</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Sweet and low on your hips, long and lean on your legs. The slim fit of Zelda brings out your sexy shape. The 10" leg opening is even slimmer than our skinny leg jeans. &lt;ul&gt; &lt;li&gt;Cotton/Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseam: 32"&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=162664979&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/34/f1/34f1c51fc8548d7379ebee0a4b3ccbbe_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/34/f1/34f1c51fc8548d7379ebee0a4b3ccbbe_medium/express-skinny-denim-zelda-jean-legging-white-rinse-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/34/f1/34f1c51fc8548d7379ebee0a4b3ccbbe/express-skinny-denim-zelda-jean-legging-white-rinse-wash.jpg</Url>
+</Image>
+<Color>
+<Name>TRUE WHITE</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-06-24</ExtractDate>
+</Product>
+<Product>
+<Id>161841073</Id>
+<Name>Boot Cut Stella Regular Fit Jean - Dark Indigo</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A sexy, everyday jean. With the flattering regular fit of Stella, your legs never had it so good. Our classic cut is wider at the ankle and is your boot's best friend. &lt;ul&gt; &lt;li&gt;Cotton/Spandex&lt;/li&gt; &lt;li&gt;Regular fit, low rise, boot cut leg&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Inseams: Short 30", Regular 33", Long 35"&lt;/li&gt; &lt;li&gt;Contrast stitching details&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=161841073&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/bf/b4/bfb45d785c5e3f35847e6f7cf11623d3_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/bf/b4/bfb45d785c5e3f35847e6f7cf11623d3_medium/express-denim-boot-cut-stella-regular-fit-jean-dark-indigo.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/bf/b4/bfb45d785c5e3f35847e6f7cf11623d3/express-denim-boot-cut-stella-regular-fit-jean-dark-indigo.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>00 Short</Name>
+</Size>
+<Size>
+<Name>8 Short</Name>
+</Size>
+<Size>
+<Name>10 Short</Name>
+</Size>
+<Size>
+<Name>12 Short</Name>
+</Size>
+<Size>
+<Name>14 Short</Name>
+</Size>
+<Size>
+<Name>00 Long</Name>
+</Size>
+<Size>
+<Name>0 Long</Name>
+</Size>
+<Size>
+<Name>2 Long</Name>
+</Size>
+<Size>
+<Name>6 Long</Name>
+</Size>
+<Size>
+<Name>8 Long</Name>
+</Size>
+<Size>
+<Name>10 Long</Name>
+</Size>
+<Size>
+<Name>12 Long</Name>
+</Size>
+<Size>
+<Name>14 Long</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-06-21</ExtractDate>
+</Product>
+<Product>
+<Id>140886815</Id>
+<Name>Zelda Jean Legging - Rinse Wash</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Sweet and low on your hips, long and lean on your legs. The slim fit of Zelda brings out your sexy shape. The 10" leg opening is even slimmer than our skinny leg jeans. &lt;ul&gt; &lt;li&gt;Cotton/Spandex&lt;/li&gt; &lt;li&gt;Slim fit, ultra low rise, our skinniest leg&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Inseams: Short 29", Regular 32"&lt;/li&gt; &lt;li&gt;10" leg opening&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=140886815&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/82/bd/82bd43f0e605db3142ecb5ad57e53335_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/82/bd/82bd43f0e605db3142ecb5ad57e53335_medium/express-denim-zelda-jean-legging-rinse-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/82/bd/82bd43f0e605db3142ecb5ad57e53335/express-denim-zelda-jean-legging-rinse-wash.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>00 Short</Name>
+</Size>
+<Size>
+<Name>12 Short</Name>
+</Size>
+<Size>
+<Name>14 Short</Name>
+</Size>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-03-19</ExtractDate>
+</Product>
+</SearchResult>
