@@ -19,7 +19,7 @@ from django.db.models import F
 from itertools import chain
 
 
-#logging.basicConfig(format='%(message)s', level=logging.INFO)
+logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 '''We simulate from 0-2 items selected from each category to create
     artificial wish lists. And then we calculate the prices for these
     wishlists to obtain insights. NUM_ITEMS_SIMULATED is the number of
@@ -46,9 +46,9 @@ MEDIAN = 2
 sort_order = 0
 class DemoWishlist(forms.Form):
     GENDER_CHOICES = (
-                   (0, 'MALE'),
-                   (1, 'FEMALE'),
-                   (2, 'ALL'),
+                   ('M', 'MALE'),
+                   ('F', 'FEMALE'),
+                   ('A', 'ALL'),
                    )
     NUM_CHOICES = (
                    (0, 0),
@@ -107,7 +107,20 @@ def start(request):
                                'price_wishlist': price_of_wishlist,}, 
                               context_instance=RequestContext(request))
 
-def calculate_price_for_simulated_demands(sort_order, date):
+def fill_db(request):
+    gender = ['M', 'F', 'A']
+    ordering = [MINIMUM, MAXIMUM, MEDIAN]
+    date1 = datetime.date.today()
+    dd = datetime.timedelta(days=1)
+    date = date1 - dd
+    for g in gender:
+        for order in ordering:
+            calculate_price_for_simulated_demands(order, date, g)
+            logging.critical("Done with Gender: " + g + " order " + str(order))
+    html = "<html><body>Done, thanks for populating the results DB.</body></html>"
+    return HttpResponse(html)
+
+def calculate_price_for_simulated_demands(sort_order, date, gender):
     num = 0
     result = ""
     t1 = datetime.datetime.now()
@@ -120,7 +133,7 @@ def calculate_price_for_simulated_demands(sort_order, date):
                         demand[cats[1]] = j
                         demand[cats[2]] = k
                         demand[cats[3]] = l
-                        demand['gender'] = 1
+                        demand['gender'] = gender
                         demand['sort_order'] = sort_order
                         demand_in_db = insert_demand_in_db(demand)
                         logging.debug(demand)
@@ -141,7 +154,7 @@ def insert_demand_in_db(demand):
                                num_sweaters = int(demand['sweaters']),
                                num_skirts = int(demand['skirts']),
                                num_jeans = int(demand['jeans']),
-                               gender = int(demand['gender']),
+                               gender = demand['gender'],
                                total_items = total)
     if d.count() > 0:
         return d[0]
@@ -150,7 +163,7 @@ def insert_demand_in_db(demand):
                    num_sweaters = int(demand['sweaters']),
                    num_skirts = int(demand['skirts']),
                    num_jeans = int(demand['jeans']),
-                   gender = int(demand['gender']),
+                   gender = demand['gender'],
                    total_items = total)
         d.save()
         return d
@@ -178,19 +191,28 @@ def initialize_itemlist_entry(w):
 def insert_itemlist_in_db(list_of_querysets):
     w = ItemList()
     initialize_itemlist_entry(w)
-    num = len(list_of_querysets)
-    w.total_items = num
-
+    print list_of_querysets
+    size = len(list_of_querysets)
+    
     if len(list_of_querysets) == 0:
         return w
     result_list = list_of_querysets[0]
-    for i in range(1, num):
+    for i in range(0, size):
         l = list_of_querysets[i]
-        result_list = chain(result_list, l)
+        if l != None:
+            result_list = chain(result_list, l)
+    
+    if result_list == None:
+        print "Result_list is NULL: " + str(result_list)
+        return w
 
     itemlist_queryset = list(result_list)
+        
+    num = len(itemlist_queryset)
+    print num
+    w.total_items = num
     
-    logging.debug("Size of itemlist " + str(num))
+    print itemlist_queryset
     if num == 1:
         w.item1 = itemlist_queryset[0]
     elif num == 2:
@@ -258,8 +280,9 @@ def insert_result_in_db(demand_, itemlist_, date_,
     return r
 
 
-def find_result_for_demand(dem, date):
-    qset = ResultForDemand.objects.filter(demand = dem, date__contains = date)
+def find_result_for_demand(dem, date, sort_order):
+    
+    qset = ResultForDemand.objects.filter(demand = dem, date__contains = date, item_selection_metric = sort_order)
     logging.critical("For dem " + str(dem) + " found " + str(qset.count()))
     if qset.count() > 0:
         return qset
@@ -275,7 +298,7 @@ def calculate_price_for_demand(demand, date, demand_in_db):
     
     logging.debug("Inside POST method of demowishlist")
     
-    results_for_demand = find_result_for_demand(demand_in_db, date)
+    results_for_demand = find_result_for_demand(demand_in_db, date, int(demand['sort_order']))
         
     if results_for_demand != None:
         for r in results_for_demand:
@@ -369,7 +392,8 @@ def create_sample_wishlist(store_id, store_name, date, categories, demand):
     for cat in categories:
         if demand[cat] > 0:
             tt0 = datetime.datetime.now()
-            max, min, avg, num, item_list = find_items(store_id, store_name, cat, 'A', date)
+            G = demand['gender']
+            max, min, avg, num, item_list = find_items(store_id, store_name, cat, G, date)
             tt1 = datetime.datetime.now()
             result += "<br>Category " + str(cat) + " Max " + str(max) + " Min " \
                    + str(min) + " Avg " + str(avg) + " Num " + str(num) + "<br>"
@@ -421,11 +445,22 @@ def find_k_items(item_list, k, sort_order):
             logging.debug("ASSUMPTION: k is larger than the size of the set")
             #print potential_items[0:k]
             num = potential_items.count()
-            mid = num/2
-            start = mid - k/2 - 1
-            end = mid + k/2 
-            logging.debug("Total " + str(num) + " mid " + str(mid) + " k " + str(k) + " start " + str(start) + " end " + str(end))
-            return potential_items[start:end]
+            if num < k*2:
+                ''' SIMPLIFYING ASSUMPTION: if we have less than twice the k elements, we use all '''
+                return potential_items
+            else:
+                if num % 2 == 0:
+                    mid = num/2
+                else:
+                    mid = (num+1)/2
+                start = mid - k/2 
+                end = mid + k/2
+                if k < 2:
+                    end += 1 
+                how_many = end - start
+                assert how_many == k
+                logging.debug("Total " + str(num) + " mid " + str(mid) + " k " + str(k) + " start " + str(start) + " end " + str(end))
+                return potential_items[start:end]
     except Items.DoesNotExist:
         raise Http404
 
@@ -434,7 +469,7 @@ def find_k_items(item_list, k, sort_order):
 def find_qset(store_name, date, gender, category):
     
     try:
-        qset = db_querysets[store_name + category]
+        qset = db_querysets[store_name + category + gender]
             
         #if qset != None:
         return qset['data']
@@ -446,17 +481,22 @@ def find_qset(store_name, date, gender, category):
         d_start = datetime.datetime.combine(date, start_night)
         d_end = datetime.datetime.combine(date, mid_night)
         items_on_date = Items.objects.filter(insert_date__range = (d_start, d_end))
+        print date
+        print "Number of items after date filter: " + str(len(items_on_date))
         logging.debug("QUERY: " + str(items_on_date.query))
         potential_items = items_on_date.filter(brand__name = store_name)#.filter(insert_date = date)
         logging.debug("Number of items after store filter: " + str(len(potential_items)))
+        print "Number of items after store filter: " + str(len(potential_items))
         # filter only if the category is specified
         if gender != 'A':
             potential_items2 = potential_items.filter(gender = gender)
             logging.debug("Size after gender filter: " + str(len(potential_items2)))
+            print "Size after gender filter: " + str(len(potential_items2))
             potential_items = potential_items2
         
         potential_items3 = potential_items.filter(cat1__contains = category)
         logging.debug("Size after category filter: " + str(len(potential_items3)) + " " + category)
+        print "Size after category filter: " + str(len(potential_items3)) + " " + category
         potential_items = potential_items3
         
         qset = {'store_name': store_name,
@@ -464,7 +504,7 @@ def find_qset(store_name, date, gender, category):
                 'data': potential_items,
                 }
         
-        db_querysets[store_name + category] = qset
+        db_querysets[store_name + category + gender] = qset
         #print potential_items[0]
         return potential_items
 
