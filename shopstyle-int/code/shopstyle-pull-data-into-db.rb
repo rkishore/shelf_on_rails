@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
+require 'rubygems'  
 require 'nokogiri'
 require 'open-uri'
 require 'net/http'
-require 'rubygems'  
 require 'active_record'  
 
 # Pseudo-code
@@ -111,7 +111,7 @@ def parse_product_info(filename, brand, category, time, dbpath)
   # Establish connection to database
   ActiveRecord::Base.establish_connection(  
                                           :adapter => "sqlite3",  
-                                          :database => dbpath,
+                                          :database => dbpath
                                           )  
 
   # Determine table name and create corresponding Class  
@@ -166,7 +166,7 @@ def parse_product_info(filename, brand, category, time, dbpath)
                             :pr_colors => tmp_arr[15],
                             :pr_instock => tmp_arr[16],
                             :pr_retailer => tmp_arr[17],
-                            :pr_currency => tmp_arr[18],
+                            :pr_currency => tmp_arr[18]
                             )
       
       end
