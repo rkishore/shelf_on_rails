@@ -10,6 +10,7 @@ import datetime
 
 class JCrewSpider(CrawlSpider):
     name = "jcrew"
+    store_name = "j.crew"
     allowed_domains = ["jcrew.com"]
     start_urls = [
         "http://www.jcrew.com/index.jsp"
@@ -51,6 +52,32 @@ class JCrewSpider(CrawlSpider):
        	print "HELLO SUB: " + str(response.url)
         return []
 
+
+    # checks if tok is present in sub
+    def _contains(self, sub, tok):
+        index = sub.find(tok)
+        if index >= 0:
+            return True
+        else:
+            return False
+
+    # combine the array elements into a single string with 
+    # provided delimiters
+    def _combine(self, string_array, start_delim, end_delim):
+        result = ""
+        for i in range(0, len(string_array)):
+            result += start_delim
+            result += string_array[i]
+            result += end_delim
+            
+        return result
+            
+    def _store_in_file(self, response, item_id, store_name, date):
+        fname = "/tmp/" + item_id + "-" + store_name + "-" + str(date) + ".html"
+        FILE = open(fname, 'w')
+        FILE.write(str(response.body))
+        FILE.close()
+            
     def parse_sub_sub(self, response):
         hxs = HtmlXPathSelector(response)
         title_path = hxs.select('//title/text()').extract()
@@ -77,47 +104,66 @@ class JCrewSpider(CrawlSpider):
         # find price and sale price
         
         price_path = hxs.select('//td[contains (@class,"standard_nopad")]/text()')
-        price_expr = '\$[\d]+\.[\d]*'
-        price_regex = re.compile(price_expr)
-        prices_u = price_path.re(price_regex)
-        # we should have at most two unique values for prices:
-        # the lower one is the sale price and higher one is the base price
-        prices_float = set()
-        for p in prices_u:
-            p2 = p.strip('$')
-            p_float = float(p2)
-            prices_float.add(p_float)
-        assert len(prices_float) <= 2
-        price = prices_float.pop()
-        sale_price = price
-        if len(prices_float) == 2:
-            sale_price = prices_float.pop()
-            if price < sale_price:
-                #swap
-                other_price = sale_price
-                sale_price = price
-                price = other_price
+        item_expr = '[\$]*[\d,]+[\.\d]*'
+        item_regex = re.compile(item_expr)
+        items_u = price_path.re(item_regex)
+        print items_u
+        # now get item_id and price from this 
+        # the price is the base price without sale
+        item_id = []
+        price = []
+        for item in items_u:
+            if self._contains(item, '$'):
+                item2 = item.strip('$').replace(',', '')
+                price.append(item2)
+            else:
+                item_id.append(item)
+            
+        # this array contains the current price of the item
+        # and associated item_id
+        # using both these arrays, we can figure out if an item is on sale
+        item_options_path = hxs.select('//input[contains (@onclick, "send")]')
+        item_options = item_options_path.extract()
+        selection_exp = '[\d]+[,\.\d]*'
+        selection_regex = re.compile(selection_exp)
+        selections_u = item_options_path.re(selection_regex)
+        num_selections = len(selections_u)/4
+        print "Selections: " + str(selections_u) + " size " + str(len(selections_u)/4)
+        
+        item_id_selection = []
+        sale_price = []
 
-        print "Price: " + str(price) + " Sale Price " + str(sale_price)
+        # first element = item_id, second_element = price        
+        for j in range(0, num_selections):
+            slot = j*4
+            print "Index: " + str(j) + " slot " + str(slot) + " len(selections_u) " + str(len(selections_u))
+            item_id_selection.append(selections_u[slot])
+            sale_price.append(selections_u[slot +1])
+        
+        for j in range(0, len(sale_price)):
+            print "Price: " + str(price[j]) + " Sale Price " + str(sale_price[j]) + " Item " + str(item_id[j])
 
         # find colors available
         color_path = hxs.select('//select[contains (@onchange, "color")]/option/text()')
         colors = color_path.extract()
         print "Colors: " + str(colors[1:len(colors)])
-        
+        colors_combined = self._combine(colors[1:len(colors)], '[', ']')
+        print colors_combined
         # find sizes available        
         size_path = hxs.select('//select[contains (@onchange, "size")]/option/text()')
         sizes = size_path.extract()
         print "Sizes: " + str(sizes[1:len(sizes)])
+        sizes_combined = self._combine(sizes[1:len(sizes)], '[', ']')
+        print sizes_combined
         
         # extract image URL
         prod_image_path = hxs.select('//div[contains (@class, "prod_main_img")]/a/img[contains (@src, "http")]/@src')
         prod_image = prod_image_path.extract()
         print "Image: " + str(prod_image)
         
-        d = datetime.date.today()
-        
-        raise CloseSpider('Blah')
+        date = datetime.date.today()
+        self._store_in_file(response, item_id[0], self.store_name, date)
+        #raise CloseSpider('Blah')
         
         return []
         
