@@ -85,5 +85,4 @@ INSTALLED_APPS = (
     'polls',
     'south',
     'GChartWrapper.charts',
-    'dynamic_scraper',
 )
