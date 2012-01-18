@@ -6,13 +6,14 @@ from scrapy.spider import BaseSpider
 from scrapy.http import Request
 from scrapy.utils.response import get_base_url
 from scrapy.utils.url import urljoin_rfc
-from stutorial.items import Category, Product
+from stutorial.items import Category, ProductItem, ColorSizeItem, CategoryItem
+from mysite2.clothes.models import Brands, ProductModel
 from BeautifulSoup import BeautifulSoup
 
 dnow = datetime.datetime.now()
 df = dnow.isoformat()
 dirpath = "/home/kishore/ParsingData/" + df + "/" 
-brandname = "express"
+brandname = "Express"
 
 def mkdir_p(fpath):
     print "Creating directory: ", fpath
@@ -23,6 +24,180 @@ def mkdir_p(fpath):
             pass
         else: raise
 
+def init_model_values():
+
+    item = ProductItem()
+    category = CategoryItem() 
+    colorsize = ColorSizeItem()
+    
+    b = Brands.objects.all()
+    item['brand'] = b[0]
+    item['idx'] = -11111
+    item['name'] = "None"
+    item['prod_url'] = "None"
+    item['price'] = -111.00
+    item['saleprice'] = -111.00
+    item['promo_text'] = "None"
+    item['err_text'] = "None"
+    item['gender'] = "None"
+    item['img_url'] = "None"
+   
+    category['categoryId'] = -11
+    category['subCategoryId'] = -11
+    category['categoryName'] = "None"
+    category['subCategoryName'] = "None"
+
+    colorsize['color'] = "None"
+    colorsize['size'] = "None"
+    
+    return item, category, colorsize
+
+def fill_item_info1(s1, item):
+    item['name'] = s1.h1.text
+    for i in s1.findAll('li'):
+       try:
+          if i['class'] == "cat-pro-price":
+             j = i.findAll('span')
+             if j:
+                try:
+                   if j['class'] == "cat-glo-tex-oldP":
+                      item['price'] = j.text.split('$')[1]
+                   elif j['class'] == "cat-glo-tex-saleP":
+                      item['saleprice'] = j.text.split('$')[1]
+                except:
+                   pass
+             else:
+                k = i.findAll('strong')
+                for l in k:
+                   if l.text:
+                      item['price'] = l.text.split('$')[1]
+                      item['saleprice'] = l.text.split('$')[1]
+       except KeyError:
+          #print "KeyError", i
+          pass
+    return
+
+def fill_item_info2(s1, item):
+    s2 = s1.find('span', {'class' : 'cat-pro-promo-text'})
+    if s2:
+        try:
+            item['promo_text'] = s2.font.text
+        except AttributeError:
+            item['promo_text'] = s2.text
+   
+        s3 = s1.find('span', {'class' : 'glo-tex-error'})
+        if s3:
+           try:
+               item['err_text'] = s3.font.text
+           except AttributeError:
+               item['err_text'] = s3.text
+    return
+
+def fill_itemcat_info1(soup, item, category):
+    s4= soup.findAll('input')
+    if s4:
+        for i in s4:
+            try:
+                 #print i['name']
+                 if (i['name'] == 'productId'):
+                     item['idx'] = i['value']
+                 if (i['name'] == 'parentCategoryId'):
+                     if (i['value'] == "1"):
+                         item['gender'] = "M"
+                     elif (i['value'] == "2"):
+                         item['gender'] = "F"
+                 if (i['name'] == 'categoryId'):
+                     category['categoryId'] = i['value']
+                 if (i['name'] == 'subCategoryId'):
+                     category['subCategoryId'] = i['value']
+            except KeyError:
+                 pass
+    else:
+         print "input not found"    
+    
+    s7 = soup.find('link', {'rel' : 'image_src'})
+    if s7:
+        item['img_url'] = s7['href'].split('?')[0]
+      
+    return
+
+def fill_cat_info1(soup, category):
+    s5 = soup.find('div', {'id' : 'glo-cat-breadcrumb-area'})
+    if s5:
+     s6 = s5.findAll('a')
+     for i in s6:
+         try:
+             if i['id'] == 'breadURL_Cat':
+               category['categoryName'] = i.text
+             if i['id'] == 'breadURL_Thumb':
+               category['subCategoryName'] = i.text
+         except KeyError:
+             pass
+    return
+       
+def fill_itemcat_model(soup, item, category, response):
+    item['prod_url'] = response.url
+    s1 = soup.find('div', {'id' : 'cat-pro-con-detail'})
+    if s1:
+        fill_item_info1(s1, item)
+        fill_item_info2(s1, item)
+    fill_itemcat_info1(soup, item, category)
+    fill_cat_info1(soup, category) 
+    return
+
+def fill_colorsize_model(response, colorsize):
+    
+    # Find Color and corresponding sizes
+    str_list = re.findall('colorToSize[\w\d\[\]\\\',=\s]+;', str(response.body))
+    l_color = []
+    l_size = {}
+    for i in str_list:
+       spl1 = i.split("=")[0].split("[")[1].split("]")
+    
+       # Get color
+       lc = unicode(spl1[0].replace("'", "").strip())
+       l_color.append(lc)
+       
+       # Get size
+       spl2 = i.split("=")[1].split("[")[1].split("];")[0].split(",")
+       adj_spl2 = []
+       for j in spl2:
+           adj_spl2.append(unicode(j.replace("'", "").strip()))
+       l_size[lc] = adj_spl2
+    
+    cs_arr = []
+    for i in l_size:
+        for j in l_size[i]:
+            cs = ColorSizeItem()
+            cs['color'] = i
+            if not j == "No Size":
+                cs['size'] = j
+            else:
+                cs['size'] = "None"  
+            cs_arr.append(cs)
+    
+    if not cs_arr:     
+        cs_arr.append(colorsize)
+    
+    return cs_arr  
+     
+
+def save_to_file(soup, item):
+    fname = dirpath + brandname + "-" + item['idx'] + ".html"
+    #print "FILE DEBUG:", fname
+    f = open(fname, 'w')
+    f.write(soup.prettify())
+    f.close()
+    return
+
+def save_to_db(item, category, colorsize_arr):
+    cur_it = item.save()
+    category['product'] = ProductModel.objects.get(pk=cur_it.id)
+    category.save()
+    for cur_cs in colorsize_arr:
+        cur_cs['product'] = ProductModel.objects.get(pk=cur_it.id)
+        cur_cs.save()
+    
 class Express2Spider(BaseSpider):
    name = "express2"
    allowed_domains = ["express.com"]
@@ -128,127 +303,13 @@ class Express2Spider(BaseSpider):
       return
 
    def get_prodinfo(self, response):
-       
       soup = BeautifulSoup(response.body_as_unicode())
-      item = Product()
-      
-      item['url'] = response.url
-      
-      #print soup.prettify()
-      
-      s1 = soup.find('div', {'id' : 'cat-pro-con-detail'})
-      if s1:
-         item['name'] = s1.h1.text
-
-         for i in s1.findAll('li'):
-            try:
-               if i['class'] == "cat-pro-price":
-                  j = i.findAll('span')
-                  if j:
-                     try:
-                        if j['class'] == "cat-glo-tex-oldP":
-                           item['price'] = j.text
-                        elif j['class'] == "cat-glo-tex-saleP":
-                           item['saleprice'] = j.text
-                     except:
-                        pass
-                  else:
-                     k = i.findAll('strong')
-                     for l in k:
-                        if l.text:
-                           item['price'] = l.text
-                           item['saleprice'] = l.text
-
-            except KeyError:
-               #print "KeyError", i
-               pass
-           
-         s2 = s1.find('span', {'class' : 'cat-pro-promo-text'})
-         if s2:
-            try:
-                item['promo_text'] = s2.font.text
-            except AttributeError:
-                item['promo_text'] = s2.text
-    
-         s3 = s1.find('span', {'class' : 'glo-tex-error'})
-         if s3:
-            try:
-                item['err_text'] = s3.font.text
-            except AttributeError:
-                item['err_text'] = s3.text
-
-      s4= soup.findAll('input')
-      if s4:
-          item['idx'] = None
-          item['gender'] = None
-          item['categoryId'] = None
-          item['subCategoryId'] = None
-
-          for i in s4:
-              try:
-                  #print i['name']
-                  if (i['name'] == 'productId'):
-                      item['idx'] = i['value']
-                      fname = dirpath + brandname + "-" + item['idx'] + ".html"
-                      #print "FILE DEBUG:", fname
-                      f = open(fname, 'w')
-                      f.write(soup.prettify())
-                      f.close()
-                      
-                  if (i['name'] == 'parentCategoryId'):
-                      if (i['value'] == "1"):
-                          item['gender'] = "M"
-                      elif (i['value'] == "2"):
-                          item['gender'] = "F"
-                  
-                  if (i['name'] == 'categoryId'):
-                      item['categoryId'] = i['value']
-
-                  if (i['name'] == 'subCategoryId'):
-                      item['subCategoryId'] = i['value']
- 
-              except KeyError:
-                  pass
-      else:
-          print "input not found"
-      
-      s5 = soup.find('div', {'id' : 'glo-cat-breadcrumb-area'})
-      if s5:
-          s6 = s5.findAll('a')
-          for i in s6:
-              try:
-                  if i['id'] == 'breadURL_Cat':
-                    item['categoryName'] = i.text
-                  
-                  if i['id'] == 'breadURL_Thumb':
-                    item['subCategoryName'] = i.text
-              except KeyError:
-                  pass
-
-      s7 = soup.find('link', {'rel' : 'image_src'})
-      if s7:
-          item['img_url'] = s7['href'].split('?')[0]
-      
-      # Find Color and corresponding sizes
-      str_list = re.findall('colorToSize[\w\d\[\]\\\',=\s]+;', str(response.body))
-      l_color = []
-      l_size = {}
-      for i in str_list:
-         spl1 = i.split("=")[0].split("[")[1].split("]")
-      
-         # Get color
-         lc = unicode(spl1[0].replace("'", "").strip())
-         l_color.append(lc)
-         
-         # Get size
-         spl2 = i.split("=")[1].split("[")[1].split("];")[0].split(",")
-         adj_spl2 = []
-         for j in spl2:
-             adj_spl2.append(unicode(j.replace("'", "").strip()))
-         l_size[lc] = adj_spl2
-    
-      item['colors'] = l_color #'+'.join(l_color)
-      item['sizes'] = l_size
-      
+      item, category, colorsize = init_model_values()
+      fill_itemcat_model(soup, item, category, response)
+      cs_arr = []
+      cs_arr = fill_colorsize_model(soup, colorsize)
+      save_to_file(soup, item)
+      save_to_db(item, category, cs_arr)
+       
       return item   
 
