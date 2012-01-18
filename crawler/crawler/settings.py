@@ -24,4 +24,4 @@ def setup_django_env(path):
     print "Setting django environment: ", project
     setup_environ(project) 
     
-setup_django_env('../tutorial')
+setup_django_env('../../dSense/tutorial')

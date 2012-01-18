@@ -198,8 +198,8 @@ def save_to_db(item, category, colorsize_arr):
         cur_cs['product'] = ProductModel.objects.get(pk=cur_it.id)
         cur_cs.save()
     
-class Express2Spider(BaseSpider):
-   name = "express2"
+class ExpressSpider(BaseSpider):
+   name = "express"
    allowed_domains = ["express.com"]
    start_urls = [
       "http://www.express.com/custserv/custserv.jsp?pageName=Sitemap",
@@ -211,7 +211,7 @@ class Express2Spider(BaseSpider):
       myNewMassage.extend(myMassage)
       soup = BeautifulSoup(response.body_as_unicode(), markupMassage=myNewMassage)
      
-      mkdir_p(dirpath)
+      #mkdir_p(dirpath)
       
       s1 = soup.findAll('div', {'class' : 'cus-sit-column'})
       for i in range(1, 2):
@@ -308,8 +308,8 @@ class Express2Spider(BaseSpider):
       fill_itemcat_model(soup, item, category, response)
       cs_arr = []
       cs_arr = fill_colorsize_model(soup, colorsize)
-      save_to_file(soup, item)
-      save_to_db(item, category, cs_arr)
+      #save_to_file(soup, item)
+      #save_to_db(item, category, cs_arr)
        
       return item   
 
