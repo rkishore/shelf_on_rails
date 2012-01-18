@@ -82,7 +82,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'polls',
+    'tutorial.polls',
     'south',
     'GChartWrapper.charts',
 )

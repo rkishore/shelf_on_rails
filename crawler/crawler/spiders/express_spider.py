@@ -6,8 +6,8 @@ from scrapy.spider import BaseSpider
 from scrapy.http import Request
 from scrapy.utils.response import get_base_url
 from scrapy.utils.url import urljoin_rfc
-from stutorial.items import Category, ProductItem, ColorSizeItem, CategoryItem
-from mysite2.clothes.models import Brands, ProductModel
+from crawler.items import Category, ProductItem, ColorSizeItem, CategoryItem
+from tutorial.polls.models import Brands, ProductModel
 from BeautifulSoup import BeautifulSoup
 
 dnow = datetime.datetime.now()
@@ -43,9 +43,9 @@ def init_model_values():
     item['img_url'] = "None"
    
     category['categoryId'] = -11
-    category['subCategoryId'] = -11
+    #category['subCategoryId'] = -11
     category['categoryName'] = "None"
-    category['subCategoryName'] = "None"
+    #category['subCategoryName'] = "None"
 
     colorsize['color'] = "None"
     colorsize['size'] = "None"
@@ -108,8 +108,8 @@ def fill_itemcat_info1(soup, item, category):
                          item['gender'] = "F"
                  if (i['name'] == 'categoryId'):
                      category['categoryId'] = i['value']
-                 if (i['name'] == 'subCategoryId'):
-                     category['subCategoryId'] = i['value']
+                 #if (i['name'] == 'subCategoryId'):
+                 #    category['subCategoryId'] = i['value']
             except KeyError:
                  pass
     else:
@@ -129,8 +129,8 @@ def fill_cat_info1(soup, category):
          try:
              if i['id'] == 'breadURL_Cat':
                category['categoryName'] = i.text
-             if i['id'] == 'breadURL_Thumb':
-               category['subCategoryName'] = i.text
+             #if i['id'] == 'breadURL_Thumb':
+             #  category['subCategoryName'] = i.text
          except KeyError:
              pass
     return
