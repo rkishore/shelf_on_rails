@@ -14,7 +14,11 @@ NEWSPIDER_MODULE = 'crawler.spiders'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 
 REDIRECT_MAX_TRIES = 0
-DOWNLOAD_DELAY = 0.25
+#DOWNLOAD_DELAY = 0.25
+
+#LOG_ENABLED=0
+CONCURRENT_REQUESTS_PER_IP = 1
+
 
 def setup_django_env(path): 
     import imp 
@@ -24,4 +28,5 @@ def setup_django_env(path):
     print "Setting django environment: ", project
     setup_environ(project) 
     
+
 setup_django_env('../../dSense/tutorial')
