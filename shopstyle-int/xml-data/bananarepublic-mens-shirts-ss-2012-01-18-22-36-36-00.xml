@@ -1,0 +1,4385 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>2683</Id>
+<Name>Banana Republic</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>58</TotalCount>
+<Product>
+<Id>323716191</Id>
+<Name>Soft wash cotton v-neck tee</Name>
+<Currency>USD</Currency>
+<Price>24.5</Price>
+<PriceLabel>$24.50</PriceLabel>
+<SalePrice>9.99</SalePrice>
+<SalePriceLabel>$9.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=323716191&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/13/27/1327b70ae3a10d26dbb0e8bc8cdf2495_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/13/27/1327b70ae3a10d26dbb0e8bc8cdf2495_medium/banana-republic-tees-soft-wash-cotton-vneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/13/27/1327b70ae3a10d26dbb0e8bc8cdf2495/banana-republic-tees-soft-wash-cotton-vneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>Blue gray</Name>
+</Color>
+<Color>
+<Name>Skyrise blue</Name>
+</Color>
+<Color>
+<Name>Greta green</Name>
+</Color>
+<Color>
+<Name>Ultra navy</Name>
+</Color>
+<Color>
+<Name>Mystic blue</Name>
+</Color>
+<Color>
+<Name>Laurel green</Name>
+</Color>
+<Color>
+<Name>Jade</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Mimosa</Name>
+</Color>
+<Color>
+<Name>Bonnet blue</Name>
+</Color>
+<Color>
+<Name>Soft lilac heather</Name>
+</Color>
+<Color>
+<Name>Aqua light</Name>
+</Color>
+<Color>
+<Name>Adobe clay</Name>
+</Color>
+<Color>
+<Name>Wisteria</Name>
+</Color>
+<Color>
+<Name>White</Name>
+</Color>
+<Color>
+<Name>New banana</Name>
+</Color>
+<Color>
+<Name>Brinjal purple</Name>
+</Color>
+<Color>
+<Name>Brown</Name>
+</Color>
+<Color>
+<Name>Deck grey</Name>
+</Color>
+<Color>
+<Name>Sweet lilac</Name>
+</Color>
+<Color>
+<Name>Silver lake</Name>
+</Color>
+<Color>
+<Name>Beach blue</Name>
+</Color>
+<Color>
+<Name>Burnt crimson</Name>
+</Color>
+<Color>
+<Name>Orange copper</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-18</ExtractDate>
+</Product>
+<Product>
+<Id>321051220</Id>
+<Name>Denim western shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Pointed collar, western-style yoke, button-flap chest pockets, buttoned cuffs.&lt;/li&gt; &lt;li&gt;Dark-wash denim.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=321051220&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/8a/fc/8afc6391086b3790a3ecba3bb0699b8c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/8a/fc/8afc6391086b3790a3ecba3bb0699b8c_medium/banana-republic-shirts-denim-western-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/8a/fc/8afc6391086b3790a3ecba3bb0699b8c/banana-republic-shirts-denim-western-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Dark wash indigo</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-10</ExtractDate>
+</Product>
+<Product>
+<Id>315301707</Id>
+<Name>Soft-Wash slim fit orange plaid utility shirt</Name>
+<Currency>USD</Currency>
+<Price>64.5</Price>
+<PriceLabel>$64.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315301707&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7b/a6/7ba66baf0b4179d9be81278f38a4e6bb_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7b/a6/7ba66baf0b4179d9be81278f38a4e6bb_medium/banana-republic-shirts-softwash-slim-fit-orange-plaid-utility-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7b/a6/7ba66baf0b4179d9be81278f38a4e6bb/banana-republic-shirts-softwash-slim-fit-orange-plaid-utility-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Aleeanta orange</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-22</ExtractDate>
+</Product>
+<Product>
+<Id>314957174</Id>
+<Name>Soft-Wash v-neck tee</Name>
+<Currency>USD</Currency>
+<Price>24.5</Price>
+<PriceLabel>$24.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;100% Cotton.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;
+                       Overview
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Our Soft-Wash shirts undergo a delicate wash cycle for 60 minutes followed by an enzyme wash, giving the shirt a softer and more worn-in finish.&lt;/li&gt;
+                     		&lt;li&gt;V-neckline.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957174&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/eb/51/eb51cf4b080b975c84a2eba3fcd2ad08_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/eb/51/eb51cf4b080b975c84a2eba3fcd2ad08_medium/banana-republic-tees-softwash-vneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/eb/51/eb51cf4b080b975c84a2eba3fcd2ad08/banana-republic-tees-softwash-vneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>317447240</Id>
+<Name>Slim fit bold blue plaid utility shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=317447240&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/21/54/215405b502de712dc8ee2184498c2f1d_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/21/54/215405b502de712dc8ee2184498c2f1d_medium/banana-republic-shirts-slim-fit-bold-blue-plaid-utility-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/21/54/215405b502de712dc8ee2184498c2f1d/banana-republic-shirts-slim-fit-bold-blue-plaid-utility-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-29</ExtractDate>
+</Product>
+<Product>
+<Id>314957590</Id>
+<Name>Slim fit non-iron dobby check shirt</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957590&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d6/35/d635c27ddaaf35b6e230373984622da6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d6/35/d635c27ddaaf35b6e230373984622da6_medium/banana-republic-dress-shirts-slim-fit-noniron-dobby-check-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d6/35/d635c27ddaaf35b6e230373984622da6/banana-republic-dress-shirts-slim-fit-noniron-dobby-check-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Green</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>321051133</Id>
+<Name>BR Monogram tuxedo shirt</Name>
+<Currency>USD</Currency>
+<Price>98.5</Price>
+<PriceLabel>$98.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=321051133&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d6/58/d658446dea8535bf2643288c184833ec_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d6/58/d658446dea8535bf2643288c184833ec_medium/banana-republic-dress-shirts-br-monogram-tuxedo-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d6/58/d658446dea8535bf2643288c184833ec/banana-republic-dress-shirts-br-monogram-tuxedo-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>White</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-10</ExtractDate>
+</Product>
+<Product>
+<Id>314957372</Id>
+<Name>Classic fit non-iron micro gingham shirt</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957372&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/94/a3/94a36dc501b7e42a33d93c813483d514_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/94/a3/94a36dc501b7e42a33d93c813483d514_medium/banana-republic-dress-shirts-classic-fit-noniron-micro-gingham-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/94/a3/94a36dc501b7e42a33d93c813483d514/banana-republic-dress-shirts-classic-fit-noniron-micro-gingham-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Blue mirage</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>314957794</Id>
+<Name>Slim fit blue plaid utility shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;97% Cotton, 3% Spandex.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957794&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/fd/ad/fdad1dd8985bb9c76c2a204fa87bc9b7_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/fd/ad/fdad1dd8985bb9c76c2a204fa87bc9b7_medium/banana-republic-shirts-slim-fit-blue-plaid-utility-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/fd/ad/fdad1dd8985bb9c76c2a204fa87bc9b7/banana-republic-shirts-slim-fit-blue-plaid-utility-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>314957171</Id>
+<Name>Tailored slim fit red plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957171&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/11/82/118227824a5e40fb0094e4970cf43c49_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/11/82/118227824a5e40fb0094e4970cf43c49_medium/banana-republic-dress-shirts-slim-fit-red-plaid-buttondown-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/11/82/118227824a5e40fb0094e4970cf43c49/banana-republic-dress-shirts-slim-fit-red-plaid-buttondown-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Saucy red</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>314957641</Id>
+<Name>Heritage military henley</Name>
+<Currency>USD</Currency>
+<Price>49.5</Price>
+<PriceLabel>$49.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;100% Cotton.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;
+                       Overview
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Our modern, limited-edition Heritage Collection is inspired by our legacy of exploration and discovery, and defined by craftsmanship and authenticity.&lt;/li&gt;
+                     		&lt;li&gt;Buttoned epaulets.&lt;/li&gt;
+                     		&lt;li&gt;Traditional three-button henley placket.&lt;/li&gt;
+                     		&lt;li&gt;Buttoned chest pockets.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957641&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/73/18/7318183891c185038fd122368480c18b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/73/18/7318183891c185038fd122368480c18b_medium/banana-republic-longsleeve-shirts-heritage-military-henley.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/73/18/7318183891c185038fd122368480c18b/banana-republic-longsleeve-shirts-heritage-military-henley.jpg</Url>
+</Image>
+<Color>
+<Name>Charcoal</Name>
+</Color>
+<Color>
+<Name>Brown</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>318052389</Id>
+<Name>Heritage stripe tee</Name>
+<Currency>USD</Currency>
+<Price>44.5</Price>
+<PriceLabel>$44.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;57% Cotton, 35% Polyester, 8% Rayon.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash cold.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;
+                       Overview
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Banana Republic Heritage is a modern, limited-edition collection inspired by our legacy of exploration and discovery, and defined by craftsmanship and authenticity.&lt;/li&gt;
+                     		&lt;li&gt;Scoop neckline.&lt;/li&gt;
+                     		&lt;li&gt;Long sleeves.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=318052389&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/47/37/473770383bd4d6ed308e2fe21ad7fae4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/47/37/473770383bd4d6ed308e2fe21ad7fae4_medium/banana-republic-tees-heritage-stripe-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/47/37/473770383bd4d6ed308e2fe21ad7fae4/banana-republic-tees-heritage-stripe-tee.jpg</Url>
+</Image>
+<Color>
+<Name>Dark charcoal gray</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-31</ExtractDate>
+</Product>
+<Product>
+<Id>314957655</Id>
+<Name>Slim fit saturated plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;97% Cotton, 3% Spandex.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957655&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3f/f0/3ff0f592bdc4d4b12338f1ac23c4c58c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3f/f0/3ff0f592bdc4d4b12338f1ac23c4c58c_medium/banana-republic-shirts-slim-fit-saturated-plaid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3f/f0/3ff0f592bdc4d4b12338f1ac23c4c58c/banana-republic-shirts-slim-fit-saturated-plaid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>314302490</Id>
+<Name>Slim fit striped seamed shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;97% Cotton, 3% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314302490&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3e/25/3e250afd23bd507c6f98f1e4dd04a893_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3e/25/3e250afd23bd507c6f98f1e4dd04a893_medium/banana-republic-shirts-slim-fit-striped-seamed-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3e/25/3e250afd23bd507c6f98f1e4dd04a893/banana-republic-shirts-slim-fit-striped-seamed-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Medium blue</Name>
+</Color>
+<Color>
+<Name>Construction grey</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-19</ExtractDate>
+</Product>
+<Product>
+<Id>314957120</Id>
+<Name>Slim fit red plaid utility shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;97% Cotton, 3% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957120&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/35/2f/352f5e04c87ec424b5a41abf3f1d0b3f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/35/2f/352f5e04c87ec424b5a41abf3f1d0b3f_medium/banana-republic-shirts-slim-fit-red-plaid-utility-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/35/2f/352f5e04c87ec424b5a41abf3f1d0b3f/banana-republic-shirts-slim-fit-red-plaid-utility-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Ruddy orange</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>314302475</Id>
+<Name>Branded striped piqu&#xC3;&#xA9; polo</Name>
+<Currency>USD</Currency>
+<Price>44.5</Price>
+<PriceLabel>$44.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;96% Cotton, 4% Spandex.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash cold.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;
+                       Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314302475&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c4/0f/c40f1144ab86c1a21d1f807316eefb1e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c4/0f/c40f1144ab86c1a21d1f807316eefb1e_medium/banana-republic-polos-branded-striped-piqua-polo.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c4/0f/c40f1144ab86c1a21d1f807316eefb1e/banana-republic-polos-branded-striped-piqua-polo.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Color>
+<Name>Blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-polo-shirts</Category>
+<CategoryName>Polos</CategoryName>
+<SeeMoreLabel>Polos by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-polo-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-19</ExtractDate>
+</Product>
+<Product>
+<Id>314957580</Id>
+<Name>Slim fit stretch poplin dress shirt</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;75% Cotton, 22% Nylon, 3% Spandex.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957580&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b3/d7/b3d743cdea8712e6eb4e6e36686dafbf_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b3/d7/b3d743cdea8712e6eb4e6e36686dafbf_medium/banana-republic-dress-shirts-slim-fit-stretch-poplin-dress-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b3/d7/b3d743cdea8712e6eb4e6e36686dafbf/banana-republic-dress-shirts-slim-fit-stretch-poplin-dress-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>North beach blue</Name>
+</Color>
+<Color>
+<Name>Royal blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>314957790</Id>
+<Name>Soft-Wash gingham shirt</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Pointed collar, single chest pocket, buttoned cuffs.&lt;/li&gt; &lt;li&gt;Our Soft-Wash shirts undergo a delicate wash cycle for 60 minutes followed by an enzyme wash, giving the shirt a softer and more worn-in finish.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957790&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/77/72/777279d15303dd02501a253b6ef8ba0b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/77/72/777279d15303dd02501a253b6ef8ba0b_medium/banana-republic-shirts-softwash-gingham-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/77/72/777279d15303dd02501a253b6ef8ba0b/banana-republic-shirts-softwash-gingham-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Color>
+<Name>Blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>315976209</Id>
+<Name>Ram graphic tee</Name>
+<Currency>USD</Currency>
+<Price>34.5</Price>
+<PriceLabel>$34.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;100% Cotton.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;
+                       Overview
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Crewneck.&lt;/li&gt;
+                     		&lt;li&gt;BR-branded graphic tee featuring ram's head.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315976209&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ea/51/ea5151c95ae75c6c492e7fabae5a1593_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ea/51/ea5151c95ae75c6c492e7fabae5a1593_medium/banana-republic-tees-ram-graphic-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ea/51/ea5151c95ae75c6c492e7fabae5a1593/banana-republic-tees-ram-graphic-tee.jpg</Url>
+</Image>
+<Color>
+<Name>Ruddy</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-24</ExtractDate>
+</Product>
+<Product>
+<Id>315976479</Id>
+<Name>Tailored slim fit micro gingham shirt</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315976479&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/1d/37/1d379de7b452138acffd78f9405addc2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/1d/37/1d379de7b452138acffd78f9405addc2_medium/banana-republic-dress-shirts-tailored-slim-fit-micro-gingham-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/1d/37/1d379de7b452138acffd78f9405addc2/banana-republic-dress-shirts-tailored-slim-fit-micro-gingham-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-24</ExtractDate>
+</Product>
+<Product>
+<Id>314957417</Id>
+<Name>Soft-Wash crew-neck tee</Name>
+<Currency>USD</Currency>
+<Price>24.5</Price>
+<PriceLabel>$24.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Our Soft-Wash shirts undergo a delicate wash cycle for 60 minutes followed by an enzyme wash, giving the shirt a softer and more worn-in finish.&lt;/li&gt; &lt;li&gt;Crew neck.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957417&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e5/98/e598dd6d2c5740b4a71d21a7802518e4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e5/98/e598dd6d2c5740b4a71d21a7802518e4_medium/banana-republic-tees-softwash-crewneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e5/98/e598dd6d2c5740b4a71d21a7802518e4/banana-republic-tees-softwash-crewneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>Rustic khaki</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>314957607</Id>
+<Name>Slim fit saturated stripe shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;97% Cotton, 3% Spandex.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957607&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/4b/b8/4bb8056b89794a4253c197cdaa8304f1_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/4b/b8/4bb8056b89794a4253c197cdaa8304f1_medium/banana-republic-shirts-slim-fit-saturated-stripe-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/4b/b8/4bb8056b89794a4253c197cdaa8304f1/banana-republic-shirts-slim-fit-saturated-stripe-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>314957452</Id>
+<Name>Slim fit optic check shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;97% Cotton, 3% Spandex.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957452&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b3/ec/b3ec5cbeebb10b7a62ab59e97fe97134_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b3/ec/b3ec5cbeebb10b7a62ab59e97fe97134_medium/banana-republic-shirts-slim-fit-optic-check-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b3/ec/b3ec5cbeebb10b7a62ab59e97fe97134/banana-republic-shirts-slim-fit-optic-check-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Sharp grey</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>303598498</Id>
+<Name>Slim-fit navy plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>64.5</Price>
+<PriceLabel>$64.50</PriceLabel>
+<SalePrice>45.99</SalePrice>
+<SalePriceLabel>$45.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303598498&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/a3/37/a3375e6dd939e379e590fc3ee5989e49_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/a3/37/a3375e6dd939e379e590fc3ee5989e49_medium/banana-republic-tops-slimfit-navy-plaid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/a3/37/a3375e6dd939e379e590fc3ee5989e49/banana-republic-tops-slimfit-navy-plaid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Basic blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-15</ExtractDate>
+</Product>
+<Product>
+<Id>303238675</Id>
+<Name>Waffle-knit button mock</Name>
+<Currency>USD</Currency>
+<Price>49.5</Price>
+<PriceLabel>$49.50</PriceLabel>
+<SalePrice>39.99</SalePrice>
+<SalePriceLabel>$39.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;97% Cotton, 3% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303238675&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/fa/3e/fa3ec64884ab812f6726e054f3c5554f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/fa/3e/fa3ec64884ab812f6726e054f3c5554f_medium/banana-republic-tall-shirts-waffleknit-button-mock.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/fa/3e/fa3ec64884ab812f6726e054f3c5554f/banana-republic-tall-shirts-waffleknit-button-mock.jpg</Url>
+</Image>
+<Color>
+<Name>Sullivan blue</Name>
+</Color>
+<Color>
+<Name>Cambridge wine</Name>
+</Color>
+<Color>
+<Name>Charcoal heather</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-14</ExtractDate>
+</Product>
+<Product>
+<Id>303598402</Id>
+<Name>Slim-fit green &amp; navy plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>64.5</Price>
+<PriceLabel>$64.50</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303598402&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/da/6c/da6c249ffb68b41540aaa97328d99638_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/da/6c/da6c249ffb68b41540aaa97328d99638_medium/banana-republic-tops-slimfit-green-navy-plaid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/da/6c/da6c249ffb68b41540aaa97328d99638/banana-republic-tops-slimfit-green-navy-plaid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Grass green</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-15</ExtractDate>
+</Product>
+<Product>
+<Id>298740007</Id>
+<Name>Soft-Wash blue plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>64.5</Price>
+<PriceLabel>$64.50</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Our Soft-Wash shirts undergo a delicate wash cycle for 60 minutes followed by an enzyme wash, giving the shirt a softer and more worn-in finish.&lt;/li&gt; &lt;li&gt;Button-down collar, one chest pocket, buttoned cuffs.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=298740007&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ae/bc/aebc9725423646e5b16948d41dec7529_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ae/bc/aebc9725423646e5b16948d41dec7529_medium/banana-republic-shirts-softwash-blue-plaid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ae/bc/aebc9725423646e5b16948d41dec7529/banana-republic-shirts-softwash-blue-plaid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>298740016</Id>
+<Name>Slim fit blue multi-check shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<SalePrice>34.99</SalePrice>
+<SalePriceLabel>$34.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;97% Cotton, 3% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=298740016&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/cd/5f/cd5f357f8eba1469afac4cb814e7c698_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/cd/5f/cd5f357f8eba1469afac4cb814e7c698_medium/banana-republic-shirts-slim-fit-blue-multicheck-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/cd/5f/cd5f357f8eba1469afac4cb814e7c698/banana-republic-shirts-slim-fit-blue-multicheck-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Military blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>298740003</Id>
+<Name>Flannel plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<SalePrice>59.99</SalePrice>
+<SalePriceLabel>$59.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Pointed collar.&lt;/li&gt; &lt;li&gt;Button-flap chest pocket.&lt;/li&gt; &lt;li&gt;Button cuffs.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=298740003&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/4b/fd/4bfd8fadd30a1a45604b06f368860b1e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/4b/fd/4bfd8fadd30a1a45604b06f368860b1e_medium/banana-republic-shirts-flannel-plaid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/4b/fd/4bfd8fadd30a1a45604b06f368860b1e/banana-republic-shirts-flannel-plaid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Saffron</Name>
+</Color>
+<Color>
+<Name>Algae green</Name>
+</Color>
+<Color>
+<Name>Smokey blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>298740626</Id>
+<Name>Soft-Wash checkered shirt</Name>
+<Currency>USD</Currency>
+<Price>64.5</Price>
+<PriceLabel>$64.50</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=298740626&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f0/17/f01733863ef3dfe64f5d6f9e2337d1b3_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f0/17/f01733863ef3dfe64f5d6f9e2337d1b3_medium/banana-republic-shirts-softwash-checkered-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f0/17/f01733863ef3dfe64f5d6f9e2337d1b3/banana-republic-shirts-softwash-checkered-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Brinjal purple</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>298740217</Id>
+<Name>Soft-Wash orange plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>64.5</Price>
+<PriceLabel>$64.50</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% C otton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Point collar, buttoned cuffs.&lt;/li&gt; &lt;li&gt;Our Soft-Wash shirts undergo a delicate wash cycle for 60 minutes followed by an enzyme wash, giving the shirt a softer and more worn-in finish.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=298740217&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/02/4c/024c0038592a33eca9b937bbfec703b8_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/02/4c/024c0038592a33eca9b937bbfec703b8_medium/banana-republic-shirts-softwash-orange-plaid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/02/4c/024c0038592a33eca9b937bbfec703b8/banana-republic-shirts-softwash-orange-plaid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Sierra orange</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>298740632</Id>
+<Name>Soft-Wash slim fit purple plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>64.5</Price>
+<PriceLabel>$64.50</PriceLabel>
+<SalePrice>45.99</SalePrice>
+<SalePriceLabel>$45.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=298740632&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b2/3f/b23fbaaf80df88a1c64f46f6068a2aba_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b2/3f/b23fbaaf80df88a1c64f46f6068a2aba_medium/banana-republic-shirts-softwash-slim-fit-purple-plaid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b2/3f/b23fbaaf80df88a1c64f46f6068a2aba/banana-republic-shirts-softwash-slim-fit-purple-plaid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Pomegranate</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>299092767</Id>
+<Name>Cotton long-sleeve tee</Name>
+<Currency>USD</Currency>
+<Price>29.5</Price>
+<PriceLabel>$29.50</PriceLabel>
+<SalePrice>14.99</SalePrice>
+<SalePriceLabel>$14.99</SalePriceLabel>
+<MaxSalePrice>24.99</MaxSalePrice>
+<MaxSalePriceLabel>$24.99</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash, delicate cycle.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Crewneck.&lt;/li&gt; &lt;li&gt;Neckline interior is trimmed in plaid.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=299092767&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/5c/99/5c991d12b9b54dc5fb004cd1f51602f4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/5c/99/5c991d12b9b54dc5fb004cd1f51602f4_medium/banana-republic-tees-cotton-longsleeve-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/5c/99/5c991d12b9b54dc5fb004cd1f51602f4/banana-republic-tees-cotton-longsleeve-tee.jpg</Url>
+</Image>
+<Color>
+<Name>Stormy blue</Name>
+</Color>
+<Color>
+<Name>Natural linen</Name>
+</Color>
+<Color>
+<Name>Leaf</Name>
+</Color>
+<Color>
+<Name>Barn brown</Name>
+</Color>
+<Color>
+<Name>Red parrot</Name>
+</Color>
+<Color>
+<Name>Gray literature</Name>
+</Color>
+<Color>
+<Name>Cambridge wine</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-28</ExtractDate>
+</Product>
+<Product>
+<Id>298739928</Id>
+<Name>Flannel multi-color plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Pointed collar.&lt;/li&gt; &lt;li&gt;Button-flap chest pocket.&lt;/li&gt; &lt;li&gt;Button cuffs.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=298739928&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f3/5c/f35c310decac1631f693cf32502429f2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f3/5c/f35c310decac1631f693cf32502429f2_medium/banana-republic-shirts-flannel-multicolor-plaid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f3/5c/f35c310decac1631f693cf32502429f2/banana-republic-shirts-flannel-multicolor-plaid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Rich navy</Name>
+</Color>
+<Color>
+<Name>Cambridge wine</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>293217356</Id>
+<Name>Cotton henley</Name>
+<Currency>USD</Currency>
+<Price>32.5</Price>
+<PriceLabel>$32.50</PriceLabel>
+<SalePrice>24.99</SalePrice>
+<SalePriceLabel>$24.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash, delicate cycle.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Three-button placket.&lt;/li&gt; &lt;li&gt;Rib-knit cuffs.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=293217356&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/a7/c6/a7c690e3fb3686937b83e9e8796411eb_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/a7/c6/a7c690e3fb3686937b83e9e8796411eb_medium/banana-republic-longsleeve-shirts-cotton-henley.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/a7/c6/a7c690e3fb3686937b83e9e8796411eb/banana-republic-longsleeve-shirts-cotton-henley.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Color>
+<Name>Loden</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-14</ExtractDate>
+</Product>
+<Product>
+<Id>298740247</Id>
+<Name>Slim-fit tartan plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>64.5</Price>
+<PriceLabel>$64.50</PriceLabel>
+<SalePrice>34.99</SalePrice>
+<SalePriceLabel>$34.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=298740247&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b4/0b/b40bcb17acf020196b68c33798ee041e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b4/0b/b40bcb17acf020196b68c33798ee041e_medium/banana-republic-shirts-slimfit-tartan-plaid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b4/0b/b40bcb17acf020196b68c33798ee041e/banana-republic-shirts-slimfit-tartan-plaid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Basic blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>288146385</Id>
+<Name>Slim fit plaid western shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<SalePrice>45.99</SalePrice>
+<SalePriceLabel>$45.99</SalePriceLabel>
+<MaxSalePrice>49.99</MaxSalePrice>
+<MaxSalePriceLabel>$49.99</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;97% Cotton, 3% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=288146385&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/47/d4/47d45a5ed7b66223bcba2dc95584895b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/47/d4/47d45a5ed7b66223bcba2dc95584895b_medium/banana-republic-shirts-slim-fit-plaid-western-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/47/d4/47d45a5ed7b66223bcba2dc95584895b/banana-republic-shirts-slim-fit-plaid-western-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Blue</Name>
+</Color>
+<Color>
+<Name>Ruddy</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-30</ExtractDate>
+</Product>
+<Product>
+<Id>287716506</Id>
+<Name>Soft-Wash solid shirt</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Our Soft-Wash shirts undergo a delicate wash cycle for 60 minutes followed by an enzyme wash, giving the shirt a softer and more worn-in finish.&lt;/li&gt; &lt;li&gt;Spread collar, two chest pockets, button cuffs.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=287716506&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3c/f1/3cf1ff73ec1847b450aace43eeb210e9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3c/f1/3cf1ff73ec1847b450aace43eeb210e9_medium/banana-republic-shirts-softwash-solid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3c/f1/3cf1ff73ec1847b450aace43eeb210e9/banana-republic-shirts-softwash-solid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Medium blue</Name>
+</Color>
+<Color>
+<Name>Green</Name>
+</Color>
+<Color>
+<Name>Tan</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-29</ExtractDate>
+</Product>
+<Product>
+<Id>281153865</Id>
+<Name>Classic fit non-iron windowpane shirt</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<SalePrice>64.99</SalePrice>
+<SalePriceLabel>$64.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=281153865&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/bf/3e/bf3ea34af05cfe87d8b1e9861bbb9b45_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/bf/3e/bf3ea34af05cfe87d8b1e9861bbb9b45_medium/banana-republic-dress-shirts-classic-fit-noniron-windowpane-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/bf/3e/bf3ea34af05cfe87d8b1e9861bbb9b45/banana-republic-dress-shirts-classic-fit-noniron-windowpane-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Russet</Name>
+</Color>
+<Color>
+<Name>Ribbon royal</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-10</ExtractDate>
+</Product>
+<Product>
+<Id>253094717</Id>
+<Name>Slim fit solid textured shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<SalePrice>59.99</SalePrice>
+<SalePriceLabel>$59.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=253094717&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/33/c7/33c71590867c5d4cd9fca50badd29038_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/33/c7/33c71590867c5d4cd9fca50badd29038_medium/banana-republic-dress-shirts-slim-fit-solid-textured-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/33/c7/33c71590867c5d4cd9fca50badd29038/banana-republic-dress-shirts-slim-fit-solid-textured-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Delicate plum</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-17</ExtractDate>
+</Product>
+<Product>
+<Id>253094084</Id>
+<Name>BR Monogram slim fit micro-print shirt</Name>
+<Currency>USD</Currency>
+<Price>130.0</Price>
+<PriceLabel>$130.00</PriceLabel>
+<SalePrice>44.99</SalePrice>
+<SalePriceLabel>$44.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;100% Cotton.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;
+                       Overview
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim fit.&lt;/li&gt;
+                     		&lt;li&gt;BR black label indicates that this is part of our premier Banana Republic Monogram Collection.&lt;/li&gt;
+                     		&lt;li&gt;Point collar, clean front, barrel cuffs.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=253094084&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/07/43/07435b9ab4d523bed8de963aa9495e84_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/07/43/07435b9ab4d523bed8de963aa9495e84_medium/banana-republic-shirts-br-monogram-microprint-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/07/43/07435b9ab4d523bed8de963aa9495e84/banana-republic-shirts-br-monogram-microprint-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Peach</Name>
+</Color>
+<Color>
+<Name>Night azul</Name>
+</Color>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-17</ExtractDate>
+</Product>
+<Product>
+<Id>233278164</Id>
+<Name>Slim fit non-iron plaid shirt</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<SalePrice>39.99</SalePrice>
+<SalePriceLabel>$39.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;100% Cotton.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=233278164&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d7/3e/d73ef4389f4faefb17797eaab338c5c0_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d7/3e/d73ef4389f4faefb17797eaab338c5c0_medium/banana-republic-longsleeve-shirts-banana-republic-slim-fit-noniron-plaid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d7/3e/d73ef4389f4faefb17797eaab338c5c0/banana-republic-longsleeve-shirts-banana-republic-slim-fit-noniron-plaid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Green ice</Name>
+</Color>
+<Color>
+<Name>Yellow</Name>
+</Color>
+<Color>
+<Name>Stormy beige</Name>
+</Color>
+<Color>
+<Name>Clear sky</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-04-03</ExtractDate>
+</Product>
+<Product>
+<Id>231083280</Id>
+<Name>Cotton branded tee</Name>
+<Currency>USD</Currency>
+<Price>24.5</Price>
+<PriceLabel>$24.50</PriceLabel>
+<SalePrice>7.99</SalePrice>
+<SalePriceLabel>$7.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Crewneck.&lt;/li&gt; &lt;li&gt;Embroidered BR elephant on chest.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=231083280&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c7/b1/c7b19dfd94b5dc061f293f35b992bcca_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c7/b1/c7b19dfd94b5dc061f293f35b992bcca_medium/banana-republic-tees-banana-republic-cotton-branded-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c7/b1/c7b19dfd94b5dc061f293f35b992bcca/banana-republic-tees-banana-republic-cotton-branded-tee.jpg</Url>
+</Image>
+<Color>
+<Name>Red bandana</Name>
+</Color>
+<Color>
+<Name>Coal</Name>
+</Color>
+<Color>
+<Name>Purple</Name>
+</Color>
+<Color>
+<Name>Dutch blue</Name>
+</Color>
+<Color>
+<Name>New fez</Name>
+</Color>
+<Color>
+<Name>White</Name>
+</Color>
+<Color>
+<Name>Brinjal purple</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Bright wine</Name>
+</Color>
+<Color>
+<Name>Silver star</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-03-25</ExtractDate>
+</Product>
+<Product>
+<Id>231083426</Id>
+<Name>Soft-Wash cotton t-shirt</Name>
+<Currency>USD</Currency>
+<Price>24.5</Price>
+<PriceLabel>$24.50</PriceLabel>
+<SalePrice>11.99</SalePrice>
+<SalePriceLabel>$11.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=231083426&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/82/8a/828acda96968d4bc5d55caea4f6b0883_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/82/8a/828acda96968d4bc5d55caea4f6b0883_medium/banana-republic-tees-banana-republic-soft-wash-cotton-tshirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/82/8a/828acda96968d4bc5d55caea4f6b0883/banana-republic-tees-banana-republic-soft-wash-cotton-tshirt.jpg</Url>
+</Image>
+<Color>
+<Name>Crimson</Name>
+</Color>
+<Color>
+<Name>Berry</Name>
+</Color>
+<Color>
+<Name>Gardner brown</Name>
+</Color>
+<Color>
+<Name>Light blue heather</Name>
+</Color>
+<Color>
+<Name>Grey</Name>
+</Color>
+<Color>
+<Name>Blue stone</Name>
+</Color>
+<Color>
+<Name>Blue heather</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Turmeric</Name>
+</Color>
+<Color>
+<Name>Velvet teal</Name>
+</Color>
+<Color>
+<Name>Fort tilden green</Name>
+</Color>
+<Color>
+<Name>True berry</Name>
+</Color>
+<Color>
+<Name>Warm granite</Name>
+</Color>
+<Color>
+<Name>Dark olive</Name>
+</Color>
+<Color>
+<Name>Samaras burgundy</Name>
+</Color>
+<Color>
+<Name>Green valley</Name>
+</Color>
+<Color>
+<Name>White</Name>
+</Color>
+<Color>
+<Name>Buff yellow</Name>
+</Color>
+<Color>
+<Name>Brown</Name>
+</Color>
+<Color>
+<Name>Rhubarb</Name>
+</Color>
+<Color>
+<Name>Orange heather</Name>
+</Color>
+<Color>
+<Name>Eclipse coal</Name>
+</Color>
+<Color>
+<Name>Bright wine</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-03-25</ExtractDate>
+</Product>
+<Product>
+<Id>211420479</Id>
+<Name>Luxe-touch cotton solid polo</Name>
+<Currency>USD</Currency>
+<Price>49.5</Price>
+<PriceLabel>$49.50</PriceLabel>
+<SalePrice>17.99</SalePrice>
+<SalePriceLabel>$17.99</SalePriceLabel>
+<MaxSalePrice>29.99</MaxSalePrice>
+<MaxSalePriceLabel>$29.99</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Luxe-touch cotton offers the softest hand and a reliably polished presentation.&lt;/li&gt; &lt;li&gt;Relaxed polo collar.&lt;/li&gt; &lt;li&gt;3-button placket.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=211420479&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0e/20/0e208d1b6e2454b20d626778b4460fcb_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0e/20/0e208d1b6e2454b20d626778b4460fcb_medium/banana-republic-polos-luxetouch-cotton-solid-polo.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0e/20/0e208d1b6e2454b20d626778b4460fcb/banana-republic-polos-luxetouch-cotton-solid-polo.jpg</Url>
+</Image>
+<Color>
+<Name>Saffron threads</Name>
+</Color>
+<Color>
+<Name>Blue atmosphere</Name>
+</Color>
+<Color>
+<Name>Gray pearl</Name>
+</Color>
+<Color>
+<Name>Blue</Name>
+</Color>
+<Color>
+<Name>Purple crown</Name>
+</Color>
+<Color>
+<Name>White</Name>
+</Color>
+<Color>
+<Name>Summer lily</Name>
+</Color>
+<Color>
+<Name>Purple fuschia</Name>
+</Color>
+<Color>
+<Name>Burgundy</Name>
+</Color>
+<Color>
+<Name>Aubergine fade</Name>
+</Color>
+<Color>
+<Name>Water hyacinth</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Dusty grey</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-polo-shirts</Category>
+<CategoryName>Polos</CategoryName>
+<SeeMoreLabel>Polos by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-polo-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-01-13</ExtractDate>
+</Product>
+<Product>
+<Id>205487392</Id>
+<Name>Branded polo</Name>
+<Currency>USD</Currency>
+<Price>39.5</Price>
+<PriceLabel>$39.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;96% Cotton, 4% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=205487392&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/89/15/89155e3459f0f10d06cb8a94429bee87_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/89/15/89155e3459f0f10d06cb8a94429bee87_medium/banana-republic-polos-branded-polo.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/89/15/89155e3459f0f10d06cb8a94429bee87/banana-republic-polos-branded-polo.jpg</Url>
+</Image>
+<Color>
+<Name>Berry</Name>
+</Color>
+<Color>
+<Name>Greta green</Name>
+</Color>
+<Color>
+<Name>Blue ashes</Name>
+</Color>
+<Color>
+<Name>Ultra navy</Name>
+</Color>
+<Color>
+<Name>Calming orange</Name>
+</Color>
+<Color>
+<Name>Olive moss</Name>
+</Color>
+<Color>
+<Name>Khaki heather</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Turmeric</Name>
+</Color>
+<Color>
+<Name>Saffron</Name>
+</Color>
+<Color>
+<Name>Samaras burgundy</Name>
+</Color>
+<Color>
+<Name>Dutch blue</Name>
+</Color>
+<Color>
+<Name>Green valley</Name>
+</Color>
+<Color>
+<Name>Shark fin</Name>
+</Color>
+<Color>
+<Name>Dark silver</Name>
+</Color>
+<Color>
+<Name>Brown</Name>
+</Color>
+<Color>
+<Name>Rhubarb</Name>
+</Color>
+<Color>
+<Name>Sweet lilac</Name>
+</Color>
+<Color>
+<Name>Yellow</Name>
+</Color>
+<Color>
+<Name>Burnt crimson</Name>
+</Color>
+<Color>
+<Name>Marine park green</Name>
+</Color>
+<Color>
+<Name>Pink sand</Name>
+</Color>
+<Color>
+<Name>Cloud blue</Name>
+</Color>
+<Color>
+<Name>Cornsilk blue</Name>
+</Color>
+<Color>
+<Name>Pear green</Name>
+</Color>
+<Color>
+<Name>Red bandana</Name>
+</Color>
+<Color>
+<Name>Red coral</Name>
+</Color>
+<Color>
+<Name>Mojito green</Name>
+</Color>
+<Color>
+<Name>Lyme bay blue</Name>
+</Color>
+<Color>
+<Name>Sky blue</Name>
+</Color>
+<Color>
+<Name>Dark olive</Name>
+</Color>
+<Color>
+<Name>Buff yellow</Name>
+</Color>
+<Color>
+<Name>White</Name>
+</Color>
+<Color>
+<Name>Leaf</Name>
+</Color>
+<Color>
+<Name>Dried cherry</Name>
+</Color>
+<Color>
+<Name>Violet dust</Name>
+</Color>
+<Color>
+<Name>Orange copper</Name>
+</Color>
+<Color>
+<Name>Magenta magnolia</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-polo-shirts</Category>
+<CategoryName>Polos</CategoryName>
+<SeeMoreLabel>Polos by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-polo-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-12-20</ExtractDate>
+</Product>
+<Product>
+<Id>173345021</Id>
+<Name>Slim fit non-iron textured solid shirt</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<SalePrice>69.99</SalePrice>
+<SalePriceLabel>$69.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our non-iron shirts are constructed in pure 100% cotton and have been specially treated for superior wrinkle resistance without compromising any of the softness or comfort of your regular cotton dress shirt. &lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173345021&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2d/8d/2d8dfe6fc850074fac7003805aeb5ec5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2d/8d/2d8dfe6fc850074fac7003805aeb5ec5_medium/banana-republic-longsleeve-shirts-slim-fit-noniron-textured-solid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2d/8d/2d8dfe6fc850074fac7003805aeb5ec5/banana-republic-longsleeve-shirts-slim-fit-noniron-textured-solid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Green ice</Name>
+</Color>
+<Color>
+<Name>Sky blue</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Catamaran blue</Name>
+</Color>
+<Color>
+<Name>White</Name>
+</Color>
+<Color>
+<Name>Lilac</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173343523</Id>
+<Name>Slim fit stretch-poplin dress shirt</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;95% Cotton, 5% Lastol.&lt;/li&gt; &lt;li&gt;Machine wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Slim fit.&lt;/li&gt; &lt;li&gt;Spread collar, clean front, button cuffs.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173343523&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/28/a2/28a2fbf0faea8bbca959733788d2bb19_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/28/a2/28a2fbf0faea8bbca959733788d2bb19_medium/banana-republic-dress-shirts-slim-fit-stretchpoplin-dress-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/28/a2/28a2fbf0faea8bbca959733788d2bb19/banana-republic-dress-shirts-slim-fit-stretchpoplin-dress-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Posey pink</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>White</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173345018</Id>
+<Name>New pima cotton v-neck tee</Name>
+<Currency>USD</Currency>
+<Price>19.5</Price>
+<PriceLabel>$19.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;100% Pima cotton.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;
+                       Overview
+                     	&lt;ul&gt;
+                     		&lt;li&gt;V-neck. Finely ribbed along the neck.&lt;/li&gt;
+                     		&lt;li&gt;Updated with pima cotton for improved quality and comfort.&lt;/li&gt;
+                     		&lt;li&gt;Entirely tag-free for comfort.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173345018&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/51/fa/51faae0503194ebfd34b361039d105ad_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/51/fa/51faae0503194ebfd34b361039d105ad_medium/banana-republic-tees-new-pima-cotton-vneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/51/fa/51faae0503194ebfd34b361039d105ad/banana-republic-tees-new-pima-cotton-vneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Color>
+<Name>Red plum</Name>
+</Color>
+<Color>
+<Name>Basic white</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Dark heather charcoal</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173345860</Id>
+<Name>Classic fit non-iron shirt</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Classic fit. Slightly roomier through the chest than our Fitted styles.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;100% Cotton.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173345860&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/30/85/308599e4dc0466f5731fd5343d5dea00_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/30/85/308599e4dc0466f5731fd5343d5dea00_medium/banana-republic-longsleeve-shirts-classic-fit-noniron-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/30/85/308599e4dc0466f5731fd5343d5dea00/banana-republic-longsleeve-shirts-classic-fit-noniron-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Medium blue</Name>
+</Color>
+<Color>
+<Name>Sky blue</Name>
+</Color>
+<Color>
+<Name>Sand</Name>
+</Color>
+<Color>
+<Name>White</Name>
+</Color>
+<Color>
+<Name>Light golden</Name>
+</Color>
+<Color>
+<Name>Pink</Name>
+</Color>
+<Color>
+<Name>Orange sherbert</Name>
+</Color>
+<Color>
+<Name>Lilac</Name>
+</Color>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Color>
+<Name>Chambray blue</Name>
+</Color>
+<Color>
+<Name>Green</Name>
+</Color>
+<Color>
+<Name>Orange</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173343450</Id>
+<Name>New pima cotton basic tee</Name>
+<Currency>USD</Currency>
+<Price>19.5</Price>
+<PriceLabel>$19.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;100% Pima cotton.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;
+                       Overview
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Crewneck. Finely ribbed along the neck.&lt;/li&gt;
+                     		&lt;li&gt;Updated with pima cotton for improved quality and comfort.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173343450&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/47/e3/47e3df0ea542842c0abab576fc66b2c9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/47/e3/47e3df0ea542842c0abab576fc66b2c9_medium/banana-republic-tees-new-pima-cotton-basic-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/47/e3/47e3df0ea542842c0abab576fc66b2c9/banana-republic-tees-new-pima-cotton-basic-tee.jpg</Url>
+</Image>
+<Color>
+<Name>Basic white</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Dark heather charcoal</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173343405</Id>
+<Name>Slim fit non-iron French cuff royal oxford</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our non-iron shirts are constructed in pure 100% cotton and have been specially treated for superior wrinkle resistance without compromising any of the softness or comfort of your regular cotton dress shirt. &lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173343405&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ef/09/ef091b3d20a438bcd79741b69602ea2c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ef/09/ef091b3d20a438bcd79741b69602ea2c_medium/banana-republic-longsleeve-shirts-slim-fit-noniron-french-cuff-royal-oxford.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ef/09/ef091b3d20a438bcd79741b69602ea2c/banana-republic-longsleeve-shirts-slim-fit-noniron-french-cuff-royal-oxford.jpg</Url>
+</Image>
+<Color>
+<Name>Red plum</Name>
+</Color>
+<Color>
+<Name>Soft black</Name>
+</Color>
+<Color>
+<Name>Dark lilac</Name>
+</Color>
+<Color>
+<Name>Light khaki</Name>
+</Color>
+<Color>
+<Name>Lilac</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Green</Name>
+</Color>
+<Color>
+<Name>Orange</Name>
+</Color>
+<Color>
+<Name>Dark brown</Name>
+</Color>
+<Color>
+<Name>Patriotic blue</Name>
+</Color>
+<Color>
+<Name>White</Name>
+</Color>
+<Color>
+<Name>New baby blue</Name>
+</Color>
+<Color>
+<Name>Pink</Name>
+</Color>
+<Color>
+<Name>New fuchsia</Name>
+</Color>
+<Color>
+<Name>Dark blue</Name>
+</Color>
+<Color>
+<Name>Chambray blue</Name>
+</Color>
+<Color>
+<Name>Dark maroon</Name>
+</Color>
+<Color>
+<Name>Venetian pink</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173343569</Id>
+<Name>Slim fit stretch-poplin yarn-dyed solid dress shirt</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;95% Cotton, 5% Lastol.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Slim fit.&lt;/li&gt; &lt;li&gt;Point collar, adjustable cuffs.&lt;/li&gt; &lt;li&gt;Yarn-dyed for superior color enhancement.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173343569&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ba/5c/ba5cc843417827fad7ed5cf89ef96e6a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ba/5c/ba5cc843417827fad7ed5cf89ef96e6a_medium/banana-republic-dress-shirts-slim-fit-stretchpoplin-yarndyed-solid-dress-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ba/5c/ba5cc843417827fad7ed5cf89ef96e6a/banana-republic-dress-shirts-slim-fit-stretchpoplin-yarndyed-solid-dress-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Lyme bay blue</Name>
+</Color>
+<Color>
+<Name>Royal blue</Name>
+</Color>
+<Color>
+<Name>Light blue</Name>
+</Color>
+<Color>
+<Name>Ultra navy</Name>
+</Color>
+<Color>
+<Name>Charcoal heather</Name>
+</Color>
+<Color>
+<Name>New banana</Name>
+</Color>
+<Color>
+<Name>Burgundy</Name>
+</Color>
+<Color>
+<Name>Riverbed navy</Name>
+</Color>
+<Color>
+<Name>Purple mist</Name>
+</Color>
+<Color>
+<Name>Sodium</Name>
+</Color>
+<Color>
+<Name>Mediterranean</Name>
+</Color>
+<Color>
+<Name>Mushroom</Name>
+</Color>
+<Color>
+<Name>Venetian pink</Name>
+</Color>
+<Color>
+<Name>Wood sage</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173345093</Id>
+<Name>BR Monogram white poplin dress shirt</Name>
+<Currency>USD</Currency>
+<Price>130.0</Price>
+<PriceLabel>$130.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Slim fit.&lt;/li&gt; &lt;li&gt;BR black label indicates that this is part of our premier Banana Republic Monogram Collection.&lt;/li&gt; &lt;li&gt;Spread collar, clean front, barrel cuffs.&lt;/li&gt; &lt;li&gt;Cross-stitched buttons for extra durability.&lt;/li&gt; &lt;li&gt;Yarn-dyed for superior color enhancement.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173345093&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/cc/91/cc914c8b7c64e5c66e078128370a80dd_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/cc/91/cc914c8b7c64e5c66e078128370a80dd_medium/banana-republic-dress-shirts-br-monogram-white-poplin-dress-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/cc/91/cc914c8b7c64e5c66e078128370a80dd/banana-republic-dress-shirts-br-monogram-white-poplin-dress-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>White</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-dress-shirts</Category>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Dress Shirts</CategoryName>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Dress Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>131701162</Id>
+<Name>Slim fit non-iron pinpoint shirt</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Introducing our Non-iron Shirt Collection in the popular Slim Fit. With a superior look and feel, the wrinkle-resistant qualities take these shirts from the office to after-hours with polish and style.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;100% Cotton.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=131701162&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d6/12/d61264838a13574a6c56022104b92e6f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d6/12/d61264838a13574a6c56022104b92e6f_medium/banana-republic-longsleeve-shirts-slim-fit-noniron-pinpoint-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d6/12/d61264838a13574a6c56022104b92e6f/banana-republic-longsleeve-shirts-slim-fit-noniron-pinpoint-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>Blue</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Optic white</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-02-01</ExtractDate>
+</Product>
+<Product>
+<Id>58643826</Id>
+<Name>Fitted cotton crewneck</Name>
+<Currency>USD</Currency>
+<Price>19.5</Price>
+<PriceLabel>$19.50</PriceLabel>
+<SalePrice>14.99</SalePrice>
+<SalePriceLabel>$14.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;A slimmer fit.&lt;/li&gt; &lt;li&gt;Crewneck.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=58643826&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/8b/a3/8ba39708d534f66bdc03128a4f5191b5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/8b/a3/8ba39708d534f66bdc03128a4f5191b5_medium/banana-republic-shirts-fitted-cotton-crewneck.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/8b/a3/8ba39708d534f66bdc03128a4f5191b5/banana-republic-shirts-fitted-cotton-crewneck.jpg</Url>
+</Image>
+<Color>
+<Name>Sprig green heather</Name>
+</Color>
+<Color>
+<Name>Red plum</Name>
+</Color>
+<Color>
+<Name>Oatmeal heather</Name>
+</Color>
+<Color>
+<Name>Beeswax heather</Name>
+</Color>
+<Color>
+<Name>Aeroblue heather</Name>
+</Color>
+<Color>
+<Name>Woodrush green</Name>
+</Color>
+<Color>
+<Name>Palm heather</Name>
+</Color>
+<Color>
+<Name>Green heather</Name>
+</Color>
+<Color>
+<Name>Orange heather</Name>
+</Color>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Color>
+<Name>Firebrick</Name>
+</Color>
+<Color>
+<Name>Purple symphony</Name>
+</Color>
+<Color>
+<Name>Blackwatch navy</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<SeeMoreLabel>Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-03-20</ExtractDate>
+</Product>
+<Product>
+<Id>52372107</Id>
+<Name>New stretch-pima cotton basic tee</Name>
+<Currency>USD</Currency>
+<Price>24.5</Price>
+<PriceLabel>$24.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt;
+                     		&lt;li&gt;96% Pima cotton, 4% Spandex.&lt;/li&gt;
+                     		&lt;li&gt;Machine wash.&lt;/li&gt;
+                     		&lt;li&gt;Imported.&lt;/li&gt;
+                     	&lt;/ul&gt;
+                       Overview
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Crewneck.&lt;/li&gt;
+                     		&lt;li&gt;Updated with pima cotton for improved quality and comfort.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=52372107&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/fd/c3/fdc3ff4db32af75d1dec0590f7120f17_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/fd/c3/fdc3ff4db32af75d1dec0590f7120f17_medium/banana-republic-tees-new-stretchpima-cotton-basic-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/fd/c3/fdc3ff4db32af75d1dec0590f7120f17/banana-republic-tees-new-stretchpima-cotton-basic-tee.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Color>
+<Name>Red plum</Name>
+</Color>
+<Color>
+<Name>Basic white</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Dark heather charcoal</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-02-07</ExtractDate>
+</Product>
+<Product>
+<Id>3484492</Id>
+<Name>Cotton fitted long-sleeve fitted tee</Name>
+<Currency>USD</Currency>
+<Price>29.5</Price>
+<PriceLabel>$29.50</PriceLabel>
+<SalePrice>19.99</SalePrice>
+<SalePriceLabel>$19.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;1x1 rib trim at neck ensures superior shape retention.&lt;/li&gt; &lt;li&gt;Crewneck, long sleeves.&lt;/li&gt; &lt;li&gt;Contrast taping along inner back of neck.&lt;/li&gt; &lt;li&gt;Garment washed for a softer, more luxurious hand feel.&lt;/li&gt; &lt;li&gt;Entirely tag-free for comfort.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=3484492&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/43/97/43978764aa03aefd746450389ae4e868_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/43/97/43978764aa03aefd746450389ae4e868_medium/banana-republic-longsleeve-shirts-solid-longsleeve-fitted-crew-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/43/97/43978764aa03aefd746450389ae4e868/banana-republic-longsleeve-shirts-solid-longsleeve-fitted-crew-tee.jpg</Url>
+</Image>
+<Color>
+<Name>Coal</Name>
+</Color>
+<Color>
+<Name>Wainscot brown</Name>
+</Color>
+<Color>
+<Name>Basic white</Name>
+</Color>
+<Color>
+<Name>Woodrush green</Name>
+</Color>
+<Color>
+<Name>Ultra navy</Name>
+</Color>
+<Color>
+<Name>Green heather</Name>
+</Color>
+<Color>
+<Name>Prussian blue</Name>
+</Color>
+<Color>
+<Name>Olive</Name>
+</Color>
+<Color>
+<Name>Blueberry heather</Name>
+</Color>
+<Color>
+<Name>Light bark brown</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Ship blue</Name>
+</Color>
+<Color>
+<Name>Blackwatch navy</Name>
+</Color>
+<Color>
+<Name>Brick</Name>
+</Color>
+<Color>
+<Name>Winter dusk</Name>
+</Color>
+<Color>
+<Name>Oatmeal heather</Name>
+</Color>
+<Color>
+<Name>Purple symphony</Name>
+</Color>
+<Color>
+<Name>Dark maroon</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2007-06-01</ExtractDate>
+</Product>
+</SearchResult>
