@@ -248,4 +248,45 @@ class ResultForDemand(models.Model):
                 str(self.item_selection_metric)
     
     
+class ProductModel(models.Model):
+    ''' 
+    This model holds the items scraped by our spiders
+    '''
+    brand = models.ForeignKey(Brands, default='Nil')
+    idx = models.IntegerField(max_length=10, default='Nil')
+    name = models.CharField(max_length=200, default='Nil')
+    prod_url = models.URLField(verify_exists=False, default='Nil')
+    price = models.FloatField(max_length=10, default='Nil')
+    saleprice = models.FloatField(max_length=10, default='Nil')
+    promo_text = models.CharField(max_length=200, default='Nil')
+    err_text = models.CharField(max_length=200, default='Nil')
+    gender = models.CharField(max_length=6, default='Nil')
+    img_url = models.URLField(verify_exists=False, default='Nil')
+
+    def __unicode__(self):
+        return u'%s: %d %s' % (self.brand.name, self.idx, self.name)
+
+
+class ColorSizeModel(models.Model):
+    ''' 
+    This model holds the color and size information for the products scraped by our spiders.
+    We have one column for each color and size combination for each product.
+    '''
+    product = models.ForeignKey(ProductModel, default='Nil') 
+    color = models.CharField(max_length=50, default='Nil')
+    size = models.CharField(max_length=50, default='Nil')
+
+    def __unicode__(self):
+        return u'%s: %d %s %s %s' % (self.product.brand.name, self.product.idx, self.product.name, self.color, self.size)
+
+class CategoryModel(models.Model):
+    ''' 
+    This model holds the category information for the products scraped by our spiders.
+    We have one column for each category that a product belongs to.
+    '''
+    product = models.ForeignKey(ProductModel, default='Nil') 
+    categoryId = models.IntegerField(max_length=50, default='Nil')
+    categoryName = models.CharField(max_length=50, default='Nil')
     
+    def __unicode__(self):
+        return u'%s: %d %s %s' % (self.product.brand.name, self.product.idx, self.product.name, self.categoryName)

@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 
 
 DATABASE_ENGINE = 'sqlite3'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-DATABASE_NAME = './testDB'             # Or path to database file if using sqlite3.
+DATABASE_NAME = '../../dSense/tutorial/testDB'             # Or path to database file if using sqlite3.
 #DATABASE_NAME = '../dSense/promotions/promoSenseDB'
 DATABASE_USER = ''             # Not used with sqlite3.
 DATABASE_PASSWORD = ''         # Not used with sqlite3.
@@ -82,7 +82,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'polls',
+    'tutorial.polls',
     'south',
     'GChartWrapper.charts',
 )
