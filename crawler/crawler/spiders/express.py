@@ -49,29 +49,52 @@ def init_model_values():
 
 def fill_item_info1(s1, item):
     item['name'] = s1.h1.text
-    for i in s1.findAll('li'):
-       try:
-          if i['class'] == "cat-pro-price":
-             j = i.findAll('span')
-             if j:
-                try:
-                   if j['class'] == "cat-glo-tex-oldP":
-                      item['price'] = j.text.split('$')[1]
-                   elif j['class'] == "cat-glo-tex-saleP":
-                      item['saleprice'] = j.text.split('$')[1]
-                except:
-                   pass
-             else:
-                k = i.findAll('strong')
-                for l in k:
-                   if l.text:
-                      item['price'] = l.text.split('$')[1]
-                      item['saleprice'] = l.text.split('$')[1]
-       except KeyError:
-          #print "KeyError", i
-          pass
+    s2 = s1.find('ul')
+    if (s2):
+        for i in s2.findAll('li'):
+           try:
+              if i['class'] == "cat-pro-price":
+                 k = i.findAll('span')
+                 for j in k:
+                    try:
+                       if j['class'] == "cat-glo-tex-oldP":
+                          #print "Price Check", j.text
+                          spl_txt = j.text.split('$')
+                          try:
+                              chk_price = float(spl_txt[1])
+                          except ValueError:
+                              print "ValueError avoided?: ", spl_txt[1]
+                              chk_price = spl_txt[2]
+                          item['price'] = chk_price
+                       elif j['class'] == "cat-glo-tex-saleP":
+                          spl_txt = j.text.split('$') 
+                          try:
+                              chk_price = float(spl_txt[1])
+                          except ValueError:
+                              print "ValueError avoided?: ", spl_txt[1]
+                              chk_price = spl_txt[2]
+                          item['saleprice'] = chk_price
+                    except:
+                       pass
+                 
+                 if not k:
+                     k = i.findAll('strong')
+                     for l in k:
+                        if l.text:
+                            spl_txt = l.text.split('$')
+                            try:
+                                chk_price = float(spl_txt[1])
+                            except ValueError:
+                                print "ValueError avoided?: ", spl_txt[1]
+                                chk_price = spl_txt[2]
+                            item['price'] = chk_price
+                            item['saleprice'] = chk_price
+           except KeyError:
+              #print "KeyError", i
+              pass
     return
 
+    
 def fill_item_info2(s1, item):
     s2 = s1.find('span', {'class' : 'cat-pro-promo-text'})
     if s2:
@@ -212,7 +235,7 @@ def fill_colorsize_model(response, colorsize_arr):
      
 
 def save_to_file(soup, item):
-    fname = dirpath + brandname + "-" + item['idx'] + ".html"
+    fname = dirpath + brandname + "-" + str(item['idx']) + ".html"
     #print "FILE DEBUG:", fname
     f = open(fname, 'w')
     f.write(soup.prettify())
