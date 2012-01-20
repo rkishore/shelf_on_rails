@@ -151,11 +151,6 @@ class Categories(models.Model):
     def __unicode__(self):
         #return u'%s %s' % (self.name, self.brand)
         return self.name
-    
-class WishlistM(models.Model):
-    brand = models.ForeignKey(Brands, default='Nil')
-
-
 
 class Demand(models.Model):
     '''
@@ -290,3 +285,33 @@ class CategoryModel(models.Model):
     
     def __unicode__(self):
         return u'%s: %d %s %s' % (self.product.brand.name, self.product.idx, self.product.name, self.categoryName)
+        
+class WishlistI(models.Model):
+    user_id = models.IntegerField(max_length=50, default='-1111')
+    item = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil')
+    
+    def __unicode__(self):
+        return u'%d %d %s' % (int(self.user_id), int(self.item.idx), str(self.item.name))
+    
+class WishlistM(models.Model):
+    #user_id = models.IntegerField(max_length=50, default='-1111')
+    item1 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist1")
+    item2 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist2")    
+    item3 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist3")    
+    item4 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist4")    
+    item5 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist5")    
+    item6 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist6")    
+    item7 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist7")    
+    item8 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist8")    
+    item9 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist9")    
+    item10 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist10")    
+    item11 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist11")    
+    item12 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist12")    
+    item13 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist13")    
+    item14 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist14")    
+    item15 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist15")    
+    item16 = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil', related_name = "prodlist16")
+    total_prods = models.IntegerField(default='0')
+    
+    def __unicode__(self):
+        return "ProdList size: " + str(self.total_prods)

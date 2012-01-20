@@ -1,10 +1,10 @@
 # Create your views here.
 from django.http import HttpResponse, HttpResponseRedirect, Http404
-import datetime
+import datetime, urllib
 from django.views.generic import list_detail
 from django.shortcuts import render_to_response
 from django import forms
-from polls.models import Promoinfo, Items, Brands, Categories
+from polls.models import Promoinfo, Items, Brands, Categories, ProductModel, CategoryModel, ColorSizeModel, WishlistM, WishlistI
 from django.db.models import Avg, Max, Min, Count
 import match
 import promotion
@@ -29,6 +29,8 @@ GENDER_CHOICES = (
                    ('A', 'ALL'),
                    )
 
+### Testing ####
+selected_items_id_list[112] = []
 ######## Visualization Sample Code #############
 import gviz_api
 from django.db.models import F
@@ -436,6 +438,183 @@ def stats_plot(request):
 
 ######## End Visualization Sample Code #############
 
+
+#### Start ShelfIt #####
+def old_wishlist_table(prod_arr):
+    wishlist_id_ = 112
+        
+    # Multiple entries can be returned as we can have duplicates in the database right now
+    print "Adding item " + str(prod_arr[0].idx) + " to wishlist id " + str(wishlist_id_)
+    selected_items_id_list[int(wishlist_id_)].append(prod_arr[0].idx)
+    print selected_items_id_list[int(wishlist_id_)]
+    selected_items[int(wishlist_id_)] = []
+    
+    # From show_selected_items_new
+    itemlist = []
+    final_list = ProductModel.objects.none()
+    selected_items_id = selected_items_id_list[int(wishlist_id_)]
+    for id_ in selected_items_id:
+        found_list = ProductModel.objects.filter(idx = id_)
+        print id_, found_list
+        final_list = final_list | found_list
+        for items in found_list:
+            itemlist.append( {"store": str(items.brand), 
+                              "category": str(items.name), 
+                              "price": float(items.price),
+                              "sale_price": float(items.saleprice)} )
+    selected_items[int(wishlist_id_)] = itemlist    
+             
+    return final_list, selected_items
+
+def initialize_wishlist_entry(w):
+    w.total_prods = 0
+    w.item1 = None
+    w.item2 = None
+    w.item3 = None
+    w.item4 = None
+    w.item5 = None
+    w.item6 = None
+    w.item7 = None
+    w.item8 = None
+    w.item9 = None
+    w.item10 = None
+    w.item11 = None
+    w.item12 = None
+    w.item13 = None
+    w.item14 = None
+    w.item15 = None
+    w.item16 = None
+
+def insert_product_in_wishlist_new(userid, matched_prod_obj):
+    
+    # Check if item already in database
+    w = WishlistI.objects.filter(user_id=userid).filter(item=matched_prod_obj)
+    if not w:
+        w = WishlistI()
+        w.user_id = userid
+        w.item = matched_prod_obj
+        w.save()
+        #print "Creating entry in ItemList table: " + str(w)
+        resp = "Added Item to Wishlist!"
+    else:
+        #print "Item already in wishlist"
+        resp = "Item already in Wishlist!"
+    
+    return w, resp
+
+def insert_product_in_wishlist_old(userid, matched_prod_obj):
+    
+    w1 = WishlistM.objects.filter(id=userid)   
+    if not w1:
+        w = WishlistM()
+        initialize_wishlist_entry(w)        
+        w.item1 = matched_prod_obj
+        w.total_prods += 1
+        w.save()
+        print "Creating entry in ItemList table: " + str(w)
+        resp = "Added Item to Wishlist!"
+        return w, resp
+    else:
+        if (w1[0].total_prods < 16):             
+            if (w1[0].total_prods == 1):
+                w1[0].item2 = matched_prod_obj
+            elif (w1[0].total_prods == 2):
+                w1[0].item3 = matched_prod_obj
+            elif (w1[0].total_prods == 3):
+                w1[0].item4 = matched_prod_obj
+            elif (w1[0].total_prods == 4):
+                w1[0].item5 = matched_prod_obj
+            elif (w1[0].total_prods == 5):
+                w1[0].item6 = matched_prod_obj
+            elif (w1[0].total_prods == 6):
+                w1[0].item7 = matched_prod_obj
+            elif (w1[0].total_prods == 7):
+                w1[0].item8 = matched_prod_obj
+            elif (w1[0].total_prods == 8):
+                w1[0].item9 = matched_prod_obj
+            elif (w1[0].total_prods == 9):
+                w1[0].item10 = matched_prod_obj
+            elif (w1[0].total_prods == 10):
+                w1[0].item11 = matched_prod_obj
+            elif (w1[0].total_prods == 11):
+                w1[0].item12 = matched_prod_obj
+            elif (w1[0].total_prods == 12):
+                w1[0].item13 = matched_prod_obj
+            elif (w1[0].total_prods == 13):
+                w1[0].item14 = matched_prod_obj
+            elif (w1[0].total_prods == 14):
+                w1[0].item15 = matched_prod_obj
+            elif (w1[0].total_prods == 15):
+                w1[0].item16 = matched_prod_obj
+            
+            w1[0].total_prods += 1
+            w1[0].save()
+            resp = "Added Item to Wishlist!"
+        else:
+            resp = "Cannot have more than 16 outstanding items in Wishlist! Please consider buying some...:-)"
+        return w1, resp
+
+def shelfit(request):
+    
+    if 'u' in request.GET and request.GET['u'] and 't' in request.GET and request.GET['t']:
+        
+        # Get User ID
+        userid = urllib.unquote(request.GET['t'].decode('utf-8'))
+        
+        # Get product URL
+        prod_url = urllib.unquote(request.GET['u'].decode('utf-8')) 
+        
+        # Get item ID
+        prod_info = prod_url.split("/")[3].split("-")
+        for i in prod_info:
+            try:
+                prod_id = int(i)
+            except ValueError:
+                pass
+            else:
+                break
+        
+        # Find product in database
+        prod_arr = ProductModel.objects.filter(idx=prod_id)
+        
+        print userid, prod_arr[0].idx
+        
+        # Add product to wishlist
+        w, resp = insert_product_in_wishlist_new(userid, prod_arr[0])
+        
+        #return HttpResponse(resp)
+        # From add_item_to_selected_items_list
+        # Use dummy wishlist id for now. This should be user ID info from url (later on)
+        #final_list, selected_items = old_wishlist_table(prod_arr)    
+        #return list_detail.object_list(request,
+        #                               queryset = final_list,
+        #                               template_name = "items_table.html",
+        #                               extra_context = {'selected_items' : True} )
+        
+        # Return wishlist
+        wishlist_id_ = 112
+        selected_items[int(wishlist_id_)] = []
+    
+        # From show_selected_items_new
+        itemlist = []
+        final_list = WishlistI.objects.filter(user_id=userid)
+        for wi in final_list:
+            itemlist.append( {"store": str(wi.item.brand), 
+                              "category": str(wi.item.name), 
+                              "price": float(wi.item.price),
+                              "sale_price": float(wi.item.saleprice)} )
+        selected_items[int(wishlist_id_)] = itemlist
+        return list_detail.object_list(request,
+                                       queryset = final_list,
+                                       template_name = "items_table2.html",
+                                       extra_context = {'selected_items' : True} )
+        #return render_to_response('wishlist_results.html',
+        #                          {'products': cur_witems, 'produrl': prod_url, 'resp': resp})
+        
+    else:
+        return HttpResponse('Please use ShelfIt from a filled-in product page!')
+
+##### End ShelfIt #################
 
 class Wishlist(forms.Form):
     
