@@ -629,16 +629,61 @@ def shelfit(request, d1, d2):
     else:
         return HttpResponse('Please use ShelfIt from a filled-in product page!')
 
-def yourshelf(request, d1):
+def yourshelf_detail(request, d1, d2):
     
-    if 'u' in request.GET and request.GET['u']:
+    if 'u' in request.GET and request.GET['u'] and 's' in request.GET and request.GET['s']:
+        
         # Get User ID
         userid = urllib.unquote(request.GET['u'].decode('utf-8'))
+        
+        # Get Brand name
+        brand_name = urllib.unquote(request.GET['s'].decode('utf-8'))
         
         # From show_selected_items_new
         selected_items[int(userid)] = []
         itemlist = []
         final_list = WishlistI.objects.filter(user_id=userid)
+        br_list = WishlistI.objects.none()
+        for wi in final_list:
+            if wi.item.brand.name == brand_name:
+                br_list = br_list | WishlistI.objects.filter(item=wi.item)
+                catlist = CategoryModel.objects.filter(product=wi.item)
+                #print catlist
+                if catlist:
+                    itemlist.append( {"store": str(wi.item.brand), 
+                                      "category": str(catlist[0].categoryName), 
+                                      "name": str(wi.item.name),
+                                      "price": float(wi.item.price),
+                                      "sale_price": float(wi.item.saleprice)} )
+                else:
+                    itemlist.append( {"store": str(wi.item.brand), 
+                                      "category": "None", 
+                                      "name": str(wi.item.name),
+                                      "price": float(wi.item.price),
+                                      "sale_price": float(wi.item.saleprice)} )
+            
+                
+        selected_items[int(userid)] = itemlist
+        return list_detail.object_list(request,
+                                       queryset = br_list,
+                                       template_name = "items_table2.html",
+                                       extra_context = {'selected_items' : True, 'num_selected' : len(br_list), 'uid': userid} )
+    else:
+        return HttpResponse('Dear user: please login or create an account before accessing this page...')
+
+def yourshelf_concise(request, d1, d2):
+
+    if 'u' in request.GET and request.GET['u']:
+        # Get User ID
+        userid = urllib.unquote(request.GET['u'].decode('utf-8'))
+        
+        selected_items[int(userid)] = []
+        itemlist = []
+        final_list = WishlistI.objects.filter(user_id=userid)
+        br_list1 = WishlistI.objects.none()
+        br_list2 = WishlistI.objects.none()
+        #dist_cat_set = set()
+        
         for wi in final_list:
             #print wi
             catlist = CategoryModel.objects.filter(product=wi.item)
@@ -655,15 +700,26 @@ def yourshelf(request, d1):
                                   "name": str(wi.item.name),
                                   "price": float(wi.item.price),
                                   "sale_price": float(wi.item.saleprice)} )
-                
+        
+            if wi.item.brand.name == "Express":
+                br_list1 = br_list1 | WishlistI.objects.filter(item=wi.item)
+            elif wi.item.brand.name == "J.Crew":
+                br_list2 = br_list2 | WishlistI.objects.filter(item=wi.item)
+        
         selected_items[int(userid)] = itemlist
-        return list_detail.object_list(request,
-                                       queryset = final_list,
-                                       template_name = "items_table2.html",
-                                       extra_context = {'selected_items' : True, 'num_selected' : len(final_list), 'uid': userid} )
+        
+        html = '<p><strong>Categorization By Store</strong></p>'
+        html += '<table border=1><tr><th>Express</th><th>J.Crew</th><tr><td><a href=detail/?u=' + str(userid) + '&s=' + 'Express>'
+        html += str(len(br_list1)) + ' Items</a></td><td>' 
+        html += '<a href=detail/?u=' + str(userid) + '&s=' + 'J.Crew>'
+        html += str(len(br_list2)) + ' Items</a></td></tr></table>'
+        html += '<p><strong>Categorization By Item Type</strong></p>'
+        
+        return HttpResponse(html)
+    
     else:
         return HttpResponse('Dear user: please login or create an account before accessing this page...')
-
+        
 def apply_discount_new(request, d1):
     
     if 'u' in request.GET and request.GET['u']:

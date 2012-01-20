@@ -6,23 +6,22 @@
     {% endif %}
     {% if num_selected %} 
     	<h2> Your {{ num_selected }} selection{{ object_list|pluralize }}: </h2>
-    	{#size is {{object_list|length}}#}
 		<table border="1">
-			{# [BRAND]   [CATEGORY]   [PRICE]   [SALE_PRICE] #}
   			{% for wi in object_list %}
-			{% if forloop.first %}<tr>{% endif %}
-			{% if forloop.counter0|divisibleby:5 %}</tr><tr>{% endif %}
-			<td><img src={{wi.item.img_url}} width="100" height="auto"><br>{{ wi.item.brand}}  <br>{{ wi.item.name}} <br> ${{ wi.item.price}} 
-			{% if not selected_items %}<a href="add_item_{{wi.item.idx}}_{{page_list.number}}">Add to wishlist.</a>{% endif %}</td>        		
-			{% if forloop.last %}</tr>{% endif %}
+				{% if forloop.first %}<tr>{% endif %}
+				{% if forloop.counter0|divisibleby:5 %}</tr><tr>{% endif %}
+				<td><img src={{wi.item.img_url}} width="100" height="auto"><br>{{ wi.item.brand}}  <br>{{ wi.item.name}} <br> ${{ wi.item.price}} 
+				<!-- { % if not selected_items %}<a href="add_item_{{wi.item.idx}}_{{page_list.number}}">Add to wishlist.</a>{ % endif %} -->
+				</td>        		
+				{% if forloop.last %}</tr>{% endif %}
     		{% endfor %}	
 		</table>
 		<br>
     {% else %}
     	<h2> Please add items to your wishlist</h2>
     {% endif %}
-	{% if num_selected %} <h3>Apply promotions to save money? Click <a href="apply_discount/?u={{ uid }}">here</a></h3> 
-	{% endif %}
+	<!-- { % if num_selected %} <h3>Apply promotions to save money? Click <a href="apply_discount/?u={{ uid }}">here</a></h3> 
+	{ % endif %} -->
 	<!-- { % else %}
 		{% include "paginator2.html"%}
 	 -->
