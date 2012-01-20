@@ -50,4 +50,5 @@ urlpatterns = patterns('',
     (r'^statsplot/$', 'polls.views.stats_plot'),
     (r'^mock_wishlist/fill_db/$', 'polls.view_mock_wishlist.fill_db'),
     (r'^shelfit/', 'polls.views.shelfit'),
+    (r'^viewyourshelf/', 'polls.views.yourshelf'),
 )

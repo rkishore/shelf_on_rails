@@ -590,12 +590,10 @@ def shelfit(request):
         #                               queryset = final_list,
         #                               template_name = "items_table.html",
         #                               extra_context = {'selected_items' : True} )
-        
-        # Return wishlist
-        wishlist_id_ = 112
-        selected_items[int(wishlist_id_)] = []
     
         # From show_selected_items_new
+        wishlist_id_ = 112
+        selected_items[int(wishlist_id_)] = []
         itemlist = []
         final_list = WishlistI.objects.filter(user_id=userid)
         for wi in final_list:
@@ -607,12 +605,35 @@ def shelfit(request):
         return list_detail.object_list(request,
                                        queryset = final_list,
                                        template_name = "items_table2.html",
-                                       extra_context = {'selected_items' : True} )
+                                       extra_context = {'selected_items' : True, 'curresp' : resp, 'num_selected' : len(final_list)} )
         #return render_to_response('wishlist_results.html',
         #                          {'products': cur_witems, 'produrl': prod_url, 'resp': resp})
         
     else:
         return HttpResponse('Please use ShelfIt from a filled-in product page!')
+
+def yourshelf(request):
+    
+    if 'u' in request.GET and request.GET['u']:
+        # Get User ID
+        userid = urllib.unquote(request.GET['u'].decode('utf-8'))
+        
+        # From show_selected_items_new
+        selected_items[int(userid)] = []
+        itemlist = []
+        final_list = WishlistI.objects.filter(user_id=userid)
+        for wi in final_list:
+            itemlist.append( {"store": str(wi.item.brand), 
+                              "category": str(wi.item.name), 
+                              "price": float(wi.item.price),
+                              "sale_price": float(wi.item.saleprice)} )
+        selected_items[int(userid)] = itemlist
+        return list_detail.object_list(request,
+                                       queryset = final_list,
+                                       template_name = "items_table2.html",
+                                       extra_context = {'selected_items' : True, 'num_selected' : len(final_list)} )
+    else:
+        return HttpResponse('Please login and then access this page!')
 
 ##### End ShelfIt #################
 

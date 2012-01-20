@@ -1,29 +1,30 @@
 <html>
-    <title>Items in your Wishlist</title>
+    <title>Items on your Shelf</title>
     <body>
-    {% if selected_items%} <h2> Your Selections</h2>
-    {% else %}<h2>Items satisfying your query. Please select your preferred items.</h2>
-    
-	{% include "paginator2.html"%}<br><br>
-	{% if num_selected%}  You have selected {{num_selected}} items. 
-	
-    Click <a href="show_selected_items">here</a> to see the items you selected.</br><br>{% endif%}
+    {% if curresp %} 
+    	<h1> {{ curresp }} </h1> 
     {% endif %}
-	{#size is {{object_list|length}}#}
-	<table border="1">
-		{# [BRAND]   [CATEGORY]   [PRICE]   [SALE_PRICE] #}
-  		{% for wi in object_list %}
-		{% if forloop.first %}<tr>{% endif %}
-		{% if forloop.counter0|divisibleby:5 %}</tr><tr>{% endif %}
-		<td><img src={{wi.item.img_url}} width="100" height="auto"><br>{{ wi.item.brand}}  <br>{{ wi.item.name}} <br> ${{ wi.item.price}} 
+    {% if num_selected %} 
+    	<h2> Your {{ num_selected }} selections: </h2>
+    	{#size is {{object_list|length}}#}
+		<table border="1">
+			{# [BRAND]   [CATEGORY]   [PRICE]   [SALE_PRICE] #}
+  			{% for wi in object_list %}
+			{% if forloop.first %}<tr>{% endif %}
+			{% if forloop.counter0|divisibleby:5 %}</tr><tr>{% endif %}
+			<td><img src={{wi.item.img_url}} width="100" height="auto"><br>{{ wi.item.brand}}  <br>{{ wi.item.name}} <br> ${{ wi.item.price}} 
 			{% if not selected_items %}<a href="add_item_{{item.id}}_{{page_list.number}}">Add to wishlist.</a>{% endif %}</td>        		
-	{% if forloop.last %}</tr>{% endif %}
-    {% endfor %}	
-	</table>
-	<br><br>
-	{% if selected_items%} <h3>Apply promotions to save money? Click <a href="apply_discount">here</a></h3> 
-	{% else %}
-		{% include "paginator2.html"%}
+			{% if forloop.last %}</tr>{% endif %}
+    		{% endfor %}	
+		</table>
+		<br>
+    {% else %}
+    	<h2> Please add items to your wishlist</h2>
+    {% endif %}
+	{% if num_selected %} <h3>Apply promotions to save money? Click <a href="apply_discount">here</a></h3> 
 	{% endif %}
+	<!-- { % else %}
+		{% include "paginator2.html"%}
+	 -->
     </body>
 </html>
