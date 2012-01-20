@@ -3,6 +3,7 @@ import logging
 import copy
 
 from operator import itemgetter
+from polls.models import CategoryModel, ProductModel, ColorSizeModel
 
 import promotion
 
@@ -262,9 +263,12 @@ def aggregate_discount_check(coupon, total_price, item_stats, cur_items):
     if ( coupon["item_spec_discount_type"] == "B1G1" and coupon["item_cat"] != "-"):
         # what category does this apply?
         cat = coupon["item_cat"]
-        base_cat = find_base_category(cat)
-        num_items_of_cat = item_stats[base_cat]
-        logging.debug("aggr_disc: base_cat = " + str(base_cat) + 
+        #base_cat = find_base_category(cat)
+        for i in item_stats:
+            if i.lower().find(cat.lower()) >= 0:
+                num_items_of_cat = item_stats[i]
+        
+        logging.debug("aggr_disc: base_cat = " + str(cat) + 
                       " #of items of this cat: " + str(num_items_of_cat))
         if ( num_items_of_cat ) > 1:
             disc_rate = coupon["item_spec_disc_perc"]
@@ -458,8 +462,9 @@ def calculate_item_stats(wish_list, item_stats):
         it = wish_list[i]
         logging.debug(it)
         cat = it["category"]
-        base_cat = find_base_category(cat)
-        item_stats[base_cat] += 1
+        #base_cat = find_base_category(cat)
+        #item_stats[base_cat] += 1
+        item_stats[cat] += 1
 
 def check_category_match(cat1, cat2):
     base_cat1 = find_base_category(cat1)
@@ -502,14 +507,20 @@ def find_string_category(category):
     
 
 def init_item_stats(item_stats):
-    item_stats["jeans"] = 0
-    item_stats["sweater"] = 0
-    item_stats["pant"] = 0
-    item_stats["shirt"] = 0
-    item_stats["outerwear"] = 0 
-    item_stats["underwear"] = 0
-    item_stats["everything"] = 0
-    item_stats["skirt"] = 0
+    
+    allcat = CategoryModel.objects.all()
+    
+    for i in allcat:
+        item_stats[i.categoryName] = 0
+        
+    #item_stats["jeans"] = 0
+    #item_stats["sweater"] = 0
+    #item_stats["pant"] = 0
+    #item_stats["shirt"] = 0
+    #item_stats["outerwear"] = 0 
+    #item_stats["underwear"] = 0
+    #item_stats["everything"] = 0
+    #item_stats["skirt"] = 0
 
 def create_sample_wishlist(slist, user_config):
     

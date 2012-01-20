@@ -494,10 +494,8 @@ def insert_product_in_wishlist_new(userid, matched_prod_obj):
         w.user_id = userid
         w.item = matched_prod_obj
         w.save()
-        #print "Creating entry in ItemList table: " + str(w)
         resp = "Added Item to Wishlist!"
     else:
-        #print "Item already in wishlist"
         resp = "Item already in Wishlist!"
     
     return w, resp
@@ -554,7 +552,9 @@ def insert_product_in_wishlist_old(userid, matched_prod_obj):
             resp = "Cannot have more than 16 outstanding items in Wishlist! Please consider buying some...:-)"
         return w1, resp
 
-def shelfit(request):
+def shelfit(request, d1, d2):
+    
+    #print d1, d2
     
     if 'u' in request.GET and request.GET['u'] and 't' in request.GET and request.GET['t']:
         
@@ -564,55 +564,72 @@ def shelfit(request):
         # Get product URL
         prod_url = urllib.unquote(request.GET['u'].decode('utf-8')) 
         
-        # Get item ID
-        prod_info = prod_url.split("/")[3].split("-")
-        for i in prod_info:
-            try:
-                prod_id = int(i)
-            except ValueError:
-                pass
-            else:
+        # Get item ID and brand name
+        spl1 = prod_url.split("/")
+        brand_name = spl1[2].split(".")[1]
+        prod_id = -111
+        prod_info = []
+        for i in range(3, len(spl1)):
+            if (brand_name == "express"): 
+                prod_info = spl1[i].split("-")
+            elif (brand_name == "jcrew"):
+                prod_info = spl1[i].split("~")
+            print prod_info
+            for i in prod_info:
+                try:
+                    prod_id = int(i)
+                except ValueError:
+                    pass
+                else:
+                    break
+            if (prod_id > 0):
                 break
-        
-        # Find product in database
-        prod_arr = ProductModel.objects.filter(idx=prod_id)
-        
-        print userid, prod_arr[0].idx
-        
-        # Add product to wishlist
-        w, resp = insert_product_in_wishlist_new(userid, prod_arr[0])
-        
-        #return HttpResponse(resp)
-        # From add_item_to_selected_items_list
-        # Use dummy wishlist id for now. This should be user ID info from url (later on)
-        #final_list, selected_items = old_wishlist_table(prod_arr)    
-        #return list_detail.object_list(request,
-        #                               queryset = final_list,
-        #                               template_name = "items_table.html",
-        #                               extra_context = {'selected_items' : True} )
     
-        # From show_selected_items_new
-        wishlist_id_ = 112
-        selected_items[int(wishlist_id_)] = []
-        itemlist = []
-        final_list = WishlistI.objects.filter(item=prod_arr[0])
-        for wi in final_list:
-            itemlist.append( {"store": str(wi.item.brand), 
-                              "category": str(wi.item.name), 
-                              "price": float(wi.item.price),
-                              "sale_price": float(wi.item.saleprice)} )
-        selected_items[int(wishlist_id_)] = itemlist
-        return list_detail.object_list(request,
-                                       queryset = final_list,
-                                       template_name = "items_table2.html",
-                                       extra_context = {'selected_items' : True, 'curresp' : resp, 'num_selected' : len(final_list)} )
-        #return render_to_response('wishlist_results.html',
-        #                          {'products': cur_witems, 'produrl': prod_url, 'resp': resp})
+        if (((brand_name == "express") or (brand_name == "jcrew")) and 
+            (prod_id > 0)):
+            
+            # Find product in database
+            prod_arr = ProductModel.objects.filter(idx=prod_id)
+            
+            print userid, prod_arr[0].idx
+            
+            # Add product to wishlist
+            w, resp = insert_product_in_wishlist_new(userid, prod_arr[0])
         
+            # From show_selected_items_new
+            wishlist_id_ = 112
+            selected_items[int(wishlist_id_)] = []
+            itemlist = []
+            final_list = WishlistI.objects.filter(item=prod_arr[0])
+            for wi in final_list:
+                catlist = CategoryModel.objects.filter(product=wi)
+                if catlist:
+                    itemlist.append( {"store": str(wi.item.brand), 
+                                      "category": str(catlist[0].categoryName), 
+                                      "name": str(wi.item.name),
+                                      "price": float(wi.item.price),
+                                      "sale_price": float(wi.item.saleprice)} )
+                else:
+                    itemlist.append( {"store": str(wi.item.brand), 
+                                      "category": "None", 
+                                      "name": str(wi.item.name),
+                                      "price": float(wi.item.price),
+                                      "sale_price": float(wi.item.saleprice)} )
+            
+            selected_items[int(wishlist_id_)] = itemlist
+            return list_detail.object_list(request,
+                                           queryset = final_list,
+                                           template_name = "items_table2.html",
+                                           extra_context = {'selected_items' : True, 'curresp' : resp, 'num_selected' : len(final_list), 'uid': userid} )
+        else:
+            if not ((brand_name == "express") or (brand_name == "jcrew")):
+                return HttpResponse('<p>Please choose products from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>.</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
+            else:
+                return HttpResponse('<p>Please choose products from a valid product page (from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>).</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
     else:
         return HttpResponse('Please use ShelfIt from a filled-in product page!')
 
-def yourshelf(request):
+def yourshelf(request, d1):
     
     if 'u' in request.GET and request.GET['u']:
         # Get User ID
@@ -623,17 +640,72 @@ def yourshelf(request):
         itemlist = []
         final_list = WishlistI.objects.filter(user_id=userid)
         for wi in final_list:
-            itemlist.append( {"store": str(wi.item.brand), 
-                              "category": str(wi.item.name), 
-                              "price": float(wi.item.price),
-                              "sale_price": float(wi.item.saleprice)} )
+            #print wi
+            catlist = CategoryModel.objects.filter(product=wi.item)
+            #print catlist
+            if catlist:
+                itemlist.append( {"store": str(wi.item.brand), 
+                                  "category": str(catlist[0].categoryName), 
+                                  "name": str(wi.item.name),
+                                  "price": float(wi.item.price),
+                                  "sale_price": float(wi.item.saleprice)} )
+            else:
+                itemlist.append( {"store": str(wi.item.brand), 
+                                  "category": "None", 
+                                  "name": str(wi.item.name),
+                                  "price": float(wi.item.price),
+                                  "sale_price": float(wi.item.saleprice)} )
+                
         selected_items[int(userid)] = itemlist
         return list_detail.object_list(request,
                                        queryset = final_list,
                                        template_name = "items_table2.html",
-                                       extra_context = {'selected_items' : True, 'num_selected' : len(final_list)} )
+                                       extra_context = {'selected_items' : True, 'num_selected' : len(final_list), 'uid': userid} )
     else:
-        return HttpResponse('Please login and then access this page!')
+        return HttpResponse('Dear user: please login or create an account before accessing this page...')
+
+def apply_discount_new(request, d1):
+    
+    if 'u' in request.GET and request.GET['u']:
+        
+        # Get User ID
+        userid = urllib.unquote(request.GET['u'].decode('utf-8'))
+        
+        item_list = selected_items[int(userid)]
+        
+        #store_name_ = "J.Crew"
+        # Assuming all items are from the same store. 
+        # TODO: fix this when items are selected from multiple stores
+        store_name = item_list[0]['store']
+        date_ = datetime.date.today()
+        #promo = Promoinfo.objects.filter(d = date_)
+        promo_date = Promoinfo.objects.filter(d__gte = datetime.date(2012, 1, 1))
+        print promo_date
+        promo_store = promo_date.filter(store = 1)
+        promo = promo_store
+        orig_cost, total_cost, savings, shipping = match.match(store_name, date_, copy.deepcopy(item_list), promo)
+        html = "<html><body><p>Store 1: Total cost: $" + str(orig_cost) + ". With promotion: $" + str(total_cost) + " We saved $" + \
+            str(savings) + " Free shipping?" + str(shipping) + "</p>" 
+        print html
+        
+        promo_store = promo_date.filter(store = 2)
+        promo = promo_store
+        orig_cost, total_cost, savings, shipping = match.match(store_name, date_, copy.deepcopy(item_list), promo)
+        html += "<p>Store 2: Total cost: $" + str(orig_cost) + ". With promotion: $" + str(total_cost) + " We saved $" + \
+            str(savings) + " Free shipping?" + str(shipping) + "</p>" 
+        print html
+    
+        promo_store = promo_date.filter(store = 3)    
+        promo = promo_store
+        orig_cost, total_cost, savings, shipping = match.match(store_name, date_, copy.deepcopy(item_list), promo)
+        html += "<p>Store 3: Total cost: $" + str(orig_cost) + ". With promotion: $" + str(total_cost) + " We saved $" + \
+            str(savings) + " Free shipping?" + str(shipping) + "</p></body></html>" 
+        print html    
+        
+        return HttpResponse(html)
+    else:
+        return HttpResponse('Dear user: please login or create an account before accessing this page...')
+
 
 ##### End ShelfIt #################
 
