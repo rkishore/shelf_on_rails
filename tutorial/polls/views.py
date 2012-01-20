@@ -595,7 +595,7 @@ def shelfit(request):
         wishlist_id_ = 112
         selected_items[int(wishlist_id_)] = []
         itemlist = []
-        final_list = WishlistI.objects.filter(user_id=userid)
+        final_list = WishlistI.objects.filter(item=prod_arr[0])
         for wi in final_list:
             itemlist.append( {"store": str(wi.item.brand), 
                               "category": str(wi.item.name), 
