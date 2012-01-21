@@ -440,15 +440,25 @@ def stats_plot(request):
 
 
 #### Start ShelfIt #####
+dist_cat_set = set()
+dist_cat_set.add('Jean')
+dist_cat_set.add('Shirt')
+dist_cat_set.add('Skirt')
+dist_cat_set.add('Dress')
+dist_cat_set.add('Pant')
+dist_cat_set.add('Short')
+dist_cat_set.add('Tank')
+dist_cat_set.add('Jacket')
+dist_cat_set.add('Sweater')
+dist_cat_set.add('Tie')
+        
 def old_wishlist_table(prod_arr):
     wishlist_id_ = 112
-        
     # Multiple entries can be returned as we can have duplicates in the database right now
     print "Adding item " + str(prod_arr[0].idx) + " to wishlist id " + str(wishlist_id_)
     selected_items_id_list[int(wishlist_id_)].append(prod_arr[0].idx)
     print selected_items_id_list[int(wishlist_id_)]
     selected_items[int(wishlist_id_)] = []
-    
     # From show_selected_items_new
     itemlist = []
     final_list = ProductModel.objects.none()
@@ -463,30 +473,9 @@ def old_wishlist_table(prod_arr):
                               "price": float(items.price),
                               "sale_price": float(items.saleprice)} )
     selected_items[int(wishlist_id_)] = itemlist    
-             
     return final_list, selected_items
 
-def initialize_wishlist_entry(w):
-    w.total_prods = 0
-    w.item1 = None
-    w.item2 = None
-    w.item3 = None
-    w.item4 = None
-    w.item5 = None
-    w.item6 = None
-    w.item7 = None
-    w.item8 = None
-    w.item9 = None
-    w.item10 = None
-    w.item11 = None
-    w.item12 = None
-    w.item13 = None
-    w.item14 = None
-    w.item15 = None
-    w.item16 = None
-
 def insert_product_in_wishlist_new(userid, matched_prod_obj):
-    
     # Check if item already in database
     w = WishlistI.objects.filter(user_id=userid).filter(item=matched_prod_obj)
     if not w:
@@ -497,60 +486,7 @@ def insert_product_in_wishlist_new(userid, matched_prod_obj):
         resp = "Added Item to Wishlist!"
     else:
         resp = "Item already in Wishlist!"
-    
     return w, resp
-
-def insert_product_in_wishlist_old(userid, matched_prod_obj):
-    
-    w1 = WishlistM.objects.filter(id=userid)   
-    if not w1:
-        w = WishlistM()
-        initialize_wishlist_entry(w)        
-        w.item1 = matched_prod_obj
-        w.total_prods += 1
-        w.save()
-        print "Creating entry in ItemList table: " + str(w)
-        resp = "Added Item to Wishlist!"
-        return w, resp
-    else:
-        if (w1[0].total_prods < 16):             
-            if (w1[0].total_prods == 1):
-                w1[0].item2 = matched_prod_obj
-            elif (w1[0].total_prods == 2):
-                w1[0].item3 = matched_prod_obj
-            elif (w1[0].total_prods == 3):
-                w1[0].item4 = matched_prod_obj
-            elif (w1[0].total_prods == 4):
-                w1[0].item5 = matched_prod_obj
-            elif (w1[0].total_prods == 5):
-                w1[0].item6 = matched_prod_obj
-            elif (w1[0].total_prods == 6):
-                w1[0].item7 = matched_prod_obj
-            elif (w1[0].total_prods == 7):
-                w1[0].item8 = matched_prod_obj
-            elif (w1[0].total_prods == 8):
-                w1[0].item9 = matched_prod_obj
-            elif (w1[0].total_prods == 9):
-                w1[0].item10 = matched_prod_obj
-            elif (w1[0].total_prods == 10):
-                w1[0].item11 = matched_prod_obj
-            elif (w1[0].total_prods == 11):
-                w1[0].item12 = matched_prod_obj
-            elif (w1[0].total_prods == 12):
-                w1[0].item13 = matched_prod_obj
-            elif (w1[0].total_prods == 13):
-                w1[0].item14 = matched_prod_obj
-            elif (w1[0].total_prods == 14):
-                w1[0].item15 = matched_prod_obj
-            elif (w1[0].total_prods == 15):
-                w1[0].item16 = matched_prod_obj
-            
-            w1[0].total_prods += 1
-            w1[0].save()
-            resp = "Added Item to Wishlist!"
-        else:
-            resp = "Cannot have more than 16 outstanding items in Wishlist! Please consider buying some...:-)"
-        return w1, resp
 
 def shelfit(request, d1, d2):
     
@@ -682,9 +618,9 @@ def yourshelf_concise(request, d1, d2):
         final_list = WishlistI.objects.filter(user_id=userid)
         br_list1 = WishlistI.objects.none()
         br_list2 = WishlistI.objects.none()
-        #dist_cat_set = set()
-        
+        k=0
         for wi in final_list:
+            k += 1
             #print wi
             catlist = CategoryModel.objects.filter(product=wi.item)
             #print catlist
@@ -700,11 +636,92 @@ def yourshelf_concise(request, d1, d2):
                                   "name": str(wi.item.name),
                                   "price": float(wi.item.price),
                                   "sale_price": float(wi.item.saleprice)} )
-        
+            
             if wi.item.brand.name == "Express":
-                br_list1 = br_list1 | WishlistI.objects.filter(item=wi.item)
-            elif wi.item.brand.name == "J.Crew":
-                br_list2 = br_list2 | WishlistI.objects.filter(item=wi.item)
+                tmpqset = WishlistI.objects.filter(item=wi.item)
+                if len(tmpqset) > 1: 
+                    br_list1 = br_list1 | tmpqset[0]
+                else:
+                    br_list1 = br_list1 | tmpqset
+            if wi.item.brand.name == "J.Crew":
+                tmpqset = WishlistI.objects.filter(item=wi.item)
+                if len(tmpqset) > 1: 
+                    br_list2 = br_list2 | tmpqset[0]
+                else:
+                    br_list2 = br_list2 | tmpqset
+        
+        #print k, len(final_list), len(br_list1), len(br_list2)
+        
+        catlist = set()
+        itemidx = {}
+        k = 0
+        for wi in final_list:
+            pname = wi.item.name.lower()
+            if ('cardigan' in pname):
+                pname = pname.replace('cardigan', 'sweater')
+            elif ('hoodie' in pname):
+                pname = pname.replace('hoodie', 'sweater')
+            elif ('henley' in pname):
+                pname = pname.replace('henley', 't-shirt')
+            elif (not 'dress' in pname) and (not 'skirt' in pname) and ('tee' in pname):
+                pname = pname.replace('tee', 't-shirt')
+            elif 'cami' in pname:
+                pname = pname.replace('cami', 'tank')
+            elif 'blazer' in pname:
+                pname = pname.replace('blazer', 'jacket')
+            
+            k=0
+            for i in dist_cat_set:
+                if i.lower() in pname:
+                    if i not in catlist:
+                        catlist.add(i)
+                    tmparr = []
+                    try:
+                        for j in itemidx[i]:
+                            tmparr.append(j)
+                    except KeyError:
+                        pass
+                    tmparr.append(wi.item)
+                    itemidx[i] = tmparr
+                    break
+                else:
+                    k += 1
+                    if (k == len(dist_cat_set)):
+                        print "LOST:", pname
+        
+        #print k, len(catlist), len(final_list), catlist, itemidx
+        
+        qs_arr = {}
+        for i in catlist:
+            qs_arr[i] = WishlistI.objects.none()
+            for j in itemidx[i]:
+               qs_arr[i] = qs_arr[i] | WishlistI.objects.filter(item=j)
+    
+        print qs_arr
+        #=======================================================================
+        #    for j in catlist:
+        #            if j.categoryName.startswith("View All"):
+        #                catname = j.categoryName.split(' ')[2]
+        #                print catname, j.categoryName
+        #            elif j.categoryName.lower().find("buy"):
+        #                catname = j.categoryName.split(' ')[0]
+        #            else:
+        #                catname = j.categoryName
+        #            if not (catname in dist_cat_set):
+        #                if (dist_cat_set):
+        #                    catpart = False
+        #                    for k in dist_cat_set:
+        #                        if k.lower().find(catname.lower()) > 0:
+        #                            catpart = True
+        #                            break
+        #                    
+        #                    if not catpart:
+        #                        dist_cat_set.add(catname.capitalize())
+        #                else:
+        #                    dist_cat_set.add(catname.capitalize())
+        # 
+        # print len(dist_cat_set), dist_cat_set
+        #=======================================================================
         
         selected_items[int(userid)] = itemlist
         
@@ -713,8 +730,17 @@ def yourshelf_concise(request, d1, d2):
         html += str(len(br_list1)) + ' Items</a></td><td>' 
         html += '<a href=detail/?u=' + str(userid) + '&s=' + 'J.Crew>'
         html += str(len(br_list2)) + ' Items</a></td></tr></table>'
-        html += '<p><strong>Categorization By Item Type</strong></p>'
         
+        html += '<p><strong>Categorization By Item Type</strong></p>'
+        html += '<table border=1><tr>'
+        for i in catlist:
+            html += '<th>' + str(i) + '</th>'
+            
+        #<tr><td><a href=detail/?u=' + str(userid) + '&s=' + 'Express>'
+        #html += str(len(br_list1)) + ' Items</a></td><td>' 
+        #html += '<a href=detail/?u=' + str(userid) + '&s=' + 'J.Crew>'
+        #html += str(len(br_list2)) + ' Items</a></td></tr></table>'
+        html += '</table>'
         return HttpResponse(html)
     
     else:
