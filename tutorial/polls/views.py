@@ -442,16 +442,18 @@ def stats_plot(request):
 #### Start ShelfIt #####
 dist_cat_set = set()
 dist_cat_set.add('Jean')
+dist_cat_set.add('Short')
+dist_cat_set.add('Pant')
+dist_cat_set.add('Tie')
 dist_cat_set.add('Shirt')
+dist_cat_set.add('Tank')
 dist_cat_set.add('Skirt')
 dist_cat_set.add('Dress')
-dist_cat_set.add('Pant')
-dist_cat_set.add('Short')
-dist_cat_set.add('Tank')
 dist_cat_set.add('Jacket')
 dist_cat_set.add('Sweater')
-dist_cat_set.add('Tie')
-        
+
+items_per_cat = {}
+
 def old_wishlist_table(prod_arr):
     wishlist_id_ = 112
     # Multiple entries can be returned as we can have duplicates in the database right now
@@ -567,43 +569,54 @@ def shelfit(request, d1, d2):
 
 def yourshelf_detail(request, d1, d2):
     
-    if 'u' in request.GET and request.GET['u'] and 's' in request.GET and request.GET['s']:
+    if 'u' in request.GET and request.GET['u'] and (('s' in request.GET and request.GET['s']) or ('c' in request.GET and request.GET['c'])):
         
         # Get User ID
         userid = urllib.unquote(request.GET['u'].decode('utf-8'))
         
-        # Get Brand name
-        brand_name = urllib.unquote(request.GET['s'].decode('utf-8'))
-        
-        # From show_selected_items_new
-        selected_items[int(userid)] = []
-        itemlist = []
-        final_list = WishlistI.objects.filter(user_id=userid)
-        br_list = WishlistI.objects.none()
-        for wi in final_list:
-            if wi.item.brand.name == brand_name:
-                br_list = br_list | WishlistI.objects.filter(item=wi.item)
-                catlist = CategoryModel.objects.filter(product=wi.item)
-                #print catlist
-                if catlist:
-                    itemlist.append( {"store": str(wi.item.brand), 
-                                      "category": str(catlist[0].categoryName), 
-                                      "name": str(wi.item.name),
-                                      "price": float(wi.item.price),
-                                      "sale_price": float(wi.item.saleprice)} )
-                else:
-                    itemlist.append( {"store": str(wi.item.brand), 
-                                      "category": "None", 
-                                      "name": str(wi.item.name),
-                                      "price": float(wi.item.price),
-                                      "sale_price": float(wi.item.saleprice)} )
+        # Brand-specific info request
+        if ('s' in request.GET and request.GET['s']):
+            brand_name = urllib.unquote(request.GET['s'].decode('utf-8'))
             
-                
-        selected_items[int(userid)] = itemlist
-        return list_detail.object_list(request,
-                                       queryset = br_list,
-                                       template_name = "items_table2.html",
-                                       extra_context = {'selected_items' : True, 'num_selected' : len(br_list), 'uid': userid} )
+            selected_items[int(userid)] = []
+            itemlist = []
+            final_list = WishlistI.objects.filter(user_id=userid)
+            br_list = WishlistI.objects.none()
+            for wi in final_list:
+                if wi.item.brand.name == brand_name:
+                    br_list = br_list | WishlistI.objects.filter(item=wi.item)
+                    catlist = CategoryModel.objects.filter(product=wi.item)
+                    #print catlist
+                    if catlist:
+                        itemlist.append( {"store": str(wi.item.brand), 
+                                          "category": str(catlist[0].categoryName), 
+                                          "name": str(wi.item.name),
+                                          "price": float(wi.item.price),
+                                          "sale_price": float(wi.item.saleprice)} )
+                    else:
+                        itemlist.append( {"store": str(wi.item.brand), 
+                                          "category": "None", 
+                                          "name": str(wi.item.name),
+                                          "price": float(wi.item.price),
+                                          "sale_price": float(wi.item.saleprice)} )
+            
+            selected_items[int(userid)] = itemlist
+            return list_detail.object_list(request,
+                                           queryset = br_list,
+                                           template_name = "items_table2.html",
+                                           extra_context = {'selected_items' : True, 'num_selected' : len(br_list), 'uid': userid} )
+        
+        elif ('c' in request.GET and request.GET['c']):
+            # Category-specific request
+            cat_name = urllib.unquote(request.GET['c'].decode('utf-8'))
+            qs_arr = items_per_cat[userid]
+            #print cat_name, qs_arr
+    
+            return list_detail.object_list(request,
+                                           queryset = qs_arr[cat_name],
+                                           template_name = "items_table2.html",
+                                           extra_context = {'selected_items' : True, 'num_selected' : len(qs_arr[cat_name]), 'uid': userid} )
+            
     else:
         return HttpResponse('Dear user: please login or create an account before accessing this page...')
 
@@ -613,6 +626,7 @@ def yourshelf_concise(request, d1, d2):
         # Get User ID
         userid = urllib.unquote(request.GET['u'].decode('utf-8'))
         
+        # Get Info brand-wise
         selected_items[int(userid)] = []
         itemlist = []
         final_list = WishlistI.objects.filter(user_id=userid)
@@ -649,9 +663,10 @@ def yourshelf_concise(request, d1, d2):
                     br_list2 = br_list2 | tmpqset[0]
                 else:
                     br_list2 = br_list2 | tmpqset
+                    
+        selected_items[int(userid)] = itemlist
         
-        #print k, len(final_list), len(br_list1), len(br_list2)
-        
+        # Get Info category-wise
         catlist = set()
         itemidx = {}
         k = 0
@@ -697,33 +712,8 @@ def yourshelf_concise(request, d1, d2):
             for j in itemidx[i]:
                qs_arr[i] = qs_arr[i] | WishlistI.objects.filter(item=j)
     
-        print qs_arr
-        #=======================================================================
-        #    for j in catlist:
-        #            if j.categoryName.startswith("View All"):
-        #                catname = j.categoryName.split(' ')[2]
-        #                print catname, j.categoryName
-        #            elif j.categoryName.lower().find("buy"):
-        #                catname = j.categoryName.split(' ')[0]
-        #            else:
-        #                catname = j.categoryName
-        #            if not (catname in dist_cat_set):
-        #                if (dist_cat_set):
-        #                    catpart = False
-        #                    for k in dist_cat_set:
-        #                        if k.lower().find(catname.lower()) > 0:
-        #                            catpart = True
-        #                            break
-        #                    
-        #                    if not catpart:
-        #                        dist_cat_set.add(catname.capitalize())
-        #                else:
-        #                    dist_cat_set.add(catname.capitalize())
-        # 
-        # print len(dist_cat_set), dist_cat_set
-        #=======================================================================
-        
-        selected_items[int(userid)] = itemlist
+        #print qs_arr
+        items_per_cat[userid] = qs_arr
         
         html = '<p><strong>Categorization By Store</strong></p>'
         html += '<table border=1><tr><th>Express</th><th>J.Crew</th><tr><td><a href=detail/?u=' + str(userid) + '&s=' + 'Express>'
@@ -734,13 +724,17 @@ def yourshelf_concise(request, d1, d2):
         html += '<p><strong>Categorization By Item Type</strong></p>'
         html += '<table border=1><tr>'
         for i in catlist:
-            html += '<th>' + str(i) + '</th>'
-            
-        #<tr><td><a href=detail/?u=' + str(userid) + '&s=' + 'Express>'
-        #html += str(len(br_list1)) + ' Items</a></td><td>' 
-        #html += '<a href=detail/?u=' + str(userid) + '&s=' + 'J.Crew>'
-        #html += str(len(br_list2)) + ' Items</a></td></tr></table>'
-        html += '</table>'
+            if i == 'Dress':
+                html += '<th>' + str(i) + 'es</th>'
+            else:
+                html += '<th>' + str(i) + 's</th>'
+                
+        html += '<tr>'
+        for i in catlist:
+            html += '<td><a href=detail/?u=' + str(userid) + '&c=' + str(i) + '>'
+            html += str(len(qs_arr[i])) + ' Items</a></td>'
+        html += '</tr></table>'
+        
         return HttpResponse(html)
     
     else:
