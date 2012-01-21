@@ -129,7 +129,7 @@
 		    	<h1> {{ curresp }} </h1> 
 		    {% endif %}
 		    {% if num_selected %} 
-		    	<h2> Your {{ num_selected }} selection{{ object_list|pluralize }}: from Express</h2>
+		    	<h2> Your {{ num_selected }} selection{{ object_list|pluralize }}</h2>
 				<table border="1">
 		  			{% for wi in object_list %}
 						{% if forloop.first %}<tr>{% endif %}
