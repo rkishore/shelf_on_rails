@@ -65,7 +65,7 @@
 			#border:5px gray;
 			float: left;
 		}
-		a:link,a:visited
+		a.nav:link,a.nav:visited
 		{
 			display:block;
 			font-weight:bold;
@@ -77,7 +77,7 @@
 			text-decoration:none;
 			#text-transform:uppercase;
 		}
-		a:hover,a:active
+		a.nav:hover,a.nav:active
 		{
 			background-color:#7A991A;
 		}
@@ -117,15 +117,17 @@
 			</header>
 			<nav>
 				<ul>
-					<li><a href="http://localhost:8000/viewyourshelf/detail/?u=2&s=Express">View Shelfs</a></li>
-					<li><a href="http://localhost:8000/create_wishlist/">Create Wishlist</a></li>
-					<li><a href="http://localhost:8000/apply_promo/">Apply Promotions</a></li>
-					<li><a href="http://localhost:8000/view_promo/">View Promotions</a></li>
-					<li><a href="http://localhost:8000/statsplot/">Did you know?</a></li>
+					<li><a class="nav" href="http://localhost:8000/viewyourshelf/detail/?u=2&s=Express">View Shelfs</a></li>
+					<li><a class="nav" href="http://localhost:8000/apply_promo/">View Pricing Info</a></li>
+					<li><a class="nav" href="http://localhost:8000/statsplot/">Did you know?</a></li>
 				</ul>
 			</nav>
 			<div class="welcome">
-				Welcome to Shelf, your personal online hub that helps you manage, track, and find the best prices for the items you are tracking.
+				Shelf is an online management engine that helps you manage and track your wishlists. Shelf
+				helps you save money by automatically finding the best promotion that are applicable to your items. <br>
+				<p>Our demo currently works only for <a href="http://www.express.com">Express</a> and 
+				<a href="http://www.jcrew.com">J.Crew</a>.</p> 
+				Please copy this "ShelfIt" button to your browser to easily add items to your Shelves.<br>
 			</div>
 			
 			<footer>
