@@ -740,6 +740,32 @@ def yourshelf_concise(request, d1, d2):
     else:
         return HttpResponse('Dear user: please login or create an account before accessing this page...')
         
+'''
+    This function should return a html page dynamically generated 
+    after seeing the number of existing users and adding to them
+    If same person uses this multiple times, we have currently no way 
+    of knowing...need support for sessions, users and registration. 
+'''
+def add_shelfit_bmarklet(request):
+    
+    # Get existing user IDs
+    w_qs = WishlistI.objects.values('user_id').distinct()
+    len_qs = len(w_qs)
+    last_uid = w_qs[len_qs-1]['user_id']
+    
+    html = '<p>Please copy the code below, open your Bookmarks manager, create new bookmark, type' 
+    html += ' <strong>Shelf It!</strong> into the name field and paste the code into the URL field.</p>'
+    html += '<textarea rows="5" cols="120" readonly="readonly">'
+    html += 'javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,'
+    html += 's=(e?e():(k)?k():(x?x.createRange().text:0)),f=\'http://shopelfify.com:8000/shelfit\',l=d.location'
+    html += ',e=encodeURIComponent,u=f+\'?u=\'+e(l.href)+\'&t=' + str(last_uid+1) + '\';'
+    html += 'a=function(){if(!w.open(u,\'t\',\'toolbar=0,resizable=1,scrollbars=1,status=1,width=720,height=570\'))l.href=u;};'
+    html += 'if (/Firefox/.test(navigator.userAgent)) setTimeout(a, 0); else a();void(0)</textarea>'
+    
+    #print html
+    
+    return HttpResponse(html)
+
 def apply_discount_new(request, d1):
     
     if 'u' in request.GET and request.GET['u']:
