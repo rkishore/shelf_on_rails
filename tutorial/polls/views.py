@@ -832,6 +832,8 @@ def weather_chart_view(request):
 
     #Step 3: Send the chart object to the template.
     return render_to_response('show_chart.html', {'weatherchart': cht})
+
+
     
 class WishlistForm(forms.Form):
     
@@ -846,6 +848,18 @@ class WishlistForm(forms.Form):
             self.fields['categories'] = ModelChoiceField(queryset=Categories.objects.filter(brand=br_id), empty_label="Select", required=False)
        
         print "Inside __init__: " + str(self.fields) + str(br_id)
+    
+def home(request):
+     return render_to_response('home.html')    
+
+def create_wishlist(request):
+    return render_to_response('create_wishlist.html')
+
+def apply_promo(request):
+    return render_to_response('apply_promo.html')
+
+def view_promo(request):
+    return render_to_response('view_promo.html')
     
 def add_item_to_selected_items_list(request, wishlist_id_, item_id_, page_id_):
     print "Adding item " + str(item_id_) + " to wishlist id " + str(wishlist_id_)

@@ -54,4 +54,8 @@ urlpatterns = patterns('',
     (r'^viewyourshelf/(\Wu{1}\W(\d+))?$', 'polls.views.yourshelf_concise'),
     (r'^viewyourshelf/detail/(\Wu{1}\W(\d+)\Ws{1}\W)?$', 'polls.views.yourshelf_detail'),
     (r'^viewyourshelf/apply_discount/(\Wu{1})?$', 'polls.views.apply_discount_new'),
+    (r'^home[\w\d.]*', 'polls.views.home'),
+    (r'^create_wishlist/', 'polls.views.create_wishlist'),
+    (r'^apply_promo/', 'polls.views.apply_promo'),
+    (r'^view_promo/', 'polls.views.view_promo')
 )
