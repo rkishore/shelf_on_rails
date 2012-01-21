@@ -65,7 +65,7 @@
 			#border:5px gray;
 			float: left;
 		}
-		a:link,a:visited
+		a.nav:link,a.nav:visited
 		{
 			display:block;
 			font-weight:bold;
@@ -77,7 +77,7 @@
 			text-decoration:none;
 			#text-transform:uppercase;
 		}
-		a:hover,a:active
+		a.nav:hover,a.nav:active
 		{
 			background-color:#7A991A;
 		}
@@ -117,11 +117,10 @@
 			</header>
 			<nav>
 				<ul>
-					<li><a href="http://localhost:8000/viewyourshelf/detail/?u=2&s=Express">View Shelfs</a></li>
-					<li><a href="http://localhost:8000/create_wishlist/">Create Wishlist</a></li>
-					<li><a href="http://localhost:8000/apply_promo/">Apply Promotions</a></li>
-					<li><a href="http://localhost:8000/view_promo/">View Promotions</a></li>
-					<li><a href="http://localhost:8000/statsplot/">Did you know?</a></li>
+					<li><a class="nav" href="http://localhost:8000/viewyourshelf/?u={{uid}}">View Shelfs</a></li>
+					<li><a class="nav" href="http://localhost:8000/apply_promo/">View Pricing Info</a></li>
+					<li><a class="nav" href="http://localhost:8000/statsplot/">Did you know?</a></li>
+					<li><a class="nav" href="http://localhost:8000/home/">Home</a></li>
 				</ul>
 			</nav>
 			<div class="welcome">
