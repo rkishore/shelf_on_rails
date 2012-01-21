@@ -896,7 +896,7 @@ class WishlistForm(forms.Form):
         print "Inside __init__: " + str(self.fields) + str(br_id)
     
 def home(request):
-     return render_to_response('home.html')    
+     return render_to_response('home.html', {'uid':1})    
 
 def create_wishlist(request):
     return render_to_response('create_wishlist.html')
