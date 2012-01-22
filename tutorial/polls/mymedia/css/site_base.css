@@ -1,0 +1,110 @@
+div.header2
+{
+    padding:0.5em;
+    color:white;
+    background-color:black;
+    clear:left;
+    text-align:center;
+    font-weight:bold;
+}
+div.welcome
+{
+    position:fixed;
+    top:100px;
+    left:300px;
+}		
+div.footer
+{
+    position:fixed;
+    padding:0.5em;
+    color:white;
+    background-color:black;
+    clear:left;
+    text-align:center;
+    font-weight:bold;
+    top:500px;
+    left:0px;
+    width:1300px;
+}
+div.header
+{
+    padding:0.5em;
+    color:white;
+    background-color:black;
+    clear:left;
+    text-align:center;
+    font-weight:bold;
+}
+h1.header
+{
+    padding:0;
+    margin:0;
+    text-align:center;	
+}
+ul
+{
+    list-style-type:none;
+    #margin:10px;
+    #padding:10px;
+    #width:140px;
+    #border:5px gray;
+    float: left;
+}
+a.nav:link,a.nav:visited
+{
+    display:block;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#98bf21;
+    width:180px;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    #text-transform:uppercase;
+}
+a.nav:hover,a.nav:active
+{
+    background-color:#7A991A;
+}
+div.pos_fixed_left
+{
+    float: left;
+    top:100px;
+    left:300px;
+    width:400px;
+    height:300px;
+    overflow:scroll;
+}
+div.pos_fixed_right
+{
+    float: left;
+    top:100px;
+    right:300px;
+    width:300px;
+    height:300px;
+    overflow:scroll;
+}
+p.view_shelf_header
+{
+    position:fixed;
+    top:50px;
+    left:350px;
+    color:red;
+}
+a.signup_button 
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100px;
+    color: #000;
+    background: #CCCCCC;
+    font-size: 100%;
+    padding:10px;
+}
+.round {
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+}
+

@@ -1,0 +1,90 @@
+div.header2
+{
+    padding:0.5em;
+    color:white;
+    background-color:black;
+    clear:left;
+    text-align:center;
+    font-weight:bold;
+}
+div.welcome
+{
+    #float:left;
+    top:100px;
+    left:300px;
+    #clear:right;
+}		
+div.footer
+{
+    #position:fixed;
+    padding:0.5em;
+    color:white;
+    background-color:black;
+    clear:left;
+    text-align:center;
+    font-weight:bold;
+    #top:500px;
+    #left:0px;
+    #width:1300px;
+}
+div.header
+{
+    padding:0.5em;
+    color:white;
+    background-color:black;
+    clear:left;
+    text-align:center;
+    font-weight:bold;
+}
+h1.header
+{
+    padding:0;
+    margin:0;
+    text-align:center;	
+}
+ul
+{
+    list-style-type:none;
+    #margin:10px;
+    #padding:10px;
+    #width:140px;
+    #border:5px gray;
+    float: left;
+}
+a.nav:link,a.nav:visited
+{
+    display:block;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#98bf21;
+    width:180px;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    #text-transform:uppercase;
+}
+a.nav:hover,a.nav:active
+{
+    background-color:#7A991A;
+}
+div.set
+{
+    padding:20px;
+    float: left;
+    margin:20px;
+    top:200px;
+    #left:300px;
+    width:200px;
+    #height:300px;
+    #overflow:scroll;
+    background-color: #C4C4C4;
+    border: 1px solid gray;
+}
+
+p.view_shelf_header
+{
+    position:fixed;
+    top:50px;
+    left:350px;
+    color:red;
+}
