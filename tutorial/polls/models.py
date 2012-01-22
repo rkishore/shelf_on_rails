@@ -98,13 +98,13 @@ class Brands(models.Model):
     def __unicode__(self):
         return self.name
 
-class Items(models.Model):
-    
-    GENDER_CHOICES = (
+GENDER_CHOICES = (
         ('M', 'MALE'),
         ('F', 'FEMALE'),
         ('A', 'ALL'),
         )
+
+class Items(models.Model):
     
     # These choices should be gender-specific                                                                                                                                  
     #MCAT_CHOICES = (
@@ -242,13 +242,36 @@ class ResultForDemand(models.Model):
         return "ResultForDemand: " + str(self.date) + " store: " + str(self.store_string) + " selection_metric: " + \
                 str(self.item_selection_metric)
     
-class DailyResults(models.Model):
-    
+class SSItemStats(models.Model):
+    '''
+    Here we store the statistics on a (brand, category, gender, date, price_selection_criteria) basis for items from the SS catalog. 
+    SELECTION_METRICS is used to select items from the Items DB
+    using the specific criteria: do we want to use the cheapest (Min)
+    or most expensive (Max) or average (Median)
+    '''
+    SELECTION_METRICS = (
+                         (0, 'AVERAGE'),
+                         (1, 'MAXIMUM'),
+                         (2, 'MINIMUM'),
+                         (3, 'MEDIAN'),
+                         (4, 'Q75'),
+                         (5, 'Q25'),                         
+                         )
+    tdate = models.DateField('Date generated', default=datetime.now())
     brand = models.ForeignKey(Brands, default='Nil')
-    date = models.DateField('Date generated', default=datetime.now())
-    item_info = models.IntegerField('Total items', default=0)
-    brand_info = models.IntegerField('Total items', default=0)
-
+    category = models.CharField(max_length=20, default='Nil')
+    gender = models.CharField(max_length=6, choices=GENDER_CHOICES, default='A')
+    price_selection_metric = models.IntegerField(choices = SELECTION_METRICS, default='0')
+    price = models.FloatField(max_length=10, default='-111.00')
+    saleprice = models.FloatField(max_length=10, default='-111.00')
+    total_cnt = models.IntegerField(max_length=10, default='-11')
+    sale_cnt = models.IntegerField(max_length=10, default='-11')
+    
+    def __unicode__(self):
+        return "SSItemStats: " + str(self.tdate) + " brand: " + str(self.brand.name) + " category: " + \
+                str(self.category) + " gender: " + str(self.gender) + " selection_metric: " + \
+                str(self.price_selection_metric)
+    
 class ProductModel(models.Model):
     ''' 
     This model holds the items scraped by our spiders

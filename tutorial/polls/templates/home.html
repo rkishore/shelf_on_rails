@@ -106,6 +106,22 @@
 			left:350px;
 			color:red;
 		}
+		a.signup_button 
+		{
+  			margin-left: auto;
+		  	margin-right: auto;
+		  	text-align: center;
+		  	width: 100px;
+		  	color: #000;
+		  	background: #CCCCCC;
+		  	font-size: 100%;
+		  	padding:10px;
+		}
+		.round {
+  			-moz-border-radius:    10px;
+  			-webkit-border-radius: 10px;
+  			border-radius:         10px;
+		}
 	</style>
 
 
@@ -131,10 +147,11 @@
 					other stores and their prices, and (d) track prices and make when-to-buy recommendations.
 				</p>
 				<strong>Do you have a demo?</strong>
-				<p>Please copy these <em>ShelfIt</em> and <em>YourShelf</em> buttons to your browser to easily add and view items to your Shelves.
-				Our demo currently works only for <a href="http://www.express.com">Express</a> and 
-				<a href="http://www.jcrew.com">J.Crew</a>.</p> 
-				
+				<p>Our demo currently works only for <a href="http://www.express.com">Express</a> and 
+				<a href="http://www.jcrew.com">J.Crew</a>.</p>
+				<p>To get going, drag-and-drop the following link to your bookmarks bar or right click and add to your favorites.</p>
+				<p class="pressthis"><a style="text-decoration:none" onclick="return false;" oncontextmenu="if(window.navigator.userAgent.indexOf(\'WebKit\')!=-1) return false;" href="javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,s=(e?e():(k)?k():(x?x.createRange().text:0)), f='http://shopelfify.com:8000/shelfit',l=d.location,e=encodeURIComponent, u=f+'?u='+e(l.href)+'&t=1'; a=function(){if(!w.open(u,'t','toolbar=0,resizable=1,scrollbars=1,status=1,width=720,height=570'))l.href=u;}; if (/Firefox/.test(navigator.userAgent)) setTimeout(a, 0); else a();void(0)" class="signup_button round">Shelf It!</a> 
+				<a onclick="return false;" style="text-decoration:none" href="http://shopelfify.com:8000/viewyourshelf/?u=1" class="signup_button round">Your Shelf</a></p>
 				
 			</div>
 			
