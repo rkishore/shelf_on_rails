@@ -10,10 +10,12 @@ import promotion
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 #from chartit import DataPool, Chart
 from GChartWrapper import *
-
+from polls.models import StoreItemCombinationResults
 from django.template import RequestContext
 from django.forms import ModelChoiceField, ChoiceField
 import copy
+import hashlib
+from django.core.exceptions import ObjectDoesNotExist
 
 item_list_results_hash_table = {}
 
@@ -68,13 +70,15 @@ def find_shelf_store_based_for_user(userid):
                                       "category": str(catlist[0].categoryName), 
                                       "name": str(wi.item.name),
                                       "price": float(wi.item.price),
-                                      "sale_price": float(wi.item.saleprice)} )
+                                      "sale_price": float(wi.item.saleprice),
+                                      "item_idx": int(wi.item.idx)} )
                 else:
                     itemlist.append( {"store": str(wi.item.brand), 
                                       "category": "None", 
                                       "name": str(wi.item.name),
                                       "price": float(wi.item.price),
-                                      "sale_price": float(wi.item.saleprice)} )
+                                      "sale_price": float(wi.item.saleprice),
+                                      "item_idx": int(wi.item.idx)} )
         shelf_per_store[brand_name] = itemlist
     return shelf_per_store
 
@@ -89,6 +93,17 @@ def find_combination(shelf, combination_id):
             result.append(shelf[i])
     return result
     
+
+def check_if_combination_exists(list_of_items):
+    m = hashlib.md5()
+    for item in list_of_items:
+        print item
+        m.update(str(item['item_idx']))
+    try:
+        result = StoreItemCombinationResults.objects.get(combination_id = m.hexdigest())
+        return (result, m.hexdigest())
+    except ObjectDoesNotExist:
+        return (None, m.hexdigest())
 
 def apply_promo(request, d1, d2):
     if 'u' in request.GET and request.GET['u']:
@@ -116,8 +131,24 @@ def apply_promo(request, d1, d2):
             itemlist = []         
             for j in range(1, total_combinations + 1):
                 wishlist = find_combination(shelf_per_store[store_name], j)
-                orig_cost, total_cost, savings, shipping = match.match(store_name, date_, 
-                                                                       copy.deepcopy(wishlist), promo)
+                cached_result, digest = check_if_combination_exists(wishlist)
+                if cached_result == None:
+                    print "No, didn't find result for list " + str(j) + " in cache, so storing it"
+                    orig_cost, total_cost, savings, shipping = match.match(store_name, date_, 
+                                                                           copy.deepcopy(wishlist), promo)
+                    # store this result
+                    new_result = StoreItemCombinationResults(combination_id = digest,
+                                                             price = orig_cost,
+                                                             saleprice = total_cost,
+                                                             free_shipping = shipping,)
+                    new_result.save()
+                else:
+                    print "Great, found the result! Using it here."
+                    orig_cost = cached_result.price
+                    total_cost = cached_result.saleprice
+                    savings = cached_result.price - cached_result.saleprice
+                    shipping = cached_result.free_shipping
+                        
                 print "RESULT:: " + str(j) + " " + str(store_name) + " " + str(orig_cost) + " " + str(total_cost) + " " + str(savings)
                 itemlist.append( {"orig_cost": orig_cost, 
                                   "total_cost": total_cost, 

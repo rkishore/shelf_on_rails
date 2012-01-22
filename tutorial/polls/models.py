@@ -344,3 +344,18 @@ class WishlistM(models.Model):
     
     def __unicode__(self):
         return "ProdList size: " + str(self.total_prods)
+    
+    
+class StoreItemCombinationResults(models.Model):
+    '''
+    This model stores the total price for a set of items. We store this in a DB
+    to avoid re-calculating it again-and-again. combination_id is a sha-1 hash of
+    item ids of items in the list. 
+    '''
+    combination_id = models.CharField(max_length=200, default='Nil')
+    price = models.FloatField(max_length=10, default='Nil')
+    saleprice = models.FloatField(max_length=10, default='Nil')
+    free_shipping = models.BooleanField(default='False')
+
+    def __unicode__(self):
+        return "ItemComb: comb " + str(combination_id) + " price: " + str(price) + " sale " + str(saleprice)
