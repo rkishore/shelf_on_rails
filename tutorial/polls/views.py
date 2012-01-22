@@ -750,43 +750,46 @@ def shelfit(request, d1, d2):
             # Find product in database
             prod_arr = ProductModel.objects.filter(idx=prod_id)
             
-            print userid, prod_arr[0].idx
+            if prod_arr:
+                print userid, prod_arr[0].idx
             
-            # Add product to wishlist
-            w, resp = insert_product_in_wishlist_new(userid, prod_arr[0])
+                # Add product to wishlist
+                w, resp = insert_product_in_wishlist_new(userid, prod_arr[0])
         
-            # From show_selected_items_new
-            wishlist_id_ = 112
-            selected_items[int(wishlist_id_)] = []
-            itemlist = []
-            final_list = WishlistI.objects.filter(item=prod_arr[0])
-            for wi in final_list:
-                catlist = CategoryModel.objects.filter(product=wi)
-                if catlist:
-                    itemlist.append( {"store": str(wi.item.brand), 
-                                      "category": str(catlist[0].categoryName), 
-                                      "name": str(wi.item.name),
-                                      "price": float(wi.item.price),
-                                      "sale_price": float(wi.item.saleprice)} )
-                else:
-                    itemlist.append( {"store": str(wi.item.brand), 
-                                      "category": "None", 
-                                      "name": str(wi.item.name),
-                                      "price": float(wi.item.price),
-                                      "sale_price": float(wi.item.saleprice)} )
-            
-            selected_items[int(wishlist_id_)] = itemlist
-            return list_detail.object_list(request,
-                                           queryset = final_list,
-                                           template_name = "items_table2.html",
-                                           extra_context = {'selected_items' : True, 'curresp' : resp, 'num_selected' : len(final_list), 'uid': userid} )
+                # From show_selected_items_new
+                wishlist_id_ = 112
+                selected_items[int(wishlist_id_)] = []
+                itemlist = []
+                final_list = WishlistI.objects.filter(item=prod_arr[0])
+                for wi in final_list:
+                    catlist = CategoryModel.objects.filter(product=wi)
+                    if catlist:
+                        itemlist.append( {"store": str(wi.item.brand), 
+                                          "category": str(catlist[0].categoryName), 
+                                          "name": str(wi.item.name),
+                                          "price": float(wi.item.price),
+                                          "sale_price": float(wi.item.saleprice)} )
+                    else:
+                        itemlist.append( {"store": str(wi.item.brand), 
+                                          "category": "None", 
+                                          "name": str(wi.item.name),
+                                          "price": float(wi.item.price),
+                                          "sale_price": float(wi.item.saleprice)} )
+                
+                selected_items[int(wishlist_id_)] = itemlist
+                return list_detail.object_list(request,
+                                               queryset = final_list,
+                                               template_name = "items_table2.html",
+                                               extra_context = {'selected_items' : True, 'curresp' : resp, 'num_selected' : len(final_list), 'uid': userid} )
+            else:
+                return HttpResponse('<p>We are unable to add this item to your shelf. Please check back again later.</p><p><strong>We really appreciate your patronage!</strong></p>')
         else:
             if not ((brand_name == "express") or (brand_name == "jcrew")):
                 return HttpResponse('<p>Please choose products from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>.</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
             else:
                 return HttpResponse('<p>Please choose products from a valid product page (from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>).</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
     else:
-        return HttpResponse('Please use ShelfIt from a filled-in product page!')
+        return HttpResponse('Please choose products from a valid product page (from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>).</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
 
 def yourshelf_detail(request, d1, d2):
     
