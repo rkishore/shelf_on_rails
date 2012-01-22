@@ -901,8 +901,7 @@ def home(request):
 def create_wishlist(request):
     return render_to_response('create_wishlist.html')
 
-def apply_promo(request):
-    return render_to_response('apply_promo.html')
+
 
 def view_promo(request):
     return render_to_response('view_promo.html')

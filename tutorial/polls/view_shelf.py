@@ -51,8 +51,85 @@ dist_cat_set.add('Sweater')
 
 items_per_cat = {}
 
+stores = ['Express', 'J.Crew']
 
+def find_shelf_store_based_for_user(userid):
+    shelf_per_store = {}
+    for brand_name in stores:
+        selected_items[int(userid)] = []
+        itemlist = []
+        final_list = WishlistI.objects.filter(user_id=userid)
+        for wi in final_list:
+            if wi.item.brand.name == brand_name:
+                catlist = CategoryModel.objects.filter(product=wi.item)
+                #print catlist
+                if catlist:
+                    itemlist.append( {"store": str(wi.item.brand), 
+                                      "category": str(catlist[0].categoryName), 
+                                      "name": str(wi.item.name),
+                                      "price": float(wi.item.price),
+                                      "sale_price": float(wi.item.saleprice)} )
+                else:
+                    itemlist.append( {"store": str(wi.item.brand), 
+                                      "category": "None", 
+                                      "name": str(wi.item.name),
+                                      "price": float(wi.item.price),
+                                      "sale_price": float(wi.item.saleprice)} )
+        shelf_per_store[brand_name] = itemlist
+    return shelf_per_store
 
+# this function is used to find all combinations
+def find_combination(shelf, combination_id):
+    result = []
+    for i in range (0, len(shelf)):
+        k = combination_id >> i
+        k = k & 0x1
+        #print "Combination_id " + str(hex(combination_id)) + " i " + str(hex(i+1)) + " k " + str(hex(k))
+        if k == 0x1:
+            result.append(shelf[i])
+    return result
+    
+
+def apply_promo(request, d1, d2):
+    if 'u' in request.GET and request.GET['u']:
+        userid = urllib.unquote(request.GET['u'].decode('utf-8'))
+        result_list = {}
+        #for each store-shelf
+        shelf_per_store = find_shelf_store_based_for_user(userid)
+        for i in range(0, len(shelf_per_store)):
+            # how many items in this shelf
+            store_name = stores[i]
+            num_items = len(shelf_per_store[store_name])
+            print "Apply_promo: We have " + str(num_items) + " items in " + store_name + " shelf."
+            total_combinations = 1 << (num_items)
+            total_combinations -= 1
+            print "Total combination: " + str(total_combinations)
+            date_ = datetime.date.today()
+            promo_date = Promoinfo.objects.filter(d = date_)
+            promo = promo_date.filter(store__id = i)
+
+            # for all possible combinations
+                # find the price by calling match.py
+                # upper bound is total_combinations+1 because we are starting with index 1
+                # and that is because we don't want to calculate discount for an empty wishlist
+                # which will happen when j = 0
+            itemlist = []         
+            for j in range(1, total_combinations + 1):
+                wishlist = find_combination(shelf_per_store[store_name], j)
+                orig_cost, total_cost, savings, shipping = match.match(store_name, date_, 
+                                                                       copy.deepcopy(wishlist), promo)
+                print "RESULT:: " + str(j) + " " + str(store_name) + " " + str(orig_cost) + " " + str(total_cost) + " " + str(savings)
+                itemlist.append( {"orig_cost": orig_cost, 
+                                  "total_cost": total_cost, 
+                                  "savings": savings,
+                                  "shipping": shipping,})
+
+            result_list[store_name] = itemlist  
+        return list_detail.object_list(request,
+                                       queryset = WishlistI.objects.none(),
+                                       template_name = "apply_promo.html",
+                                       extra_context = {'uid': userid,
+                                                        'result_list': result_list,} )
 
 
 def yourshelf_store_based(request, d1, d2):
