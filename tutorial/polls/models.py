@@ -242,7 +242,13 @@ class ResultForDemand(models.Model):
         return "ResultForDemand: " + str(self.date) + " store: " + str(self.store_string) + " selection_metric: " + \
                 str(self.item_selection_metric)
     
+class DailyResults(models.Model):
     
+    brand = models.ForeignKey(Brands, default='Nil')
+    date = models.DateField('Date generated', default=datetime.now())
+    item_info = models.IntegerField('Total items', default=0)
+    brand_info = models.IntegerField('Total items', default=0)
+
 class ProductModel(models.Model):
     ''' 
     This model holds the items scraped by our spiders
