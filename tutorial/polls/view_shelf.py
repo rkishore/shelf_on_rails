@@ -171,6 +171,11 @@ def yourshelf_store_based(request, d1, d2):
                 num_selected_per_store[s] = len(br_list)
             selected_items[int(userid)] = itemlist
             print shelf_per_store
+            
+            if not shelf_per_store:
+                shelf_per_store[stores[0]] = br_list
+                shelf_per_store[stores[1]] = br_list
+                
         return list_detail.object_list(request,
                                        queryset = shelf_per_store[stores[0]],
                                        template_name = "view_shelf.html",
@@ -180,8 +185,6 @@ def yourshelf_store_based(request, d1, d2):
                                                         'num_selected' : num_selected_per_store,#len(shelf_per_store), 
                                                         'uid': userid,
                                                         'shelfs': shelf_per_store,} )
-        
-                  
     else:
         return HttpResponse('Dear user: please login or create an account before accessing this page...')
 

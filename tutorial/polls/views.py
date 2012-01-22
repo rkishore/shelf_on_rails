@@ -752,15 +752,31 @@ def add_shelfit_bmarklet(request):
     w_qs = WishlistI.objects.values('user_id').distinct()
     len_qs = len(w_qs)
     last_uid = w_qs[len_qs-1]['user_id']
+    new_uid = last_uid + 1
     
-    html = '<p>Please copy the code below, open your Bookmarks manager, create new bookmark, type' 
-    html += ' <strong>Shelf It!</strong> into the name field and paste the code into the URL field.</p>'
-    html += '<textarea rows="5" cols="120" readonly="readonly">'
-    html += 'javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,'
-    html += 's=(e?e():(k)?k():(x?x.createRange().text:0)),f=\'http://shopelfify.com:8000/shelfit\',l=d.location'
-    html += ',e=encodeURIComponent,u=f+\'?u=\'+e(l.href)+\'&t=' + str(last_uid+1) + '\';'
+    html = '<p class="description">Drag-and-drop the following link to your bookmarks bar or right click it and add it to your favorites for a posting shortcut.</p>'
+    html += '<p class="pressthis"><a onclick="return false;" oncontextmenu="'
+    html += 'if(window.navigator.userAgent.indexOf(\'WebKit\')!=-1) return false;" '
+    html += 'href="javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,s=(e?e():(k)?k():(x?x.createRange().text:0)),'
+    html += 'f=\'http://shopelfify.com:8000/shelfit\',l=d.location,e=encodeURIComponent,'
+    html += 'u=f+\'?u=\'+e(l.href)+\'&t=' + str(new_uid) + '\';'
     html += 'a=function(){if(!w.open(u,\'t\',\'toolbar=0,resizable=1,scrollbars=1,status=1,width=720,height=570\'))l.href=u;};'
-    html += 'if (/Firefox/.test(navigator.userAgent)) setTimeout(a, 0); else a();void(0)</textarea>'
+    html += 'if (/Firefox/.test(navigator.userAgent)) setTimeout(a, 0); else a();void(0)"><span>Shelf It!</span></a>'
+    
+    html += '<p><a href=http://shopelfify.com:8000/viewyourshelf' + '/?u=' + str(new_uid) + '>Your Shelf</a></p>'
+    #print html
+   
+    #html += '<br><p>Please open your Bookmarks manager to add a new bookmark. Type' 
+    #html += ' <strong>Shelf It!</strong> into the name field and paste the code into the URL field.</p>'
+    #html += '<textarea rows="5" cols="120" readonly="readonly">'
+    #html += 'javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,'
+    #html += 's=(e?e():(k)?k():(x?x.createRange().text:0)),f=\'http://shopelfify.com:8000/shelfit\',l=d.location'
+    #html += ',e=encodeURIComponent,u=f+\'?u=\'+e(l.href)+\'&t=' + str(new_uid) + '\';'
+    #html += 'a=function(){if(!w.open(u,\'t\',\'toolbar=0,resizable=1,scrollbars=1,status=1,width=720,height=570\'))l.href=u;};'
+    #html += 'if (/Firefox/.test(navigator.userAgent)) setTimeout(a, 0); else a();void(0)</textarea>'
+    
+    #html += '<p>Also add a bookmark to <strong>Your Shelf</strong>: '
+    #html += '<textarea rows="2" cols="120" readonly="readonly">http://shopelfify.com:8000/viewyourself/?u=' + str(new_uid) + '/</textarea></p>'
     
     #print html
     
