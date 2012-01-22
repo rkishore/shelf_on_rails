@@ -1,0 +1,1042 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>mens-shirts</Category>
+<CategoryName>Shirts</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>284</Id>
+<Name>J.Crew</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>264</TotalCount>
+<Product>
+<Id>560369</Id>
+<Name>Tall repp piqu&#xE9; polo</Name>
+<Currency>USD</Currency>
+<Price>43.5</Price>
+<PriceLabel>$43.50</PriceLabel>
+<SalePrice>19.99</SalePrice>
+<SalePriceLabel>$19.99</SalePriceLabel>
+<MaxSalePrice>32.5</MaxSalePrice>
+<MaxSalePriceLabel>$32.50</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A classic in clean-cut cotton piqu&#xE9;, with repp-stripe detailing lining the neck and vents . Works with a jacket or out on the links. Add a monogram to make it your own. Original fit. Ribbed collar and cuffs. Short sleeves. Tonal repp-stripe detail at interior back neck and side vents. Tennis tail. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=560369&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e3/3c/e33c0c2d388b70f2dfb82f5d8ffb1165_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e3/3c/e33c0c2d388b70f2dfb82f5d8ffb1165_medium/jcrew-polos-tall-repp-pique-polo-in-original-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e3/3c/e33c0c2d388b70f2dfb82f5d8ffb1165/jcrew-polos-tall-repp-pique-polo-in-original-fit.jpg</Url>
+</Image>
+<Color>
+<Name>aztec brick</Name>
+</Color>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>dark navy</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>vintage apricot</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>dark wood</Name>
+</Color>
+<Color>
+<Name>berry wine</Name>
+</Color>
+<Size>
+<Name>TALL MEDIUM</Name>
+</Size>
+<Size>
+<Name>TALL LARGE</Name>
+</Size>
+<Size>
+<Name>X LARGE-TALL</Name>
+</Size>
+<Category>mens-polo-shirts</Category>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Polos</CategoryName>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Polos by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-polo-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2007-01-05</ExtractDate>
+</Product>
+<Product>
+<Id>279559</Id>
+<Name>Tall broken-in V-neck tee</Name>
+<Currency>USD</Currency>
+<Price>28.5</Price>
+<PriceLabel>$28.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The kind of tee you can't have enough of, in specially dyed cotton jersey that's heavily washed for softness and then garment-dyed to create deep tones and a vintage look. Original fit. V-neck. Rib trim at neck. Short sleeves. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279559&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/25/f0/25f065e456571fdeb77842d0c9934cd2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/25/f0/25f065e456571fdeb77842d0c9934cd2_medium/jcrew-polos-tall-brokenin-nopocket-vneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/25/f0/25f065e456571fdeb77842d0c9934cd2/jcrew-polos-tall-brokenin-nopocket-vneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>hthr chrome</Name>
+</Color>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Color>
+<Name>light maritime</Name>
+</Color>
+<Color>
+<Name>vintage sage</Name>
+</Color>
+<Size>
+<Name>TALL MEDIUM</Name>
+</Size>
+<Size>
+<Name>TALL LARGE</Name>
+</Size>
+<Size>
+<Name>X LARGE-TALL</Name>
+</Size>
+<Category>mens-polo-shirts</Category>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Polos</CategoryName>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Polos by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-polo-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279981</Id>
+<Name>Tall Secret Wash end-on-end shirt in waterfall</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The shirt every guy needs in his arsenal. Made of fine 100s two-ply cotton with a peached finish. Crisply tailored and exceptionally soft, thanks to our Secret Wash. Available in regular fit, tall and our newest slim fit a narrower version of our regular fit that's cut slimmer through the body. Button-down collar. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279981&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f7/06/f706cd1de5d72c58b22ed2b6543f8dbb_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f7/06/f706cd1de5d72c58b22ed2b6543f8dbb_medium/jcrew-dress-shirts-tall-secret-wash-buttondown-endonend-shirt-in-waterfall.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f7/06/f706cd1de5d72c58b22ed2b6543f8dbb/jcrew-dress-shirts-tall-secret-wash-buttondown-endonend-shirt-in-waterfall.jpg</Url>
+</Image>
+<Color>
+<Name>waterfall</Name>
+</Color>
+<Size>
+<Name>TALL MEDIUM</Name>
+</Size>
+<Size>
+<Name>TALL LARGE</Name>
+</Size>
+<Size>
+<Name>X LARGE-TALL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279255</Id>
+<Name>Secret Wash solid shirt</Name>
+<Currency>USD</Currency>
+<Price>64.5</Price>
+<PriceLabel>$64.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The shirt every guy needs in his arsenal. Made of fine 100s two-ply cotton with a peached finish. Crisply tailored and exceptionally soft, thanks to our Secret Wash. Available in regular fit, tall and our newest slim fit a narrower version of our regular fit that's cut slimmer through the body. Point collar. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279255&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f5/34/f534df6f86baebe9c2d4342d95c23fef_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f5/34/f534df6f86baebe9c2d4342d95c23fef_medium/jcrew-dress-shirts-secret-wash-pointcollar-solid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f5/34/f534df6f86baebe9c2d4342d95c23fef/jcrew-dress-shirts-secret-wash-pointcollar-solid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Size>
+<Name>X-SMALL</Name>
+</Size>
+<Size>
+<Name>SMALL</Name>
+</Size>
+<Size>
+<Name>MEDIUM</Name>
+</Size>
+<Size>
+<Name>LARGE</Name>
+</Size>
+<Size>
+<Name>X-LARGE</Name>
+</Size>
+<Size>
+<Name>XX-LARGE</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>1550409</Id>
+<Name>Tall broken-in long-sleeve tee</Name>
+<Currency>USD</Currency>
+<Price>33.5</Price>
+<PriceLabel>$33.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The kind of tee you can't have too many of, in specially dyed cotton jersey that's heavily washed for softness and then garment-dyed to create deep tones and a vintage look. Original fit. Crewneck. Rib trim at neck and cuffs. Long sleeves. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=1550409&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c9/cb/c9cb85af9aab183cbe58bdeeb49c8281_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c9/cb/c9cb85af9aab183cbe58bdeeb49c8281_medium/jcrew-longsleeve-shirts-tall-longsleeve-brokenin-nopocket-crewneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c9/cb/c9cb85af9aab183cbe58bdeeb49c8281/jcrew-longsleeve-shirts-tall-longsleeve-brokenin-nopocket-crewneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>hthr chrome</Name>
+</Color>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Color>
+<Name>light maritime</Name>
+</Color>
+<Color>
+<Name>vintage sage</Name>
+</Color>
+<Size>
+<Name>TALL MEDIUM</Name>
+</Size>
+<Size>
+<Name>TALL LARGE</Name>
+</Size>
+<Size>
+<Name>X LARGE-TALL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2007-03-05</ExtractDate>
+</Product>
+<Product>
+<Id>279411</Id>
+<Name>Tall broken-in long-sleeve pocket tee</Name>
+<Currency>USD</Currency>
+<Price>33.5</Price>
+<PriceLabel>$33.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The kind of tee you can't have too many of, in specially dyed cotton jersey that's heavily washed for softness and then garment-dyed to create deep tones and a vintage look. Original fit. Crewneck. Rib trim at neck and cuffs. Long sleeves. Chest pocket. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279411&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e8/d4/e8d4e12b29e8ae696092059e068ee537_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e8/d4/e8d4e12b29e8ae696092059e068ee537_medium/jcrew-longsleeve-shirts-tall-longsleeve-brokenin-pocket-crewneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e8/d4/e8d4e12b29e8ae696092059e068ee537/jcrew-longsleeve-shirts-tall-longsleeve-brokenin-pocket-crewneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>hthr chrome</Name>
+</Color>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Color>
+<Name>light maritime</Name>
+</Color>
+<Color>
+<Name>vintage sage</Name>
+</Color>
+<Size>
+<Name>TALL MEDIUM</Name>
+</Size>
+<Size>
+<Name>TALL LARGE</Name>
+</Size>
+<Size>
+<Name>X LARGE-TALL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<Category>mens-polo-shirts</Category>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<CategoryName>Polos</CategoryName>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279680</Id>
+<Name>Broken-in V-neck tee</Name>
+<Currency>USD</Currency>
+<Price>24.5</Price>
+<PriceLabel>$24.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The kind of tee you can't have too many of, in specially dyed cotton jersey that's heavily washed for softness and then garment-dyed to create deep tones and a vintage look. Original fit. V-neck. Rib trim at neck. Short sleeves. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279680&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/25/f0/25f065e456571fdeb77842d0c9934cd2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/25/f0/25f065e456571fdeb77842d0c9934cd2_medium/jcrew-tees-brokenin-nopocket-vneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/25/f0/25f065e456571fdeb77842d0c9934cd2/jcrew-tees-brokenin-nopocket-vneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>hthr chrome</Name>
+</Color>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Color>
+<Name>vintage sage</Name>
+</Color>
+<Color>
+<Name>light maritime</Name>
+</Color>
+<Size>
+<Name>X-SMALL</Name>
+</Size>
+<Size>
+<Name>SMALL</Name>
+</Size>
+<Size>
+<Name>MEDIUM</Name>
+</Size>
+<Size>
+<Name>LARGE</Name>
+</Size>
+<Size>
+<Name>X-LARGE</Name>
+</Size>
+<Size>
+<Name>XX-LARGE</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279911</Id>
+<Name>Tall Secret Wash solid shirt</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The shirt every guy needs in his arsenal. Made of fine 100s two-ply cotton with a peached finish. Crisply tailored and exceptionally soft, thanks to our Secret Wash. Available in regular fit, tall and our newest slim fit a narrower version of our regular fit that's cut slimmer through the body. Point collar. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279911&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f5/34/f534df6f86baebe9c2d4342d95c23fef_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f5/34/f534df6f86baebe9c2d4342d95c23fef_medium/jcrew-dress-shirts-tall-secret-wash-pointcollar-solid-shirt.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f5/34/f534df6f86baebe9c2d4342d95c23fef/jcrew-dress-shirts-tall-secret-wash-pointcollar-solid-shirt.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Size>
+<Name>TALL MEDIUM</Name>
+</Size>
+<Size>
+<Name>TALL LARGE</Name>
+</Size>
+<Size>
+<Name>X LARGE-TALL</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279549</Id>
+<Name>Broken-in long-sleeve tee</Name>
+<Currency>USD</Currency>
+<Price>29.5</Price>
+<PriceLabel>$29.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The kind of tee you can't have too many of, in specially dyed cotton jersey that's heavily washed for softness and then garment-dyed to create deep tones and a vintage look. Original fit. Crewneck. Rib trim at neck and cuffs. Long sleeves. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279549&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/fc/04/fc0498ed1690571ff9683c1323a06dd3_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/fc/04/fc0498ed1690571ff9683c1323a06dd3_medium/jcrew-longsleeve-shirts-longsleeve-brokenin-nopocket-crewneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/fc/04/fc0498ed1690571ff9683c1323a06dd3/jcrew-longsleeve-shirts-longsleeve-brokenin-nopocket-crewneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Color>
+<Name>hthr chrome</Name>
+</Color>
+<Color>
+<Name>light maritime</Name>
+</Color>
+<Color>
+<Name>vintage sage</Name>
+</Color>
+<Size>
+<Name>X-SMALL</Name>
+</Size>
+<Size>
+<Name>SMALL</Name>
+</Size>
+<Size>
+<Name>MEDIUM</Name>
+</Size>
+<Size>
+<Name>LARGE</Name>
+</Size>
+<Size>
+<Name>X-LARGE</Name>
+</Size>
+<Size>
+<Name>XX-LARGE</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>278779</Id>
+<Name>Tall broken-in tee</Name>
+<Currency>USD</Currency>
+<Price>28.5</Price>
+<PriceLabel>$28.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The kind of tee you can't have too many of, in specially dyed cotton jersey that's heavily washed for softness and then garment-dyed to create deep tones and a vintage look. Original fit. Crewneck. Rib trim at neck. Short sleeves. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=278779&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f9/cf/f9cfc105000fa9d7ed6a261a5ed3900c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f9/cf/f9cfc105000fa9d7ed6a261a5ed3900c_medium/jcrew-polos-tall-brokenin-nopocket-crewneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f9/cf/f9cfc105000fa9d7ed6a261a5ed3900c/jcrew-polos-tall-brokenin-nopocket-crewneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>hthr chrome</Name>
+</Color>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Color>
+<Name>light maritime</Name>
+</Color>
+<Color>
+<Name>vintage sage</Name>
+</Color>
+<Size>
+<Name>TALL MEDIUM</Name>
+</Size>
+<Size>
+<Name>TALL LARGE</Name>
+</Size>
+<Size>
+<Name>X LARGE-TALL</Name>
+</Size>
+<Category>mens-polo-shirts</Category>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Polos</CategoryName>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Polos by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-polo-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279092</Id>
+<Name>Broken-in tee</Name>
+<Currency>USD</Currency>
+<Price>24.5</Price>
+<PriceLabel>$24.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The kind of tee you can't have too many of, in specially dyed cotton jersey that's heavily washed for softness and then garment-dyed to create deep tones and a vintage look. Original fit. Crewneck. Rib trim at neck. Short sleeves. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279092&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d5/c5/d5c5c2ee6422b3306a85e84ff0391454_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d5/c5/d5c5c2ee6422b3306a85e84ff0391454_medium/jcrew-tees-brokenin-nopocket-crewneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d5/c5/d5c5c2ee6422b3306a85e84ff0391454/jcrew-tees-brokenin-nopocket-crewneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>hthr chrome</Name>
+</Color>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Color>
+<Name>light maritime</Name>
+</Color>
+<Color>
+<Name>vintage sage</Name>
+</Color>
+<Size>
+<Name>X-SMALL</Name>
+</Size>
+<Size>
+<Name>SMALL</Name>
+</Size>
+<Size>
+<Name>MEDIUM</Name>
+</Size>
+<Size>
+<Name>LARGE</Name>
+</Size>
+<Size>
+<Name>X-LARGE</Name>
+</Size>
+<Size>
+<Name>XX-LARGE</Name>
+</Size>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Tees by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-tees-and-tshirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>560390</Id>
+<Name>Repp piqu&#xE9; polo</Name>
+<Currency>USD</Currency>
+<Price>39.5</Price>
+<PriceLabel>$39.50</PriceLabel>
+<SalePrice>19.99</SalePrice>
+<SalePriceLabel>$19.99</SalePriceLabel>
+<MaxSalePrice>29.5</MaxSalePrice>
+<MaxSalePriceLabel>$29.50</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A classic in clean-cut cotton piqu&#xE9;, with repp-stripe detailing lining the neck and vents. Works with a jacket or out on the links. Add a monogram to make it your own. Original fit. Ribbed collar and cuffs. Short sleeves. Tonal repp-stripe detail at interior back neck and side vents. Tennis tail. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=560390&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/73/5c/735c25c6ad0d16c7b9486127473bb021_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/73/5c/735c25c6ad0d16c7b9486127473bb021_medium/jcrew-shortsleeve-shirts-repp-pique-polo-in-original-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/73/5c/735c25c6ad0d16c7b9486127473bb021/jcrew-shortsleeve-shirts-repp-pique-polo-in-original-fit.jpg</Url>
+</Image>
+<Color>
+<Name>welsh purple</Name>
+</Color>
+<Color>
+<Name>aztec brick</Name>
+</Color>
+<Color>
+<Name>sail blue</Name>
+</Color>
+<Color>
+<Name>sound blue</Name>
+</Color>
+<Color>
+<Name>surf blue</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>dark wood</Name>
+</Color>
+<Color>
+<Name>berry wine</Name>
+</Color>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>dark navy</Name>
+</Color>
+<Color>
+<Name>vintage apricot</Name>
+</Color>
+<Color>
+<Name>fresh sage</Name>
+</Color>
+<Size>
+<Name>X-SMALL</Name>
+</Size>
+<Size>
+<Name>SMALL</Name>
+</Size>
+<Size>
+<Name>MEDIUM</Name>
+</Size>
+<Size>
+<Name>LARGE</Name>
+</Size>
+<Size>
+<Name>X-LARGE</Name>
+</Size>
+<Size>
+<Name>XX-LARGE</Name>
+</Size>
+<Category>mens-shortsleeve-shirts</Category>
+<Category>mens-polo-shirts</Category>
+<CategoryName>Shortsleeve Shirts</CategoryName>
+<CategoryName>Polos</CategoryName>
+<SeeMoreLabel>Shortsleeve Shirts by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-shortsleeve-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2007-01-05</ExtractDate>
+</Product>
+<Product>
+<Id>279627</Id>
+<Name>Tall broken-in pocket tee</Name>
+<Currency>USD</Currency>
+<Price>28.5</Price>
+<PriceLabel>$28.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The kind of tee you can't have too many of, in specially dyed cotton jersey that's heavily washed for softness and then garment-dyed to create deep tones and a vintage look. Original fit. Crewneck. Rib trim at neck. Short sleeves. Chest pocket. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279627&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7a/e6/7ae67d35708a5e1ffdc4a9c6ee4e956a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7a/e6/7ae67d35708a5e1ffdc4a9c6ee4e956a_medium/jcrew-polos-tall-brokenin-pocket-crewneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7a/e6/7ae67d35708a5e1ffdc4a9c6ee4e956a/jcrew-polos-tall-brokenin-pocket-crewneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>hthr chrome</Name>
+</Color>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Color>
+<Name>light maritime</Name>
+</Color>
+<Color>
+<Name>vintage sage</Name>
+</Color>
+<Size>
+<Name>TALL MEDIUM</Name>
+</Size>
+<Size>
+<Name>TALL LARGE</Name>
+</Size>
+<Size>
+<Name>X LARGE-TALL</Name>
+</Size>
+<Category>mens-polo-shirts</Category>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Polos</CategoryName>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Polos by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-polo-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279690</Id>
+<Name>Broken-in long-sleeve pocket tee</Name>
+<Currency>USD</Currency>
+<Price>29.5</Price>
+<PriceLabel>$29.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The kind of tee you can't have too many of, in specially dyed cotton jersey that's heavily washed for softness and then garment-dyed to create deep tones and a vintage look. Original fit. Crewneck. Rib trim at neck and cuffs. Long sleeves. Chest pocket. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279690&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7a/d8/7ad8012c9c4f0bc170dc58a57029b1be_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7a/d8/7ad8012c9c4f0bc170dc58a57029b1be_medium/jcrew-longsleeve-shirts-longsleeve-brokenin-pocket-crewneck-tee.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7a/d8/7ad8012c9c4f0bc170dc58a57029b1be/jcrew-longsleeve-shirts-longsleeve-brokenin-pocket-crewneck-tee.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>chalkboard</Name>
+</Color>
+<Color>
+<Name>hthr chrome</Name>
+</Color>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Color>
+<Name>light maritime</Name>
+</Color>
+<Color>
+<Name>vintage sage</Name>
+</Color>
+<Size>
+<Name>X-SMALL</Name>
+</Size>
+<Size>
+<Name>SMALL</Name>
+</Size>
+<Size>
+<Name>MEDIUM</Name>
+</Size>
+<Size>
+<Name>LARGE</Name>
+</Size>
+<Size>
+<Name>X-LARGE</Name>
+</Size>
+<Size>
+<Name>XX-LARGE</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<Category>mens-tees-and-tshirts</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<CategoryName>Tees</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+</SearchResult>

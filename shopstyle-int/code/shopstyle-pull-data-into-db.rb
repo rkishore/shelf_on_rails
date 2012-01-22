@@ -118,14 +118,16 @@ def parse_product_info(filename, brand, category, time, dbpath)
   # In table names, find one that includes "items" substring and capitalize!
   table_a = ActiveRecord::Base.connection.tables
   table_a.each do |l|
-    if (l.index('items') != nil) 
+    if (l.index('_items') != nil) 
       item_cl_name_str = l.capitalize!
     end
-    if (l.index('brands') != nil) 
+    if (l.index('_brands') != nil) 
       brand_cl_name_str = l.capitalize!
     end
   end
-
+  
+  print "Inserting into table: " + item_cl_name_str + "with info from " + brand_cl_name_str + "\n"
+  
   item_cl_name = Object.const_set(item_cl_name_str, Class.new(ActiveRecord::Base))
   brand_cl_name = Object.const_set(brand_cl_name_str, Class.new(ActiveRecord::Base))
 
