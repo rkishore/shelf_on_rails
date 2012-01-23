@@ -1,0 +1,64 @@
+[23/Jan/2012 11:39:23] "GET /home HTTP/1.1" 200 2983
+[23/Jan/2012 11:39:23] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 11:39:26] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7974
+[23/Jan/2012 11:39:26] "GET /mymedia/css/view_shelf.css HTTP/1.1" 200 1364
+[23/Jan/2012 11:39:29] "GET /viewyourshelf_cat/?u=1 HTTP/1.1" 200 5777
+[23/Jan/2012 11:39:32] "GET /home/ HTTP/1.1" 200 2983
+[23/Jan/2012 11:39:34] "GET /statsplot/ HTTP/1.1" 200 6477
+[23/Jan/2012 11:40:05] "GET /statsplot/ HTTP/1.1" 200 6477
+[23/Jan/2012 11:40:06] "GET /home/ HTTP/1.1" 200 2983
+[23/Jan/2012 11:40:08] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7974
+[23/Jan/2012 11:40:10] "GET /home/ HTTP/1.1" 200 2983
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.104:8000/
+Quit the server with CONTROL-C.
+Hello
+Express
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>]}
+J.Crew
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>], 'J.Crew': [<WishlistI: 1 61400 Lilabeth dress in silk taffeta>, <WishlistI: 1 58202 Broken-in henley in slim fit>, <WishlistI: 1 47356 Secret Wash button-down shirt in small gingham>, <WishlistI: 1 20816 Boys' solid fleece sweatpant>, <WishlistI: 1 54524 Boys' baseball sweatshirt>, <WishlistI: 1 48703 Utility fleece zip hoodie>, <WishlistI: 1 44448 Bowery wool in classic fit>, <WishlistI: 1 54217 Wallace & Barnes camp shirt in Sail Rock plaid>, <WishlistI: 1 61408 Bright-stripe tie>]}
+LOST: bowery wool in classic fit
+{'Tie': [<WishlistI: 1 61408 Bright-stripe tie>], 'Sweater': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>, <WishlistI: 1 48703 Utility fleece zip hoodie>], 'Dress': [<WishlistI: 1 61400 Lilabeth dress in silk taffeta>], 'Shirt': [<WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 58202 Broken-in henley in slim fit>, <WishlistI: 1 47356 Secret Wash button-down shirt in small gingham>, <WishlistI: 1 54524 Boys' baseball sweatshirt>, <WishlistI: 1 54217 Wallace & Barnes camp shirt in Sail Rock plaid>], 'Pant': [<WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 20816 Boys' solid fleece sweatpant>]}
+Hello
+Express
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>]}
+J.Crew
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>], 'J.Crew': [<WishlistI: 1 61400 Lilabeth dress in silk taffeta>, <WishlistI: 1 58202 Broken-in henley in slim fit>, <WishlistI: 1 47356 Secret Wash button-down shirt in small gingham>, <WishlistI: 1 20816 Boys' solid fleece sweatpant>, <WishlistI: 1 54524 Boys' baseball sweatshirt>, <WishlistI: 1 48703 Utility fleece zip hoodie>, <WishlistI: 1 44448 Bowery wool in classic fit>, <WishlistI: 1 54217 Wallace & Barnes camp shirt in Sail Rock plaid>, <WishlistI: 1 61408 Bright-stripe tie>]}
+Hello
+Express
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>]}
+J.Crew
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>], 'J.Crew': [<Wishlis[23/Jan/2012 11:40:12] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7974
+[23/Jan/2012 11:40:14] "GET /viewyourshelf_cat/?u=1 HTTP/1.1" 200 5777
+[23/Jan/2012 11:40:17] "GET /home/ HTTP/1.1" 200 2983
+[23/Jan/2012 11:42:31] "GET /home/ HTTP/1.1" 200 2983
+[23/Jan/2012 11:42:31] "GET /mymedia/css/site_base.css HTTP/1.1" 200 1690
+[23/Jan/2012 11:43:32] "GET /home/ HTTP/1.1" 200 2957
+[23/Jan/2012 11:43:33] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 11:47:15] "GET /home/ HTTP/1.1" 200 2957
+[23/Jan/2012 11:47:15] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 11:47:21] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7979
+[23/Jan/2012 11:47:21] "GET /mymedia/css/view_shelf.css HTTP/1.1" 200 1364
+[23/Jan/2012 11:47:24] "GET /statsplot/ HTTP/1.1" 200 6488
+[23/Jan/2012 11:47:28] "GET /home/ HTTP/1.1" 200 2957
+[23/Jan/2012 11:47:30] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7979
+[23/Jan/2012 11:47:32] "GET /statsplot/ HTTP/1.1" 200 6488
+[23/Jan/2012 11:49:05] "GET /statsplot/ HTTP/1.1" 200 6528
+[23/Jan/2012 11:49:05] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 11:49:39] "GET /statsplot/ HTTP/1.1" 200 6535
+[23/Jan/2012 11:49:40] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 11:49:54] "GET /statsplot/ HTTP/1.1" 200 6517
+[23/Jan/2012 11:49:54] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 11:51:50] "GET /statsplot/ HTTP/1.1" 200 6486
+[23/Jan/2012 11:51:50] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 11:52:33] "GET /statsplot/ HTTP/1.1" 200 6490
+[23/Jan/2012 11:52:33] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 11:53:06] "GET /statsplot/ HTTP/1.1" 200 6465
+[23/Jan/2012 11:53:06] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 11:53:30] "GET /statsplot/ HTTP/1.1" 200 6465
+[23/Jan/2012 11:53:30] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 11:53:44] "GET /statsplot/ HTTP/1.1" 200 6480
+[23/Jan/2012 11:53:44] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
