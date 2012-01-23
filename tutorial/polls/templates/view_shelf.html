@@ -21,18 +21,18 @@
 		</header>
 		<nav>
 			<ul>
-				<li><a class="nav" href="http://shopelfify.com:8000/viewyourshelf/?u={{uid}}">View Shelfs</a></li>
-				<li><a class="nav" href="http://shopelfify.com:8000/apply_promo/?u={{uid}}">View Pricing Info</a></li>
-				<li><a class="nav" href="http://shopelfify.com:8000/statsplot/">Did you know?</a></li>
-				<li><a class="nav" href="http://shopelfify.com:8000/home/">Home</a></li>
+				<li><a class="nav" href="/viewyourshelf/?u={{uid}}">View Shelfs</a></li>
+				<li><a class="nav" href="/apply_promo/?u={{uid}}">View Pricing Info</a></li>
+				<li><a class="nav" href="/statsplot/">Did you know?</a></li>
+				<li><a class="nav" href="/home/">Home</a></li>
 			</ul>
 		</nav>
 			<div class="welcome">You have {{shelfs|length}} shelve{{shelfs|pluralize}},
 				{% if store_based%}
-				based on stores. Click <a href="http://shopelfify.com:8000/viewyourshelf_cat/?u={{uid}}">here</a> to see category-based organization.
+				based on stores. Click <a href="/viewyourshelf_cat/?u={{uid}}">here</a> to see category-based organization.
 				{% endif %}
 				{% if category_based %}
-				based on categories. Click <a href="http://shopelfify.com:8000/viewyourshelf/?u={{uid}}">here</a> to see store-based categorization.
+				based on categories. Click <a href="/viewyourshelf/?u={{uid}}">here</a> to see store-based categorization.
 				{% endif %}
 			</div>
     		{% for store_name, items in shelfs.items %}
