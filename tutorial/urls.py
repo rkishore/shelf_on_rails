@@ -63,4 +63,5 @@ urlpatterns = patterns('',
     (r'^statsup/$', 'polls.views.stats_update_db'),
     (r'^statsplot/$', 'polls.views.stats_plot_from_db'),
     (r'^mymedia/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+    (r'^display_meta/$', 'polls.views.display_meta'),
 )

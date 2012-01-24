@@ -3,7 +3,7 @@ import datetime, urllib
 from django.views.generic import list_detail
 from django.shortcuts import render_to_response
 from django import forms
-from polls.models import Promoinfo, Items, Brands, Categories, ProductModel, CategoryModel, ColorSizeModel, WishlistM, WishlistI
+from polls.models import Promoinfo, Items, Brands, Categories, ProductModel, CategoryModel, ColorSizeModel, WishlistM, WishlistI, UserIdMap
 from django.db.models import Avg, Max, Min, Count
 import match
 import promotion
@@ -60,7 +60,8 @@ def find_shelf_store_based_for_user(userid):
     for brand_name in stores:
         selected_items[int(userid)] = []
         itemlist = []
-        final_list = WishlistI.objects.filter(user_id=userid)
+        u = UserIdMap.objects.get(user_id=userid)
+        final_list = WishlistI.objects.filter(user_id=u)
         for wi in final_list:
             if wi.item.brand.name == brand_name:
                 catlist = CategoryModel.objects.filter(product=wi.item)
@@ -179,7 +180,8 @@ def yourshelf_store_based(request, d1, d2):
             print s
             selected_items[int(userid)] = []
             itemlist = []
-            final_list = WishlistI.objects.filter(user_id=userid)
+            u = UserIdMap.objects.get(user_id=userid)
+            final_list = WishlistI.objects.filter(user_id=u)
             br_list = WishlistI.objects.none()
             for wi in final_list:
                 if wi.item.brand.name == brand_name:
@@ -228,7 +230,8 @@ def yourshelf_category_based(request, d1, d2):
         # Get Info brand-wise
         selected_items[int(userid)] = []
         itemlist = []
-        final_list = WishlistI.objects.filter(user_id=userid)
+        u = UserIdMap.objects.get(user_id=userid)
+        final_list = WishlistI.objects.filter(user_id=u)
         br_list1 = WishlistI.objects.none()
         br_list2 = WishlistI.objects.none()
         k=0
