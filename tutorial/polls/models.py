@@ -315,12 +315,20 @@ class CategoryModel(models.Model):
     def __unicode__(self):
         return u'%s: %d %s %s' % (self.product.brand.name, self.product.idx, self.product.name, self.categoryName)
         
-class WishlistI(models.Model):
+class UserIdMap(models.Model):
+    ip_addr = models.CharField(max_length=50, default='-11.11.11.11')
     user_id = models.IntegerField(max_length=50, default='-1111')
+    
+    def __unicode__(self):
+        return u'%s %d' % (str(self.ip_addr), int(self.user_id))
+    
+class WishlistI(models.Model):
+    #user_id = models.IntegerField(max_length=50, default='-1111')
+    user_id = models.ForeignKey(UserIdMap, default='Nil')
     item = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil')
     
     def __unicode__(self):
-        return u'%d %d %s' % (int(self.user_id), int(self.item.idx), str(self.item.name))
+        return u'%d %d %s' % (int(self.user_id.user_id), int(self.item.idx), str(self.item.name))
     
 class WishlistM(models.Model):
     #user_id = models.IntegerField(max_length=50, default='-1111')
