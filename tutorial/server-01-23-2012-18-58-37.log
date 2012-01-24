@@ -1,0 +1,138 @@
+[23/Jan/2012 17:58:45] "GET /home HTTP/1.1" 200 2957
+[23/Jan/2012 17:58:46] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 17:59:32] "GET /shelfit?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome&t=1 HTTP/1.1" 301 0
+[23/Jan/2012 17:59:32] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome&t=1 HTTP/1.1" 200 297
+[23/Jan/2012 17:59:41] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7979
+[23/Jan/2012 17:59:42] "GET /mymedia/css/view_shelf.css HTTP/1.1" 304 0
+[23/Jan/2012 17:59:46] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7979
+[23/Jan/2012 17:59:47] "GET /home/ HTTP/1.1" 200 2957
+[23/Jan/2012 17:59:52] "GET /statsplot/ HTTP/1.1" 200 6480
+[23/Jan/2012 17:59:55] "GET /home/ HTTP/1.1" 200 2957
+[23/Jan/2012 18:00:52] "GET /home HTTP/1.1" 200 2957
+[23/Jan/2012 18:00:52] "GET /mymedia/css/site_base.css HTTP/1.1" 200 1690
+[23/Jan/2012 18:01:08] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7979
+[23/Jan/2012 18:01:08] "GET /mymedia/css/view_shelf.css HTTP/1.1" 200 1364
+[23/Jan/2012 18:01:11] "GET /statsplot/ HTTP/1.1" 200 6480
+[23/Jan/2012 18:01:17] "GET /statsplot/ HTTP/1.1" 200 6480
+[23/Jan/2012 18:01:19] "GET /home/ HTTP/1.1" 200 2957
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.104:8000/
+Quit the server with CONTROL-C.
+[]
+Hello
+Express
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>]}
+J.Crew
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>], 'J.Crew': [<WishlistI: 1 61400 Lilabeth dress in silk taffeta>, <WishlistI: 1 58202 Broken-in henley in slim fit>, <WishlistI: 1 47356 Secret Wash button-down shirt in small gingham>, <WishlistI: 1 20816 Boys' solid fleece sweatpant>, <WishlistI: 1 54524 Boys' baseball sweatshirt>, <WishlistI: 1 48703 Utility fleece zip hoodie>, <WishlistI: 1 44448 Bowery wool in classic fit>, <WishlistI: 1 54217 Wallace & Barnes camp shirt in Sail Rock plaid>, <WishlistI: 1 61408 Bright-stripe tie>]}
+Hello
+Express
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>]}
+J.Crew
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>], 'J.Crew': [<WishlistI: 1 61400 Lilabeth dress in silk taffeta>, <WishlistI: 1 58202 Broken-in henley in slim fit>, <WishlistI: 1 47356 Secret Wash button-down shirt in small gingham>, <WishlistI: 1 20816 Boys' solid fleece sweatpant>, <WishlistI: 1 54524 Boys' baseball sweatshirt>, <WishlistI: 1 48703 Utility fleece zip hoodie>, <WishlistI: 1 44448 Bowery wool in classic fit>, <WishlistI: 1 54217 Wallace & Barnes camp shirt in Sail Rock plaid>, <WishlistI: 1 61408 Bright-stripe tie>]}
+Hello
+Express
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>]}
+J.Crew
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>], 'J.Crew': [<WishlistI: 1 61400 Lilabeth dress in silk taffeta>, <WishlistI: 1 58202 Broken-in henley in slim fit>, <WishlistI: 1 47356 Secret Wash button-down shirt in small gingham>, <WishlistI: 1 20816 Boys' solid fleece sweatpant>, <WishlistI: 1 54524 Boys' baseball sweatshirt>, <WishlistI: 1 48703 Utility fleece zip hoodie>, <WishlistI: 1 44448 Bowery wool in classic fit>, <WishlistI: 1 54217 Wallace & Barnes camp shirt in Sail Rock plaid>, <WishlistI: 1 61408 Bright-stripe tie>]}
+Hello
+Express
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>]}
+J.Crew
+{'Expres[23/Jan/2012 18:01:21] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7979
+[23/Jan/2012 18:01:25] "GET /viewyourshelf_cat/?u=1 HTTP/1.1" 200 5782
+[23/Jan/2012 18:01:32] "GET /statsplot/ HTTP/1.1" 200 6480
+[23/Jan/2012 18:01:36] "GET /home/ HTTP/1.1" 200 2957
+[23/Jan/2012 18:01:40] "GET /shelfit?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome%2F&t=1 HTTP/1.1" 301 0
+[23/Jan/2012 18:01:40] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome%2F&t=1 HTTP/1.1" 200 297
+[23/Jan/2012 18:01:46] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7979
+[23/Jan/2012 18:02:11] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome%2F&t=1 HTTP/1.1" 200 297
+[23/Jan/2012 18:04:25] "GET /home HTTP/1.1" 200 2957
+[23/Jan/2012 18:04:25] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 18:04:31] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 7979
+[23/Jan/2012 18:04:31] "GET /mymedia/css/view_shelf.css HTTP/1.1" 200 1364
+[23/Jan/2012 18:04:33] "GET /shelfit?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome&t=1 HTTP/1.1" 301 0
+[23/Jan/2012 18:04:33] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome&t=1 HTTP/1.1" 200 297
+[23/Jan/2012 18:06:06] "GET /shelfit?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome%2F&t=1 HTTP/1.1" 301 0
+[23/Jan/2012 18:06:06] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome%2F&t=1 HTTP/1.1" 200 297
+[23/Jan/2012 18:06:54] "GET /home/ HTTP/1.1" 200 2957
+[23/Jan/2012 18:06:56] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome%2F&t=1 HTTP/1.1" 200 297
+[23/Jan/2012 18:07:02] "GET /home/ HTTP/1.1" 200 2957
+[23/Jan/2012 18:07:03] "GET /home/ HTTP/1.1" 200 2957
+[23/Jan/2012 18:07:12] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome%2F&t=1 HTTP/1.1" 200 297
+[23/Jan/2012 18:07:59] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome%2F&t=1 HTTP/1.1" 200 297
+[23/Jan/2012 18:20:32] "GET /home/ HTTP/1.1" 200 2957
+[23/Jan/2012 18:20:33] "GET /mymedia/css/site_base.css HTTP/1.1" 200 1690
+[23/Jan/2012 18:20:34] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome%2F&t=1 HTTP/1.1" 200 297
+[23/Jan/2012 18:27:24] "GET http://www.intute.us/pr.php HTTP/1.1" 404 1735
+s': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>], 'J.Crew': [<WishlistI: 1 61400 Lilabeth dress in silk taffeta>, <WishlistI: 1 58202 Broken-in henley in slim fit>, <WishlistI: 1 47356 Secret Wash button-down shirt in small gingham>, <WishlistI: 1 20816 Boys' solid fleece sweatpant>, <WishlistI: 1 54524 Boys' baseball sweatshirt>, <WishlistI: 1 48703 Utility fleece zip hoodie>, <WishlistI: 1 44448 Bowery wool in classic fit>, <WishlistI: 1 54217 Wallace & Barnes camp shirt in Sail Rock plaid>, <WishlistI: 1 61408 Bright-stripe tie>]}
+LOST: bowery wool in classic fit
+{'Tie': [<WishlistI: 1 61408 Bright-stripe tie>], 'Sweater': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>, <WishlistI: 1 48703 Utility fleece zip hoodie>], 'Dress': [<WishlistI: 1 61400 Lilabeth dress in silk taffeta>], 'Shirt': [<WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 58202 Broken-in henley in slim fit>, <WishlistI: 1 47356 Secret Wash button-down shirt in small gingham>, <WishlistI: 1 54524 Boys' baseball sweatshirt>, <WishlistI: 1 54217 Wallace & Barnes camp shirt in Sail Rock plaid>], 'Pant': [<WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 20816 Boys' solid fleece sweatpant>]}
+[]
+[]
+Hello
+Express
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>]}
+J.Crew
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>], 'J.Crew': [<WishlistI: 1 61400 Lilabeth dress in silk taffeta>, <WishlistI: 1 58202 Broken-in henley in slim fit>, <WishlistI: 1 47356 Secret Wash button-down shirt in small gingham>, <WishlistI: 1 20816 Boys' solid fleece sweatpant>, <WishlistI: 1 54524 Boys' baseball sweatshirt>, <WishlistI: 1 48703 Utility fleece zip hoodie>, <WishlistI: 1 44448 Bowery wool in classic fit>, <WishlistI: 1 54217 Wallace & Barnes camp shirt in Sail Rock plaid>, <WishlistI: 1 61408 Bright-stripe tie>]}
+[]
+[]
+Hello
+Express
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>]}
+J.Crew
+{'Express': [<WishlistI: 1 45500 STRIPED SHAKER-KNIT DOLMAN SWEATER>, <WishlistI: 1 38708 ITALIAN MERINO WOOL V-NECK SWEATER>, <WishlistI: 1 39165 STRETCH COTTON PHOTOGRAPHER PANT>, <WishlistI: 1 38355 FLEECE ZIP-UP HOODIE>, <WishlistI: 1 43557 GRAPHIC TEE - DOUBLE LAYER EXPRESS LOGO>, <WishlistI: 1 42962 ARMBAND STRIPES CARDIGAN>], 'J.Crew': [<WishlistI: 1 61400 Lilabeth dress in silk taffeta>, <WishlistI: 1 58202 Broken-in henley in slim fit>, <WishlistI: 1 47356 Secret Wash button-down shirt in small gingham>, <WishlistI: 1 20816 Boys' solid fleece sweatpant>, <WishlistI: 1 54524 Boys' baseball sweatshirt>, <WishlistI: 1 48703 Utility fleece zip hoodie>, <WishlistI: 1 44448 Bowery wool in classic fit>, <WishlistI: 1 54217 Wallace & Barnes camp shirt in Sail Rock plaid>, <WishlistI: 1 61408 Bright-stripe tie>]}
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+[]
+----------------------------------Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 562, in __init__
+    BaseHTTPRequestHandler.__init__(self, *args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 639, in __init__
+    self.handle()
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 602, in handle
+    self.raw_requestline = self.rfile.readline()
+  File "/usr/lib/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 562, in __init__
+    BaseHTTPRequestHandler.__init__(self, *args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 639, in __init__
+    self.handle()
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 602, in handle
+    self.raw_requestline = self.rfile.readline()
+  File "/usr/lib/python2.7/socket.py", line 447, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+[23/Jan/2012 18:37:52] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fhome%2F&t=1 HTTP/1.1" 200 297
+------
+Exception happened during processing of request from ('221.1.220.149', 2035)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('221.1.220.149', 3502)
+----------------------------------------
+[]
+[]
