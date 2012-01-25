@@ -267,8 +267,11 @@ def stats_plot_from_db(request):
         print ipaddr_csv
         ipaddr = ipaddr_csv.split(',')[0]
         uid_obj = UserIdMap.objects.filter(ip_addr=ipaddr)
+        print uid_obj
         if (uid_obj):
             userid = uid_obj[0].user_id
+
+    print userid
 
     price_select_metrics = {'average': 0, 'max': 1, 'min': 2, 'median': 3, 'q75': 4, 'q25': 5}
     
@@ -783,7 +786,8 @@ def shelfit(request, d1, d2):
                     wishlist_id_ = 112
                     selected_items[int(wishlist_id_)] = []
                     itemlist = []
-                    final_list = WishlistI.objects.filter(item=prod_arr[0])
+                    uid_obj = UserIdMap.objects.get(user_id=userid)
+                    final_list = WishlistI.objects.filter(item=prod_arr[0]).filter(user_id=uid_obj)
                     for wi in final_list:
                         catlist = CategoryModel.objects.filter(product=wi)
                         if catlist:
@@ -1169,6 +1173,7 @@ def display_meta(request):
 
 def home(request):
     global highest_user_id
+    
     try:
         ipaddr_csv = request.META['REMOTE_ADDR']    
     except KeyError:
@@ -1181,12 +1186,13 @@ def home(request):
         if (uid_obj):
             userid = uid_obj[0].user_id
         else:
+            uid_all = UserIdMap.objects.all()
             uid_new = UserIdMap()
             uid_new.ip_addr = ipaddr
+            highest_user_id = len(uid_all) + 1
             uid_new.user_id = highest_user_id # this should be randomly generated integer for security but need to ensure uniqueness first
             uid_new.save()
             userid = uid_new.user_id
-            highest_user_id += 1
             
     return render_to_response('home.html', {'uid':userid})    
 

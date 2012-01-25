@@ -1,0 +1,12 @@
+[23/Jan/2012 18:48:30] "GET /home/ HTTP/1.1" 200 3775
+[23/Jan/2012 18:48:30] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[23/Jan/2012 18:48:48] "GET /viewyourshelf/?u=1 HTTP/1.1" 500 70457
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.104:8000/
+Quit the server with CONTROL-C.
+192.168.1.1
+Hello
+Express
