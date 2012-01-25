@@ -328,7 +328,7 @@ class WishlistI(models.Model):
     item = models.ForeignKey(ProductModel, blank=True, null=True, default='Nil')
     
     def __unicode__(self):
-        return u'%d %d %s' % (int(self.user_id.user_id), int(self.item.idx), str(self.item.name))
+        return '%d %d %s' % (int(self.user_id.user_id), int(self.item.idx), str(self.item.name))
     
 class WishlistM(models.Model):
     #user_id = models.IntegerField(max_length=50, default='-1111')

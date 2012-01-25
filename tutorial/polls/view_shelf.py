@@ -32,6 +32,7 @@ GENDER_CHOICES = (
 
 ### Testing ####
 selected_items_id_list[112] = []
+
 ######## Visualization Sample Code #############
 import gviz_api
 from django.db.models import F
