@@ -1,0 +1,1516 @@
+[25/Jan/2012 13:27:48] "GET /home HTTP/1.1" 200 3777
+[25/Jan/2012 13:28:29] "GET /home HTTP/1.1" 200 3777
+[25/Jan/2012 13:28:33] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 2930
+[25/Jan/2012 13:28:43] "GET /apply_promo/?u=3 HTTP/1.1" 200 3645
+[25/Jan/2012 13:28:45] "GET /statsplot/ HTTP/1.1" 200 6482
+[25/Jan/2012 13:28:46] "GET /home/ HTTP/1.1" 200 3777
+[25/Jan/2012 13:28:48] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 2930
+[25/Jan/2012 13:29:19] "GET /shelfit?u=http%3A%2F%2Fwww.express.com%2Fstretch-cotton-agent-pant-25833-611%2Fcontrol%2Fshow%2F3%2Findex.pro&t=3 HTTP/1.1" 301 0
+[25/Jan/2012 13:29:19] "GET /shelfit/?u=http%3A%2F%2Fwww.express.com%2Fstretch-cotton-agent-pant-25833-611%2Fcontrol%2Fshow%2F3%2Findex.pro&t=3 HTTP/1.1" 200 2121
+[25/Jan/2012 13:29:23] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 13:29:31] "GET /shelfit/?u=http%3A%2F%2Fwww.express.com%2Fstretch-cotton-agent-pant-25833-611%2Fcontrol%2Fshow%2F3%2Findex.pro&t=3 HTTP/1.1" 200 2123
+[25/Jan/2012 13:29:36] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+192.168.1.1
+192.168.1.1
+Hello
+Express
+{}
+J.Crew
+{'Express': [], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+Apply_promo: We have 0 items in Express shelf.
+Total combination: 0
+Apply_promo: We have 3 items in J.Crew shelf.
+Total combination: 7
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 1 J.Crew 79.5 79.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 2 J.Crew 78.0 78.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 3 J.Crew 157.5 157.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 4 J.Crew 65.0 65.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 5 J.Crew 144.5 144.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 6 J.Crew 143.0 143.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 7 J.Crew 222.5 222.5 0.0
+192.168.1.1
+[<UserIdMap: 192.168.1.1 3>]
+3
+192.168.1.1
+Hello
+Express
+{}
+J.Crew
+{'Express': [], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+3
+[u'stretch', u'cotton', u'agent', u'pant', u'25833', u'611']
+3 25833
+Hello
+Express
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+3
+[u'stretch', u'cotton', u'agent', u'pant', u'25833', u'611']
+3 25833
+Hello
+Express
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+Hello
+Express
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Co[25/Jan/2012 13:31:52] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 13:31:54] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 13:31:56] "GET /apply_promo/?u=3 HTTP/1.1" 200 3749
+[25/Jan/2012 13:31:57] "GET /statsplot/ HTTP/1.1" 200 6482
+[25/Jan/2012 13:31:58] "GET /home/ HTTP/1.1" 200 3777
+[25/Jan/2012 13:33:33] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 13:33:35] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 1966
+[25/Jan/2012 13:33:36] "GET /apply_promo/?u=1 HTTP/1.1" 200 2909
+[25/Jan/2012 13:33:42] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 1966
+[25/Jan/2012 13:33:43] "GET /apply_promo/?u=1 HTTP/1.1" 200 2909
+[25/Jan/2012 13:33:45] "GET /statsplot/ HTTP/1.1" 200 6482
+[25/Jan/2012 13:33:46] "GET /home/ HTTP/1.1" 200 3777
+[25/Jan/2012 13:33:51] "GET /statsplot/ HTTP/1.1" 200 6482
+tton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+Hello
+Express
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+Apply_promo: We have 1 items in Express shelf.
+Total combination: 1
+{'category': 'Pants & Shorts', 'name': 'STRETCH COTTON AGENT PANT', 'price': 69.9, 'item_idx': 25833, 'sale_price': 69.9, 'store': 'Express'}
+No, didn't find result for list 1 in cache, so storing it
+RESULT:: 1 Express 69.9 69.9 0.0
+Apply_promo: We have 3 items in J.Crew shelf.
+Total combination: 7
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 1 J.Crew 79.5 79.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 2 J.Crew 78.0 78.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 3 J.Crew 157.5 157.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 4 J.Crew 65.0 65.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 5 J.Crew 144.5 144.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 6 J.Crew 143.0 143.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 7 J.Crew 222.5 222.5 0.0
+192.168.1.1
+[<UserIdMap: 192.168.1.1 3>]
+3
+192.168.1.1
+Hello
+Express
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+Hello
+Express
+{}
+J.Crew
+{'Express': [], 'J.Crew': []}
+Apply_promo: We have 0 items in Express shelf.
+Total combination: 0
+Apply_promo: We have 0 items in J.Crew shelf.
+Total combination: 0
+Hello
+Express
+{}
+J.Crew
+{'Express': [], 'J.Crew': []}
+Apply_promo: We have 0 items in Express shelf.
+Total combination: 0
+Apply_promo: We have 0 items in J.Crew shelf.
+Total combination: 0
+192.168.1.1
+[<UserIdMap: 192.168.1.1 3>]
+3
+192.168.1.1
+192.168.1.1
+[<UserIdMap: 192.168.1.1 3>]
+3
+Hello
+Express
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172[25/Jan/2012 13:33:59] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 13:34:02] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 1966
+[25/Jan/2012 13:34:15] "GET /apply_promo/?u=1 HTTP/1.1" 200 2909
+[25/Jan/2012 13:34:18] "GET /statsplot/ HTTP/1.1" 200 6482
+[25/Jan/2012 13:34:21] "GET /home/ HTTP/1.1" 200 3777
+[25/Jan/2012 13:34:23] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 13:34:24] "GET /apply_promo/?u=3 HTTP/1.1" 200 3749
+[25/Jan/2012 13:34:25] "GET /statsplot/ HTTP/1.1" 200 6482
+[25/Jan/2012 13:34:25] "GET /home/ HTTP/1.1" 200 3777
+ Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+Hello
+Express
+{}
+J.Crew
+{'Express': [], 'J.Crew': []}
+Apply_promo: We have 0 items in Express shelf.
+Total combination: 0
+Apply_promo: We have 0 items in J.Crew shelf.
+Total combination: 0
+192.168.1.1
+[<UserIdMap: 192.168.1.1 3>]
+3
+192.168.1.1
+Hello
+Express
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+Apply_promo: We have 1 items in Express shelf.
+Total combination: 1
+{'category': 'Pants & Shorts', 'name': 'STRETCH COTTON AGENT PANT', 'price': 69.9, 'item_idx': 25833, 'sale_price': 69.9, 'store': 'Express'}
+Great, found the result! Using it here.
+RESULT:: 1 Express 69.9 69.9 0.0
+Apply_promo: We have 3 items in J.Crew shelf.
+Total combination: 7
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 1 J.Crew 79.5 79.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 2 J.Crew 78.0 78.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 3 J.Crew 157.5 157.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 4 J.Crew 65.0 65.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 5 J.Crew 144.5 144.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 6 J.Crew 143.0 143.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 7 J.Crew 222.5 222.5 0.0
+192.168.1.1
+[<UserIdMap: 192.168.1.1 3>]
+3
+192.168.1.1
+[25/Jan/2012 13:58:49] "GET /home HTTP/1.1" 200 3777
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+192.168.1.1
+[25/Jan/2012 17:11:40] "GET /home HTTP/1.1" 200 3777
+[25/Jan/2012 17:11:40] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+[25/Jan/2012 17:11:43] "GET / HTTP/1.1" 500 1160
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+192.168.1.1
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function inner_run at 0xa565fb4>
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/apport_python_hook.py", line 48, in apport_excepthook
+    if not enabled():
+TypeError: 'NoneType' object is not callable
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/management/commands/runserver.py", line 60, in inner_run
+    run(addr, int(port), handler)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 721, in run
+    httpd.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 225, in serve_forever
+    r, w, e = select.select([self], [], [], poll_interval)
+AttributeError: 'NoneType' object has no attribute 'select'
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function inner_run at 0xa62b064>
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/apport_python_hook.py", line 48, in apport_excepthook
+    if not enabled():
+TypeError: 'NoneType' object is not callable
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/management/commands/runserver.py", line 60, in inner_run
+    run(addr, int(port), handler)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 721, in run
+    httpd.serve_forever()
+  File "/usr/lib/python2.7/SocketServer.py", line 225, in serve_forever
+    r, w, e = select.select([self], [], [], poll_interval)
+AttributeError: 'NoneType' object has no attribute 'select'
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+[25/Jan/2012 17:23:19] "GET /home HTTP/1.1" 200 3777
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 141, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+[25/Jan/2012 17:23:21] "GET /viewyourshelf/?u=3 HTTP/1.1" 500 1160
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+[25/Jan/2012 17:23:28] "GET /home HTTP/1.1" 200 3777
+[25/Jan/2012 17:23:28] "GET /mymedia/css/site_base.css HTTP/1.1" 200 1716
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 141, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+[25/Jan/2012 17:23:30] "GET /viewyourshelf/?u=3 HTTP/1.1" 500 1160
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+[25/Jan/2012 17:23:33] "GET /apply_promo/?u=3 HTTP/1.1" 200 3749
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+[25/Jan/2012 17:23:35] "GET /home/ HTTP/1.1" 200 3777
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+[25/Jan/2012 17:23:36] "GET /statsplot/ HTTP/1.1" 200 6482
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+192.168.1.1
+In your_shelf_store_based
+Express
+User ID:  192.168.1.1
+In your_shelf_store_based
+Express
+User ID:  Apply_promo: We have 1 items in Express shelf.
+Total combination: 1
+{'category': 'Pants & Shorts', 'name': 'STRETCH COTTON AGENT PANT', 'price': 69.9, 'item_idx': 25833, 'sale_price': 69.9, 'store': 'Express'}
+Great, found the result! Using it here.
+RESULT:: 1 Express 69.9 69.9 0.0
+Apply_promo: We have 3 items in J.Crew shelf.
+Total combination: 7
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 1 J.Crew 79.5 79.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 2 J.Crew 78.0 78.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 3 J.Crew 157.5 157.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 4 J.Crew 65.0 65.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 5 J.Crew 144.5 144.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 6 J.Crew 143.0 143.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 7 J.Crew 222.5 222.5 0.0
+192.168.1.1
+192.168.1.1
+[<UserIdMap: 192.168.1.1 3>]
+3
+Apply_promo: We have 1 items in Express shelf.
+Total combination: 1
+{'category': 'Pants & Shorts', 'name': 'STRETCH COTTON AGENT PANT', 'price': 69.9, 'item_idx': 25833, 'sale_price': 69.9, 'store': 'Express'}
+Great, found the result! Using it here.
+RESULT:: 1 Express 69.9 69.9 0.0
+Apply_promo: We have 3 items in J.Crew shelf.
+Total combination: 7
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 1 J.Crew 79.5 79.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 2 J.Crew 78.0 78.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 3 J.Crew 157.5 157.5 0.0
+{'category': 'womens_feature', 'name':[25/Jan/2012 17:23:39] "GET /apply_promo/?u=3 HTTP/1.1" 200 3749
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 141, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+[25/Jan/2012 17:23:41] "GET /viewyourshelf/?u=3 HTTP/1.1" 500 1160
+Traceback (most recent call last):
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 280, in run
+    self.result = application(self.environ, self.start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/servers/basehttp.py", line 674, in __call__
+    return self.application(environ, start_response)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/wsgi.py", line 248, in __call__
+    response = self.get_response(request)
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 130, in get_response
+    return self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/usr/lib/pymodules/python2.7/django/core/handlers/base.py", line 179, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve500()
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 263, in resolve500
+    return self._resolve_special('500')
+  File "/usr/lib/pymodules/python2.7/django/core/urlresolvers.py", line 253, in _resolve_special
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type)
+AttributeError: 'module' object has no attribute 'handler500'
+ 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 4 J.Crew 65.0 65.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 5 J.Crew 144.5 144.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 6 J.Crew 143.0 143.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 7 J.Crew 222.5 222.5 0.0
+In your_shelf_store_based
+Express
+User ID: 
+[25/Jan/2012 17:24:01] "GET /viewyourshelf/?u=1 HTTP/1.1" 500 57302
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+In your_shelf_store_based
+Express
+User ID: 
+[25/Jan/2012 17:24:52] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 1966
+[25/Jan/2012 17:24:52] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[25/Jan/2012 17:24:55] "GET /viewyourshelf/?u=2 HTTP/1.1" 200 4057
+[25/Jan/2012 17:24:57] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 17:24:58] "GET /viewyourshelf/?u=4 HTTP/1.1" 200 2353
+[25/Jan/2012 17:25:00] "GET /viewyourshelf/?u=4 HTTP/1.1" 200 2353
+[25/Jan/2012 17:25:01] "GET /apply_promo/?u=4 HTTP/1.1" 200 3013
+[25/Jan/2012 17:25:02] "GET /statsplot/ HTTP/1.1" 200 6482
+[25/Jan/2012 17:25:04] "GET /home/ HTTP/1.1" 200 3777
+[25/Jan/2012 17:25:06] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 17:25:08] "GET /shelfit?u=http%3A%2F%2F69.120.105.217%3A8000%2Fviewyourshelf%2F%3Fu%3D3&t=3 HTTP/1.1" 301 0
+[25/Jan/2012 17:25:08] "GET /shelfit/?u=http%3A%2F%2F69.120.105.217%3A8000%2Fviewyourshelf%2F%3Fu%3D3&t=3 HTTP/1.1" 200 297
+[25/Jan/2012 17:25:11] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 17:25:14] "GET /viewyourshelf_cat/?u=3 HTTP/1.1" 500 60836
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+In your_shelf_store_based
+Express
+User ID:  1 IP:  74.113.162.58
+{}
+J.Crew
+User ID:  1 IP:  74.113.162.58
+{'Express': [], 'J.Crew': []}
+In your_shelf_store_based
+Express
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+J.Crew
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>], 'J.Crew': 2 61172 Cotton shawl-collar sweater
+2 58322 Hot dot underwire tank
+2 65341 Jackie pullover
+2 52544 2 44448 Bowery wool in classic fit
+[<WishlistI: 2 61172>, <WishlistI: 2 58322>, <WishlistI: 2 65341>, <WishlistI: [Bad Unicode data]>, <WishlistI: 2 44448>]}
+In your_shelf_store_based
+Express
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+In your_shelf_store_based
+Express
+User ID:  4 IP:  107.0.86.82
+{}
+J.Crew
+User ID:  4 IP:  107.0.86.82
+{'Express': [], 'J.Crew': 4 65341 Jackie pullover
+[<WishlistI: 4 65341>]}
+In your_shelf_store_based
+Express
+User ID:  4 IP:  107.0.86.82
+{}
+J.Crew
+User ID:  4 IP:  107.0.86.82
+{'Express': [], 'J.Crew': 4 65341 Jackie pullover
+[<WishlistI: 4 65341>]}
+Apply_promo: We have 0 items in Express shelf.
+Total combination: 0
+Apply_promo: We have 1 items in J.Crew shelf.
+Total combination: 1
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 1 J.Crew 65.0 65.0 0.0
+192.168.1.1
+[<UserIdMap: 192.168.1.1 3>]
+3
+192.168.1.1
+In your_shelf_store_based
+Express
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+4
+[]
+[]
+In your_shelf_store_based
+Express
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+3 25833 STRETCH COTTON AGENT PANT
+2 61172 Cotton shawl-collar sweater
+3 61172 Cotton shawl-collar sweater
+3 61172 Cotton shawl-collar sweater
+2 61172 Cotton shawl-collar sweater
+[25/Jan/2012 17:27:46] "GET /viewyourshelf_cat/?u=3 HTTP/1.1" 200 3014
+[25/Jan/2012 17:27:46] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[25/Jan/2012 17:27:56] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 17:28:03] "GET /viewyourshelf_cat/?u=3 HTTP/1.1" 200 3014
+[25/Jan/2012 17:28:08] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 17:29:12] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 17:29:12] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+LOST: jackie pullover
+{'Sweater': 2 61172 Cotton shawl-collar sweater
+3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+[<WishlistI: 2 61172>, <WishlistI: 3 61172>, <WishlistI: 3 61170>], 'Pant': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+In your_shelf_store_based
+Express
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+LOST: jackie pullover
+{'Sweater': 2 61172 Cotton shawl-collar sweater
+3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+[<WishlistI: 2 61172>, <WishlistI: 3 61172>, <WishlistI: 3 61170>], 'Pant': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+In your_shelf_store_based
+Express
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+In your_shelf_store_based
+Express
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+Apply_promo: We have 1 items in Express shelf.
+Total combination: 1
+{'category': 'Pants & Shorts', 'name': 'STRETCH COTTON AGENT PANT', 'price': 69.9, 'item_idx': 25833, 'sale_price': 69.9, 'store': 'Express'}
+Great, found the result! Using it here.
+RESULT:: 1 Express 69.9 69.9 0.0
+Apply_promo: We have 3 items in J.Crew shelf.
+Total combination: 7
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 1 J.Crew 79.5 79.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 2 J.Crew 78.0 78.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 3 J.Crew 157.5 157.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 4 J.Crew 65.0 65.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 5 J.Crew 144.5 144.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 6 J.Crew 143.0 143.0 0.0
+{'category': 'mens[25/Jan/2012 17:29:16] "GET /apply_promo/?u=3 HTTP/1.1" 200 3749
+[25/Jan/2012 17:29:20] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 17:29:23] "GET /viewyourshelf/?u=1 HTTP/1.1" 200 1966
+[25/Jan/2012 17:29:24] "GET /apply_promo/?u=1 HTTP/1.1" 200 2909
+[25/Jan/2012 17:29:26] "GET /statsplot/ HTTP/1.1" 200 6482
+[25/Jan/2012 17:29:27] "GET /home/ HTTP/1.1" 200 3777
+[25/Jan/2012 17:29:28] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 17:29:35] "GET /viewyourshelf/?u=2 HTTP/1.1" 200 4057
+[25/Jan/2012 17:29:41] "GET /viewyourshelf_cat/?u=2 HTTP/1.1" 500 59649
+_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 7 J.Crew 222.5 222.5 0.0
+In your_shelf_store_based
+Express
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+In your_shelf_store_based
+Express
+User ID:  1 IP:  74.113.162.58
+{}
+J.Crew
+User ID:  1 IP:  74.113.162.58
+{'Express': [], 'J.Crew': []}
+Apply_promo: We have 0 items in Express shelf.
+Total combination: 0
+Apply_promo: We have 0 items in J.Crew shelf.
+Total combination: 0
+192.168.1.1
+[<UserIdMap: 192.168.1.1 3>]
+3
+192.168.1.1
+In your_shelf_store_based
+Express
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+In your_shelf_store_based
+Express
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+J.Crew
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>], 'J.Crew': 2 61172 Cotton shawl-collar sweater
+2 58322 Hot dot underwire tank
+2 65341 Jackie pullover
+2 52544 2 44448 Bowery wool in classic fit
+[<WishlistI: 2 61172>, <WishlistI: 2 58322>, <WishlistI: 2 65341>, <WishlistI: [Bad Unicode data]>, <WishlistI: 2 44448>]}
+2 61172 Cotton shawl-collar sweater
+2 58322 Hot dot underwire tank
+2 65341 Jackie pullover
+2 61172 Cotton shawl-collar sweater
+2 58322 Hot dot underwire tank
+2 65341 Jackie pullover
+2 52544 2 44448 Bowery wool in classic fit
+2 41226 ZELDA JEAN LEGGING
+2 65341 Jackie pullover
+2 52544 [25/Jan/2012 17:30:30] "GET /viewyourshelf_cat/?u=2 HTTP/1.1" 200 3444
+[25/Jan/2012 17:30:30] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[25/Jan/2012 17:30:44] "GET /viewyourshelf/?u=2 HTTP/1.1" 200 4057
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+LOST: jackie pullover
+LOST: bowery wool in classic fit
+{'Sweater': 2 61172 Cotton shawl-collar sweater
+2 52544 3 61172 Cotton shawl-collar sweater
+[<WishlistI: 2 61172>, <WishlistI: [Bad Unicode data]>, <WishlistI: 3 61172>], 'Tank': 2 58322 Hot dot underwire tank
+[<WishlistI: 2 58322>], 'Jean': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+In your_shelf_store_based
+Express
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+J.Crew
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>], 'J.Crew': 2 61172 Cotton shawl-collar sweater
+2 58322 Hot dot underwire tank
+2 65341 Jackie pullover
+2 52544 2 44448 Bowery wool in classic fit
+[<WishlistI: 2 61172>, <WishlistI: 2 58322>, <WishlistI: 2 65341>, <WishlistI: [Bad Unicode data]>, <WishlistI: 2 44448>]}
+[25/Jan/2012 17:33:13] "GET /viewyourshelf/?u=2 HTTP/1.1" 200 4057
+[25/Jan/2012 17:33:13] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+[25/Jan/2012 17:33:16] "GET /viewyourshelf_cat/?u=2 HTTP/1.1" 200 3432
+[25/Jan/2012 17:33:26] "GET /viewyourshelf/?u=2 HTTP/1.1" 200 4057
+[25/Jan/2012 17:33:34] "GET /viewyourshelf_cat/?u=2 HTTP/1.1" 200 3432
+[25/Jan/2012 17:33:38] "GET /viewyourshelf_cat/?u=3 HTTP/1.1" 200 3002
+[25/Jan/2012 17:33:45] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+In your_shelf_store_based
+Express
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+J.Crew
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>], 'J.Crew': 2 61172 Cotton shawl-collar sweater
+2 58322 Hot dot underwire tank
+2 65341 Jackie pullover
+2 52544 2 44448 Bowery wool in classic fit
+[<WishlistI: 2 61172>, <WishlistI: 2 58322>, <WishlistI: 2 65341>, <WishlistI: [Bad Unicode data]>, <WishlistI: 2 44448>]}
+LOST: bowery wool in classic fit
+{'Sweater': 2 61172 Cotton shawl-collar sweater
+2 65341 Jackie pullover
+2 52544 [<WishlistI: 2 61172>, <WishlistI: 2 65341>, <WishlistI: [Bad Unicode data]>], 'Tank': 2 58322 Hot dot underwire tank
+[<WishlistI: 2 58322>], 'Jean': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+In your_shelf_store_based
+Express
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+J.Crew
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>], 'J.Crew': 2 61172 Cotton shawl-collar sweater
+2 58322 Hot dot underwire tank
+2 65341 Jackie pullover
+2 52544 2 44448 Bowery wool in classic fit
+[<WishlistI: 2 61172>, <WishlistI: 2 58322>, <WishlistI: 2 65341>, <WishlistI: [Bad Unicode data]>, <WishlistI: 2 44448>]}
+LOST: bowery wool in classic fit
+{'Sweater': 2 61172 Cotton shawl-collar sweater
+2 65341 Jackie pullover
+2 52544 [<WishlistI: 2 61172>, <WishlistI: 2 65341>, <WishlistI: [Bad Unicode data]>], 'Tank': 2 58322 Hot dot underwire tank
+[<WishlistI: 2 58322>], 'Jean': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+{'Sweater': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>], 'Pant': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+In your_shelf_store_based
+Express
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+Apply_promo: We have 1 items in Express shelf.
+Total combination: 1
+{'category': 'Pants & Shorts', 'name': 'STRETCH COTTON AGENT PANT', 'price': 69.9, 'item_idx': 25833, 'sale_price': 69.9, 'store': 'Express'}
+Great, found the result! Using it here.
+RESULT:: 1 Express 69.9 69.9 0.0
+Apply_promo: We have 3 items in J.Crew shelf.
+Total combination: 7
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 1 J.Crew 79.5 79.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 2 J.Crew 78.0 78.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 3 J.Crew 157.5 157.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 4 J.Crew 65.0 65.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'[25/Jan/2012 17:33:54] "GET /apply_promo/?u=3 HTTP/1.1" 200 3749
+[25/Jan/2012 17:33:55] "GET /viewyourshelf/?u=3 HTTP/1.1" 200 3519
+[25/Jan/2012 17:33:58] "GET /viewyourshelf/?u=2 HTTP/1.1" 200 4057
+[25/Jan/2012 17:34:00] "GET /viewyourshelf_cat/?u=2 HTTP/1.1" 200 3432
+[25/Jan/2012 17:34:05] "GET /apply_promo/?u=2 HTTP/1.1" 500 62700
+}
+Great, found the result! Using it here.
+RESULT:: 5 J.Crew 144.5 144.5 0.0
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 6 J.Crew 143.0 143.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_feature', 'name': 'Cotton-cashmere shawl-collar sweater', 'price': 78.0, 'item_idx': 61170, 'sale_price': 78.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 7 J.Crew 222.5 222.5 0.0
+In your_shelf_store_based
+Express
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>]}
+J.Crew
+User ID:  3 IP:  192.168.1.1
+{'Express': 3 25833 STRETCH COTTON AGENT PANT
+[<WishlistI: 3 25833>], 'J.Crew': 3 61172 Cotton shawl-collar sweater
+3 61170 Cotton-cashmere shawl-collar sweater
+3 65341 Jackie pullover
+[<WishlistI: 3 61172>, <WishlistI: 3 61170>, <WishlistI: 3 65341>]}
+In your_shelf_store_based
+Express
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+J.Crew
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>], 'J.Crew': 2 61172 Cotton shawl-collar sweater
+2 58322 Hot dot underwire tank
+2 65341 Jackie pullover
+2 52544 2 44448 Bowery wool in classic fit
+[<WishlistI: 2 61172>, <WishlistI: 2 58322>, <WishlistI: 2 65341>, <WishlistI: [Bad Unicode data]>, <WishlistI: 2 44448>]}
+LOST: bowery wool in classic fit
+{'Sweater': 2 61172 Cotton shawl-collar sweater
+2 65341 Jackie pullover
+2 52544 [<WishlistI: 2 61172>, <WishlistI: 2 65341>, <WishlistI: [Bad Unicode data]>], 'Tank': 2 58322 Hot dot underwire tank
+[<WishlistI: 2 58322>], 'Jean': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+2 61172 Cotton shawl-collar sweater
+2 58322 Hot dot underwire tank
+2 65341 Jackie pullover
+2 52544 2 44448 Bowery wool in classic fit
+2 41226 ZELDA JEAN LEGGING
+2 52544 Validating models...
+0 errors found
+
+Django version 1.2.5, using settings 'tutorial.settings'
+Development server is running at http://192.168.1.99:8000/
+Quit the server with CONTROL-C.
+Apply_promo: We have 1 items in Express shelf.
+Total combination: 1
+{'category': 'Jeans', 'name': 'ZELDA JEAN LEGGING', 'price': 79.9, 'item_idx': 41226, 'sale_price': 79.9, 'store': 'Express'}
+No, didn't find result for list 1 in cache, so storing it
+RESULT:: 1 Express 79.9 79.9 0.0
+Apply_promo: We have 5 items in J.Crew shelf.
+Total combination: 31
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 1 J.Crew 79.5 79.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 2 J.Crew 84.0 84.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 3 J.Crew 163.5 163.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 4 J.Crew 65.0 65.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 5 J.Crew 144.5 144.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 6 J.Crew 149.0 149.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 7 J.Crew 228.5 228.5 0.0
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+No, didn't find result for list 8 in cache, so storing it
+RESULT:: 8 J.Crew 1298.0 1298.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+No, didn't find result for list 9 in cache, so storing it
+RESULT:: 9 J.Crew 1377.5 1377.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+No, didn't find result for list 10 in cache, so storing it
+RESULT:: 10 J.Crew 1382.0 1382.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+No, didn't find result for list 11 in cache, so storing it
+RESULT:: 11 J.Crew 1461.5 1461.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+No, didn't find result for list 12 in cache, so storing it
+RESULT:: 12 J.Crew 1363.0 1363.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+No, didn't find result for list 13 in cache, so storing it
+RESULT:: 13 J.Crew 1442.5 1442.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+No, didn't find result for list 14 in cache, so storing it
+RESULT:: 14 J.Crew 1447.0 1447.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+No, didn't find result for list 15 in cache, so storing it
+RESULT:: 15 J.Crew 1526.5 1526.5 0.0
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 16 J.Crew 118.0 118.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 17 in cache, so storing it
+RESULT:: 17 J.Crew 197.5 197.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 18 in cache, so storing it
+RESULT:: 18 J.Crew 202.0 202.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 19 in cache, so storing it
+RESULT:: 19 J.Crew 281.5 281.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 20 in cache, so storing it
+RESULT:: 20 J.Crew 183.0 183.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 21 in cache, so storing it
+RESULT:: 21 J.Crew 262.5 262.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 22 in cache, so storing it
+RESULT:: 22 J.Crew 267.0 267.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 23 in cache, so storing it
+RESULT:: 23 J.Crew 346.5 346.5 0.0
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 24 in cache, so storing it
+RESULT:: 24 J.Crew 1416.0 1416.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 25 in cache, so storing it
+RESULT:: 25 J.Crew 1495.5 1495.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 26 in cache, so storing it
+RESULT:: 26 J.Crew 1500.0 1500.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 27 in cache, so storing it
+RESULT:: 27 J.Crew 1579.5 1579.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': [25/Jan/2012 17:34:56] "GET /apply_promo/?u=2 HTTP/1.1" 200 6326
+[25/Jan/2012 17:35:05] "GET /viewyourshelf/?u=2 HTTP/1.1" 200 4057
+[25/Jan/2012 17:35:05] "GET /mymedia/css/site_base.css HTTP/1.1" 304 0
+'J.Crew'}
+No, didn't find result for list 28 in cache, so storing it
+RESULT:: 28 J.Crew 1481.0 1481.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 29 in cache, so storing it
+RESULT:: 29 J.Crew 1560.5 1560.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 30 in cache, so storing it
+RESULT:: 30 J.Crew 1565.0 1565.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+No, didn't find result for list 31 in cache, so storing it
+RESULT:: 31 J.Crew 1644.5 1644.5 0.0
+In your_shelf_store_based
+Express
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>]}
+J.Crew
+User ID:  2 IP:  67.87.30.56
+{'Express': 2 41226 ZELDA JEAN LEGGING
+[<WishlistI: 2 41226>], 'J.Crew': 2 61172 Cotton shawl-collar sweater
+2 58322 Hot dot underwire tank
+2 65341 Jackie pullover
+2 52544 2 44448 Bowery wool in classic fit
+[<WishlistI: 2 61172>, <WishlistI: 2 58322>, <WishlistI: 2 65341>, <WishlistI: [Bad Unicode data]>, <WishlistI: 2 44448>]}
+Apply_promo: We have 1 items in Express shelf.
+Total combination: 1
+{'category': 'Jeans', 'name': 'ZELDA JEAN LEGGING', 'price': 79.9, 'item_idx': 41226, 'sale_price': 79.9, 'store': 'Express'}
+Great, found the result! Using it here.
+RESULT:: 1 Express 79.9 79.9 0.0
+Apply_promo: We have 5 items in J.Crew shelf.
+Total combination: 31
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 1 J.Crew 79.5 79.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 2 J.Crew 84.0 84.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 3 J.Crew 163.5 163.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 4 J.Crew 65.0 65.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 5 J.Crew 144.5 144.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 6 J.Crew 149.0 149.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 7 J.Crew 228.5 228.5 0.0
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 8 J.Crew 1298.0 1298.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 9 J.Crew 1377.5 1377.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 10 J.Crew 1382.0 1382.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 11 J.Crew 1461.5 1461.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 12 J.Crew 1363.0 1363.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 13 J.Crew 1442.5 1442.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 14 J.Crew 1447.0 1447.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 15 J.Crew 1526.5 1526.5 0.0
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 16 J.Crew 118.0 118.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 17 J.Crew 197.5 197.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 18 J.Crew 202.0 202.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 19 J.Crew 281.5 281.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 20 J.Crew 183.0 183.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 21 J.Crew 262.5 262.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 22 J.Crew 267.0 267.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 23 J.Crew 346.5 346.5 0.0
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 24 J.Crew 1416.0 1416.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 25 J.Crew 1495.5 1495.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 26 J.Crew 1500.0 1500.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 27 J.Crew 1579.5 1579.5 0.0
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 28 J.Crew 1481.0 1481.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 29 J.Crew 1560.5 1560.5 0.0
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'Bowery wool in classic fit', 'price': 118.0, 'item_idx': 44448, 'sale_price': 118.0, 'store': 'J.Crew'}
+Great, found the result! Using it here.
+RESULT:: 30 J.Crew 1565.0 1565.0 0.0
+{'category': 'mens_category', 'name': 'Cotton shawl-collar sweater', 'price': 79.5, 'item_idx': 61172, 'sale_price': 79.5, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Hot dot underwire tank', 'price': 84.0, 'item_idx': 58322, 'sale_price': 84.0, 'store': 'J.Crew'}
+{'category': 'womens_feature', 'name': 'Jackie pullover', 'price': 65.0, 'item_idx': 65341, 'sale_price': 65.0, 'store': 'J.Crew'}
+{'category': 'AST', 'name': 'Authier\xc2\xae cashmere ski sweater', 'price': 1298.0, 'item_idx': 52544, 'sale_price': 1298.0, 'store': 'J.Crew'}
+{'category': 'mens_category', 'name': 'B[25/Jan/2012 17:35:09] "GET /apply_promo/?u=2 HTTP/1.1" 200 6326
+[25/Jan/2012 17:35:11] "GET /statsplot/ HTTP/1.1" 200 6482
+[25/Jan/2012 17:35:12] "GET /home/ HTTP/1.1" 200 3777

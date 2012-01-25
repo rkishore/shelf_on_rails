@@ -1,0 +1,5 @@
+[23/Jan/2012 20:49:36] "GET /home HTTP/1.1" 200 3777
+[23/Jan/2012 20:49:37] "GET /viewyourshelf/?u=1 HTTP/1.1" 500 65362
+[23/Jan/2012 20:49:48] "GET /apply_promo/?u=1 HTTP/1.1" 500 67682
+[23/Jan/2012 20:49:50] "GET /statsplot/ HTTP/1.1" 200 6482
+[23/Jan/2012 20:49:52] "GET /home/ HTTP/1.1" 200 3777
