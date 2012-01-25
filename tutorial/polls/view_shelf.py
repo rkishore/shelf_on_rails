@@ -16,6 +16,7 @@ from django.forms import ModelChoiceField, ChoiceField
 import copy
 import hashlib
 from django.core.exceptions import ObjectDoesNotExist
+from django.utils.encoding import smart_str, smart_unicode
 
 item_list_results_hash_table = {}
 
@@ -32,6 +33,7 @@ GENDER_CHOICES = (
 
 ### Testing ####
 selected_items_id_list[112] = []
+
 ######## Visualization Sample Code #############
 import gviz_api
 from django.db.models import F
@@ -165,7 +167,7 @@ def apply_promo(request, d1, d2):
 
 
 def yourshelf_store_based(request, d1, d2):
-    print "Hello"
+    print 'In your_shelf_store_based'
     if 'u' in request.GET and request.GET['u']:# and (('s' in request.GET and request.GET['s']) or ('c' in request.GET and request.GET['c'])):
         
         # Get User ID
@@ -180,31 +182,35 @@ def yourshelf_store_based(request, d1, d2):
             print s
             selected_items[int(userid)] = []
             itemlist = []
-            u = UserIdMap.objects.get(user_id=userid)
-            final_list = WishlistI.objects.filter(user_id=u)
-            br_list = WishlistI.objects.none()
-            for wi in final_list:
-                if wi.item.brand.name == brand_name:
-                    br_list = br_list | WishlistI.objects.filter(item=wi.item)
-                    catlist = CategoryModel.objects.filter(product=wi.item)
+            u = UserIdMap.objects.filter(user_id=userid)
+            if u: #HACK!!
+                print 'User ID: ', u.user_id, 'IP: ', u.ip_addr 
+                final_list = WishlistI.objects.filter(user_id=u[0])
+                br_list = WishlistI.objects.none()
+                for wi in final_list:
+                    if wi.item.brand.name == brand_name:
+                        br_list = br_list | final_list.filter(item=wi.item)
+                        catlist = CategoryModel.objects.filter(product=wi.item)
                     #print catlist
-                    if catlist:
-                        itemlist.append( {"store": str(wi.item.brand), 
-                                          "category": str(catlist[0].categoryName), 
-                                          "name": str(wi.item.name),
-                                          "price": float(wi.item.price),
-                                          "sale_price": float(wi.item.saleprice)} )
-                    else:
-                        itemlist.append( {"store": str(wi.item.brand), 
-                                          "category": "None", 
-                                          "name": str(wi.item.name),
-                                          "price": float(wi.item.price),
-                                          "sale_price": float(wi.item.saleprice)} )
-                shelf_per_store[s] = br_list
-                num_selected_per_store[s] = len(br_list)
-            selected_items[int(userid)] = itemlist
-            print shelf_per_store
-            
+                        if catlist:
+                            itemlist.append( {"store": str(wi.item.brand), 
+                                              "category": str(catlist[0].categoryName), 
+                                              "name": smart_str(wi.item.name),
+                                              "price": float(wi.item.price),
+                                              "sale_price": float(wi.item.saleprice)} )
+                        else:
+                            itemlist.append( {"store": str(wi.item.brand), 
+                                              "category": "None", 
+                                              "name": smart_str(wi.item.name),
+                                              "price": float(wi.item.price),
+                                              "sale_price": float(wi.item.saleprice)} )
+                        shelf_per_store[s] = br_list
+                        num_selected_per_store[s] = len(br_list)
+                selected_items[int(userid)] = itemlist
+                print shelf_per_store
+            else:
+                return HttpResponse('Dear user: please login or create an account before accessing this page...')
+
             if not shelf_per_store:
                 shelf_per_store[stores[0]] = br_list
                 shelf_per_store[stores[1]] = br_list

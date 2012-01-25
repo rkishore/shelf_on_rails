@@ -12,7 +12,7 @@
 		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 		<link rel="shortcut icon" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-		<link rel="stylesheet" type="text/css" href="/mymedia/css/view_shelf.css" />
+		<link rel="stylesheet" type="text/css" href="/mymedia/css/site_base.css" />
 
 	</head>
     <body>
@@ -27,7 +27,7 @@
 				<li><a class="nav" href="/home/">Home</a></li>
 			</ul>
 		</nav>
-			<div class="welcome">You have {{shelfs|length}} shelve{{shelfs|pluralize}},
+			<div class="welcome2">You have {{shelfs|length}} shelve{{shelfs|pluralize}},
 				{% if store_based%}
 				based on stores. Click <a href="/viewyourshelf_cat/?u={{uid}}">here</a> to see category-based organization.
 				{% endif %}
@@ -39,10 +39,10 @@
     			
 		    	<div class="set">
 		    	{% if store_based %}
-		    	<div class="welcome">Store {{store_name}} has {{items|length}} items.</div>
+		    	<div class="welcome2">Store {{store_name}} has {{items|length}} items.</div>
 		    	{% endif %}
 		    	{% if category_based %}
-		    	<div class="welcome">Category {{store_name}} has {{items|length}} items.</div>
+		    	<div class="welcome2">Category {{store_name}} has {{items|length}} items.</div>
 		    	{% endif %}
 		    	
 		    	{% for wi in items %}

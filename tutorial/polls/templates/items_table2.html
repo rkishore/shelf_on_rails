@@ -20,14 +20,14 @@
 		</header>
 		<nav>
 			<ul>
-				<li><a href="/viewyourshelf/detail/?u={{uid}}&s=Express">View Shelfs</a></li>
-				<li><a href="/view_promo/">View Promotions</a></li>
-				<li><a href="/statsplot/">Did you know?</a></li>
-				<li><a href="/home/">Home</a></li>
+				<li><a class="nav" href="/viewyourshelf/?u={{uid}}">View Shelfs</a></li>
+				<li><a class="nav" href="/apply_promo/?u={{uid}}">View Pricing Info</a></li>
+				<li><a class="nav" href="/statsplot/">Did you know?</a></li>
+				<li><a class="nav" href="/home/">Home</a></li>
 			</ul>
 		</nav>
 				
-    		<div class="pos_fixed_left">
+    		<div class="set">
 		    {% if curresp %} 
 		    	<h1> {{ curresp }} </h1> 
 		    {% endif %}
