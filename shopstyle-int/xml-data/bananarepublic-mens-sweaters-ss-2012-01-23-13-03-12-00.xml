@@ -1,0 +1,1033 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>mens-sweaters</Category>
+<CategoryName>Sweaters</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>2683</Id>
+<Name>Banana Republic</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>17</TotalCount>
+<Product>
+<Id>323716313</Id>
+<Name>Tipped four-snap pullover</Name>
+<Currency>USD</Currency>
+<Price>49.5</Price>
+<PriceLabel>$49.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Snap closure.&lt;/li&gt; &lt;li&gt;Color-tipped placket.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=323716313&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/bf/d3/bfd3298881039fb526c71afa09c538b5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/bf/d3/bfd3298881039fb526c71afa09c538b5_medium/banana-republic-sweaters-tipped-foursnap-pullover.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/bf/d3/bfd3298881039fb526c71afa09c538b5/banana-republic-sweaters-tipped-foursnap-pullover.jpg</Url>
+</Image>
+<Color>
+<Name>Dusty orange</Name>
+</Color>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Color>
+<Name>Blue</Name>
+</Color>
+<Color>
+<Name>Light gray heather</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-sweaters</Category>
+<CategoryName>Sweaters</CategoryName>
+<SeeMoreLabel>Sweaters by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-18</ExtractDate>
+</Product>
+<Product>
+<Id>323716280</Id>
+<Name>Cotton tipped full-zip cardigan</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Mock neck.&lt;/li&gt; &lt;li&gt;Full zip closure.&lt;/li&gt; &lt;li&gt;Tipped cuffs.&lt;/li&gt; &lt;li&gt;Rib-knit trim.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=323716280&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/52/dd/52ddb2eb4beadacd10e13dc8116c7f19_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/52/dd/52ddb2eb4beadacd10e13dc8116c7f19_medium/banana-republic-cardigans-zips-cotton-tipped-fullzip-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/52/dd/52ddb2eb4beadacd10e13dc8116c7f19/banana-republic-cardigans-zips-cotton-tipped-fullzip-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<Category>mens-cotton-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<CategoryName>Cotton Sweaters</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-18</ExtractDate>
+</Product>
+<Product>
+<Id>316784824</Id>
+<Name>Shawl-collar sweater</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<SalePrice>59.99</SalePrice>
+<SalePriceLabel>$59.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;60% Cotton, 25% Polyester, 15% Wool.&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Rib-knit shawl collar.&lt;/li&gt; &lt;li&gt;Metal hook closure.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=316784824&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/6d/89/6d89bd0ed7b49fd9d0abafaac105404f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/6d/89/6d89bd0ed7b49fd9d0abafaac105404f_medium/banana-republic-sweaters-shawlcollar-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/6d/89/6d89bd0ed7b49fd9d0abafaac105404f/banana-republic-sweaters-shawlcollar-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>Cambridge wine</Name>
+</Color>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Category>mens-sweaters</Category>
+<CategoryName>Sweaters</CategoryName>
+<SeeMoreLabel>Sweaters by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-27</ExtractDate>
+</Product>
+<Product>
+<Id>314957198</Id>
+<Name>Extra-fine merino buttoned sweater vest</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;60% Extra-Fine Merino Wool, 40% Acrylic.&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957198&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/8e/d4/8ed4b90db79ca7e2dac01fa1a1b8c5a5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/8e/d4/8ed4b90db79ca7e2dac01fa1a1b8c5a5_medium/banana-republic-sweaters-extrafine-merino-buttoned-sweater-vest.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/8e/d4/8ed4b90db79ca7e2dac01fa1a1b8c5a5/banana-republic-sweaters-extrafine-merino-buttoned-sweater-vest.jpg</Url>
+</Image>
+<Color>
+<Name>Grey heather</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-sweaters</Category>
+<CategoryName>Sweaters</CategoryName>
+<SeeMoreLabel>Sweaters by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>312109741</Id>
+<Name>Full-button v-neck cardigan</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;80% Extra-fine merino wool, 20% Nylon.&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=312109741&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3f/0e/3f0ea5798d300bd6a9ce63453dac8b84_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3f/0e/3f0ea5798d300bd6a9ce63453dac8b84_medium/banana-republic-tall-sweaters-fullbutton-vneck-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3f/0e/3f0ea5798d300bd6a9ce63453dac8b84/banana-republic-tall-sweaters-fullbutton-vneck-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>Blue light</Name>
+</Color>
+<Size>
+<Name>L</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-13</ExtractDate>
+</Product>
+<Product>
+<Id>314957201</Id>
+<Name>Solid sweater vest</Name>
+<Currency>USD</Currency>
+<Price>49.5</Price>
+<PriceLabel>$49.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;75% Silk, 20% Cotton, 5% Cashmere.&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;V-neckline.&lt;/li&gt; &lt;li&gt;Rib-knit trim.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957201&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/18/54/185479e620e9cbd6518ccd1c928dfcc7_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/18/54/185479e620e9cbd6518ccd1c928dfcc7_medium/banana-republic-sweaters-solid-sweater-vest.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/18/54/185479e620e9cbd6518ccd1c928dfcc7/banana-republic-sweaters-solid-sweater-vest.jpg</Url>
+</Image>
+<Color>
+<Name>Dark charcoal gray</Name>
+</Color>
+<Color>
+<Name>Chateau blue</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-sweaters</Category>
+<CategoryName>Sweaters</CategoryName>
+<SeeMoreLabel>Sweaters by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>308969114</Id>
+<Name>Silk/cotton/cashmere striped sweater</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<SalePrice>69.99</SalePrice>
+<SalePriceLabel>$69.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;75% Silk, 20% Cotton, 5% Cashmere.&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308969114&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/6b/62/6b6296c03a731f65f07187503f36e310_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/6b/62/6b6296c03a731f65f07187503f36e310_medium/banana-republic-cashmere-sweaters-silkcottoncashmere-striped-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/6b/62/6b6296c03a731f65f07187503f36e310/banana-republic-cashmere-sweaters-silkcottoncashmere-striped-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>Toffee</Name>
+</Color>
+<Color>
+<Name>Navy heather</Name>
+</Color>
+<Color>
+<Name>Grey heather</Name>
+</Color>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-cashmere-sweaters</Category>
+<Category>mens-cotton-sweaters</Category>
+<CategoryName>Cashmere Sweaters</CategoryName>
+<CategoryName>Cotton Sweaters</CategoryName>
+<SeeMoreLabel>Cashmere Sweaters by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cashmere-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-03</ExtractDate>
+</Product>
+<Product>
+<Id>314957615</Id>
+<Name>Extra-fine merino tipped cardigan</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;60% Extra-Fine Merino Wool, 40% Acrylic.&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314957615&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/fb/be/fbbe220ccc8a35684c94778b03ef90e4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/fb/be/fbbe220ccc8a35684c94778b03ef90e4_medium/banana-republic-cardigans-zips-extrafine-merino-tipped-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/fb/be/fbbe220ccc8a35684c94778b03ef90e4/banana-republic-cardigans-zips-extrafine-merino-tipped-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>Charcoal heather</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>315301624</Id>
+<Name>Argyle cardigan</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;70% Cotton, 20% Nylon, 10% Silk.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Five button placket.&lt;/li&gt; &lt;li&gt;Rib-knit trim.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315301624&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/24/9a/249a45da6826a4323f9ca34533756938_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/24/9a/249a45da6826a4323f9ca34533756938_medium/banana-republic-cardigans-zips-argyle-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/24/9a/249a45da6826a4323f9ca34533756938/banana-republic-cardigans-zips-argyle-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>Light gray heather</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-22</ExtractDate>
+</Product>
+<Product>
+<Id>313657307</Id>
+<Name>Shawl-collar full-zip cardigan</Name>
+<Currency>USD</Currency>
+<Price>130.0</Price>
+<PriceLabel>$130.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;80% Extra-fine merino wool, 20% Nylon.&lt;/li&gt; &lt;li&gt;Hand wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Two-way, full-zip closure.&lt;/li&gt; &lt;li&gt;Two contrasting stripes above cuff.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=313657307&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/5c/16/5c169ddfa60d0a79ada7151c2369c71e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/5c/16/5c169ddfa60d0a79ada7151c2369c71e_medium/banana-republic-cardigans-zips-shawlcollar-fullzip-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/5c/16/5c169ddfa60d0a79ada7151c2369c71e/banana-republic-cardigans-zips-shawlcollar-fullzip-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>Grey heather</Name>
+</Color>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-17</ExtractDate>
+</Product>
+<Product>
+<Id>308969469</Id>
+<Name>Four-snap half-zip sweater</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<SalePrice>65.99</SalePrice>
+<SalePriceLabel>$65.99</SalePriceLabel>
+<MaxSalePrice>69.99</MaxSalePrice>
+<MaxSalePriceLabel>$69.99</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;80% Extra-Fine Merino Wool., 20% Nylon..&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Half-zip, four-snap closure.&lt;/li&gt; &lt;li&gt;Mock neck.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308969469&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/90/1e/901e10c0909195ef051ed557aeef6afe_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/90/1e/901e10c0909195ef051ed557aeef6afe_medium/banana-republic-cardigans-zips-foursnap-halfzip-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/90/1e/901e10c0909195ef051ed557aeef6afe/banana-republic-cardigans-zips-foursnap-halfzip-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>Dark gray heather</Name>
+</Color>
+<Color>
+<Name>Brown</Name>
+</Color>
+<Color>
+<Name>Brinjal purple</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-03</ExtractDate>
+</Product>
+<Product>
+<Id>315976329</Id>
+<Name>Military style snap-front cardigan</Name>
+<Currency>USD</Currency>
+<Price>140.0</Price>
+<PriceLabel>$140.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;60% Extra-fine merino wool, 40% Acrylic.&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Shawl collar&lt;/li&gt; &lt;li&gt;Five-snap placket.&lt;/li&gt; &lt;li&gt;Angled welt pockets on chest. Snap-flap patch pockets on front.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315976329&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/59/8b/598bda36a77e01ea292a8c9d2f558be1_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/59/8b/598bda36a77e01ea292a8c9d2f558be1_medium/banana-republic-cardigans-zips-military-style-snapfront-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/59/8b/598bda36a77e01ea292a8c9d2f558be1/banana-republic-cardigans-zips-military-style-snapfront-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>Dark grey</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-24</ExtractDate>
+</Product>
+<Product>
+<Id>305988942</Id>
+<Name>Striped crewneck sweater</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<SalePrice>59.99</SalePrice>
+<SalePriceLabel>$59.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;50% Wool, 50% Acrylic.&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Crewneck.&lt;/li&gt; &lt;li&gt;Micro stripes alternate with solid stripes.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305988942&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/cd/fd/cdfde78d2d73d681c4479852631af5cc_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/cd/fd/cdfde78d2d73d681c4479852631af5cc_medium/banana-republic-crewnecks-vnecks-striped-crewneck-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/cd/fd/cdfde78d2d73d681c4479852631af5cc/banana-republic-crewnecks-vnecks-striped-crewneck-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>Dark grey</Name>
+</Color>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-crewneck-and-v-neck-sweaters</Category>
+<CategoryName>Crewnecks &amp; V-necks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; V-necks by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-crewneck-and-v-neck-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-23</ExtractDate>
+</Product>
+<Product>
+<Id>293218393</Id>
+<Name>Full-button graphic-striped cardigan</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<SalePrice>69.99</SalePrice>
+<SalePriceLabel>$69.99</SalePriceLabel>
+<MaxSalePrice>74.99</MaxSalePrice>
+<MaxSalePriceLabel>$74.99</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;80% Extra-fine merino wool, 20% Nylon.&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Traditional five-button closure.&lt;/li&gt; &lt;li&gt;Two contrasting stripes across chest.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=293218393&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2b/7f/2b7fb0564e9b1bac233f17f0af766464_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2b/7f/2b7fb0564e9b1bac233f17f0af766464_medium/banana-republic-cardigans-zips-fullbutton-graphicstriped-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2b/7f/2b7fb0564e9b1bac233f17f0af766464/banana-republic-cardigans-zips-fullbutton-graphicstriped-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>Natural linen</Name>
+</Color>
+<Color>
+<Name>Grey heather</Name>
+</Color>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-14</ExtractDate>
+</Product>
+<Product>
+<Id>293218409</Id>
+<Name>Cashmere chest-stripe cardigan</Name>
+<Currency>USD</Currency>
+<Price>350.0</Price>
+<PriceLabel>$350.00</PriceLabel>
+<SalePrice>299.99</SalePrice>
+<SalePriceLabel>$299.99</SalePriceLabel>
+<MaxSalePrice>349.99</MaxSalePrice>
+<MaxSalePriceLabel>$349.99</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cashmere.&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Shawl collar.&lt;/li&gt; &lt;li&gt;Five-button placket.&lt;/li&gt; &lt;li&gt;Contrasting stripe across chest.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=293218409&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/fd/dc/fddc1323d675b5e7cb195315cc61d1a7_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/fd/dc/fddc1323d675b5e7cb195315cc61d1a7_medium/banana-republic-cardigans-zips-cashmere-cheststripe-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/fd/dc/fddc1323d675b5e7cb195315cc61d1a7/banana-republic-cardigans-zips-cashmere-cheststripe-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>Navy</Name>
+</Color>
+<Color>
+<Name>Wine</Name>
+</Color>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<Category>mens-cashmere-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<CategoryName>Cashmere Sweaters</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-14</ExtractDate>
+</Product>
+<Product>
+<Id>281886705</Id>
+<Name>Full-button herringbone sweater</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;80% Extra-Fine Merino Wool., 20% Nylon..&lt;/li&gt; &lt;li&gt;Hand wash or dry clean.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview &lt;ul&gt; &lt;li&gt;Five-button placket.&lt;/li&gt; &lt;li&gt;Herringbone with solid-color sleeves and trim.&lt;/li&gt; &lt;li&gt;Made with Italian yarn.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=281886705&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e4/57/e4579706ae2374eae9cadd27bbb1da6d_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e4/57/e4579706ae2374eae9cadd27bbb1da6d_medium/banana-republic-sweaters-fullbutton-herringbone-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e4/57/e4579706ae2374eae9cadd27bbb1da6d/banana-republic-sweaters-fullbutton-herringbone-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>True navy</Name>
+</Color>
+<Size>
+<Name>XL</Name>
+</Size>
+<Category>mens-sweaters</Category>
+<CategoryName>Sweaters</CategoryName>
+<SeeMoreLabel>Sweaters by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-12</ExtractDate>
+</Product>
+<Product>
+<Id>274174936</Id>
+<Name>Merino v-neck sweater</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<SalePrice>39.99</SalePrice>
+<SalePriceLabel>$39.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Merino.&lt;/li&gt; &lt;li&gt;Hand wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=274174936&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/15/b5/15b5ec455635ee1adf3df43c23a381c9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/15/b5/15b5ec455635ee1adf3df43c23a381c9_medium/banana-republic-crewnecks-vnecks-merino-vneck-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/15/b5/15b5ec455635ee1adf3df43c23a381c9/banana-republic-crewnecks-vnecks-merino-vneck-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>Loden</Name>
+</Color>
+<Color>
+<Name>Camel</Name>
+</Color>
+<Color>
+<Name>Dark charcoal</Name>
+</Color>
+<Color>
+<Name>Dutch blue</Name>
+</Color>
+<Color>
+<Name>Marlin blue</Name>
+</Color>
+<Color>
+<Name>Dusty purple</Name>
+</Color>
+<Color>
+<Name>Toffee</Name>
+</Color>
+<Color>
+<Name>Black</Name>
+</Color>
+<Color>
+<Name>Bonnet blue</Name>
+</Color>
+<Color>
+<Name>Gray</Name>
+</Color>
+<Color>
+<Name>Deep eggplant</Name>
+</Color>
+<Color>
+<Name>Orange</Name>
+</Color>
+<Color>
+<Name>Bright wine</Name>
+</Color>
+<Size>
+<Name>XS</Name>
+</Size>
+<Size>
+<Name>S</Name>
+</Size>
+<Size>
+<Name>M</Name>
+</Size>
+<Size>
+<Name>L</Name>
+</Size>
+<Size>
+<Name>XL</Name>
+</Size>
+<Size>
+<Name>XXL</Name>
+</Size>
+<Category>mens-crewneck-and-v-neck-sweaters</Category>
+<CategoryName>Crewnecks &amp; V-necks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; V-necks by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-crewneck-and-v-neck-sweaters/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-21</ExtractDate>
+</Product>
+</SearchResult>
