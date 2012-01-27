@@ -15,6 +15,7 @@ from GChartWrapper import *
 from django.template import RequestContext
 from django.forms import ModelChoiceField, ChoiceField
 import copy
+import view_shelf
 
 item_list_results_hash_table = {}
 
@@ -707,8 +708,11 @@ def insert_product_in_wishlist_new(userid, matched_prod_obj):
         w.item = matched_prod_obj
         w.save()
         resp = "Added Item to Wishlist!"
+        print resp
+        view_shelf.apply_promo_store(userid, str(w.item.brand))
     else:
         resp = "Item already in Wishlist!"
+        print resp
     return w, resp
 
 def shelfit(request, d1, d2):

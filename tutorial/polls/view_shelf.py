@@ -55,33 +55,75 @@ items_per_cat = {}
 
 stores = ['Express', 'J.Crew']
 
+def find_shelf(userid, store_name):
+    itemlist = []
+    final_list = WishlistI.objects.filter(user_id=userid)
+    for wi in final_list:
+        if wi.item.brand.name == store_name:
+            catlist = CategoryModel.objects.filter(product=wi.item)
+            #print catlist
+            if catlist:
+                itemlist.append( {"store": str(wi.item.brand), 
+                                  "category": str(catlist[0].categoryName), 
+                                  "name": str(wi.item.name),
+                                  "price": float(wi.item.price),
+                                  "sale_price": float(wi.item.saleprice),
+                                  "item_idx": int(wi.item.idx)} )
+            else:
+                itemlist.append( {"store": str(wi.item.brand), 
+                                  "category": "None", 
+                                  "name": str(wi.item.name),
+                                  "price": float(wi.item.price),
+                                  "sale_price": float(wi.item.saleprice),
+                                  "item_idx": int(wi.item.idx)} )
+
+    return itemlist
+
 def find_shelf_store_based_for_user(userid):
     shelf_per_store = {}
     for brand_name in stores:
         selected_items[int(userid)] = []
-        itemlist = []
-        final_list = WishlistI.objects.filter(user_id=userid)
-        for wi in final_list:
-            if wi.item.brand.name == brand_name:
-                catlist = CategoryModel.objects.filter(product=wi.item)
-                #print catlist
-                if catlist:
-                    itemlist.append( {"store": str(wi.item.brand), 
-                                      "category": str(catlist[0].categoryName), 
-                                      "name": str(wi.item.name),
-                                      "price": float(wi.item.price),
-                                      "sale_price": float(wi.item.saleprice),
-                                      "item_idx": int(wi.item.idx)} )
-                else:
-                    itemlist.append( {"store": str(wi.item.brand), 
-                                      "category": "None", 
-                                      "name": str(wi.item.name),
-                                      "price": float(wi.item.price),
-                                      "sale_price": float(wi.item.saleprice),
-                                      "item_idx": int(wi.item.idx)} )
+        itemlist = find_shelf(userid, brand_name)
         shelf_per_store[brand_name] = itemlist
     return shelf_per_store
 
+
+def apply_promo_store(userid, store_name):
+    itemlist = find_shelf(userid, store_name)
+    num_items = len(itemlist)
+    print "Apply_promo: We have " + str(num_items) + " items in " + store_name + " shelf."
+    total_combinations = 1 << (num_items)
+    total_combinations -= 1
+    print "Total combination: " + str(total_combinations)
+    date_ = datetime.date.today()
+    promo_date = Promoinfo.objects.filter(d = date_)
+    if store_name == "Express":
+        i = 0
+    if store_name == "J.Crew":
+        i = 1
+    promo = promo_date.filter(store__id = i)
+
+    # for all possible combinations
+        # find the price by calling match.py
+        # upper bound is total_combinations+1 because we are starting with index 1
+        # and that is because we don't want to calculate discount for an empty wishlist
+        # which will happen when j = 0
+    
+    for j in range(1, total_combinations + 1):
+        wishlist = find_combination(itemlist, j)
+        cached_result, digest = check_if_combination_exists(wishlist)
+        if cached_result == None:
+            print "No, didn't find result for list " + str(j) + " in cache, so storing it"
+            orig_cost, total_cost, savings, shipping = match.match(store_name, date_, 
+                                                                   copy.deepcopy(wishlist), promo)
+            # store this result
+            new_result = StoreItemCombinationResults(combination_id = digest,
+                                                     price = orig_cost,
+                                                     saleprice = total_cost,
+                                                     free_shipping = shipping,)
+            new_result.save()
+
+    print "Done with apply_promo_store"
 # this function is used to find all combinations
 def find_combination(shelf, combination_id):
     result = []

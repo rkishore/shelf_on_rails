@@ -24,7 +24,9 @@ class JCrewSpider(CrawlSpider):
     all_items_scraped = set()
     count_scraped = 0
     urls_scraped = set()
-    
+    items_to_scrape = []
+    items_scraped = []
+    count = 0
     date = datetime.datetime.now()
     
     handle_httpstatus_list = [302]
@@ -32,26 +34,31 @@ class JCrewSpider(CrawlSpider):
     allowed_domains = ["jcrew.com"]
     #allowed_domains = ["express.com"]
     start_urls = [
-        "http://www.jcrew.com/index.jsp"
-        #"http://www.express.com/home.jsp"
+        #"http://www.jcrew.com/index.jsp"
+        #"http://www.jcrew.com/sale.jsp"
+        "http://www.jcrew.com/factory.jsp"
     ]
 
     rules = (
-    	     #Rule(SgmlLinkExtractor(allow=(r'index\.jsp$', ), unique=True), callback='parse_root', follow=True,
-             #     process_request='avoid_redirection'),
-             #Rule(SgmlLinkExtractor(allow=('http:\/\/www\.jcrew\.com\/[\w_]+\/[\w]+\.jsp',), unique=True), 
-             #     callback='parse_sub', process_links='process_links_sub', follow=True,
-             #     process_request='avoid_redirection'),
-    	     #Rule(SgmlLinkExtractor(allow=('^http:\/\/www\.jcrew\.com\/[\w_]+\/[\w_]+\/[\w_]+\/[\w_\d~]+\/[\w_\d]+\.jsp$',), unique=True), 
-             #     callback='parse_sub_sub', process_links='process_links_sub', follow=True, 
-             #     process_request='avoid_redirection'),
-             #Rule(SgmlLinkExtractor(allow=(r'http:\/\/www\.jcrew\.com\/',), unique=True), 
+             Rule(SgmlLinkExtractor(restrict_xpaths=('//td[@class="topBarBGsale"]//a[.="Next"] | //td[@class="topBarBGFactory"]//a[.="Next"]',)), 
+                  callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
+                  process_request='avoid_redirection'),
+             Rule(SgmlLinkExtractor(restrict_xpaths=('//tr[@id="ColorLinks"]//h2[@class="h2searchPage"]',)), 
+                  callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
+                  process_request='avoid_redirection'),
+             Rule(SgmlLinkExtractor(restrict_xpaths=('//a[@class="saleLink"]',)), 
+                  callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
+                  process_request='avoid_redirection'),
+             Rule(SgmlLinkExtractor(restrict_xpaths=('//td[@class="arrayImg"]',)), 
+                  callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
+                  process_request='avoid_redirection'),
+             Rule(SgmlLinkExtractor(restrict_xpaths=('//div[contains (@id,"nav")] | //div[contains (@class,"nav")]',)), 
+                  callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
+                  process_request='avoid_redirection'),
+             #Rule(SgmlLinkExtractor(), 
              #     callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
              #     process_request='avoid_redirection'),
-             Rule(SgmlLinkExtractor(), 
-                  callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
-                  process_request='avoid_redirection'),           
-            )
+             )
 
     # checks if tok is present in sub
     def _contains(self, sub, tok):
@@ -102,18 +109,21 @@ class JCrewSpider(CrawlSpider):
         # find category
         # find sub category
         url = response.url
-        print "Parse_sub_sub2:: URL: " + str(url) + " Size of response: " + str(len(str(response.body)))
+        print "Parse_sub_sub2:: " + str(self.count) + " URL: " + str(url) + " Size of response: " + str(len(str(response.body)))
         if self._contains(str(url), 'PRD'):
             print "USEFUL URL " + str(url) 
             self.parse_sub_sub(response)
+            
+        self.count += 1
         return []
             
     def parse_sub_sub(self, response):
         hxs = HtmlXPathSelector(response)
         title_path = hxs.select('//title/text()').extract()
+        
+        
                 
         self.count_scraped += 1
-        
         
         ''' 
         PLAYING NICE: sleeping for 3min after crawling every 100 pages
@@ -122,11 +132,11 @@ class JCrewSpider(CrawlSpider):
             sleep(3*60) # sleep for 3 mins
             
         prod_url = response.url
-        logging.critical("PRODUCT URL:" + str(prod_url) + " TITLE " + str(title_path))
-        
+        logging.critical("PRODUCT URL:" + str(prod_url) + " TITLE " + str(title_path) + " TOTAL SO FAR " + str(self.count_scraped))
+
         # find gender
         gender = 'M'
-        if prod_url.find('women') >= 0 or prod_url.find('girl') >= 0:
+        if prod_url.lower().find('women') >= 0 or prod_url.lower().find('girl') >= 0:
             gender = 'F'
         logging.critical("Gender: " + gender)
         
@@ -149,6 +159,12 @@ class JCrewSpider(CrawlSpider):
         # find price and sale price
         item_id_, price_, sale_price_ = self._find_price(hxs)
         
+        if item_id_ in self.items_scraped:
+            logging.critical("ITEM ALREADY SCRAPED " + str(item_id_) + ". RETURNING.")
+            return
+        else:
+            self.items_scraped.append(item_id_)
+            
         logging.critical("ITEM_ID " + str(item_id_) + " PRICE " + str(price_) + " SALE PRICE " + str(sale_price_))
         if price_ > sale_price_:
             logging.critical("SALE on ITEM_ID " + str(item_id_) + " PRICE " + str(price_) + " SALE PRICE " + str(sale_price_))
@@ -192,20 +208,39 @@ class JCrewSpider(CrawlSpider):
     def process_links_sub(self, links):
         # we avoid links that are un-necessary or wrong
         # for J.Crew
+        #print "Original links: " + str(links)
         result = set()
         for l in links:
             url = str(l.url)
-            if self._contains(url, 'catalog') or self._contains(url, 'help') or self._contains(url, 'footer') or self._contains(url, 'browse') or self._contains(url, 'search') or self._contains(url, 'include') or self._contains(url, 'footie'):
+            if self._contains(url, 'catalog') or self._contains(url, 'help') or self._contains(url, 'footer') or self._contains(url, 'browse') or self._contains(url, 'include') or self._contains(url, 'footie'):
                 continue
-            else:
-                result.add(l)
+            if self._contains(url, 'PRDOVR'):
+                item_id = self.find_itemid_in_url(url)
+                if item_id in self.items_scraped:
+                    continue
+                if item_id in self.items_to_scrape:
+                    continue
+                else:
+                    self.items_to_scrape.append(item_id)
             
+            result.add(l)
+        
+        #print "Filtered links: " + str(result)
         return result
 		
+    def find_itemid_in_url(self, url_str):
+        start = url_str.rfind('/')
+        end= url_str.rfind('.jsp')
+        itemid = url_str[start+1: end]
+        #print itemid
+        #raise SystemExit
+        return itemid
+
+
   
     def avoid_redirection(self, request):
         request.meta.update(dont_redirect=True)
-        request.meta.update(dont_filter=True)
+        #request.meta.update(dont_filter=True)
         return request
     
     def _create_product_item(self, name, prod_id, prod_url, price, saleprice, gender, img_url):
@@ -261,57 +296,25 @@ class JCrewSpider(CrawlSpider):
         _list = price_path.re(_regex)
         logging.critical(_list)
         
-        price = float(_list[0].strip('$').replace(',', ''))
+        '''
+        This assumes that the first element is a dollar amount and thus a price element.
+        However, it is not always true. So, we must start with an element that has a
+        dollar sign.
+        '''
+        for i in range(0, len(_list)):
+            if self._contains(_list[i], '$'):
+                break
+        
+        logging.critical("We found " + str(i) + " to have a $ sign")
+        price = float(_list[i].strip('$').replace(',', ''))
         sale_price = price
-        item_id = _list[1]
-        if self._contains(_list[1], '$'):
-            sale_price = float(_list[1].strip('$').replace(',',''))
-            item_id = _list[2]
+        item_id = _list[i+1]
+        if self._contains(_list[i+1], '$'):
+            sale_price = float(_list[i+1].strip('$').replace(',',''))
+            item_id = _list[i+2]
 
         return (item_id, price, sale_price)
         
         
         
-        '''
-        NOT USED RIGHT NOW
-        '''
-        # now get item_id and price from this 
-        # the price is the base price without sale
-        item_id = []
-        price = []
-        sale_price = []
-
-        for item in items_u:
-            if self._contains(item, '$'):
-                item2 = item.strip('$').replace(',', '')
-                price.append(item2)
-                sale_price.append(item2)
-            else:
-                item_id.append(item)
-                self.all_items_scraped.add(item)
-
-            
-        # this array contains the current price of the item
-        # and associated item_id
-        # using both these arrays, we can figure out if an item is on sale
-        item_options_path = hxs.select('//input[contains (@onclick, "send")]')
-        item_options = item_options_path.extract()
-        selection_exp = '[\d]+[,\.\d]*'
-        selection_regex = re.compile(selection_exp)
-        selections_u = item_options_path.re(selection_regex)
-        num_selections = len(selections_u)/4
         
-        
-        logging.critical("Selections: " + str(selections_u) + " size " + str(len(selections_u)/4) + " sale_price size " + str(len(sale_price)))
-        
-        item_id_selection = []
-
-        # first element = item_id, second_element = price        
-        for j in range(0, num_selections):
-            slot = j*4
-            logging.critical("Index: " + str(j) + " slot " + str(slot) + " len(selections_u) " + str(len(selections_u)))
-            item_id_selection.append(selections_u[slot])
-            sale_price[j] = selections_u[slot +1]
-        
-        for j in range(0, len(sale_price)):
-            logging.critical("Price: " + str(price[j]) + " Sale Price " + str(sale_price[j]) + " Item " + str(item_id[j]))
