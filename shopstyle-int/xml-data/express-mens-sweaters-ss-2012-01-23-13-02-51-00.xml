@@ -1,0 +1,864 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>mens-sweaters</Category>
+<CategoryName>Sweaters</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>13342</Id>
+<Name>Express</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>14</TotalCount>
+<Product>
+<Id>310459811</Id>
+<Name>Armband Stripes Cardigan</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>This soft, cotton cardigan is the perfect throw-on-and-go style you need. With armband stripes on both sleeves and an Express patch on the hip, it's a stylish way to finish off any look. &lt;ul&gt; &lt;li&gt;V-neck&lt;/li&gt; &lt;li&gt;5-button closure&lt;/li&gt; &lt;li&gt;Banded long sleeves with armband stripes&lt;/li&gt; &lt;li&gt;Banded hem, hand pockets&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=310459811&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/34/66/34669f00e7d6c4a4b87fcfd6bb9ac1de_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/34/66/34669f00e7d6c4a4b87fcfd6bb9ac1de_medium/express-longsleeve-shirts-armband-stripes-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/34/66/34669f00e7d6c4a4b87fcfd6bb9ac1de/express-longsleeve-shirts-armband-stripes-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>CHALK</Name>
+</Color>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-longsleeve-shirts</Category>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Longsleeve Shirts</CategoryName>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Longsleeve Shirts by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-longsleeve-shirts/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-07</ExtractDate>
+</Product>
+<Product>
+<Id>312465214</Id>
+<Name>Striped Shawl Collar Cardigan</Name>
+<Currency>USD</Currency>
+<Price>118.0</Price>
+<PriceLabel>$118.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Made for the modern traditionalist, this varsity-striped shawl cardigan is one of our cornerstone pieces. A hefty cable knit, this sweater can double as an outerwear piece for a style that's timeless. &lt;ul&gt; &lt;li&gt;Striped shawl collar&lt;/li&gt; &lt;li&gt;Oversized button closure&lt;/li&gt; &lt;li&gt;Chunky cable knit&lt;/li&gt; &lt;li&gt;Ribbed cuffs and hem&lt;/li&gt; &lt;li&gt;60% Cotton/40% Acrylic&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=312465214&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/dd/bb/ddbb1a162a46230e22eea96a1dc1321a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/dd/bb/ddbb1a162a46230e22eea96a1dc1321a_medium/express-cardigans-zips-striped-shawl-collar-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/dd/bb/ddbb1a162a46230e22eea96a1dc1321a/express-cardigans-zips-striped-shawl-collar-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>OFFICER</Name>
+</Color>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-13</ExtractDate>
+</Product>
+<Product>
+<Id>308651370</Id>
+<Name>Double Layer V-Neck Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A timeless v-neck pullover in soft, comfortable cotton. With a ribbed setting on the shoulders and back and an exposed raw seam on the sides and sleeves, it's a modern twist to a classic must have. &lt;ul&gt; &lt;li&gt;Double layer v-neck&lt;/li&gt; &lt;li&gt;Ribbed setting on shoulders and back&lt;/li&gt; &lt;li&gt;Exposed raw seam on sides and sleeves&lt;/li&gt; &lt;li&gt;Ribbed trim on neckline, cuffs and waistband&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308651370&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/03/d7/03d7c492ec97ef693f20bddb4a9e2e55_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/03/d7/03d7c492ec97ef693f20bddb4a9e2e55_medium/express-crewnecks-vnecks-double-layer-vneck-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/03/d7/03d7c492ec97ef693f20bddb4a9e2e55/express-crewnecks-vnecks-double-layer-vneck-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>RED ALERT</Name>
+</Color>
+<Color>
+<Name>CHALK</Name>
+</Color>
+<Color>
+<Name>LT GRAY HEATHER</Name>
+</Color>
+<Color>
+<Name>OFFICER</Name>
+</Color>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-crewneck-and-v-neck-sweaters</Category>
+<CategoryName>Crewnecks &amp; V-necks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; V-necks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-crewneck-and-v-neck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-01</ExtractDate>
+</Product>
+<Product>
+<Id>308650094</Id>
+<Name>Rugby Stripe V-Neck Sweater</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Pure comfort. Bold stripes. Effortless style. Add a new favorite to your casual wardrobe with a cotton v-neck sweater. A must-have layering essential. &lt;ul&gt; &lt;li&gt;Tipped v-neck collar&lt;/li&gt; &lt;li&gt;Ribbed neckline, cuffs and hem&lt;/li&gt; &lt;li&gt;Bold, rugby stripes&lt;/li&gt; &lt;li&gt;Long sleeves&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308650094&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/65/d9/65d9ccbfc00da83ba909611a8150ce76_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/65/d9/65d9ccbfc00da83ba909611a8150ce76_medium/express-crewnecks-vnecks-rugby-stripe-vneck-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/65/d9/65d9ccbfc00da83ba909611a8150ce76/express-crewnecks-vnecks-rugby-stripe-vneck-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>RED ALERT</Name>
+</Color>
+<Color>
+<Name>LT GRAY HEATHER</Name>
+</Color>
+<Color>
+<Name>OFFICER</Name>
+</Color>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-crewneck-and-v-neck-sweaters</Category>
+<CategoryName>Crewnecks &amp; V-necks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; V-necks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-crewneck-and-v-neck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-01</ExtractDate>
+</Product>
+<Product>
+<Id>305893058</Id>
+<Name>Double Breasted Cotton Cardigan</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>This double breasted cardigan sweater was built for layering. Sport an edgy, rugged look with textured rib detail on the shoulders, back and collar and an extra wide placket. &lt;ul&gt; &lt;li&gt;Shawl collar, extra wide placket&lt;/li&gt; &lt;li&gt;Rib details on shoulder, back &amp; collar&lt;/li&gt; &lt;li&gt;Double breasted button closure&lt;/li&gt; &lt;li&gt;Side slant hand pockets&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305893058&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/10/34/1034f2f1df63efb84cd9f886ba7e00d4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/10/34/1034f2f1df63efb84cd9f886ba7e00d4_medium/express-cardigans-zips-plaited-double-breasted-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/10/34/1034f2f1df63efb84cd9f886ba7e00d4/express-cardigans-zips-plaited-double-breasted-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-20</ExtractDate>
+</Product>
+<Product>
+<Id>304119565</Id>
+<Name>Rugby Stripe Tipped Cardigan</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A bold stripe for the rugged type. This color-tipped cardigan deserves a priority place in every man's wardrobe. &lt;ul&gt; &lt;li&gt;V-neck&lt;/li&gt; &lt;li&gt;5-button closure&lt;/li&gt; &lt;li&gt;Tipped placket&lt;/li&gt; &lt;li&gt;Embroidered lion logo, number patch at arm&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=304119565&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/97/19/97193b03af04abf5fbc07242269be703_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/97/19/97193b03af04abf5fbc07242269be703_medium/express-cardigans-zips-rugby-stripe-tipped-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/97/19/97193b03af04abf5fbc07242269be703/express-cardigans-zips-rugby-stripe-tipped-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>CINNABAR</Name>
+</Color>
+<Color>
+<Name>OFFICER</Name>
+</Color>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-16</ExtractDate>
+</Product>
+<Product>
+<Id>303493412</Id>
+<Name>Slub Cotton Cardigan Sweater</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Pure cotton perfection. Made-to-layer style. And oh-so-comfy. Add a layer of sophistication to your style with this v-neck cardigan. &lt;ul&gt; &lt;li&gt;V-neck&lt;/li&gt; &lt;li&gt;5-button closure&lt;/li&gt; &lt;li&gt;Ribbed collar, placket, cuffs and hem&lt;/li&gt; &lt;li&gt;Express patch at hip&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303493412&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/45/ea/45ea0f0b090a813631044a3b6686e485_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/45/ea/45ea0f0b090a813631044a3b6686e485_medium/express-cardigans-zips-slub-cotton-cardigan-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/45/ea/45ea0f0b090a813631044a3b6686e485/express-cardigans-zips-slub-cotton-cardigan-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY HEATHER</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<Category>mens-cotton-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<CategoryName>Cotton Sweaters</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-14</ExtractDate>
+</Product>
+<Product>
+<Id>299015440</Id>
+<Name>Chronograph Leather Strap Watch - Brown</Name>
+<Currency>USD</Currency>
+<Price>128.0</Price>
+<PriceLabel>$128.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A traditional style with a multi-functional face gives you a look that's truly timeless. The crocodile-pattern leather strap and silver-toned details make this piece right for day or night. &lt;ul&gt; &lt;li&gt;Case size: 44mm, Quartz Analog Japanese Movement&lt;/li&gt; &lt;li&gt;Chronograph face, stop watch feature on side&lt;/li&gt; &lt;li&gt;Leather strap, adjustable buckle&lt;/li&gt; &lt;li&gt;Nickle-free, lead free, hypoallergenic&lt;/li&gt; &lt;li&gt;Water resistant: 3 ATM/30 meters&lt;/li&gt; &lt;li&gt;2 year limited warranty&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=299015440&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/07/78/0778634a62c1d1276e39770560dd4936_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/07/78/0778634a62c1d1276e39770560dd4936_medium/express-watches-chronograph-leather-strap-watch-brown.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/07/78/0778634a62c1d1276e39770560dd4936/express-watches-chronograph-leather-strap-watch-brown.jpg</Url>
+</Image>
+<Color>
+<Name>BROWN</Name>
+</Color>
+<Category>mens-watches</Category>
+<Category>mens-sweaters</Category>
+<Category>mens-jeans</Category>
+<CategoryName>Watches</CategoryName>
+<CategoryName>Sweaters</CategoryName>
+<CategoryName>Jeans</CategoryName>
+<SeeMoreLabel>Watches by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-watches/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>299015448</Id>
+<Name>Chronograph Resin Bracelet Watch</Name>
+<Currency>USD</Currency>
+<Price>128.0</Price>
+<PriceLabel>$128.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Lighten up your look with smooth, white resin. Silver-tone details and luminous hour markers make this luxurious timepiece a serious yet simply-styled watch.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Watch case: 44mm, Quartz Analog Japanese Movement&lt;/li&gt;
+                     		&lt;li&gt;Chronograph face with date, stop watch function&lt;/li&gt;
+                     		&lt;li&gt;Fold-over clasp closure with push-button release&lt;/li&gt;
+                     		&lt;li&gt;Nickle-free, lead free, hypoallergenic&lt;/li&gt;
+                     		&lt;li&gt;Water resistant: 3 ATM/30 meters&lt;/li&gt;
+                     		&lt;li&gt;2 year limited warranty&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=299015448&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/cd/83/cd834ad8d01573c60c21552114983aa1_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/cd/83/cd834ad8d01573c60c21552114983aa1_medium/express-watches-chronograph-resin-bracelet-watch.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/cd/83/cd834ad8d01573c60c21552114983aa1/express-watches-chronograph-resin-bracelet-watch.jpg</Url>
+</Image>
+<Color>
+<Name>PURE WHITE</Name>
+</Color>
+<Category>mens-watches</Category>
+<Category>mens-sweaters</Category>
+<Category>mens-jeans</Category>
+<CategoryName>Watches</CategoryName>
+<CategoryName>Sweaters</CategoryName>
+<CategoryName>Jeans</CategoryName>
+<SeeMoreLabel>Watches by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-watches/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>288739982</Id>
+<Name>Cotton V-Neck Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<MaxPrice>59.9</MaxPrice>
+<MaxPriceLabel>$59.90</MaxPriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A timeless v-neck pullover in pure, soft cotton. A classic look that's a staple for every man's wardrobe. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;V-neck&lt;/li&gt; &lt;li&gt;Ribbed trim on neckline, cuffs and waistband&lt;/li&gt; &lt;li&gt;Long sleeves&lt;/li&gt; &lt;li&gt;Express patch at hip&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=288739982&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0b/61/0b6196515dc47d5d2c5927ae167ba7d6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0b/61/0b6196515dc47d5d2c5927ae167ba7d6_medium/express-cotton-sweaters-cotton-vneck-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0b/61/0b6196515dc47d5d2c5927ae167ba7d6/express-cotton-sweaters-cotton-vneck-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>BLUE FIN</Name>
+</Color>
+<Color>
+<Name>CRYSTAL GRAY</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-cotton-sweaters</Category>
+<Category>mens-crewneck-and-v-neck-sweaters</Category>
+<CategoryName>Cotton Sweaters</CategoryName>
+<CategoryName>Crewnecks &amp; V-necks</CategoryName>
+<SeeMoreLabel>Cotton Sweaters by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cotton-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-30</ExtractDate>
+</Product>
+<Product>
+<Id>288740019</Id>
+<Name>Silk Tie - Plaid</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>One hundred percent pure silk. Expertly tailored. Our standard size tie is the perfect finishing touch. &lt;ul&gt; &lt;li&gt;3 3/8" wide&lt;/li&gt; &lt;li&gt;100% Silk&lt;/li&gt; &lt;li&gt;Dry clean only&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=288740019&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ac/2d/ac2d78c43f516be7146bbacaa80198e6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ac/2d/ac2d78c43f516be7146bbacaa80198e6_medium/express-sweaters-silk-tie-plaid.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ac/2d/ac2d78c43f516be7146bbacaa80198e6/express-sweaters-silk-tie-plaid.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>EASTERN RED</Name>
+</Color>
+<Color>
+<Name>COBALT BLUE</Name>
+</Color>
+<Color>
+<Name>RASPBERRY</Name>
+</Color>
+<Category>mens-sweaters</Category>
+<Category>mens-ties</Category>
+<CategoryName>Sweaters</CategoryName>
+<CategoryName>Ties</CategoryName>
+<SeeMoreLabel>Sweaters by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-30</ExtractDate>
+</Product>
+<Product>
+<Id>271650218</Id>
+<Name>Italian Merino Wool V-Neck Sweater</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Stock up on cool-weather style with made-to-layer Italian Merino Wool sweaters in classic colors. Your go-to option for this season's smoothest layered look. &lt;ul&gt; &lt;li&gt;100% Italian Merino Wool&lt;/li&gt; &lt;li&gt;V-neck&lt;/li&gt; &lt;li&gt;Ribbed trim on neckline, cuffs and waistband&lt;/li&gt; &lt;li&gt;Long sleeves&lt;/li&gt; &lt;li&gt;Dry clean only&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=271650218&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/46/68/466809fd82e691f57bd107de3c6cba26_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/46/68/466809fd82e691f57bd107de3c6cba26_medium/express-crewnecks-vnecks-italian-merino-wool-vneck-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/46/68/466809fd82e691f57bd107de3c6cba26/express-crewnecks-vnecks-italian-merino-wool-vneck-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>TURQUOISE</Name>
+</Color>
+<Color>
+<Name>GRAY JASPE</Name>
+</Color>
+<Color>
+<Name>CONCORD</Name>
+</Color>
+<Color>
+<Name>LT GRAY HEATHER</Name>
+</Color>
+<Color>
+<Name>GRAY HEATHER</Name>
+</Color>
+<Color>
+<Name>BURNT ORANGE</Name>
+</Color>
+<Color>
+<Name>LIGHT BLUE</Name>
+</Color>
+<Color>
+<Name>HERB GREEN</Name>
+</Color>
+<Color>
+<Name>JUBILEE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-crewneck-and-v-neck-sweaters</Category>
+<Category>mens-wool-sweaters</Category>
+<CategoryName>Crewnecks &amp; V-necks</CategoryName>
+<CategoryName>Wool Sweaters</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; V-necks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-crewneck-and-v-neck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-12</ExtractDate>
+</Product>
+<Product>
+<Id>261833760</Id>
+<Name>Quarter-Zip Mock-Neck Sweater</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A streamlined fit and pure cotton comfort make this your go-to ribbed sweater for casual, cool-weather days. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Mock neck&lt;/li&gt; &lt;li&gt;Quarter zip&lt;/li&gt; &lt;li&gt;Ribbed&lt;/li&gt; &lt;li&gt;Long sleeves&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=261833760&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/65/ef/65ef26780de5ca3658a19b490a38766b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/65/ef/65ef26780de5ca3658a19b490a38766b_medium/express-cardigans-zips-quarterzip-mockneck-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/65/ef/65ef26780de5ca3658a19b490a38766b/express-cardigans-zips-quarterzip-mockneck-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>GRAY HEATHER</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-cardigan-sweaters</Category>
+<CategoryName>Cardigans &amp; Zips</CategoryName>
+<SeeMoreLabel>Cardigans &amp; Zips by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-15</ExtractDate>
+</Product>
+<Product>
+<Id>261834348</Id>
+<Name>Cotton V-Neck Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A timeless v-neck pullover in pure, soft cotton. A classic look that's a staple for every man's wardrobe. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;V-neck&lt;/li&gt; &lt;li&gt;Ribbed trim on neckline, cuffs and waistband&lt;/li&gt; &lt;li&gt;Embroidered lion logo&lt;/li&gt; &lt;li&gt;Long sleeves&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=261834348&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/50/4f/504f3fd1a3d5da65139cc1fb88385eb9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/50/4f/504f3fd1a3d5da65139cc1fb88385eb9_medium/express-cotton-sweaters-cotton-vneck-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/50/4f/504f3fd1a3d5da65139cc1fb88385eb9/express-cotton-sweaters-cotton-vneck-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>GRAY HEATHER</Name>
+</Color>
+<Color>
+<Name>BOLD VIOLET</Name>
+</Color>
+<Color>
+<Name>RED ALERT</Name>
+</Color>
+<Color>
+<Name>CHALK</Name>
+</Color>
+<Color>
+<Name>SCUBA</Name>
+</Color>
+<Color>
+<Name>CHARCOAL</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Size>
+<Name>X Large</Name>
+</Size>
+<Category>mens-cotton-sweaters</Category>
+<Category>mens-crewneck-and-v-neck-sweaters</Category>
+<CategoryName>Cotton Sweaters</CategoryName>
+<CategoryName>Crewnecks &amp; V-necks</CategoryName>
+<SeeMoreLabel>Cotton Sweaters by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cotton-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-15</ExtractDate>
+</Product>
+</SearchResult>
