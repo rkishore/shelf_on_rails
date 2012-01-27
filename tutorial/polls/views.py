@@ -4,7 +4,7 @@ import datetime, urllib
 from django.views.generic import list_detail
 from django.shortcuts import render_to_response
 from django import forms
-from polls.models import Promoinfo, Items, Brands, Categories, ProductModel, CategoryModel, ColorSizeModel, WishlistM, WishlistI, SSItemStats
+from polls.models import Promoinfo, Items, Brands, Categories, ProductModel, CategoryModel, ColorSizeModel, WishlistM, WishlistI, SSItemStats, UserIdMap
 from django.db.models import Avg, Max, Min, Count
 import match
 import promotion
@@ -32,6 +32,7 @@ GENDER_CHOICES = (
 
 ### Shelfit dummy wishlist id to integrate with existing code ####
 selected_items_id_list[112] = []
+highest_user_id = 1
 
 ######## Visualization Sample Code #############
 import gviz_api
@@ -258,6 +259,21 @@ def stats_update_db(request):
 
 def stats_plot_from_db(request):
     
+    try:
+        ipaddr_csv = request.META['REMOTE_ADDR']    
+    except KeyError:
+        ipaddr = 'unknown'       
+        return HttpResponse('<p>Oops - your elf has gone shopping! Please try again later while we ask her to get back to work.</p>')
+    else:
+        print ipaddr_csv
+        ipaddr = ipaddr_csv.split(',')[0]
+        uid_obj = UserIdMap.objects.filter(ip_addr=ipaddr)
+        print uid_obj
+        if (uid_obj):
+            userid = uid_obj[0].user_id
+
+    print userid
+
     price_select_metrics = {'average': 0, 'max': 1, 'min': 2, 'median': 3, 'q75': 4, 'q25': 5}
     
     br_info = Brands.objects.all()
@@ -315,7 +331,7 @@ def stats_plot_from_db(request):
                                                      'json2': json_str1['fcnt'], 
                                                      'json3': json_str3,
                                                      'json4': json_str4,
-                                                     }) 
+                                                     'uid': userid}) 
     #return HttpResponse('OK')
 
 def get_barplot_jsonstr(data_table, data_arr):    
@@ -700,11 +716,15 @@ def old_wishlist_table(prod_arr):
     return final_list, selected_items
 
 def insert_product_in_wishlist_new(userid, matched_prod_obj):
+    
+    # Get UserId object. This should not fail as the userid is created on the home page
+    u = UserIdMap.objects.get(user_id=userid)
+    
     # Check if item already in database
-    w = WishlistI.objects.filter(user_id=userid).filter(item=matched_prod_obj)
+    w = WishlistI.objects.filter(user_id=u).filter(item=matched_prod_obj)
     if not w:
         w = WishlistI()
-        w.user_id = userid
+        w.user_id = u
         w.item = matched_prod_obj
         w.save()
         resp = "Added Item to Wishlist!"
@@ -729,69 +749,76 @@ def shelfit(request, d1, d2):
         
         # Get item ID and brand name
         spl1 = prod_url.split("/")
-        brand_name = spl1[2].split(".")[1]
-        prod_id = -111
-        prod_info = []
-        for i in range(3, len(spl1)):
-            if (brand_name == "express"): 
-                prod_info = spl1[i].split("-")
-            elif (brand_name == "jcrew"):
-                prod_info = spl1[i].split("~")
-            print prod_info
-            for i in prod_info:
-                try:
-                    prod_id = int(i)
-                except ValueError:
-                    pass
-                else:
-                    break
-            if (prod_id > 0):
-                break
-    
-        if (((brand_name == "express") or (brand_name == "jcrew")) and 
-            (prod_id > 0)):
-            
-            # Find product in database
-            prod_arr = ProductModel.objects.filter(idx=prod_id)
-            
-            if prod_arr:
-                print userid, prod_arr[0].idx
-            
-                # Add product to wishlist
-                w, resp = insert_product_in_wishlist_new(userid, prod_arr[0])
-        
-                # From show_selected_items_new
-                wishlist_id_ = 112
-                selected_items[int(wishlist_id_)] = []
-                itemlist = []
-                final_list = WishlistI.objects.filter(item=prod_arr[0])
-                for wi in final_list:
-                    catlist = CategoryModel.objects.filter(product=wi)
-                    if catlist:
-                        itemlist.append( {"store": str(wi.item.brand), 
-                                          "category": str(catlist[0].categoryName), 
-                                          "name": str(wi.item.name),
-                                          "price": float(wi.item.price),
-                                          "sale_price": float(wi.item.saleprice)} )
-                    else:
-                        itemlist.append( {"store": str(wi.item.brand), 
-                                          "category": "None", 
-                                          "name": str(wi.item.name),
-                                          "price": float(wi.item.price),
-                                          "sale_price": float(wi.item.saleprice)} )
-                
-                selected_items[int(wishlist_id_)] = itemlist
-                return list_detail.object_list(request,
-                                               queryset = final_list,
-                                               template_name = "items_table2.html",
-                                               extra_context = {'selected_items' : True, 'curresp' : resp, 'num_selected' : len(final_list), 'uid': userid} )
-            else:
-                return HttpResponse('<p>We are unable to add this item to your shelf. Please check back again later.</p><p><strong>We really appreciate your patronage!</strong></p>')
+        brand_name_arr = spl1[2].split(".")
+        print len(brand_name_arr)
+        if not len(brand_name_arr) > 1:
+            return HttpResponse('<p>Please choose products from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>.</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
         else:
-            if not ((brand_name == "express") or (brand_name == "jcrew")):
-                return HttpResponse('<p>Please choose products from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>.</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
+            brand_name = brand_name_arr[1]
+        
+            prod_id = -111
+            prod_info = []
+            for i in range(3, len(spl1)):
+                if (brand_name == "express"): 
+                    prod_info = spl1[i].split("-")
+                elif (brand_name == "jcrew"):
+                    prod_info = spl1[i].split("~")
+                print prod_info
+                for i in prod_info:
+                    try:
+                        prod_id = int(i)
+                    except ValueError:
+                        pass
+                    else:
+                        break
+                if (prod_id > 0):
+                    break
+        
+            if (((brand_name == "express") or (brand_name == "jcrew")) and 
+                (prod_id > 0)):
+                
+                # Find product in database
+                prod_arr = ProductModel.objects.filter(idx=prod_id)
+                
+                if prod_arr:
+                    print userid, prod_arr[0].idx
+                
+                    # Add product to wishlist
+                    w, resp = insert_product_in_wishlist_new(userid, prod_arr[0])
+            
+                    # From show_selected_items_new
+                    wishlist_id_ = 112
+                    selected_items[int(wishlist_id_)] = []
+                    itemlist = []
+                    uid_obj = UserIdMap.objects.get(user_id=userid)
+                    final_list = WishlistI.objects.filter(item=prod_arr[0]).filter(user_id=uid_obj)
+                    for wi in final_list:
+                        catlist = CategoryModel.objects.filter(product=wi)
+                        if catlist:
+                            itemlist.append( {"store": str(wi.item.brand), 
+                                              "category": str(catlist[0].categoryName), 
+                                              "name": str(wi.item.name),
+                                              "price": float(wi.item.price),
+                                              "sale_price": float(wi.item.saleprice)} )
+                        else:
+                            itemlist.append( {"store": str(wi.item.brand), 
+                                              "category": "None", 
+                                              "name": str(wi.item.name),
+                                              "price": float(wi.item.price),
+                                              "sale_price": float(wi.item.saleprice)} )
+                    
+                    selected_items[int(wishlist_id_)] = itemlist
+                    return list_detail.object_list(request,
+                                                   queryset = final_list,
+                                                   template_name = "items_table2.html",
+                                                   extra_context = {'selected_items' : True, 'curresp' : resp, 'num_selected' : len(final_list), 'uid': userid} )
+                else:
+                    return HttpResponse('<p>We are unable to add this item to your shelf. Please check back again later.</p><p><strong>We really appreciate your patronage!</strong></p>')
             else:
-                return HttpResponse('<p>Please choose products from a valid product page (from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>).</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
+                if not ((brand_name == "express") or (brand_name == "jcrew")):
+                    return HttpResponse('<p>Please choose products from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>.</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
+                else:
+                    return HttpResponse('<p>Please choose products from a valid product page (from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>).</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
     else:
         return HttpResponse('Please choose products from a valid product page (from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>).</p><p>We are in the process of adding more stores.</p><p><strong>Thank you for bearing with us (in the meanwhile). We really appreciate your patronage!</strong></p>')
 
@@ -857,6 +884,7 @@ def yourshelf_concise(request, d1, d2):
         # Get Info brand-wise
         selected_items[int(userid)] = []
         itemlist = []
+        u = UserIdMap.objects.get(user_id=userid)
         final_list = WishlistI.objects.filter(user_id=userid)
         br_list1 = WishlistI.objects.none()
         br_list2 = WishlistI.objects.none()
@@ -975,23 +1003,23 @@ def yourshelf_concise(request, d1, d2):
     of knowing...need support for sessions, users and registration. 
 '''
 def add_shelfit_bmarklet(request):
-    
+
     # Get existing user IDs
-    w_qs = WishlistI.objects.values('user_id').distinct()
-    len_qs = len(w_qs)
-    last_uid = w_qs[len_qs-1]['user_id']
+    u_qs = UserIdMap.objects.values('user_id').distinct()
+    len_qs = len(u_qs)
+    last_uid = u_qs[len_qs-1]['user_id']
     new_uid = last_uid + 1
     
     html = '<p class="description">Drag-and-drop the following link to your bookmarks bar or right click it and add it to your favorites for a posting shortcut.</p>'
     html += '<p class="pressthis"><a onclick="return false;" oncontextmenu="'
     html += 'if(window.navigator.userAgent.indexOf(\'WebKit\')!=-1) return false;" '
     html += 'href="javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,s=(e?e():(k)?k():(x?x.createRange().text:0)),'
-    html += 'f=\'http://shopelfify.com:8000/shelfit\',l=d.location,e=encodeURIComponent,'
+    html += 'f=\'http://:8000/shelfit\',l=d.location,e=encodeURIComponent,'
     html += 'u=f+\'?u=\'+e(l.href)+\'&t=' + str(new_uid) + '\';'
     html += 'a=function(){if(!w.open(u,\'t\',\'toolbar=0,resizable=1,scrollbars=1,status=1,width=720,height=570\'))l.href=u;};'
     html += 'if (/Firefox/.test(navigator.userAgent)) setTimeout(a, 0); else a();void(0)"><span>Shelf It!</span></a>'
     
-    html += '<p><a href=http://shopelfify.com:8000/viewyourshelf' + '/?u=' + str(new_uid) + '>Your Shelf</a></p>'
+    html += '<p><a href=http://:8000/viewyourshelf' + '/?u=' + str(new_uid) + '>Your Shelf</a></p>'
     #print html
    
     #html += '<br><p>Please open your Bookmarks manager to add a new bookmark. Type' 
@@ -1139,12 +1167,41 @@ class WishlistForm(forms.Form):
        
         print "Inside __init__: " + str(self.fields) + str(br_id)
     
+def display_meta(request):
+    values = request.META.items()
+    values.sort()
+    html = []
+    for k, v in values:
+        html.append('<tr><td>%s</td><td>%s</td></tr>' % (k, v))
+    return HttpResponse('<table>%s</table>' % '\n'.join(html))
+
 def home(request):
-     return render_to_response('home.html', {'uid':1})    
+    global highest_user_id
+    
+    try:
+        ipaddr_csv = request.META['REMOTE_ADDR']    
+    except KeyError:
+        ipaddr = 'unknown'       
+        return HttpResponse('<p>Oops - your elf has gone shopping! Please try again later while we ask her to get back to work.</p>')
+    else:
+        print ipaddr_csv
+        ipaddr = ipaddr_csv.split(',')[0]
+        uid_obj = UserIdMap.objects.filter(ip_addr=ipaddr)
+        if (uid_obj):
+            userid = uid_obj[0].user_id
+        else:
+            uid_all = UserIdMap.objects.all()
+            uid_new = UserIdMap()
+            uid_new.ip_addr = ipaddr
+            highest_user_id = len(uid_all) + 1
+            uid_new.user_id = highest_user_id # this should be randomly generated integer for security but need to ensure uniqueness first
+            uid_new.save()
+            userid = uid_new.user_id
+            
+    return render_to_response('home.html', {'uid':userid})    
 
 def create_wishlist(request):
     return render_to_response('create_wishlist.html')
-
 
 
 def view_promo(request):

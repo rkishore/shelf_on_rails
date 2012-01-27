@@ -3,7 +3,7 @@ import datetime, urllib
 from django.views.generic import list_detail
 from django.shortcuts import render_to_response
 from django import forms
-from polls.models import Promoinfo, Items, Brands, Categories, ProductModel, CategoryModel, ColorSizeModel, WishlistM, WishlistI
+from polls.models import Promoinfo, Items, Brands, Categories, ProductModel, CategoryModel, ColorSizeModel, WishlistM, WishlistI, UserIdMap
 from django.db.models import Avg, Max, Min, Count
 import match
 import promotion
@@ -16,6 +16,7 @@ from django.forms import ModelChoiceField, ChoiceField
 import copy
 import hashlib
 from django.core.exceptions import ObjectDoesNotExist
+from django.utils.encoding import smart_str, smart_unicode
 
 item_list_results_hash_table = {}
 
@@ -32,6 +33,7 @@ GENDER_CHOICES = (
 
 ### Testing ####
 selected_items_id_list[112] = []
+
 ######## Visualization Sample Code #############
 import gviz_api
 from django.db.models import F
@@ -82,7 +84,6 @@ def find_shelf(userid, store_name):
 def find_shelf_store_based_for_user(userid):
     shelf_per_store = {}
     for brand_name in stores:
-        selected_items[int(userid)] = []
         itemlist = find_shelf(userid, brand_name)
         shelf_per_store[brand_name] = itemlist
     return shelf_per_store
@@ -206,7 +207,7 @@ def apply_promo(request, d1, d2):
 
 
 def yourshelf_store_based(request, d1, d2):
-    print "Hello"
+    print 'In your_shelf_store_based'
     if 'u' in request.GET and request.GET['u']:# and (('s' in request.GET and request.GET['s']) or ('c' in request.GET and request.GET['c'])):
         
         # Get User ID
@@ -221,30 +222,35 @@ def yourshelf_store_based(request, d1, d2):
             print s
             selected_items[int(userid)] = []
             itemlist = []
-            final_list = WishlistI.objects.filter(user_id=userid)
-            br_list = WishlistI.objects.none()
-            for wi in final_list:
-                if wi.item.brand.name == brand_name:
-                    br_list = br_list | WishlistI.objects.filter(item=wi.item)
-                    catlist = CategoryModel.objects.filter(product=wi.item)
+            u = UserIdMap.objects.filter(user_id=userid)
+            if u: #HACK!!
+                print 'User ID: ', u[0].user_id, 'IP: ', u[0].ip_addr 
+                final_list = WishlistI.objects.filter(user_id=u[0])
+                br_list = WishlistI.objects.none()
+                for wi in final_list:
+                    if wi.item.brand.name == brand_name:
+                        br_list = br_list | final_list.filter(item=wi.item)
+                        catlist = CategoryModel.objects.filter(product=wi.item)
                     #print catlist
-                    if catlist:
-                        itemlist.append( {"store": str(wi.item.brand), 
-                                          "category": str(catlist[0].categoryName), 
-                                          "name": str(wi.item.name),
-                                          "price": float(wi.item.price),
-                                          "sale_price": float(wi.item.saleprice)} )
-                    else:
-                        itemlist.append( {"store": str(wi.item.brand), 
-                                          "category": "None", 
-                                          "name": str(wi.item.name),
-                                          "price": float(wi.item.price),
-                                          "sale_price": float(wi.item.saleprice)} )
-                shelf_per_store[s] = br_list
-                num_selected_per_store[s] = len(br_list)
-            selected_items[int(userid)] = itemlist
-            print shelf_per_store
-            
+                        if catlist:
+                            itemlist.append( {"store": smart_str(wi.item.brand), 
+                                              "category": smart_str(catlist[0].categoryName), 
+                                              "name": smart_str(wi.item.name),
+                                              "price": float(wi.item.price),
+                                              "sale_price": float(wi.item.saleprice)} )
+                        else:
+                            itemlist.append( {"store": smart_str(wi.item.brand), 
+                                              "category": "None", 
+                                              "name": smart_str(wi.item.name),
+                                              "price": float(wi.item.price),
+                                              "sale_price": float(wi.item.saleprice)} )
+                        shelf_per_store[s] = br_list
+                        num_selected_per_store[s] = len(br_list)
+                selected_items[int(userid)] = itemlist
+                print shelf_per_store
+            else:
+                return HttpResponse('Dear user: please login or create an account before accessing this page...')
+
             if not shelf_per_store:
                 shelf_per_store[stores[0]] = br_list
                 shelf_per_store[stores[1]] = br_list
@@ -270,7 +276,8 @@ def yourshelf_category_based(request, d1, d2):
         # Get Info brand-wise
         selected_items[int(userid)] = []
         itemlist = []
-        final_list = WishlistI.objects.filter(user_id=userid)
+        u = UserIdMap.objects.get(user_id=userid)
+        final_list = WishlistI.objects.filter(user_id=u)
         br_list1 = WishlistI.objects.none()
         br_list2 = WishlistI.objects.none()
         k=0
@@ -280,26 +287,26 @@ def yourshelf_category_based(request, d1, d2):
             catlist = CategoryModel.objects.filter(product=wi.item)
             #print catlist
             if catlist:
-                itemlist.append( {"store": str(wi.item.brand), 
+                itemlist.append( {"store": smart_str(wi.item.brand), 
                                   "category": str(catlist[0].categoryName), 
-                                  "name": str(wi.item.name),
+                                  "name": smart_str(wi.item.name),
                                   "price": float(wi.item.price),
                                   "sale_price": float(wi.item.saleprice)} )
             else:
-                itemlist.append( {"store": str(wi.item.brand), 
+                itemlist.append( {"store": smart_str(wi.item.brand), 
                                   "category": "None", 
-                                  "name": str(wi.item.name),
+                                  "name": smart_str(wi.item.name),
                                   "price": float(wi.item.price),
                                   "sale_price": float(wi.item.saleprice)} )
             
             if wi.item.brand.name == "Express":
-                tmpqset = WishlistI.objects.filter(item=wi.item)
+                tmpqset = final_list.filter(item=wi.item)
                 if len(tmpqset) > 1: 
                     br_list1 = br_list1 | tmpqset[0]
                 else:
                     br_list1 = br_list1 | tmpqset
             if wi.item.brand.name == "J.Crew":
-                tmpqset = WishlistI.objects.filter(item=wi.item)
+                tmpqset = final_list.filter(item=wi.item)
                 if len(tmpqset) > 1: 
                     br_list2 = br_list2 | tmpqset[0]
                 else:
@@ -317,6 +324,8 @@ def yourshelf_category_based(request, d1, d2):
                 pname = pname.replace('cardigan', 'sweater')
             elif ('hoodie' in pname):
                 pname = pname.replace('hoodie', 'sweater')
+            elif ('pullover' in pname):
+                pname = pname.replace('pullover', 'sweater')
             elif ('henley' in pname):
                 pname = pname.replace('henley', 't-shirt')
             elif (not 'dress' in pname) and (not 'skirt' in pname) and ('tee' in pname):
@@ -351,7 +360,7 @@ def yourshelf_category_based(request, d1, d2):
         for i in catlist:
             qs_arr[i] = WishlistI.objects.none()
             for j in itemidx[i]:
-               qs_arr[i] = qs_arr[i] | WishlistI.objects.filter(item=j)
+               qs_arr[i] = qs_arr[i] | WishlistI.objects.filter(user_id=u).filter(item=j)
     
         #print qs_arr
         items_per_cat[userid] = qs_arr

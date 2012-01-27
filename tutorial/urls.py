@@ -1,5 +1,6 @@
 from django.conf.urls.defaults import patterns, include, url
 
+from tutorial import settings
 from polls.models import Promoinfo, Items
 from django.views.generic import list_detail
 
@@ -13,8 +14,6 @@ items_info = {
               "template_name" : "items_list.html"
               #"template_object_name" : "something"
               }
-
-
 
 urlpatterns = patterns('',
     # Example:
@@ -62,5 +61,7 @@ urlpatterns = patterns('',
     (r'^view_promo/', 'polls.views.view_promo'),
     (r'^add_bookmarklet/', 'polls.views.add_shelfit_bmarklet'),
     (r'^statsup/$', 'polls.views.stats_update_db'),
-    (r'^statsplot/$', 'polls.views.stats_plot_from_db')
+    (r'^statsplot/$', 'polls.views.stats_plot_from_db'),
+    (r'^mymedia/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
+    (r'^display_meta/$', 'polls.views.display_meta'),
 )
