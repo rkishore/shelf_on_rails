@@ -13,12 +13,13 @@ from crawler.items import Category, ProductItem, ColorSizeItem, CategoryItem
 from tutorial.polls.models import Brands, ProductModel
 import os, errno
 from time import sleep
+import copy
 
 logging.basicConfig(format='%(message)s', level=logging.CRITICAL)
 
-class JCrewSpider(CrawlSpider):
-    name = "jcrew"
-    store_name = "J.Crew"
+class ExpressSpider(CrawlSpider):
+    name = "express"
+    store_name = "Express"
     HOME = "/Users/atulsingh/Documents/workspace2/"
     # stats
     all_items_scraped = set()
@@ -31,33 +32,29 @@ class JCrewSpider(CrawlSpider):
     
     handle_httpstatus_list = [302]
     
-    allowed_domains = ["jcrew.com"]
+    allowed_domains = ["express.com"]
     #allowed_domains = ["express.com"]
     start_urls = [
-        #"http://www.jcrew.com/index.jsp"
-        #"http://www.jcrew.com/sale.jsp"
-        "http://www.jcrew.com/factory.jsp"
+        "http://www.express.com/home.jsp"
+        #"http://www.express.com/1mx-shirts-800/control/show/12/index.cat"
     ]
 
     rules = (
-             Rule(SgmlLinkExtractor(restrict_xpaths=('//td[@class="topBarBGsale"]//a[.="Next"] | //td[@class="topBarBGFactory"]//a[.="Next"]',)), 
+             Rule(SgmlLinkExtractor(restrict_xpaths=('//td[@class="cat-glo-page-action"]//a[.="next"]',)), 
+                  callback='parse_sub_sub2', 
+                  process_links='process_links_sub', follow=True, 
+                  process_request='avoid_redirection'),
+             Rule(SgmlLinkExtractor(restrict_xpaths=('//div[@class="header-top"]',)), 
+                  callback='parse_sub_sub2', 
+                  process_links='process_links_sub', follow=True, 
+                  process_request='avoid_redirection'),
+             Rule(SgmlLinkExtractor(restrict_xpaths=('//div[@class="cat-thu-row cat-thu-row-all"] | //div[@class="cat-thu-row cat-thu-row-all"]',)), 
                   callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
                   process_request='avoid_redirection'),
-             Rule(SgmlLinkExtractor(restrict_xpaths=('//tr[@id="ColorLinks"]//h2[@class="h2searchPage"] | //tr[contains (@id, "Price")]//h2[@class="h2searchPage"]',)), 
-                  callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
+             Rule(SgmlLinkExtractor(restrict_xpaths=('//div[@id="glo-leftnav-container"]',)), 
+                  callback='parse_sub_sub2', 
+                  process_links='process_links_sub', follow=True, 
                   process_request='avoid_redirection'),
-             Rule(SgmlLinkExtractor(restrict_xpaths=('//a[@class="saleLink"]',)), 
-                  callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
-                  process_request='avoid_redirection'),
-             Rule(SgmlLinkExtractor(restrict_xpaths=('//td[@class="arrayImg"]',)), 
-                  callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
-                  process_request='avoid_redirection'),
-             Rule(SgmlLinkExtractor(restrict_xpaths=('//div[contains (@id,"nav")] | //div[contains (@class,"nav")]',)), 
-                  callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
-                  process_request='avoid_redirection'),
-             #Rule(SgmlLinkExtractor(), 
-             #     callback='parse_sub_sub2', process_links='process_links_sub', follow=True, 
-             #     process_request='avoid_redirection'),
              )
 
     # checks if tok is present in sub
@@ -110,7 +107,7 @@ class JCrewSpider(CrawlSpider):
         # find sub category
         url = response.url
         print "Parse_sub_sub2:: " + str(self.count) + " URL: " + str(url) + " Size of response: " + str(len(str(response.body)))
-        if self._contains(str(url), 'PRD'):
+        if self._contains(str(url), '/index.pro'):
             print "USEFUL URL " + str(url) 
             self.parse_sub_sub(response)
             
@@ -126,10 +123,10 @@ class JCrewSpider(CrawlSpider):
         self.count_scraped += 1
         
         ''' 
-        PLAYING NICE: sleeping for 3min after crawling every 100 pages
+        PLAYING NICE: sleeping for 1min after crawling every 100 pages
         '''
         if self.count_scraped % 100 == 0:
-            sleep(3*60) # sleep for 3 mins
+            sleep(0) # sleep for 1 mins for express
             
         prod_url = response.url
         logging.critical("PRODUCT URL:" + str(prod_url) + " TITLE " + str(title_path) + " TOTAL SO FAR " + str(self.count_scraped))
@@ -141,7 +138,7 @@ class JCrewSpider(CrawlSpider):
         logging.critical("Gender: " + gender)
         
         # find name of item
-        item_name_path = hxs.select('//h1[contains (@class, "prodtitle")]/text()')
+        item_name_path = hxs.select('//div[@id="cat-pro-con-detail"]//h1/text()')
         item_name = item_name_path.extract()
         logging.critical("Name: " + str(item_name))
         
@@ -157,7 +154,7 @@ class JCrewSpider(CrawlSpider):
             return []
         
         # find price and sale price
-        item_id_, price_, sale_price_ = self._find_price(hxs)
+        item_id_, price_, sale_price_ = self._find_price(hxs, prod_url)
         
         if item_id_ in self.items_scraped:
             logging.critical("ITEM ALREADY SCRAPED " + str(item_id_) + ". RETURNING.")
@@ -168,25 +165,22 @@ class JCrewSpider(CrawlSpider):
         logging.critical("ITEM_ID " + str(item_id_) + " PRICE " + str(price_) + " SALE PRICE " + str(sale_price_))
         if price_ > sale_price_:
             logging.critical("SALE on ITEM_ID " + str(item_id_) + " PRICE " + str(price_) + " SALE PRICE " + str(sale_price_))
+        
+        
         # extract image URL
-        prod_img_path = hxs.select('//div[contains (@class, "prod_main_img")]/a/img[contains (@src, "http")]/@src')
-        prod_img_url = prod_img_path.extract()
+        prod_img_path = hxs.select('//link[@rel="image_src"]')
+        prod_img_str = str(prod_img_path.extract()[0])
+        prod_img_url = prod_img_str[28: len(prod_img_str) - 2]
         logging.critical("Image URL: " + str(prod_img_url))
 
         product = self._create_product_item(item_name[0], int(item_id_), str(prod_url), price_, \
                                             sale_price_, gender, str(prod_img_url[0]))
+        
         # find colors available
-        color_path = hxs.select('//select[contains (@onchange, "color")]/option/text()')
-        colors = color_path.extract()
-        logging.critical("Colors: " + str(colors[1:len(colors)]))
+        colorSizeMapping = self._get_color_size_array(response)
+        logging.critical(colorSizeMapping)
         
-        
-        # find sizes available        
-        size_path = hxs.select('//select[contains (@onchange, "size")]/option/text()')
-        sizes = size_path.extract()
-        logging.debug("Sizes: " + str(sizes[1:len(sizes)]))
-        
-        self._create_color_size(product, colors[1:len(colors)], sizes[1:len(sizes)])
+        #self._create_color_size(product, colors[1:len(colors)], sizes[1:len(sizes)])
         
         # find category
         categories = prod_url.split('/')
@@ -197,13 +191,16 @@ class JCrewSpider(CrawlSpider):
         self._create_category(product, categories[3:num_categories-2])
         
         # find description and keywords: these will be useful in categorization
-        desc = hxs.select('//td[@div="descTD0"]/text() | //td[@id="descTD0"]//li/text()').extract()
+        desc = hxs.select('//div[@id="cat-pro-con-detail"]//li[@class="cat-pro-desc"]/text()').extract()
         logging.critical("Description: " + str(desc))
         
-        keywords = hxs.select('//meta[@name="keywords"]').extract()
-        logging.critical("Keywords: " + str(keywords))
+        # promo text
+        promo_path = hxs.select('//span[@class="cat-pro-promo-text"]//font/text()').extract()
+        promo_str = str(promo_path)
+        logging.critical("Promotion:" + promo_str)
         
-        self._store_in_file(response, item_id_)
+        
+        #self._store_in_file(response, item_id_)
         #raise CloseSpider('Blah')
         logging.critical("Total unique items: " + str(len(self.all_items_scraped)) + " we have scraped so far: " +\
                           str(self.count_scraped) + " Unique URLs scraped: " + str(len(self.urls_scraped)))
@@ -211,33 +208,19 @@ class JCrewSpider(CrawlSpider):
         
         return []
         
-    def process_links_sub(self, links):
-        # we avoid links that are un-necessary or wrong
-        # for J.Crew
-        #print "Original links: " + str(links)
-        result = set()
-        for l in links:
-            url = str(l.url)
-            if self._contains(url, 'catalog') or self._contains(url, 'help') or self._contains(url, 'footer') or self._contains(url, 'footie'): #or self._contains(url, 'browse') or self._contains(url, 'include') :
-                continue
-            if self._contains(url, 'PRDOVR'):
-                item_id = self.find_itemid_in_url(url)
-                if item_id in self.items_scraped:
-                    continue
-                if item_id in self.items_to_scrape:
-                    continue
-                else:
-                    self.items_to_scrape.append(item_id)
-            
-            result.add(l)
         
-        #print "Filtered links: " + str(result)
-        return result
+    def process_links_none(self, links):
+        print "Links from BVReviews: " + str(links)
+        return set()
+    
+    def process_links_sub(self, links):
+        return links
 		
     def find_itemid_in_url(self, url_str):
-        start = url_str.rfind('/')
-        end= url_str.rfind('.jsp')
-        itemid = url_str[start+1: end]
+        end = url_str.rfind('-')
+        s1 = url_str[0:end]
+        start = s1.rfind('-')
+        itemid = s1[start+1: len(s1)]
         #print itemid
         #raise SystemExit
         return itemid
@@ -248,6 +231,46 @@ class JCrewSpider(CrawlSpider):
         request.meta.update(dont_redirect=True)
         #request.meta.update(dont_filter=True)
         return request
+    
+    def _get_color_size_array(self, response):
+        colorToSizeArray = re.findall('colorToSize[\w\d\[\]\\\',=\s]+;', str(response.body))
+        #print colorToSizeArray
+        total = len(colorToSizeArray)
+        colorSizeMapping = {}
+        
+        for i in range(0, total):
+            mapping_var = colorToSizeArray[i]
+            #print mapping_var
+            '''
+            mapping_var is a string, e.g.: colorToSize42466Array['ENSIGN'] = ['X Small', 'Small', 'Large'];
+            '''
+            square_brk_left = mapping_var.find('[')
+            square_brk_right = mapping_var.find(']')
+            #print "Square_left " + str(square_brk_left) + " Square_right " + str(square_brk_right)
+            color = mapping_var[square_brk_left+2: square_brk_right-1]
+            #print color
+            
+            sizes_str = mapping_var[square_brk_right+5: len(mapping_var)]
+            #print sizes_str
+            
+            num_sizes = sizes_str.count(',') + 1
+            #print "Num sizes " + str(num_sizes)
+            size = []
+            for j in range(0, num_sizes):
+                single_quote_left = sizes_str.find("\'")
+                #print "Quoteleft " + str(single_quote_left)
+                remaining_sizes_str = sizes_str[single_quote_left+1: len(sizes_str)]
+                #print "Remaining " + remaining_sizes_str
+                single_quote_right = remaining_sizes_str.find("\'")
+                #print "QuoteRight " + str(single_quote_right)
+                size_elem = remaining_sizes_str[0: single_quote_right]
+                #print "Size_elem " + size_elem
+                size.append(size_elem)
+                sizes_str = sizes_str[single_quote_right+ single_quote_left + 3: len(sizes_str)]
+            #print size
+            colorSizeMapping[color] = copy.deepcopy(size)
+    
+        return colorSizeMapping
     
     def _create_product_item(self, name, prod_id, prod_url, price, saleprice, gender, img_url):
         item = ProductItem()
@@ -294,31 +317,35 @@ class JCrewSpider(CrawlSpider):
             category['categoryName'] = cat
             category.save()
 
-    def _find_price(self, hxs):
-
-        price_path = hxs.select('//td[@class="standard_nopad"]/text() | //td/font[@color="red"]/text()')
-        _expr = '[\$]*[\d,]+[\.\d]*'
-        _regex = re.compile(_expr)
-        _list = price_path.re(_regex)
+    def _find_price(self, hxs, url):
+        item_id = self.find_itemid_in_url(url)
+        price_path = hxs.select('//li[@class="cat-pro-price"]//span//text() | //li[@class="cat-pro-price"]//strong//text()')
+        _list = price_path.extract()
         logging.critical(_list)
         
         '''
-        This assumes that the first element is a dollar amount and thus a price element.
-        However, it is not always true. So, we must start with an element that has a
-        dollar sign.
+        Some items have their prices given in a range: $30-$45. The price can be a function of
+        size or style. We currently only store the minimal size.
         '''
-        for i in range(0, len(_list)):
-            if self._contains(_list[i], '$'):
-                break
         
-        logging.critical("We found " + str(i) + " to have a $ sign")
-        price = float(_list[i].strip('$').replace(',', ''))
-        sale_price = price
-        item_id = _list[i+1]
-        if self._contains(_list[i+1], '$'):
-            sale_price = float(_list[i+1].strip('$').replace(',',''))
-            item_id = _list[i+2]
+        if self._contains(_list[0], '-'):
+            loc = _list[0].find('-')
+            new_ = _list[0][0:loc]
+            price = float(new_.strip('$').replace('\n', '').replace('\t', ''))
+            #print "Price: " + str(price) + " orig " + str(_list[0])
+            #raise SystemExit
+        else:
+            price = float(_list[0].strip('$').replace('\n', '').replace('\t', ''))
 
+        sale_price = price
+        if len(_list) > 1:
+            if self._contains(_list[1], '-'):
+                loc = _list[1].find('-')
+                new_ = _list[1][0:loc]
+                sale_price = float(new_.strip('$').replace('\n', '').replace('\t', ''))
+            else:
+                sale_price = float(_list[1].strip('$').replace('\n','').replace('\t', ''))
+    
         return (item_id, price, sale_price)
         
         
