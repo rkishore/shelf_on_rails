@@ -46,8 +46,8 @@ def home(request):
 
 def reply_with_home(request, userid):
     try:
-        server_name = request.META['SERVER_NAME']
-        server_port = request.META['SERVER_PORT']
+        server_name = str('maharaja.herokuapp.com')#request.META['SERVER_NAME']
+        server_port = str('80')#request.META['SERVER_PORT']
     except KeyError:
         return render_to_response('err_display.html', {'errmsg':6})
     
@@ -84,8 +84,8 @@ def index(request):
         else:
             print 'Init'
             try:
-                server_name = request.META['SERVER_NAME']
-                server_port = request.META['SERVER_PORT']
+                server_name = str('maharaja.herokuapp.com')#request.META['SERVER_NAME']
+                server_port = str('80')#request.META['SERVER_PORT']
             except KeyError:
                 return render_to_response('err_display.html', {'errmsg':6})
             return render_to_response('index.html', {'server_name':server_name, 'server_port':server_port})
