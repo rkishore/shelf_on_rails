@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Shelf.com: Your Personal Shopping Elf{% endblock %}
+
+{% block content %}
+{% ifequal errmsg 1 %}
+	Please choose products from <a href="http://www.express.com/"/>express.com</a> or <a href="http://www.jcrew.com/"/>jcrew.com</a>.
+	We are in the process of adding more stores.
+{% endifequal %}
+{% ifequal errmsg 2 %}
+	We are unable to add this item to your shelf. Please check back again later.
+{% endifequal %}
+{% ifequal errmsg 3 %}
+	Please choose items from a product page.
+{% endifequal %}
+{% ifequal errmsg 4 %}
+	Testing
+{% endifequal %}
+{% ifequal errmsg 5 %}
+Dear user: please login or create an account before accessing this page...
+{% endifequal %}
+{% ifequal errmsg 6 %} 
+Oops - your elf has gone shopping! Please try again later while we ask her to get back to work (and find your IP address).
+{% endifequal %}
+{% ifequal errmsg 7 %} 
+This item does not exist in your wishlist!
+{% endifequal %}
+<p><strong>Thank you for bearing with us till we fix this. We really appreciate your patronage!</strong></p>
+{% endblock %}

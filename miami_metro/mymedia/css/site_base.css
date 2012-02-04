@@ -1,0 +1,276 @@
+/* From the RonR tutorial */
+
+.container {
+  width: 800px; 
+}
+
+body {
+  background: #F0F0F0;
+}
+
+header {
+  padding-top: 20px;
+}
+
+header img {
+  padding: 1em;
+  #background: #fff;
+}
+
+section {
+  margin-top: 1em;
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+}
+
+section h1 {
+  font-size: 200%;
+}
+
+/* Links */
+
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #069;
+}
+
+/* Navigation */
+nav {
+  float: right;
+}
+
+nav {
+  background-color: white;
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Masonry grid */
+.item {
+  width: 410px;
+  margin: 10px;
+  float: left;
+}
+
+.box {
+  width: 170px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+} 
+
+/* CSS floats */
+.floatright { float: right; margin: 5px; }
+.floatleft { float: left; margin: 5px; }
+.floatnone { float: none; }
+
+/* bx */
+.demo-wrap {
+  border-bottom-color:#C3C3C1;
+  border-bottom-style:dotted;
+  border-bottom-width:1px;
+  border-top-color:#C3C3C1;
+  border-top-style:dotted;
+  border-top-width:1px;
+}
+
+.demo-wrap .left {
+  float:left;
+  width:195px;
+}
+.demo-wrap .right {
+  float:left;
+  width:330px;
+}
+.demo-wrap .right .album {
+  font-size:16px;
+  margin-top:60px;
+}
+.demo-wrap .right .band {
+  color:#838383;
+  font-size:14px;
+}
+
+.demo-wrap .right .delitem {
+  text-decoration:none;
+  font-size:14px;
+}
+
+.demo-wrap .bx-wrapper {
+  margin-bottom:0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0;
+}
+
+.demo-wrap.border {
+  border-top-color:#C3C3C1;
+  border-top-style:dotted;
+  border-top-width:1px;
+  padding-top:15px;
+}
+
+.demo-wrap.border .bx-window {
+  margin-top:78px;
+}
+
+.demo-wrap .bx-prev {
+  background-clip:initial;
+  background-image:url(http://bxslider.com/sites/all/themes/bx/images/icon_arrow_left.png);
+  background-origin:initial;
+  background-position:0 -31px;
+  background-repeat:no-repeat no-repeat;
+  height:31px;
+  left:515px;
+  position:absolute;
+  text-indent:-999999px;
+  top:135px;
+  width:31px;
+}
+
+.demo-wrap .bx-next {
+  background-clip:initial;
+  background-image:url(http://bxslider.com/sites/all/themes/bx/images/icon_arrow_right.png);
+  background-origin:initial;
+  background-position:0 -31px;
+  background-repeat:no-repeat no-repeat;
+  height:31px;
+  position:absolute;
+  right:0px;
+  text-indent:-999999px;
+  top:18px;
+  width:31px;
+}
+
+.demo-wrap .bx-next:hover, .demo-wrap .bx-prev:hover {
+  background-position:0 0;
+}
+
+/* Older stuff */
+div.footer
+{
+    position:fixed;
+    padding:0.5em;
+    color:white;
+    background-color:black;
+    clear:left;
+    text-align:center;
+    font-weight:bold;
+    top:500px;
+    left:0px;
+    width:1300px;
+}
+div.header
+{
+    padding:0.5em;
+    color:white;
+    background-color:black;
+    clear:left;
+    text-align:center;
+    font-weight:bold;
+}
+h1.header
+{
+    padding:0;
+    margin:0;
+    text-align:center;	
+}
+ul
+{
+    list-style-type:none;
+    #margin:10px;
+    #padding:10px;
+    #width:140px;
+    #border:5px gray;
+    float: left;
+}
+a.nav:link,a.nav:visited
+{
+    display:block;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#98bf21;
+    width:180px;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    #text-transform:uppercase;
+}
+a.nav:hover,a.nav:active
+{
+    background-color:#7A991A;
+}
+div.set
+{
+	#font-weight:bold;
+	font-size:large;
+    text-align:center;
+    padding:0px;
+    float: left;
+    #margin:20px;
+    #top:200px;
+    width:100px;
+    height:90px;
+    #overflow:scroll;
+    color: #fff;
+    background-color: #006699;
+    #border: 1px solid gray;
+}
+p.view_shelf_header
+{
+    position:fixed;
+    top:50px;
+    left:350px;
+    color:red;
+}
+a.signup_button 
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100px;
+    color: #fff;
+    background: #006400; 
+    font-size: 100%;
+    padding:10px;
+}
+.round {
+    -moz-border-radius:    1px;
+    -webkit-border-radius: 1px;
+    border-radius:         1px;
+}
+

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Shelf.com: View Prices{% endblock %}
+
+{% block content %}
+	<div>You have {{result_list|length}} shelve{{result_list|pluralize}}.</div>
+    {% for store_name, items in result_list.items %}	
+	<div class="set2">
+		<div>Store {{store_name}} has {{items|length}} items.</div>
+		{% for wi in items %}
+		<!--<img src={{wi.item.img_url}} width="100" height="auto">-->
+		${{ wi.orig_cost}} ${{ wi.total_cost}} ${{wi.savings}} Free-Shipping {{wi.shipping}}<br>	
+		{% endfor %}
+	</div>
+	{% endfor %}
+{% endblock %}	

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>js_test</title>
+		<meta name="description" content="" />
+		<meta name="author" content="Kishore Ramachandran" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	</head>
+	<body>
+		<div>
+			<header>
+				<h1>js_test</h1>
+			</header>
+			<nav>
+				<p>
+					<a href="/">Home</a>
+				</p>
+				<p>
+					<a href="/contact">Contact</a>
+				</p>
+			</nav>
+			<div>
+				<select id="SizeVariants" class="expandMe" name="Size37620Variants">
+					<option value="">Select One</option>
+					<option value="X Small">X Small</option>
+					<option value="Small">Small</option>
+					<option value="Medium">Medium</option>
+				</select>
+				<ul class="optionsSelect">
+					<li id="widget-product-swatches" class="productId-25833">
+						<div class="colorInfo">
+							<strong>Color: <span class="selectedColor">LT GRAY HEATHER</span></strong>
+						</div>
+						<a href="#jsLink" onclick="var x=".tl(";s_objectID="http://www.express.com/stretch-cotton-agent-pant-25833-611/control/show/3/index.pro#jsLink_1";return this.s_oc?this.s_oc(e):true">
+							<img class="cat-pro-swatch cat-prod-swatch-border" src="http://t.express.com/com/scene7/s7d5/=/is/image/expressfashion/35_383_2704_097_s/i81?$swatch$" width="51" height="34" alt="LT GRAY HEATHER" style="display: block; "/>
+						</a>
+						<a href="#jsLink" onclick="var x=".tl(";s_objectID="http://www.express.com/stretch-cotton-agent-pant-25833-611/control/show/3/index.pro#jsLink_2";return this.s_oc?this.s_oc(e):true">
+							<img class="cat-pro-swatch" src="http://t.express.com/com/scene7/s7d5/=/is/image/expressfashion/35_383_2568_098_s/i81?$swatch$" width="51" height="34" alt="BLACK" style="display: block; "/>
+						</a>
+					</li>	
+					<li class="options-Quantity">
+						<input name="sourceCode" type="hidden" value=""/>
+						<label for="quantity">
+							<strong>Qty:</strong>
+							<input class="vert-align-middle ffNorm" id="quantity" name="quantity" type="text" value="1" size="2" maxlength="2"/>
+						</label>
+						<span id="error-quantity" class="glo-tex-error"/>
+					</li>
+				</ul>
+				<table border="0" cellpadding="0" cellspacing="0" class="productstepsbox">
+				<tbody>
+				<tr>
+				<td class="productstepsnopad">
+					<input type="hidden" name="bmSingle" value="ADD_CART_ITEM<>ATR_size"/>
+					<input type="hidden" name="bmRequired" value="ADD_CART_ITEM<>ATR_size"/>
+					<select class="standard_nopad" name="ADD_CART_ITEM<>ATR_size" id="sizeSelect0" onchange="javascript:getProductDetail(this, 'size');">
+						<option value="">select size</option>
+						<option value="X-SMALL">X-SMALL</option>
+						<option value="SMALL">SMALL</option>
+						<option value="MEDIUM">MEDIUM</option>
+						<option value="LARGE">LARGE</option>
+						<option value="X-LARGE">X-LARGE</option>
+					</select>
+					<a href="javascript:popSizeChart('0,0');" class="sizeChart">size charts</a>
+				</td>
+				</tr>
+				<tr>
+				<td class="productstepsnopad">
+					<input type="hidden" name="bmSingle" value="ADD_CART_ITEM<>ATR_color"/>
+					<input type="hidden" name="bmRequired" value="ADD_CART_ITEM<>ATR_color"/>
+					<select class="standard_nopad" name="ADD_CART_ITEM<>ATR_color" id="productColor0" onchange="javascript:getProductDetail(this, 'color',this.value,this.options[selectedIndex].getAttribute('mainImg'));setViewImg(this.options[selectedIndex].getAttribute('mainImg'))">
+						<option value="" mainimg="http://images.jcrew.com/fsi/server?type=image&source=images/eiec/42/42431/42431_WD5731.tif&width=393&height=393&effects=sharpen(20)&quality=90&profile=jpeg">select color</option>
+						<option value="BLACK" mainimg="http://images.jcrew.com/fsi/server?type=image&source=images/eiec/42/42431/42431_WD5731.tif&width=393&height=393&effects=sharpen(20)&quality=90&profile=jpeg" selected="">black</option>
+					</select>
+				</td>
+				</tr>
+				<tr>
+				<td class="productstepsnopad">
+					<input type="hidden" name="bmText" value="ADD_CART_ITEM<>quantity"/>
+					<input type="hidden" name="bmRequired" value="ADD_CART_ITEM<>quantity"/>
+					<input class="standard_nopad" type="text" size="1" maxlength="1" name="ADD_CART_ITEM<>quantity" value="1" onkeypress="javascript:return noEnter(event);" id="qty" onblur="validQnty(this)"/>quantity</td>
+				</tr>
+				<tbody>
+				</table>
+				<script type="text/javascript">
+					var d=document,
+						w=window,
+						e=w.getSelection,
+						k=d.getSelection,
+						x=d.selection,
+						s=(e?e():(k)?k():(x?x.createRange().text:0)), 
+						f='http://localhost:8000/shelfit',
+						l=d.location,
+						e=encodeURIComponent,  
+						l_str = String(l),
+						l_store_chk1 = l_str.indexOf("express"),
+						l_store_chk2 = l_str.indexOf("kishore");
+					
+						if (l_store_chk1 != -1)
+						{ 					
+							var select_elems=d.getElementsByClassName('expandMe'), 
+								select_idx=select_elems[0].selectedIndex;
+							var qtity=d.getElementById('quantity').value;
+							var color=d.getElementsByClassName('selectedColor')[0].innerHTML; 
+							if (select_idx > 0)
+							{
+								var select_val=select_elems[0].options[select_idx].value,
+									u=f+'?u='+e(l.href)+'&t='+5;
+								alert('Size is ' + select_val + ' Quantity: ' + qtity + ' Color: ' + color);
+							}
+							else
+							{
+								alert('Please select a size from the drop down list')
+							} 
+						} else if (l_store_chk2 != -1) {
+							alert('In the process of adding support...');
+							var size_vals=d.getElementById("sizeSelect0"),
+								size_idx=size_vals.selectedIndex,
+								size=size_vals.options[size_idx].value,
+								color_vals=d.getElementById("productColor0"),
+								color_idx=color_vals.selectedIndex,
+								color=color_vals.options[color_idx].value,
+								qtity=d.getElementById("qty").value;
+							
+							alert('Size is ' + size_idx + ' Quantity: ' + qtity + ' Color: ' + color);
+							
+						} else {
+							alert('Store not supported');
+						}
+						void(0);
+					
+					
+					/* for (var i=0; i<select_elems.length; i++) {
+						var select_idx=select_elems[i].selectedIndex;
+						alert('Starting script'+' '+select_idx)
+						
+						if (select_idx > 0)
+						{
+							var select_val=select_elems[i].options[select_idx].value;
+							// u=f+'?u='+e(l.href)+'&t='+5+'&s='+select_val;
+							alert('Size is' + ' ' + select_val)
+	
+						}
+						else
+						{
+							alert('Please select a size from the drop down list'+select_val)
+						}	
+					} */
+					
+	
+					a=function(){
+						if(!w.open(u,'t','toolbar=0,resizable=1,scrollbars=1,status=1,width=1200,height=570'))
+							l.href=u;
+					};
+	
+	
+					/* if (/Firefox/.test(navigator.userAgent)) 
+						setTimeout(a, 0); 
+						else a();
+					*/
+					void(0);
+				</script>
+			</div>
+			<footer>
+				<p>
+					&copy; Copyright  by Kishore Ramachandran
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

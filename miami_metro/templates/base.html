@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>{% block title %}{% endblock %}</title>
+		<meta name="description" content="" />
+		<meta name="author" content="Atul Singh" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<!-- <link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" /> -->
+		<link rel="shortcut icon" href="/mymedia/images/favicon.ico" />
+		{% block js_code %}
+		<!--[if lt IE 9]>
+    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    	<![endif]-->
+		{% endblock %}
+		{% block css_code %}
+			<link rel="stylesheet" href="/mymedia/css/blueprint/screen.css" media="screen" type="text/css" />
+			<link rel="stylesheet" href="/mymedia/css/blueprint/print.css" media="print" type="text/css" />
+			<!--[if lt IE 8]><link rel="stylesheet" href="/mymedia/css/blueprint/ie.css" type="text/css" /><![endif]-->
+			<link rel="stylesheet" type="text/css" href="/mymedia/css/site_base.css" /> 
+		{% endblock %}
+	</head>
+<body>
+    <div class="container">
+    	<header>
+    		<img alt="Shelf.com Logo" class="round" src="/mymedia/images/logo_01.png" />
+			<!-- <div class="header"><h1 class="header">Shelf.com</h1></div> -->			
+    	{% block navi %}
+    	<nav class="round">
+			<ul>
+				<li><a href="/viewyourshelf/?u={{uid}}">View Shelfs</a></li>
+				<li><a href="/apply_promo/?u={{uid}}">View Pricing Info</a></li>
+				<li><a href="/statsplot/">Did you know?</a></li>
+				<li><a href="/home/">Home</a></li>
+			</ul>
+		</nav>
+    	{% endblock %}
+    	</header>
+    	<section class="round">
+    	{% block content %}{% endblock %}
+    	</section>
+    	{% block stats %}{% endblock %}
+    	{% block footer %}
+    	<!-- <footer>
+			<div class="footer">Copyright 2012 by Shelf.com</div>
+		</footer> -->
+    	{% endblock %}
+    </div>
+</body>
+</html>

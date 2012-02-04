@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Shelf.com: Your Shelves{% endblock %}
+
+{% block content %}
+	{% if curresp %} 
+		<h3> {{ curresp }} </h3> 
+	{% endif %}
+	{% if num_selected %} 
+		<h3> Your selection{{ object_list|pluralize }}</h3>
+		{% for wi in object_list %}
+			<div class="set">
+				{{ wi.item.brand}}  <!--<br>{{ wi.item.name}} <br> ${{ wi.item.price}} --> 
+			</div><div id="gallery">
+			<img src={{wi.img_url}} width="100" height="100" alt="{{ wi.item.name}}">
+			<!-- { % if not selected_items %}<a href="add_item_{{wi.item.idx}}_{{page_list.number}}">Add to wishlist.</a>{ % endif %} -->
+			</div>        		
+		{% endfor %}	
+		<br>
+	{% else %}
+		<h2> Please add items to your wishlist</h2>
+	{% endif %}
+{% endblock %}

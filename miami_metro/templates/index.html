@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Shelf.com: Your Personal Shopping Elf{% endblock %}
+
+{% block navi %}
+{% endblock %}
+
+{% block content %}
+	<h2>What is Shelf.com?</h2>
+	<p>For apparel you want to purchase, Shelf.com will: (a) manage all your items in one location 
+		(a unified view of your wishlist), (b) save money (find, and apply promotions), (c) find similar items at 
+		other stores and their prices, and (d) track prices and make when-to-buy recommendations.
+	</p>
+	<form action="http://{{server_name}}:{{server_port}}" method="post">
+	<input type="submit" value="Trial Version" class="signup_button round">
+	</form>
+{% endblock %}

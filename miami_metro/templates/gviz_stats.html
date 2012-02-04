@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Shelf.com: Did You Know?{% endblock %}
+
+{% block js_code %}
+  {{ block.super }}
+  <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+  <script>
+      google.load("visualization", "1", {packages:["corechart"]});
+      
+      google.setOnLoadCallback(drawTable1);
+      google.setOnLoadCallback(drawTable2);
+      google.setOnLoadCallback(drawTable3);
+      google.setOnLoadCallback(drawTable4);
+      
+      function drawTable1() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json1'));
+        var json_data = new google.visualization.DataTable({{ json1|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'minValue': 0, 'maxValue': 100, 'title': '% Items on Sale (Men)'}});
+      }
+      function drawTable2() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json2'));
+        var json_data = new google.visualization.DataTable({{ json2|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'minValue': 0, 'maxValue': 100, 'title': '% Items on Sale (Women)'}});
+      }
+      function drawTable3() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json3'));
+        var json_data = new google.visualization.DataTable({{ json3|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Saleprice Range USD (Women)'}});
+      }
+      function drawTable4() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json4'));
+        var json_data = new google.visualization.DataTable({{ json4|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Saleprice Range USD (Men)'}});
+      }
+      
+      function selectHandler() {
+        var selectedItem = chart.getSelection()[0];
+        var value = data.getValue(selectedItem.row, 0);
+        alert('The user selected ' + value);
+      }
+  </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="/mymedia/js/jquery.masonry.min.js"></script>
+  <script>
+	var $container = $('#mcontainer');
+	$container.imagesLoaded(function(){
+  		$container.masonry({
+    		itemSelector : '.item',
+  		});
+	});	
+  </script>
+{% endblock %}
+
+{% block content %}
+<h1>Did you know?</h1>
+{% endblock %}
+
+{% block stats %}	
+
+	<div id="table_div_json2" class="floatleft"></div>
+	<div id="table_div_json1" class="floatright"></div>
+	<div id="table_div_json4" class="floatleft"></div>
+	<div id="table_div_json3" class="floatright"></div>
+	<!-- <div id="mcontainer">
+		<div class="item"><div id="table_div_json2"></div>
+		<div class="item"><div id="table_div_json3"></div>
+		<div class="item"><div id="table_div_json1"></div>
+		<div class="item"><div id="table_div_json4"></div>
+	</div> -->
+	<!--<table>
+	  <tr>
+            <td><div id="table_div_json2"></div></td>
+    	    <td><div id="table_div_json1"></div></td>
+            <td></td>
+	  </tr
+	  <tr>
+    	    <td><div id="table_div_json3"></div></td>
+            <td><div id="table_div_json4"></div></td>
+	  </tr>
+	</table>-->
+{% endblock %}

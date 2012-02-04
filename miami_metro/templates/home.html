@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Shelf.com: Your Personal Shopping Elf{% endblock %}
+
+{% block navi %}
+<nav class="round">
+	<ul>
+		<li><a href="/viewyourshelf/?u={{uid}}">View Shelfs</a></li>
+		<li><a href="/apply_promo/?u={{uid}}">View Pricing Info</a></li>
+		<li><a href="/statsplot/">Did you know?</a></li>
+	</ul>
+</nav>
+{% endblock %}
+
+{% block content %}
+	<h1>What is Shelf.com?</h1>
+	<p>For apparel you want to purchase, Shelf.com will: (a) manage all your items in one location 
+		(a unified view of your wishlist), (b) save money (find, and apply promotions), (c) find similar items at 
+		other stores and their prices, and (d) track prices and make when-to-buy recommendations.
+	</p>
+	<h1>Do you have a demo?</h1>
+	<p>Our demo currently works only for <a href="http://www.express.com">Express</a> and <a href="http://www.jcrew.com">J.Crew</a>.</p>
+	<p>To get going, drag-and-drop the following link to your bookmarks bar or right click and add to your favorites.</p>
+	<p class="pressthis"><a class="signup_button round" style="text-decoration:none" onclick="return false;" oncontextmenu="if(window.navigator.userAgent.indexOf(\'WebKit\')!=-1) return false;" \
+		href="{{ js_code }}">Shelf It!</a> 
+	<a class="signup_button round" onclick="return false;" style="text-decoration:none" href="http://{{server_name}}:{{server_port}}/viewyourshelf/?u={{uid}}">Your Shelf</a></p>
+{% endblock %}
