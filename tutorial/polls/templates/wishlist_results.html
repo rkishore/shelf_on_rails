@@ -1,0 +1,17 @@
+<html>
+    <title>Your Shelf</title>
+    <body>
+	<p><strong>{{ resp }}</strong></p>
+	<p>Utilized data from: {{ produrl }} for your Shelf</p>
+
+	{% if products %}
+    	<ul>
+        	{% for product in products %} 
+        	<img src={{ product.item.img_url }} alt=""/>
+        	<li>{{ product.item.brand }}, {{ product.item.name }}, {{ product.item.idx }}</li>
+        	{% endfor %} 
+    	</ul>
+	{% else %}
+    	<p>No products in your wishlist.</p>
+	{% endif %}
+</body>

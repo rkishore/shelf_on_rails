@@ -1,0 +1,278 @@
+<html>
+  <head>
+  <title>Static example</title>
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script>
+      google.load("visualization", "1", {packages:["corechart"]});
+      
+      google.setOnLoadCallback(drawTable1);
+      google.setOnLoadCallback(drawTable2);
+      google.setOnLoadCallback(drawTable3);
+      google.setOnLoadCallback(drawTable4);
+      google.setOnLoadCallback(drawTable5);
+      google.setOnLoadCallback(drawTable6);
+      google.setOnLoadCallback(drawTable7);
+      google.setOnLoadCallback(drawTable8);
+      google.setOnLoadCallback(drawTable9);
+      
+      google.setOnLoadCallback(drawTable11);
+      google.setOnLoadCallback(drawTable12);
+      google.setOnLoadCallback(drawTable13);
+      google.setOnLoadCallback(drawTable14);
+      google.setOnLoadCallback(drawTable15);
+      google.setOnLoadCallback(drawTable16);
+      google.setOnLoadCallback(drawTable17);
+      
+      
+      function drawTable1() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json1'));
+        var json_data = new google.visualization.DataTable({{ json1|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Total Number of Items'}});
+      }
+      function drawTable2() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json2'));
+        var json_data = new google.visualization.DataTable({{ json2|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Average Price (USD)'}});
+      }
+      function drawTable3() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json3'));
+        var json_data = new google.visualization.DataTable({{ json3|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Minimum Price (USD)'}});
+      }
+      function drawTable4() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json4'));
+        var json_data = new google.visualization.DataTable({{ json4|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Maximum Price (USD)'}});
+      }
+      function drawTable5() {
+        var json_chart = new google.visualization.CandlestickChart(document.getElementById('table_div_json5'));
+        var json_data = new google.visualization.arrayToDataTable({{ json5|safe }} , true);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'none', 'title': '', 'vAxis': {'title': '(25-ile/50-ile/75-ile) Price Range (USD)'}});
+      }
+      function drawTable6() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json6'));
+        var json_data = new google.visualization.DataTable({{ json6|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': '(Min/Avg/Max) Price (USD)'}});
+      }
+      function drawTable7() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json7'));
+        var json_data = new google.visualization.DataTable({{ json7|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': '(25-ile/50-ile/75-ile) Price (USD)'}});
+      }
+      function drawTable8() {
+        var json_chart = new google.visualization.BarChart(document.getElementById('table_div_json8'));
+        var json_data = new google.visualization.DataTable({{ json8|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Total Items (Men)'}});
+      }
+      function drawTable9() {
+        var json_chart = new google.visualization.BarChart(document.getElementById('table_div_json9'));
+        var json_data = new google.visualization.DataTable({{ json9|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Total Items (Women)'}});
+      }
+      
+      function drawTable11() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json11'));
+        var json_data = new google.visualization.DataTable({{ json11|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Average Saleprice (USD)'}});
+      }
+      function drawTable12() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json12'));
+        var json_data = new google.visualization.DataTable({{ json12|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Minimum Saleprice (USD)'}});
+      } 
+      function drawTable13() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json13'));
+        var json_data = new google.visualization.DataTable({{ json13|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Maximum Saleprice (USD)'}});
+      }
+      function drawTable14() {
+        var json_chart = new google.visualization.BarChart(document.getElementById('table_div_json14'));
+        var json_data = new google.visualization.DataTable({{ json14|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'hAxis': {'minValue': 0, 'maxValue': 280}, 'vAxis': {'title': '# Items on Sale (Men)'}});
+      }
+      function drawTable15() {
+        var json_chart = new google.visualization.BarChart(document.getElementById('table_div_json15'));
+        var json_data = new google.visualization.DataTable({{ json15|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'hAxis': {'minValue': 0, 'maxValue': 120}, 'vAxis': {'title': '# Items on Sale (Women)'}});
+      }
+      function drawTable16() {
+        var json_chart = new google.visualization.CandlestickChart(document.getElementById('table_div_json16'));
+        var json_data = new google.visualization.arrayToDataTable({{ json16|safe }} , true);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'none', 'title': '', 'vAxis': {'title': '(25-ile/50-ile/75-ile) Saleprice Range (USD)'}});
+      }
+      function drawTable17() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json17'));
+        var json_data = new google.visualization.DataTable({{ json17|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': '(25-ile/50-ile/75-ile) Saleprice (USD)'}});
+      }
+      
+      function selectHandler() {
+        var selectedItem = chart.getSelection()[0];
+        var value = data.getValue(selectedItem.row, 0);
+        alert('The user selected ' + value);
+      }
+
+      
+    </script>
+    <style type="text/css">
+		div.header2
+		{
+			padding:0.5em;
+			color:white;
+			background-color:black;
+			clear:left;
+			text-align:center;
+			font-weight:bold;
+		}
+		div.welcome
+		{
+			position:fixed;
+			top:100px;
+			left:300px;
+		}		
+		div.footer
+		{
+			position:fixed;
+			padding:0.5em;
+			color:white;
+			background-color:black;
+			clear:left;
+			text-align:center;
+			font-weight:bold;
+			top:500px;
+			left:0px;
+			width:1300px;
+		}
+		div.header
+		{
+			padding:0.5em;
+			color:white;
+			background-color:black;
+			clear:left;
+			text-align:center;
+			font-weight:bold;
+		}
+		h1.header
+		{
+			padding:0;
+			margin:0;
+			text-align:center;	
+		}
+		ul
+		{
+			list-style-type:none;
+			#margin:10px;
+			#padding:10px;
+			#width:140px;
+			#border:5px gray;
+			float: left;
+		}
+		a:link,a:visited
+		{
+			display:block;
+			font-weight:bold;
+			color:#FFFFFF;
+			background-color:#98bf21;
+			width:180px;
+			text-align:center;
+			padding:4px;
+			text-decoration:none;
+			#text-transform:uppercase;
+		}
+		a:hover,a:active
+		{
+			background-color:#7A991A;
+		}
+		div.pos_fixed_left
+		{
+			float: left;
+			top:100px;
+			left:300px;
+			width:400px;
+			height:300px;
+			overflow:scroll;
+		}
+		div.pos_fixed_right
+		{
+			float: left;
+			top:100px;
+			right:300px;
+			width:300px;
+			height:300px;
+			overflow:scroll;
+		}
+		p.view_shelf_header
+		{
+			position:fixed;
+			top:50px;
+			left:350px;
+			color:red;
+		}
+	</style>
+
+
+  </head>
+  <body>
+  	<header>
+				<div class="header"><h1 class="header">Shelf.com</h1></div>			
+			</header>
+			<nav>
+				<ul>
+					<li><a href="viewyourshelf/detail/?u=2&s=Express">View Shelfs</a></li>
+					<li><a href="#news">Create Wishlist</a></li>
+					<li><a href="#contact">Apply Promotions</a></li>
+					<li><a href="#about">View Promotions</a></li>
+					<li><a href="statsplot/">Did you know?</a></li>
+				</ul>
+			</nav>
+    <H1>Did you know?</H1>
+    <table>
+    <th>Product Variety</th>
+    <tr>
+        <td><div id="table_div_json9"></div></td>
+        <td><div id="table_div_json15"></div></td>
+        <td><div id="table_div_json8"></div></td>
+    	<td><div id="table_div_json14"></div></td>
+        <!--<td><div id="table_div_json11"></div></td>-->
+        <td></td>
+    </tr>
+    <th>Pricing Details</th>
+    <tr>
+    	<td><div id="table_div_json7"></div></td>
+        <td><div id="table_div_json5"></div></td>
+        <td><div id="table_div_json2"></div></td>
+        <td><div id="table_div_json3"></div></td>
+        <td><div id="table_div_json4"></div></td>
+    </tr>
+    <tr>
+    	<td><div id="table_div_json17"></div></td>
+        <td><div id="table_div_json16"></div></td>
+        <td><div id="table_div_json11"></div></td>
+        <td><div id="table_div_json12"></div></td>
+        <td><div id="table_div_json13"></div></td>
+    </tr>
+    <th>Price behavior over time</th>
+    <tr>
+        <!--<td><div id="table_div_json6"></div></td>
+        <td><div id="table_div_json6"></div></td>
+        <td><div id="table_div_json7"></div></td>-->
+    </tr>    
+    </table>
+  </body>
+</html>

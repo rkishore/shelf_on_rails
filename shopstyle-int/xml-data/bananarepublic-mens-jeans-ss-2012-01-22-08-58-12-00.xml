@@ -1,0 +1,815 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>mens-jeans</Category>
+<CategoryName>Jeans</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>2683</Id>
+<Name>Banana Republic</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>12</TotalCount>
+<Product>
+<Id>321051179</Id>
+<Name>Slim boot-cut dark wash jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=321051179&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e8/92/e892c0057a2d463be7b131942c3bb5ae_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e8/92/e892c0057a2d463be7b131942c3bb5ae_medium/banana-republic-bootcut-jeans-slim-bootcut-dark-wash-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e8/92/e892c0057a2d463be7b131942c3bb5ae/banana-republic-bootcut-jeans-slim-bootcut-dark-wash-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Dark indigo</Name>
+</Color>
+<Size>
+<Name>29W</Name>
+</Size>
+<Size>
+<Name>30W</Name>
+</Size>
+<Size>
+<Name>31W</Name>
+</Size>
+<Size>
+<Name>32W</Name>
+</Size>
+<Size>
+<Name>33W</Name>
+</Size>
+<Size>
+<Name>34W</Name>
+</Size>
+<Size>
+<Name>35W</Name>
+</Size>
+<Size>
+<Name>36W</Name>
+</Size>
+<Size>
+<Name>38W</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-10</ExtractDate>
+</Product>
+<Product>
+<Id>211420272</Id>
+<Name>Vintage straight jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=211420272&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/6b/11/6b11268c1c7416bf6305ed3f95eed25a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/6b/11/6b11268c1c7416bf6305ed3f95eed25a_medium/banana-republic-relaxed-jeans-relaxed-fit-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/6b/11/6b11268c1c7416bf6305ed3f95eed25a/banana-republic-relaxed-jeans-relaxed-fit-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>28W</Name>
+</Size>
+<Size>
+<Name>30W</Name>
+</Size>
+<Size>
+<Name>31W</Name>
+</Size>
+<Size>
+<Name>32W</Name>
+</Size>
+<Size>
+<Name>33W</Name>
+</Size>
+<Size>
+<Name>34W</Name>
+</Size>
+<Size>
+<Name>35W</Name>
+</Size>
+<Size>
+<Name>36W</Name>
+</Size>
+<Size>
+<Name>38W</Name>
+</Size>
+<Size>
+<Name>40W</Name>
+</Size>
+<Size>
+<Name>42W</Name>
+</Size>
+<Size>
+<Name>44W</Name>
+</Size>
+<Category>mens-relaxed-jeans</Category>
+<CategoryName>Relaxed Jeans</CategoryName>
+<SeeMoreLabel>Relaxed Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-relaxed-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-01-13</ExtractDate>
+</Product>
+<Product>
+<Id>211420286</Id>
+<Name>Straight fit indigo jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=211420286&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/42/a5/42a5a3d6d7129fcd8cfa73ebee33d996_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/42/a5/42a5a3d6d7129fcd8cfa73ebee33d996_medium/banana-republic-straight-leg-jeans-straight-fit-indigo-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/42/a5/42a5a3d6d7129fcd8cfa73ebee33d996/banana-republic-straight-leg-jeans-straight-fit-indigo-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>28W</Name>
+</Size>
+<Size>
+<Name>29W</Name>
+</Size>
+<Size>
+<Name>30W</Name>
+</Size>
+<Size>
+<Name>31W</Name>
+</Size>
+<Size>
+<Name>32W</Name>
+</Size>
+<Size>
+<Name>33W</Name>
+</Size>
+<Size>
+<Name>34W</Name>
+</Size>
+<Size>
+<Name>35W</Name>
+</Size>
+<Size>
+<Name>36W</Name>
+</Size>
+<Size>
+<Name>38W</Name>
+</Size>
+<Size>
+<Name>40W</Name>
+</Size>
+<Size>
+<Name>42W</Name>
+</Size>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Straight Leg Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-straight-leg-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-01-13</ExtractDate>
+</Product>
+<Product>
+<Id>202058541</Id>
+<Name>Boot-cut dark-wash jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=202058541&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ce/30/ce30390fbc9cd23cde358623f87624ae_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ce/30/ce30390fbc9cd23cde358623f87624ae_medium/banana-republic-bootcut-jeans-bootcut-darkwash-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ce/30/ce30390fbc9cd23cde358623f87624ae/banana-republic-bootcut-jeans-bootcut-darkwash-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>28W</Name>
+</Size>
+<Size>
+<Name>29W</Name>
+</Size>
+<Size>
+<Name>30W</Name>
+</Size>
+<Size>
+<Name>31W</Name>
+</Size>
+<Size>
+<Name>32W</Name>
+</Size>
+<Size>
+<Name>33W</Name>
+</Size>
+<Size>
+<Name>34W</Name>
+</Size>
+<Size>
+<Name>35W</Name>
+</Size>
+<Size>
+<Name>36W</Name>
+</Size>
+<Size>
+<Name>38W</Name>
+</Size>
+<Size>
+<Name>40W</Name>
+</Size>
+<Size>
+<Name>42W</Name>
+</Size>
+<Size>
+<Name>44W</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-relaxed-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Relaxed Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-12-08</ExtractDate>
+</Product>
+<Product>
+<Id>205488181</Id>
+<Name>Straight taupe jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<SalePrice>29.99</SalePrice>
+<SalePriceLabel>$29.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A versatile and unexpected neutral adds visual interest and newness to your look. &lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=205488181&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f0/da/f0dac6336f8a66cf4b9e69298cbe2abd_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f0/da/f0dac6336f8a66cf4b9e69298cbe2abd_medium/banana-republic-straight-leg-jeans-vintage-straight-taupe-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f0/da/f0dac6336f8a66cf4b9e69298cbe2abd/banana-republic-straight-leg-jeans-vintage-straight-taupe-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Taupe</Name>
+</Color>
+<Size>
+<Name>34W</Name>
+</Size>
+<Size>
+<Name>35W</Name>
+</Size>
+<Size>
+<Name>36W</Name>
+</Size>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Straight Leg Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-straight-leg-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-12-20</ExtractDate>
+</Product>
+<Product>
+<Id>205487925</Id>
+<Name>Straight five-pocket distressed grey jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<SalePrice>69.99</SalePrice>
+<SalePriceLabel>$69.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=205487925&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/cf/4e/cf4ecf7b82c037c152f93438c1f9778d_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/cf/4e/cf4ecf7b82c037c152f93438c1f9778d_medium/banana-republic-straight-leg-jeans-vintage-straight-fivepocket-grey-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/cf/4e/cf4ecf7b82c037c152f93438c1f9778d/banana-republic-straight-leg-jeans-vintage-straight-fivepocket-grey-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Grey</Name>
+</Color>
+<Size>
+<Name>28W</Name>
+</Size>
+<Size>
+<Name>29W</Name>
+</Size>
+<Size>
+<Name>35W</Name>
+</Size>
+<Size>
+<Name>38W</Name>
+</Size>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Straight Leg Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-straight-leg-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-12-20</ExtractDate>
+</Product>
+<Product>
+<Id>173343515</Id>
+<Name>Boot-cut indigo-wash jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Opt for a darker wash to add polish to your casual looks. &lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173343515&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/23/5d/235d64b3e5f7be158dda0d8159c9a33c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/23/5d/235d64b3e5f7be158dda0d8159c9a33c_medium/banana-republic-bootcut-jeans-bootcut-indigowash-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/23/5d/235d64b3e5f7be158dda0d8159c9a33c/banana-republic-bootcut-jeans-bootcut-indigowash-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>28W</Name>
+</Size>
+<Size>
+<Name>29W</Name>
+</Size>
+<Size>
+<Name>38W</Name>
+</Size>
+<Size>
+<Name>40W</Name>
+</Size>
+<Size>
+<Name>42W</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173343566</Id>
+<Name>Straight black stonewashed jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A modern alternative to blue: a faded wash and subtle whiskering details create a hip, edgy look in our black jean. A straight fit makes it a versatile choice. &lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173343566&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/62/a3/62a35a0765a4fa964193f819947aae9c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/62/a3/62a35a0765a4fa964193f819947aae9c_medium/banana-republic-straight-leg-jeans-straight-black-stonewashed-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/62/a3/62a35a0765a4fa964193f819947aae9c/banana-republic-straight-leg-jeans-straight-black-stonewashed-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Black denim</Name>
+</Color>
+<Size>
+<Name>28W</Name>
+</Size>
+<Size>
+<Name>29W</Name>
+</Size>
+<Size>
+<Name>30W</Name>
+</Size>
+<Size>
+<Name>31W</Name>
+</Size>
+<Size>
+<Name>32W</Name>
+</Size>
+<Size>
+<Name>33W</Name>
+</Size>
+<Size>
+<Name>34W</Name>
+</Size>
+<Size>
+<Name>35W</Name>
+</Size>
+<Size>
+<Name>36W</Name>
+</Size>
+<Size>
+<Name>38W</Name>
+</Size>
+<Size>
+<Name>40W</Name>
+</Size>
+<Size>
+<Name>42W</Name>
+</Size>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Straight Leg Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-straight-leg-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173344551</Id>
+<Name>Boot-cut faded indigo wash jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173344551&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e1/e3/e1e308261772ee64d9a4b157add3b494_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e1/e3/e1e308261772ee64d9a4b157add3b494_medium/banana-republic-bootcut-jeans-bootcut-faded-indigo-wash-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e1/e3/e1e308261772ee64d9a4b157add3b494/banana-republic-bootcut-jeans-bootcut-faded-indigo-wash-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>32W</Name>
+</Size>
+<Size>
+<Name>40W</Name>
+</Size>
+<Size>
+<Name>42W</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173344503</Id>
+<Name>Relaxed faded black jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt; Overview</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173344503&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/39/b6/39b6dd07716a9604cd6078d2ab68e3b6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/39/b6/39b6dd07716a9604cd6078d2ab68e3b6_medium/banana-republic-loose-jeans-relaxed-faded-black-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/39/b6/39b6dd07716a9604cd6078d2ab68e3b6/banana-republic-loose-jeans-relaxed-faded-black-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Black denim</Name>
+</Color>
+<Size>
+<Name>32W</Name>
+</Size>
+<Size>
+<Name>35W</Name>
+</Size>
+<Size>
+<Name>40W</Name>
+</Size>
+<Size>
+<Name>42W</Name>
+</Size>
+<Size>
+<Name>44W</Name>
+</Size>
+<Category>mens-loose-jeans</Category>
+<Category>mens-relaxed-jeans</Category>
+<CategoryName>Loose Jeans</CategoryName>
+<CategoryName>Relaxed Jeans</CategoryName>
+<SeeMoreLabel>Loose Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-loose-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>173343565</Id>
+<Name>Relaxed medium-wash jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Opt for a traditional favorite in medium-wash. Ideal for dressed-up or dressed-down style. &lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=173343565&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/01/16/01161d958cee6bfb34b6def2bed883f9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/01/16/01161d958cee6bfb34b6def2bed883f9_medium/banana-republic-relaxed-jeans-relaxed-mediumwash-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/01/16/01161d958cee6bfb34b6def2bed883f9/banana-republic-relaxed-jeans-relaxed-mediumwash-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>42W</Name>
+</Size>
+<Size>
+<Name>44W</Name>
+</Size>
+<Category>mens-relaxed-jeans</Category>
+<CategoryName>Relaxed Jeans</CategoryName>
+<SeeMoreLabel>Relaxed Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-relaxed-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-03</ExtractDate>
+</Product>
+<Product>
+<Id>135289412</Id>
+<Name>Straight dark wash jean</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A dark wash is the style you want for a casual day at the office or date night. It's the most versatile of washes, looking polished when paired with a chino blazer and loafers or a chambray shirt and new sneakers. The straight silhouette ensures an effortless, put-together appearance. &lt;ul&gt; &lt;li&gt;100% Cotton.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=135289412&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9a/ea/9aeaa51bd4f30104326203e7f5862ee4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9a/ea/9aeaa51bd4f30104326203e7f5862ee4_medium/banana-republic-straight-leg-jeans-straight-dark-wash-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9a/ea/9aeaa51bd4f30104326203e7f5862ee4/banana-republic-straight-leg-jeans-straight-dark-wash-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>28W</Name>
+</Size>
+<Size>
+<Name>29W</Name>
+</Size>
+<Size>
+<Name>30W</Name>
+</Size>
+<Size>
+<Name>31W</Name>
+</Size>
+<Size>
+<Name>32W</Name>
+</Size>
+<Size>
+<Name>33W</Name>
+</Size>
+<Size>
+<Name>34W</Name>
+</Size>
+<Size>
+<Name>35W</Name>
+</Size>
+<Size>
+<Name>36W</Name>
+</Size>
+<Size>
+<Name>38W</Name>
+</Size>
+<Size>
+<Name>40W</Name>
+</Size>
+<Size>
+<Name>42W</Name>
+</Size>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Straight Leg Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-straight-leg-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-02-19</ExtractDate>
+</Product>
+</SearchResult>

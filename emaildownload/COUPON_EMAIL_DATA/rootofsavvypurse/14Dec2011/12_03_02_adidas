@@ -1,0 +1,445 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.36.197 with SMTP id s5cs340vdj;
+         Wed, 14 Dec 2011 04:03:05 -0800 (PST)
+ Received: from mr.google.com ([10.50.104.137])
+         by 10.50.104.137 with SMTP id ge9mr28867014igb.38.1323864164223 (num_hops = 1);
+         Wed, 14 Dec 2011 04:02:44 -0800 (PST)
+ Received: by 10.50.104.137 with SMTP id ge9mr24286047igb.38.1323864164212;
+         Wed, 14 Dec 2011 04:02:44 -0800 (PST)
+ X-Forwarded-To: rootofsavvypurse@gmail.com
+ X-Forwarded-For: atul.singh@gmail.com rootofsavvypurse@gmail.com
+ Delivered-To: atul.singh@gmail.com
+ Received: by 10.231.14.133 with SMTP id g5cs11580iba;
+         Wed, 14 Dec 2011 04:02:43 -0800 (PST)
+ Received: by 10.180.92.68 with SMTP id ck4mr4059213wib.27.1323864161996;
+         Wed, 14 Dec 2011 04:02:41 -0800 (PST)
+ Return-Path: <bo-bwp1gmuavb6k21au6x5reqchtruv2v@b.adidasusnews.com>
+ Received: from mta145.adidasusnews.com (mta145.adidasusnews.com. [64.37.95.165])
+         by mx.google.com with ESMTP id l9si1330678wiy.100.2011.12.14.04.02.41;
+         Wed, 14 Dec 2011 04:02:41 -0800 (PST)
+ Received-SPF: pass (google.com: domain of bo-bwp1gmuavb6k21au6x5reqchtruv2v@b.adidasusnews.com designates 64.37.95.165 as permitted sender) client-ip=64.37.95.165;
+ Authentication-Results: mx.google.com; spf=pass (google.com: domain of bo-bwp1gmuavb6k21au6x5reqchtruv2v@b.adidasusnews.com designates 64.37.95.165 as permitted sender) smtp.mail=bo-bwp1gmuavb6k21au6x5reqchtruv2v@b.adidasusnews.com; dkim=pass header.i=@adidasusnews.com
+ DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; d=adidasusnews.com;
+ 	s=20111006; t=1323864182; x=1339675382;
+ 	bh=pYbbFhOC/PuVOvmrHDzo/yKbdws=; h=From:Reply-To;
+ 	b=slNiv5/0muSCuqApbQs4CkKEYMUNHM7GAbg1zXvmE2cu4/Bzd0YQ2g+QsZPYL7x0b
+ 	 2anEIt7Qomp8If9gTgtkyJuMK2+f6qqSNLbe8DpSj3Veaq+k5nm3Nf+KrrFrznvsIN
+ 	 3Pctq6fTzqgdy/Cc5JjLbPdi6PC6ZK8dxxeyggpQ=
+ DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+   s=200505; d=adidasusnews.com;
+   b=jLLMnzEAlc81VDFHSqBgJ2SSJThgvHDqD0TPMnnrKYOsAzx/M1Sx1Ga1dcZUNHQTYC97kVhLVf9VAnaJkzNne6GaYV28YDhAiqqH+DGY/xUb8Mfb8pOEfz3cd+8WaCgxX+ZETXWllhe0GDh7mMQGGr9wxgYwfn4V9xWp4E4+pxA=;
+  h=Date:Message-ID:List-Unsubscribe:From:To:Subject:MIME-Version:Reply-To:Content-type;
+ Date: Wed, 14 Dec 2011 12:03:02 -0000
+ Message-ID: <bwp1gmuavb6k21au6x5reqchtruv2v.14706419918.1908@mta145.adidasusnews.com>
+ List-Unsubscribe: <mailto:rm-0bwp1gmuavb6k21au6x5reqchtruv2v@adidasusnews.com>
+ From: "adidas Online Store" <adidas@adidasusnews.com>
+ To: atul.singh@gmail.com
+ Subject: Don't forget your FREE SHIPPING!
+ MIME-Version: 1.0
+ Reply-To: "adidas Online Store" <support-bwp1gmuavb6k21au6x5reqchtruv2v@adidasusnews.com>
+ Content-type: multipart/alternative; boundary="=bwp1gmuavb6k21au6x5reqchtruv2v"
+ 
+ 
+ --=bwp1gmuavb6k21au6x5reqchtruv2v
+ Content-Type: text/plain; charset="iso-8859-1"
+ Content-transfer-encoding: 8bit
+ 
+ 
+ Viewing difficulties? View the online version.
+ http://adidasusnews.com/a/tBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/hosted-0?t=BO6I-EAUgogWB8a1pGNskijO.AUllI4v8&t_params=I_EXPIRATION_WELCOME%3D05-DEC-2011%26I_WELCOMES%3D05-DEC-2011%26EMAIL%3Datul.singh%2540gmail.com%26PASSWORD%3DAUgogWNskijOBO6I-EIjOBERiopOSW%26SOURCE%3DADIDASDOTCOM
+ 
+ we got your back
+ 
+ Just a friendly reminder:
+ 
+ We sent you a great offer last week for FREE SHIPPING that you still
+ haven't used.  Don't worry, you still have 7 DAYS LEFT to use it,
+ just enter the following code at shopadidas.com:
+ 
+ EMFS58B9-2F5
+ 
+ Shop Now >>
+ http://adidasusnews.com/a/tBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/shopnow-0
+ 
+ 
+ *****************************
+ 
+ Contact Us
+ http://adidasusnews.com/a/tBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/contactus-0
+ 
+ View Our Privacy Policy
+ http://adidasusnews.com/a/tBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/privacy-0
+ 
+ adidas Stores
+ http://adidasusnews.com/a/tBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/findastore-0
+ 
+ Gift Cards
+ http://adidasusnews.com/a/tBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/giftcards-0
+ 
+ Update
+ http://adidasusnews.com/a/tBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/update-0?password=AUgogWNskijOBO6I-EIjOBERiopOSW
+ 
+ Unsubscribe
+ http://adidasusnews.com/a/tBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/unsub-0?password=AUgogWNskijOBO6I-EIjOBERiopOSW
+ 
+ 
+ *Limited time offer valid until 12/20/2011. Offer expires at
+ 11:59pm (PST) 12/20/2011. Offer is good for $5 off shipping
+ with any purchase. Discount applied at checkout. Offer is not
+ combinable with any other promotions or discounts. Offer does not
+ apply to adidas gift cards and mi adidas customizations. Valid on
+ domestic U.S. orders only.
+ 
+ (c) 2011 adidas America, Inc. adidas and the 3-Stripes
+ mark are registered trademarks of the adidas Group.
+ 
+ adidas America, 5055 N. Greeley, Portland, Oregon 97217.
+ http://adidasusnews.com/a/tBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/shopadidas-0
+ 
+ --=bwp1gmuavb6k21au6x5reqchtruv2v
+ Content-Type: text/html; charset="iso-8859-1"
+ Content-Transfer-Encoding: quoted-printable
+ 
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+ w3.org/TR/html4/loose.dtd"><html><head><title>adidas</title><meta http-equi=
+ v=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"></head><body onlo=
+ ad=3D'' bgcolor=3D"#FFFFFF">
+ 
+ 
+ 
+ 
+ 
+ <form method=3D"GET" action=3D"http://ebm.adidasusnews.com/r/regf2" name=3D=
+ "regf2" style=3D"padding-bottom:0px; padding-left:0px; padding-right:0px; p=
+ adding-top:0px;=20
+ margin-bottom:0px; margin-left:0px; margin-right:0px; margin-top:0px; displ=
+ ay: inline;">
+ <font style=3D"font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; =
+ font-size:12px; color:#333333; line-height:normal; font-style:normal; font-=
+ weight:normal;=20
+ text-decoration:none;"></font>
+ <font style=3D"font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; =
+ font-size:12px; color:#333333; line-height:normal; font-style:normal; font-=
+ weight:normal;=20
+ text-decoration:none;"></font>
+ <table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+ <tr>
+ <td align=3D"center" bgcolor=3D"#FFFFFF">
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td width=3D"22"><img style=3D"display:block;" src=3D"http://f.chtah.com/i/=
+ 48/344098838/031511_March2011ThankYouOfferUpdate_spacer.gif" width=3D"22" h=
+ eight=3D"1"></td>
+ <td align=3D"left" valign=3D"bottom" style=3D"font-family:'Helvetica Neue',=
+  Helvetica, Arial, sans-serif; font-size:10px; color:#999999; text-decorati=
+ on:none; font-weight:normal;=20
+ line-height:normal">View this on a <a href=3D"http://adidasusnews.com/a/hBO=
+ 6I-EAUgogWB8a1pGNskijO.AUllI4v8/phone-0?t_params=3DI_EXPIRATION_WELCOME%3D0=
+ 5-DEC-2011%26I_WELCOMES%3D05-DEC-2011%26EMAIL%3Datul.singh%2540gmail.com%26=
+ PASSWORD%3DAUgogWNskijOBO6I-EIjOBERiopOSW%26SOURCE%3DADIDASDOTCOM" style=3D=
+ "font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px=
+ ;=20
+ color:#999999; text-decoration:underline; font-weight:normal; line-height:n=
+ ormal">mobile device</a>.</td>
+ <td align=3D"right" valign=3D"bottom" style=3D"font-family:'Helvetica Neue'=
+ , Helvetica, Arial, sans-serif; font-size:10px; color:#999999; text-decorat=
+ ion:none; font-weight:normal;=20
+ line-height:normal">Having trouble seeing this email? <a href=3D"http://adi=
+ dasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/hosted-0?t_params=3DI_EX=
+ PIRATION_WELCOME%3D05-DEC-2011%26I_WELCOMES%3D05-DEC-2011%26EMAIL%3Datul.si=
+ ngh%2540gmail.com%26PASSWORD%3DAUgogWNskijOBO6I-EIjOBERiopOSW%26SOURCE%3DAD=
+ IDASDOTCOM" style=3D"font-family:'Helvetica Neue', Helvetica, Arial,=20
+ sans-serif; font-size:10px; color:#999999; text-decoration:underline; font-=
+ weight:normal; line-height:normal">View online</a>.</td>
+ <td width=3D"22"><img style=3D"display:block;" src=3D"http://f.chtah.com/i/=
+ 48/344098838/031511_March2011ThankYouOfferUpdate_spacer.gif" width=3D"22" h=
+ eight=3D"1"></td>
+ </tr>
+ </table>
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td><img style=3D"display:block;" alt=3D"" title=3D"" border=3D"0" src=3D"h=
+ ttp://f.chtah.com/i/48/344098838/031511_March2011ThankYouOfferUpdate_031511=
+ _top.gif" width=3D"750"=20
+ height=3D"10"></td>
+ </tr>
+ </table>
+ 
+ 
+ <!--Top Header information begins here-->
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /home-0?email=3Datul.singh@gmail.com"><img style=3D"display:block;" alt=3D"=
+ adidas" title=3D"adidas" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_logo.gif=
+ " width=3D"281" height=3D"57"></a></td>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /perform-0?email=3Datul.singh@gmail.com"><img style=3D"display:block;" alt=
+ =3D"adidas Performance" title=3D"adidas Performance" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_perf.gif=
+ " width=3D"125" height=3D"57"></a></td>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /originals-0?email=3Datul.singh@gmail.com"><img style=3D"display:block;" al=
+ t=3D"adidas Originals" title=3D"adidas Originals" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_orig.gif=
+ " width=3D"103" height=3D"57"></a></td>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /style-0?email=3Datul.singh@gmail.com"><img style=3D"display:block;" alt=3D=
+ "adidas Style" title=3D"adidas Style" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_style.gi=
+ f" width=3D"80" height=3D"57"></a></td>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /shopadi-0?email=3Datul.singh@gmail.com"><img style=3D"display:block;" alt=
+ =3D"Shop adidas" title=3D"Shop adidas" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_shop.gif=
+ " width=3D"75" height=3D"57"></a></td>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /findastore-0?email=3Datul.singh@gmail.com"><img style=3D"display:block;" a=
+ lt=3D"Store Finder" title=3D"Store Finder" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_finder.g=
+ if" width=3D"86" height=3D"57"></a></td>
+ </tr>
+ </table>
+ 
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td><img style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/=
+ 48/344098838/2011_welcome_text_top.gif" width=3D"750" height=3D"10"></td>
+ </tr>
+ </table>
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td width=3D"1" align=3D"center" valign=3D"middle" bgcolor=3D"#999999"><img=
+  style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/48/34409=
+ 8838/spacer.gif" width=3D"1"=20
+ height=3D"1"></td>
+ <td width=3D"1" align=3D"center" valign=3D"middle" bgcolor=3D"#c3c3c3"><img=
+  style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/48/34409=
+ 8838/spacer.gif" width=3D"1"=20
+ height=3D"1"></td>
+ <td width=3D"1" align=3D"center" valign=3D"middle" bgcolor=3D"#cccccc"><img=
+  style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/48/34409=
+ 8838/spacer.gif" width=3D"1"=20
+ height=3D"1"></td>
+ 
+ <td width=3D"1" align=3D"center" valign=3D"middle" bgcolor=3D"#d5d5d5"><img=
+  style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/48/34409=
+ 8838/spacer.gif" width=3D"1"=20
+ height=3D"1"></td>
+ <td width=3D"1" align=3D"center" valign=3D"middle" bgcolor=3D"#dcdcdc"><img=
+  style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/48/34409=
+ 8838/spacer.gif" width=3D"1"=20
+ height=3D"1"></td>
+ <td width=3D"1" align=3D"center" valign=3D"middle" bgcolor=3D"#e2e2e2"><img=
+  style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/48/34409=
+ 8838/spacer.gif" width=3D"1"=20
+ height=3D"1"></td>
+ <td width=3D"1" align=3D"center" valign=3D"middle" bgcolor=3D"#e7e7e7"><img=
+  style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/48/34409=
+ 8838/spacer.gif" width=3D"1"=20
+ height=3D"1"></td>
+ <td width=3D"1" align=3D"center" valign=3D"middle" bgcolor=3D"#eaeaea"><img=
+  style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/48/34409=
+ 8838/spacer.gif" width=3D"1"=20
+ height=3D"1"></td>
+ <td width=3D"1" align=3D"center" valign=3D"middle" bgcolor=3D"#ececec"><img=
+  style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/48/34409=
+ 8838/spacer.gif" width=3D"1"=20
+ height=3D"1"></td>
+ <td width=3D"732" align=3D"center" valign=3D"middle" bgcolor=3D"#eeeeee" st=
+ yle=3D"font-family:'Helvetica Neue Condensed', 'Arial Narrow', Helvetica, A=
+ rial sans-serif; font-size:19px;=20
+ line-height:normal; font-weight:normal; text-decoration:none; font-variant:=
+ normal; color:#333333; letter-spacing:0px;"><strong>Free Shipping</strong> =
+ on your next order.=20
+ Limited time only.*</td>
+ <td width=3D"1" bgcolor=3D"#ececec"><img style=3D"display:block;" border=3D=
+ "0" src=3D"http://f.chtah.com/i/48/344098838/spacer.gif" width=3D"1" height=
+ =3D"1"></td>
+ <td width=3D"1" bgcolor=3D"#eaeaea"><img style=3D"display:block;" border=3D=
+ "0" src=3D"http://f.chtah.com/i/48/344098838/spacer.gif" width=3D"1" height=
+ =3D"1"></td>
+ <td width=3D"1" bgcolor=3D"#e7e7e7"><img style=3D"display:block;" border=3D=
+ "0" src=3D"http://f.chtah.com/i/48/344098838/spacer.gif" width=3D"1" height=
+ =3D"1"></td>
+ <td width=3D"1" bgcolor=3D"#e2e2e2"><img style=3D"display:block;" border=3D=
+ "0" src=3D"http://f.chtah.com/i/48/344098838/spacer.gif" width=3D"1" height=
+ =3D"1"></td>
+ <td width=3D"1" bgcolor=3D"#dbdbdb"><img style=3D"display:block;" border=3D=
+ "0" src=3D"http://f.chtah.com/i/48/344098838/spacer.gif" width=3D"1" height=
+ =3D"1"></td>
+ <td width=3D"1" bgcolor=3D"#d4d4d4"><img style=3D"display:block;" border=3D=
+ "0" src=3D"http://f.chtah.com/i/48/344098838/spacer.gif" width=3D"1" height=
+ =3D"1"></td>
+ <td width=3D"1" bgcolor=3D"#cbcbcb"><img style=3D"display:block;" border=3D=
+ "0" src=3D"http://f.chtah.com/i/48/344098838/spacer.gif" width=3D"1" height=
+ =3D"1"></td>
+ 
+ <td width=3D"1" bgcolor=3D"#c0c0c0"><img style=3D"display:block;" border=3D=
+ "0" src=3D"http://f.chtah.com/i/48/344098838/spacer.gif" width=3D"1" height=
+ =3D"1"></td>
+ <td width=3D"1" bgcolor=3D"#999999"><img style=3D"display:block;" border=3D=
+ "0" src=3D"http://f.chtah.com/i/48/344098838/spacer.gif" width=3D"1" height=
+ =3D"1"></td>
+ </tr>
+ </table>
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td><img style=3D"display:block;" border=3D"0" src=3D"http://f.chtah.com/i/=
+ 48/344098838/2011_welcome_text_bottom.gif" width=3D"750" height=3D"10"></td>
+ </tr>
+ </table>
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td><img style=3D"display:block;" alt=3D"we got your back" title=3D"we got =
+ your back" border=3D"0" src=3D"http://f.chtah.com/i/48/344098838/042011_Wel=
+ come3_oba_welcome_3_v5_02.jpg"=20
+ width=3D"750" height=3D"298"></td>
+ </tr>
+ </table>
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td align=3D"left" valign=3D"top" bgcolor=3D"#DDDCDC"><img style=3D"display=
+ :block;" alt=3D"just a friendly reminder" title=3D"just a friendly reminder=
+ " border=3D"0"=20
+ src=3D"http://f.chtah.com/i/48/344098838/042011_Welcome3_oba_welcome_3_v5_0=
+ 3.gif" width=3D"247" height=3D"196"></td>
+ <td align=3D"left" valign=3D"top" bgcolor=3D"#DDDCDC"><table width=3D"503" =
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td><img src=3D"http://f.chtah.com/i/48/344098838/042011_Welcome3_oba_welco=
+ me_3_v5_04.gif" alt=3D"We sent you a great offer last week for free shippin=
+ g that you still haven't=20
+ used. Don't worry, you still have 7 days left to use it, just enter the fol=
+ lowing code at shopadidas.com:" width=3D"503" height=3D"95" border=3D"0" st=
+ yle=3D"display:block;"=20
+ title=3D"We sent you a great offer last week for free shipping that you sti=
+ ll haven't used. Don't worry, you still have 7 days left to use it, just en=
+ ter the following code=20
+ at shopadidas.com:"></td>
+ </tr>
+ <tr>
+ <td><table width=3D"503" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td width=3D"493" height=3D"101" align=3D"left" valign=3D"top" style=3D"fon=
+ t-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:normal; =
+ color:#000000;=20
+ font-weight:normal; font-style:normal; text-decoration:none;"><font style=
+ =3D"font-family:Arial, Helvetica, sans-serif; font-size:32px; line-height:n=
+ ormal; color:#000000;=20
+ font-weight:normal; font-style:normal; text-decoration:none;">EMFS58B9-2F5<=
+ /font><br>
+ <br><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /shopnow-0?email=3Datul.singh@gmail.com"><img src=3D"http://f.chtah.com/i/4=
+ 8/344098838/042011_Welcome3_oba_welcome_3_v5_08.gif" alt=3D"Shop Now &gt;" =
+ width=3D"136"=20
+ height=3D"29" border=3D"0" style=3D"display:block;" title=3D"Shop Now &gt;"=
+ ></a><br></td>
+ <td width=3D"10" height=3D"101" align=3D"left" valign=3D"top"><a href=3D"">=
+ <img src=3D"http://f.chtah.com/i/48/344098838/042011_Welcome3_oba_welcome_3=
+ _v5_06.gif" alt=3D"Shop Now &gt;"=20
+ width=3D"10" height=3D"101" border=3D"0" style=3D"display:block;" title=3D"=
+ Shop Now &gt;"></a></td>
+ </tr>
+ </table></td>
+ </tr>
+ </table></td>
+ </tr>
+ </table>
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /contactus-0?email=3Datul.singh@gmail.com"><img style=3D"display:block;" al=
+ t=3D"contact us" title=3D"contact us" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_contact.=
+ gif" width=3D"85" height=3D"22"></a></td>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /findastore-0?email=3Datul.singh@gmail.com"><img style=3D"display:block;" a=
+ lt=3D"adidas stores" title=3D"adidas stores" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_stores.g=
+ if" width=3D"88" height=3D"22"></a></td>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /privacy-0?email=3Datul.singh@gmail.com"><img style=3D"display:block;" alt=
+ =3D"privacy policy" title=3D"privacy policy" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_policy.g=
+ if" width=3D"88" height=3D"22"></a></td>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /giftcards-0?email=3Datul.singh@gmail.com"><img style=3D"display:block;" al=
+ t=3D"gift cards" title=3D"gift cards" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_cards.gi=
+ f" width=3D"69" height=3D"22"></a></td>
+ <td><img style=3D"display:block;" alt=3D"" title=3D"" border=3D"0" src=3D"h=
+ ttp://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_middle.gif" widt=
+ h=3D"240" height=3D"22"></td>
+ <td><img style=3D"display:block;" alt=3D"adidas newsletters:" title=3D"adid=
+ as newsletters:" border=3D"0" src=3D"http://f.adidasusnews.com/i/48/3440988=
+ 38/wel_off_pro_031511_nl.gif"=20
+ width=3D"119" height=3D"22"></td>
+ <td><a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8=
+ /update-0?password=3DAUgogWNskijOBO6I-EIjOBERiopOSW"><img style=3D"display:=
+ block;" alt=3D"update" title=3D"update" border=3D"0"=20
+ src=3D"http://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_update.g=
+ if" width=3D"61" height=3D"22"></a></td>
+ </tr>
+ </table>
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td><img style=3D"display:block;" alt=3D"" title=3D"" border=3D"0" src=3D"h=
+ ttp://f.adidasusnews.com/i/48/344098838/wel_off_pro_031511_bottom.gif" widt=
+ h=3D"750" height=3D"18"></td>
+ </tr>
+ </table>
+ <table width=3D"750" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+ <tr>
+ <td width=3D"22"><img style=3D"display:block;" src=3D"http://f.chtah.com/i/=
+ 48/344098838/spacer.gif" width=3D"22" height=3D"1"></td>
+ <td width=3D"706" align=3D"left" valign=3D"top" style=3D"font-family:'Helve=
+ tica Neue', Helvetica, Arial, sans-serif; font-size:10px; color:#999999; te=
+ xt-decoration:none;=20
+ font-weight:normal; line-height:normal;">*Limited time offer valid until 12=
+ /20/2011. Offer expires at 11:59pm (PST) 12/20/2011. Offer is good=20
+ for $5 off shipping with any purchase. Discount applied at checkout. Offer =
+ is not combinable with any other promotions or discounts. Offer does not ap=
+ ply to adidas gift=20
+ cards and mi adidas customizations. Valid on domestic U.S. orders only.<br>=
+ <br>
+ If you would prefer not to receive commercial communications via e-mail fro=
+ m adidas, <a href=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AU=
+ llI4v8/unsub-0?password=3DAUgogWNskijOBO6I-EIjOBERiopOSW"=20
+ style=3D"font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-s=
+ ize:10px; color:#999999; text-decoration:underline; font-weight:normal; lin=
+ e-height:normal">click=20
+ here</a> to be removed from future email<br>
+ campaigns. Please allow 7-10 days for your request to be processed.<br><br>=
+ &copy; 2011 adidas America, Inc. adidas, the Trefoil logo and the 3-Stripes=
+  mark=20
+ are registered trademarks of the adidas Group.<br>
+ adidas America 5055 N. Greeley Avenue Portland, OR 97217 <a href=3D"http://=
+ adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/shopadi-0?email=3Datu=
+ l.singh@gmail.com" style=3D"font-family:'Helvetica Neue', Helvetica, Arial,=
+  sans-serif;=20
+ font-size:10px; color:#999999; text-decoration:underline; font-weight:norma=
+ l; line-height:normal">www.shopadidas.com</a></td>
+ <td width=3D"22" align=3D"left" valign=3D"top" style=3D"font-family:'Helvet=
+ ica Neue', Helvetica, Arial, sans-serif; font-size:10px; color:#999999; tex=
+ t-decoration:none;=20
+ font-weight:normal; line-height:normal;"><img style=3D"display:block;" src=
+ =3D"http://f.chtah.com/i/48/344098838/spacer.gif" width=3D"22" height=3D"1"=
+ ></td>
+ </tr>
+ </table>
+ <!--Footer information ends here-->
+ </td>
+ </tr>
+ </table>
+ </form>
+ 
+ <img src=3D"http://adidasusnews.com/a/hBO6I-EAUgogWB8a1pGNskijO.AUllI4v8/sp=
+ acer-0.gif">
+ </body></html>=
+ 
+ 
+ --=bwp1gmuavb6k21au6x5reqchtruv2v--
+ 
+

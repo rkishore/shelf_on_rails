@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>Shelf.com: Simplifying your apparel-buying experience!</title>
+		<meta name="description" content="" />
+		<meta name="author" content="Atul Singh" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<!-- <link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" /> -->
+		<link rel="stylesheet" type="text/css" href="/mymedia/css/site_base.css" />
+	</head>
+	<body>
+		<div>
+			<header>
+				<div class="header"><h1 class="header">Shelf.com</h1></div>			
+			</header>
+			<nav>
+				<ul>
+					<li><a class="nav" href="/viewyourshelf/?u={{uid}}">View Shelfs</a></li>
+					<li><a class="nav" href="/apply_promo/?u={{uid}}">View Pricing Info</a></li>
+					<li><a class="nav" href="/statsplot/">Did you know?</a></li>
+				</ul>
+			</nav>
+			<div class="welcome">
+				<!-- Shelf is an online management engine that helps you manage and track your wishlists. Shelf
+				helps you save money by automatically finding the best promotion that are applicable to your items. -->
+				<strong>What is Shelf.com?</strong>
+				<p>For apparel you want to purchase, Shelf.com will: (a) manage all your items in one location 
+					(a unified view of your wishlist), (b) save money (find, and apply promotions), (c) find similar items at 
+					other stores and their prices, and (d) track prices and make when-to-buy recommendations.
+				</p>
+				<strong>Do you have a demo?</strong>
+				<p>Our demo currently works only for <a href="http://www.express.com">Express</a> and 
+				<a href="http://www.jcrew.com">J.Crew</a>.</p>
+				<p>To get going, drag-and-drop the following link to your bookmarks bar or right click and add to your favorites.</p>
+				<!-- <p class="pressthis"><a style="text-decoration:none" onclick="return false;" oncontextmenu="if(window.navigator.userAgent.indexOf(\'WebKit\')!=-1) return false;" href="javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,s=(e?e():(k)?k():(x?x.createRange().text:0)), f='http://localhost:8000/shelfit',l=d.location,e=encodeURIComponent, u=f+'?u='+e(l.href)+'&t='+{{uid}}; a=function(){if(!w.open(u,'t','toolbar=0,resizable=1,scrollbars=1,status=1,width=720,height=570'))l.href=u;}; if (/Firefox/.test(navigator.userAgent)) setTimeout(a, 0); else a();void(0)" class="signup_button round">Shelf It!</a> 
+				<a onclick="return false;" style="text-decoration:none" href="http://localhost:8000/viewyourshelf/?u={{uid}}" class="signup_button round">Your Shelf</a></p>--> 
+				<p class="pressthis"><a style="text-decoration:none" onclick="return false;" oncontextmenu="if(window.navigator.userAgent.indexOf(\'WebKit\')!=-1) return false;" href="javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,s=(e?e():(k)?k():(x?x.createRange().text:0)), f='http://69.120.105.217:8000/shelfit',l=d.location,e=encodeURIComponent, u=f+'?u='+e(l.href)+'&t='+{{uid}}; a=function(){if(!w.open(u,'t','toolbar=0,resizable=1,scrollbars=1,status=1,width=720,height=570'))l.href=u;}; if (/Firefox/.test(navigator.userAgent)) setTimeout(a, 0); else a();void(0)" class="signup_button round">Shelf It!</a> 
+				<a onclick="return false;" style="text-decoration:none" href="http://69.120.105.217:8000/viewyourshelf/?u={{uid}}" class="signup_button round">Your Shelf</a></p> 
+			</div>
+			
+			<footer>
+				<div class="footer">Copyright 2012 by Shelf.com</div>
+			</footer>
+		</div>
+	</body>
+</html>

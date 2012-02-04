@@ -1,0 +1,169 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.37.232 with SMTP id b8cs78800vdk;
+         Mon, 5 Dec 2011 11:56:25 -0800 (PST)
+ Received: by 10.220.152.20 with SMTP id e20mr1157449vcw.176.1323114983977;
+         Mon, 05 Dec 2011 11:56:23 -0800 (PST)
+ Return-Path: <noreply-daa26fef@plus.google.com>
+ Received: from mail-vx0-f197.google.com (mail-vx0-f197.google.com [209.85.220.197])
+         by mx.google.com with ESMTPS id s5si4628230vcw.0.2011.12.05.11.56.23
+         (version=TLSv1/SSLv3 cipher=OTHER);
+         Mon, 05 Dec 2011 11:56:23 -0800 (PST)
+ Received-SPF: pass (google.com: domain of noreply-daa26fef@plus.google.com designates 209.85.220.197 as permitted sender) client-ip=209.85.220.197;
+ Authentication-Results: mx.google.com; spf=pass (google.com: domain of noreply-daa26fef@plus.google.com designates 209.85.220.197 as permitted sender) smtp.mail=noreply-daa26fef@plus.google.com; dkim=pass header.i=@plus.google.com
+ Received: by mail-vx0-f197.google.com with SMTP id fy13so9098425vcb.4
+         for <rootofsavvypurse@gmail.com>; Mon, 05 Dec 2011 11:56:23 -0800 (PST)
+ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+         d=plus.google.com; s=beta;
+         h=mime-version:x-notifications:x-all-senders-in-circles:date
+          :message-id:subject:from:to:content-type;
+         bh=34n75L6q4MpdLNjm+P0y7Zmmja/BDjMtSsobHjvEKy8=;
+         b=AU3qJMa5EP+ULd89nF+6rqWsFBkUPeWng6jFwdRIMpAOXrSZfN2Bt/cLZHYYCEWwtk
+          +rsGDmjdZTYphMBIoVtvnYccp1dIJzDu2s9Hx1xYECbJ18qoaudLqmsfYaOVBcj4XLZu
+          ilRSZGqvffx0xCBT/jpUHr8gfdOJz4bIgqm64=
+ MIME-Version: 1.0
+ Received: by 10.52.23.70 with SMTP id k6mr22519536vdf.1.1323114983899; Mon, 05
+  Dec 2011 11:56:23 -0800 (PST)
+ X-Notifications: XEAAAAFutwA4ZMT_TlxOeyyk6byQ
+ X-All-Senders-In-Circles: 1
+ Date: Mon, 05 Dec 2011 11:56:23 -0800 (PST)
+ Message-ID: <CLnt47Tb66wCFWtYNAod9RAAAA@plus.google.com>
+ Subject: Getting started on Google+
+ From: "Google+ team" <noreply-daa26fef@plus.google.com>
+ To: rootofsavvypurse@gmail.com
+ Content-Type: multipart/alternative; boundary=bcaec501c53c9cc4aa04b35db6d3
+ 
+ --bcaec501c53c9cc4aa04b35db6d3
+ Content-Type: text/plain; charset=ISO-8859-1; format=flowed; delsp=yes
+ 
+ Hey Savvy,Welcome to Google+ - we're glad you're here! Here's a video and  
+ some tips to help you get started:
+ 
+ 
+ https://plus.google.com/_/notifications/emlink?emrecipient=110707156979374468723&emid=CLnt47Tb66wCFWtYNAod9RAAAA&path=%2F%3Fpop%3Dwv%26hl%3Den&dt=1323114983896
+ 
+ 
+ Getting started on Google+
+ Find people you knowCircles are the heart of Google+ - they control who you  
+ share with and whose posts you see.  Find people you know, then drag and  
+ drop them into circles that match your real-world relationships.
+ 
+ https://plus.google.com/_/notifications/emlink?emrecipient=110707156979374468723&emid=CLnt47Tb66wCFWtYNAod9RAAAA&path=%2Fcircles%2Ffind&dt=1323114983896&src=1
+ 
+ See what people are sharingNow that you've added people to your circles,  
+ visit your stream to see what they're saying. When you find something you  
+ like, add a comment or click +1 to just say "cool!"
+ 
+ https://plus.google.com/_/notifications/emlink?emrecipient=110707156979374468723&emid=CLnt47Tb66wCFWtYNAod9RAAAA&path=%2Fstream&dt=1323114983896
+ 
+ Share somethingTo post for the first time, click "Share what's new" - you  
+ can include photos, videos, and links. Select the circles or people you  
+ want to share with, or choose "Public" so that anyone can see what you have  
+ to say.
+ 
+ https://plus.google.com/_/notifications/emlink?emrecipient=110707156979374468723&emid=CLnt47Tb66wCFWtYNAod9RAAAA&path=%2Fstream&dt=1323114983896
+ 
+ 
+ Congrats, you've made it to the end of this epic email. If you're still  
+ seeking answers, check out the Google+ Help Center.
+ 
+ http://www.google.com/support/+/?hl=en
+ 
+ Enjoy! - The Google+ Team
+ 
+ 
+ Change what email Google+ sends you:  
+ https://plus.google.com/_/notifications/emlink?emrecipient=110707156979374468723&emid=CLnt47Tb66wCFWtYNAod9RAAAA&path=%2Fsettings%2Fplus&dt=1323114983896
+ 
+ --bcaec501c53c9cc4aa04b35db6d3
+ Content-Type: text/html; charset=ISO-8859-1
+ Content-Transfer-Encoding: quoted-printable
+ 
+ <html><body><div style=3D"border:solid 1px #dfdfdf;;color:#333;font:11px Ar=
+ ial;width:670px;;"><div style=3D"background-color:#f2f2f2;border-bottom:sol=
+ id 1px #dfdfdf;;"><table style=3D"color:#666;font:13px Arial;line-height:1.=
+ 4em;;height:53px;width:100%;"><tr><td style=3D"padding-left:20px"><img src=
+ =3D"https://ssl.gstatic.com/s2/oz/images/notifications/logo/google-plus-661=
+ 7a72bb36cc548861652780c9e6ff1.png" alt=3D"Google+ team" style=3D"margin-top=
+ :6px;"/></td><td style=3D"padding-right:20px; text-align:right;"><a style=
+ =3D"display:inline-block;padding:7px 15px;background-color:#d44b38; color:#=
+ fff;font-size:13px; font-weight:bold;border-radius:2px;border:solid 1px #c4=
+ 3b28; white-space:nowrap;text-decoration:none" href=3D"https://plus.google.=
+ com/_/notifications/emlink?emrecipient=3D110707156979374468723&emid=3DCLnt4=
+ 7Tb66wCFWtYNAod9RAAAA&path=3D%2F&dt=3D1323114983896" >Visit Google+</a></td=
+ ></tr></table></div><div style=3D"background-color:#fff;padding:20px;"><tab=
+ le style=3D"color:#666;font:13px Arial;line-height:1.4em;;"><tr><td style=
+ =3D"color:#464646;font-size:15px;font-weight:bold;">Hey Savvy,</td></tr><tr=
+ ><td>Welcome to Google+ - we're glad you're here! Here's a video and some t=
+ ips to help you get started:</td></tr></table><table style=3D"color:#666;fo=
+ nt:13px Arial;line-height:1.4em;;"><tr><td style=3D"padding-top:20px;"><a h=
+ ref=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D1107071=
+ 56979374468723&emid=3DCLnt47Tb66wCFWtYNAod9RAAAA&path=3D%2F%3Fpop%3Dwv%26hl=
+ %3Den&dt=3D1323114983896" class=3D"color:#3366CC;text-decoration:none;"><im=
+ g src=3D"https://ssl.gstatic.com/s2/oz/intl/en/images/welcome-thumbnail-b47=
+ 03e06ea67a2c8e348b6a5790bbdb9.png" alt=3D"Google+ intro video" border=3D0 /=
+ ></a></td><td style=3D"padding-top:20px;"><ul style=3D"line-height:160%;"><=
+ li>What are circles?</li><li>How can I see what people are sharing?</li><li=
+ >What else can I do with Google+?</li></ul><div style=3D"padding-left:20px"=
+ ><a style=3D"display:inline-block;padding:7px 15px;background-color:#d44b38=
+ ; color:#fff;font-size:13px; font-weight:bold;border-radius:2px;border:soli=
+ d 1px #c43b28; white-space:nowrap;text-decoration:none" href=3D"https://plu=
+ s.google.com/_/notifications/emlink?emrecipient=3D110707156979374468723&emi=
+ d=3DCLnt47Tb66wCFWtYNAod9RAAAA&path=3D%2F%3Fpop%3Dwv%26hl%3Den&dt=3D1323114=
+ 983896" >Watch the intro</a></div></td></tr></table><div style=3D"margin:20=
+ px 0; border-bottom:solid 1px #dfdfdf;"></div><table style=3D"color:#666;fo=
+ nt:13px Arial;line-height:1.4em;;"><tr><td style=3D"color:#464646;font-size=
+ :15px;font-weight:bold;">Getting started on Google+</td></tr></table><table=
+  style=3D"color:#666;font:13px Arial;line-height:1.4em;;"><tr><td style=3D"=
+ padding-top:20px;width:95px;"><img src=3D"https://ssl.gstatic.com/s2/oz/ima=
+ ges/notifications/circles-f8fc605c24323724d2c6978d2cbcd217.png" alt=3D"Find=
+  people you know" /></td><td style=3D"padding-top:20px;width:520px;"><div s=
+ tyle=3D"color:#464646;font-size:15px;line-height:1.5em;">Find people you kn=
+ ow</div>Circles are the heart of Google+ - they control who you share with =
+ and whose posts you see. <a href=3D"https://plus.google.com/_/notifications=
+ /emlink?emrecipient=3D110707156979374468723&emid=3DCLnt47Tb66wCFWtYNAod9RAA=
+ AA&path=3D%2Fcircles%2Ffind&dt=3D1323114983896&src=3D1" style=3D"color:#336=
+ 6CC;text-decoration:none;">Find people you know,</a> then drag and drop the=
+ m into circles that match your real-world relationships.</td></tr><tr><td s=
+ tyle=3D"padding-top:20px;width:95px;"><img src=3D"https://ssl.gstatic.com/s=
+ 2/oz/images/notifications/stream-e95726facac8a06b6b7e588ad54ec417.png" alt=
+ =3D"See what people are sharing" /></td><td style=3D"padding-top:20px;width=
+ :520px;"><div style=3D"color:#464646;font-size:15px;line-height:1.5em;">See=
+  what people are sharing</div>Now that you've added people to your circles,=
+  <a href=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D11=
+ 0707156979374468723&emid=3DCLnt47Tb66wCFWtYNAod9RAAAA&path=3D%2Fstream&dt=
+ =3D1323114983896" style=3D"color:#3366CC;text-decoration:none;">visit your =
+ stream</a> to see what they're saying. When you find something you like, ad=
+ d a comment or click +1 to just say "cool!"</td></tr><tr><td style=3D"paddi=
+ ng-top:20px;width:95px;"><img src=3D"https://ssl.gstatic.com/s2/oz/images/n=
+ otifications/share-4686af1a94ea70630ab5dfe2ff767a01.png" alt=3D"Share somet=
+ hing" /></td><td style=3D"padding-top:20px;width:520px;"><div style=3D"colo=
+ r:#464646;font-size:15px;line-height:1.5em;">Share something</div>To <a hre=
+ f=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D110707156=
+ 979374468723&emid=3DCLnt47Tb66wCFWtYNAod9RAAAA&path=3D%2Fstream&dt=3D132311=
+ 4983896" style=3D"color:#3366CC;text-decoration:none;">post for the first t=
+ ime,</a> click "Share what's new" - you can include photos, videos, and lin=
+ ks. Select the circles or people you want to share with, or choose "Public"=
+  so that anyone can see what you have to say.</td></tr></table><div style=
+ =3D"margin:20px 0; border-bottom:solid 1px #dfdfdf;"></div><table style=3D"=
+ color:#666;font:13px Arial;line-height:1.4em;;"><tr><td style=3D"color:#464=
+ 646;font-size:15px;font-weight:bold;">Getting back to Google+</td></tr><tr>=
+ <td><img src=3D"https://ssl.gstatic.com/s2/oz/intl/en/images/welcome-a17545=
+ 34fe461545d62d3da373730fda.png" alt=3D"Bookmark plus.google.com" style=3D"m=
+ argin-top:20px;" /></td></tr><tr><table style=3D"color:#666;font:13px Arial=
+ ;line-height:1.4em;;width:500px;"><tr valign=3D"top"><td style=3D"padding:0=
+  20px;width:50%;">Click on <b>your name</b> to return to Google+</td><td st=
+ yle=3D"padding:0 20px;text-align:right; width:50%;">A <b>red icon</b> means=
+  you have new stuff to see in Google+</td></tr></table></tr></table><div st=
+ yle=3D"margin:20px 0; border-bottom:solid 1px #dfdfdf;"></div><table style=
+ =3D"color:#666;font:13px Arial;line-height:1.4em;;"><tr><td><div>Congrats, =
+ you've made it to the end of this epic email. If you're still seeking answe=
+ rs, check out the <a href=3D"http://www.google.com/support/+/?hl=3Den" styl=
+ e=3D"color:#3366CC;text-decoration:none;">Google+ Help Center.</a></div><di=
+ v style=3D"margin-top:20px;">Enjoy!<br />- The Google+ Team</div></td></tr>=
+ </table></div></div><div style=3D"color:#999;font:11px Arial;margin:5px 0;"=
+ ><a href=3D"https://plus.google.com/_/notifications/emlink?emrecipient=3D11=
+ 0707156979374468723&emid=3DCLnt47Tb66wCFWtYNAod9RAAAA&path=3D%2Fsettings%2F=
+ plus&dt=3D1323114983896" style=3D"color:#3366CC;text-decoration:none;">Chan=
+ ge</a> what email Google+ sends you.</div></body></html>
+ --bcaec501c53c9cc4aa04b35db6d3--
+

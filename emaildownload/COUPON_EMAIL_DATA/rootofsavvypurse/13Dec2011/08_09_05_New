@@ -1,0 +1,569 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.36.197 with SMTP id s5cs49404vdj;
+         Tue, 13 Dec 2011 05:11:48 -0800 (PST)
+ Received: by 10.224.44.130 with SMTP id a2mr2462664qaf.59.1323781906642;
+         Tue, 13 Dec 2011 05:11:46 -0800 (PST)
+ Return-Path: <12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa@email.nyandcompany.com>
+ Received: from bigfootinteractive.com (arm242.bigfootinteractive.com. [206.132.3.242])
+         by mx.google.com with ESMTP id c9si18515384qap.105.2011.12.13.05.11.45;
+         Tue, 13 Dec 2011 05:11:46 -0800 (PST)
+ Received-SPF: pass (google.com: domain of 12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa@email.nyandcompany.com designates 206.132.3.242 as permitted sender) client-ip=206.132.3.242;
+ Authentication-Results: mx.google.com; spf=pass (google.com: domain of 12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa@email.nyandcompany.com designates 206.132.3.242 as permitted sender) smtp.mail=12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa@email.nyandcompany.com; dkim=pass header.i=@email.nyandcompany.com
+ Return-Path: <12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa@email.nyandcompany.com>
+ DKIM-Signature: v=1; a=rsa-sha1; d=email.nyandcompany.com; s=ei; c=simple/simple;
+ 	q=dns/txt; i=@email.nyandcompany.com; t=1323781905;
+ 	h=From:Subject:Date:To:MIME-Version:Content-Type;
+ 	bh=zUG7MO3f2XsMoo2go21ndJKZBu8=;
+ 	b=ivk0MhAhhC3ZaV3CI7pMqn4CAVg5A8NYGcQ7wP4F/RsUUCTgH432wLKvHa971en4
+ 	hQxW1fPxTKvxoGkPdk092D50unQMGBW3r9cdZ0ulUNVaIi1RbXrskd4LpGhwGijL
+ 	oVTaPJMFsP0/IM0gDThZ0BfvnnDWUjtwfCa1fDaLf9Q=;
+ DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+ 	s=ei; d=email.nyandcompany.com;
+ 	h=List-Unsubscribe:Received:Reply-To:Bounces_to:Message-ID:X-SS:X-BFI:Date:From:Subject:To:MIME-Version:Content-Type;
+ 	b=j9bU+2gx88v4huELDMutBXNfuYtSOKtRX/gXVKtsytNQU4FeeydHw5DhQE3nBcza
+ 	exGF4QKG+GSeWmPtMzieFcjkeRnyKpuHH+AFHNfduRXbFmp3XwudbNbU9RgmPAls
+ 	zxE0iPhOn1tQUEzISuBF5xU/r35AOXSFDmaL6F9vs6s=
+ List-Unsubscribe: <mailto:12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa@email.nyandcompany.com?subject=unsubscribe>
+ Received: from [192.168.0.76] ([192.168.0.76:35878] helo=pimailer120)
+ 	by pimta06.epsiloninteractive.com (envelope-from <12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa@email.nyandcompany.com>)
+ 	(ecelerity 2.2.2.45 r(34222M)) with ESMTP
+ 	id 3E/78-23618-11F47EE4; Tue, 13 Dec 2011 08:11:45 -0500
+ Reply-To: "news" <12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa@email.nyandcompany.com>
+ Bounces_to: news.12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa@email.nyandcompany.com
+ Message-ID: <12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa.9107.27807.pimailer120.DumpShot.1@email.nyandcompany.com>
+ X-SS: 1-1-8140280-687340276
+ X-BFI: 12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa
+ Date: Tue, 13 Dec 2011 08:09:05 EST
+ From: New York & Company <news@email.nyandcompany.com>
+ Subject: Shop 50% off everything!
+ To: rootofsavvypurse@gmail.com
+ MIME-Version: 1.0
+ Content-Type: multipart/alternative;
+   boundary="ABCD-12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa-EFGH"
+ 
+ --ABCD-12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa-EFGH
+ Content-Type: text/plain; charset=us-ascii
+ Content-Transfer-Encoding: quoted-printable
+ 
+ New York & Company
+ -------------------------------------------------------------------------=
+ -------------------
+ 
+ Just in time to get something for everyone on your list...including you!
+ For a limited time shop 50% off EVERYTHING, in stores and online!
+ Plus enjoy free shipping on your online order of $100 or more!
+ 
+ CLICK TO VIEW FULL EMAIL WITH IMAGES, EXCLUSIONS, TERMS
+ AND CONDITIONS >
+ http://email.nyandcompany.com/1ced39807layfousubpyjmeaaaaaabwrnm5ysr5726q=
+ yaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjYwNDA4Njg5AXppcF9jb2RlAQFfV0FW=
+ RV9JRF8BNjg3MzQwMjc2AV9QTElTVF9JRF8BMjM1MzI5ODMBZ19pbmRleAEBZW1haWxfYWRkc=
+ gFyb290b2ZzYXZ2eXB1cnNlQGdtYWlsLmNvbQFfU0NIRF9UTV8BMjAxMTEyMTMwODAwMDABcH=
+ JvZmlsZV9rZXkBcm9vdG9mc2F2dnlwdXJzZUBnbWFpbC5jb20%3D&xUGlCucke6V5MGrjwUoV=
+ Xw
+ 
+ 
+ Shop now >
+ http://email.nyandcompany.com/12dc7ac53layfousubpyjmeiaaaaabwrnm5ysr5726q=
+ yaaaaa
+ 
+ -------------------------------------------------------------------------=
+ -------------------
+ You've received this message because you registered to receive email
+ from New York & Company.
+ 
+ If you no longer wish to receive email from us, or would like to edit
+ your email preferences, click here.
+ http://email.nyandcompany.com/1d38af6eelayfousubpyjmeqaaaaabwrnm5ysr5726q=
+ yaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjYwNDA4Njg5AXppcF9jb2RlAQFfV0FW=
+ RV9JRF8BNjg3MzQwMjc2AV9QTElTVF9JRF8BMjM1MzI5ODMBZ19pbmRleAEBZW1haWxfYWRkc=
+ gFyb290b2ZzYXZ2eXB1cnNlQGdtYWlsLmNvbQFfU0NIRF9UTV8BMjAxMTEyMTMwODAwMDABcH=
+ JvZmlsZV9rZXkBcm9vdG9mc2F2dnlwdXJzZUBnbWFpbC5jb20%3D&xUGlCucke6V5MGrjwUoV=
+ Xw
+ 
+ If you've received this email from a friend and would like to
+ subscribe to our email list, click here.
+ http://email.nyandcompany.com/1309ec2balayfousubpyjmeyaaaaabwrnm5ysr5726q=
+ yaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjYwNDA4Njg5AXppcF9jb2RlAQFfV0FW=
+ RV9JRF8BNjg3MzQwMjc2AV9QTElTVF9JRF8BMjM1MzI5ODMBZ19pbmRleAEBZW1haWxfYWRkc=
+ gFyb290b2ZzYXZ2eXB1cnNlQGdtYWlsLmNvbQFfU0NIRF9UTV8BMjAxMTEyMTMwODAwMDABcH=
+ JvZmlsZV9rZXkBcm9vdG9mc2F2dnlwdXJzZUBnbWFpbC5jb20%3D&xUGlCucke6V5MGrjwUoV=
+ Xw
+ 
+ Click here to view our Privacy Policy.
+ http://email.nyandcompany.com/195c42912layfousubpyjmfaaaaaabwrnm5ysr5726q=
+ yaaaaa
+ 
+ New York & Company Corporate Office
+ 450 W. 33rd Street
+ New York, NY 10001
+ 
+ To ensure delivery to your inbox (not bulk or junk folders), please
+ add news@email.nyandcompany.com to your address book.
+ 
+ 
+ --ABCD-12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa-EFGH
+ Content-Type: text/html; charset=us-ascii
+ Content-Transfer-Encoding: quoted-printable
+ 
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+ w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns=3D"http://www.w3.org/1999/xhtml"><head>
+ <title>Shop 50% off everything!</title>
+ <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DISO-885=
+ 9-1">
+ <meta name=3D"title" content=3D"You want it, you got it! $100 extended to=
+  shop great holiday gift ideas!"
+ 
+ 
+ 
+ <meta name=3D"description" content=3D"You want it, you got it! $100 exten=
+ ded to shop great holiday gift ideas!"
+ 
+ 
+ > =
+ 
+ <link rel=3D"image_src" href=3D""> =
+ 
+ <meta name=3D"medium" content=3D"image">
+ </head><body text=3D"#000000" link=3D"#000000" vlink=3D"#000000" alink=3D=
+ "#000000">
+ <table width=3D"649" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" ali=
+ gn=3D"center">
+   <tr>
+     <td width=3D"649" height=3D"33" align=3D"left" valign=3D"top" bgcolor=
+ =3D"#F5F5F5"><font color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdan=
+ a, sans-serif">Just in time to get something for everyone on your list...=
+ including you! For a limited time, shop 50% off EVERYTHING, in stores & o=
+ nline! Plus, enjoy free shipping on your online order of $100 or more!  <=
+ a href=3D"http://email.nyandcompany.com/1bde8cd3elayfousibpyjmfiaaaaabwrn=
+ m5ysr5726qyaaaaa" style=3D"color: rgb(0, 0, 0);"><b><u>Shop now</u></b></=
+ a></font><br>
+     <font color=3D"#000000" size=3D"1" face=3D"sans-serif"><small><font c=
+ olor=3D"#8C8C8C">If you are unable to see the images in this email, <font=
+  color=3D"#8C8C8C"><A HREF=3D"http://email.nyandcompany.com/143a59783layf=
+ ousibpyjmfqaaaaabwrnm5ysr5726qyaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNj=
+ YwNDA4Njg5AXppcF9jb2RlAQFfV0FWRV9JRF8BNjg3MzQwMjc2AV9QTElTVF9JRF8BMjM1MzI=
+ 5ODMBZ19pbmRleAEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cnNlQGdtYWlsLmNvbQFfU0NI=
+ RF9UTV8BMjAxMTEyMTMwODAwMDABcHJvZmlsZV9rZXkBcm9vdG9mc2F2dnlwdXJzZUBnbWFpb=
+ C5jb20%3D&xUGlCucke6V5MGrjwUoVXw">click here</A></font></font></small></f=
+ ont></td>
+   </tr>
+   <tr>
+     <td><a href=3D"http://email.nyandcompany.com/1a0b1a3d7layfousibpyjmfy=
+ aaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteractive.c=
+ om/images/8140280/61342968/1213_Online_Nav_02.gif" width=3D"650" height=3D=
+ "12" border=3D"0" style=3D"display:block;"></a></td>
+   </tr>
+   <tr>
+     <td><table width=3D"650" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+ "0">
+       <tr>
+         <td><a href=3D"http://email.nyandcompany.com/1680e6999layfousibpy=
+ jmgaaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_03.gif" alt=3D"New York & =
+ Company" width=3D"439" height=3D"21" border=3D"0" style=3D"display:block;=
+ "></a></td>
+         <td width=3D"193" height=3D"21"></td> =
+ 
+         <td><a href=3D"http://email.nyandcompany.com/18b1a5dcdlayfousibpy=
+ jmgiaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_05.gif" width=3D"18" heigh=
+ t=3D"21" border=3D"0" style=3D"display:block;"></a></td>
+       </tr>
+     </table></td>
+   </tr>
+   <tr>
+     <td><a href=3D"http://email.nyandcompany.com/175570770layfousibpyjmgq=
+ aaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteractive.c=
+ om/images/8140280/61342968/1213_Online_Nav_06.gif" width=3D"650" height=3D=
+ "10" border=3D"0" style=3D"display:block;"></a></td>
+   </tr>
+ 
+   <tr>
+     <td><table width=3D"550" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+ "0">
+       <tr>
+         <td><a href=3D"http://email.nyandcompany.com/196433324layfousibpy=
+ jmgyaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_Gifts.jpg" alt=3D"GIFTS" w=
+ idth=3D"82" height=3D"28" border=3D"0" style=3D"display:block;" /></a></t=
+ d>
+         <td><a href=3D"http://email.nyandcompany.com/184361a99layfousibpy=
+ jmhaaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_latestTrends.jpg" alt=3D"L=
+ ATEST TRENDS" width=3D"88" height=3D"28" border=3D"0" style=3D"display:bl=
+ ock;" /></a></td>
+         <td><a href=3D"http://email.nyandcompany.com/167222ecdlayfousibpy=
+ jmhiaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_NewArrivals.jpg" alt=3D"NE=
+ W ARRIVALS" width=3D"93" height=3D"28" border=3D"0" style=3D"display:bloc=
+ k;" /></a></td>
+         <td><a href=3D"http://email.nyandcompany.com/1996f7470layfousibpy=
+ jmhqaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_Apparel.jpg" alt=3D"APPARE=
+ L" width=3D"59" height=3D"28" border=3D"0" style=3D"display:block;" /></a=
+ ></td>
+         <td><a href=3D"http://email.nyandcompany.com/17a7b4024layfousibpy=
+ jmhyaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_Tops.jpg" alt=3D"TOPS" wid=
+ th=3D"44" height=3D"28" border=3D"0" style=3D"display:block;" /></a></td>=
+ 
+         <td><a href=3D"http://email.nyandcompany.com/1b2c48a6alayfousibpy=
+ jmiaaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_Pants.jpg" alt=3D"PANTS" w=
+ idth=3D"54" height=3D"28" border=3D"0" style=3D"display:block;" /></a></t=
+ d>
+         <td><a href=3D"http://email.nyandcompany.com/151d0be3elayfousibpy=
+ jmiiaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_Petite.jpg" alt=3D"PETITE"=
+  width=3D"52" height=3D"28" border=3D"0" style=3D"display:block;"></a></t=
+ d>
+         <td><a href=3D"http://email.nyandcompany.com/1af9de483layfousibpy=
+ jmiqaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_Tall.jpg" alt=3D"TALL" wid=
+ th=3D"42" height=3D"28" border=3D"0" style=3D"display:block;"></a></td>
+         <td><a href=3D"http://email.nyandcompany.com/14c89d0d7layfousibpy=
+ jmiyaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_Accessories.jpg" alt=3D"AC=
+ CESSORIES" width=3D"83" height=3D"28" border=3D"0" style=3D"display:block=
+ ;"></a></td>
+         <td><a href=3D"http://email.nyandcompany.com/1e9d33b7flayfousibpy=
+ jmjaaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Nav_Sale.jpg" alt=3D"SALE" wid=
+ th=3D"53" height=3D"28" border=3D"0" style=3D"display:block;"></a></td>
+       </tr>
+     </table></td>
+   </tr>  =
+ 
+   <tr>
+     <td><table width=3D"650" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+ "0">
+     </table></td>
+   </tr>
+   <tr>
+     <td><a href=3D"http://email.nyandcompany.com/10ac70f2blayfousibpyjmji=
+ aaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteractive.c=
+ om/images/8140280/61342968/1213_50POffRUSH_Section1.jpg" alt=3D"Shop Now"=
+  width=3D"650" height=3D"181" border=3D"0"  style=3D"display:block;"></a>=
+ </td>
+   </tr>
+   <tr>
+     <td><a href=3D"http://email.nyandcompany.com/1f48a5596layfousibpyjmjq=
+ aaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteractive.c=
+ om/images/8140280/61342968/1213_50POffRUSH_Section2.jpg" alt=3D"Shop Now"=
+  width=3D"650" height=3D"629" border=3D"0"  style=3D"display:block;"></a>=
+ </td>
+   </tr>
+   <tr>
+     <td><a href=3D"http://email.nyandcompany.com/1179e61c2layfousibpyjmjy=
+ aaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteractive.c=
+ om/images/8140280/61342968/1213_50POffRUSH_Section3.jpg" alt=3D"Shop Now"=
+  width=3D"650" height=3D"224" border=3D"0"  style=3D"display:block;"></a>=
+ <a href=3D"http://email.nyandcompany.com/1df21ab8clayfousibpyjmkaaaaaabwr=
+ nm5ysr5726qyaaaaa"></a></td>
+   </tr>
+   <tr>
+     <td><table width=3D"550" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+ "0">
+       <tr>
+         <td><a href=3D"http://email.nyandcompany.com/13c359fd8layfousibpy=
+ jmkiaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_50pOffRUSHv2_credit01.jpg" width=3D"3=
+ 80" height=3D"81" border=3D"0" style=3D"display:block;"></a></td>
+         <td><a href=3D"http://email.nyandcompany.com/1c278c565layfousibpy=
+ jmkqaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_50POffRUSH_credit02.jpg" width=3D"270=
+ " height=3D"81" border=3D"0" style=3D"display:block;"></a></td>
+       </tr>
+     </table></td>
+   </tr>
+   <tr>
+     <td><table width=3D"650" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+ "0">
+       <tr>
+         <td><a href=3D"http://email.nyandcompany.com/1216cf131layfousibpy=
+ jmkyaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_GiftCard.gif" alt=3D"Gift Card=
+ s" width=3D"225" height=3D"50" border=3D"0" style=3D"display:block;"></a>=
+ </td>
+         <td><a href=3D"http://email.nyandcompany.com/15ffc5955layfousibpy=
+ jmlaaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Twitter.gif" alt=3D"Follow us =
+ on TWITTER" width=3D"49" height=3D"50" border=3D"0" style=3D"display:bloc=
+ k;"></a></td>
+         <td><a href=3D"http://email.nyandcompany.com/1bce86d01layfousibpy=
+ jmliaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_Online_Facebook.gif" alt=3D"Become a =
+ fan on FACEBOOK" width=3D"50" height=3D"50" border=3D"0" style=3D"display=
+ :block;"></a></td>
+         <td><a href=3D"http://email.nyandcompany.com/142a537bclayfousibpy=
+ jmlqaaaaabwrnm5ysr5726qyaaaaa"><img src=3D"http://images.bigfootinteracti=
+ ve.com/images/8140280/61342968/1213_50pOffRUSHv2_TextImage.gif" width=3D"=
+ 326" height=3D"50" border=3D"0" style=3D"display:block;"></a></td>
+       </tr>
+     </table></td>
+   </tr> =
+ 
+   <tr>
+ 
+     <td><table width=3D"642" border=3D"0" cellspacing=3D"0" cellpadding=3D=
+ "0">
+       <tr>
+         <td><img src=3D"http://images.bigfootinteractive.com/images/81402=
+ 80/61342968/1213_Online_TEMPLATE01_67.gif" width=3D"15" height=3D"9" bord=
+ er=3D"0" style=3D"display:block;"></td>
+         <td><img src=3D"http://images.bigfootinteractive.com/images/81402=
+ 80/61342968/1213_Online_disclaimer_09.gif" width=3D"620" height=3D"9" bor=
+ der=3D"0" style=3D"display:block;"></td>
+         <td><img src=3D"http://images.bigfootinteractive.com/images/81402=
+ 80/61342968/1213_Online_TEMPLATE01_78.gif" width=3D"15" height=3D"9" bord=
+ er=3D"0" style=3D"display:block;"></td>
+       </tr>
+     </table></td>
+   </tr>
+  =
+ 
+    <tr>
+     <td><img src=3D"http://images.bigfootinteractive.com/images/8140280/6=
+ 1342968/1207_B1G1RUSH_spacer.gif" width=3D"650" height=3D"15" border=3D"0=
+ " style=3D"display:block;"></td>
+   </tr>
+   <tr>
+     <td><table id=3D"Table_" width=3D"650" height=3D"151" border=3D"0" ce=
+ llpadding=3D"0" cellspacing=3D"0">
+       <tr>
+         <td width=3D"9" height=3D"151"><img src=3D"http://images.bigfooti=
+ nteractive.com/images/8140280/61342968/1207_B1G1RUSH_spacer.gif" width=3D=
+ "15" height=3D"25" border=3D"0" style=3D"display:block;"></td>
+         <td width=3D"620" valign=3D"top"><table width=3D"619" border=3D"0=
+ " cellspacing=3D"0" cellpadding=3D"0">
+           <tr>
+             <td><table width=3D"619" border=3D"0" cellspacing=3D"0" cellp=
+ adding=3D"0">
+               <tr>
+                 <td><table width=3D"620" border=3D"0" align=3D"center" ce=
+ llpadding=3D"0" cellspacing=3D"0">
+                   <tr>
+                     <td height=3D"126" align=3D"left" valign=3D"top"><fon=
+ t color=3D"#666666" size=3D"1" face=3D"Helvetica, Verdana, sans-serif">*E=
+ xcludes Redlines, clearance, NY Deals, December Deals, New Arrivals & gif=
+ t cards. Not combinable with coupons. Promotion not valid at Broward Mall=
+ =2E<br>
+                       </font><BR> <font color=3D"#666666" size=3D"1" face=
+ =3D"Helvetica, Verdana, sans-serif">Receiving Free Shipping with your pur=
+ chase of $100 or more at nyandcompany.com is easy. Here's how: Qualifying=
+  orders will automatically have their shipping charges adjusted during th=
+ e checkout process. This offer is good for standard shipping within the U=
+ nited States to the address in your order. If you choose next day or 2-da=
+ y shipping, additional charges will apply. Qualifying amount applies to c=
+ urrent merchandise purchase only, not previous purchases, gift boxes, pac=
+ kaging, taxes, shipping & handling, value of New York & Company Gift Card=
+ s or online gift certificates purchased. Not redeemable for cash nor acce=
+ pted as payment for any credit card account. No adjustment on previous pu=
+ rchases. Offer is nontransferable without consent from New York & Company=
+ =2E Not valid at New York & Company, New York & Company Accessory or New =
+ York & Company Outlet stores. Subject to purchase approval. Cash value of=
+  1/100 cent. Valid in USA only. Shipping offer valid for a limited time o=
+ nly.</font></em><font color=3D"#000000" size=3D"1" face=3D"Helvetica, Ver=
+ dana, sans-serif"><strong><br>
+                             <br>
+                           </strong></font></td>
+                   </tr>
+                 </table></td>
+               </tr>
+             </table></td>
+           </tr>
+           <tr>
+             <td height=3D"19"><font color=3D"#666666" size=3D"1" face=3D"=
+ Helvetica, Verdana, sans-serif"><small><img src=3D"http://images.bigfooti=
+ nteractive.com/images/8140280/61342968/1207_B1G1RUSH_dottedRule.gif" widt=
+ h=3D"620" height=3D"10" border=3D"0" style=3D"display:block;"><br>
+             </small></font></td>
+           </tr>
+         </table></td>
+         <td width=3D"10"></a><img src=3D"http://images.bigfootinteractive=
+ =2Ecom/images/8140280/61342968/1207_B1G1RUSH_spacer.gif" width=3D"15" hei=
+ ght=3D"25" border=3D"0" style=3D"display:block;"></td>
+       </tr>
+     </table></td>
+   </tr>
+   <tr>
+     <td><img src=3D"http://images.bigfootinteractive.com/images/8140280/6=
+ 1342968/1207_B1G1RUSH_spacer.gif" width=3D"1" height=3D"1" border=3D"0" s=
+ tyle=3D"display:block;"></td>
+   </tr>
+   <tr>
+     <td height=3D"94"><table id=3D"Table_2" width=3D"650" height=3D"184" =
+ border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+       <tr>
+         <td width=3D"9"><img src=3D"http://images.bigfootinteractive.com/=
+ images/8140280/61342968/1207_B1G1RUSH_spacer.gif" width=3D"15" height=3D"=
+ 25" border=3D"0" style=3D"display:block;"></td>
+         <td width=3D"620" valign=3D"top"><table width=3D"619" border=3D"0=
+ " cellspacing=3D"0" cellpadding=3D"0">
+           <tr>
+             <td><table width=3D"619" border=3D"0" cellspacing=3D"0" cellp=
+ adding=3D"0">
+               <tr>
+                 <td><table width=3D"620" border=3D"0" align=3D"center" ce=
+ llpadding=3D"0" cellspacing=3D"0">
+                   <tr>
+                     <td width=3D"217" align=3D"left" valign=3D"top"><font=
+  color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana, sans-serif"><st=
+ rong><br>
+                       WHY DID I RECEIVE THIS EMAIL<br>
+                       <br>
+                       </strong></font><font color=3D"#666666" size=3D"1" =
+ face=3D"Helvetica, Verdana, sans-serif">You've received this message beca=
+ use you registered to receive email from <br>
+                         New York & Company.<br>
+                         <br>
+                         </font><font color=3D"#000000" size=3D"1" face=3D=
+ "Helvetica, Verdana, sans-serif">&#8226; <a href=3D"http://email.nyandcom=
+ pany.com/1a1b103e8layfousibpyjmlyaaaaabwrnm5ysr5726qyaaaaa/C?V=3DbF9pbmRl=
+ eAEBcHJvZmlsZV9pZAEzNjYwNDA4Njg5AXppcF9jb2RlAQFfV0FWRV9JRF8BNjg3MzQwMjc2A=
+ V9QTElTVF9JRF8BMjM1MzI5ODMBZ19pbmRleAEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cn=
+ NlQGdtYWlsLmNvbQFfU0NIRF9UTV8BMjAxMTEyMTMwODAwMDABcHJvZmlsZV9rZXkBcm9vdG9=
+ mc2F2dnlwdXJzZUBnbWFpbC5jb20%3D&xUGlCucke6V5MGrjwUoVXw">Edit my email pre=
+ ferences<br>
+                           <br>
+                           </a></font><font color=3D"#000000" size=3D"1" f=
+ ace=3D"Helvetica, Verdana, sans-serif">&#8226; <a href=3D"http://email.ny=
+ andcompany.com/1690ec9a6layfousibpyjmmaaaaaabwrnm5ysr5726qyaaaaa/C?V=3DbF=
+ 9pbmRleAEBcHJvZmlsZV9pZAEzNjYwNDA4Njg5AXppcF9jb2RlAQFfV0FWRV9JRF8BNjg3MzQ=
+ wMjc2AV9QTElTVF9JRF8BMjM1MzI5ODMBZ19pbmRleAEBZW1haWxfYWRkcgFyb290b2ZzYXZ2=
+ eXB1cnNlQGdtYWlsLmNvbQFfU0NIRF9UTV8BMjAxMTEyMTMwODAwMDABcHJvZmlsZV9rZXkBc=
+ m9vdG9mc2F2dnlwdXJzZUBnbWFpbC5jb20%3D&xUGlCucke6V5MGrjwUoVXw">Unsubscribe=
+ <br>
+                             <br>
+                           </a></font><font color=3D"#666666" size=3D"1" f=
+ ace=3D"Helvetica, Verdana, sans-serif">If you've received this email from=
+  a friend you can <a href=3D"http://email.nyandcompany.com/18a1afdf2layfo=
+ usibpyjmmiaaaaabwrnm5ysr5726qyaaaaa/C?V=3DbF9pbmRleAEBcHJvZmlsZV9pZAEzNjY=
+ wNDA4Njg5AXppcF9jb2RlAQFfV0FWRV9JRF8BNjg3MzQwMjc2AV9QTElTVF9JRF8BMjM1MzI5=
+ ODMBZ19pbmRleAEBZW1haWxfYWRkcgFyb290b2ZzYXZ2eXB1cnNlQGdtYWlsLmNvbQFfU0NIR=
+ F9UTV8BMjAxMTEyMTMwODAwMDABcHJvZmlsZV9rZXkBcm9vdG9mc2F2dnlwdXJzZUBnbWFpbC=
+ 5jb20%3D&xUGlCucke6V5MGrjwUoVXw">subscribe</a> and hear it first.</font><=
+ /td>
+                     <td width=3D"201" align=3D"left" valign=3D"top"><font=
+  color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana, sans-serif"><st=
+ rong><br>
+                       THIS EMAIL ALWAYS FALLS<br>
+                       IN MY JUNK FOLDER<br>
+                       <br>
+                       </strong></font><font color=3D"#666666" size=3D"1" =
+ face=3D"Helvetica, Verdana, sans-serif">To ensure delivery to your inbox<=
+ br>
+                         (not bulk or junk folders), please add</font><br>=
+ 
+                       <font color=3D"#000000" size=3D"1" face=3D"Helvetic=
+ a, Verdana, sans-serif"><a href=3D"mailto:news@email.nyandcompany.com">ne=
+ ws@email.nyandcompany.com</a></font><br>
+                       <font color=3D"#666666" size=3D"1" face=3D"Helvetic=
+ a, Verdana, sans-serif"> to your address book. </font></td>
+                     <td width=3D"189" align=3D"left" valign=3D"top"><font=
+  color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana, sans-serif"><st=
+ rong><br>
+                       ADDITIONAL INFO<br>
+                       <br>
+                       </strong></font> <font color=3D"#000000" size=3D"1"=
+  face=3D"Helvetica, Verdana, sans-serif">&#8226; </font><font color=3D"#6=
+ 66666" size=3D"1" face=3D"Helvetica, Verdana, sans-serif">Visit </font><f=
+ ont color=3D"#000000" size=3D"1" face=3D"Helvetica, Verdana, sans-serif">=
+ <a href=3D"http://email.nyandcompany.com/17457a74flayfousibpyjmmqaaaaabwr=
+ nm5ysr5726qyaaaaa">nyandcompany.com</a></font><font color=3D"#666666" siz=
+ e=3D"1" face=3D"Helvetica, Verdana, sans-serif"> for more<br>
+                         </font><font color=3D"#FFFFFF" size=3D"1" face=3D=
+ "Helvetica, Verdana, sans-serif">&#8226; </font><font color=3D"#666666" s=
+ ize=3D"1" face=3D"Helvetica, Verdana, sans-serif">sexy styles<br>
+                           <br>
+                           </font><font color=3D"#000000" size=3D"1" face=3D=
+ "Helvetica, Verdana, sans-serif">&#8226; <a href=3D"http://email.nyandcom=
+ pany.com/19743931blayfousibpyjmmyaaaaabwrnm5ysr5726qyaaaaa">Privacy polic=
+ y<br>
+                             <br>
+                             </a></font><font color=3D"#666666" size=3D"1"=
+  face=3D"Helvetica, Verdana, sans-serif">New York & Company Corporate<br>=
+ 
+                               450 West 33rd Street<br>
+                               New York, NY 10001</font></td>
+                   </tr>
+                 </table></td>
+               </tr>
+              <tr>
+                 <td><img src=3D"http://images.bigfootinteractive.com/imag=
+ es/8140280/61342968/120211_V1_spacer.gif" alt=3D"" width=3D"1" height=3D"=
+ 1" border=3D"0" style=3D"display:block;"></td>
+               </tr>
+             </table></td>
+           </tr>
+           <tr>
+             <td align=3D"left"><table width=3D"619" border=3D"0" cellspac=
+ ing=3D"0" cellpadding=3D"0">
+               <tr>
+                 <td><table width=3D"619" border=3D"0" cellspacing=3D"0" c=
+ ellpadding=3D"0">
+ 				  <tr>
+                     <td><table width=3D"620" border=3D"0" align=3D"center=
+ " cellpadding=3D"0" cellspacing=3D"0">
+                     </table></td>
+                   </tr>
+                 </table></td>
+               </tr>
+             </table>
+               <table width=3D"619" border=3D"0" cellspacing=3D"0" cellpad=
+ ding=3D"0">
+                 <tr>
+                   <td><table width=3D"619" border=3D"0" cellspacing=3D"0"=
+  cellpadding=3D"0">
+                     <tr>
+                       <td><table width=3D"620" border=3D"0" align=3D"cent=
+ er" cellpadding=3D"0" cellspacing=3D"0">
+                       </table></td>
+                     </tr>
+                   </table></td>
+                 </tr>
+               </table>
+ <font color=3D"#666666" size=3D"1" face=3D"Helvetica, Verdana, sans-serif=
+ "><br>
+ 
+ **Open an NY&C Rewards Credit Card and receive 10% OFF your entire first =
+ purchase now through December 18, 2011. Not valid on previous purchases. =
+ Subject to credit approval. <A HREF=3D"http://email.nyandcompany.com/1321=
+ 978b3layfousibpyjmnaaaaaabwrnm5ysr5726qyaaaaa" >See details</A> now or as=
+ k store associate. Some restrictions apply.
+ <BR><BR>
+ 
+ ***Message and data rates apply. You are opting in to receive messages fr=
+ om NYSTYL 697895. Visit <A HREF=3D"http://email.nyandcompany.com/1d10d4ce=
+ 7layfousibpyjmniaaaaabwrnm5ysr5726qyaaaaa">nystyl.com</A> for text FAQs.
+ 
+ 
+ <BR><BR>
+ 
+ 
+ 
+                 </small></font></br>
+               </br></td>
+           </tr>
+         </table></td>
+         <td width=3D"10"></a><img src=3D"http://images.bigfootinteractive=
+ =2Ecom/images/8140280/61342968/120211_V1_spacer.gif" width=3D"15" height=3D=
+ "25" border=3D"0" style=3D"display:block;"></td>
+       </tr>
+     </table></td>
+   </tr>
+ </table>
+ 
+ <map name=3D"Map" id=3D"Map">
+   <area shape=3D"rect" coords=3D"64,689,177,715" href=3D"http://email.nya=
+ ndcompany.com/12f40165alayfousibpyjmnqaaaaabwrnm5ysr5726qyaaaaa" target=3D=
+ "_self" />
+ </map>
+ <IMG SRC=3D"http://email.nyandcompany.com/10d13fcfelayfor2iazvattaaaaaabw=
+ rnm5ysr5726qyaaaaa"></body>
+ </html>
+ 
+ --ABCD-12572203blayfovciazvattaaaaaabwrnm5ysr5726qyaaaaa-EFGH--
+

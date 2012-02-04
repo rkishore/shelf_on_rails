@@ -1,0 +1,5729 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>284</Id>
+<Name>J.Crew</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>69</TotalCount>
+<Product>
+<Id>312825633</Id>
+<Name>J.Crew Bowery Herringbone Wool Trousers</Name>
+<Currency>USD</Currency>
+<Price>120.0</Price>
+<PriceLabel>$120.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Create a smart, tailored silhouette in these herringbone weave straight leg wool trousers by J.Crew. Thoroughly classic, this elegant pair are a sartorial secret weapon - use them to lend a sophisticated touch to a casual T-shirt or sweater. Shown here with a McQ by Alexander McQueen T-shirt and Maison Martin Margiela jacket and boots.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=312825633&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f6/73/f673d9c6bfe303d83fef299efeec7704_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f6/73/f673d9c6bfe303d83fef299efeec7704_medium/jcrew-mr-porter-casual-pants-bowery-herringbone-wool-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f6/73/f673d9c6bfe303d83fef299efeec7704/jcrew-mr-porter-casual-pants-bowery-herringbone-wool-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>29W 32L</Name>
+</Size>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>36W 32L</Name>
+</Size>
+<Size>
+<Name>33W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Size>
+<Name>36W 34L</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<Category>mens-dress-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-14</ExtractDate>
+</Product>
+<Product>
+<Id>293469551</Id>
+<Name>Essential chino in 484 slim fit</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our slimmest fit yet, these are definitely the coolest way to get dressed up in the morning. We make our clean-cut chinos with crisp two-ply cotton twill, then wash them lightly so they're laid-back but still refined. Contrast piping at interior waistband. Zip fly. Slant pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Extra-slim fit.&lt;/li&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=293469551&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9a/4e/9a4e594be8fc444a44f111b2635e9dfe_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9a/4e/9a4e594be8fc444a44f111b2635e9dfe_medium/jcrew-chinos-khakis-essential-chino-in-484-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9a/4e/9a4e594be8fc444a44f111b2635e9dfe/jcrew-chinos-khakis-essential-chino-in-484-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Size>
+<Name>33</Name>
+</Size>
+<Size>
+<Name>34</Name>
+</Size>
+<Size>
+<Name>35</Name>
+</Size>
+<Size>
+<Name>36</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-12</ExtractDate>
+</Product>
+<Product>
+<Id>283088445</Id>
+<Name>Ludlow slim suit pant in thornproof wool</Name>
+<Currency>USD</Currency>
+<Price>228.0</Price>
+<PriceLabel>$228.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Crafted in English wool from the legendary Abraham Moon mill, known for producing some of the world's finest fabrics since 1837. The tweed is hearty yet refined, thanks to two-fold twisted yarns that create the durable cloth, and our designers added interior buttons for suspenders. Zip fly. Partially lined. A Collector's Item. Import. Dry clean. The narrow leg opening of this pant looks just right with a slightly shorter inseam. We recommend ordering 1/2" to 1" shorter than your regular inseam.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Extra-slim fit.&lt;/li&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=283088445&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/05/cd/05cd5e09a265c38f7d3950d575b38c28_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/05/cd/05cd5e09a265c38f7d3950d575b38c28_medium/jcrew-dress-pants-ludlow-slim-suit-pant-in-thornproof-wool.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/05/cd/05cd5e09a265c38f7d3950d575b38c28/jcrew-dress-pants-ludlow-slim-suit-pant-in-thornproof-wool.jpg</Url>
+</Image>
+<Color>
+<Name>dark charcoal</Name>
+</Color>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-13</ExtractDate>
+</Product>
+<Product>
+<Id>268466068</Id>
+<Name>Bowery wool in classic fit</Name>
+<Currency>USD</Currency>
+<Price>118.0</Price>
+<PriceLabel>$118.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The wear-to-work pant you'll actually want to wear. Crafted in our crisp lightweight wool with distinctive suiting details including a tailorable back rise and waistband for a truly bespoke fit. It's perfectly polished from nine to five. Zip fly. Off-seam pockets, back welt pockets. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=268466068&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/be/eb/beeb215b0d5e91499e78252198f0ff58_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/be/eb/beeb215b0d5e91499e78252198f0ff58_medium/jcrew-dress-pants-bowery-wool-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/be/eb/beeb215b0d5e91499e78252198f0ff58/jcrew-dress-pants-bowery-wool-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>dark navy</Name>
+</Color>
+<Color>
+<Name>dark charcoal</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-04</ExtractDate>
+</Product>
+<Product>
+<Id>273217573</Id>
+<Name>Bowery wool in urban slim fit</Name>
+<Currency>USD</Currency>
+<Price>118.0</Price>
+<PriceLabel>$118.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Fret not, fashion-forward nine-to-fivers, we've crafted an even slimmer-fitting pant for you. This slim and trim version of our classic Bowery pant is a wear-to-work pant you'll actually want to wear. Crafted in crisp lightweight wool with distinctive suiting details including a tailorable back rise and waistband for a truly bespoke fit. Zip fly. Off-seam pockets, back welt pockets. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=273217573&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/03/ac/03aca2cae0130ab7387d62e49fc41dfa_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/03/ac/03aca2cae0130ab7387d62e49fc41dfa_medium/jcrew-dress-pants-bowery-wool-in-urban-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/03/ac/03aca2cae0130ab7387d62e49fc41dfa/jcrew-dress-pants-bowery-wool-in-urban-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>dark navy</Name>
+</Color>
+<Color>
+<Name>dark charcoal</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-17</ExtractDate>
+</Product>
+<Product>
+<Id>273213148</Id>
+<Name>Bowery wool crosshatch in classic fit</Name>
+<Currency>USD</Currency>
+<Price>118.0</Price>
+<PriceLabel>$118.00</PriceLabel>
+<SalePrice>99.99</SalePrice>
+<SalePriceLabel>$99.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The wear-to-work pant you'll actually want to wear. Crafted in our breathable and insulating wool microgrid with distinctive suiting details including a tailorable back rise and waistband for a truly bespoke fit. It's perfectly polished from nine to five. Zip fly. Off-seam pockets, back welt pockets. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=273213148&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e2/05/e205883679af2e247b5743389a33dbdd_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e2/05/e205883679af2e247b5743389a33dbdd_medium/jcrew-dress-pants-bowery-wool-crosshatch-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e2/05/e205883679af2e247b5743389a33dbdd/jcrew-dress-pants-bowery-wool-crosshatch-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>navy tic weave</Name>
+</Color>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-18</ExtractDate>
+</Product>
+<Product>
+<Id>264128080</Id>
+<Name>5-To-9 Fleece Pant</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The ultimate unwind pant, these are supersoft and crazy comfortable but the detailing makes them presentable enough to wear out walking the dog or running errands. You'll reach for these the minute you walk in the door. Cotton/poly. Rib trim at waistband. Slant pockets. 30 1/2" inseam. Import. Machine wash.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=264128080&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f0/d5/f0d5a9f61b9148e8fcd30cadfd28fd43_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f0/d5/f0d5a9f61b9148e8fcd30cadfd28fd43_medium/jcrew-pants-59-fleece-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f0/d5/f0d5a9f61b9148e8fcd30cadfd28fd43/jcrew-pants-59-fleece-pant.jpg</Url>
+</Image>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>montclair navy</Name>
+</Color>
+<Size>
+<Name>X-SMALL</Name>
+</Size>
+<Size>
+<Name>SMALL</Name>
+</Size>
+<Size>
+<Name>MEDIUM</Name>
+</Size>
+<Size>
+<Name>LARGE</Name>
+</Size>
+<Size>
+<Name>X-LARGE</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-23</ExtractDate>
+</Product>
+<Product>
+<Id>265715044</Id>
+<Name>Stanton pant in 484 slim fit</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Extra-slim fitting and easygoing, this pant is the perfect alternative to denim. And like all our Stanton collection, we wash each pair for over 300 minutes for that perfect broken-in feel, then we have them garment-dyed and dusted with pigment to achieve a rich, saturated color and a vintage look. Cotton. Zip fly. Off-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Extra-slim fit.&lt;/li&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=265715044&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2e/2e/2e2e3df0c2b7d160463cc6220da90408_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2e/2e/2e2e3df0c2b7d160463cc6220da90408_medium/jcrew-chinos-khakis-stanton-pant-in-484-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2e/2e/2e2e3df0c2b7d160463cc6220da90408/jcrew-chinos-khakis-stanton-pant-in-484-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>deep harbor</Name>
+</Color>
+<Color>
+<Name>dusty khaki</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>31/34</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-25</ExtractDate>
+</Product>
+<Product>
+<Id>244540720</Id>
+<Name>Ludlow slim suit pant in fine-stripe cotton</Name>
+<Currency>USD</Currency>
+<Price>118.0</Price>
+<PriceLabel>$118.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A leaner version of our best-selling suit pant that's cut slightly more narrow through the rise, thigh, knee and leg opening. The effect is thoroughly modern. Lightweight and cool in specially yarn-dyed cotton with a very subtle stripe. Herringbone interior waistband with silk-tie fabric detail at center. Zip fly. Import. Dry clean. The narrow leg opening of this pant looks just right with a slightly shorter inseam. We recommend ordering 1/2" to 1" shorter than your regular inseam.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Extra-slim fit.&lt;/li&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=244540720&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/69/1e/691e22a96d9f0355c67f00baf850e716_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/69/1e/691e22a96d9f0355c67f00baf850e716_medium/jcrew-dress-pants-ludlow-sl-suit-pant-in-finestripe-cotton.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/69/1e/691e22a96d9f0355c67f00baf850e716/jcrew-dress-pants-ludlow-sl-suit-pant-in-finestripe-cotton.jpg</Url>
+</Image>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-19</ExtractDate>
+</Product>
+<Product>
+<Id>244536526</Id>
+<Name>Ludlow suit pant in glen plaid Italian wool</Name>
+<Currency>USD</Currency>
+<Price>295.0</Price>
+<PriceLabel>$295.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our signature suiting rendered in a smart glen plaid, meticulously crafted from four-season world-class Super 150s wool fabric by Loro Piana. Zip fly. Partially lined. A Collector's Item. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=244536526&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/59/3a/593a6462a49524cb00e14def2503850f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/59/3a/593a6462a49524cb00e14def2503850f_medium/jcrew-dress-pants-ludlow-suit-pant-in-glen-plaid-italian-wool.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/59/3a/593a6462a49524cb00e14def2503850f/jcrew-dress-pants-ludlow-suit-pant-in-glen-plaid-italian-wool.jpg</Url>
+</Image>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>charcoal</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-19</ExtractDate>
+</Product>
+<Product>
+<Id>244540748</Id>
+<Name>Ludlow slim suit pant in worsted wool</Name>
+<Currency>USD</Currency>
+<Price>225.0</Price>
+<PriceLabel>$225.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A leaner version of our best-selling suit pant that's cut slightly more narrow through the rise, thigh, knee and leg opening. The effect is thoroughly modern. Commonly known as sharkskin, this luxurious wool comes from Lanificio di Tollegno, one of the oldest mills in Italy. Nestled in the midst of Biella's Prealps, this mill is one of the last of its kind and is known for producing some of the finest suiting wool in the world. The fabric is woven with alternating colors of thread, giving the wool its distinctive look. Zip fly. Partially lined. Import. Dry clean. The narrow leg opening of this pant looks just right with a slightly shorter inseam. We recommend ordering 1/2" to 1" shorter than your regular inseam.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Extra-slim fit.&lt;/li&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=244540748&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d7/39/d7398ca75ec8cad45c963f786c0a073b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d7/39/d7398ca75ec8cad45c963f786c0a073b_medium/jcrew-dress-pants-ludlow-sl-suit-pant-in-worsted-wool.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d7/39/d7398ca75ec8cad45c963f786c0a073b/jcrew-dress-pants-ludlow-sl-suit-pant-in-worsted-wool.jpg</Url>
+</Image>
+<Color>
+<Name>charcoal</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-19</ExtractDate>
+</Product>
+<Product>
+<Id>244535637</Id>
+<Name>Ludlow tuxedo pant</Name>
+<Currency>USD</Currency>
+<Price>265.0</Price>
+<PriceLabel>$265.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A special pant for the most special of occasions, in the finest Italian wool from Lanificio di Tollegno, one of the oldest mills in Italy. Nestled in the midst of Biella's Prealps, this mill is one of the last of its kind and is known for producing some of the finest suiting wool in the world. To ensure true heirloom-worthy quality that never goes out of style, our designers gave this classic tuxedo pant traditional bespoke details, like a satin stripe along the outseam and partial lining. Zip fly. Interior buttons for suspenders. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=244535637&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c6/35/c635e84f095bb3e11dd098c835abd4b1_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c6/35/c635e84f095bb3e11dd098c835abd4b1_medium/jcrew-dress-shirts-ludlow-tuxedo-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c6/35/c635e84f095bb3e11dd098c835abd4b1/jcrew-dress-shirts-ludlow-tuxedo-pant.jpg</Url>
+</Image>
+<Color>
+<Name>black</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Size>
+<Name>33</Name>
+</Size>
+<Size>
+<Name>34</Name>
+</Size>
+<Size>
+<Name>35</Name>
+</Size>
+<Size>
+<Name>36</Name>
+</Size>
+<Size>
+<Name>38</Name>
+</Size>
+<Size>
+<Name>40</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-19</ExtractDate>
+</Product>
+<Product>
+<Id>244537342</Id>
+<Name>Ludlow slim suit pant in Italian wool</Name>
+<Currency>USD</Currency>
+<Price>225.0</Price>
+<PriceLabel>$225.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A leaner version of our best-selling suit pant that's cut slightly more narrow through the rise, thigh, knee and leg opening. The effect is thoroughly modern. Meticulously crafted from four-season world-class wool fabric by Loro Piana. Zip fly. Partially lined. Import. Dry clean. The narrow leg opening of this pant looks just right with a slightly shorter inseam. We recommend ordering 1/2" to 1" shorter than your regular inseam.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Extra-slim fit.&lt;/li&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=244537342&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3e/a2/3ea22a347b7e2b1754339ab173b72c74_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3e/a2/3ea22a347b7e2b1754339ab173b72c74_medium/jcrew-dress-pants-ludlow-sl-suit-pant-in-italian-wool.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3e/a2/3ea22a347b7e2b1754339ab173b72c74/jcrew-dress-pants-ludlow-sl-suit-pant-in-italian-wool.jpg</Url>
+</Image>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>hthr charcoal</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-19</ExtractDate>
+</Product>
+<Product>
+<Id>296400175</Id>
+<Name>J.Crew Urban Bowery Slim Fit Cotton Trousers</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<SalePrice>37.5</SalePrice>
+<SalePriceLabel>$37.50</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>J.Crew slim-fit grey cotton trousers with two front and two rear button-fastening pockets, and a zip and button fly. These smart trousers are an easy, throw-on-and-go style that will guarantee weekend cool. Shown here with a Polo Ralph Lauren jacket, Paul Smith London shirt and Pierre Hardy shoes.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=296400175&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/03/64/03646571375982bd26959ef1c3d0fd71_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/03/64/03646571375982bd26959ef1c3d0fd71_medium/jcrew-mr-porter-casual-pants-urban-bowery-slim-fit-cotton-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/03/64/03646571375982bd26959ef1c3d0fd71/jcrew-mr-porter-casual-pants-urban-bowery-slim-fit-cotton-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>29W 32L</Name>
+</Size>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>35W 32L</Name>
+</Size>
+<Size>
+<Name>32W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-21</ExtractDate>
+</Product>
+<Product>
+<Id>223500018</Id>
+<Name>Ludlow suit pant in Italian cotton piqu&#xE9;</Name>
+<Currency>USD</Currency>
+<Price>158.0</Price>
+<PriceLabel>$158.00</PriceLabel>
+<SalePrice>79.99</SalePrice>
+<SalePriceLabel>$79.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Do summer with swagger. Presenting our newest lightweight suiting fabric crafted from fine Italian cotton piqu&#xE9; with a touch of linen for a distinct texture. Come off uncommonly cool at weddings or effortlessly smart at the office. Established in 1862, Lanificio di Tollegno crafted this exquisite blend exclusively for J.Crew but the true magic is in the dyeing process. Traditional pigments were mixed with natural resin to achieve that coveted vintage flair. Zip fly. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=223500018&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/01/b4/01b4ebe6003b3947f19de08b730761c6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/01/b4/01b4ebe6003b3947f19de08b730761c6_medium/jcrew-dress-shirts-italian-cottonlinen-pique-ludlow-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/01/b4/01b4ebe6003b3947f19de08b730761c6/jcrew-dress-shirts-italian-cottonlinen-pique-ludlow-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-02-24</ExtractDate>
+</Product>
+<Product>
+<Id>219140708</Id>
+<Name>Ludlow tuxedo pant in Italian chino</Name>
+<Currency>USD</Currency>
+<Price>158.0</Price>
+<PriceLabel>$158.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The quintessentially cool, warm-weather tuxedo pant. Classic and crisp in smooth cotton twill woven in Italy's storied Crespi mill. One of Italy's oldest and most prestigious mills, it's renowned for its superior fabrications and superb craftsmanship. Crespi's artisans specially wash the twill exclusively for us. The process makes it harder to ensure color consistency from batch to batch but also gives the fabric an exceptionally soft feel, so we insist. If you have any concerns about color variation in our suiting, please contact us 24/7 at 800 562 0258. Zip fly. Interior buttons for suspenders. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=219140708&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e0/f7/e0f73b0cdb216988cae161eef09a1deb_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e0/f7/e0f73b0cdb216988cae161eef09a1deb_medium/jcrew-dress-shirts-italian-chino-ludlow-tuxedo-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e0/f7/e0f73b0cdb216988cae161eef09a1deb/jcrew-dress-shirts-italian-chino-ludlow-tuxedo-pant.jpg</Url>
+</Image>
+<Color>
+<Name>black</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-02-10</ExtractDate>
+</Product>
+<Product>
+<Id>215103849</Id>
+<Name>Bowery fine stripe in classic fit</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<SalePrice>39.99</SalePrice>
+<SalePriceLabel>$39.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The wear-to-work pant you'll actually want to wear. With a clean silhouette in our subtly striped cotton and a tailored, modern fit, it's perfectly polished from nine to five. Cotton. Zip fly. Off-seam pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=215103849&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/82/de/82def12e9585ad5c17971dc77c42e9d6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/82/de/82def12e9585ad5c17971dc77c42e9d6_medium/jcrew-pants-bowery-fine-stripe-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/82/de/82def12e9585ad5c17971dc77c42e9d6/jcrew-pants-bowery-fine-stripe-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>navy micro corduroy</Name>
+</Color>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-01-27</ExtractDate>
+</Product>
+<Product>
+<Id>292602075</Id>
+<Name>J.Crew Urban Stanton Straight Leg Trousers</Name>
+<Currency>USD</Currency>
+<Price>120.0</Price>
+<PriceLabel>$120.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Grey wool straight leg trousers from J.Crew with four pockets and a zip fly. A solid pair of trousers will stay the style course from season to season; pair these ones with a crisp shirt and smart shoes for an easy weekend ensemble. Shown here with a Folk shirt, J.Crew sweater, Opening Ceremony shoes and WANT Les Essentiels de la Vie bag.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=292602075&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f4/f4/f4f471d5a430fcc3a9a49da58b7ac81e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f4/f4/f4f471d5a430fcc3a9a49da58b7ac81e_medium/jcrew-mr-porter-casual-pants-urban-stanton-straight-leg-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f4/f4/f4f471d5a430fcc3a9a49da58b7ac81e/jcrew-mr-porter-casual-pants-urban-stanton-straight-leg-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>29W 32L</Name>
+</Size>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>36W 32L</Name>
+</Size>
+<Size>
+<Name>32W 34L</Name>
+</Size>
+<Size>
+<Name>33W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Size>
+<Name>36W 34L</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-12</ExtractDate>
+</Product>
+<Product>
+<Id>195473306</Id>
+<Name>Stanton cargo pant in urban slim fit</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The rugged side of one of our favorite pants of the season. The modern urban slim fit gets military-inspired details like cargo pockets, twill waist tabs and sturdy topstitch reinforcements. We wash each pair for over 300 minutes for that perfect broken-in feel, then we have them garment-dyed and dusted with pigment to achieve a rich, saturated color and a vintage look. Cotton. Zip fly. Off-seam pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=195473306&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9f/08/9f0862f5d99a38ade97f88c3d48cf0bd_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9f/08/9f0862f5d99a38ade97f88c3d48cf0bd_medium/jcrew-cargo-pants-stanton-cargo-pant-in-urban-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9f/08/9f0862f5d99a38ade97f88c3d48cf0bd/jcrew-cargo-pants-stanton-cargo-pant-in-urban-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>dusty khaki</Name>
+</Color>
+<Color>
+<Name>dress olive</Name>
+</Color>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>36/36</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>40/34</Name>
+</Size>
+<Category>mens-cargo-pants</Category>
+<CategoryName>Cargo Pants</CategoryName>
+<SeeMoreLabel>Cargo Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-cargo-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-11-11</ExtractDate>
+</Product>
+<Product>
+<Id>283343375</Id>
+<Name>J.Crew Slim Leg 484 Corduroy Trousers</Name>
+<Currency>USD</Currency>
+<Price>80.0</Price>
+<PriceLabel>$80.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>J.Crew slim leg brown 484 corduroy trousers with a zip fly and five pocket set. Introduce corduroy trousers to your winter wardrobe as an alternative to standard wool; contrast the warm texture with a neat shirt for casual style with panache. Shown here with a J.Crew shirt, Maison Martin Margiela shoes and a Seil Marschall bag.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=283343375&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/32/f0/32f036c51fcf22004d9905b33a3b9014_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/32/f0/32f036c51fcf22004d9905b33a3b9014_medium/jcrew-mr-porter-casual-pants-slim-leg-484-corduroy-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/32/f0/32f036c51fcf22004d9905b33a3b9014/jcrew-mr-porter-casual-pants-slim-leg-484-corduroy-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>BROWN</Name>
+</Color>
+<Size>
+<Name>29W 32L</Name>
+</Size>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>35W 32L</Name>
+</Size>
+<Size>
+<Name>36W 32L</Name>
+</Size>
+<Size>
+<Name>38W 32L</Name>
+</Size>
+<Size>
+<Name>40W 32L</Name>
+</Size>
+<Size>
+<Name>32W 34L</Name>
+</Size>
+<Size>
+<Name>33W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Size>
+<Name>36W 34L</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-15</ExtractDate>
+</Product>
+<Product>
+<Id>188428430</Id>
+<Name>Vintage cord in relaxed fit</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<MaxSalePrice>65.0</MaxSalePrice>
+<MaxSalePriceLabel>$65.00</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A perfectly worn perennial favorite, now in our most laid-back fit. The design was inspired by vintage American 5-pocket cords; the new sulphur-dye and vintage-wash process is all ours. We gave them an authentic jean look and feel with handsanding on the thighs, knees and seat, with additional grinding along the waistband, pockets and hem. Cotton. Zip fly. Traditional 5-pocket styling with reinforced back pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist, relaxed through hip and thigh, with a slightly wider leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=188428430&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0b/8b/0b8bafa946b16365a3bd45cc16fc2dd9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0b/8b/0b8bafa946b16365a3bd45cc16fc2dd9_medium/jcrew-pants-vintage-cord-in-relaxed-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0b/8b/0b8bafa946b16365a3bd45cc16fc2dd9/jcrew-pants-vintage-cord-in-relaxed-fit.jpg</Url>
+</Image>
+<Color>
+<Name>dark slate</Name>
+</Color>
+<Color>
+<Name>olmsted khaki</Name>
+</Color>
+<Color>
+<Name>mercury grey</Name>
+</Color>
+<Color>
+<Name>vintage fatigue</Name>
+</Color>
+<Color>
+<Name>vintage black</Name>
+</Color>
+<Color>
+<Name>acorn</Name>
+</Color>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>35/34</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>36/36</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/36</Name>
+</Size>
+<Size>
+<Name>40/34</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-10-14</ExtractDate>
+</Product>
+<Product>
+<Id>191613591</Id>
+<Name>Bowery microstripe in classic fit</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<SalePrice>59.99</SalePrice>
+<SalePriceLabel>$59.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The wear-to-work pant you'll actually want to wear. With a clean silhouette in our crisp striped cotton and a tailored, modern fit, it's perfectly polished from nine to five. Zip fly. Off-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=191613591&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/69/51/6951f2820e8777be1fc8fd6f08cf339e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/69/51/6951f2820e8777be1fc8fd6f08cf339e_medium/jcrew-pants-bowery-microstripe-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/69/51/6951f2820e8777be1fc8fd6f08cf339e/jcrew-pants-bowery-microstripe-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>black mini stripe</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-10-28</ExtractDate>
+</Product>
+<Product>
+<Id>195470810</Id>
+<Name>Bowery herringbone in urban slim fit</Name>
+<Currency>USD</Currency>
+<Price>118.0</Price>
+<PriceLabel>$118.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Fret not, fashion-forward nine-to-fivers, we've crafted an even slimmer fitting pant for you. This slim and trim version of our classic Bowery pant is a wear-to-work pant you'll actually want to wear. Crafted in a handsome new wool herringbone with distinctive suiting details including a tailorable back rise and waistband for a truly bespoke fit. Zip fly. Off-seam pockets, back welt pockets. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=195470810&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ee/31/ee316c94e88ffa913f1b07043edda0f7_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ee/31/ee316c94e88ffa913f1b07043edda0f7_medium/jcrew-dress-pants-bowery-herringbone-in-urban-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ee/31/ee316c94e88ffa913f1b07043edda0f7/jcrew-dress-pants-bowery-herringbone-in-urban-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>charcoal herringbone</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-11-11</ExtractDate>
+</Product>
+<Product>
+<Id>177154091</Id>
+<Name>Bowery cord in classic fit</Name>
+<Currency>USD</Currency>
+<Price>78.0</Price>
+<PriceLabel>$78.00</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The wear-to-work pant you'll actually want to wear. With a clean silhouette in a dapper 14-wale cord and a tailored, modern fit, it's perfectly polished from nine to five. Cotton. Zip fly. Off-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=177154091&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3c/8b/3c8b7446ac5bce88e94dde70c01b5a89_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3c/8b/3c8b7446ac5bce88e94dde70c01b5a89_medium/jcrew-pants-bowery-cord-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3c/8b/3c8b7446ac5bce88e94dde70c01b5a89/jcrew-pants-bowery-cord-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>dark slate</Name>
+</Color>
+<Color>
+<Name>olmsted khaki</Name>
+</Color>
+<Color>
+<Name>acorn</Name>
+</Color>
+<Color>
+<Name>vintage merlot</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>35/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>36/36</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-19</ExtractDate>
+</Product>
+<Product>
+<Id>177136368</Id>
+<Name>Bowery heather twill in classic fit</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The wear-to-work pant you'll actually want to wear. With a clean silhouette in our crisp new heathered cotton twill and a tailored, modern fit, it's perfectly polished from nine to five. Zip fly. Off-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=177136368&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d4/76/d476d02842c1c02a7008443830a78eb5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d4/76/d476d02842c1c02a7008443830a78eb5_medium/jcrew-pants-bowery-heather-twill-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d4/76/d476d02842c1c02a7008443830a78eb5/jcrew-pants-bowery-heather-twill-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>hthr grey</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-19</ExtractDate>
+</Product>
+<Product>
+<Id>182897926</Id>
+<Name>Covert twill utility chino</Name>
+<Currency>USD</Currency>
+<Price>138.0</Price>
+<PriceLabel>$138.00</PriceLabel>
+<SalePrice>99.99</SalePrice>
+<SalePriceLabel>$99.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Introducing our modern take on the utility pant, in our newest covert twill a richly contrasted fabric in our premium Japanese selvedge cotton. Built strong, with a relaxed, had-it-forever feel. Button fly. Off-seam pockets. A Collector's Item. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=182897926&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/bd/14/bd1417fcaf1062019a2f01406c6cd28b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/bd/14/bd1417fcaf1062019a2f01406c6cd28b_medium/jcrew-chinos-khakis-covert-twill-utility-chino.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/bd/14/bd1417fcaf1062019a2f01406c6cd28b/jcrew-chinos-khakis-covert-twill-utility-chino.jpg</Url>
+</Image>
+<Color>
+<Name>covert twill charcoal</Name>
+</Color>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-09-16</ExtractDate>
+</Product>
+<Product>
+<Id>170163840</Id>
+<Name>Vintage cord in vintage slim fit</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<SalePrice>39.99</SalePrice>
+<SalePriceLabel>$39.99</SalePriceLabel>
+<MaxSalePrice>59.5</MaxSalePrice>
+<MaxSalePriceLabel>$59.50</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Introducing our best cords ever. The design was inspired by vintage American 5-pocket cords; the new sulphur-dye and vintage-wash process is all ours. We gave them an authentic jean look and feel with handsanding on the thighs, knees and seat, with additional grinding along the waistband, pockets and hem. Cotton. Zip fly. Traditional 5-pocket styling with reinforced back pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slimmer fit.&lt;/li&gt;
+                     		&lt;li&gt;Sits below waist, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=170163840&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/44/d1/44d15228fac207b39c9252bacdfc7862_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/44/d1/44d15228fac207b39c9252bacdfc7862_medium/jcrew-pants-vintage-cord-in-vintage-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/44/d1/44d15228fac207b39c9252bacdfc7862/jcrew-pants-vintage-cord-in-vintage-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>olmsted khaki</Name>
+</Color>
+<Color>
+<Name>dark slate</Name>
+</Color>
+<Color>
+<Name>dark ink</Name>
+</Color>
+<Color>
+<Name>vintage fatigue</Name>
+</Color>
+<Color>
+<Name>vintage black</Name>
+</Color>
+<Color>
+<Name>acorn</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>31/34</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>35/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>36/36</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-07-22</ExtractDate>
+</Product>
+<Product>
+<Id>170159604</Id>
+<Name>Vintage cord in straight fit</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<SalePrice>39.99</SalePrice>
+<SalePriceLabel>$39.99</SalePriceLabel>
+<MaxSalePrice>75.0</MaxSalePrice>
+<MaxSalePriceLabel>$75.00</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Introducing our best cords ever. The design was inspired by vintage American 5-pocket cords; the new sulphur-dye and vintage-wash process is all ours. We gave them an authentic jean look and feel with handsanding on the thighs, knees and seat, with additional grinding along the waistband, pockets and hem. The straight outseam and shaped inseam give them the perfectly old-school look of our selvedge denim. Cotton. Zip fly. Traditional 5-pocket styling with reinforced back pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits at waist, straight through hip and thigh, with a straight leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=170159604&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/1e/38/1e384b4b54acf107408ae686416cd13d_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/1e/38/1e384b4b54acf107408ae686416cd13d_medium/jcrew-pants-vintage-cord-in-straight-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/1e/38/1e384b4b54acf107408ae686416cd13d/jcrew-pants-vintage-cord-in-straight-fit.jpg</Url>
+</Image>
+<Color>
+<Name>dark slate</Name>
+</Color>
+<Color>
+<Name>dark ink</Name>
+</Color>
+<Color>
+<Name>mercury grey</Name>
+</Color>
+<Color>
+<Name>vintage fatigue</Name>
+</Color>
+<Color>
+<Name>acorn</Name>
+</Color>
+<Color>
+<Name>stone</Name>
+</Color>
+<Color>
+<Name>olmsted khaki</Name>
+</Color>
+<Color>
+<Name>stout</Name>
+</Color>
+<Color>
+<Name>vintage black</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>35/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>36/36</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Size>
+<Name>38/36</Name>
+</Size>
+<Size>
+<Name>40/34</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-07-22</ExtractDate>
+</Product>
+<Product>
+<Id>265441708</Id>
+<Name>J.Crew Ludlow Tuxedo Suit Trousers</Name>
+<Currency>USD</Currency>
+<Price>210.0</Price>
+<PriceLabel>$210.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Half-lined black wool tuxedo suit trousers from J.Crew with a satin tuxedo stripe, four pockets, internal buttons for braces, a hook and eye closure and zip fly. Designed to be worn as part of a suit with the matching jacket, these straight fit trousers cut an assured formal presence. Shown here with the matching J.Crew jacket, Brooks Brothers shoes and a J.Crew shirt and bow tie.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=265441708&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e2/a4/e2a4eab93ae727279f94b335b5a25e7b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e2/a4/e2a4eab93ae727279f94b335b5a25e7b_medium/jcrew-mr-porter-dress-pants-ludlow-tuxedo-suit-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e2/a4/e2a4eab93ae727279f94b335b5a25e7b/jcrew-mr-porter-dress-pants-ludlow-tuxedo-suit-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>30W 30L</Name>
+</Size>
+<Size>
+<Name>31W 30L</Name>
+</Size>
+<Size>
+<Name>32W 30L</Name>
+</Size>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>33W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Size>
+<Name>36W 34L</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-27</ExtractDate>
+</Product>
+<Product>
+<Id>268643549</Id>
+<Name>J.Crew Ludlow Cotton Chino Suit Trousers</Name>
+<Currency>USD</Currency>
+<Price>120.0</Price>
+<PriceLabel>$120.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>J.Crew Ludlow chino suit trousers in sand coloured cotton with a zip fly, two hip and two buttoned back pockets. Designed to be worn as part of a suit with the matching jacket and leather shoes; alternatively team it with sneakers and a paisley shirt for nonchalant downtown style. Shown here with the matching J.Crew jacket, a Jil Sander shirt and Common Projects sneakers.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=268643549&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b4/49/b4491fa6bbc08677e6ff080f2e1d40de_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b4/49/b4491fa6bbc08677e6ff080f2e1d40de_medium/jcrew-mr-porter-chinos-khakis-ludlow-cotton-chino-suit-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b4/49/b4491fa6bbc08677e6ff080f2e1d40de/jcrew-mr-porter-chinos-khakis-ludlow-cotton-chino-suit-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>NEUTRALS</Name>
+</Color>
+<Size>
+<Name>30W 30L</Name>
+</Size>
+<Size>
+<Name>31W 30L</Name>
+</Size>
+<Size>
+<Name>32W 30L</Name>
+</Size>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>33W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Size>
+<Name>36W 34L</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<Category>mens-dress-pants</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-04</ExtractDate>
+</Product>
+<Product>
+<Id>261124480</Id>
+<Name>J.Crew Ludlow Suit Pant In Italian Chino</Name>
+<Currency>USD</Currency>
+<Price>120.0</Price>
+<PriceLabel>$120.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>J.Crew Ludlow chino suit trousers in sand coloured cotton with front zip and four pockets, including two buttoned back pockets. Designed to be worn as part of a suit with the matching jacket, pair with simple brown leather shoes at work or sneakers for a less formal look. Shown here with the matching J.Crew jacket, a Hartford shirt and b Store shoes.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=261124480&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/24/01/2401e5e3419eb936e3acc7d3b8c46af4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/24/01/2401e5e3419eb936e3acc7d3b8c46af4_medium/jcrew-mr-porter-chinos-khakis-ludlow-suit-pant-in-italian-chino.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/24/01/2401e5e3419eb936e3acc7d3b8c46af4/jcrew-mr-porter-chinos-khakis-ludlow-suit-pant-in-italian-chino.jpg</Url>
+</Image>
+<Color>
+<Name>NEUTRALS</Name>
+</Color>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>33W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Size>
+<Name>36W 34L</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<Category>mens-dress-pants</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-12</ExtractDate>
+</Product>
+<Product>
+<Id>131106281</Id>
+<Name>Bowery glen plaid in classic fit</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The wear-to-work pant you'll actually want to wear. With a clean silhouette in our crisp, glen plaid cotton and a tailored, modern fit, it's perfectly polished from nine to five. Cotton. Zip fly. Off-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=131106281&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c3/86/c386e2c11c6e5c7e44554c90abc09e91_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c3/86/c386e2c11c6e5c7e44554c90abc09e91_medium/jcrew-pants-bowery-glen-plaid-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c3/86/c386e2c11c6e5c7e44554c90abc09e91/jcrew-pants-bowery-glen-plaid-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>deep surf glen plaid</Name>
+</Color>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-01-28</ExtractDate>
+</Product>
+<Product>
+<Id>147409680</Id>
+<Name>Ludlow suit pant in wool herringbone</Name>
+<Currency>USD</Currency>
+<Price>195.0</Price>
+<PriceLabel>$195.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Premier Italian wool from Lanificio di Tollegno, one of the oldest mills in Italy. Nestled in the midst of Biella's Prealps, this mill is one of the last of its kind and is known for producing some of the finest suiting wool in the world. Zip fly. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=147409680&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/a8/48/a84816c65225e2b7631d27342d80ebca_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/a8/48/a84816c65225e2b7631d27342d80ebca_medium/jcrew-dress-pants-wool-herringbone-ludlow-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/a8/48/a84816c65225e2b7631d27342d80ebca/jcrew-dress-pants-wool-herringbone-ludlow-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>charcoal herringbone</Name>
+</Color>
+<Color>
+<Name>navy herringbone</Name>
+</Color>
+<Size>
+<Name>29</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-04-22</ExtractDate>
+</Product>
+<Product>
+<Id>265441712</Id>
+<Name>J.Crew Straight-Leg Corduroy Trousers</Name>
+<Currency>USD</Currency>
+<Price>80.0</Price>
+<PriceLabel>$80.00</PriceLabel>
+<SalePrice>40.0</SalePrice>
+<SalePriceLabel>$40.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>J.Crew straight-leg grey corduroy trousers with a zip fly and five pocket set. Introduce corduroy trousers to your winter wardrobe as an alternative to standard wool; contrast the warm texture with a neat shirt for casual style with panache. Shown here with a Polo Ralph Lauren top, J.Crew shoes and a Seil Marschall bag.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=265441712&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/82/04/8204ee65e6209d2f6c4b805318be45a3_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/82/04/8204ee65e6209d2f6c4b805318be45a3_medium/jcrew-mr-porter-casual-pants-straightleg-corduroy-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/82/04/8204ee65e6209d2f6c4b805318be45a3/jcrew-mr-porter-casual-pants-straightleg-corduroy-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>29W 32L</Name>
+</Size>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>35W 32L</Name>
+</Size>
+<Size>
+<Name>36W 32L</Name>
+</Size>
+<Size>
+<Name>38W 32L</Name>
+</Size>
+<Size>
+<Name>32W 34L</Name>
+</Size>
+<Size>
+<Name>33W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Size>
+<Name>36W 34L</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-27</ExtractDate>
+</Product>
+<Product>
+<Id>263549012</Id>
+<Name>J.Crew Ludlow Wool Suit Trousers</Name>
+<Currency>USD</Currency>
+<Price>195.0</Price>
+<PriceLabel>$195.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Charcoal grey woollen J.Crew suit trousers, half lined with two front and two buttoned back pockets, a hook and eye closure and zip fly. Designed to be worn as part of a suit with the matching jacket, these straight-leg trousers are made with fine Italian super 120s wool for a flawless formal silhouette. Shown here with a J.Crew sweater, Calvin Klein T-shirt, Jimmy Choo sneakers and a Seil Marschall bag.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=263549012&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/83/31/8331e8405b8cc0e9c2aa64bd642b9905_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/83/31/8331e8405b8cc0e9c2aa64bd642b9905_medium/jcrew-mr-porter-dress-pants-ludlow-wool-suit-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/83/31/8331e8405b8cc0e9c2aa64bd642b9905/jcrew-mr-porter-dress-pants-ludlow-wool-suit-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>30W 30L</Name>
+</Size>
+<Size>
+<Name>31W 30L</Name>
+</Size>
+<Size>
+<Name>32W 30L</Name>
+</Size>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>33W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Size>
+<Name>36W 34L</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-21</ExtractDate>
+</Product>
+<Product>
+<Id>131109586</Id>
+<Name>Essential chino in urban slim fit</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A slimmer version of our classic. We make our clean-cut chinos with crisp two-ply cotton twill, then wash them lightly so they're laid-back but still refined. Contrast piping at interior waistband. Zip fly. On-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=131109586&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d1/c8/d1c89026834a04ff711a2dbaa60c5968_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d1/c8/d1c89026834a04ff711a2dbaa60c5968_medium/jcrew-chinos-khakis-essential-chino-in-urban-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d1/c8/d1c89026834a04ff711a2dbaa60c5968/jcrew-chinos-khakis-essential-chino-in-urban-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>dill</Name>
+</Color>
+<Color>
+<Name>honey brown</Name>
+</Color>
+<Color>
+<Name>british khaki</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Size>
+<Name>33</Name>
+</Size>
+<Size>
+<Name>34</Name>
+</Size>
+<Size>
+<Name>35</Name>
+</Size>
+<Size>
+<Name>36</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-01-28</ExtractDate>
+</Product>
+<Product>
+<Id>131111346</Id>
+<Name>Stanton pant in urban slim fit</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>One of our absolute favorite pants of the season in our modern urban slim fit. We wash each pair for over 300 minutes for that perfect broken-in feel, then we have them garment-dyed and dusted with pigment to achieve a rich, saturated color and a vintage look. Cotton. Zip fly. Off-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=131111346&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/07/34/0734b422ed6c35a85468ea92e1b75b22_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/07/34/0734b422ed6c35a85468ea92e1b75b22_medium/jcrew-pants-sunfaded-stanton-pant-in-urban-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/07/34/0734b422ed6c35a85468ea92e1b75b22/jcrew-pants-sunfaded-stanton-pant-in-urban-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>olive drab</Name>
+</Color>
+<Color>
+<Name>deep harbor</Name>
+</Color>
+<Color>
+<Name>chester brown</Name>
+</Color>
+<Color>
+<Name>dusty khaki</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-01-28</ExtractDate>
+</Product>
+<Product>
+<Id>124025282</Id>
+<Name>Stanton pant in classic fit</Name>
+<Currency>USD</Currency>
+<Price>69.5</Price>
+<PriceLabel>$69.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>One of our absolute favorite pants of the season in our most popular fit. We wash each pair for over 300 minutes for that perfect broken-in feel, then we have them garment-dyed and dusted with pigment to achieve a rich, saturated color and a vintage look. Cotton. Zip fly. Off-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=124025282&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/51/27/51274687ed5ad5eb046ae073b12d2d4a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/51/27/51274687ed5ad5eb046ae073b12d2d4a_medium/jcrew-chinos-khakis-sunfaded-stanton-pant-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/51/27/51274687ed5ad5eb046ae073b12d2d4a/jcrew-chinos-khakis-sunfaded-stanton-pant-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>olive drab</Name>
+</Color>
+<Color>
+<Name>deep harbor</Name>
+</Color>
+<Color>
+<Name>chester brown</Name>
+</Color>
+<Color>
+<Name>rusty brick</Name>
+</Color>
+<Color>
+<Name>dusty khaki</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>36/36</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-12-30</ExtractDate>
+</Product>
+<Product>
+<Id>259227269</Id>
+<Name>J.Crew Urban Stanton Cotton Trousers</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<SalePrice>37.5</SalePrice>
+<SalePriceLabel>$37.50</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>J.Crew slim-leg cotton trousers in olive with five pockets and zip fly. These classic slim trousers are a great option for laid-back days. Match the pale olive tone with rich autumn shades for a stylish palette. Shown here with a Paul Smith London sweater and Maison Martin Margiela sneakers.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=259227269&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/74/f1/74f1770f6e2100b43b960b8b362d4b58_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/74/f1/74f1770f6e2100b43b960b8b362d4b58_medium/jcrew-mr-porter-casual-pants-urban-stanton-cotton-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/74/f1/74f1770f6e2100b43b960b8b362d4b58/jcrew-mr-porter-casual-pants-urban-stanton-cotton-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>GREEN</Name>
+</Color>
+<Size>
+<Name>29W 32L</Name>
+</Size>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>35W 32L</Name>
+</Size>
+<Size>
+<Name>32W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-06</ExtractDate>
+</Product>
+<Product>
+<Id>102287364</Id>
+<Name>Bowery cotton twill in urban slim fit</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Fret not, fashion-forward nine-to-fivers, we've crafted an even slimmer-fitting pant for you. This slim and trim version of our classic Bowery pant is a wear-to-work pant you'll actually want to wear. With a clean silhouette in our crisp, compact cotton twill, it's perfectly polished. Contrast piping at interior waistband. Zip fly. Off-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=102287364&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/14/ea/14eaa2659e865d1bbc9cbfaf17a73da7_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/14/ea/14eaa2659e865d1bbc9cbfaf17a73da7_medium/jcrew-chinos-khakis-bowery-cotton-twill-in-urban-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/14/ea/14eaa2659e865d1bbc9cbfaf17a73da7/jcrew-chinos-khakis-bowery-cotton-twill-in-urban-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>light hickory</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>raw steel</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Color>
+<Name>rock salt</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>31/34</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<Category>mens-dress-pants</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-10-15</ExtractDate>
+</Product>
+<Product>
+<Id>115933134</Id>
+<Name>Ludlow tuxedo pant</Name>
+<Currency>USD</Currency>
+<Price>189.99</Price>
+<PriceLabel>$189.99</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A special pant for the most special of occasions, in the finest Italian wool from Lanificio di Lessona. One of Italy's premier mills, it's located in the province of Biella and is known the world over for its exquisite woolen fabrics and dedication to the highest standards of craftsmanship. To ensure true heirloom-worthy quality that never goes out of style, our designers gave this classic tuxedo pant traditional bespoke details, like a satin stripe along the outseam and partial Bemberg lining. Zip fly. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=115933134&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/8e/c8/8ec848d92442d0aa65183cde0954916d_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/8e/c8/8ec848d92442d0aa65183cde0954916d_medium/jcrew-pants-ludlow-tuxedo-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/8e/c8/8ec848d92442d0aa65183cde0954916d/jcrew-pants-ludlow-tuxedo-pant.jpg</Url>
+</Image>
+<Color>
+<Name>navy</Name>
+</Color>
+<Size>
+<Name>38</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-11-29</ExtractDate>
+</Product>
+<Product>
+<Id>102279489</Id>
+<Name>Flannel-lined chino in regular fit</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<SalePrice>59.99</SalePrice>
+<SalePriceLabel>$59.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our very best broken-in chino, lined in flannel for extra winter warmth. Crafted of our signature washed two-ply cotton twill and faded and frayed for an authentic vintage look. Zip fly. Reinforced on-seam pockets, back welt pockets. Vintage-inspired labels. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, straight through hip and thigh, with a straight leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=102279489&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c1/0b/c10b8e5c28efebf33a06087ed501da4a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c1/0b/c10b8e5c28efebf33a06087ed501da4a_medium/jcrew-chinos-khakis-regularfit-flannellined-chino.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c1/0b/c10b8e5c28efebf33a06087ed501da4a/jcrew-chinos-khakis-regularfit-flannellined-chino.jpg</Url>
+</Image>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>dusty khaki</Name>
+</Color>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Size>
+<Name>40/34</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-10-15</ExtractDate>
+</Product>
+<Product>
+<Id>111117796</Id>
+<Name>Vintage cord in 484 slim fit</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<MaxSalePrice>75.0</MaxSalePrice>
+<MaxSalePriceLabel>$75.00</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The best cords ever in a slimmer version of our classic. The design was inspired by vintage American 5-pocket cords; the new sulphur-dye and vintage-wash process is all ours. We gave them an authentic jean look and feel with handsanding on the thighs, knees and seat, with additional grinding along the waistband, pockets and hem. Cotton. Zip fly. Traditional 5-pocket styling with reinforced back pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Extra-slim fit.&lt;/li&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=111117796&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0a/b1/0ab1069bc0f3bbb42bc148da243443cf_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0a/b1/0ab1069bc0f3bbb42bc148da243443cf_medium/jcrew-pants-vintage-cord-in-484-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0a/b1/0ab1069bc0f3bbb42bc148da243443cf/jcrew-pants-vintage-cord-in-484-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>olmsted khaki</Name>
+</Color>
+<Color>
+<Name>dark slate</Name>
+</Color>
+<Color>
+<Name>mercury grey</Name>
+</Color>
+<Color>
+<Name>vintage black</Name>
+</Color>
+<Color>
+<Name>acorn</Name>
+</Color>
+<Color>
+<Name>stone</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>31/34</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-11-12</ExtractDate>
+</Product>
+<Product>
+<Id>87045520</Id>
+<Name>Ludlow suit pant in wool flannel</Name>
+<Currency>USD</Currency>
+<Price>195.0</Price>
+<PriceLabel>$195.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Italian wool flannel from Barberis a centuries-old mill in the countryside of Biella, Italy. Zip fly. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=87045520&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/34/01/3401791bd739b1df7a005db501bb643f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/34/01/3401791bd739b1df7a005db501bb643f_medium/jcrew-dress-pants-wool-flannel-ludlow-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/34/01/3401791bd739b1df7a005db501bb643f/jcrew-dress-pants-wool-flannel-ludlow-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>warm charcoal</Name>
+</Color>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-08-20</ExtractDate>
+</Product>
+<Product>
+<Id>80555865</Id>
+<Name>Bowery cotton twill in classic fit</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The wear-to-work pant you'll actually want to wear. With a clean silhouette in our crisp, compact cotton twill and a tailored, modern fit, it's perfectly polished from nine to five. Contrast piping at interior waistband. Zip fly. Off-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=80555865&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d8/b5/d8b510c94993af1c00c799df433f9dfe_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d8/b5/d8b510c94993af1c00c799df433f9dfe_medium/jcrew-dress-pants-bowery-cotton-twill-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d8/b5/d8b510c94993af1c00c799df433f9dfe/jcrew-dress-pants-bowery-cotton-twill-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>light hickory</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>raw steel</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Color>
+<Name>rock salt</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>31/34</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>35/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-07-23</ExtractDate>
+</Product>
+<Product>
+<Id>82644299</Id>
+<Name>Ludlow suit pant in pinstripe Italian wool</Name>
+<Currency>USD</Currency>
+<Price>225.0</Price>
+<PriceLabel>$225.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our signature suiting, meticulously crafted from four-season world-class wool fabric by Loro Piana. Zip fly. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=82644299&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/62/b8/62b8d672870e9c36e4b2815bf1bb2b8f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/62/b8/62b8d672870e9c36e4b2815bf1bb2b8f_medium/jcrew-dress-pants-italian-wool-pinstripe-ludlow-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/62/b8/62b8d672870e9c36e4b2815bf1bb2b8f/jcrew-dress-pants-italian-wool-pinstripe-ludlow-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>navy pinstripe</Name>
+</Color>
+<Color>
+<Name>charcoal pinstripe</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-07-31</ExtractDate>
+</Product>
+<Product>
+<Id>242733554</Id>
+<Name>J.Crew Bowery Cotton Twill Urban Slim Fit</Name>
+<Currency>USD</Currency>
+<Price>70.0</Price>
+<PriceLabel>$70.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>J.Crew slim-fit grey cotton trousers with two front pockets and two rear ones with buttons, zip and button fastening. In deep storm grey, these slick trousers are an easy, throw-on-and-go pair that guarantee weekend style - team them with a denim shirt for all-American cool. Shown here with a J.Crew T-shirt and Car Shoe shoes.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=242733554&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/80/71/807106bd3e956d7b14ab67edb778cfef_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/80/71/807106bd3e956d7b14ab67edb778cfef_medium/jcrew-mr-porter-casual-pants-bowery-slim-cotton-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/80/71/807106bd3e956d7b14ab67edb778cfef/jcrew-mr-porter-casual-pants-bowery-slim-cotton-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>29W 32L</Name>
+</Size>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>35W 32L</Name>
+</Size>
+<Size>
+<Name>32W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-12</ExtractDate>
+</Product>
+<Product>
+<Id>57186778</Id>
+<Name>Vintage slim-fit jean in wheat garment dye</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Italian cotton denim, carefully garment-dyed for an authentic vintage look. Zip fly. Traditional 5-pocket styling with reinforced back pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slimmer fit.&lt;/li&gt;
+                     		&lt;li&gt;Sits below waist, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=57186778&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f6/6c/f66c5066ed411bd454d2e0f36df71144_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f6/6c/f66c5066ed411bd454d2e0f36df71144_medium/jcrew-pants-vintage-slimfit-jean-in-wheat-garment-dye.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f6/6c/f66c5066ed411bd454d2e0f36df71144/jcrew-pants-vintage-slimfit-jean-in-wheat-garment-dye.jpg</Url>
+</Image>
+<Color>
+<Name>wheat garment dye</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-03-10</ExtractDate>
+</Product>
+<Product>
+<Id>242733565</Id>
+<Name>J.Crew Ludlow Fine Stripe Suit Trousers</Name>
+<Currency>USD</Currency>
+<Price>120.0</Price>
+<PriceLabel>$120.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Mr. Porter</Retailer>
+<RetailerId>895</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Mr.-Porter-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>J.Crew fine striped cotton trousers in grey with front button, front zip and four pockets. Crisp, clean and smart, these trousers make up half of J.Crew's bestselling suit, the Ludlow. Alternatively, wear them with a lean blazer, woven belt and Panama hat for a modern look with dash. Shown here with the matching J.Crew jacket, a James Perse shirt, Lanvin belt and A.P.C shoes.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=242733565&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f8/32/f8327676ce4aad0ee90b2301e8e2226b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f8/32/f8327676ce4aad0ee90b2301e8e2226b_medium/jcrew-mr-porter-dress-pants-ludlow-fine-stripe-suit-trousers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f8/32/f8327676ce4aad0ee90b2301e8e2226b/jcrew-mr-porter-dress-pants-ludlow-fine-stripe-suit-trousers.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Size>
+<Name>30W 32L</Name>
+</Size>
+<Size>
+<Name>31W 32L</Name>
+</Size>
+<Size>
+<Name>32W 32L</Name>
+</Size>
+<Size>
+<Name>33W 32L</Name>
+</Size>
+<Size>
+<Name>34W 32L</Name>
+</Size>
+<Size>
+<Name>33W 34L</Name>
+</Size>
+<Size>
+<Name>34W 34L</Name>
+</Size>
+<Size>
+<Name>36W 34L</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-12</ExtractDate>
+</Product>
+<Product>
+<Id>63243052</Id>
+<Name>Aldridge suit pant in Italian wool</Name>
+<Currency>USD</Currency>
+<Price>225.0</Price>
+<PriceLabel>$225.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our signature suiting, meticulously crafted from four-season world-class wool fabric by Loro Piana. Zip fly. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Regular trouser fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a straight leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=63243052&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/73/a7/73a752ab27f5c714a79a507a601910da_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/73/a7/73a752ab27f5c714a79a507a601910da_medium/jcrew-dress-pants-italian-wool-aldridge-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/73/a7/73a752ab27f5c714a79a507a601910da/jcrew-dress-pants-italian-wool-aldridge-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>hthr charcoal</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-04-27</ExtractDate>
+</Product>
+<Product>
+<Id>67547298</Id>
+<Name>Broken-in chino in urban slim fit</Name>
+<Currency>USD</Currency>
+<Price>65.0</Price>
+<PriceLabel>$65.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A slimmer version of our classic. We took our washed two-ply cotton twill and faded and frayed it for an authentic vintage look. Zip fly. Off-seam pockets, back welt pockets. Vintage-inspired labels. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist, slimmer through hip and thigh, with a narrower leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=67547298&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/cb/10/cb109f0f2a890fc7a346318340354a69_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/cb/10/cb109f0f2a890fc7a346318340354a69_medium/jcrew-chinos-khakis-brokenin-chino-in-urban-slim-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/cb/10/cb109f0f2a890fc7a346318340354a69/jcrew-chinos-khakis-brokenin-chino-in-urban-slim-fit.jpg</Url>
+</Image>
+<Color>
+<Name>honey brown</Name>
+</Color>
+<Color>
+<Name>british khaki</Name>
+</Color>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>31/34</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-05-21</ExtractDate>
+</Product>
+<Product>
+<Id>63147866</Id>
+<Name>Ludlow suit pant in Italian wool</Name>
+<Currency>USD</Currency>
+<Price>225.0</Price>
+<PriceLabel>$225.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our signature suiting, meticulously crafted from four-season world-class wool fabric by Loro Piana. Zip fly. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=63147866&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ee/a4/eea42d6b0c3f5be950e7392605d29c74_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ee/a4/eea42d6b0c3f5be950e7392605d29c74_medium/jcrew-dress-pants-italian-wool-ludlow-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ee/a4/eea42d6b0c3f5be950e7392605d29c74/jcrew-dress-pants-italian-wool-ludlow-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>hthr charcoal</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-04-25</ExtractDate>
+</Product>
+<Product>
+<Id>57185273</Id>
+<Name>Ludlow suit pant in worsted wool</Name>
+<Currency>USD</Currency>
+<Price>225.0</Price>
+<PriceLabel>$225.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Commonly known as sharkskin, this luxurious wool comes from Lanificio di Tollegno, one of the oldest mills in Italy. Nestled in the midst of Biella's Prealps, this mill is one of the last of its kind and is known for producing some of the finest suiting wool in the world. The fabric is woven with alternating colors of thread, giving the wool its distinctive look. Zip fly. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=57185273&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f0/0f/f00fe81780c233bf55701b01f1d5b7ee_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f0/0f/f00fe81780c233bf55701b01f1d5b7ee_medium/jcrew-dress-pants-worsted-wool-ludlow-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f0/0f/f00fe81780c233bf55701b01f1d5b7ee/jcrew-dress-pants-worsted-wool-ludlow-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>charcoal</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-03-10</ExtractDate>
+</Product>
+<Product>
+<Id>23397431</Id>
+<Name>Vintage cord in bootcut fit</Name>
+<Currency>USD</Currency>
+<Price>75.0</Price>
+<PriceLabel>$75.00</PriceLabel>
+<SalePrice>39.99</SalePrice>
+<SalePriceLabel>$39.99</SalePriceLabel>
+<MaxSalePrice>75.0</MaxSalePrice>
+<MaxSalePriceLabel>$75.00</MaxSalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Introducing our best cords ever. The design was inspired by vintage American 5-pocket cords; the new sulphur-dye and vintage-wash process is all ours. We gave them an authentic jean look and feel with handsanding on the thighs, knees and seat, with additional grinding along the waistband, pockets and hem. Cotton. Zip fly. Traditional 5-pocket styling with reinforced back pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist, straight through hip and thigh, with a bootcut leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=23397431&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/85/00/8500aa1b538e9cf003399a4ca3bd5753_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/85/00/8500aa1b538e9cf003399a4ca3bd5753_medium/jcrew-pants-vintage-cord-in-bootcut-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/85/00/8500aa1b538e9cf003399a4ca3bd5753/jcrew-pants-vintage-cord-in-bootcut-fit.jpg</Url>
+</Image>
+<Color>
+<Name>olmsted khaki</Name>
+</Color>
+<Color>
+<Name>dark slate</Name>
+</Color>
+<Color>
+<Name>dark ink</Name>
+</Color>
+<Color>
+<Name>mercury grey</Name>
+</Color>
+<Color>
+<Name>vintage black</Name>
+</Color>
+<Color>
+<Name>acorn</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>35/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>36/36</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Size>
+<Name>38/36</Name>
+</Size>
+<Size>
+<Name>40/34</Name>
+</Size>
+<Category>mens-pants</Category>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2008-06-19</ExtractDate>
+</Product>
+<Product>
+<Id>18799861</Id>
+<Name>Ludlow suit pant in fine-stripe cotton</Name>
+<Currency>USD</Currency>
+<Price>118.0</Price>
+<PriceLabel>$118.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Lightweight and cool in specially yarn-dyed cotton with a very subtle stripe. Herringbone interior waistband with grey suiting fabric detail at center. Zip fly. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=18799861&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0c/a7/0ca71e99d1557898a16fa576965b449b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0c/a7/0ca71e99d1557898a16fa576965b449b_medium/jcrew-dress-pants-finestripe-cotton-ludlow-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0c/a7/0ca71e99d1557898a16fa576965b449b/jcrew-dress-pants-finestripe-cotton-ludlow-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>faded black</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2008-04-22</ExtractDate>
+</Product>
+<Product>
+<Id>14898442</Id>
+<Name>Ludlow suit pant in Irish linen</Name>
+<Currency>USD</Currency>
+<Price>128.0</Price>
+<PriceLabel>$128.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Keep your cool in pure Irish linen from Baird McNutt, an innovative Ballymena mill established in 1912. Zip fly. Partially lined. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=14898442&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/8f/34/8f3488229d519380024322e4958637d4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/8f/34/8f3488229d519380024322e4958637d4_medium/jcrew-dress-pants-irish-linen-ludlow-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/8f/34/8f3488229d519380024322e4958637d4/jcrew-dress-pants-irish-linen-ludlow-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>british khaki</Name>
+</Color>
+<Size>
+<Name>29</Name>
+</Size>
+<Category>mens-dress-pants</Category>
+<CategoryName>Dress Pants</CategoryName>
+<SeeMoreLabel>Dress Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-dress-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2008-02-28</ExtractDate>
+</Product>
+<Product>
+<Id>14898591</Id>
+<Name>Vintage slim-fit jean in white denim</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>59.99</SalePrice>
+<SalePriceLabel>$59.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our cool white jean is made of comfortable cotton denim and ringspun for a vintage look and feel. Zip fly. Traditional 5-pocket styling with reinforced back pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slimmer fit.&lt;/li&gt;
+                     		&lt;li&gt;Sits below waist, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=14898591&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/bf/81/bf815220a94485ffe69e436442781fc4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/bf/81/bf815220a94485ffe69e436442781fc4_medium/jcrew-casual-pants-white-denim-vintage-slimfit-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/bf/81/bf815220a94485ffe69e436442781fc4/jcrew-casual-pants-white-denim-vintage-slimfit-jean.jpg</Url>
+</Image>
+<Color>
+<Name>antique white</Name>
+</Color>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Size>
+<Name>40/34</Name>
+</Size>
+<Category>mens-casual-pants</Category>
+<CategoryName>Casual Pants</CategoryName>
+<SeeMoreLabel>Casual Pants by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-casual-pants/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2008-02-28</ExtractDate>
+</Product>
+<Product>
+<Id>11653110</Id>
+<Name>Aldridge suit pant in Italian chino</Name>
+<Currency>USD</Currency>
+<Price>89.99</Price>
+<PriceLabel>$89.99</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Classic and crisp in smooth cotton twill from Italy's storied Crespi mill, renowned for its superior fabrications and superb craftsmanship. Crespi's artisans specially wash the twill exclusively for us. The process makes it harder to ensure color consistency from batch to batch but also gives the fabric an exceptionally soft feel, so we insist. If you have any concerns about color variation in our suiting, please contact us 24/7 at 800 562 0258. Grey suiting piping at interior waistband. Zip fly. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Regular trouser fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a straight leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=11653110&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d7/68/d7682437cd534086aca16be6b53217e1_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d7/68/d7682437cd534086aca16be6b53217e1_medium/jcrew-chinos-khakis-italian-chino-aldridge-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d7/68/d7682437cd534086aca16be6b53217e1/jcrew-chinos-khakis-italian-chino-aldridge-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>wheat</Name>
+</Color>
+<Color>
+<Name>stone</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2008-01-03</ExtractDate>
+</Product>
+<Product>
+<Id>1427204</Id>
+<Name>Broken-in chino in classic fit</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A trim look in our broken-in chino. We took our washed two-ply cotton twill and faded and frayed it for an authentic vintage look. Zip fly. Reinforced on-seam pockets, back welt pockets. Vintage-inspired labels. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=1427204&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ce/97/ce9760546d8763c848f8a3a27ef92764_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ce/97/ce9760546d8763c848f8a3a27ef92764_medium/jcrew-chinos-khakis-brokenin-chino-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ce/97/ce9760546d8763c848f8a3a27ef92764/jcrew-chinos-khakis-brokenin-chino-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>british khaki</Name>
+</Color>
+<Color>
+<Name>honey brown</Name>
+</Color>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>28/32</Name>
+</Size>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>31/34</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>35/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2007-02-26</ExtractDate>
+</Product>
+<Product>
+<Id>279300</Id>
+<Name>Broken-in chino in bootcut fit</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We took our washed two-ply cotton twill and faded and frayed it for an authentic vintage look. Zip fly. Off-seam pockets, back welt pockets. Locker loop at back waistband. Vintage-inspired labels. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, straight through hip and thigh, with a bootcut leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279300&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/4e/a5/4ea52935c1c60e4a23e8628aaa5863e7_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/4e/a5/4ea52935c1c60e4a23e8628aaa5863e7_medium/jcrew-chinos-khakis-brokenin-chino-in-bootcut-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/4e/a5/4ea52935c1c60e4a23e8628aaa5863e7/jcrew-chinos-khakis-brokenin-chino-in-bootcut-fit.jpg</Url>
+</Image>
+<Color>
+<Name>british khaki</Name>
+</Color>
+<Color>
+<Name>honey brown</Name>
+</Color>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Color>
+<Name>dark khaki</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>35/34</Name>
+</Size>
+<Size>
+<Name>35/36</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>36/36</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Size>
+<Name>40/34</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279989</Id>
+<Name>Essential chino in classic fit</Name>
+<Currency>USD</Currency>
+<Price>65.0</Price>
+<PriceLabel>$65.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We make our clean-cut chinos with crisp two-ply cotton twill, then wash them lightly so they're laid-back but still refined. Contrast piping at interior waistband. Zip fly. On-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, slim through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279989&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3c/c6/3cc6f6df4a044c2503ac268408b244b9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3c/c6/3cc6f6df4a044c2503ac268408b244b9_medium/jcrew-chinos-khakis-essential-chino-in-classic-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3c/c6/3cc6f6df4a044c2503ac268408b244b9/jcrew-chinos-khakis-essential-chino-in-classic-fit.jpg</Url>
+</Image>
+<Color>
+<Name>dill</Name>
+</Color>
+<Color>
+<Name>honey brown</Name>
+</Color>
+<Color>
+<Name>british khaki</Name>
+</Color>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Size>
+<Name>33</Name>
+</Size>
+<Size>
+<Name>34</Name>
+</Size>
+<Size>
+<Name>35</Name>
+</Size>
+<Size>
+<Name>36</Name>
+</Size>
+<Size>
+<Name>38</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279676</Id>
+<Name>Essential chino in relaxed fit</Name>
+<Currency>USD</Currency>
+<Price>65.0</Price>
+<PriceLabel>$65.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We make our clean-cut chinos with crisp two-ply cotton twill, then wash them lightly so they're laid-back but still refined. Contrast piping at interior waistband. Zip fly. On-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, relaxed through hip and thigh, with a slightly wider leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279676&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/bc/57/bc573d9b73225af60c97eb8d0115b188_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/bc/57/bc573d9b73225af60c97eb8d0115b188_medium/jcrew-chinos-khakis-essential-chino-in-relaxed-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/bc/57/bc573d9b73225af60c97eb8d0115b188/jcrew-chinos-khakis-essential-chino-in-relaxed-fit.jpg</Url>
+</Image>
+<Color>
+<Name>dill</Name>
+</Color>
+<Color>
+<Name>honey brown</Name>
+</Color>
+<Color>
+<Name>british khaki</Name>
+</Color>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Size>
+<Name>33</Name>
+</Size>
+<Size>
+<Name>34</Name>
+</Size>
+<Size>
+<Name>35</Name>
+</Size>
+<Size>
+<Name>36</Name>
+</Size>
+<Size>
+<Name>38</Name>
+</Size>
+<Size>
+<Name>40</Name>
+</Size>
+<Size>
+<Name>42</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>278921</Id>
+<Name>Broken-in chino in relaxed fit</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We took our washed two-ply cotton twill and faded and frayed it for an authentic vintage look. Zip fly. Reinforced on-seam pockets, back welt pockets. Vintage-inspired labels. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, relaxed through hip and thigh, with a slightly wider leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=278921&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/04/01/04013196a7caef81a27dd504f81ade69_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/04/01/04013196a7caef81a27dd504f81ade69_medium/jcrew-chinos-khakis-brokenin-chino-in-relaxed-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/04/01/04013196a7caef81a27dd504f81ade69/jcrew-chinos-khakis-brokenin-chino-in-relaxed-fit.jpg</Url>
+</Image>
+<Color>
+<Name>british khaki</Name>
+</Color>
+<Color>
+<Name>honey brown</Name>
+</Color>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>35/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>36/36</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Size>
+<Name>38/36</Name>
+</Size>
+<Size>
+<Name>40/34</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279538</Id>
+<Name>Broken-in chino in regular fit</Name>
+<Currency>USD</Currency>
+<Price>59.5</Price>
+<PriceLabel>$59.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We took our washed two-ply cotton twill and faded and frayed it for an authentic vintage look. Zip fly. Reinforced on-seam pockets, back welt pockets. Vintage-inspired labels. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, straight through hip and thigh, with a straight leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279538&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b6/cd/b6cd217c388544dad4a6d3e111e0d5c5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b6/cd/b6cd217c388544dad4a6d3e111e0d5c5_medium/jcrew-chinos-khakis-brokenin-chino-in-regular-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b6/cd/b6cd217c388544dad4a6d3e111e0d5c5/jcrew-chinos-khakis-brokenin-chino-in-regular-fit.jpg</Url>
+</Image>
+<Color>
+<Name>british khaki</Name>
+</Color>
+<Color>
+<Name>honey brown</Name>
+</Color>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>29/32</Name>
+</Size>
+<Size>
+<Name>30/30</Name>
+</Size>
+<Size>
+<Name>30/32</Name>
+</Size>
+<Size>
+<Name>31/30</Name>
+</Size>
+<Size>
+<Name>31/32</Name>
+</Size>
+<Size>
+<Name>32/30</Name>
+</Size>
+<Size>
+<Name>32/32</Name>
+</Size>
+<Size>
+<Name>32/34</Name>
+</Size>
+<Size>
+<Name>33/30</Name>
+</Size>
+<Size>
+<Name>33/32</Name>
+</Size>
+<Size>
+<Name>33/34</Name>
+</Size>
+<Size>
+<Name>34/30</Name>
+</Size>
+<Size>
+<Name>34/32</Name>
+</Size>
+<Size>
+<Name>34/34</Name>
+</Size>
+<Size>
+<Name>34/36</Name>
+</Size>
+<Size>
+<Name>35/30</Name>
+</Size>
+<Size>
+<Name>35/32</Name>
+</Size>
+<Size>
+<Name>35/34</Name>
+</Size>
+<Size>
+<Name>36/30</Name>
+</Size>
+<Size>
+<Name>36/32</Name>
+</Size>
+<Size>
+<Name>36/34</Name>
+</Size>
+<Size>
+<Name>36/36</Name>
+</Size>
+<Size>
+<Name>38/30</Name>
+</Size>
+<Size>
+<Name>38/32</Name>
+</Size>
+<Size>
+<Name>38/34</Name>
+</Size>
+<Size>
+<Name>38/36</Name>
+</Size>
+<Size>
+<Name>40/34</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>278825</Id>
+<Name>Ludlow suit pant in Italian chino</Name>
+<Currency>USD</Currency>
+<Price>89.99</Price>
+<PriceLabel>$89.99</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Classic and crisp in smooth cotton twill from Italy's storied Crespi mill, renowned for its superior fabrications and superb craftsmanship. Crespi's artisans specially wash the twill exclusively for us. The process makes it harder to ensure color consistency from batch to batch but also gives the fabric an exceptionally soft feel, so we insist. If you have any concerns about color variation in our suiting, please contact us 24/7 at 800 562 0258. Zip fly. Import. Dry clean.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Slim, more tailored fit.&lt;/li&gt;
+                     		&lt;li&gt;Straight through hip and thigh, with a narrow leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=278825&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/a1/2e/a12eae694e2ecf2fce4e11d2d12b1de0_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/a1/2e/a12eae694e2ecf2fce4e11d2d12b1de0_medium/jcrew-chinos-khakis-italian-chino-ludlow-suit-pant.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/a1/2e/a12eae694e2ecf2fce4e11d2d12b1de0/jcrew-chinos-khakis-italian-chino-ludlow-suit-pant.jpg</Url>
+</Image>
+<Color>
+<Name>wheat</Name>
+</Color>
+<Color>
+<Name>navy</Name>
+</Color>
+<Color>
+<Name>stone</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>278933</Id>
+<Name>Essential chino in regular fit</Name>
+<Currency>USD</Currency>
+<Price>65.0</Price>
+<PriceLabel>$65.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We make our clean-cut chinos with crisp two-ply cotton twill, then wash them lightly so they're laid-back but still refined. Contrast piping at interior waistband. Zip fly. On-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, straight through hip and thigh, with a straight leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=278933&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0f/10/0f10adf075df3d06900bcdc8d915e270_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0f/10/0f10adf075df3d06900bcdc8d915e270_medium/jcrew-chinos-khakis-essential-chino-in-regular-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0f/10/0f10adf075df3d06900bcdc8d915e270/jcrew-chinos-khakis-essential-chino-in-regular-fit.jpg</Url>
+</Image>
+<Color>
+<Name>dill</Name>
+</Color>
+<Color>
+<Name>honey brown</Name>
+</Color>
+<Color>
+<Name>british khaki</Name>
+</Color>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Size>
+<Name>33</Name>
+</Size>
+<Size>
+<Name>34</Name>
+</Size>
+<Size>
+<Name>35</Name>
+</Size>
+<Size>
+<Name>36</Name>
+</Size>
+<Size>
+<Name>38</Name>
+</Size>
+<Size>
+<Name>40</Name>
+</Size>
+<Size>
+<Name>42</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>279082</Id>
+<Name>Essential chino in giant fit</Name>
+<Currency>USD</Currency>
+<Price>65.0</Price>
+<PriceLabel>$65.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We make our clean-cut chinos with crisp two-ply cotton twill, then wash them lightly so they're laid-back but still refined. Contrast piping at interior waistband. Zip fly. On-seam pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, relaxed through hip and thigh, roomier fit, with a fuller leg.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=279082&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d6/50/d6509b3c00e1c43953957fd9e232acd4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d6/50/d6509b3c00e1c43953957fd9e232acd4_medium/jcrew-chinos-khakis-essential-chino-in-giant-fit.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d6/50/d6509b3c00e1c43953957fd9e232acd4/jcrew-chinos-khakis-essential-chino-in-giant-fit.jpg</Url>
+</Image>
+<Color>
+<Name>honey brown</Name>
+</Color>
+<Color>
+<Name>graphite</Name>
+</Color>
+<Color>
+<Name>black</Name>
+</Color>
+<Color>
+<Name>khaki</Name>
+</Color>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Size>
+<Name>33</Name>
+</Size>
+<Size>
+<Name>34</Name>
+</Size>
+<Size>
+<Name>35</Name>
+</Size>
+<Size>
+<Name>36</Name>
+</Size>
+<Size>
+<Name>38</Name>
+</Size>
+<Size>
+<Name>40</Name>
+</Size>
+<Size>
+<Name>42</Name>
+</Size>
+<Size>
+<Name>44</Name>
+</Size>
+<Category>mens-chinos-and-khakis</Category>
+<CategoryName>Chinos &amp; Khakis</CategoryName>
+<SeeMoreLabel>Chinos &amp; Khakis by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-chinos-and-khakis/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2006-12-12</ExtractDate>
+</Product>
+<Product>
+<Id>80553406</Id>
+<Name>Solid end-on-end woven boxers</Name>
+<Currency>USD</Currency>
+<Price>18.5</Price>
+<PriceLabel>$18.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our signature cotton boxers are specially washed so they're supersoft and incredibly comfortable. J.Crew logo elastic waistband. Fly front. 6" inseam. Import. Machine wash. S, M, L, XL.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=80553406&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0e/b0/0eb049ea4c2d8f4e283d4d7aa1a63308_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0e/b0/0eb049ea4c2d8f4e283d4d7aa1a63308_medium/jcrew-boxers-solid-endonend-boxers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0e/b0/0eb049ea4c2d8f4e283d4d7aa1a63308/jcrew-boxers-solid-endonend-boxers.jpg</Url>
+</Image>
+<Color>
+<Name>bold peri</Name>
+</Color>
+<Size>
+<Name>SMALL</Name>
+</Size>
+<Size>
+<Name>MEDIUM</Name>
+</Size>
+<Size>
+<Name>LARGE</Name>
+</Size>
+<Size>
+<Name>X-LARGE</Name>
+</Size>
+<Category>mens-boxers</Category>
+<Category>mens-pants</Category>
+<CategoryName>Boxers</CategoryName>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Boxers by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-boxers/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-07-23</ExtractDate>
+</Product>
+<Product>
+<Id>40292987</Id>
+<Name>Martini Holiday boxers</Name>
+<Currency>USD</Currency>
+<Price>18.5</Price>
+<PriceLabel>$18.50</PriceLabel>
+<SalePrice>9.99</SalePrice>
+<SalePriceLabel>$9.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Cheers! Our tuxedo-clad friends toast to a merry season. Lightweight cotton, peached and washed for softness. J.Crew logo elastic waistband. Fly front. Seamed bubble back for comfortable fit. 6" inseam. Import. Machine wash. S, M, L, XL.</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=40292987&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/fb/4f/fb4f90ed987a9c4b4fa87f8a0ea8e3fc_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/fb/4f/fb4f90ed987a9c4b4fa87f8a0ea8e3fc_medium/jcrew-boxers-martini-holiday-boxers.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/fb/4f/fb4f90ed987a9c4b4fa87f8a0ea8e3fc/jcrew-boxers-martini-holiday-boxers.jpg</Url>
+</Image>
+<Color>
+<Name>flag red</Name>
+</Color>
+<Size>
+<Name>LARGE</Name>
+</Size>
+<Category>mens-boxers</Category>
+<Category>mens-pants</Category>
+<CategoryName>Boxers</CategoryName>
+<CategoryName>Pants</CategoryName>
+<SeeMoreLabel>Boxers by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-boxers/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2008-11-19</ExtractDate>
+</Product>
+</SearchResult>

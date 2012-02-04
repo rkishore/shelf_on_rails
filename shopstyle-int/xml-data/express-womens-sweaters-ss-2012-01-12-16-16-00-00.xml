@@ -1,0 +1,2220 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>sweaters</Category>
+<CategoryName>Sweaters</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>13342</Id>
+<Name>Express</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>36</TotalCount>
+<Product>
+<Id>319082366</Id>
+<Name>Striped Mesh Dolman Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A hot silhouette in an open, ultra-lightweight striped weave that's made for layering. Soft, stylish and easy to pair with a slim skirt or leggings. &lt;ul&gt; &lt;li&gt;100% Spun rayon&lt;/li&gt; &lt;li&gt;Wide crew neck&lt;/li&gt; &lt;li&gt;Three-quarter length dolman sleeves&lt;/li&gt; &lt;li&gt;Open weave&lt;/li&gt; &lt;li&gt;Ribbed hem, cuffs and neckline&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=319082366&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c4/c2/c4c2a3e11f0cfed7de34f5f81c51add6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c4/c2/c4c2a3e11f0cfed7de34f5f81c51add6_medium/express-sweaters-striped-mesh-dolman-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c4/c2/c4c2a3e11f0cfed7de34f5f81c51add6/express-sweaters-striped-mesh-dolman-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>YELLOW</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>sweaters</Category>
+<CategoryName>Sweaters</CategoryName>
+<SeeMoreLabel>Sweaters by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-03</ExtractDate>
+</Product>
+<Product>
+<Id>314527610</Id>
+<Name>Marled Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Play it cool with a season-perfect sweater. Lofty yarns give it a casual vibe that looks great with denim while the va-va-voom shape makes it hot. &lt;ul&gt; &lt;li&gt;Open round neckline&lt;/li&gt; &lt;li&gt;Three-quarter raglan sleeves&lt;/li&gt; &lt;li&gt;Rib trim&lt;/li&gt; &lt;li&gt;60% COTTON/40% ACRYLIC&lt;/li&gt; &lt;li&gt;Machine wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314527610&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0f/1c/0f1c42040ce1aa588212f6a52ced3020_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0f/1c/0f1c42040ce1aa588212f6a52ced3020_medium/express-sweaters-marled-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0f/1c/0f1c42040ce1aa588212f6a52ced3020/express-sweaters-marled-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>NEUTRAL</Name>
+</Color>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-19</ExtractDate>
+</Product>
+<Product>
+<Id>317703081</Id>
+<Name>Lurex Exploded Mesh Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The eye-catching shine of Lurex merges with a sexy open knit in a sweater that will kick up your go-to looks. With its cropped, boxy shape, it'll add contrast and sparkle to the form-fitting shapes of our Ecosil Cami and Ponte Knit bottoms. &lt;ul&gt; &lt;li&gt;100% Spun rayon with Lurex threads&lt;/li&gt; &lt;li&gt;Banded open neck&lt;/li&gt; &lt;li&gt;Ribbed sleeve cuffs&lt;/li&gt; &lt;li&gt;Ribbed hem with side vents&lt;/li&gt; &lt;li&gt;Three-quarter length sleeves&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=317703081&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b8/0d/b80d96740e953fb3d9ff593650389815_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b8/0d/b80d96740e953fb3d9ff593650389815_medium/express-sweaters-lurex-exploded-mesh-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b8/0d/b80d96740e953fb3d9ff593650389815/express-sweaters-lurex-exploded-mesh-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>COOL EARTH</Name>
+</Color>
+<Color>
+<Name>BEIGE</Name>
+</Color>
+<Color>
+<Name>INDIGO</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-29</ExtractDate>
+</Product>
+<Product>
+<Id>313670558</Id>
+<Name>Ombre Stripe Marled Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Brush off grey days with a sweater in sherbet tones. Lofty cotton yarns give it a casual vibe that looks great with denim while the va-va-voom shape makes it hot. &lt;ul&gt; &lt;li&gt;Open round neckline&lt;/li&gt; &lt;li&gt;Three-quarter raglan sleeves&lt;/li&gt; &lt;li&gt;Rib trim&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=313670558&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ea/8f/ea8fb9b4349788099d9ea388b66728cf_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ea/8f/ea8fb9b4349788099d9ea388b66728cf_medium/express-sweaters-ombre-stripe-marled-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ea/8f/ea8fb9b4349788099d9ea388b66728cf/express-sweaters-ombre-stripe-marled-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>SAND</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-16</ExtractDate>
+</Product>
+<Product>
+<Id>315194898</Id>
+<Name>Lurex Scoop Neck Dolman Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A metallic, almost-iridescent lurex gives you built-in spotlight status, even on your casual days. The scoop neck and banded sleeves give this sweater the ideal shape for pairing with your colored denim. &lt;ul&gt; &lt;li&gt;Ribbed scoop neck&lt;/li&gt; &lt;li&gt;Banded dolman sleeves&lt;/li&gt; &lt;li&gt;Metallic lurex fabric&lt;/li&gt; &lt;li&gt;66% Polyester/34% Metallic&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315194898&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/eb/d4/ebd407a5a5dfeb1b2bbc91612e19222a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/eb/d4/ebd407a5a5dfeb1b2bbc91612e19222a_medium/express-crewnecks-scoopnecks-lurex-scoop-neck-dolman-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/eb/d4/ebd407a5a5dfeb1b2bbc91612e19222a/express-crewnecks-scoopnecks-lurex-scoop-neck-dolman-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>MUSHROOM</Name>
+</Color>
+<Color>
+<Name>BONFIRE</Name>
+</Color>
+<Color>
+<Name>CELESTIAL BLUE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-21</ExtractDate>
+</Product>
+<Product>
+<Id>314527274</Id>
+<Name>Cashmere Blend Deep Drape Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Luxuriously soft with a plunging draped neckline, this pullover sweater is a layering must. Explore the drama in mixing its boxy shape with the fitted silhouette of a pencil skirt, or our Columnist Pant. &lt;ul&gt; &lt;li&gt;40% Rayon/25% Polyester/13% Nylon/5% Cashmere&lt;/li&gt; &lt;li&gt;Oversized drape neck with rolled collar&lt;/li&gt; &lt;li&gt;Long sleeves&lt;/li&gt; &lt;li&gt;Boxy fit with straight hem&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314527274&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/a6/c2/a6c201c73cdb141b419049076b1d1813_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/a6/c2/a6c201c73cdb141b419049076b1d1813_medium/express-cashmere-sweaters-cashmere-blend-deep-drape-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/a6/c2/a6c201c73cdb141b419049076b1d1813/express-cashmere-sweaters-cashmere-blend-deep-drape-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>WILD FRUIT</Name>
+</Color>
+<Color>
+<Name>SWEET RASPBERRY</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>cashmere-sweaters</Category>
+<CategoryName>Cashmere Sweaters</CategoryName>
+<SeeMoreLabel>Cashmere Sweaters by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cashmere-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-19</ExtractDate>
+</Product>
+<Product>
+<Id>308923262</Id>
+<Name>Mesh-Stich Lightweight Tunic Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Metallic-sparked open stitch luxury sweater with a kiss of cashmere. We almost wish it was winter year round, if only so we could don such an ultra soft sweater every day of the year. &lt;ul&gt; &lt;li&gt;Bound open neck&lt;/li&gt; &lt;li&gt;Elbow-legth doman sleeves&lt;/li&gt; &lt;li&gt;Ribbed cuffs and hem&lt;/li&gt; &lt;li&gt;100% Rayon&lt;/li&gt; &lt;li&gt;Dry clean&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308923262&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7f/13/7f1334cf2aeca7f53fc226d5df88a9f5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7f/13/7f1334cf2aeca7f53fc226d5df88a9f5_medium/express-sweaters-meshstich-lightweight-tunic-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7f/13/7f1334cf2aeca7f53fc226d5df88a9f5/express-sweaters-meshstich-lightweight-tunic-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>COOL EARTH</Name>
+</Color>
+<Color>
+<Name>WILD FRUIT</Name>
+</Color>
+<Color>
+<Name>IVORY</Name>
+</Color>
+<Color>
+<Name>CHARCOAL GRAY</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-02</ExtractDate>
+</Product>
+<Product>
+<Id>317702891</Id>
+<Name>Printed Crew Neck Cardigan</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Add a hint of printed flair to any outfit with this floral, filigreed cardigan. Warm colors and a dash of cashmere make this a super-soft layer you'll love.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Crew neck&lt;/li&gt;
+                     		&lt;li&gt;Long sleeves&lt;/li&gt;
+                     		&lt;li&gt;Ribbed neckline and hem, rolled-hem sleeves&lt;/li&gt;
+                     		&lt;li&gt;Button closure&lt;/li&gt;
+                     		&lt;li&gt;40% Rayon/13% Nylon/25% Polyester/5% Cashmere&lt;/li&gt;
+                     		&lt;li&gt;Machine washable&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=317702891&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/dd/97/dd9710f95b3cb827fa6631d0417e21f6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/dd/97/dd9710f95b3cb827fa6631d0417e21f6_medium/express-cardigans-printed-crew-neck-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/dd/97/dd9710f95b3cb827fa6631d0417e21f6/express-cardigans-printed-crew-neck-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>STONE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>cardigan-sweaters</Category>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Cardigans</CategoryName>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Cardigans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-29</ExtractDate>
+</Product>
+<Product>
+<Id>314886980</Id>
+<Name>Mesh Dolman Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A hot silhouette in an open weave, ultra-lightweight knit that's made for layering. Soft, stylish and easy to pair with a cami and jeans or a slim skirt. &lt;ul&gt; &lt;li&gt;100% Spun rayon&lt;/li&gt; &lt;li&gt;Wide crew neck&lt;/li&gt; &lt;li&gt;Three-quarter length dolman sleeves&lt;/li&gt; &lt;li&gt;Open weave&lt;/li&gt; &lt;li&gt;Ribbed hem, cuffs and neckline&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=314886980&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7e/43/7e43a65c8c555353eba1a42c0f7296a9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7e/43/7e43a65c8c555353eba1a42c0f7296a9_medium/express-sweaters-mesh-dolman-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7e/43/7e43a65c8c555353eba1a42c0f7296a9/express-sweaters-mesh-dolman-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>SEASIDE BLUE</Name>
+</Color>
+<Color>
+<Name>CANARY</Name>
+</Color>
+<Color>
+<Name>TRUE WHITE</Name>
+</Color>
+<Color>
+<Name>POLO MATCH</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-20</ExtractDate>
+</Product>
+<Product>
+<Id>312915664</Id>
+<Name>Stripe Cable Knit Rib Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<SalePrice>29.9</SalePrice>
+<SalePriceLabel>$29.90</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Get in line and amp up the style volume. Our timeless v-neck sweater with angora softness comes in dashing stripes too. &lt;ul&gt; &lt;li&gt;V-neck ribbed cable knit&lt;/li&gt; &lt;li&gt;Long sleeve&lt;/li&gt; &lt;li&gt;Ribbed at cuffs, hem and neckline&lt;/li&gt; &lt;li&gt;55% Cotton/35% Viscose/7% Nylon/3% Angora&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=312915664&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f5/59/f559f8043d9944ede1d7736009809fcb_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f5/59/f559f8043d9944ede1d7736009809fcb_medium/express-sweaters-stripe-cable-knit-rib-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f5/59/f559f8043d9944ede1d7736009809fcb/express-sweaters-stripe-cable-knit-rib-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Color>
+<Name>BLUE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>v-neck-sweaters</Category>
+<CategoryName>V-Neck Sweaters</CategoryName>
+<SeeMoreLabel>V-Neck Sweaters by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/v-neck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-14</ExtractDate>
+</Product>
+<Product>
+<Id>305908444</Id>
+<Name>Boxy Cotton Cardigan</Name>
+<Currency>USD</Currency>
+<Price>39.9</Price>
+<PriceLabel>$39.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>An edgy twist on the buttoned-up cardigan that's brilliant at layering. Our fine knit cotton sweater brings modern polish to every look. Cropped boxy body, ribbed hem with side vents, dropped shoulders. 3-button front.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Cropped, boxy silhouette&lt;/li&gt;
+                     		&lt;li&gt;V-neck 3-button front&lt;/li&gt;
+                     		&lt;li&gt;Ribbed hem and cuffs&lt;/li&gt;
+                     		&lt;li&gt;Side vents&lt;/li&gt;
+                     		&lt;li&gt;100% Cotton&lt;/li&gt;
+                     		&lt;li&gt;Machine wash&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305908444&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f2/86/f2869258bcfad50fe2aec946fae4d374_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f2/86/f2869258bcfad50fe2aec946fae4d374_medium/express-cardigans-boxy-cotton-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f2/86/f2869258bcfad50fe2aec946fae4d374/express-cardigans-boxy-cotton-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>WHITE</Name>
+</Color>
+<Color>
+<Name>WILD FRUIT</Name>
+</Color>
+<Color>
+<Name>CELESTIAL BLUE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>cardigan-sweaters</Category>
+<CategoryName>Cardigans</CategoryName>
+<SeeMoreLabel>Cardigans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-21</ExtractDate>
+</Product>
+<Product>
+<Id>308650262</Id>
+<Name>Pleat-Neck Keyhole Sweater</Name>
+<Currency>USD</Currency>
+<Price>39.9</Price>
+<PriceLabel>$39.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Soften your look with a dash of cashmere. A pleated tuck-neck and open keyhole detail dress up this blouse-like sweater. &lt;ul&gt; &lt;li&gt;Pleated tuck neck&lt;/li&gt; &lt;li&gt;Keyhole opening&lt;/li&gt; &lt;li&gt;Cap sleeve&lt;/li&gt; &lt;li&gt;Banded waist&lt;/li&gt; &lt;li&gt;100% Rayon&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308650262&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/57/83/5783615e8c234776e027281531536327_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/57/83/5783615e8c234776e027281531536327_medium/express-sweaters-pleatneck-keyhole-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/57/83/5783615e8c234776e027281531536327/express-sweaters-pleatneck-keyhole-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>FANTASIA BLUE</Name>
+</Color>
+<Color>
+<Name>WILD FRUIT</Name>
+</Color>
+<Color>
+<Name>TRUE WHITE</Name>
+</Color>
+<Color>
+<Name>SWEET RASPBERRY</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-01</ExtractDate>
+</Product>
+<Product>
+<Id>305916781</Id>
+<Name>Dolman Sleeve Cocoon Cardigan</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Wrap up with flair. Our luxurious lightweight sweater is open stitched in blended yarns with a kiss of cashmere. Banded rib front, blouson back with a shaped, ribbed wide hem, 3/4 dolman sleeves with ribbed cuff. &lt;ul&gt; &lt;li&gt;Smooth banded open front&lt;/li&gt; &lt;li&gt;Ribbed cuff sleeves&lt;/li&gt; &lt;li&gt;Shaped, ribbed wide hem in back&lt;/li&gt; &lt;li&gt;100% Rayon&lt;/li&gt; &lt;li&gt;Dry clean&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305916781&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/38/91/3891408b0f01842b1a40bfc7573fc44f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/38/91/3891408b0f01842b1a40bfc7573fc44f_medium/express-cardigans-dolman-sleeve-cocoon-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/38/91/3891408b0f01842b1a40bfc7573fc44f/express-cardigans-dolman-sleeve-cocoon-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>COOL EARTH</Name>
+</Color>
+<Color>
+<Name>IVORY</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>cardigan-sweaters</Category>
+<CategoryName>Cardigans</CategoryName>
+<SeeMoreLabel>Cardigans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-21</ExtractDate>
+</Product>
+<Product>
+<Id>309825324</Id>
+<Name>Mesh Stitch Cropped Boxy Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>One of our favorite shapes in a loose-weave knit that shows off your layers. Cropped, boxy and ultra-soft, it will add luxurious, touchable texture to jeans and a basic top. &lt;ul&gt; &lt;li&gt;100% Spun rayon&lt;/li&gt; &lt;li&gt;Wide crew neck&lt;/li&gt; &lt;li&gt;Three-quarter length sleeves&lt;/li&gt; &lt;li&gt;Ribbed trim at neck, sleeves and hem&lt;/li&gt; &lt;li&gt;Side vents&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=309825324&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c8/f6/c8f69d01c37a94c6d164308d7c28f2dc_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c8/f6/c8f69d01c37a94c6d164308d7c28f2dc_medium/express-sweaters-mesh-stitch-cropped-boxy-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c8/f6/c8f69d01c37a94c6d164308d7c28f2dc/express-sweaters-mesh-stitch-cropped-boxy-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>BRIGHT SALMON</Name>
+</Color>
+<Color>
+<Name>TRUE WHITE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-05</ExtractDate>
+</Product>
+<Product>
+<Id>305893105</Id>
+<Name>Mesh Wedge Pullover</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A light, soft, easy-fitting layer of mesh knit to add depth and shine to your wardrobe staples. Silver metallic thread brings shimmer to wide stripes in subtle hues. Pairs well with evening wear or a knit top and jeans. &lt;ul&gt; &lt;li&gt;100% Rayon&lt;/li&gt; &lt;li&gt;V-neck with slim ribbed trim&lt;/li&gt; &lt;li&gt;Wide dolman sleeves&lt;/li&gt; &lt;li&gt;Wide ribbed waistband&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305893105&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/78/a6/78a6c632bf735146e3101d0f1f53caa6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/78/a6/78a6c632bf735146e3101d0f1f53caa6_medium/express-sweaters-mesh-wedge-pullover.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/78/a6/78a6c632bf735146e3101d0f1f53caa6/express-sweaters-mesh-wedge-pullover.jpg</Url>
+</Image>
+<Color>
+<Name>PINK</Name>
+</Color>
+<Color>
+<Name>PURPLE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-21</ExtractDate>
+</Product>
+<Product>
+<Id>309824949</Id>
+<Name>Long Sleeve Striped Boxy Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<SalePrice>29.9</SalePrice>
+<SalePriceLabel>$29.90</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>One of our best-selling stripes. A contemporary cropped look with a boxy fit is fresh and modern. Luxe it up with bold, gold jewelry. &lt;ul&gt; &lt;li&gt;Crew neck&lt;/li&gt; &lt;li&gt;Long sleeves&lt;/li&gt; &lt;li&gt;Cropped, boxy style&lt;/li&gt; &lt;li&gt;Striped ends with rosette detail&lt;/li&gt; &lt;li&gt;40% Rayon/13% Nylon/25% Polyester/5% Cashmere&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=309824949&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/47/bd/47bdea03ef810fa0276ff56a964459db_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/47/bd/47bdea03ef810fa0276ff56a964459db_medium/express-sweaters-long-sleeve-striped-boxy-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/47/bd/47bdea03ef810fa0276ff56a964459db/express-sweaters-long-sleeve-striped-boxy-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>BLUE</Name>
+</Color>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-05</ExtractDate>
+</Product>
+<Product>
+<Id>308410051</Id>
+<Name>Pointelle Dolman-Sleeve Crop Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The cropped sweater is a must-have for the season. A chic, pointelle detail with just a touch of metallic sparkle keeps you cool and on-trend. &lt;ul&gt; &lt;li&gt;Deep v-neck in front and back&lt;/li&gt; &lt;li&gt;Short, banded dolman sleeves&lt;/li&gt; &lt;li&gt;Pointelle with lurex&lt;/li&gt; &lt;li&gt;Cropped length&lt;/li&gt; &lt;li&gt;60% Cotton/40% Acrylic with Lurex&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308410051&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/68/45/6845d80437135e3cd44c8f9cdbb28d31_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/68/45/6845d80437135e3cd44c8f9cdbb28d31_medium/express-sweaters-crocheted-dolmansleeve-crop-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/68/45/6845d80437135e3cd44c8f9cdbb28d31/express-sweaters-crocheted-dolmansleeve-crop-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>STONE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-30</ExtractDate>
+</Product>
+<Product>
+<Id>308409473</Id>
+<Name>Lurex Cropped Boxy Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Grab the spotlight with this glittering sweater. A tad sheer and light-as-air it's the perfect top for your day-to-night looks. &lt;ul&gt; &lt;li&gt;Ribbed open neck&lt;/li&gt; &lt;li&gt;Short dolman sleeves, double banded armholes&lt;/li&gt; &lt;li&gt;Flat hem&lt;/li&gt; &lt;li&gt;100% Lurex&#xAE; metallic fibers&lt;/li&gt; &lt;li&gt;Dry clean&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308409473&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e0/fc/e0fc94bc39fa8dc45f578e3be0fb0c7c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e0/fc/e0fc94bc39fa8dc45f578e3be0fb0c7c_medium/express-sweaters-lurex-cropped-boxy-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e0/fc/e0fc94bc39fa8dc45f578e3be0fb0c7c/express-sweaters-lurex-cropped-boxy-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>SILVER</Name>
+</Color>
+<Color>
+<Name>DARK METAL</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-30</ExtractDate>
+</Product>
+<Product>
+<Id>305908488</Id>
+<Name>Short Open Cover Up Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The goes-with-everything cover up sweater. Every girl needs a super-soft layer to pair with a printed blouse for year-round style. &lt;ul&gt; &lt;li&gt;Open style&lt;/li&gt; &lt;li&gt;Long sleeves with ribbed cuffs&lt;/li&gt; &lt;li&gt;Ribbed hem and neckline&lt;/li&gt; &lt;li&gt;40% Rayon/13% Nylon/25% Polyester/5% Cashmere&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305908488&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b3/97/b39710d23c5eb61d403bd7002752ff40_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b3/97/b39710d23c5eb61d403bd7002752ff40_medium/express-sweaters-short-open-cover-up-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b3/97/b39710d23c5eb61d403bd7002752ff40/express-sweaters-short-open-cover-up-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>IVORY</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>cardigan-sweaters</Category>
+<CategoryName>Cardigans</CategoryName>
+<SeeMoreLabel>Cardigans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-22</ExtractDate>
+</Product>
+<Product>
+<Id>305902420</Id>
+<Name>Striped Side-Rouched Dolman Sleeve Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Perfect for warmer days, this lightweight sweater is oh-so cute! With banded dolman sleeves, longer length and a rouched, tie-up side detail, it's casual and cool.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Wide neck&lt;/li&gt;
+                     		&lt;li&gt;Banded, dolman sleeves&lt;/li&gt;
+                     		&lt;li&gt;Center seam on front and back&lt;/li&gt;
+                     		&lt;li&gt;Rouched on side with tie&lt;/li&gt;
+                     		&lt;li&gt;66% Cotton/34% Rayon&lt;/li&gt;
+                     		&lt;li&gt;Hand wash&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305902420&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7f/46/7f46748c9d4281d42e13425458c5144b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7f/46/7f46748c9d4281d42e13425458c5144b_medium/express-sweaters-striped-siderouched-dolman-sleeve-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7f/46/7f46748c9d4281d42e13425458c5144b/express-sweaters-striped-siderouched-dolman-sleeve-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>YELLOW</Name>
+</Color>
+<Color>
+<Name>PURPLE</Name>
+</Color>
+<Color>
+<Name>BLUE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-22</ExtractDate>
+</Product>
+<Product>
+<Id>306065390</Id>
+<Name>Marled Chunky Hi-Lo Hem Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>This sweater should be a staple in every girl's closet. The marled shaker stitching with a hi-low hem makes this sweater the perfect layer for any look. &lt;ul&gt; &lt;li&gt;Wide neck&lt;/li&gt; &lt;li&gt;Banded, dolman sleeves&lt;/li&gt; &lt;li&gt;Banded bottom with hi-low hem&lt;/li&gt; &lt;li&gt;Shaker stitch knit&lt;/li&gt; &lt;li&gt;60% Acrylic/40% Wool&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=306065390&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2b/7e/2b7e07f49c87f8f56080719ce57db6d1_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2b/7e/2b7e07f49c87f8f56080719ce57db6d1_medium/express-sweaters-marled-chunky-hilo-hem-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2b/7e/2b7e07f49c87f8f56080719ce57db6d1/express-sweaters-marled-chunky-hilo-hem-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>CORAL</Name>
+</Color>
+<Color>
+<Name>YELLOW</Name>
+</Color>
+<Color>
+<Name>PURPLE</Name>
+</Color>
+<Color>
+<Name>NEUTRAL</Name>
+</Color>
+<Color>
+<Name>BLUE</Name>
+</Color>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-23</ExtractDate>
+</Product>
+<Product>
+<Id>303821555</Id>
+<Name>Metallic Cropped Dolman Sweater</Name>
+<Currency>USD</Currency>
+<Price>198.0</Price>
+<PriceLabel>$198.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>An open knit, boxy sweater beautifully stitched in spun metallic yarn. Layer with a tee, a shirt or a cami. Reveal as much or as little as you like. The shimmering gold of this gorgeous drapey pull-on energizes both daytime and evening looks.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Ribbed open neck&lt;/li&gt;
+                     		&lt;li&gt;Short dolman sleeves&lt;/li&gt;
+                     		&lt;li&gt;Banded armholes&lt;/li&gt;
+                     		&lt;li&gt;68% rayon/32% metallic&lt;/li&gt;
+                     		&lt;li&gt;Dry clean&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303821555&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/73/09/7309678fb0ae8fe7536805d6db4d5a5e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/73/09/7309678fb0ae8fe7536805d6db4d5a5e_medium/express-sweaters-metallic-tape-yarn-cropped-dolman-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/73/09/7309678fb0ae8fe7536805d6db4d5a5e/express-sweaters-metallic-tape-yarn-cropped-dolman-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>SILVER</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-15</ExtractDate>
+</Product>
+<Product>
+<Id>305904144</Id>
+<Name>Stripe Cotton  Boyfriend Cardigan</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Stripes so cute, you'll never borrow 'his' cardigan again. Super soft and lightweight, it's the perfect layer to finish casual looks. V-neck, button front, ribbed hem and long sleeves. &lt;ul&gt; &lt;li&gt;V-neck, button front&lt;/li&gt; &lt;li&gt;Long sleeves, ribbed cuffs&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305904144&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/59/b0/59b0d1174b7e90e6052903de6492adf8_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/59/b0/59b0d1174b7e90e6052903de6492adf8_medium/express-cardigans-stripe-cotton-boyfriend-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/59/b0/59b0d1174b7e90e6052903de6492adf8/express-cardigans-stripe-cotton-boyfriend-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY</Name>
+</Color>
+<Color>
+<Name>YELLOW</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>cardigan-sweaters</Category>
+<CategoryName>Cardigans</CategoryName>
+<SeeMoreLabel>Cardigans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-22</ExtractDate>
+</Product>
+<Product>
+<Id>305893048</Id>
+<Name>Mesh Stitch Yarn Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Barely-there shine merges with a sexy open knit in a sweater that will kick up your go-to looks. The smooth, glossy yarn gives this pullover a lovely sheen. Cuffed elbow sleeves, ribbed hem with side vents. &lt;ul&gt; &lt;li&gt;Banded open neck&lt;/li&gt; &lt;li&gt;Ribbed cuff sleeves; ribbed hem with side vents&lt;/li&gt; &lt;li&gt;72% acrylic/28% Polyamide&lt;/li&gt; &lt;li&gt;Dry clean&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305893048&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f2/ed/f2eddc81f4b0e617105767916541224e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f2/ed/f2eddc81f4b0e617105767916541224e_medium/express-sweaters-mesh-stitch-yarn-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f2/ed/f2eddc81f4b0e617105767916541224e/express-sweaters-mesh-stitch-yarn-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>GRAY HEATHER</Name>
+</Color>
+<Color>
+<Name>STONE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-22</ExtractDate>
+</Product>
+<Product>
+<Id>305893115</Id>
+<Name>Striped Shaker Stitch Cocoon Cardigan</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A nod to the classic casual sweater, our cardigan is the shape of new and now.  Featuring bold stripes and hearty yarn, our cardigan is &#xFC;ber-chic on city streets. Ribbed open front, drop shoulders.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Ribbed open front&lt;/li&gt;
+                     		&lt;li&gt;3/4 sleeves with turn-back ribbed cuffs&lt;/li&gt;
+                     		&lt;li&gt;60% Cotton/40% Acrylic&lt;/li&gt;
+                     		&lt;li&gt;Machine wash&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=305893115&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/48/97/489763c20c35557604aa755d5c465f59_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/48/97/489763c20c35557604aa755d5c465f59_medium/express-cardigans-striped-shaker-stitch-cocoon-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/48/97/489763c20c35557604aa755d5c465f59/express-cardigans-striped-shaker-stitch-cocoon-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>NEUTRAL</Name>
+</Color>
+<Color>
+<Name>BLUE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>cardigan-sweaters</Category>
+<CategoryName>Cardigans</CategoryName>
+<SeeMoreLabel>Cardigans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-22</ExtractDate>
+</Product>
+<Product>
+<Id>303822946</Id>
+<Name>Color Block Cropped Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<SalePrice>29.9</SalePrice>
+<SalePriceLabel>$29.90</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Cropped is hot. Get the look with our color blocked top in one of our softest cashmere blends. It's no-fuss fashion. &lt;ul&gt; &lt;li&gt;Crew neck&lt;/li&gt; &lt;li&gt;Short sleeves&lt;/li&gt; &lt;li&gt;Cropped, boxy style&lt;/li&gt; &lt;li&gt;Color block stripe&lt;/li&gt; &lt;li&gt;40% Rayon/13% Nylon/25% Polyester/5% Cashmere&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303822946&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c5/c3/c5c3bd6e9feaefcc76d17a1423a0e253_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c5/c3/c5c3bd6e9feaefcc76d17a1423a0e253_medium/express-sweaters-color-block-cropped-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c5/c3/c5c3bd6e9feaefcc76d17a1423a0e253/express-sweaters-color-block-cropped-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>FANTASIA BLUE</Name>
+</Color>
+<Color>
+<Name>LIQUID GRAY</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-15</ExtractDate>
+</Product>
+<Product>
+<Id>299817596</Id>
+<Name>Wide Two-Tone Rhinestone Ring</Name>
+<Currency>USD</Currency>
+<Price>34.9</Price>
+<PriceLabel>$34.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Row upon row of rhinestone bands. Slip on this statement-making ring for polished style and shine you can see across the room.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;83% Zinc alloy/ 17% Glass stones&lt;/li&gt;
+                     		&lt;li&gt;Eleven rows of rhinestone bands&lt;/li&gt;
+                     		&lt;li&gt;Cut-out side detail&lt;/li&gt;
+                     		&lt;li&gt;Polished metal band&lt;/li&gt;
+                     		&lt;li&gt;Sizes 7,8,9&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=299817596&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2e/43/2e43f158f78fc315bec3074e2c55101b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2e/43/2e43f158f78fc315bec3074e2c55101b_medium/express-denim-wide-twotone-rhinestone-ring.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2e/43/2e43f158f78fc315bec3074e2c55101b/express-denim-wide-twotone-rhinestone-ring.jpg</Url>
+</Image>
+<Color>
+<Name>MATTE SILVER</Name>
+</Color>
+<Size>
+<Name>7</Name>
+</Size>
+<Category>jeans</Category>
+<Category>sweaters</Category>
+<CategoryName>Denim</CategoryName>
+<CategoryName>Sweaters</CategoryName>
+<SeeMoreLabel>Denim by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-30</ExtractDate>
+</Product>
+<Product>
+<Id>300118226</Id>
+<Name>Oversized Drape Neck Pullover Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A deep, draped neckline makes this pullover sweater prime for layering. The metallic threading and boxy cut pairs up with a high-waisted skirt for a fashion-forward match. &lt;ul&gt; &lt;li&gt;40% Acrylic/37% Wool/15% Alpaca/8% Mohair&lt;/li&gt; &lt;li&gt;Oversized drape neck with rolled collar&lt;/li&gt; &lt;li&gt;Long sleeves&lt;/li&gt; &lt;li&gt;Boxy fit, cut slightly longer in the front&lt;/li&gt; &lt;li&gt;Metallic threading&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=300118226&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/a1/8f/a18f6d400c981a83d127ecfb237d7fde_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/a1/8f/a18f6d400c981a83d127ecfb237d7fde_medium/express-sweaters-oversized-drape-neck-pullover-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/a1/8f/a18f6d400c981a83d127ecfb237d7fde/express-sweaters-oversized-drape-neck-pullover-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>ESPRESSO</Name>
+</Color>
+<Color>
+<Name>IVORY</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-31</ExtractDate>
+</Product>
+<Product>
+<Id>299817609</Id>
+<Name>Cut-Out Metal Sunglasses</Name>
+<Currency>USD</Currency>
+<Price>29.9</Price>
+<PriceLabel>$29.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Get an instant update with our hottest new sunglasses. With cut-out details and a dose of color, these stunners are your new everyday essential.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Metal/Plastic&lt;/li&gt;
+                     		&lt;li&gt;100% UV Protection&lt;/li&gt;
+                     		&lt;li&gt;Gradient lenses&lt;/li&gt;
+                     		&lt;li&gt;Colored epoxy sides&lt;/li&gt;
+                     		&lt;li&gt;Coated armbands&lt;/li&gt;
+                     		&lt;li&gt;Cut-out side detail&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=299817609&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c3/8b/c38b50e4d2df0aeb7bab967afc9d96d2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c3/8b/c38b50e4d2df0aeb7bab967afc9d96d2_medium/express-sunglasses-cutout-metal-sunglasses.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c3/8b/c38b50e4d2df0aeb7bab967afc9d96d2/express-sunglasses-cutout-metal-sunglasses.jpg</Url>
+</Image>
+<Color>
+<Name>SHINY GOLD</Name>
+</Color>
+<Category>sunglasses</Category>
+<Category>jeans</Category>
+<Category>sweaters</Category>
+<CategoryName>Sunglasses</CategoryName>
+<CategoryName>Denim</CategoryName>
+<CategoryName>Sweaters</CategoryName>
+<SeeMoreLabel>Sunglasses by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/sunglasses/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-30</ExtractDate>
+</Product>
+<Product>
+<Id>297893549</Id>
+<Name>Metallic Cropped Boxy Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<SalePrice>29.9</SalePrice>
+<SalePriceLabel>$29.90</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Keep it short and sweet with our latest cut in sweaters. A cropped, boxy pullover with metallic threading is one of the hottest looks of the season.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;40% Acrylic/37% Wool/15% Alpaca/8% Mohair&lt;/li&gt;
+                     		&lt;li&gt;Crew neck&lt;/li&gt;
+                     		&lt;li&gt;Short sleeves&lt;/li&gt;
+                     		&lt;li&gt;Cropped, boxy style&lt;/li&gt;
+                     		&lt;li&gt;Metallic threading details&lt;/li&gt;
+                     		&lt;li&gt;Hand wash&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=297893549&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c5/d0/c5d02d706e09b2d6eb9e9ce9aecf9462_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c5/d0/c5d02d706e09b2d6eb9e9ce9aecf9462_medium/express-sweaters-metallic-cropped-boxy-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c5/d0/c5d02d706e09b2d6eb9e9ce9aecf9462/express-sweaters-metallic-cropped-boxy-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>HEATHER GRAY</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-24</ExtractDate>
+</Product>
+<Product>
+<Id>298670828</Id>
+<Name>Striped Dolman Sleeve Drape-Neck Sweater</Name>
+<Currency>USD</Currency>
+<Price>59.9</Price>
+<PriceLabel>$59.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Semi-sheer style for layering perfection. Wear this drape-necked pullover sweater with a bright tank and our Columnist Pant for a go-anywhere look. &lt;ul&gt; &lt;li&gt;100% Rayon&lt;/li&gt; &lt;li&gt;Draped neckline&lt;/li&gt; &lt;li&gt;Dolman sleeves&lt;/li&gt; &lt;li&gt;Ribbed cuffs and waistband&lt;/li&gt; &lt;li&gt;Striped&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=298670828&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e7/89/e78951d8d215aa725acfc2e3ea57d678_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e7/89/e78951d8d215aa725acfc2e3ea57d678_medium/express-sweaters-striped-dolman-sleeve-drapeneck-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e7/89/e78951d8d215aa725acfc2e3ea57d678/express-sweaters-striped-dolman-sleeve-drapeneck-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>STONE</Name>
+</Color>
+<Color>
+<Name>FANTASIA BLUE</Name>
+</Color>
+<Color>
+<Name>WHITE</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-26</ExtractDate>
+</Product>
+<Product>
+<Id>290875976</Id>
+<Name>Mixed Stitch Dolman Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<SalePrice>29.9</SalePrice>
+<SalePriceLabel>$29.90</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A mixed-stitch sweater for the perfect layered look. Wear this dolman-sleeve top over a tank for a weekend look that's city chic. &lt;ul&gt; &lt;li&gt;100% Rayon&lt;/li&gt; &lt;li&gt;Crew neck&lt;/li&gt; &lt;li&gt;Pullover styling, dolman sleeves&lt;/li&gt; &lt;li&gt;Open, mixed stitch&lt;/li&gt; &lt;li&gt;Ribbed cuffs and hem&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=290875976&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ef/27/ef276058586263b0a63b06c948650dce_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ef/27/ef276058586263b0a63b06c948650dce_medium/express-sweaters-mixed-stitch-dolman-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ef/27/ef276058586263b0a63b06c948650dce/express-sweaters-mixed-stitch-dolman-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>COOL EARTH</Name>
+</Color>
+<Color>
+<Name>HEATHER GRAY</Name>
+</Color>
+<Color>
+<Name>IVORY</Name>
+</Color>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-06</ExtractDate>
+</Product>
+<Product>
+<Id>275168535</Id>
+<Name>Cashmere Blend Short Flyaway Cardigan</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A touch of cashmere takes this open cardigan sweater into lust-worthy territory. This look pairs perfectly with our matching banded-bottom blouses. &lt;ul&gt; &lt;li&gt;40% Rayon/25% Polyester/13% Nylon/5% Cashmere&lt;/li&gt; &lt;li&gt;Flyaway style&lt;/li&gt; &lt;li&gt;Long sleeves&lt;/li&gt; &lt;li&gt;Ribbed collar, cuffs and hem&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=275168535&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/8b/6a/8b6ac350ed5b9ea30cb34abd1d79b179_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/8b/6a/8b6ac350ed5b9ea30cb34abd1d79b179_medium/express-cardigans-cashmere-blend-short-flyaway-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/8b/6a/8b6ac350ed5b9ea30cb34abd1d79b179/express-cardigans-cashmere-blend-short-flyaway-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>IVORY</Name>
+</Color>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>cardigan-sweaters</Category>
+<Category>cashmere-sweaters</Category>
+<CategoryName>Cardigans</CategoryName>
+<CategoryName>Cashmere Sweaters</CategoryName>
+<SeeMoreLabel>Cardigans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-23</ExtractDate>
+</Product>
+<Product>
+<Id>278698201</Id>
+<Name>Boyfriend Cardigan</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The boyfriend cardigan is no-thinking-required style at its best. Throw it on over your favorite jeans or a flirty skirt for an everyday layer. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Button-up style&lt;/li&gt; &lt;li&gt;Long sleeves&lt;/li&gt; &lt;li&gt;Ribbed cuffs and hem&lt;/li&gt; &lt;li&gt;Boyfriend cut&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=278698201&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b2/7b/b27bcfe295410de59c5302d8a69cab12_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b2/7b/b27bcfe295410de59c5302d8a69cab12_medium/express-cardigans-boyfriend-cardigan.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b2/7b/b27bcfe295410de59c5302d8a69cab12/express-cardigans-boyfriend-cardigan.jpg</Url>
+</Image>
+<Color>
+<Name>POWDER WHITE</Name>
+</Color>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>CANARY</Name>
+</Color>
+<Color>
+<Name>HEATHER GRAY</Name>
+</Color>
+<Color>
+<Name>LUXE PINK</Name>
+</Color>
+<Color>
+<Name>BLUE HEATHER</Name>
+</Color>
+<Color>
+<Name>RED</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>cardigan-sweaters</Category>
+<CategoryName>Cardigans</CategoryName>
+<SeeMoreLabel>Cardigans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cardigan-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-02</ExtractDate>
+</Product>
+<Product>
+<Id>273830139</Id>
+<Name>Cable Knit Rib Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<SalePrice>29.9</SalePrice>
+<SalePriceLabel>$29.90</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The season's absolute must-have. A timeless v-neck sweater with angora softness completes any look in every season. &lt;ul&gt; &lt;li&gt;V-neck ribbed cable knit&lt;/li&gt; &lt;li&gt;Long sleeve&lt;/li&gt; &lt;li&gt;Ribbed at cuffs, hem and neckline&lt;/li&gt; &lt;li&gt;55% Cotton/35% Viscose/7% Nylon/3% Angora&lt;/li&gt; &lt;li&gt;Hand wash&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=273830139&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/fd/6d/fd6d5318a11615472fdfc90ea54ac7f5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/fd/6d/fd6d5318a11615472fdfc90ea54ac7f5_medium/express-sweaters-long-sleeve-cable-knit-pullover.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/fd/6d/fd6d5318a11615472fdfc90ea54ac7f5/express-sweaters-long-sleeve-cable-knit-pullover.jpg</Url>
+</Image>
+<Color>
+<Name>PITCH BLACK</Name>
+</Color>
+<Color>
+<Name>CANARY</Name>
+</Color>
+<Color>
+<Name>IVORY</Name>
+</Color>
+<Color>
+<Name>SILVER GRAY</Name>
+</Color>
+<Color>
+<Name>WHITE</Name>
+</Color>
+<Color>
+<Name>GREEN GRASS</Name>
+</Color>
+<Color>
+<Name>DEEP PEACOCK</Name>
+</Color>
+<Color>
+<Name>RED</Name>
+</Color>
+<Size>
+<Name>X Small</Name>
+</Size>
+<Size>
+<Name>Small</Name>
+</Size>
+<Size>
+<Name>Medium</Name>
+</Size>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-19</ExtractDate>
+</Product>
+<Product>
+<Id>199875495</Id>
+<Name>Open-Stitch Dolman Sweater</Name>
+<Currency>USD</Currency>
+<Price>49.9</Price>
+<PriceLabel>$49.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>This open-stitch look is super-lightweight for chic draping style. Perfect for layering over a Sexy Basic Tank. &lt;ul&gt; &lt;li&gt;100% Rayon&lt;/li&gt; &lt;li&gt;Scoop neck&lt;/li&gt; &lt;li&gt;Dolman sleeves&lt;/li&gt; &lt;li&gt;Banded bottom with ribbed detail&lt;/li&gt; &lt;li&gt;Open-stitch&lt;/li&gt; &lt;li&gt;Dry clean only&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=199875495&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/37/54/37540dc1e3943a4f6d0c392863b4e28d_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/37/54/37540dc1e3943a4f6d0c392863b4e28d_medium/express-sweaters-openstitch-dolman-sweater.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/37/54/37540dc1e3943a4f6d0c392863b4e28d/express-sweaters-openstitch-dolman-sweater.jpg</Url>
+</Image>
+<Color>
+<Name>PEARL</Name>
+</Color>
+<Size>
+<Name>Large</Name>
+</Size>
+<Category>crewneck-sweaters</Category>
+<CategoryName>Crewnecks &amp; Scoopnecks</CategoryName>
+<SeeMoreLabel>Crewnecks &amp; Scoopnecks by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/crewneck-sweaters/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-11-29</ExtractDate>
+</Product>
+</SearchResult>

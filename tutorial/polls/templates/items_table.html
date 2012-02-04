@@ -1,0 +1,29 @@
+<html>
+    <title>Items satisfying your requirements</title>
+    <body>
+    {% if selected_items%} <h2> Your selected items.</h2>
+    {% else %}<h2>Items satisfying your query. Please select your preferred items.</h2>
+    
+	{% include "paginator2.html"%}<br><br>
+	{% if num_selected%}  You have selected {{num_selected}} items. 
+	
+    Click <a href="show_selected_items">here</a> to see the items you selected.</br><br>{% endif%}
+    {% endif %}
+	{#size is {{object_list|length}}#}
+	<table border="1">
+		{# [BRAND]   [CATEGORY]   [PRICE]   [SALE_PRICE] #}
+  		{% for item in object_list %}
+		{% if forloop.first %}<tr>{% endif %}
+		{% if forloop.counter0|divisibleby:5 %}</tr><tr>{% endif %}
+		<td><img src={{item.img_url_md}}><br>{{ item.brand}}  <br>{{ item.name}} <br> ${{ item.price}} 
+			{% if not selected_items %}<a href="add_item_{{item.id}}_{{page_list.number}}">Add to wishlist.</a>{% endif %}</td>        		
+	{% if forloop.last %}</tr>{% endif %}
+    {% endfor %}	
+	</table>
+	<br><br>
+	{% if selected_items%} <h3>Apply promotions to save money? Click <a href="apply_discount">here</a></h3> 
+	{% else %}
+		{% include "paginator2.html"%}
+	{% endif %}
+    </body>
+</html>

@@ -1,0 +1,3088 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>284</Id>
+<Name>J.Crew</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>38</TotalCount>
+<Product>
+<Id>308484198</Id>
+<Name>Tall toothpick jean in garment-dyed twill</Name>
+<Currency>USD</Currency>
+<Price>108.0</Price>
+<PriceLabel>$108.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our designers took a bright idea and ran with it. The talk-of-the-town toothpick gets a jolt of color in a rainbow range of twill colors, each carefully garment-dyed for a pitch-perfect hue. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits lower on hips, with a superskinny, straight leg&lt;/li&gt;
+                     		&lt;li&gt;30" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308484198&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/83/14/83143af9b3b9bd96dbcec71f7071cc3a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/83/14/83143af9b3b9bd96dbcec71f7071cc3a_medium/jcrew-straight-denim-tall-toothpick-jean-in-garmentdyed-twill.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/83/14/83143af9b3b9bd96dbcec71f7071cc3a/jcrew-straight-denim-tall-toothpick-jean-in-garmentdyed-twill.jpg</Url>
+</Image>
+<Color>
+<Name>bright papaya</Name>
+</Color>
+<Color>
+<Name>festival green</Name>
+</Color>
+<Color>
+<Name>neon persimmon</Name>
+</Color>
+<Color>
+<Name>light citron</Name>
+</Color>
+<Color>
+<Name>blue grotto</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Straight Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/straight-leg-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-01</ExtractDate>
+</Product>
+<Product>
+<Id>296144351</Id>
+<Name>Tall ankle stretch toothpick jean in classic rinse</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our ankle-length toothpick silhouette, in an exciting new Italian denim made with bi-stretch, a fiber component that creates stretch in both length and width for rubber band-like slimming effects and stretch recovery even after many wears. To highlight its intense blue color, we gave it a gentle wash and finished it with classic stitching. Italian cotton/poly with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits lower on hips, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;31" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=296144351&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/5c/23/5c2372ef89bbf3fc6c58d875bd24b471_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/5c/23/5c2372ef89bbf3fc6c58d875bd24b471_medium/jcrew-classic-denim-tall-ankle-stretch-toothpick-jean-in-classic-rinse.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/5c/23/5c2372ef89bbf3fc6c58d875bd24b471/jcrew-classic-denim-tall-ankle-stretch-toothpick-jean-in-classic-rinse.jpg</Url>
+</Image>
+<Color>
+<Name>classic rinse</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Category>classic-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Classic Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Classic Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/classic-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-20</ExtractDate>
+</Product>
+<Product>
+<Id>317408868</Id>
+<Name>High-waisted skinny jean in white</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our have-to-have high rise freshened up in cool, so-right-now white. Based on a vintage '70s silhouette, this insanely flattering fit sits just a smidgen below the natural waist, with a skinny leg. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Original fit&#x2014;our very first fit with the highest rise.&lt;/li&gt;
+                     		&lt;li&gt;Sits at natural waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;32" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=317408868&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e5/0e/e50e56dc760ab306219c786ae6a014dc_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e5/0e/e50e56dc760ab306219c786ae6a014dc_medium/jcrew-highwaisted-skinny-jean-in-white.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e5/0e/e50e56dc760ab306219c786ae6a014dc/jcrew-highwaisted-skinny-jean-in-white.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Size>
+<Name>25</Name>
+</Size>
+<Size>
+<Name>26</Name>
+</Size>
+<Size>
+<Name>27</Name>
+</Size>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-28</ExtractDate>
+</Product>
+<Product>
+<Id>308488055</Id>
+<Name>Toothpick jean in garment-dyed twill</Name>
+<Currency>USD</Currency>
+<Price>108.0</Price>
+<PriceLabel>$108.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our designers took a bright idea and ran with it. The talk-of-the-town toothpick gets a jolt of color in a rainbow range of twill colors, each carefully garment-dyed for a pitch-perfect hue. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits lower on hips, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;28" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308488055&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/83/14/83143af9b3b9bd96dbcec71f7071cc3a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/83/14/83143af9b3b9bd96dbcec71f7071cc3a_medium/jcrew-straight-denim-toothpick-jean-in-garmentdyed-twill.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/83/14/83143af9b3b9bd96dbcec71f7071cc3a/jcrew-straight-denim-toothpick-jean-in-garmentdyed-twill.jpg</Url>
+</Image>
+<Color>
+<Name>bright papaya</Name>
+</Color>
+<Color>
+<Name>festival green</Name>
+</Color>
+<Color>
+<Name>neon persimmon</Name>
+</Color>
+<Color>
+<Name>blue grotto</Name>
+</Color>
+<Color>
+<Name>light citron</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Size>
+<Name>25</Name>
+</Size>
+<Size>
+<Name>26</Name>
+</Size>
+<Size>
+<Name>27</Name>
+</Size>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Straight Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/straight-leg-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-29</ExtractDate>
+</Product>
+<Product>
+<Id>296145332</Id>
+<Name>Matchstick jean in white denim</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our much-loved matchstick jean in classically cool white denim. Cotton with a hint of stretch. Zip fly. Traditional 5-pocket styling. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips.&lt;/li&gt;
+                     		&lt;li&gt;Slim through hip and thigh, with a straight, narrow leg.&lt;/li&gt;
+                     		&lt;li&gt;Regular: 32" inseam.&lt;/li&gt;
+                     		&lt;li&gt;Short: 30" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=296145332&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/38/ad/38adcdbad3a4980fe1dc0d2909fa0d96_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/38/ad/38adcdbad3a4980fe1dc0d2909fa0d96_medium/jcrew-skinny-denim-matchstick-jean-in-white-denim.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/38/ad/38adcdbad3a4980fe1dc0d2909fa0d96/jcrew-skinny-denim-matchstick-jean-in-white-denim.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Size>
+<Name>24/SHORT</Name>
+</Size>
+<Size>
+<Name>24/REGULAR</Name>
+</Size>
+<Size>
+<Name>25/SHORT</Name>
+</Size>
+<Size>
+<Name>25/REGULAR</Name>
+</Size>
+<Size>
+<Name>26/SHORT</Name>
+</Size>
+<Size>
+<Name>26/REGULAR</Name>
+</Size>
+<Size>
+<Name>27/SHORT</Name>
+</Size>
+<Size>
+<Name>27/REGULAR</Name>
+</Size>
+<Size>
+<Name>28/SHORT</Name>
+</Size>
+<Size>
+<Name>28/REGULAR</Name>
+</Size>
+<Size>
+<Name>29/SHORT</Name>
+</Size>
+<Size>
+<Name>29/REGULAR</Name>
+</Size>
+<Size>
+<Name>30/SHORT</Name>
+</Size>
+<Size>
+<Name>30/REGULAR</Name>
+</Size>
+<Size>
+<Name>31/SHORT</Name>
+</Size>
+<Size>
+<Name>31/REGULAR</Name>
+</Size>
+<Size>
+<Name>32/SHORT</Name>
+</Size>
+<Size>
+<Name>32/REGULAR</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-20</ExtractDate>
+</Product>
+<Product>
+<Id>296145567</Id>
+<Name>Matchstick jean in overdyed black denim</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We dipped our popular matchstick twice to achieve this incredibly rich, saturated black hue. The fabrication is our signature cotton with a hint of stretch for a super-flattering fit and feel. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips.&lt;/li&gt;
+                     		&lt;li&gt;Slim through hip and thigh, with a straight, narrow leg.&lt;/li&gt;
+                     		&lt;li&gt;Regular: 33" inseam.&lt;/li&gt;
+                     		&lt;li&gt;Short: 31" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=296145567&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/dd/a2/dda2a9c70ef5b4e7f444e6b8f2c118b8_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/dd/a2/dda2a9c70ef5b4e7f444e6b8f2c118b8_medium/jcrew-skinny-denim-matchstick-jean-in-overdyed-black-denim.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/dd/a2/dda2a9c70ef5b4e7f444e6b8f2c118b8/jcrew-skinny-denim-matchstick-jean-in-overdyed-black-denim.jpg</Url>
+</Image>
+<Color>
+<Name>pitch black wash</Name>
+</Color>
+<Size>
+<Name>24/SHORT</Name>
+</Size>
+<Size>
+<Name>24/REGULAR</Name>
+</Size>
+<Size>
+<Name>25/SHORT</Name>
+</Size>
+<Size>
+<Name>25/REGULAR</Name>
+</Size>
+<Size>
+<Name>26/SHORT</Name>
+</Size>
+<Size>
+<Name>26/REGULAR</Name>
+</Size>
+<Size>
+<Name>27/SHORT</Name>
+</Size>
+<Size>
+<Name>27/REGULAR</Name>
+</Size>
+<Size>
+<Name>28/SHORT</Name>
+</Size>
+<Size>
+<Name>28/REGULAR</Name>
+</Size>
+<Size>
+<Name>29/SHORT</Name>
+</Size>
+<Size>
+<Name>29/REGULAR</Name>
+</Size>
+<Size>
+<Name>30/SHORT</Name>
+</Size>
+<Size>
+<Name>30/REGULAR</Name>
+</Size>
+<Size>
+<Name>31/SHORT</Name>
+</Size>
+<Size>
+<Name>31/REGULAR</Name>
+</Size>
+<Size>
+<Name>32/SHORT</Name>
+</Size>
+<Size>
+<Name>32/REGULAR</Name>
+</Size>
+<Size>
+<Name>33/SHORT</Name>
+</Size>
+<Size>
+<Name>33/REGULAR</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-20</ExtractDate>
+</Product>
+<Product>
+<Id>308484288</Id>
+<Name>New bootcut jean in white denim</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our favorite white bootcut jean is back. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a slight bootcut leg.&lt;/li&gt;
+                     		&lt;li&gt;Regular: 33" inseam.&lt;/li&gt;
+                     		&lt;li&gt;Short: 31" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308484288&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/53/c9/53c9eb81d5bbaedff3a0425919c3f930_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/53/c9/53c9eb81d5bbaedff3a0425919c3f930_medium/jcrew-bootcut-denim-bootcut-jean-in-white-denim.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/53/c9/53c9eb81d5bbaedff3a0425919c3f930/jcrew-bootcut-denim-bootcut-jean-in-white-denim.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Size>
+<Name>24/SHORT</Name>
+</Size>
+<Size>
+<Name>24/REGULAR</Name>
+</Size>
+<Size>
+<Name>25/SHORT</Name>
+</Size>
+<Size>
+<Name>25/REGULAR</Name>
+</Size>
+<Size>
+<Name>26/SHORT</Name>
+</Size>
+<Size>
+<Name>26/REGULAR</Name>
+</Size>
+<Size>
+<Name>27/SHORT</Name>
+</Size>
+<Size>
+<Name>27/REGULAR</Name>
+</Size>
+<Size>
+<Name>28/SHORT</Name>
+</Size>
+<Size>
+<Name>28/REGULAR</Name>
+</Size>
+<Size>
+<Name>29/SHORT</Name>
+</Size>
+<Size>
+<Name>29/REGULAR</Name>
+</Size>
+<Size>
+<Name>30/SHORT</Name>
+</Size>
+<Size>
+<Name>30/REGULAR</Name>
+</Size>
+<Size>
+<Name>31/SHORT</Name>
+</Size>
+<Size>
+<Name>31/REGULAR</Name>
+</Size>
+<Size>
+<Name>32/SHORT</Name>
+</Size>
+<Size>
+<Name>32/REGULAR</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>flare-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-30</ExtractDate>
+</Product>
+<Product>
+<Id>308489007</Id>
+<Name>Joni jean</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We're completely hung up on these high-waisted flares in the most buttery soft, drapey white denim. Crafted from a special Turkish bi-stretch cotton, they're quite possibly the most polished, perfect-fitting jeans we've ever made. Cotton with a hint of stretch. Belt loops. Zip fly. Front and back patch pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Original fit&#x2014;our very first fit with the highest rise.&lt;/li&gt;
+                     		&lt;li&gt;Sits at natural waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a wide leg.&lt;/li&gt;
+                     		&lt;li&gt;34" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308489007&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d4/be/d4be1e0a50123303f25dee364d447e36_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d4/be/d4be1e0a50123303f25dee364d447e36_medium/jcrew-bootcut-denim-joni-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d4/be/d4be1e0a50123303f25dee364d447e36/jcrew-bootcut-denim-joni-jean.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Size>
+<Name>25</Name>
+</Size>
+<Size>
+<Name>26</Name>
+</Size>
+<Size>
+<Name>27</Name>
+</Size>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>flare-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-30</ExtractDate>
+</Product>
+<Product>
+<Id>308485484</Id>
+<Name>New ankle stretch toothpick jean in white denim</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our ankle-length toothpick in fresh white. Our designers used a buttery soft Turkish bi-stretch denim that fits beautifully. Premium bi-stretch cotton/poly. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits lower on hips, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;28" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308485484&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/e6/2a/e62aee14aef80ff81305444989fb09e3_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/e6/2a/e62aee14aef80ff81305444989fb09e3_medium/jcrew-straight-denim-ankle-stretch-toothpick-jean-in-white-denim.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/e6/2a/e62aee14aef80ff81305444989fb09e3/jcrew-straight-denim-ankle-stretch-toothpick-jean-in-white-denim.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Size>
+<Name>25</Name>
+</Size>
+<Size>
+<Name>26</Name>
+</Size>
+<Size>
+<Name>27</Name>
+</Size>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Straight Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/straight-leg-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-30</ExtractDate>
+</Product>
+<Product>
+<Id>296143643</Id>
+<Name>Tall matchstick jean in overdyed black denim</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We dipped our popular matchstick twice to achieve this incredibly rich, saturated black hue. The fabrication is our signature cotton with a hint of stretch for a super-flattering fit and feel. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips.&lt;/li&gt;
+                     		&lt;li&gt;Slim through hip and thigh, with a straight, narrow leg.&lt;/li&gt;
+                     		&lt;li&gt;36" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=296143643&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/dd/a2/dda2a9c70ef5b4e7f444e6b8f2c118b8_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/dd/a2/dda2a9c70ef5b4e7f444e6b8f2c118b8_medium/jcrew-skinny-denim-tall-matchstick-jean-in-overdyed-black-denim.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/dd/a2/dda2a9c70ef5b4e7f444e6b8f2c118b8/jcrew-skinny-denim-tall-matchstick-jean-in-overdyed-black-denim.jpg</Url>
+</Image>
+<Color>
+<Name>pitch black wash</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-20</ExtractDate>
+</Product>
+<Product>
+<Id>308483618</Id>
+<Name>Tall bootcut jean in white denim</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our favorite white bootcut jean is back. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a slight bootcut leg.&lt;/li&gt;
+                     		&lt;li&gt;36" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308483618&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/53/c9/53c9eb81d5bbaedff3a0425919c3f930_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/53/c9/53c9eb81d5bbaedff3a0425919c3f930_medium/jcrew-bootcut-denim-tall-bootcut-jean-in-white-denim.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/53/c9/53c9eb81d5bbaedff3a0425919c3f930/jcrew-bootcut-denim-tall-bootcut-jean-in-white-denim.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-01</ExtractDate>
+</Product>
+<Product>
+<Id>296144442</Id>
+<Name>Tall new high-waisted skinny jean in night owl wash</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our highest rise yet. Introducing the high-rise skinny, our new insanely flattering fit that sits just a smidgen below the natural waist, with a skinny leg. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Original fit&#x2014;our very first fit with the highest rise.&lt;/li&gt;
+                     		&lt;li&gt;Sits at natural waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;36" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=296144442&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/4d/be/4dbea95419a33cfed3923430a2b12b38_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/4d/be/4dbea95419a33cfed3923430a2b12b38_medium/jcrew-skinny-denim-tall-highwaisted-skinny-jean-in-night-owl-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/4d/be/4dbea95419a33cfed3923430a2b12b38/jcrew-skinny-denim-tall-highwaisted-skinny-jean-in-night-owl-wash.jpg</Url>
+</Image>
+<Color>
+<Name>night owl wash</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-20</ExtractDate>
+</Product>
+<Product>
+<Id>281927283</Id>
+<Name>Tall matchstick jean in classic rinse wash</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>98.0</SalePrice>
+<SalePriceLabel>$98.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A superdark denim in our ultra-flattering matchstick fit. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. USA. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips.&lt;/li&gt;
+                     		&lt;li&gt;Slim through hip and thigh, with a straight, narrow leg.&lt;/li&gt;
+                     		&lt;li&gt;36" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=281927283&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/86/c9/86c9971ed17e3e66087e74a6aea51e29_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/86/c9/86c9971ed17e3e66087e74a6aea51e29_medium/jcrew-classic-denim-tall-matchstick-jean-in-classic-rinse-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/86/c9/86c9971ed17e3e66087e74a6aea51e29/jcrew-classic-denim-tall-matchstick-jean-in-classic-rinse-wash.jpg</Url>
+</Image>
+<Color>
+<Name>classic rinse</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Category>classic-jeans</Category>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Classic Denim</CategoryName>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Classic Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/classic-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-12</ExtractDate>
+</Product>
+<Product>
+<Id>296143555</Id>
+<Name>New high-waisted skinny jean in night owl wash</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our highest rise yet. Introducing the high-rise skinny, our new insanely flattering fit that sits just a smidgen below the natural waist, with a skinny leg. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Original fit&#x2014;our very first fit with the highest rise.&lt;/li&gt;
+                     		&lt;li&gt;Sits at natural waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;32" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=296143555&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/4d/be/4dbea95419a33cfed3923430a2b12b38_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/4d/be/4dbea95419a33cfed3923430a2b12b38_medium/jcrew-skinny-denim-highwaisted-skinny-jean-in-night-owl-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/4d/be/4dbea95419a33cfed3923430a2b12b38/jcrew-skinny-denim-highwaisted-skinny-jean-in-night-owl-wash.jpg</Url>
+</Image>
+<Color>
+<Name>night owl wash</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Size>
+<Name>25</Name>
+</Size>
+<Size>
+<Name>26</Name>
+</Size>
+<Size>
+<Name>27</Name>
+</Size>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-20</ExtractDate>
+</Product>
+<Product>
+<Id>273222023</Id>
+<Name>Matchstick jean in classic rinse wash</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>98.0</SalePrice>
+<SalePriceLabel>$98.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A superdark denim in our ultra-flattering matchstick fit. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. USA. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips.&lt;/li&gt;
+                     		&lt;li&gt;Slim through hip and thigh, with a straight, narrow leg.&lt;/li&gt;
+                     		&lt;li&gt;Regular: 33" inseam.&lt;/li&gt;
+                     		&lt;li&gt;Short: 31" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=273222023&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/86/c9/86c9971ed17e3e66087e74a6aea51e29_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/86/c9/86c9971ed17e3e66087e74a6aea51e29_medium/jcrew-skinny-denim-matchstick-jean-in-dark-rinse-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/86/c9/86c9971ed17e3e66087e74a6aea51e29/jcrew-skinny-denim-matchstick-jean-in-dark-rinse-wash.jpg</Url>
+</Image>
+<Color>
+<Name>classic rinse</Name>
+</Color>
+<Size>
+<Name>24/SHORT</Name>
+</Size>
+<Size>
+<Name>24/REGULAR</Name>
+</Size>
+<Size>
+<Name>25/SHORT</Name>
+</Size>
+<Size>
+<Name>25/REGULAR</Name>
+</Size>
+<Size>
+<Name>26/SHORT</Name>
+</Size>
+<Size>
+<Name>26/REGULAR</Name>
+</Size>
+<Size>
+<Name>27/SHORT</Name>
+</Size>
+<Size>
+<Name>27/REGULAR</Name>
+</Size>
+<Size>
+<Name>28/SHORT</Name>
+</Size>
+<Size>
+<Name>28/REGULAR</Name>
+</Size>
+<Size>
+<Name>29/SHORT</Name>
+</Size>
+<Size>
+<Name>29/REGULAR</Name>
+</Size>
+<Size>
+<Name>30/SHORT</Name>
+</Size>
+<Size>
+<Name>30/REGULAR</Name>
+</Size>
+<Size>
+<Name>31/SHORT</Name>
+</Size>
+<Size>
+<Name>31/REGULAR</Name>
+</Size>
+<Size>
+<Name>32/SHORT</Name>
+</Size>
+<Size>
+<Name>32/REGULAR</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-13</ExtractDate>
+</Product>
+<Product>
+<Id>296146550</Id>
+<Name>Tall matchstick jean in white denim</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our much-loved matchstick jean in classically cool white denim. Cotton with a hint of stretch. Zip fly. Traditional 5-pocket styling. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips.&lt;/li&gt;
+                     		&lt;li&gt;Slim through hip and thigh, with a straight, narrow leg.&lt;/li&gt;
+                     		&lt;li&gt;36" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=296146550&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/38/ad/38adcdbad3a4980fe1dc0d2909fa0d96_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/38/ad/38adcdbad3a4980fe1dc0d2909fa0d96_medium/jcrew-skinny-denim-tall-matchstick-jean-in-white-denim.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/38/ad/38adcdbad3a4980fe1dc0d2909fa0d96/jcrew-skinny-denim-tall-matchstick-jean-in-white-denim.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-20</ExtractDate>
+</Product>
+<Product>
+<Id>271569878</Id>
+<Name>Tall matchstick jean in starlight wash</Name>
+<Currency>USD</Currency>
+<Price>108.0</Price>
+<PriceLabel>$108.00</PriceLabel>
+<SalePrice>108.0</SalePrice>
+<SalePriceLabel>$108.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our much-loved matchstick jean was stonewashed down to a great medium-blue hue, then handsanded for that had-it-forever softness and a subtle vintage-inspired tint. Italian cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. USA. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips.&lt;/li&gt;
+                     		&lt;li&gt;Slim through hip and thigh, with a straight, narrow leg.&lt;/li&gt;
+                     		&lt;li&gt;36" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=271569878&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f0/5d/f05d2b12e208c1de8760a67a0a60d92a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f0/5d/f05d2b12e208c1de8760a67a0a60d92a_medium/jcrew-skinny-denim-tall-matchstick-jean-in-starlight-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f0/5d/f05d2b12e208c1de8760a67a0a60d92a/jcrew-skinny-denim-tall-matchstick-jean-in-starlight-wash.jpg</Url>
+</Image>
+<Color>
+<Name>starlight wash</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-13</ExtractDate>
+</Product>
+<Product>
+<Id>293470716</Id>
+<Name>Classic flare jean in pitch black wash</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<SalePrice>59.99</SalePrice>
+<SalePriceLabel>$59.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>This season, flares are making a major comeback. With its higher rise, crisp trouser press and wide-cut leg, our newest denim fit is the best way to get your flare fix. We used an all-black denim with a light garment rinse to keep the color supersaturated perfect for that legs-that-go-on-forever look we love. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear. &lt;ul&gt; &lt;li&gt;Original fit&#x2014;our very first fit with the highest rise.&lt;/li&gt; &lt;li&gt;Sits at natural waist.&lt;/li&gt; &lt;li&gt;Fitted through hip and thigh, with a flare leg.&lt;/li&gt; &lt;li&gt;Regular: 34" inseam.&lt;/li&gt; &lt;li&gt;Short: 32" inseam.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=293470716&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d0/44/d044c48cb24aa2e01d2c3b0a4233aa67_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d0/44/d044c48cb24aa2e01d2c3b0a4233aa67_medium/jcrew-bootcut-denim-classic-flare-jean-in-pitch-black-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d0/44/d044c48cb24aa2e01d2c3b0a4233aa67/jcrew-bootcut-denim-classic-flare-jean-in-pitch-black-wash.jpg</Url>
+</Image>
+<Color>
+<Name>pitch black wash</Name>
+</Color>
+<Size>
+<Name>24/SHORT</Name>
+</Size>
+<Size>
+<Name>24/REGULAR</Name>
+</Size>
+<Size>
+<Name>25/SHORT</Name>
+</Size>
+<Size>
+<Name>25/REGULAR</Name>
+</Size>
+<Size>
+<Name>26/SHORT</Name>
+</Size>
+<Size>
+<Name>26/REGULAR</Name>
+</Size>
+<Size>
+<Name>27/SHORT</Name>
+</Size>
+<Size>
+<Name>27/REGULAR</Name>
+</Size>
+<Size>
+<Name>28/SHORT</Name>
+</Size>
+<Size>
+<Name>28/REGULAR</Name>
+</Size>
+<Size>
+<Name>29/SHORT</Name>
+</Size>
+<Size>
+<Name>29/REGULAR</Name>
+</Size>
+<Size>
+<Name>30/SHORT</Name>
+</Size>
+<Size>
+<Name>30/REGULAR</Name>
+</Size>
+<Size>
+<Name>31/SHORT</Name>
+</Size>
+<Size>
+<Name>31/REGULAR</Name>
+</Size>
+<Size>
+<Name>32/SHORT</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>classic-jeans</Category>
+<Category>flare-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Classic Denim</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-13</ExtractDate>
+</Product>
+<Product>
+<Id>263784239</Id>
+<Name>Matchstick jean in starlight wash</Name>
+<Currency>USD</Currency>
+<Price>108.0</Price>
+<PriceLabel>$108.00</PriceLabel>
+<SalePrice>108.0</SalePrice>
+<SalePriceLabel>$108.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our much-loved matchstick jean was stonewashed down to a great medium-blue hue, then handsanded for that had-it-forever softness and a subtle vintage-inspired tint. Italian cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. USA. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips.&lt;/li&gt;
+                     		&lt;li&gt;Slim through hip and thigh, with a straight, narrow leg.&lt;/li&gt;
+                     		&lt;li&gt;Regular: 33" inseam.&lt;/li&gt;
+                     		&lt;li&gt;Short: 31" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=263784239&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2c/5f/2c5f93bf1f4076170a9aec4704ccde42_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2c/5f/2c5f93bf1f4076170a9aec4704ccde42_medium/jcrew-skinny-denim-matchstick-jean-in-starlight-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2c/5f/2c5f93bf1f4076170a9aec4704ccde42/jcrew-skinny-denim-matchstick-jean-in-starlight-wash.jpg</Url>
+</Image>
+<Color>
+<Name>starlight wash</Name>
+</Color>
+<Size>
+<Name>24/SHORT</Name>
+</Size>
+<Size>
+<Name>24/REGULAR</Name>
+</Size>
+<Size>
+<Name>25/SHORT</Name>
+</Size>
+<Size>
+<Name>25/REGULAR</Name>
+</Size>
+<Size>
+<Name>26/SHORT</Name>
+</Size>
+<Size>
+<Name>26/REGULAR</Name>
+</Size>
+<Size>
+<Name>27/SHORT</Name>
+</Size>
+<Size>
+<Name>27/REGULAR</Name>
+</Size>
+<Size>
+<Name>28/SHORT</Name>
+</Size>
+<Size>
+<Name>28/REGULAR</Name>
+</Size>
+<Size>
+<Name>29/SHORT</Name>
+</Size>
+<Size>
+<Name>29/REGULAR</Name>
+</Size>
+<Size>
+<Name>30/SHORT</Name>
+</Size>
+<Size>
+<Name>30/REGULAR</Name>
+</Size>
+<Size>
+<Name>31/SHORT</Name>
+</Size>
+<Size>
+<Name>31/REGULAR</Name>
+</Size>
+<Size>
+<Name>32/SHORT</Name>
+</Size>
+<Size>
+<Name>32/REGULAR</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-21</ExtractDate>
+</Product>
+<Product>
+<Id>263451455</Id>
+<Name>Tall bootcut jean in pitch black wash</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>98.0</SalePrice>
+<SalePriceLabel>$98.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our bootcut fit updated in a supersaturated midnight black that's sleek and so right now. Made of Italian cotton with a hint of stretch and sitting slightly below the waist, these comfortable jeans will be your everyday go-to. With a narrowed leg for a more modern look. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a slight bootcut leg.&lt;/li&gt;
+                     		&lt;li&gt;36" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=263451455&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/19/8f/198fdc32dea08c65ec2dca55b5399c34_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/19/8f/198fdc32dea08c65ec2dca55b5399c34_medium/jcrew-bootcut-denim-tall-bootcut-jean-in-pitch-black-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/19/8f/198fdc32dea08c65ec2dca55b5399c34/jcrew-bootcut-denim-tall-bootcut-jean-in-pitch-black-wash.jpg</Url>
+</Image>
+<Color>
+<Name>pitch black wash</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Size>
+<Name>TALL 34</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>skinny-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-21</ExtractDate>
+</Product>
+<Product>
+<Id>265714667</Id>
+<Name>High-waisted skinny jean in pitch black wash</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our highest rise yet. Introducing the high-rise skinny, our new insanely flattering fit that sits just a smidgen below the natural waist, with a skinny leg. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Original fit&#x2014;our very first fit with the highest rise.&lt;/li&gt;
+                     		&lt;li&gt;Sits at natural waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;32" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=265714667&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b4/b8/b4b8c74d300ed15158c70f8bbc6f211b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b4/b8/b4b8c74d300ed15158c70f8bbc6f211b_medium/jcrew-skinny-denim-highwaisted-skinny-jean-in-pitch-black-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b4/b8/b4b8c74d300ed15158c70f8bbc6f211b/jcrew-skinny-denim-highwaisted-skinny-jean-in-pitch-black-wash.jpg</Url>
+</Image>
+<Color>
+<Name>pitch black wash</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Size>
+<Name>25</Name>
+</Size>
+<Size>
+<Name>26</Name>
+</Size>
+<Size>
+<Name>27</Name>
+</Size>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-27</ExtractDate>
+</Product>
+<Product>
+<Id>265714580</Id>
+<Name>Ankle stretch toothpick jean in classic rinse</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<SalePrice>125.0</SalePrice>
+<SalePriceLabel>$125.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our ankle-length toothpick silhouette, in an exciting new Italian denim made with bi-stretch, a fiber component that creates stretch in both length and width for rubber band-like slimming effects and stretch recovery even after many wears. To highlight its intense blue color, we gave it a gentle wash and finished it with classic stitching. Italian cotton/poly with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits lower on hips, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;28" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=265714580&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/d1/c1/d1c1aec8f2f3d062225e0334e63d0343_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/d1/c1/d1c1aec8f2f3d062225e0334e63d0343_medium/jcrew-skinny-denim-ankle-stretch-toothpick-jean-in-twilight-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/d1/c1/d1c1aec8f2f3d062225e0334e63d0343/jcrew-skinny-denim-ankle-stretch-toothpick-jean-in-twilight-wash.jpg</Url>
+</Image>
+<Color>
+<Name>classic rinse</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Size>
+<Name>25</Name>
+</Size>
+<Size>
+<Name>26</Name>
+</Size>
+<Size>
+<Name>27</Name>
+</Size>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-22</ExtractDate>
+</Product>
+<Product>
+<Id>263453122</Id>
+<Name>Tall bootcut jean in classic rinse wash</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>98.0</SalePrice>
+<SalePriceLabel>$98.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our bootcut fit updated with a little less flare in a classic, dark, even rinse and an exciting new Italian denim that we love for its saturated indigo and its pristine, polished look. Italian cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a slight bootcut leg.&lt;/li&gt;
+                     		&lt;li&gt;36" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=263453122&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/76/fa/76fac313eb46ce2a34d48bd80ccf1b5c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/76/fa/76fac313eb46ce2a34d48bd80ccf1b5c_medium/jcrew-bootcut-denim-tall-bootcut-jean-in-classic-rinse-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/76/fa/76fac313eb46ce2a34d48bd80ccf1b5c/jcrew-bootcut-denim-tall-bootcut-jean-in-classic-rinse-wash.jpg</Url>
+</Image>
+<Color>
+<Name>classic rinse</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>classic-jeans</Category>
+<Category>flare-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Classic Denim</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-21</ExtractDate>
+</Product>
+<Product>
+<Id>268464965</Id>
+<Name>Tall High-waisted skinny jean in pitch black wash</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our highest rise yet. Introducing the high-rise skinny, our new insanely flattering fit that sits just a smidgen below the natural waist, with a skinny leg. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear. &lt;ul&gt; &lt;li&gt;Original fit&#x2014;our very first fit with the highest rise.&lt;/li&gt; &lt;li&gt;Sits at natural waist.&lt;/li&gt; &lt;li&gt;Fitted through hip and thigh, with a superskinny, straight leg.&lt;/li&gt; &lt;li&gt;36" inseam.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=268464965&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b4/b8/b4b8c74d300ed15158c70f8bbc6f211b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b4/b8/b4b8c74d300ed15158c70f8bbc6f211b_medium/jcrew-skinny-denim-tall-highwaisted-skinny-jean-in-pitch-black-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b4/b8/b4b8c74d300ed15158c70f8bbc6f211b/jcrew-skinny-denim-tall-highwaisted-skinny-jean-in-pitch-black-wash.jpg</Url>
+</Image>
+<Color>
+<Name>pitch black wash</Name>
+</Color>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-04</ExtractDate>
+</Product>
+<Product>
+<Id>265712618</Id>
+<Name>Tall High-waisted skinny jean in adore me wash</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<SalePrice>125.0</SalePrice>
+<SalePriceLabel>$125.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our have-to-have high rise in an amazing wash. Based on a vintage '70s silhouette, this insanely flattering fit sits just a smidgen below the natural waist, with a skinny leg. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Original fit&#x2014;our very first fit with the highest rise.&lt;/li&gt;
+                     		&lt;li&gt;Sits at natural waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;36" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=265712618&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7c/54/7c54a9a6c0058b9c8985e42684c480f8_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7c/54/7c54a9a6c0058b9c8985e42684c480f8_medium/jcrew-skinny-denim-tall-highwaisted-skinny-jean-in-adore-me-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7c/54/7c54a9a6c0058b9c8985e42684c480f8/jcrew-skinny-denim-tall-highwaisted-skinny-jean-in-adore-me-wash.jpg</Url>
+</Image>
+<Color>
+<Name>adore me wash</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-26</ExtractDate>
+</Product>
+<Product>
+<Id>281927212</Id>
+<Name>Bootcut jean in dance off wash</Name>
+<Currency>USD</Currency>
+<Price>108.0</Price>
+<PriceLabel>$108.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We took this dark denim and handsanded it to achieve that perfectly flattering hue we call dance off wash. Made of Italian cotton with a hint of stretch and sitting slightly below the waist, these comfortable jeans will be your everyday go-to. With a narrowed leg for a more modern look. Belt loops. Zip fly. Traditional 5-pocket styling. USA. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear. &lt;ul&gt; &lt;li&gt;Sits below waist.&lt;/li&gt; &lt;li&gt;Fitted through hip and thigh, with a slight bootcut leg.&lt;/li&gt; &lt;li&gt;Regular: 33" inseam.&lt;/li&gt; &lt;li&gt;Short: 31" inseam.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=281927212&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7c/5d/7c5d97e405dca2dd85c3c7195b5b3248_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7c/5d/7c5d97e405dca2dd85c3c7195b5b3248_medium/jcrew-bootcut-denim-bootcut-jean-in-dance-off-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7c/5d/7c5d97e405dca2dd85c3c7195b5b3248/jcrew-bootcut-denim-bootcut-jean-in-dance-off-wash.jpg</Url>
+</Image>
+<Color>
+<Name>dance off wash</Name>
+</Color>
+<Size>
+<Name>24/SHORT</Name>
+</Size>
+<Size>
+<Name>24/REGULAR</Name>
+</Size>
+<Size>
+<Name>25/SHORT</Name>
+</Size>
+<Size>
+<Name>25/REGULAR</Name>
+</Size>
+<Size>
+<Name>26/REGULAR</Name>
+</Size>
+<Size>
+<Name>28/SHORT</Name>
+</Size>
+<Size>
+<Name>28/REGULAR</Name>
+</Size>
+<Size>
+<Name>29/SHORT</Name>
+</Size>
+<Size>
+<Name>29/REGULAR</Name>
+</Size>
+<Size>
+<Name>30/SHORT</Name>
+</Size>
+<Size>
+<Name>30/REGULAR</Name>
+</Size>
+<Size>
+<Name>31/REGULAR</Name>
+</Size>
+<Size>
+<Name>32/SHORT</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>flare-jeans</Category>
+<Category>skinny-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-11</ExtractDate>
+</Product>
+<Product>
+<Id>281926458</Id>
+<Name>Tall bootcut jean in dance off wash</Name>
+<Currency>USD</Currency>
+<Price>108.0</Price>
+<PriceLabel>$108.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We took this dark denim and handsanded it to achieve that perfectly flattering hue we call dance off wash. Made of Italian cotton with a hint of stretch and sitting slightly below the waist, these comfortable jeans will be your everyday go-to. With a narrowed leg for a more modern look. Belt loops. Zip fly. Traditional 5-pocket styling. USA. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a slight bootcut leg.&lt;/li&gt;
+                     		&lt;li&gt;36" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=281926458&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7c/5d/7c5d97e405dca2dd85c3c7195b5b3248_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7c/5d/7c5d97e405dca2dd85c3c7195b5b3248_medium/jcrew-bootcut-denim-tall-bootcut-jean-in-dance-off-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7c/5d/7c5d97e405dca2dd85c3c7195b5b3248/jcrew-bootcut-denim-tall-bootcut-jean-in-dance-off-wash.jpg</Url>
+</Image>
+<Color>
+<Name>dance off wash</Name>
+</Color>
+<Size>
+<Name>TALL 26</Name>
+</Size>
+<Size>
+<Name>TALL 27</Name>
+</Size>
+<Size>
+<Name>TALL 28</Name>
+</Size>
+<Size>
+<Name>TALL 29</Name>
+</Size>
+<Size>
+<Name>TALL 30</Name>
+</Size>
+<Size>
+<Name>TALL 31</Name>
+</Size>
+<Size>
+<Name>TALL 32</Name>
+</Size>
+<Size>
+<Name>TALL 33</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>skinny-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-12</ExtractDate>
+</Product>
+<Product>
+<Id>263451559</Id>
+<Name>Bootcut jean in classic rinse wash</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>98.0</SalePrice>
+<SalePriceLabel>$98.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our bootcut fit updated with a little less flare in a classic, dark, even rinse and an exciting new Italian denim that we love for its saturated indigo and its pristine, polished look. Italian cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a slight bootcut leg.&lt;/li&gt;
+                     		&lt;li&gt;Regular: 33" inseam.&lt;/li&gt;
+                     		&lt;li&gt;Short: 31" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=263451559&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/76/fa/76fac313eb46ce2a34d48bd80ccf1b5c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/76/fa/76fac313eb46ce2a34d48bd80ccf1b5c_medium/jcrew-bootcut-denim-bootcut-jean-in-classic-rinse-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/76/fa/76fac313eb46ce2a34d48bd80ccf1b5c/jcrew-bootcut-denim-bootcut-jean-in-classic-rinse-wash.jpg</Url>
+</Image>
+<Color>
+<Name>classic rinse</Name>
+</Color>
+<Size>
+<Name>24/SHORT</Name>
+</Size>
+<Size>
+<Name>24/REGULAR</Name>
+</Size>
+<Size>
+<Name>25/SHORT</Name>
+</Size>
+<Size>
+<Name>25/REGULAR</Name>
+</Size>
+<Size>
+<Name>26/SHORT</Name>
+</Size>
+<Size>
+<Name>26/REGULAR</Name>
+</Size>
+<Size>
+<Name>27/SHORT</Name>
+</Size>
+<Size>
+<Name>27/REGULAR</Name>
+</Size>
+<Size>
+<Name>28/SHORT</Name>
+</Size>
+<Size>
+<Name>28/REGULAR</Name>
+</Size>
+<Size>
+<Name>29/SHORT</Name>
+</Size>
+<Size>
+<Name>29/REGULAR</Name>
+</Size>
+<Size>
+<Name>30/SHORT</Name>
+</Size>
+<Size>
+<Name>30/REGULAR</Name>
+</Size>
+<Size>
+<Name>31/SHORT</Name>
+</Size>
+<Size>
+<Name>31/REGULAR</Name>
+</Size>
+<Size>
+<Name>32/SHORT</Name>
+</Size>
+<Size>
+<Name>32/REGULAR</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>classic-jeans</Category>
+<Category>flare-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Classic Denim</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-21</ExtractDate>
+</Product>
+<Product>
+<Id>263453527</Id>
+<Name>Bootcut jean in pitch black wash</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>98.0</SalePrice>
+<SalePriceLabel>$98.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our bootcut fit updated in a supersaturated midnight black that's sleek and so right now. Made of Italian cotton with a hint of stretch and sitting slightly below the waist, these comfortable jeans will be your everyday go-to. With a narrowed leg for a more modern look. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits below waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a slight bootcut leg.&lt;/li&gt;
+                     		&lt;li&gt;Regular: 33" inseam.&lt;/li&gt;
+                     		&lt;li&gt;Short: 31" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=263453527&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/19/8f/198fdc32dea08c65ec2dca55b5399c34_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/19/8f/198fdc32dea08c65ec2dca55b5399c34_medium/jcrew-bootcut-denim-bootcut-jean-in-pitch-black-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/19/8f/198fdc32dea08c65ec2dca55b5399c34/jcrew-bootcut-denim-bootcut-jean-in-pitch-black-wash.jpg</Url>
+</Image>
+<Color>
+<Name>pitch black wash</Name>
+</Color>
+<Size>
+<Name>25/SHORT</Name>
+</Size>
+<Size>
+<Name>25/REGULAR</Name>
+</Size>
+<Size>
+<Name>26/SHORT</Name>
+</Size>
+<Size>
+<Name>26/REGULAR</Name>
+</Size>
+<Size>
+<Name>27/SHORT</Name>
+</Size>
+<Size>
+<Name>27/REGULAR</Name>
+</Size>
+<Size>
+<Name>28/SHORT</Name>
+</Size>
+<Size>
+<Name>28/REGULAR</Name>
+</Size>
+<Size>
+<Name>29/SHORT</Name>
+</Size>
+<Size>
+<Name>29/REGULAR</Name>
+</Size>
+<Size>
+<Name>30/SHORT</Name>
+</Size>
+<Size>
+<Name>30/REGULAR</Name>
+</Size>
+<Size>
+<Name>31/SHORT</Name>
+</Size>
+<Size>
+<Name>31/REGULAR</Name>
+</Size>
+<Size>
+<Name>32/SHORT</Name>
+</Size>
+<Size>
+<Name>32/REGULAR</Name>
+</Size>
+<Size>
+<Name>33/SHORT</Name>
+</Size>
+<Size>
+<Name>33/REGULAR</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>flare-jeans</Category>
+<Category>skinny-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-20</ExtractDate>
+</Product>
+<Product>
+<Id>273226780</Id>
+<Name>Vintage straight jean in old faithful wash</Name>
+<Currency>USD</Currency>
+<Price>168.0</Price>
+<PriceLabel>$168.00</PriceLabel>
+<SalePrice>168.0</SalePrice>
+<SalePriceLabel>$168.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Based on a pair of vintage blues, our newest denim fit is definitely bound for glory. We put a traditional 12-ounce denim through the wringer for weeks to achieve high-low color and had-it-forever softness. Finished off with western-inspired curved pockets and a straight-off-the-ranch easy fit, these jeans have the makings of a genuine denim legend. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits lower on hips.&lt;/li&gt;
+                     		&lt;li&gt;Easy through hip and thigh, with a straight leg.&lt;/li&gt;
+                     		&lt;li&gt;32" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=273226780&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/51/6c/516cf24d975339c990e00b579a235065_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/51/6c/516cf24d975339c990e00b579a235065_medium/jcrew-straight-denim-vintage-straight-jean-in-old-faithful-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/51/6c/516cf24d975339c990e00b579a235065/jcrew-straight-denim-vintage-straight-jean-in-old-faithful-wash.jpg</Url>
+</Image>
+<Color>
+<Name>old faithful</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Size>
+<Name>25</Name>
+</Size>
+<Size>
+<Name>26</Name>
+</Size>
+<Size>
+<Name>27</Name>
+</Size>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Size>
+<Name>32</Name>
+</Size>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Straight Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/straight-leg-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-16</ExtractDate>
+</Product>
+<Product>
+<Id>265714415</Id>
+<Name>High-waisted skinny jean in adore me wash</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<SalePrice>125.0</SalePrice>
+<SalePriceLabel>$125.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our have-to-have high rise in an amazing wash. Based on a vintage '70s silhouette, this insanely flattering fit sits just a smidgen below the natural waist, with a skinny leg. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Original fit&#x2014;our very first fit with the highest rise.&lt;/li&gt;
+                     		&lt;li&gt;Sits at natural waist.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;32" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=265714415&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/7c/54/7c54a9a6c0058b9c8985e42684c480f8_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/7c/54/7c54a9a6c0058b9c8985e42684c480f8_medium/jcrew-skinny-denim-highwaisted-skinny-jean-in-adore-me-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/7c/54/7c54a9a6c0058b9c8985e42684c480f8/jcrew-skinny-denim-highwaisted-skinny-jean-in-adore-me-wash.jpg</Url>
+</Image>
+<Color>
+<Name>adore me wash</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Size>
+<Name>25</Name>
+</Size>
+<Size>
+<Name>26</Name>
+</Size>
+<Size>
+<Name>27</Name>
+</Size>
+<Size>
+<Name>28</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>30</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-22</ExtractDate>
+</Product>
+<Product>
+<Id>230678037</Id>
+<Name>Ankle stretch toothpick jean in selvedge denim</Name>
+<Currency>USD</Currency>
+<Price>168.0</Price>
+<PriceLabel>$168.00</PriceLabel>
+<SalePrice>168.0</SalePrice>
+<SalePriceLabel>$168.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our toast-of-the-town toothpick silhouette superslim and so right now built to flatter in a totally authentic, American-made selvedge cotton denim with just a hint of stretch. They may be our best blues yet. Belt loops. Zip fly. Traditional 5-pocket styling. USA. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear. &lt;ul&gt; &lt;li&gt;Sits lower on hips, with a superskinny, straight leg.&lt;/li&gt; &lt;li&gt;28" inseam.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=230678037&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c6/ac/c6ac052d940b508847834fa81c6eb26b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c6/ac/c6ac052d940b508847834fa81c6eb26b_medium/jcrew-straight-denim-toothpick-jean-in-selvedge-denim.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c6/ac/c6ac052d940b508847834fa81c6eb26b/jcrew-straight-denim-toothpick-jean-in-selvedge-denim.jpg</Url>
+</Image>
+<Color>
+<Name>lovestruck wash</Name>
+</Color>
+<Size>
+<Name>25</Name>
+</Size>
+<Size>
+<Name>27</Name>
+</Size>
+<Size>
+<Name>29</Name>
+</Size>
+<Size>
+<Name>31</Name>
+</Size>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Straight Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/straight-leg-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-03-23</ExtractDate>
+</Product>
+<Product>
+<Id>207904795</Id>
+<Name>High-waisted skinny jean in night owl wash</Name>
+<Currency>USD</Currency>
+<Price>125.0</Price>
+<PriceLabel>$125.00</PriceLabel>
+<SalePrice>59.99</SalePrice>
+<SalePriceLabel>$59.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our highest rise yet. Introducing the high-rise skinny, our new insanely flattering fit that sits just a smidgen below the natural waist, with a skinny leg. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. USA. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear. &lt;ul&gt; &lt;li&gt;Sits at natural waist.&lt;/li&gt; &lt;li&gt;Fitted through hip and thigh, with a superskinny, straight leg.&lt;/li&gt; &lt;li&gt;32" inseam.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=207904795&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b3/3e/b33e8b70dab2fd0be0e163da6fb444a6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b3/3e/b33e8b70dab2fd0be0e163da6fb444a6_medium/jcrew-skinny-denim-highwaisted-skinny-jean-in-night-owl-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b3/3e/b33e8b70dab2fd0be0e163da6fb444a6/jcrew-skinny-denim-highwaisted-skinny-jean-in-night-owl-wash.jpg</Url>
+</Image>
+<Color>
+<Name>night owl wash</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-12-29</ExtractDate>
+</Product>
+<Product>
+<Id>200210967</Id>
+<Name>Downtown skinny jean in clear sky wash</Name>
+<Currency>USD</Currency>
+<Price>108.0</Price>
+<PriceLabel>$108.00</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our newest fit slightly slouchy at the hips with a superskinny, straight leg. Italian cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. USA. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear. &lt;ul&gt; &lt;li&gt;Sits on hips, with a superskinny, straight leg.&lt;/li&gt; &lt;li&gt;31" inseam.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=200210967&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c7/54/c7540d118de894dde34838727f01d02c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c7/54/c7540d118de894dde34838727f01d02c_medium/jcrew-skinny-denim-downtown-skinny-jean-in-clear-sky-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c7/54/c7540d118de894dde34838727f01d02c/jcrew-skinny-denim-downtown-skinny-jean-in-clear-sky-wash.jpg</Url>
+</Image>
+<Color>
+<Name>clear sky wash</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Size>
+<Name>25</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-11-30</ExtractDate>
+</Product>
+<Product>
+<Id>219144019</Id>
+<Name>Cropped matchstick jean in white denim</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>One of your favorite fits our cropped matchstick in a classic year-round white denim with a touch of stretch for an incredible fit. Cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. &lt;ul&gt; &lt;li&gt;Sits on hips.&lt;/li&gt; &lt;li&gt;Slim through hip and thigh, with a straight, narrow leg.&lt;/li&gt; &lt;li&gt;26" inseam.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=219144019&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9a/46/9a465c6981e145e4d771525bac0eb7e9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9a/46/9a465c6981e145e4d771525bac0eb7e9_medium/jcrew-cropped-denim-cropped-matchstick-jean-in-white-denim.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9a/46/9a465c6981e145e4d771525bac0eb7e9/jcrew-cropped-denim-cropped-matchstick-jean-in-white-denim.jpg</Url>
+</Image>
+<Color>
+<Name>white</Name>
+</Color>
+<Size>
+<Name>30</Name>
+</Size>
+<Category>cropped-jeans</Category>
+<CategoryName>Cropped Denim</CategoryName>
+<SeeMoreLabel>Cropped Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cropped-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-02-09</ExtractDate>
+</Product>
+<Product>
+<Id>177178195</Id>
+<Name>Downtown skinny jean in pearly blue wash</Name>
+<Currency>USD</Currency>
+<Price>108.0</Price>
+<PriceLabel>$108.00</PriceLabel>
+<SalePrice>49.99</SalePrice>
+<SalePriceLabel>$49.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our newest fit slightly slouchy at the hips with a superskinny, straight leg. Italian cotton with a hint of stretch. Belt loops. Zip fly. Traditional 5-pocket styling. USA. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Sits on hips, with a superskinny, straight leg.&lt;/li&gt;
+                     		&lt;li&gt;32" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=177178195&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/43/bb/43bb9af2dfd10f42096bfcf66f5612c2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/43/bb/43bb9af2dfd10f42096bfcf66f5612c2_medium/jcrew-skinny-denim-downtown-skinny-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/43/bb/43bb9af2dfd10f42096bfcf66f5612c2/jcrew-skinny-denim-downtown-skinny-jean.jpg</Url>
+</Image>
+<Color>
+<Name>pearly blue wash</Name>
+</Color>
+<Size>
+<Name>24</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-08-18</ExtractDate>
+</Product>
+<Product>
+<Id>170453235</Id>
+<Name>Trouser jean in classic rinse wash</Name>
+<Currency>USD</Currency>
+<Price>108.0</Price>
+<PriceLabel>$108.00</PriceLabel>
+<SalePrice>88.0</SalePrice>
+<SalePriceLabel>$88.00</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Our modern-girl trouser in a classic dark rinse and an exciting new Italian denim that we love for its saturated indigo and its pristine, polished look. Italian cotton with a hint of stretch. Belt loops. Zip fly. Slant pockets, back welt pockets. Import. Machine wash.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;City fit&#x2014;our lowest rise.&lt;/li&gt;
+                     		&lt;li&gt;Fitted through hip and thigh, with a straight trouser leg.&lt;/li&gt;
+                     		&lt;li&gt;33" inseam.&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=170453235&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2a/cf/2acfaf77d606542886547f5cdb592630_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2a/cf/2acfaf77d606542886547f5cdb592630_medium/jcrew-denim-trouser-jean-in-classic-rinse-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2a/cf/2acfaf77d606542886547f5cdb592630/jcrew-denim-trouser-jean-in-classic-rinse-wash.jpg</Url>
+</Image>
+<Color>
+<Name>classic rinse</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-07-22</ExtractDate>
+</Product>
+<Product>
+<Id>108423008</Id>
+<Name>Matchstick jean in overdyed black denim</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<SalePrice>79.99</SalePrice>
+<SalePriceLabel>$79.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>J.Crew</Retailer>
+<RetailerId>5</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/J.Crew-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We dipped our popular matchstick twice to achieve this incredibly rich, saturated black hue. The fabrication is our signature cotton with a hint of stretch for a super-flattering fit and feel. Belt loops. Zip fly. Traditional 5-pocket styling. Import. Machine wash. The nature of this product may result in color transfer we suggest laundering at home in your machine before wear. &lt;ul&gt; &lt;li&gt;Sits on hips.&lt;/li&gt; &lt;li&gt;Slim through hip and thigh, with a straight, narrow leg.&lt;/li&gt; &lt;li&gt;Regular: 33" inseam.&lt;/li&gt; &lt;li&gt;Short: 31" inseam.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>J.Crew</BrandName>
+<BrandId>284</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/J.Crew?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=108423008&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/42/f2/42f220201b87531b72a7995ee14700df_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/42/f2/42f220201b87531b72a7995ee14700df_medium/jcrew-skinny-denim-overdyed-black-denim-matchstick-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/42/f2/42f220201b87531b72a7995ee14700df/jcrew-skinny-denim-overdyed-black-denim-matchstick-jean.jpg</Url>
+</Image>
+<Color>
+<Name>black</Name>
+</Color>
+<Size>
+<Name>24/SHORT</Name>
+</Size>
+<Size>
+<Name>25/REGULAR</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<Category>straight-leg-jeans</Category>
+<Category>stretch-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<CategoryName>Straight Denim</CategoryName>
+<CategoryName>Stretch Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by J.Crew</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/J.Crew?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2009-11-04</ExtractDate>
+</Product>
+</SearchResult>

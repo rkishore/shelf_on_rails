@@ -1,0 +1,90 @@
+<html>
+  <head>
+  <title>Shelf.com: Did You Know?</title>
+  <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+  <script>
+      google.load("visualization", "1", {packages:["corechart"]});
+      
+      google.setOnLoadCallback(drawTable1);
+      google.setOnLoadCallback(drawTable2);
+      google.setOnLoadCallback(drawTable3);
+      google.setOnLoadCallback(drawTable4);
+      
+      function drawTable1() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json1'));
+        var json_data = new google.visualization.DataTable({{ json1|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'minValue': 0, 'maxValue': 100, 'title': '% Items on Sale (Men)'}});
+      }
+      function drawTable2() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json2'));
+        var json_data = new google.visualization.DataTable({{ json2|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'minValue': 0, 'maxValue': 100, 'title': '% Items on Sale (Women)'}});
+      }
+      function drawTable3() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json3'));
+        var json_data = new google.visualization.DataTable({{ json3|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Saleprice Range USD (Women)'}});
+      }
+      function drawTable4() {
+        var json_chart = new google.visualization.ColumnChart(document.getElementById('table_div_json4'));
+        var json_data = new google.visualization.DataTable({{ json4|safe }} , 0.5);
+        google.visualization.events.addListener(json_chart, 'select', selectHandler);  
+        json_chart.draw(json_data, {width: 370, height: 240, 'legend': 'top', 'vAxis': {'title': 'Saleprice Range USD (Men)'}});
+      }
+      
+      function selectHandler() {
+        var selectedItem = chart.getSelection()[0];
+        var value = data.getValue(selectedItem.row, 0);
+        alert('The user selected ' + value);
+      }
+  </script>
+  <link rel="stylesheet" type="text/css" href="/mymedia/css/site_base.css" />
+  </head>
+  <body>
+  	<header>
+	  <div class="header"><h1 class="header">Shelf.com</h1></div>			
+	</header>
+	<nav>
+	  <ul>
+	    <li><a class="nav" href="/viewyourshelf/?u={{uid}}">View Shelfs</a></li>
+	    <li><a class="nav" href="/apply_promo/?u={{uid}}">View Pricing Info</a></li>
+	    <li><a class="nav" href="/statsplot/">Did you know?</a></li>
+	    <li><a class="nav" href="/home/">Home</a></li>
+	  </ul>
+	</nav>
+	<h2 align="center">Did you know?</h2>
+        <table>
+	  <!-- <th>Product Variety</th> -->
+	  <tr>
+            <!--<td><div id="table_div_json2"></div></td>
+		<td><div id="table_div_json1"></div></td>-->
+            <td><div id="table_div_json2"></div></td>
+    	    <td><div id="table_div_json1"></div></td>
+            <!--<td><div id="table_div_json11"></div></td>-->
+            <td></td>
+	  </tr>
+	  <!-- <th>Pricing Details</th> -->
+	  <tr>
+    	    <td><div id="table_div_json3"></div></td>
+            <td><div id="table_div_json4"></div></td>
+	  </tr>
+          <!-- <td><div id="table_div_json2"></div></td>
+               <td><div id="table_div_json3"></div></td>
+          <td><div id="table_div_json4"></div></td>
+</tr>
+<tr>
+  <td><div id="table_div_json17"></div></td>
+  <td><div id="table_div_json16"></div></td>
+  <td><div id="table_div_json11"></div></td>
+  <td><div id="table_div_json12"></div></td>
+  <td><div id="table_div_json13"></div></td>
+</tr>-->    
+	</table>
+  </body>
+  <!-- <footer>
+	<div class="footer">Copyright 2012 by Shelf.com</div>
+  </footer> -->
+</html>

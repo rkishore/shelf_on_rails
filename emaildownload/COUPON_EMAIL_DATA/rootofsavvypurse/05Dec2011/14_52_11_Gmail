@@ -1,0 +1,63 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.37.232 with SMTP id b8cs78677vdk;
+         Mon, 5 Dec 2011 11:52:12 -0800 (PST)
+ Return-Path: <atul.singh+gmafv4aa85f4623aebea8@gmail.com>
+ Received-SPF: pass (google.com: domain of atul.singh+gmafv4aa85f4623aebea8@gmail.com designates 10.224.34.16 as permitted sender) client-ip=10.224.34.16;
+ Authentication-Results: mr.google.com; spf=pass (google.com: domain of atul.singh+gmafv4aa85f4623aebea8@gmail.com designates 10.224.34.16 as permitted sender) smtp.mail=atul.singh+gmafv4aa85f4623aebea8@gmail.com; dkim=pass header.i=atul.singh+gmafv4aa85f4623aebea8@gmail.com
+ Received: from mr.google.com ([10.224.34.16])
+         by 10.224.34.16 with SMTP id j16mr9332517qad.6.1323114731396 (num_hops = 1);
+         Mon, 05 Dec 2011 11:52:11 -0800 (PST)
+ DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+         d=google.com; s=beta;
+         h=mime-version:x-google-address-confirmation:date:message-id:subject
+          :from:to:content-type;
+         bh=+TzGtaEM2q29i7ekw6RRnH7a2VQm5WOlOe526eHxCnA=;
+         b=h8rA6MBztpEJLygQXjJUrKAucLTqHcCrWVzK+l/mXiBk/zqm/b2q6lPXbBR/79pxYL
+          fT1NFbKkSHlhHDgW8qEg==
+ MIME-Version: 1.0
+ Received: by 10.224.34.16 with SMTP id j16mr9332517qad.6.1323114731395; Mon,
+  05 Dec 2011 11:52:11 -0800 (PST)
+ X-Google-Address-Confirmation: Xl3c449p6nNiyPQIoH1LTM95GRs
+ Date: Mon, 5 Dec 2011 14:52:11 -0500
+ Message-ID: <CAFTNjiU12pHjd5p5p+DMFo3bqJVosURghaHmufvb4jUyyi7jRA@mail.gmail.com>
+ Subject: Gmail Forwarding Confirmation (#55707444) - Receive Mail from atul.singh@gmail.com
+ From: Gmail Team <mail-noreply@google.com>
+ To: rootofsavvypurse@gmail.com
+ Content-Type: text/plain; charset=ISO-8859-1
+ 
+ atul.singh@gmail.com has requested to automatically forward mail to your email
+ address rootofsavvypurse@gmail.com.
+ Confirmation code: 55707444
+ 
+ To allow atul.singh@gmail.com to automatically forward mail to your address,
+ please click the link below to confirm the request:
+ 
+ https://mail.google.com/mail/vf-d2e4b205cb-rootofsavvypurse%40gmail.com-qidBx_nnIvO4bOHTSAxHmlZiepc
+ 
+ If you click the link and it appears to be broken, please copy and paste it
+ into a new browser window. If you aren't able to access the link, you
+ can send the confirmation code
+ 55707444 to atul.singh@gmail.com.
+ 
+ Thanks for using Gmail!
+ 
+ Sincerely,
+ 
+ The Gmail Team
+ 
+ If you do not approve of this request, no further action is required.
+ atul.singh@gmail.com cannot automatically forward messages to your email address
+ unless you confirm the request by clicking the link above. If you accidentally
+ clicked the link, but you do not want to allow atul.singh@gmail.com to
+ automatically forward messages to your address, click this link to cancel this
+ verification:
+ https://mail.google.com/mail/uf-d2e4b205cb-rootofsavvypurse%40gmail.com-qidBx_nnIvO4bOHTSAxHmlZiepc
+ 
+ To learn more about why you might have received this message, please
+ visit: http://mail.google.com/support/bin/answer.py?answer=184973.
+ 
+ Please do not respond to this message. If you'd like to contact the
+ Google.com Team, please log in to your account and click 'Help' at
+ the top of any page. Then, click 'Contact Us' along the bottom of the
+ Help Center.
+

@@ -1,0 +1,2281 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>2683</Id>
+<Name>Banana Republic</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>34</TotalCount>
+<Product>
+<Id>322513440</Id>
+<Name>Indigo welt pocket denim trouser</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=322513440&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/ca/2e/ca2eb63a819490d70bd5ae1596b0c400_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/ca/2e/ca2eb63a819490d70bd5ae1596b0c400_medium/banana-republic-denim-indigo-welt-pocket-denim-trouser.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/ca/2e/ca2eb63a819490d70bd5ae1596b0c400/banana-republic-denim-indigo-welt-pocket-denim-trouser.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-14</ExtractDate>
+</Product>
+<Product>
+<Id>319886323</Id>
+<Name>Dark wash denim legging</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=319886323&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/06/c1/06c1a786e4695213a933739f73bbd56c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/06/c1/06c1a786e4695213a933739f73bbd56c_medium/banana-republic-skinny-denim-dark-wash-denim-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/06/c1/06c1a786e4695213a933739f73bbd56c/banana-republic-skinny-denim-dark-wash-denim-legging.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-06</ExtractDate>
+</Product>
+<Product>
+<Id>321380747</Id>
+<Name>Grey skinny jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;87% Cotton, 13% Elasterell.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=321380747&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2d/2a/2d2af748b5e665a0e4b3f29b30b56380_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2d/2a/2d2af748b5e665a0e4b3f29b30b56380_medium/banana-republic-skinny-denim-grey-skinny-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2d/2a/2d2af748b5e665a0e4b3f29b30b56380/banana-republic-skinny-denim-grey-skinny-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Grey denim</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-11</ExtractDate>
+</Product>
+<Product>
+<Id>322513419</Id>
+<Name>Dark wash  denim trouser</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=322513419&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/84/39/8439e44bebef772accc5918d2617210b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/84/39/8439e44bebef772accc5918d2617210b_medium/banana-republic-denim-dark-wash-denim-trouser.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/84/39/8439e44bebef772accc5918d2617210b/banana-republic-denim-dark-wash-denim-trouser.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-14</ExtractDate>
+</Product>
+<Product>
+<Id>309877147</Id>
+<Name>Wide-leg denim</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;99% Cotton, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=309877147&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f4/4e/f44eb44bad649fb79c32fa2fff121051_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f4/4e/f44eb44bad649fb79c32fa2fff121051_medium/banana-republic-flare-denim-wideleg-denim.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f4/4e/f44eb44bad649fb79c32fa2fff121051/banana-republic-flare-denim-wideleg-denim.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>flare-jeans</Category>
+<CategoryName>Flare Denim</CategoryName>
+<SeeMoreLabel>Flare Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/flare-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-06</ExtractDate>
+</Product>
+<Product>
+<Id>312109978</Id>
+<Name>Dark wash flare jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;73% Cotton, 26% Polyester, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=312109978&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/8b/12/8b1295b25408e88fe8cbab3b064045ab_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/8b/12/8b1295b25408e88fe8cbab3b064045ab_medium/banana-republic-flare-denim-dark-wash-flare-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/8b/12/8b1295b25408e88fe8cbab3b064045ab/banana-republic-flare-denim-dark-wash-flare-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>flare-jeans</Category>
+<CategoryName>Flare Denim</CategoryName>
+<SeeMoreLabel>Flare Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/flare-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-13</ExtractDate>
+</Product>
+<Product>
+<Id>318629790</Id>
+<Name>Dark wash skinny jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;89% Cotton, 8% Polyester, 3% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=318629790&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0c/fe/0cfe3556001dcbaaccfa4d83ad33164a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0c/fe/0cfe3556001dcbaaccfa4d83ad33164a_medium/banana-republic-skinny-denim-dark-wash-skinny-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0c/fe/0cfe3556001dcbaaccfa4d83ad33164a/banana-republic-skinny-denim-dark-wash-skinny-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-02</ExtractDate>
+</Product>
+<Product>
+<Id>289993011</Id>
+<Name>White denim trouser</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;70% Cotton, 30% Elasterell.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=289993011&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/06/5c/065c8e82bd48e87268f47c54952ba50e_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/06/5c/065c8e82bd48e87268f47c54952ba50e_medium/banana-republic-denim-white-denim-trouser.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/06/5c/065c8e82bd48e87268f47c54952ba50e/banana-republic-denim-white-denim-trouser.jpg</Url>
+</Image>
+<Color>
+<Name>Optic white</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-05</ExtractDate>
+</Product>
+<Product>
+<Id>289992630</Id>
+<Name>White skinny jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;70% Cotton, 30% Elasterell.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=289992630&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/5c/6e/5c6ef00044a4b08ff950a60bb8030f48_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/5c/6e/5c6ef00044a4b08ff950a60bb8030f48_medium/banana-republic-skinny-denim-white-skinny-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/5c/6e/5c6ef00044a4b08ff950a60bb8030f48/banana-republic-skinny-denim-white-skinny-jean.jpg</Url>
+</Image>
+<Color>
+<Name>White</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-05</ExtractDate>
+</Product>
+<Product>
+<Id>285208207</Id>
+<Name>Khaki skinny jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<SalePrice>74.99</SalePrice>
+<SalePriceLabel>$74.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=285208207&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9d/88/9d88336ae184b5642731ca077be6d1f9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9d/88/9d88336ae184b5642731ca077be6d1f9_medium/banana-republic-skinny-denim-khaki-skinny-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9d/88/9d88336ae184b5642731ca077be6d1f9/banana-republic-skinny-denim-khaki-skinny-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Grey khaki</Name>
+</Color>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-21</ExtractDate>
+</Product>
+<Product>
+<Id>271212528</Id>
+<Name>Black denim trouser</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=271212528&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9f/93/9f93eb9d16dbaa6116ec17bcf0d98194_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9f/93/9f93eb9d16dbaa6116ec17bcf0d98194_medium/banana-republic-denim-black-denim-trouser.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9f/93/9f93eb9d16dbaa6116ec17bcf0d98194/banana-republic-denim-black-denim-trouser.jpg</Url>
+</Image>
+<Color>
+<Name>Black denim</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-12</ExtractDate>
+</Product>
+<Product>
+<Id>268417054</Id>
+<Name>Dark wash denim legging</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<SalePrice>69.99</SalePrice>
+<SalePriceLabel>$69.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;73% Cotton, 26% Polyester, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=268417054&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f0/12/f0121b57e91054f6d6bea72a5bebccc8_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f0/12/f0121b57e91054f6d6bea72a5bebccc8_medium/banana-republic-skinny-denim-dark-wash-denim-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f0/12/f0121b57e91054f6d6bea72a5bebccc8/banana-republic-skinny-denim-dark-wash-denim-legging.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-04</ExtractDate>
+</Product>
+<Product>
+<Id>270079736</Id>
+<Name>Curvy dark-wash boot-cut jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;73% Cotton, 26% Polyester, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=270079736&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/bf/54/bf54b0ed4eb59c8760096177b6b0ad22_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/bf/54/bf54b0ed4eb59c8760096177b6b0ad22_medium/banana-republic-bootcut-denim-curvy-darkwash-bootcut-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/bf/54/bf54b0ed4eb59c8760096177b6b0ad22/banana-republic-bootcut-denim-curvy-darkwash-bootcut-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-09</ExtractDate>
+</Product>
+<Product>
+<Id>270081004</Id>
+<Name>Black skinny jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=270081004&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/14/66/1466cba491016587daedc58eff7cad6f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/14/66/1466cba491016587daedc58eff7cad6f_medium/banana-republic-skinny-denim-black-skinny-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/14/66/1466cba491016587daedc58eff7cad6f/banana-republic-skinny-denim-black-skinny-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Black denim</Name>
+</Color>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-09</ExtractDate>
+</Product>
+<Product>
+<Id>268417006</Id>
+<Name>Button-pocket boot-cut jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;89% Cotton, 11% Elasterell&#xC2;&#xAE;.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=268417006&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2a/0f/2a0f6d431d87149977b13cbbe5041f7a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2a/0f/2a0f6d431d87149977b13cbbe5041f7a_medium/banana-republic-bootcut-denim-buttonpocket-bootcut-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2a/0f/2a0f6d431d87149977b13cbbe5041f7a/banana-republic-bootcut-denim-buttonpocket-bootcut-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-04</ExtractDate>
+</Product>
+<Product>
+<Id>266924850</Id>
+<Name>Overdyed flare jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;73% Cotton, 26% Polyester, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=266924850&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/1c/1b/1c1bcee009587cad6f3d90515ce55bf6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/1c/1b/1c1bcee009587cad6f3d90515ce55bf6_medium/banana-republic-bootcut-denim-overdyed-flare-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/1c/1b/1c1bcee009587cad6f3d90515ce55bf6/banana-republic-bootcut-denim-overdyed-flare-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>flare-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-31</ExtractDate>
+</Product>
+<Product>
+<Id>266924971</Id>
+<Name>Button-pocket boot-cut jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;89% Cotton, 11% Elasterell&#xC2;&#xAE;.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=266924971&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2a/0f/2a0f6d431d87149977b13cbbe5041f7a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2a/0f/2a0f6d431d87149977b13cbbe5041f7a_medium/banana-republic-bootcut-denim-buttonpocket-bootcut-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2a/0f/2a0f6d431d87149977b13cbbe5041f7a/banana-republic-bootcut-denim-buttonpocket-bootcut-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-31</ExtractDate>
+</Product>
+<Product>
+<Id>266924809</Id>
+<Name>Overdyed flare jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;73% Cotton, 26% Polyester, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=266924809&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/1c/1b/1c1bcee009587cad6f3d90515ce55bf6_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/1c/1b/1c1bcee009587cad6f3d90515ce55bf6_medium/banana-republic-flare-denim-overdyed-flare-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/1c/1b/1c1bcee009587cad6f3d90515ce55bf6/banana-republic-flare-denim-overdyed-flare-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>flare-jeans</Category>
+<CategoryName>Flare Denim</CategoryName>
+<SeeMoreLabel>Flare Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/flare-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-31</ExtractDate>
+</Product>
+<Product>
+<Id>266924870</Id>
+<Name>Curvy dark-wash boot-cut jean</Name>
+<Currency>USD</Currency>
+<Price>79.5</Price>
+<PriceLabel>$79.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;73% Cotton, 26% Polyester, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=266924870&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/bf/54/bf54b0ed4eb59c8760096177b6b0ad22_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/bf/54/bf54b0ed4eb59c8760096177b6b0ad22_medium/banana-republic-bootcut-denim-curvy-darkwash-bootcut-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/bf/54/bf54b0ed4eb59c8760096177b6b0ad22/banana-republic-bootcut-denim-curvy-darkwash-bootcut-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-31</ExtractDate>
+</Product>
+<Product>
+<Id>261922310</Id>
+<Name>Black button-pocket boot-cut jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=261922310&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3c/7f/3c7f0b4961b56bca89f9b9a7a408c6f2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3c/7f/3c7f0b4961b56bca89f9b9a7a408c6f2_medium/banana-republic-bootcut-denim-gray-buttonpocket-bootcut-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3c/7f/3c7f0b4961b56bca89f9b9a7a408c6f2/banana-republic-bootcut-denim-gray-buttonpocket-bootcut-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Black denim</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-16</ExtractDate>
+</Product>
+<Product>
+<Id>255122304</Id>
+<Name>Dark wash flared jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;89% Cotton, 8% Polyester, 3% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=255122304&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9c/f2/9cf2997bd0c281be08aeafe0ef92524a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9c/f2/9cf2997bd0c281be08aeafe0ef92524a_medium/banana-republic-bootcut-denim-dark-wash-flared-jeans.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9c/f2/9cf2997bd0c281be08aeafe0ef92524a/banana-republic-bootcut-denim-dark-wash-flared-jeans.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>flare-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-23</ExtractDate>
+</Product>
+<Product>
+<Id>255122540</Id>
+<Name>Dark wash flared jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;89% Cotton, 8% Polyester, 3% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=255122540&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9c/f2/9cf2997bd0c281be08aeafe0ef92524a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9c/f2/9cf2997bd0c281be08aeafe0ef92524a_medium/banana-republic-bootcut-denim-dark-wash-flared-jeans.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9c/f2/9cf2997bd0c281be08aeafe0ef92524a/banana-republic-bootcut-denim-dark-wash-flared-jeans.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>bootcut-jeans</Category>
+<Category>flare-jeans</Category>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<SeeMoreLabel>Bootcut Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/bootcut-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-23</ExtractDate>
+</Product>
+<Product>
+<Id>255121398</Id>
+<Name>Grey skinny jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<SalePrice>69.99</SalePrice>
+<SalePriceLabel>$69.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=255121398&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/cf/95/cf9500e4dc4aef5f8c7376ce7b70d12a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/cf/95/cf9500e4dc4aef5f8c7376ce7b70d12a_medium/banana-republic-skinny-denim-grey-skinny-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/cf/95/cf9500e4dc4aef5f8c7376ce7b70d12a/banana-republic-skinny-denim-grey-skinny-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Grey denim</Name>
+</Color>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-23</ExtractDate>
+</Product>
+<Product>
+<Id>255452471</Id>
+<Name>Grey skinny jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<SalePrice>69.99</SalePrice>
+<SalePriceLabel>$69.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=255452471&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/cf/95/cf9500e4dc4aef5f8c7376ce7b70d12a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/cf/95/cf9500e4dc4aef5f8c7376ce7b70d12a_medium/banana-republic-skinny-denim-grey-skinny-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/cf/95/cf9500e4dc4aef5f8c7376ce7b70d12a/banana-republic-skinny-denim-grey-skinny-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Grey denim</Name>
+</Color>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>skinny-jeans</Category>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Skinny Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/skinny-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-24</ExtractDate>
+</Product>
+<Product>
+<Id>244002628</Id>
+<Name>White ankle zip crop</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<SalePrice>29.99</SalePrice>
+<SalePriceLabel>$29.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;99% Cotton, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=244002628&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/97/bb/97bb86579f5e46dac3c55c110b554958_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/97/bb/97bb86579f5e46dac3c55c110b554958_medium/banana-republic-cropped-denim-white-ankle-zip-crop.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/97/bb/97bb86579f5e46dac3c55c110b554958/banana-republic-cropped-denim-white-ankle-zip-crop.jpg</Url>
+</Image>
+<Color>
+<Name>Optic white</Name>
+</Color>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>cropped-jeans</Category>
+<CategoryName>Cropped Denim</CategoryName>
+<SeeMoreLabel>Cropped Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cropped-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-17</ExtractDate>
+</Product>
+<Product>
+<Id>231468382</Id>
+<Name>Ultimate skinny white jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;99% Cotton, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=231468382&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/1b/15/1b15c568527aaf6cb4074b7ec373e43b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/1b/15/1b15c568527aaf6cb4074b7ec373e43b_medium/banana-republic-cropped-denim-banana-republic-ultimate-skinny-white-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/1b/15/1b15c568527aaf6cb4074b7ec373e43b/banana-republic-cropped-denim-banana-republic-ultimate-skinny-white-jean.jpg</Url>
+</Image>
+<Color>
+<Name>White</Name>
+</Color>
+<Size>
+<Name>14</Name>
+</Size>
+<Category>cropped-jeans</Category>
+<Category>skinny-jeans</Category>
+<CategoryName>Cropped Denim</CategoryName>
+<CategoryName>Skinny Denim</CategoryName>
+<SeeMoreLabel>Cropped Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cropped-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-03-27</ExtractDate>
+</Product>
+<Product>
+<Id>232746023</Id>
+<Name>Dark denim skinny crop</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=232746023&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/24/e4/24e4518b4b8e3735296acca34ca2b464_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/24/e4/24e4518b4b8e3735296acca34ca2b464_medium/banana-republic-cropped-denim-banana-republic-dark-denim-skinny-crop.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/24/e4/24e4518b4b8e3735296acca34ca2b464/banana-republic-cropped-denim-banana-republic-dark-denim-skinny-crop.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>6</Name>
+</Size>
+<Category>cropped-jeans</Category>
+<CategoryName>Cropped Denim</CategoryName>
+<SeeMoreLabel>Cropped Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cropped-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-04-01</ExtractDate>
+</Product>
+<Product>
+<Id>231263509</Id>
+<Name>Slim cropped denim legging</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;44% Rayon, 29% Cotton, 25% Cupro, 2% Polyurethane.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=231263509&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/2a/53/2a5319a26cb6cee4cf078b38a965f73b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/2a/53/2a5319a26cb6cee4cf078b38a965f73b_medium/banana-republic-cropped-denim-banana-republic-slim-cropped-denim-legging.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/2a/53/2a5319a26cb6cee4cf078b38a965f73b/banana-republic-cropped-denim-banana-republic-slim-cropped-denim-legging.jpg</Url>
+</Image>
+<Color>
+<Name>Light indigo</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Category>cropped-jeans</Category>
+<CategoryName>Cropped Denim</CategoryName>
+<SeeMoreLabel>Cropped Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cropped-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-03-26</ExtractDate>
+</Product>
+<Product>
+<Id>206301175</Id>
+<Name>Indigo denim trouser</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;60% Cotton, 36% Polyester, 4% Lastol.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=206301175&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c9/2f/c92f010cda5443e1a3b341303792cf2b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c9/2f/c92f010cda5443e1a3b341303792cf2b_medium/banana-republic-dark-indigo-denim-trouser.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c9/2f/c92f010cda5443e1a3b341303792cf2b/banana-republic-dark-indigo-denim-trouser.jpg</Url>
+</Image>
+<Color>
+<Name>dark denim</Name>
+</Color>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>jeans</Category>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-12-23</ExtractDate>
+</Product>
+<Product>
+<Id>204651352</Id>
+<Name>White ankle zip crop</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<SalePrice>29.99</SalePrice>
+<SalePriceLabel>$29.99</SalePriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>We designed this crisp, white jean in our sleekest silhouette and cropped length for a leg-elongating look. Ankle zippers add the finishing touch. &lt;ul&gt; &lt;li&gt;99% Cotton, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=204651352&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/97/bb/97bb86579f5e46dac3c55c110b554958_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/97/bb/97bb86579f5e46dac3c55c110b554958_medium/banana-republic-cropped-denim-white-ankle-zip-crop.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/97/bb/97bb86579f5e46dac3c55c110b554958/banana-republic-cropped-denim-white-ankle-zip-crop.jpg</Url>
+</Image>
+<Color>
+<Name>Optic white</Name>
+</Color>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>cropped-jeans</Category>
+<CategoryName>Cropped Denim</CategoryName>
+<SeeMoreLabel>Cropped Denim by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/cropped-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-12-17</ExtractDate>
+</Product>
+<Product>
+<Id>324338497</Id>
+<Name>Dark wash welt pocket flare</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;73% Cotton, 26% Polyester, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=324338497&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c5/72/c572b997400f33668812e638cb4f3898_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c5/72/c572b997400f33668812e638cb4f3898_medium/banana-republic-bootcut-denim-dark-wash-welt-pocket-flare.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c5/72/c572b997400f33668812e638cb4f3898/banana-republic-bootcut-denim-dark-wash-welt-pocket-flare.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>petite-jeans</Category>
+<Category>flare-jeans</Category>
+<Category>wide-leg-pants</Category>
+<Category>bootcut-jeans</Category>
+<Category>petite-pants-shorts</Category>
+<CategoryName>Petite Jeans</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<CategoryName>Wide Leg Pants</CategoryName>
+<CategoryName>Bootcut Denim</CategoryName>
+<CategoryName>Petite Pants &amp; Shorts</CategoryName>
+<SeeMoreLabel>Petite Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/petite-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-21</ExtractDate>
+</Product>
+<Product>
+<Id>322513495</Id>
+<Name>Dark wash denim trouser</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=322513495&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/84/39/8439e44bebef772accc5918d2617210b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/84/39/8439e44bebef772accc5918d2617210b_medium/banana-republic-denim-dark-wash-denim-trouser.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/84/39/8439e44bebef772accc5918d2617210b/banana-republic-denim-dark-wash-denim-trouser.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>petite-jeans</Category>
+<Category>jeans</Category>
+<CategoryName>Petite Jeans</CategoryName>
+<CategoryName>Denim</CategoryName>
+<SeeMoreLabel>Petite Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/petite-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2012-01-14</ExtractDate>
+</Product>
+<Product>
+<Id>315631867</Id>
+<Name>Dark wash flare jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;73% Cotton, 26% Polyester, 1% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=315631867&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/8b/12/8b1295b25408e88fe8cbab3b064045ab_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/8b/12/8b1295b25408e88fe8cbab3b064045ab_medium/banana-republic-bootcut-denim-dark-wash-flare-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/8b/12/8b1295b25408e88fe8cbab3b064045ab/banana-republic-bootcut-denim-dark-wash-flare-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Indigo</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>petite-jeans</Category>
+<Category>flare-jeans</Category>
+<Category>bootcut-jeans</Category>
+<CategoryName>Petite Jeans</CategoryName>
+<CategoryName>Flare Denim</CategoryName>
+<CategoryName>Bootcut Denim</CategoryName>
+<SeeMoreLabel>Petite Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/petite-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-23</ExtractDate>
+</Product>
+<Product>
+<Id>270842161</Id>
+<Name>Black button-pocket boot-cut jean</Name>
+<Currency>USD</Currency>
+<Price>89.5</Price>
+<PriceLabel>$89.50</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Banana Republic</Retailer>
+<RetailerId>54</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Banana-Republic-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>&lt;ul&gt; &lt;li&gt;98% Cotton, 2% Spandex.&lt;/li&gt; &lt;li&gt;Machine wash cold.&lt;/li&gt; &lt;li&gt;Imported.&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Banana Republic</BrandName>
+<BrandId>2683</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Banana-Republic?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=270842161&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/3c/7f/3c7f0b4961b56bca89f9b9a7a408c6f2_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/3c/7f/3c7f0b4961b56bca89f9b9a7a408c6f2_medium/banana-republic-bootcut-denim-gray-buttonpocket-bootcut-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/3c/7f/3c7f0b4961b56bca89f9b9a7a408c6f2/banana-republic-bootcut-denim-gray-buttonpocket-bootcut-jean.jpg</Url>
+</Image>
+<Color>
+<Name>Black denim</Name>
+</Color>
+<Size>
+<Name>00</Name>
+</Size>
+<Size>
+<Name>0</Name>
+</Size>
+<Size>
+<Name>2</Name>
+</Size>
+<Size>
+<Name>4</Name>
+</Size>
+<Size>
+<Name>6</Name>
+</Size>
+<Size>
+<Name>8</Name>
+</Size>
+<Size>
+<Name>10</Name>
+</Size>
+<Size>
+<Name>12</Name>
+</Size>
+<Size>
+<Name>14</Name>
+</Size>
+<Size>
+<Name>16</Name>
+</Size>
+<Category>petite-jeans</Category>
+<Category>bootcut-jeans</Category>
+<CategoryName>Petite Jeans</CategoryName>
+<CategoryName>Bootcut Denim</CategoryName>
+<SeeMoreLabel>Petite Jeans by Banana Republic</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/petite-jeans/Banana-Republic?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-08-11</ExtractDate>
+</Product>
+</SearchResult>

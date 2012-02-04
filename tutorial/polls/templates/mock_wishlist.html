@@ -1,0 +1,27 @@
+<html>
+	<title>Create your wishlist</title>
+	<body>
+		<h2> A sample wishlist [<a href="/statsplot/">Stats</a>]</h2>
+		<form action="/mock_wishlist/start/" method="post">{#% csrf_token %#}
+		{{ form.as_table }}
+		<input type="submit" value="Submit" />
+		</form>
+		{% if results%}
+		<h2> Lowest price</h2>
+		
+		{{results|safe}}		
+		{% endif %}
+
+		{% if price_wishlist%}		
+		<h2> Orbitz-style comparison</h2>
+		<table border="1">
+		{% for item in price_wishlist%}
+			{% if forloop.first %}<tr><td></td><td>Express</td><td>J.Crew</td><td>Banana Republic</td>{% endif %}
+			{% if forloop.counter0|divisibleby:3 %}</tr><tr><td>Wishlist {% widthratio forloop.counter0 3 1 %}</td>{% endif %}
+			<td> [{{item.orig_cost}}, {{item.cost}},{{item.free_shipping}}]</td>
+			{% if forloop.last %}</tr>{% endif %}	
+		{% endfor %}
+		</table>
+		{% endif %}
+	</body>
+</html>

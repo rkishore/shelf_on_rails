@@ -1,0 +1,468 @@
+ Delivered-To: rootofsavvypurse@gmail.com
+ Received: by 10.52.36.197 with SMTP id s5cs170409vdj;
+         Wed, 7 Dec 2011 21:17:51 -0800 (PST)
+ Received: by 10.229.239.80 with SMTP id kv16mr461919qcb.63.1323321470234;
+         Wed, 07 Dec 2011 21:17:50 -0800 (PST)
+ Return-Path: <10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa@bebeonline.bebe.com>
+ Received: from bigfootinteractive.com (arm223.bigfootinteractive.com. [206.132.3.223])
+         by mx.google.com with ESMTP id hk8si3317900qab.83.2011.12.07.21.17.50;
+         Wed, 07 Dec 2011 21:17:50 -0800 (PST)
+ Received-SPF: pass (google.com: domain of 10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa@bebeonline.bebe.com designates 206.132.3.223 as permitted sender) client-ip=206.132.3.223;
+ Authentication-Results: mx.google.com; spf=pass (google.com: domain of 10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa@bebeonline.bebe.com designates 206.132.3.223 as permitted sender) smtp.mail=10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa@bebeonline.bebe.com; dkim=pass header.i=@bebeonline.bebe.com
+ Return-Path: <10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa@bebeonline.bebe.com>
+ DKIM-Signature: v=1; a=rsa-sha1; d=bebeonline.bebe.com; s=ei; c=simple/simple;
+ 	q=dns/txt; i=@bebeonline.bebe.com; t=1323321469;
+ 	h=From:Subject:Date:To:MIME-Version:Content-Type;
+ 	bh=ilBFC5D34I0ihwuE7mCewdRyNDc=;
+ 	b=dKm6V+A6M0S2h9Uj+SLhGt9uwxxVX0uL6+G1hI1nJXJmROCoK2sggJit8PScnaer
+ 	eFbRvInJoD84T+IG5sbdlVlDkRGCDh9rAik0Zlh/c3/cAoSSdyYfpO+WLOUvornj
+ 	eQPTtwKZ6s1wS4i11255IW4rk2sag5wtdqZL/M1Dl2Q=;
+ DomainKey-Signature: q=dns; a=rsa-sha1; c=nofws;
+ 	s=ei; d=bebeonline.bebe.com;
+ 	h=List-Unsubscribe:Received:Reply-To:Bounces_to:Message-ID:X-SS:X-BFI:Date:From:Subject:To:MIME-Version:Content-Type;
+ 	b=V1pFd3xd5Zs1bL7d+7YfrWQtA/HwPdsGmcXC5+/CFi/z9YgyDONVvqD9s9NVPgNX
+ 	6r4nDhEeVU/w3Ch6kRhi/Xc25J29/8h0azK7z+cu4InYDb3HvU6OOo8eogoGs4Q5
+ 	iDXTdOPWGUmTFaY0rVP3qvxXJsxa/lVSK8BvdFNHrJ4=
+ List-Unsubscribe: <mailto:10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa@bebeonline.bebe.com?subject=unsubscribe>
+ Received: from [192.168.2.213] ([192.168.2.213:61995] helo=pimailer101)
+ 	by unjdrmmtap03.epsiloninteractive.com (envelope-from <10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa@bebeonline.bebe.com>)
+ 	(ecelerity 2.2.2.45 r(34222M)) with ESMTP
+ 	id 08/A6-29208-D7840EE4; Thu, 08 Dec 2011 00:17:49 -0500
+ Reply-To: =?iso-8859-1?B?ImJlYmUi?= <10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa@bebeonline.bebe.com>
+ Bounces_to: bebe.10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa@bebeonline.bebe.com
+ Message-ID: <10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa.1.5777.pweb5.DumpShot.X@bebeonline.bebe.com>
+ X-SS: 1-1-5890074-686244152
+ X-BFI: 10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa
+ Date: Thu, 08 Dec 2011 00:17:48 EST
+ From: =?iso-8859-1?B?YmViZS5jb20=?= <bebe@bebeonline.bebe.com>
+ Subject: =?iso-8859-1?B?VGhhbmsgeW91IGZvciBzaWduaW5nIHVwIGZvciBiZWJlIGVtYWlscyE=?= 
+ To: rootofsavvypurse@gmail.com
+ MIME-Version: 1.0
+ Content-Type: multipart/alternative;
+   boundary="ABCD-10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa-EFGH"
+ 
+ --ABCD-10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa-EFGH
+ Content-Type: text/plain; charset=iso-8859-1
+ Content-Transfer-Encoding: quoted-printable
+ 
+ YOU'RE ON THE LIST
+ Now you'll be the first to know about new arrivals, special offers, event=
+ s,
+ trends & so much more!
+ 
+ PLUS, FREE SHIPPING =
+ 
+ on your next purchase of $150 or more.*
+ 
+ ONLINE: =
+ 
+ Enter code at checkout: =
+ 
+ BEBE3926
+ Valid 12/05/11 - 12/18/11
+ 
+ SHOP NOW> =
+ 
+ http://bebeonline.bebe.com/18373ce8blayfousuboxsk5qaaaaabxp3htxsrz2bhayaa=
+ aaa
+ 
+ 
+ *********************************************************************
+ 
+ *FREE SHIPPING: For a limited time, enjoy free bebe basic shipping on you=
+ r order of $150 or more. Shipping and handling charges will automatically=
+  be deducted for eligible orders of $150 or more; enter code at checkout.=
+  Minimum purchase required; sales tax, gift cards, promotional items, and=
+  shipping and handling do not qualify toward the minimum purchase. Valid =
+ on bebe.com only. Expedited delivery available for an additional cost. Of=
+ fer not valid for Canadian orders. Offer not valid in stores. Subject to =
+ adjustment due to returns, cancellations and exchanges. Not valid on prev=
+ ious purchases. Other restrictions may apply. Offer valid only through da=
+ tes stated above.
+ 
+ 
+ Have a question? Call us at 1-877-bebe-777 (1-877-232-3777). We're sendin=
+ g you this email because you are a registered member of bebe.com's email =
+ list. If you no longer want to be on our mailing list, opt out anytime by=
+  clicking here to unsubscribe <http://bebeonline.bebe.com/16067fadflayfou=
+ suboxsk5yaaaaabxp3htxsrz2bhayaaaaa> . If you are subscribed to receive ot=
+ her bebe brand emails, you will be unsubscribed from these as well. You c=
+ an also write to us at: Client Services, bebe.com, 400 Valley Drive, Bris=
+ bane, CA 94005.
+ 
+ --ABCD-10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa-EFGH
+ Content-Type: text/html; charset=iso-8859-1
+ Content-Transfer-Encoding: quoted-printable
+ 
+ <html>
+ <head>
+ <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-asci=
+ i">
+ <!campaignID: bebecom_welcome>
+ <style type=3D"text/css">
+ 
+ a:link
+ 	{color:#666;
+ 	text-decoration:none}
+ a:visited
+ 	{color:#828282;
+ 	text-decoration:none}
+ a:hover
+ 	{text-decoration:none;
+ 	color:#f16f90}
+ a:active
+ 	{color:#f16f90;
+ 	text-decoration:none}
+ =2Esuc-link a:link
+ 	{color:#fff;
+ 	text-decoration:none}
+ =2EcopyMAIN
+ 	{font-family:Arial,Helvetica,sans-serif;
+ 	font-size:8pt;
+ 	color:#828282;
+ 	font-weight:normal;
+ 	line-height:12pt;
+ 	text-align:center}
+ =2Efixed_height_page
+ 	{height:650px}
+ =2Eheader1
+ 	{font-family:Arial,Helvetica,sans-serif;
+ 	font-size:12pt;
+ 	color:#000;
+ 	font-weight:normal;
+ 	letter-spacing:1.5pt}
+ =2Eheading2
+ 	{font-family:Arial,Helvetica,sans-serif;
+ 	line-height:12pt;
+ 	font-size:8pt;
+ 	font-weight:bold;
+ 	letter-spacing:normal;
+ 	color:#828282}
+ =2Espacing_blank
+ 	{letter-spacing:4pt}
+ =2Eindent
+ 	{padding-right:20px;
+ 	padding-left:10px;
+ 	font-size:9.5px}
+ =2Epink
+ 	{font-family:Arial,Helvetica,sans-serif;
+ 	font-size:8pt;
+ 	color:#eb008b}
+ =2Epadding_top_dash01
+ 	{border-bottom-width:1px;
+ 	border-bottom-style:dotted;
+ 	border-bottom-color:#cccccc;
+ 	padding-right:30px;
+ 	padding-left:30px;
+ 	padding-top:14px;
+ 	padding-bottom:10px;
+ 	border-top-color:#cccccc;
+ 	border-right-color:#cccccc;
+ 	border-left-color:#cccccc}
+ =2Eacross_dash
+ 	{height:0px;
+ 	border-top-width:1px;
+ 	border-right-width:1px;
+ 	border-bottom-width:1px;
+ 	border-left-width:1px;
+ 	border-top-style:dotted;
+ 	border-right-style:none;
+ 	border-bottom-style:none;
+ 	border-left-style:none;
+ 	border-top-color:#cccccc;
+ 	border-right-color:#cccccc;
+ 	border-bottom-color:#cccccc;
+ 	border-left-color:#cccccc;
+ 	padding-top:5px;
+ 	padding-bottom:5px}
+ =2Epadding_mainCOPY
+ 	{padding-top:5px;
+ 	padding-right:30px;
+ 	padding-bottom:5px;
+ 	padding-left:15px;
+ 	color:#FFF}
+ body, td, th
+ 	{font-family:Arial,Helvetica,sans-serif}
+ h1
+ 	{font-size:9.5pt;
+ 	color:#000000}
+ h2
+ 	{font-size:8pt;
+ 	color:#666666}
+ =2Estyle84
+ 	{font-size:9px;
+ 	font-family:Arial,Helvetica,sans-serif;
+ 	color:#000000}
+ #main_holder_table tr td table tr td .style84
+ 	{font-size:10px;
+ 	color:#666}
+ =2Eheading21
+ 	{font-family:Arial,Helvetica,sans-serif;
+ 	line-height:12pt;
+ 	font-size:8pt;
+ 	font-weight:bold;
+ 	letter-spacing:normal;
+ 	color:#fff}
+ =2Eindent1
+ 	{padding-right:20px;
+ 	padding-left:10px;
+ 	font-size:9.5px;
+ 	color:#fff}
+ =2Esuc-link
+ 	{color:#c11414;
+ 	}
+ =2Esuc-link1
+ 	{color:#ff0016;
+ 	}
+ 	=
+ 
+ =2Eoffercode {
+ 	color:#000;
+ 	font-size:12px;
+ 	}
+ 
+ </style>
+ <title>Thank you for signing up for bebe emails!</title>
+ </head>
+ <body>
+ <div style=3D"display: inline;"><img style=3D"border-style: none;" src=3D=
+ "8.0.813.0/themes/base/clear.gif" border=3D"1" width=3D"1" height=3D"1"><=
+ /div>
+ <table id=3D"main_holder_table" border=3D"0" cellpadding=3D"0" cellspacin=
+ g=3D"0" width=3D"100%">
+ <tbody>
+ <tr>
+ <td height=3D"57">
+ <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+ width=3D"600">
+ <tbody>
+ <tr>
+ <td><center>
+ <p class=3D"copyMAIN">Be the first to know about what's new at bebe + enj=
+ oy free shipping! <a href=3D"http://bebeonline.bebe.com/1e93953b6layfousi=
+ boxskwaaaaaabxp3htxsrz2bhayaaaaa"><u>Shop now</u></a><br> <span class=3D"=
+ copyMAIN">To continue to receive our email in your inbox, please add bebe=
+  (bebe@bebeonline.bebe.com) to your address book.<br> </span><span class=3D=
+ "copyMAIN">Having trouble viewing this email? Please <a href=3D"http://be=
+ beonline.bebe.com/10a2d67e2layfousiboxskwiaaaaabxp3htxsrz2bhayaaaaa" targ=
+ et=3D"_blank"> <u>click here</u></a>.</span></p>
+ </center></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td bgcolor=3D"#282826">
+ <table id=3D"header_" align=3D"center" border=3D"0" cellpadding=3D"0" cel=
+ lspacing=3D"0" width=3D"600">
+ <tbody>
+ <tr>
+ <td align=3D"left" valign=3D"bottom"><img src=3D"https://images-na.ssl-im=
+ ages-amazon.com/images/G/01/00/00/14/65/93/11/1465931110.gif" border=3D"0=
+ " alt=3D"bebe" width=3D"600" height=3D"37"> =
+ 
+ <map name=3D"Map9" id=3D"Map9">
+ <area shape=3D"rect" coords=3D"1,4,136,33" href=3D"http://bebeonline.bebe=
+ =2Ecom/1f4603d5flayfousiboxskwqaaaaabxp3htxsrz2bhayaaaaa" alt=3D"bebe">
+ <area shape=3D"rect" coords=3D"553,6,598,32" href=3D"http://bebeonline.be=
+ be.com/11774090blayfousiboxskwyaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Sale">
+ <area shape=3D"rect" coords=3D"487,6,550,32" href=3D"http://bebeonline.be=
+ be.com/1050120b6layfousiboxskxaaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Shoes">
+ <area shape=3D"rect" coords=3D"428,5,485,32" href=3D"http://bebeonline.be=
+ be.com/1e61514e2layfousiboxskxiaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Logo">
+ <area shape=3D"rect" coords=3D"375,4,426,32" href=3D"http://bebeonline.be=
+ be.com/118584e5flayfousiboxskxqaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Tops">
+ <area shape=3D"rect" coords=3D"288,3,372,32" href=3D"http://bebeonline.be=
+ be.com/1fb4c7a0blayfousiboxskxyaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Dresses"=
+ >
+ <area shape=3D"rect" coords=3D"216,3,284,32" href=3D"http://bebeonline.be=
+ be.com/133f3b045layfousiboxskyaaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Just In"=
+ > =
+ 
+ </map>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td class=3D"across_dash">
+ <table id=3D"nav_top_header" align=3D"center" border=3D"0" cellpadding=3D=
+ "0" cellspacing=3D"0" width=3D"600">
+ <tbody>
+ <tr>
+ <td class=3D"heading2">
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600">
+ <tbody>
+ <tr>
+ <td rowspan=3D"3" width=3D"303"><a href=3D"http://bebeonline.bebe.com/1d0=
+ e78411layfousiboxskyiaaaaabxp3htxsrz2bhayaaaaa"><img src=3D"https://image=
+ s-na.ssl-images-amazon.com/images/G/01/00/00/16/46/35/36/1646353630.jpg" =
+ border=3D"0" alt=3D"bebe" width=3D"302" height=3D"603"></a></td>
+ <td background=3D"https://images-na.ssl-images-amazon.com/images/G/01/00/=
+ 00/14/66/11/63/1466116350.gif" valign=3D"top" width=3D"297"><a href=3D"ht=
+ tp://bebeonline.bebe.com/12eaadeaclayfousiboxskyqaaaaabxp3htxsrz2bhayaaaa=
+ a"><img src=3D"https://images-na.ssl-images-amazon.com/images/G/01/00/00/=
+ 17/05/78/73/1705787330.jpg" border=3D"0" alt=3D"You're on the list!" widt=
+ h=3D"302" height=3D"419"></a></td>
+ </tr>
+ <tr>
+ <td background=3D"https://images-na.ssl-images-amazon.com/images/G/01/00/=
+ 00/14/66/11/63/1466116350.gif" height=3D"41">
+ <table align=3D"right" border=3D"0" cellpadding=3D"2" cellspacing=3D"0" w=
+ idth=3D"264">
+ <tbody>
+ <tr>
+ <td class=3D"offercode">BEBE3926<br> Valid 12/05/11 - 12/18/11</td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td background=3D"https://images-na.ssl-images-amazon.com/images/G/01/00/=
+ 00/14/66/11/63/1466116350.gif" height=3D"128" valign=3D"bottom"><a href=3D=
+ "http://bebeonline.bebe.com/1cdbeeaf8layfousiboxskyyaaaaabxp3htxsrz2bhaya=
+ aaaa"><img src=3D"https://images-na.ssl-images-amazon.com/images/G/01/00/=
+ 00/14/75/60/12/1475601250.gif" border=3D"0" alt=3D"Shop Now" width=3D"301=
+ " height=3D"128"></a></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+ width=3D"600">
+ <tbody>
+ <tr>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <table id=3D"body_image" align=3D"center" border=3D"0" cellpadding=3D"0" =
+ cellspacing=3D"0" width=3D"600">
+ <tbody>
+ <tr>
+ <td class=3D"main_body_outline" width=3D"600"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td height=3D"153">
+ <table id=3D"footer_social_network" align=3D"center" border=3D"0" cellpad=
+ ding=3D"0" cellspacing=3D"0" width=3D"600">
+ <tbody>
+ <tr>
+ <td height=3D"84"><img src=3D"https://images-na.ssl-images-amazon.com/ima=
+ ges/G/01/00/00/16/56/16/18/1656161850.gif" border=3D"0" width=3D"600" hei=
+ ght=3D"145"></td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+ width=3D"600">
+ <tbody>
+ <tr>
+ <td>
+ <p class=3D"style84">*FREE SHIPPING: For a limited time, enjoy free bebe =
+ basic shipping on your order of $150 or more. Shipping and handling charg=
+ es will automatically be deducted for eligible orders of $150 or more; en=
+ ter code at checkout. Minimum purchase required; sales tax, gift cards, p=
+ romotional items, and shipping and handling do not qualify toward the min=
+ imum purchase. Valid on bebe.com only. Expedited delivery available for a=
+ n additional cost. Offer not valid for Canadian orders. Offer not valid i=
+ n stores. Subject to adjustment due to returns, cancellations and exchang=
+ es. Not valid on previous purchases. Other restrictions may apply. Offer =
+ valid only through dates stated above.</p>
+ <p class=3D"style84">Have a question? Call us at 1-877-bebe-777 (1-877-23=
+ 2-3777). We're sending you this email because you are a registered member=
+  of bebe.com's email list. If you no longer want to be on our mailing lis=
+ t, opt out anytime by<a href=3D"redir.aspx?URL=3Dhttp%3a%2f%2fbebeonline.=
+ bebe.com%2fPUBLISH(bebe_optout)" target=3D"_blank"> <u>clicking here</u><=
+ /a> to unsubscribe. If you are subscribed to receive other bebe brand ema=
+ ils, you will be unsubscribed from these as well. You can also write to u=
+ s at: Client Services, bebe.com, 400 Valley Drive, Brisbane, CA 94005.</p=
+ >
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ <p>
+ <map name=3D"titlebar">
+ <area shape=3D"rect" coords=3D"2,4,234,34" href=3D"http://bebeonline.bebe=
+ =2Ecom/168e40150layfousiboxskzaaaaaabxp3htxsrz2bhayaaaaa" alt=3D"clubbebe=
+ ">
+ <area shape=3D"rect" coords=3D"267,5,340,32" href=3D"http://bebeonline.be=
+ be.com/18bf03504layfousiboxskziaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Just In"=
+ >
+ <area shape=3D"rect" coords=3D"343,5,424,33" href=3D"http://bebeonline.be=
+ be.com/175bd6fb9layfousiboxskzqaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Dresses"=
+ >
+ <area shape=3D"rect" coords=3D"429,6,481,33" href=3D"http://bebeonline.be=
+ be.com/196a95bedlayfousiboxskzyaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Tops">
+ <area shape=3D"rect" coords=3D"484,6,538,33" href=3D"http://bebeonline.be=
+ be.com/1d5cf82c3layfousiboxsk2aaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Logo">
+ <area shape=3D"rect" coords=3D"545,6,598,31" href=3D"http://bebeonline.be=
+ be.com/136dbb697layfousiboxsk2iaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Shoes"> =
+ 
+ </map>
+ <map name=3D"footer">
+ <area shape=3D"rect" coords=3D"225,4,338,100" href=3D"http://bebeonline.b=
+ ebe.com/1c896ec2alayfousiboxsk2qaaaaabxp3htxsrz2bhayaaaaa">
+ <area shape=3D"rect" coords=3D"131,5,224,101" href=3D"http://bebeonline.b=
+ ebe.com/12b82d87elayfousiboxsk2yaaaaabxp3htxsrz2bhayaaaaa">
+ <area shape=3D"rect" coords=3D"528,41,562,75" href=3D"http://bebeonline.b=
+ ebe.com/1e33d1230layfousiboxsk3aaaaaabxp3htxsrz2bhayaaaaa" alt=3D"YouTube=
+ ">
+ <area shape=3D"rect" coords=3D"563,41,597,75" href=3D"http://bebeonline.b=
+ ebe.com/100292664layfousiboxsk3iaaaaabxp3htxsrz2bhayaaaaa" alt=3D"bebe Ap=
+ ps">
+ <area shape=3D"rect" coords=3D"563,4,597,38" href=3D"http://bebeonline.be=
+ be.com/1fe647cd9layfousiboxsk3qaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Twitter"=
+ >
+ <area shape=3D"rect" coords=3D"1,2,105,104" href=3D"http://bebeonline.beb=
+ e.com/11d70488dlayfousiboxsk3yaaaaabxp3htxsrz2bhayaaaaa" alt=3D"bebe Gift=
+  Cards">
+ <area shape=3D"rect" coords=3D"371,11,506,41" href=3D"http://bebeonline.b=
+ ebe.com/163e0e0e9layfousiboxsk4aaaaaabxp3htxsrz2bhayaaaaa" alt=3D"U.S. Te=
+ xt Messages">
+ <area shape=3D"rect" coords=3D"370,42,506,66" href=3D"http://bebeonline.b=
+ ebe.com/180f4d4bdlayfousiboxsk4iaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Canada =
+ Text Messages">
+ <area shape=3D"rect" coords=3D"445,68,506,83" href=3D"http://bebeonline.b=
+ ebe.com/17eb98e00layfousiboxsk4qaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Text In=
+ fo">
+ <area shape=3D"rect" coords=3D"528,4,562,38" href=3D"http://bebeonline.be=
+ be.com/19dadba54layfousiboxsk4yaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Facebook=
+ ">
+ <area shape=3D"rect" coords=3D"4,110,298,139" href=3D"http://bebeonline.b=
+ ebe.com/15512701alayfousiboxsk5aaaaaabxp3htxsrz2bhayaaaaa" alt=3D"Stylust=
+ ">
+ <area shape=3D"rect" coords=3D"301,109,597,140" href=3D"http://bebeonline=
+ =2Ebebe.com/1b606444elayfousiboxsk5iaaaaabxp3htxsrz2bhayaaaaa" alt=3D"The=
+  Lounge"> =
+ 
+ </map>
+ </p>
+ <IMG SRC=3D"http://bebeonline.bebe.com/122087f7flayfor2iaykcezaaaaaabxp3h=
+ txsrz2bhayaaaaa"></body>
+ </html>
+ --ABCD-10a69a3balayfovciaykcezaaaaaabxp3htxsrz2bhayaaaaa-EFGH--
+

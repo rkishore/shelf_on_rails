@@ -1,0 +1,2397 @@
+<?xml version="1.0"?>
+<SearchResult>
+<QueryDetails>
+<Category>mens-jeans</Category>
+<CategoryName>Jeans</CategoryName>
+<ShowSizeFilter>true</ShowSizeFilter>
+<ShowColorFilter>true</ShowColorFilter>
+<Filter>
+<Type>Brand</Type>
+<Id>13342</Id>
+<Name>Express</Name>
+</Filter>
+</QueryDetails>
+<TotalCount>25</TotalCount>
+<Product>
+<Id>317703255</Id>
+<Name>Slim Fit Straight Leg Rocco Jean - White</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These Rocco jeans have attitude, swagger and style. Our slim fit gives a little room with a little edge. With back pocket flaps and enamel hardware details, these white jeans will make a statement no matter where you are. &lt;ul&gt; &lt;li&gt;Slim fit, low rise, straight leg&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket flaps and stitching&lt;/li&gt; &lt;li&gt;White denim with enamel hardware detail&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=317703255&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/dc/8a/dc8a83d746b12945518b8d98d015b801_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/dc/8a/dc8a83d746b12945518b8d98d015b801_medium/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean-white.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/dc/8a/dc8a83d746b12945518b8d98d015b801/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean-white.jpg</Url>
+</Image>
+<Color>
+<Name>WHITE</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Low Rise Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-low-rise-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-12-29</ExtractDate>
+</Product>
+<Product>
+<Id>308095451</Id>
+<Name>Loose Fit Boot Cut Blake Jean</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These looser-fitting jeans have easy, casual style. Our most relaxed cut is just as comfortable as it is cool. Washed for the right look. &lt;ul&gt; &lt;li&gt;Low rise, loose fit, boot cut&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Fabric has a touch of stretch to it&lt;/li&gt; &lt;li&gt;98% Cotton 2% Spandex&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308095451&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/32/f0/32f0b104f60e93fdf5f8399396dfcdf5_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/32/f0/32f0b104f60e93fdf5f8399396dfcdf5_medium/express-bootcut-jeans-loose-fit-boot-cut-blake-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/32/f0/32f0b104f60e93fdf5f8399396dfcdf5/express-bootcut-jeans-loose-fit-boot-cut-blake-jean.jpg</Url>
+</Image>
+<Color>
+<Name>BLUE</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-loose-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-relaxed-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Loose Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Relaxed Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-29</ExtractDate>
+</Product>
+<Product>
+<Id>308410038</Id>
+<Name>Extra Slim Fit Straight Leg Zach Jean</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A vintage-inspired, medium-wash jean in our slimmest fitting shape. This pair will stand the test of time, getting more broken in and faded with each wash. It's a modern take on an American classic. &lt;ul&gt; &lt;li&gt;Extra slim fit, low rise, straight leg&lt;/li&gt; &lt;li&gt;Button front with zip fly&lt;/li&gt; &lt;li&gt;Buttoned coin pocket and back pockets&lt;/li&gt; &lt;li&gt;Medium wash jean with nicked and grinding details&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308410038&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/4b/bf/4bbf5d43948dfa21761ae3a631b3f8ad_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/4b/bf/4bbf5d43948dfa21761ae3a631b3f8ad_medium/express-low-rise-jeans-extra-slim-fit-straight-leg-zach-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/4b/bf/4bbf5d43948dfa21761ae3a631b3f8ad/express-low-rise-jeans-extra-slim-fit-straight-leg-zach-jean.jpg</Url>
+</Image>
+<Color>
+<Name>BLUE</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Low Rise Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-low-rise-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-30</ExtractDate>
+</Product>
+<Product>
+<Id>308095146</Id>
+<Name>Slim Fit Straight Leg Rocco Jean</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These Rocco jeans have attitude, swagger and style. Our slim fit gives a little room with a little edge. Our unique dying process ensures that over time this garment will wear in, become softer and its color will fade. &lt;ul&gt; &lt;li&gt;Low rise, slim fit, straight leg&lt;/li&gt; &lt;li&gt;Button front with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Slightly destructed, lightly whiskered, thick stitching&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=308095146&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/37/d1/37d1a342bdad395ea9dd41835918ca30_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/37/d1/37d1a342bdad395ea9dd41835918ca30_medium/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/37/d1/37d1a342bdad395ea9dd41835918ca30/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean.jpg</Url>
+</Image>
+<Color>
+<Name>BLUE</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Low Rise Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-low-rise-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-29</ExtractDate>
+</Product>
+<Product>
+<Id>303491661</Id>
+<Name>Extra Slim Fit Straight Leg Zach Jean</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The opposite of a trend, these jeans transcend fad and settle right into permanent rotation status. Double reinforced back pockets and busted seams ensure comfort and durability. The denim may fade, but the style never will. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Extra slim fit, low rise, straight leg&lt;/li&gt; &lt;li&gt;Button front with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Clean, washed black denim&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303491661&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/f2/42/f24218358b640b0783f0b63fb35ef314_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/f2/42/f24218358b640b0783f0b63fb35ef314_medium/express-low-rise-jeans-extra-slim-fit-straight-leg-zach-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/f2/42/f24218358b640b0783f0b63fb35ef314/express-low-rise-jeans-extra-slim-fit-straight-leg-zach-jean.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Low Rise Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-low-rise-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-14</ExtractDate>
+</Product>
+<Product>
+<Id>303822062</Id>
+<Name>Slim Fit Boot Cut Rocco Jean</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These slim-fit Rocco jeans have attitude, swagger and style. Our slim cut gives a little room with a little edge. Washed for the right look and feel. &lt;ul&gt; &lt;li&gt;Low rise, slim fit, boot cut&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back flap pocket stitching&lt;/li&gt; &lt;li&gt;Slightly worn details, faded details&lt;/li&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=303822062&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/b7/b1/b7b1c434adc3b001797fbe67de8a7ce0_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/b7/b1/b7b1c434adc3b001797fbe67de8a7ce0_medium/express-bootcut-jeans-slim-fit-boot-cut-rocco-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/b7/b1/b7b1c434adc3b001797fbe67de8a7ce0/express-bootcut-jeans-slim-fit-boot-cut-rocco-jean.jpg</Url>
+</Image>
+<Color>
+<Name>BLUE</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Size>
+<Name>W38 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-11-15</ExtractDate>
+</Product>
+<Product>
+<Id>299015440</Id>
+<Name>Chronograph Leather Strap Watch - Brown</Name>
+<Currency>USD</Currency>
+<Price>128.0</Price>
+<PriceLabel>$128.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>A traditional style with a multi-functional face gives you a look that's truly timeless. The crocodile-pattern leather strap and silver-toned details make this piece right for day or night.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Case size: 44mm, Quartz Analog Japanese Movement&lt;/li&gt;
+                     		&lt;li&gt;Chronograph face, stop watch feature on side&lt;/li&gt;
+                     		&lt;li&gt;Leather strap, adjustable buckle&lt;/li&gt;
+                     		&lt;li&gt;Nickle-free, lead free, hypoallergenic&lt;/li&gt;
+                     		&lt;li&gt;Water resistant: 3 ATM/30 meters&lt;/li&gt;
+                     		&lt;li&gt;2 year limited warranty&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=299015440&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/07/78/0778634a62c1d1276e39770560dd4936_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/07/78/0778634a62c1d1276e39770560dd4936_medium/express-watches-chronograph-leather-strap-watch-brown.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/07/78/0778634a62c1d1276e39770560dd4936/express-watches-chronograph-leather-strap-watch-brown.jpg</Url>
+</Image>
+<Color>
+<Name>BROWN</Name>
+</Color>
+<Category>mens-watches</Category>
+<Category>mens-sweaters</Category>
+<Category>mens-jeans</Category>
+<CategoryName>Watches</CategoryName>
+<CategoryName>Sweaters</CategoryName>
+<CategoryName>Jeans</CategoryName>
+<SeeMoreLabel>Watches by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-watches/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>299015448</Id>
+<Name>Chronograph Resin Bracelet Watch</Name>
+<Currency>USD</Currency>
+<Price>128.0</Price>
+<PriceLabel>$128.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Lighten up your look with smooth, white resin. Silver-tone details and luminous hour markers make this luxurious timepiece a serious yet simply-styled watch.
+                     	&lt;ul&gt;
+                     		&lt;li&gt;Watch case: 44mm, Quartz Analog Japanese Movement&lt;/li&gt;
+                     		&lt;li&gt;Chronograph face with date, stop watch function&lt;/li&gt;
+                     		&lt;li&gt;Fold-over clasp closure with push-button release&lt;/li&gt;
+                     		&lt;li&gt;Nickle-free, lead free, hypoallergenic&lt;/li&gt;
+                     		&lt;li&gt;Water resistant: 3 ATM/30 meters&lt;/li&gt;
+                     		&lt;li&gt;2 year limited warranty&lt;/li&gt;
+                     		&lt;li&gt;Imported&lt;/li&gt;
+                     	&lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=299015448&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/cd/83/cd834ad8d01573c60c21552114983aa1_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/cd/83/cd834ad8d01573c60c21552114983aa1_medium/express-watches-chronograph-resin-bracelet-watch.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/cd/83/cd834ad8d01573c60c21552114983aa1/express-watches-chronograph-resin-bracelet-watch.jpg</Url>
+</Image>
+<Color>
+<Name>PURE WHITE</Name>
+</Color>
+<Category>mens-watches</Category>
+<Category>mens-sweaters</Category>
+<Category>mens-jeans</Category>
+<CategoryName>Watches</CategoryName>
+<CategoryName>Sweaters</CategoryName>
+<CategoryName>Jeans</CategoryName>
+<SeeMoreLabel>Watches by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-watches/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-10-27</ExtractDate>
+</Product>
+<Product>
+<Id>288740073</Id>
+<Name>Classic Fit Boot Cut Kingston Jean</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The Kingston jean goes anywhere and goes with anything. Our classic cut is bigger at the ankle to fit your boots. Wear this dark wash for a variety of occasions. &lt;ul&gt; &lt;li&gt;95% Cotton/5% Spandex&lt;/li&gt; &lt;li&gt;Low rise, classic fit, boot cut&lt;/li&gt; &lt;li&gt;Button front with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Dark jean, Midnight Blasted Wash&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=288740073&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/47/6f/476f7e5320c03f9d3f60e0b3120035d3_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/47/6f/476f7e5320c03f9d3f60e0b3120035d3_medium/express-bootcut-jeans-classic-fit-boot-cut-kingston-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/47/6f/476f7e5320c03f9d3f60e0b3120035d3/express-bootcut-jeans-classic-fit-boot-cut-kingston-jean.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-30</ExtractDate>
+</Product>
+<Product>
+<Id>288740855</Id>
+<Name>Classic Fit Straight Leg Kingston Jean</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The Kingston jean goes anywhere and goes with anything. With a low-rise fit and a straight leg opening, these jeans are engineered to be laid back and fashion forward. Wear this medium wash for a variety of occasions. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, classic fit, straight leg&lt;/li&gt; &lt;li&gt;Button front with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Dark destructed wash&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=288740855&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/9c/0b/9c0b8aec3520804ffd5c3acf26a1ab7a_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/9c/0b/9c0b8aec3520804ffd5c3acf26a1ab7a_medium/express-low-rise-jeans-classic-fit-straight-leg-kingston-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/9c/0b/9c0b8aec3520804ffd5c3acf26a1ab7a/express-low-rise-jeans-classic-fit-straight-leg-kingston-jean.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Low Rise Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-low-rise-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-30</ExtractDate>
+</Product>
+<Product>
+<Id>288740499</Id>
+<Name>Slim Fit Boot Cut Rocco Jean</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These boot cut Rocco jeans have attitude, swagger and style. Our slim-fit cut gives you just enough room and just enough edge. Washed for the right look and feel. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, slim fit, boot cut&lt;/li&gt; &lt;li&gt;Button front with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Dirty streaked style, destroyed details&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=288740499&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/64/9c/649cd0e6d18cd77cb8ff3a7a6529ccbf_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/64/9c/649cd0e6d18cd77cb8ff3a7a6529ccbf_medium/express-bootcut-jeans-slim-fit-boot-cut-rocco-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/64/9c/649cd0e6d18cd77cb8ff3a7a6529ccbf/express-bootcut-jeans-slim-fit-boot-cut-rocco-jean.jpg</Url>
+</Image>
+<Color>
+<Name>MEDIUM</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Size>
+<Name>W38 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-30</ExtractDate>
+</Product>
+<Product>
+<Id>283818178</Id>
+<Name>Extra Slim Fit Straight Leg Zach Jean</Name>
+<Currency>USD</Currency>
+<Price>98.0</Price>
+<PriceLabel>$98.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Go straight and narrow for the hippest, modern look in jeans. Our slimmest fitting cut gives a whole new meaning to rockstar. Washed and worn for the right look and feel. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, extra slim fit, straight leg&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Destroyed details&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=283818178&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/1d/8a/1d8a9486f4fe050050eb75e031d900fb_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/1d/8a/1d8a9486f4fe050050eb75e031d900fb_medium/express-low-rise-jeans-extra-slim-fit-straight-leg-zach-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/1d/8a/1d8a9486f4fe050050eb75e031d900fb/express-low-rise-jeans-extra-slim-fit-straight-leg-zach-jean.jpg</Url>
+</Image>
+<Color>
+<Name>LIGHT</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Low Rise Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-low-rise-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-09-16</ExtractDate>
+</Product>
+<Product>
+<Id>266248706</Id>
+<Name>Classic Fit Boot Cut Stretch Kingston Jean</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The Kingston jean goes anywhere and goes with anything. Achieve a formal look by pairing this clean, dark jean with a 1MX shirt and tie or dress it down with a graphic tee. &lt;ul&gt; &lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt; &lt;li&gt;Classic fit, low rise, straight leg&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with contrast back pocket stitching&lt;/li&gt; &lt;li&gt;Clean, dark jean&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=266248706&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/fe/29/fe297adc6a262d20053db74d68fd217c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/fe/29/fe297adc6a262d20053db74d68fd217c_medium/express-bootcut-jeans-classic-fit-boot-cut-stretch-kingston-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/fe/29/fe297adc6a262d20053db74d68fd217c/express-bootcut-jeans-classic-fit-boot-cut-stretch-kingston-jean.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-28</ExtractDate>
+</Product>
+<Product>
+<Id>262976288</Id>
+<Name>Loose Fit Boot Cut Stretch Blake Jean</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These looser-fitting jeans have easy, casual style. Our most relaxed cut is just as comfortable as it is cool. Washed for the right look. &lt;ul&gt; &lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt; &lt;li&gt;Low rise, loose fit, boot cut&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Faded, lightly whiskered&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=262976288&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/94/c9/94c9cbfab255cd671224f079df0c99fe_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/94/c9/94c9cbfab255cd671224f079df0c99fe_medium/express-bootcut-jeans-loose-fit-boot-cut-stretch-blake-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/94/c9/94c9cbfab255cd671224f079df0c99fe/express-bootcut-jeans-loose-fit-boot-cut-stretch-blake-jean.jpg</Url>
+</Image>
+<Color>
+<Name>LIGHT</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-loose-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-relaxed-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Loose Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Relaxed Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-19</ExtractDate>
+</Product>
+<Product>
+<Id>262621013</Id>
+<Name>Slim Fit Straight Leg Rocco Jean</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These Rocco jeans have attitude, swagger and style. Our slim fit gives a little room with a little edge. Our unique dying process ensures that over time this garment will wear in, become softer and its color will fade. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, slim fit, straight leg&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Dark jean with whiskering and lightly blasted details&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=262621013&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/c2/e9/c2e9212929ae51e239cf20f933633c58_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/c2/e9/c2e9212929ae51e239cf20f933633c58_medium/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/c2/e9/c2e9212929ae51e239cf20f933633c58/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Size>
+<Name>W38 L34</Name>
+</Size>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Low Rise Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-low-rise-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-18</ExtractDate>
+</Product>
+<Product>
+<Id>260518118</Id>
+<Name>Slim Fit Straight Leg Rocco Jean</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These Rocco jeans have attitude, swagger and style. Our slim fit gives a little room with a little edge. Our unique dying process ensures that over time this garment will wear in, become softer and its color will fade. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Slim fit, low rise, straight leg&lt;/li&gt; &lt;li&gt;1-button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Clean, dark jean&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=260518118&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/10/9e/109e82107095e4c0f84fc2a90bc440c4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/10/9e/109e82107095e4c0f84fc2a90bc440c4_medium/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/10/9e/109e82107095e4c0f84fc2a90bc440c4/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean.jpg</Url>
+</Image>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Low Rise Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-low-rise-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-07-11</ExtractDate>
+</Product>
+<Product>
+<Id>255695387</Id>
+<Name>Slim Fit Straight Leg Rocco Jean</Name>
+<Currency>USD</Currency>
+<Price>69.9</Price>
+<PriceLabel>$69.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These Rocco jeans have attitude, swagger and style. Our slim fit gives a little room with a little edge. Our unique dying process ensures that over time this garment will wear in, become softer and its color will fade. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, slim fit, straight leg&lt;/li&gt; &lt;li&gt;Button front with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Lightly whiskered&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=255695387&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/5e/6e/5e6e3d11113046d0c4c5b9f9e4000ee9_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/5e/6e/5e6e3d11113046d0c4c5b9f9e4000ee9_medium/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/5e/6e/5e6e3d11113046d0c4c5b9f9e4000ee9/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Low Rise Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-low-rise-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-24</ExtractDate>
+</Product>
+<Product>
+<Id>256823401</Id>
+<Name>Classic Fit Boot Cut Kingston Jean</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The Kingston jean goes anywhere and goes with anything. Our classic cut is bigger at the ankle to fit your boots. Slightly destroyed details for the perfect worn-in look. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, classic fit, boot cut&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Faded through thigh and knee, slight destroyed details&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=256823401&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/0b/48/0b48372f080b14060c383379672e3c2b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/0b/48/0b48372f080b14060c383379672e3c2b_medium/express-bootcut-jeans-classic-fit-boot-cut-kingston-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/0b/48/0b48372f080b14060c383379672e3c2b/express-bootcut-jeans-classic-fit-boot-cut-kingston-jean.jpg</Url>
+</Image>
+<Color>
+<Name>LIGHT</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-28</ExtractDate>
+</Product>
+<Product>
+<Id>253076837</Id>
+<Name>Loose Fit Boot Cut Blake Jean</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These looser-fitting jeans have easy, casual style. Our most relaxed cut is just as comfortable as it is cool. Washed for the right look. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, loose fit, boot cut&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Faded, lightly whiskered&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=253076837&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/10/8e/108e6fe9d27659bb2e766b873d3b379f_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/10/8e/108e6fe9d27659bb2e766b873d3b379f_medium/express-bootcut-jeans-loose-fit-boot-cut-blake-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/10/8e/108e6fe9d27659bb2e766b873d3b379f/express-bootcut-jeans-loose-fit-boot-cut-blake-jean.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-loose-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-relaxed-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Loose Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Relaxed Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-16</ExtractDate>
+</Product>
+<Product>
+<Id>253076821</Id>
+<Name>Slim Fit Boot Cut Stretch Rocco Jean</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These Rocco jeans have attitude, swagger and style. Our new stretch cotton denim adds extra give to your gait. Washed for the right look and feel. &lt;ul&gt; &lt;li&gt;98% Cotton/2% Spandex&lt;/li&gt; &lt;li&gt;Slim fit, low rise, straight leg&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Light whiskering on front&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=253076821&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/30/94/3094d4f2fda8d76681e813550d50a930_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/30/94/3094d4f2fda8d76681e813550d50a930_medium/express-bootcut-jeans-slim-fit-boot-cut-stretch-rocco-jean.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/30/94/3094d4f2fda8d76681e813550d50a930/express-bootcut-jeans-slim-fit-boot-cut-stretch-rocco-jean.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-16</ExtractDate>
+</Product>
+<Product>
+<Id>254196630</Id>
+<Name>Loose Fit Boot Cut Blake Jean - Dark Sand Wash</Name>
+<Currency>USD</Currency>
+<Price>79.9</Price>
+<PriceLabel>$79.90</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These looser-fitting jeans have easy, casual style. Our most relaxed cut is just as comfortable as it is cool. Washed for the right look. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, loose fit, boot cut&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=254196630&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/a7/28/a72870672bae410caaca3fb7018bc9d0_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/a7/28/a72870672bae410caaca3fb7018bc9d0_medium/express-bootcut-jeans-loose-fit-boot-cut-blake-jean-dark-sand-wash.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/a7/28/a72870672bae410caaca3fb7018bc9d0/express-bootcut-jeans-loose-fit-boot-cut-blake-jean-dark-sand-wash.jpg</Url>
+</Image>
+<Color>
+<Name>DARK</Name>
+</Color>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-loose-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-relaxed-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Loose Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Relaxed Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-06-20</ExtractDate>
+</Product>
+<Product>
+<Id>245721398</Id>
+<Name>Slim Fit Boot Cut Rocco Jean - Light Weathered</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>These boot cut Rocco jeans have attitude, swagger and style. Our slim-fit cut gives you just enough room and just enough edge. Washed for the right look and feel. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Thick stitch details, contrast back pocket stitching&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling&lt;/li&gt; &lt;li&gt;Low rise, boot cut, slim fit&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=245721398&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/53/76/537605c35ea94c9e3c32af0e92d09252_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/53/76/537605c35ea94c9e3c32af0e92d09252_medium/express-bootcut-jeans-slim-fit-boot-cut-rocco-jean-light-weathered.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/53/76/537605c35ea94c9e3c32af0e92d09252/express-bootcut-jeans-slim-fit-boot-cut-rocco-jean-light-weathered.jpg</Url>
+</Image>
+<Color>
+<Name>LIGHT</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W38 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Size>
+<Name>W38 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-05-23</ExtractDate>
+</Product>
+<Product>
+<Id>228673927</Id>
+<Name>Classic Fit Boot Cut Kingston Jean-Med Distressed</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>The Kingston jean goes anywhere and goes with anything. Our classic cut is bigger at the ankle to fit your boots. A medium distressed wash and resin whiskers give this blasted out jean a fresh look. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, classic fit, boot cut&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling, back pocket stitching&lt;/li&gt; &lt;li&gt;Resin whiskers, blasted out details&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=228673927&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/29/e4/29e467dc8d666112d65b007133c7f40b_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/29/e4/29e467dc8d666112d65b007133c7f40b_medium/express-bootcut-jeans-classic-fit-boot-cut-kingston-jeanmed-distressed.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/29/e4/29e467dc8d666112d65b007133c7f40b/express-bootcut-jeans-classic-fit-boot-cut-kingston-jeanmed-distressed.jpg</Url>
+</Image>
+<Color>
+<Name>MEDIUM</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-distressed-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Distressed Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2011-03-15</ExtractDate>
+</Product>
+<Product>
+<Id>169310525</Id>
+<Name>Slim Fit Straight Leg Rocco Jean - Black Resin</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>Black denim is a style essential. These slim-fit Rocco jeans have attitude, swagger and style. Our straight leg cut gives a little room with a little edge. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, slim fit, straight leg&lt;/li&gt; &lt;li&gt;Button front with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=169310525&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/39/8f/398f24fb48ac90bd63a7f035b1ddb56c_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/39/8f/398f24fb48ac90bd63a7f035b1ddb56c_medium/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean-black-resin.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/39/8f/398f24fb48ac90bd63a7f035b1ddb56c/express-low-rise-jeans-slim-fit-straight-leg-rocco-jean-black-resin.jpg</Url>
+</Image>
+<Color>
+<Name>BLACK</Name>
+</Color>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-straight-leg-jeans</Category>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Straight Leg Jeans</CategoryName>
+<SeeMoreLabel>Low Rise Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-low-rise-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-07-19</ExtractDate>
+</Product>
+<Product>
+<Id>169622606</Id>
+<Name>Loose Fit Boot Cut Blake Jean - Light Weathered</Name>
+<Currency>USD</Currency>
+<Price>88.0</Price>
+<PriceLabel>$88.00</PriceLabel>
+<InStock>true</InStock>
+<Retailer>Express</Retailer>
+<RetailerId>309</RetailerId>
+<RetailerUrl>http://www.shopstyle.com/browse/Express-US?pid=uid289-3680017-16</RetailerUrl>
+<Locale>en_US</Locale>
+<Description>There's only one. These looser-fitting jeans have easy casual style. Our most relaxed cut that's just as comfortable as it is cool. &lt;ul&gt; &lt;li&gt;100% Cotton&lt;/li&gt; &lt;li&gt;Low rise, loose fit, boot cut&lt;/li&gt; &lt;li&gt;Button closure with zip fly&lt;/li&gt; &lt;li&gt;5-pocket styling with back pocket stitching&lt;/li&gt; &lt;li&gt;Whisker and thick stitch details&lt;/li&gt; &lt;li&gt;Machine washable&lt;/li&gt; &lt;li&gt;Imported&lt;/li&gt; &lt;/ul&gt;</Description>
+<BrandName>Express</BrandName>
+<BrandId>13342</BrandId>
+<BrandUrl>http://www.shopstyle.com/browse/Express?pid=uid289-3680017-16</BrandUrl>
+<Url>http://api.shopstyle.com/action/apiVisitRetailer?id=169622606&amp;pid=uid289-3680017-16</Url>
+<Image>
+<SizeName>Small</SizeName>
+<Width>32</Width>
+<Height>40</Height>
+<Url>http://resources.shopstyle.com/pim/4c/93/4c935f045feaeeb40857b73fea656fe4_small.jpg</Url>
+</Image>
+<Image>
+<SizeName>Medium</SizeName>
+<Width>112</Width>
+<Height>140</Height>
+<Url>http://resources.shopstyle.com/sim/4c/93/4c935f045feaeeb40857b73fea656fe4_medium/express-bootcut-jeans-loose-fit-boot-cut-blake-jean-light-weathered.jpg</Url>
+</Image>
+<Image>
+<SizeName>Large</SizeName>
+<Width>164</Width>
+<Height>205</Height>
+<Url>http://resources.shopstyle.com/sim/4c/93/4c935f045feaeeb40857b73fea656fe4/express-bootcut-jeans-loose-fit-boot-cut-blake-jean-light-weathered.jpg</Url>
+</Image>
+<Color>
+<Name>LIGHT</Name>
+</Color>
+<Size>
+<Name>W29 L30</Name>
+</Size>
+<Size>
+<Name>W30 L30</Name>
+</Size>
+<Size>
+<Name>W31 L30</Name>
+</Size>
+<Size>
+<Name>W32 L30</Name>
+</Size>
+<Size>
+<Name>W33 L30</Name>
+</Size>
+<Size>
+<Name>W34 L30</Name>
+</Size>
+<Size>
+<Name>W36 L30</Name>
+</Size>
+<Size>
+<Name>W29 L32</Name>
+</Size>
+<Size>
+<Name>W30 L32</Name>
+</Size>
+<Size>
+<Name>W31 L32</Name>
+</Size>
+<Size>
+<Name>W32 L32</Name>
+</Size>
+<Size>
+<Name>W33 L32</Name>
+</Size>
+<Size>
+<Name>W34 L32</Name>
+</Size>
+<Size>
+<Name>W36 L32</Name>
+</Size>
+<Size>
+<Name>W38 L32</Name>
+</Size>
+<Size>
+<Name>W30 L34</Name>
+</Size>
+<Size>
+<Name>W31 L34</Name>
+</Size>
+<Size>
+<Name>W32 L34</Name>
+</Size>
+<Size>
+<Name>W33 L34</Name>
+</Size>
+<Size>
+<Name>W34 L34</Name>
+</Size>
+<Size>
+<Name>W36 L34</Name>
+</Size>
+<Category>mens-bootcut-jeans</Category>
+<Category>mens-loose-jeans</Category>
+<Category>mens-low-rise-jeans</Category>
+<Category>mens-relaxed-jeans</Category>
+<CategoryName>Bootcut Jeans</CategoryName>
+<CategoryName>Loose Jeans</CategoryName>
+<CategoryName>Low Rise Jeans</CategoryName>
+<CategoryName>Relaxed Jeans</CategoryName>
+<SeeMoreLabel>Bootcut Jeans by Express</SeeMoreLabel>
+<SeeMoreUrl>http://www.shopstyle.com/browse/mens-bootcut-jeans/Express?pid=uid289-3680017-16</SeeMoreUrl>
+<ExtractDate>2010-07-20</ExtractDate>
+</Product>
+</SearchResult>
